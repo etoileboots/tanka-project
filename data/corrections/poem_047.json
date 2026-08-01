@@ -1,0 +1,262 @@
+{
+  "poem_number": 47,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {}
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "will be seen": {
+          "status": "removed",
+          "original": {
+            "word": "will be seen",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:56:27.189644+00:00"
+        },
+        "autumn has come": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn has come",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:56:27.736728+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:56:29.136806+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:56:29.519941+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:56:30.373114+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:56:32.938728+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T06:56:47.555165+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:56:48.053920+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:56:48.553478+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:57:09.639440+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:57:10.138438+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:57:11.320616+00:00"
+        }
+      },
+      "devices": {
+        "autumn time": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn time",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:57:14.138419+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:57:18.672963+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T06:57:24.186127+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:57:44.755529+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-27T06:57:52.435856+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:57:54.903610+00:00"
+        }
+      },
+      "devices": {
+        "i fear": {
+          "status": "removed",
+          "original": {
+            "word": "i fear",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:57:56.221526+00:00"
+        },
+        "autumn's here": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn's here",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:57:56.753092+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:58:06.571405+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:58:07.354533+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:58:08.672071+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:58:11.122418+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:58:13.037277+00:00"
+        }
+      },
+      "devices": {
+        "not even man is there": {
+          "status": "removed",
+          "original": {
+            "word": "not even man is there",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:58:14.004478+00:00"
+        },
+        "dreary autumn": {
+          "status": "confirmed",
+          "original": {
+            "word": "dreary autumn",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:58:14.534737+00:00"
+        }
+      }
+    }
+  }
+}

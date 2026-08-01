@@ -1,0 +1,68 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "世",
+      "ku": 4,
+      "reading_primary": "よ",
+      "reading_secondary": "よ",
+      "interaction": "世 (yo) is the classic dual-meaning word for 'the world/society' and 'one's life/lot' — here it operates as the object of 思ふ, meaning both 'the world at large' (as a social/political order) and 'my own life/fate' (as the poet's personal circumstance under which he suffers, especially resonant given Gotoba's own exile). The single word carries both the public and the personal register simultaneously.",
+      "confidence": "medium"
+    }
+  ],
+  "jokotoba": {},
+  "kigo": {
+    "word": "世",
+    "season": "none",
+    "note": "No genuine seasonal word is present in this poem; 世 (the world/one's life) is a philosophical-existential term, not a seasonal image. The poem is entirely in the register of abstract emotional/ethical reflection (人間不信 and grief over worldly affairs) rather than nature imagery, so season is properly 'none'.",
+    "confidence": "high"
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A statement of contradictory feelings toward other people — some are dear/beloved (惜し), others are resented (恨めし) — introduced by the exclamation あぢきなく ('how bitter/futile it all is').",
+    "shimo_theme": "The cause of this emotional turmoil is explained: because the speaker broods anxiously over the state of the world (world-weariness, yo), his very being has become one that is perpetually sunk in troubled thought (もの思ふ身).",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku presents the raw paradoxical emotional symptom (loving and resenting people at once), and the shimo-no-ku supplies its root cause — obsessive brooding over 世 (the world/his own fate) — collapsing outward social feeling into an interior condition of ceaseless melancholy. The ゆゑに ('because of') explicitly marks the logical-causal turn from symptom to cause, making this a reflective causal pivot rather than an image-based one; there is no natural image mediating the two halves, only introspective reasoning, which is itself a distinguishing feature of this famously abstract, philosophical Shin-kokinshū-style poem."
+  },
+  "furigana": [
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "惜",
+      "reading": "を"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "恨",
+      "reading": "うら"
+    },
+    {
+      "kanji": "世",
+      "reading": "よ"
+    },
+    {
+      "kanji": "思",
+      "reading": "おも"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    }
+  ],
+  "poem_number": 99,
+  "poet": "Gotoba no In",
+  "source_jp": "人も惜し\n人も恨めし\nあぢきなく\n世を思ふゆゑに\nもの思ふ身は"
+}

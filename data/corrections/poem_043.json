@@ -1,0 +1,202 @@
+{
+  "poem_number": 43,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T06:40:49.947760+00:00"
+    },
+    "devices": {
+      "逢ひ見て": {
+        "status": "removed",
+        "original": {
+          "word": "逢ひ見て",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T06:40:46.152417+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:40:54.915611+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:40:55.698743+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T06:42:01.964265+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:42:05.277781+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:42:06.227918+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:42:07.595961+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:41:28.181325+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:41:28.577755+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:41:28.912679+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:41:30.329475+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:42:55.459474+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:43:43.011957+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:43:43.426950+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:43:44.110719+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:43:44.712014+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:43:01.144839+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:43:12.894960+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:43:15.445835+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:43:26.779144+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:43:31.047389+00:00"
+        }
+      }
+    }
+  }
+}

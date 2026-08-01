@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker goes out into the spring fields for the sake of her beloved, to pick young greens (wakana) — an act of devotion and seasonal celebration.",
+    "shimo_theme": "Even as she does so, snow continues to fall upon her sleeves — an image of lingering winter cold intruding on the tender spring task.",
+    "relationship_type": "seasonal-pivot",
+    "pivot_note": "The poem pivots from the purposeful, affectionate action of the kami-no-ku (going out to gather wakana for the sake of 'you') to the physical/sensory detail of falling snow in the shimo-no-ku. The snow on the sleeves both undercuts and deepens the devotion: despite the season being nominally spring and the errand one of tender care, winter's snow still falls — suggesting the depth of the speaker's dedication (braving the cold) and the transitional, still-wintry nature of early spring itself. The tsutsu ending leaves the image open and continuous, suspending the poem in the moment of falling snow as an emblem of ongoing effort/devotion."
+  },
+  "kigo": {
+    "word": "若菜つむ",
+    "season": "spring",
+    "note": "Wakana-tsumi (the picking of the first young herbs/greens of the year) is a quintessential early-spring observance, tied to the New Year custom of gathering the seven spring herbs for health and longevity, later offered to loved ones. The poem is deliberately set in the liminal moment of very early spring when snow can still fall (残雪 zansetsu / 春の雪), so the snow does not override the spring designation but rather intensifies it — it is 'spring snow,' a recognized poetic image of the season's threshold. The wakana image is the load-bearing kigo, as it fixes the entire scene as an early-spring ritual act, with the snow serving as an accompanying seasonal marker of that same transitional early-spring cold."
+  },
+  "furigana": [
+    {
+      "kanji": "君",
+      "reading": "きみ"
+    },
+    {
+      "kanji": "為",
+      "reading": "ため"
+    },
+    {
+      "kanji": "春",
+      "reading": "はる"
+    },
+    {
+      "kanji": "野",
+      "reading": "の"
+    },
+    {
+      "kanji": "出",
+      "reading": "いで"
+    },
+    {
+      "kanji": "若菜",
+      "reading": "わかな"
+    },
+    {
+      "kanji": "衣手",
+      "reading": "ころもで"
+    },
+    {
+      "kanji": "雪",
+      "reading": "ゆき"
+    }
+  ],
+  "poem_number": 15,
+  "poet": "Kwoko tenno",
+  "source_jp": "君がため\n春の野に出でて\n若菜つむ\nわが衣手に\n雪はふりつつ"
+}

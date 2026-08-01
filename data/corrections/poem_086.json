@@ -1,0 +1,312 @@
+{
+  "poem_number": 86,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T07:57:03.849714+00:00"
+    },
+    "devices": {
+      "かこちがほなる": {
+        "status": "removed",
+        "original": {
+          "word": "かこちがほなる",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:55:05.678452+00:00"
+      },
+      "月": {
+        "status": "confirmed",
+        "original": {
+          "word": "月",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:55:07.774662+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "do lament": {
+          "status": "removed",
+          "original": {
+            "word": "do lament",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:47.335043+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:55:26.756956+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-07-31T07:55:29.184299+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:44.840531+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:45.299732+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:45.667135+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:46.503052+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:51.982392+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:52.350650+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:52.716639+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:53.283208+00:00"
+        }
+      },
+      "devices": {
+        "moonlight night": {
+          "status": "removed",
+          "original": {
+            "word": "moonlight night",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:55:54.119235+00:00"
+        },
+        "moonlight": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moonlight",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:56:00.318419+00:00"
+        }
+      },
+      "device_links": {
+        "moonlight": {
+          "status": "corrected",
+          "original": {
+            "word": "moonlight"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-07-31T07:56:03.068959+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "obscure my sight": {
+          "status": "removed",
+          "original": {
+            "word": "obscure my sight",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:13.169042+00:00"
+        },
+        "the moon": {
+          "status": "removed",
+          "original": {
+            "word": "the moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:17.151160+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:56:26.016479+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-07-31T07:56:28.149302+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:43.400470+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:43.750063+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:44.149774+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:44.533706+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:45.164706+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "troubled face": {
+          "status": "removed",
+          "original": {
+            "word": "troubled face",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:50.299115+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:56.349269+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:56.968170+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:57.482206+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:57.848781+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:56:59.001030+00:00"
+        }
+      }
+    }
+  }
+}

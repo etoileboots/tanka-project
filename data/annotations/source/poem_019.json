@@ -1,0 +1,57 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The short reed-joints of Naniwa's tidal marsh — an image of extreme physical brevity (the space between nodes on a reed stalk)",
+    "shimo_theme": "The speaker's plea/lament: must she spend her whole life without meeting her beloved, even for so brief a time as that?",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The jokotoba built on 'mijikaki ashi no fushi no ma' (the tiny interval between joints of a short reed) is not merely decorative — it is a measure-image that is then mapped directly onto 'fushi no ma mo awade' (not meeting even for so short a space of time). The physical shortness of the reed-joint interval becomes the unit of time the speaker is being asked to endure without seeing her lover, so the natural image and the human complaint are fused through the pivot word ふし (joint/moment), making kami and shimo two faces of a single image rather than separate causal or contrastive units."
+  },
+  "furigana": [
+    {
+      "kanji": "難波潟",
+      "reading": "なにはがた"
+    },
+    {
+      "kanji": "芦",
+      "reading": "あし"
+    },
+    {
+      "kanji": "世",
+      "reading": "よ"
+    }
+  ],
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "ふし",
+      "ku": 3,
+      "reading_primary": "節",
+      "reading_secondary": "臥し",
+      "interaction": "ふし primarily means the 'joint' or segment-node of the reed stalk (難波潟のみじかき芦のふし), giving a literal image of the tiny gap between two nodes; but ふし also evokes 臥し 'lying down / a night together,' resonating with the poem's underlying complaint about not being able to lie together with the beloved even briefly. The two senses reinforce each other: the physical brevity of a reed-joint interval doubles as the brevity of a shared night/moment of intimacy."
+    },
+    {
+      "word": "よ",
+      "ku": 4,
+      "reading_primary": "世",
+      "reading_secondary": "夜",
+      "interaction": "世 'this world / one's life' is the surface reading in 'この世を過ぐしてよ' (must I pass through this whole life), but よ also carries the echo of 夜 'night,' linking back to the reed-joint/night-together imagery of the kami-no-ku and deepening the sense that even a single night's meeting is being denied, not just lifelong companionship."
+    }
+  ],
+  "kigo": {
+    "word": "難波潟",
+    "ku": 1,
+    "season": "autumn",
+    "note": "難波潟 (the Naniwa tidal flats) and its reeds (芦) are a classic utamakura closely tied to autumn scenery in the Kokinshū tradition — reed beds at Naniwa evoke the withering, rustling reeds of autumn shores, a landscape charged with loneliness and longing, which sets the emotional register for the poem's complaint of enforced separation."
+  },
+  "poem_number": 19,
+  "poet": "Ise",
+  "source_jp": "難波潟\nみじかき芦の\nふしのまも\nあはでこの世を\n過ぐしてよとや"
+}

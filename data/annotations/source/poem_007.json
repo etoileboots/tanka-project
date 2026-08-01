@@ -1,0 +1,57 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker gazes far off across the vast sky (ama no hara), looking up in a distant land",
+    "shimo_theme": "Recognition that this is the same moon that used to rise over Mount Mikasa in Kasuga, home",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku describes the physical act of looking up at the wide sky; the shimo-no-ku reveals what this act discloses — the moon's identity as the very same moon over Mount Mikasa in his native Kasuga. The revelation transforms a simple visual observation into an overwhelming wave of nostalgia and longing for home (the poet, in China, recalls the moon he once viewed from Nara before departing), so the structure is a visual perception (kami) resolving into a remembered/recognized image (shimo) that carries the poem's emotional weight of homesickness."
+  },
+  "kigo": {
+    "word": "月",
+    "season": "autumn",
+    "note": "The moon (tsuki), especially the clear moon gazed at in reflection, is one of the most canonical autumn kigo in classical waka — associated with the clarity of autumn skies and the tradition of moon-viewing (tsukimi). Even without explicit seasonal markers elsewhere in the poem, 月 alone conventionally signals autumn in the classical corpus unless otherwise qualified (e.g., haru no tsuki would specify spring)."
+  },
+  "furigana": [
+    {
+      "kanji": "天",
+      "reading": "あま"
+    },
+    {
+      "kanji": "原",
+      "reading": "はら"
+    },
+    {
+      "kanji": "春日",
+      "reading": "かすが"
+    },
+    {
+      "kanji": "三笠",
+      "reading": "みかさ"
+    },
+    {
+      "kanji": "山",
+      "reading": "やま"
+    },
+    {
+      "kanji": "出",
+      "reading": "い"
+    },
+    {
+      "kanji": "月",
+      "reading": "つき"
+    }
+  ],
+  "poem_number": 7,
+  "poet": "Abe no Nakamaro",
+  "source_jp": "天の原\nふりさけ見れば\n春日なる\n三笠の山に\n出でし月かも"
+}

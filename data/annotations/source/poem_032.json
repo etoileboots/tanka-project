@@ -1,0 +1,69 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "かけたる",
+      "ku": 2,
+      "reading_primary": "かけたる (to construct/build a weir, from 掛く)",
+      "reading_secondary": "かけたる (to hang/cast, as wind hanging leaves)",
+      "interaction": "The wind is described as having 'built/hung' (かけたる) the weir-like barrier of leaves — the verb simultaneously means the physical act of constructing a しがらみ (weir) and the more literal image of wind 'hanging' or 'casting' the leaves across the river, fusing the natural phenomenon (wind scattering leaves) with the artificial image of a man-made weir."
+    }
+  ],
+  "jokotoba": {
+    "text": "山川に風のかけたるしがらみは",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "しがらみ (weir)",
+    "function": "The entire kami-no-ku builds an elaborate conceit describing the wind as having constructed a weir (しがらみ) across the mountain river, which sets up the revelation in the shimo-no-ku that this apparent weir is in fact fallen autumn leaves caught in the current — the jokotoba functions less as a sound-based preface than as an extended metaphorical setup culminating in a visual revelation."
+  },
+  "honkadori": {
+    "source_poem": "Kokinshū autumn poems on scattered leaves and weirs (topos of 紅葉のしがらみ)",
+    "source_poet": "Anonymous / conventional Kokinshū topos",
+    "echoed_phrase": "しがらみ",
+    "function": "Draws on the established Kokinshū-era conceit of fallen leaves forming a 'weir' (しがらみ) in a mountain stream, a favorite autumn image of the era, reworking the topos with Tsuraki's own turn on wind as the builder of the weir."
+  },
+  "kigo": {
+    "word": "紅葉",
+    "season": "autumn",
+    "note": "紅葉 (crimson/autumn leaves) is one of the most iconic autumn kigo in the classical canon, evoking the beauty and transience of the season; here it is the poem's climactic revelation — what seemed an artificial weir turns out to be nothing but drifting autumn leaves caught in the river's flow, the central image of autumnal transience and visual surprise."
+  },
+  "furigana": [
+    {
+      "kanji": "山川",
+      "reading": "やまかわ"
+    },
+    {
+      "kanji": "風",
+      "reading": "かぜ"
+    },
+    {
+      "kanji": "流",
+      "reading": "なが"
+    },
+    {
+      "kanji": "紅葉",
+      "reading": "もみじ"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The wind has built a weir-like barrier (しがらみ) across the mountain river",
+    "shimo_theme": "What cannot flow away and be swept downstream turns out to be autumn leaves",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku presents what appears to be an artificial construction — a weir made by the wind — and the shimo-no-ku delivers the surprising visual truth: it is merely fallen crimson leaves unable to flow past, caught in the current. The poem's entire effect rests on this deferred revelation, a classic technique of describing an appearance before disclosing its true nature (nari-keri ending confirming the discovery)."
+  },
+  "poem_number": 32,
+  "poet": "Harumichi no Tsuraki",
+  "source_jp": "山川に\n風のかけたる\nしがらみは\n流れもあへぬ\n紅葉なりけり"
+}

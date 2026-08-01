@@ -1,0 +1,315 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "seasonal-pivot",
+      "note": "The translation preserves the basic temporal contrast of 'of old' vs 'now' and the movement from Nara to the ninefold palace ('Kokonohe'), but the numerical wordplay linking yae (eight) and kokonoe (nine) is reduced to a transliterated proper noun ('Kokonohe') that an English reader cannot parse as 'nine-layered', so the arithmetic echo central to the pivot is largely lost even though the past/present contrast survives structurally."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "九重",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "Kokonohe",
+        "note": "The translator transliterates 九重 as the proper noun 'Kokonohe' (the palace name), preserving the primary sense of 'imperial palace/capital' but not rendering it in a way that lets an English reader perceive the numerical pun with 'Yahezak'ra' (eightfold blossoms) — the arithmetic wordplay is invisible without knowledge of Japanese, so the secondary layered-number meaning is lost even though the two transliterated terms sit near each other in the text."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "fragrancy",
+      "note": "The cherry blossom (Yahezak'ra) is named directly as a transliterated term rather than translated, and its scent/fragrance imagery ('fragrancy', 'scent') carries the sensory bloom of spring, though the word 'spring' itself never appears; the season is conveyed only through the blossom name and its perfume."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "The four-line English translation roughly compresses the five-ku source into two couplets: lines 1-2 cover kami-ku 1-3 (old Nara capital and its double cherry blossoms), and lines 3-4 cover shimo-ku 4-5 (the blossom's fragrance now spreading to the ninefold palace), collapsing the five-part ku structure into two rhymed pairs.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Introduces the Yahezak'ra (eightfold cherry blossoms) transliterated directly, establishing the 'of old' temporal frame",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Names Nara as the capital of yore, completing the kami-no-ku's nostalgic setting",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            5
+          ],
+          "content_summary": "Reiterates the blossom's fragrance and pivots to 'now' its scent",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The scent has spread over 'our Kokonohe' (the ninefold palace), completing the shimo-no-ku's image of present flourishing",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens opts for a rhymed, archaic-English quatrain that transliterates the two key proper/technical terms (Yahezak'ra, Kokonohe) rather than translating their literal meanings, prioritizing metrical and rhyme fidelity over conveying the numerical wordplay to an English reader.",
+    "overall_fidelity": "medium",
+    "poem_number": 61,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "seasonal-pivot",
+      "note": "The translator maintains the temporal pivot structure: lines 1-2 evoke the ancient Nara capital and its eight-fold cherry blossoms, while lines 3-4 shift to 'today' and the nine-folded palace, mirroring the source's move from past to present and old capital to new."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "九重",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "nine-folded",
+        "note": "Noguchi renders 九重 literally as 'nine-folded palace,' which preserves the numerical echo with 'eight-holded' cherry blossom (a parallel literal rendering of 八重), thus retaining the arithmetic wordplay/progression between the two ku, but the term is treated purely as a descriptive numeral-epithet for the palace rather than exploiting any secondary lexical meaning beyond 'many-layered' — the primary denotative sense (palace) and the numerical paronomasia survive, though the pun is conveyed through parallel coinages ('eight-holded'/'nine-folded') rather than a genuine English double meaning."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "cherry blossom",
+      "note": "The seasonal image of cherry blossoms (yae-zakura) is preserved explicitly by name across lines 1 and 4, though the specific double-flowered variety and its abundant seasonal fragrance are conveyed through 'eight-holded cherry blossom' and 'shed its perfume,' keeping the springtime floral atmosphere intact even if 'yae' becomes an awkward coinage."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The eight-fold cherry blossom (yae-zakura)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Of the Nara capital of the past",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Today in this nine-folded palace",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "It will shed its perfume/bloom fragrantly",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator inverts the order of ku 1-3 within the kami-no-ku, placing the blossom image (ku3) before the temporal/place setting (ku1-2), producing a slight internal reordering, but overall the kami/shimo division and pivot into the shimo-no-ku remain intact and correspond closely line-by-line to the source's ku structure."
+    },
+    "translator_strategy": "Noguchi prioritizes preserving the poem's numerical wordplay and archaic register through coined compound epithets ('eight-holded', 'nine-folded') even at the cost of natural English idiom, favoring literal fidelity to the source's arithmetic pun over smooth fluency.",
+    "overall_fidelity": "high",
+    "poem_number": 61,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "seasonal-pivot",
+      "note": "The translation preserves the basic movement from Nara's past double cherry trees to their present flourishing at the (unnamed) new palace, maintaining the temporal pivot from past to present. However, the numerical wordplay (eightfold/ninefold) that reinforces this pivot in the source is entirely lost, and 'Palace' is generic rather than explicitly the ninefold imperial residence, weakening the structural echo between the two halves."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "九重",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "this Palace",
+        "note": "The translator renders 九重 simply as 'Palace,' preserving the primary meaning (imperial palace/capital) but entirely dropping the numerical echo with 八重 (eightfold) that constitutes the poem's wordplay; no trace of 'nine' or 'ninefold' survives to complete the arithmetic pun."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "double cherry",
+      "note": "The season is conveyed through the image of 'double cherry trees' and their blossoms 'ablaze' and perfuming the air, evoking spring's floral abundance, though the specific term 'yae-zakura' as a canonical seasonal marker is not explicitly flagged as a season word — the reader infers spring from the cherry blossom imagery itself."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Introduces the double cherry trees (八重桜) as subject",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Locates the trees in Nara, the old capital, 'in past days' (いにしへの奈良の都の)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The trees now beautify 'this Palace' — shift to present and new location, corresponding to 今日九重に but with 'Palace' replacing the ninefold imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Blossoms 'all ablaze' — intensifying the blossoming imagery of 匂ひぬる",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Perfume fills 'the royal ways' — completes the sense of 匂ひぬるかな (fragrant blooming) with added courtly imagery",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator restructures the ku order somewhat: line 1 leads with the subject (cherry trees) before locating them in Nara in line 2, inverting the natural JP sequence of place-then-flower; the final shimo ku (5) is expanded into two lines (4-5) with added descriptive flourish ('ablaze,' 'royal ways') not strictly present in the source's single verb 匂ひぬるかな."
+    },
+    "translator_strategy": "Porter prioritizes fluent, rhymed English verse over preserving the poem's specific wordplay, sacrificing the eightfold/ninefold numerical pun and the explicit 'ninefold palace' image in favor of a generic 'Palace' and added decorative phrasing ('ablaze,' 'royal ways') to fill out the rhyme scheme.",
+    "overall_fidelity": "medium",
+    "poem_number": 61,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "seasonal-pivot",
+      "note": "The translator preserves the basic division: kami-no-ku (lines 1-3) evokes Nara's ancient eightfold cherry blossoms, and shimo-no-ku (lines 4-5) shifts to the Nine-fold Palace today where they bloom. The numerical echo (eight-fold/Nine-fold) is explicitly retained via capitalized 'Eight-fold' and 'Nine-fold,' which nicely preserves the arithmetic wordplay linking the two halves, though the temporal pivot (past glory reborn in the present) is rendered more as a continuous narrative ('have bloomed... shed their perfume today') than a sharp then/now contrast, slightly softening the pivot's rhetorical snap."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "九重",
+        "reading_preserved": "both",
+        "method": "literal_primary",
+        "en_equivalent": "Nine-fold Palace",
+        "note": "By translating 九重 as 'Nine-fold Palace,' McCauley captures both the literal designation of the Imperial Palace and, crucially, preserves the numerical echo with 'Eight-fold' in line 1, thus retaining the arithmetic wordplay (8→9) that is central to the pivot, even though this is not a homophonic pun in English but a calqued numerical parallel."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "cherry flowers",
+      "note": "The season is not named as 'spring' outright, but the image of 'Eight-fold cherry flowers' blooming and shedding 'sweet perfume' vividly conveys the spring atmosphere of blossoming and fragrance, preserving the sensory feel of the kigo even without the word 'spring' itself."
+    },
+    "line_mapping": {
+      "confidence": "high",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Eight-fold cherry blossoms (yae-zakura)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "At Nara, the ancient capital/seat of the State",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "have bloomed (completing the yae-zakura clause from L1)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "In Our Nine-fold Palace court today",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Shed their sweet perfume today (fragrance/blooming in the present)",
+          "origin": "source"
+        }
+      ],
+      "structural_note": "The translator splits the yae-zakura clause across lines 1 and 3 (subject then verb 'have bloomed'), inverting the natural JP word order slightly for English syntax; line 4 compresses '今日' (today) awkwardly placed with 'Nine-fold Palace' though 'today' proper appears at the end of line 5, creating a mild displacement of the temporal marker from its ku (4) to the final line."
+    },
+    "translator_strategy": "McCauley prioritizes preserving the numerical wordplay (Eight-fold/Nine-fold) and formal, elevated diction with capitalized honorifics ('Our State,' 'Our Nine-fold Palace') to convey courtly grandeur, favoring literal fidelity to structure and imagery over natural English syntax.",
+    "overall_fidelity": "high",
+    "poem_number": 61,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "poem_number": 36,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T05:58:35.247865+00:00"
+    },
+    "devices": {
+      "夜": {
+        "status": "removed",
+        "original": {
+          "word": "夜",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T05:55:17.654116+00:00"
+      },
+      "夏の夜": {
+        "status": "confirmed",
+        "original": {
+          "word": "夏の夜",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T05:55:21.100993+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:55:40.950223+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:55:41.283548+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:56:26.851906+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:56:27.466949+00:00"
+        }
+      },
+      "devices": {
+        "summer's night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "summer's night",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T05:56:06.015462+00:00"
+        }
+      },
+      "device_links": {
+        "summer's night": {
+          "status": "corrected",
+          "original": {
+            "word": "summer's night"
+          },
+          "corrected": {
+            "source_word": "夏の夜"
+          },
+          "reviewed_at": "2026-08-01T01:26:58.464250+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:55:44.567134+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:55:45.300054+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:55:45.832085+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:55:48.317241+00:00"
+        }
+      },
+      "devices": {
+        "night": {
+          "status": "removed",
+          "original": {
+            "word": "night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:55:50.250327+00:00"
+        },
+        "summer night": {
+          "status": "confirmed",
+          "original": {
+            "word": "summer night",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:55:51.083377+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-27T05:57:34.182462+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-27T05:57:37.931033+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T05:57:56.914849+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T05:57:27.150015+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:58:04.699278+00:00"
+        }
+      },
+      "devices": {
+        "summer night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "summer night",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T05:58:12.766814+00:00"
+        }
+      },
+      "device_links": {
+        "summer night": {
+          "status": "corrected",
+          "original": {
+            "word": "summer night"
+          },
+          "corrected": {
+            "source_word": "夏の夜"
+          },
+          "reviewed_at": "2026-08-01T01:26:55.348925+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "summer night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "summer night",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T05:58:20.566361+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:58:27.699667+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:58:29.149253+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:58:30.082758+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:58:32.149375+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:58:32.698035+00:00"
+        }
+      },
+      "device_links": {
+        "summer night": {
+          "status": "corrected",
+          "original": {
+            "word": "summer night"
+          },
+          "corrected": {
+            "source_word": "夏の夜"
+          },
+          "reviewed_at": "2026-08-01T01:26:52.480738+00:00"
+        }
+      }
+    }
+  }
+}

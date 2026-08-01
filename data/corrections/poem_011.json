@@ -1,0 +1,233 @@
+{
+  "poem_number": 11,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T05:07:00.865018+00:00"
+    },
+    "devices": {
+      "かけて": {
+        "status": "removed",
+        "original": {
+          "word": "かけて",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-08-01T00:36:47.142328+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:07:56.867791+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:07:57.474163+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:08:01.567574+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T05:08:20.676751+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T05:08:24.966414+00:00"
+        },
+        "5": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-26T05:08:34.612281+00:00"
+        }
+      },
+      "devices": {
+        "towards yasoshima i sail": {
+          "status": "removed",
+          "original": {
+            "word": "towards yasoshima i sail",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:10:26.925959+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "3": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T05:10:55.350736+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:10:56.735086+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:10:57.509847+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:10:58.109470+00:00"
+        }
+      },
+      "devices": {
+        "away into the eighty isles": {
+          "status": "removed",
+          "original": {
+            "word": "away into the eighty isles",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:11:13.920604+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:12:45.155598+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:12:45.803080+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:12:46.395839+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:12:47.166801+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:12:50.152464+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "3": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T05:13:40.873593+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:13:49.622927+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:14:21.116554+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:14:21.749576+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:14:22.149346+00:00"
+        }
+      },
+      "devices": {
+        "towards": {
+          "status": "removed",
+          "original": {
+            "word": "towards",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:14:20.184125+00:00"
+        }
+      }
+    }
+  }
+}

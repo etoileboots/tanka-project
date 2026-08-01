@@ -1,0 +1,301 @@
+{
+  "poem_number": 78,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "よ": {
+        "status": "removed",
+        "original": {
+          "word": "よ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:04:38.059120+00:00"
+      },
+      "千鳥": {
+        "status": "confirmed",
+        "original": {
+          "word": "千鳥",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:05:07.004375+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "cry of the plovers": {
+          "status": "confirmed",
+          "original": {
+            "word": "cry of the plovers",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:05:13.766182+00:00"
+        },
+        "how many nights": {
+          "status": "removed",
+          "original": {
+            "word": "how many nights",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:05:17.949634+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:05:19.065883+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:05:19.449819+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:05:19.817256+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:05:20.218058+00:00"
+        }
+      },
+      "device_links": {
+        "cry of the plovers": {
+          "status": "corrected",
+          "original": {
+            "word": "cry of the plovers"
+          },
+          "corrected": {
+            "source_word": "千鳥"
+          },
+          "reviewed_at": "2026-07-31T07:05:23.849731+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "night after night": {
+          "status": "removed",
+          "original": {
+            "word": "night after night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:05:34.168695+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:05:44.900951+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:05:45.449954+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-31T07:06:03.635682+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:06:10.334367+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:06:10.798333+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:06:11.216934+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "birds scream": {
+          "status": "confirmed",
+          "original": {
+            "word": "birds scream",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:07:15.988382+00:00"
+        },
+        "sleepless night": {
+          "status": "removed",
+          "original": {
+            "word": "sleepless night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:07:17.916172+00:00"
+        }
+      },
+      "device_links": {
+        "birds scream": {
+          "status": "corrected",
+          "original": {
+            "word": "birds scream"
+          },
+          "corrected": {
+            "source_word": "千鳥"
+          },
+          "reviewed_at": "2026-07-31T07:07:16.748566+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:07:39.298664+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:07:39.799598+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:07:40.315050+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:07:41.297687+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:07:42.020275+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "how many nights": {
+          "status": "removed",
+          "original": {
+            "word": "how many nights",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:08:07.184295+00:00"
+        },
+        "sanderlings": {
+          "status": "confirmed",
+          "original": {
+            "word": "sanderlings",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:08:14.348425+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:08:10.249673+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:08:10.631855+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:08:11.030411+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:08:11.431383+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:08:12.999971+00:00"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "note": "The translation actually inverts the visual-revelation logic: instead of the abstract vow (kami) being revealed concretely by the sleeve image (shimo), Dickens reads the poem almost backward — he presents the speaker's unworthiness (kami) and then, rather than showing the sleeve spread over the mountain as an image of universal protection, he renders the shimo-ku as the priest's personal wish to 'don' the black robe and dwell humbly on the mountain. The grand gesture of sheltering 'the multitude' is followed by a shrunken, private image of putting on a robe, reversing the rhetorical thrust from outward-shielding to self-effacing withdrawal.",
+      "relationship_type": "self-effacement/private-devotion (displaced from visual-revelation)"
+    },
+    "kakekotoba": [
+      {
+        "original_word": "うき",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "multitude of men",
+        "note": "Dickens abandons 'sorrowful/floating world' entirely, replacing うき世の民 with 'the multitude of men' — no trace of 憂き (sorrow) or 浮き (instability) survives; the phrase is generic rather than an equivalent of either sense."
+      },
+      {
+        "original_word": "たつ",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "dweller on",
+        "note": "The standing/taking-a-place sense (立つ) is weakly gestured at by 'dweller on', but the cloth-cutting associative link (裁つ) linking to sleeve/robe is entirely lost; neither reading is precisely rendered, so this is closer to paraphrase than partial preservation."
+      },
+      {
+        "original_word": "そま",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "Wagatasoma",
+        "note": "Dickens transliterates わがたつそま wholesale as the proper noun 'Wagatasoma', preserving the toponymic/primary sense (Mt. Hiei) as a place-name but losing entirely the secondary metaphorical sense of the speaker-as-woodcutter/laborer in the Buddhist forest."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "black robe",
+      "note": "No seasonal atmosphere is present or implied; 'black robe' signals the monk's vocation/renunciation but carries no seasonal connotation, consistent with the source analysis's finding that 墨染 is not a true kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Speaker's self-deprecating claim of being 'ignorant' and 'unfit', rendering おほけなく",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'the multitude of men' stands in for うき世の民 (the people of the sorrowful world), though the sorrow/instability nuance is dropped",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'In dignity supreme to sit' reframes おほふかな (to cover/shelter) as an image of sitting in a position of dignity, shifting the verb's meaning from protective covering to social/religious rank",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'The simple priest's black robe again' pulls forward the 墨染の袖 (soot-dyed sleeve) image out of its final position in the source, making it the object the speaker will 'don'",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'I would, a humble dweller on' renders わがたつそま (the mountain forest where I take my stand) as a wish to dwell humbly",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Wagatasoma, gladly don' combines the transliterated place-name with the verb 'don' applied to the robe, merging ku4 and ku5 into a single closing image of putting on the priestly robe at Mt. Hiei",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Dickens restructures the poem substantially: he moves the sleeve/robe image (shimo) earlier (L4) and delays the mountain place-name (L5-6), and crucially changes the verb from 'covering/sheltering' (a communal, protective gesture) to 'sitting in dignity' and later 'donning' a robe (a personal, vocational act), collapsing the vow-then-image bipartite structure into a single continuous narrative about personal humility and taking religious vows."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrical English verse (ABABCC-ish) over precise semantic fidelity, freely paraphrasing the vow of universal compassion into a personal narrative of humble priestly vocation while transliterating the untranslatable place-name pun as a proper noun.",
+    "overall_fidelity": "low",
+    "poem_number": 95,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation keeps the abstract vow (L1-2) followed by the concrete image (L3-4), preserving the basic visual-revelation logic, but compresses the shimo-ku's imagery (mountain forest + sleeve spread over it) into a bare juxtaposition — 'at this Wagatatsu Soma, see my black-robed sleeves' loses the sense of the sleeve as a canopy spread over the mountain, weakening the visual-revelation force to a simple naming plus a gesture ('See').",
+      "relationship_type": "visual-revelation"
+    },
+    "kakekotoba": [
+      {
+        "original_word": "うき",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "sad world",
+        "note": "Only the 憂き (sorrowful) sense is rendered as 'sad'; the floating/unstable secondary sense (浮き) is entirely absent."
+      },
+      {
+        "original_word": "たつ",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "Wagatatsu Soma",
+        "note": "The translator collapses わがたつそま into a proper noun 'Wagatatsu Soma' treated as a place name, losing both the 'standing/taking one's stand' sense and the cloth-cutting associative resonance; the phrase becomes an opaque toponym rather than an active verb phrase."
+      },
+      {
+        "original_word": "そま",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "Wagatatsu Soma",
+        "note": "By fusing わがたつそま into a single untranslated proper name, the dual sense of そま as both mountain-forest and laboring monk is lost; it reads merely as an exotic place name."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "black-robed",
+      "note": "墨染 is rendered as 'black-robed sleeves,' which conveys the monk's dark dyed robe visually but carries no seasonal connotation at all (as in the source, this is a religious/clothing image, not a true kigo), so the absence is consistent with the source's own lack of seasonal anchoring."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "the abstract vow to save/cover the sorrowful world",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "the speaker's humble hesitation, おほけなく rendered as 'dare I attempt'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "わがたつそま transliterated as a place name 'Wagatatsu Soma'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "the black-dyed monastic sleeve, presented as a visual object ('See my black-robed sleeves')",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders content: L1 covers the shimo-like abstract action (ku2-3) before L2 supplies the humility clause (ku1), inverting the normal kami sequence; the shimo-no-ku's associative imagery/kakekotoba complex (たつ/そま) is flattened into an untranslated compound proper noun, and 'See' turns the original's quiet self-revelation into a direct imperative address to the reader."
+    },
+    "translator_strategy": "Noguchi opts for compact, almost telegraphic English lines that preserve the emotional gist and honkadori place-name reference (by transliterating わがたつそま wholesale) at the cost of unpacking the poem's internal kakekotoba wordplay and textile imagery network.",
+    "overall_fidelity": "medium",
+    "poem_number": 95,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Porter fundamentally restructures the poem's logic. The original moves from abstract vow (kami: I dare to cover/shelter the suffering people) to concrete image (shimo: black sleeve spread over the mountain). Porter instead opens with a negative self-assessment framed as political unfitness ('Unfit to rule this wicked world / With all its pomp and pride') that corresponds loosely to the kami's おほけなく + うき世 but reverses its meaning — the original speaker vows to COVER/PROTECT the suffering people, while Porter's speaker declines to 'rule' out of unfitness, which is a different rhetorical move (renunciation of worldly rule rather than a vow of compassionate care). The mountain/robe image, which in the source is the shimo's concrete revelation, appears at the end (L3-5) as Porter's own conclusion, so the order is roughly preserved (self-deprecation first, physical/mountain image last) but the semantic content of each half has shifted so much that the visual-revelation logic (abstract vow enacted through the sleeve-over-mountain image) is lost; it becomes a simple statement of personal preference (I would rather retreat to be a mountain priest than rule)."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "うき",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "wicked world",
+        "note": "Porter renders うき世 as 'this wicked world,' capturing a moralized version of 憂き (sorrowful/painful) but losing the 浮き (floating/unstable) secondary sense entirely; 'wicked' also shifts the connotation from suffering to moral corruption, which is not quite the same as 憂き either, so this is closer to paraphrase than precise literal_primary."
+      },
+      {
+        "original_word": "たつ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "mountain side",
+        "note": "Porter's 'Far up the mountain side' conveys only a generic mountain setting; the honkadori-laden 'わがたつそま' (the specific standing/place at Mt. Hiei with its double cloth-cutting resonance) is flattened into scenery with no textual trace of either the standing-one's-ground sense or the cloth-cutting sense."
+      },
+      {
+        "original_word": "そま",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "mountain side",
+        "note": "The specific toponymic/vocational doubling of そま (Mt. Hiei as forest-workplace and the speaker as woodcutter/ascetic laborer) is lost; 'mountain side' is a generic landscape descriptor with no allusive weight, and the honkadori reference to Saichō's founding vow poem disappears completely."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "black robe",
+      "note": "There is no seasonal word in the source (墨染 is a religious/clothing image, not seasonal), and Porter's translation likewise introduces no seasonal imagery; 'plain black robe' correctly conveys the monk's dyed garment but carries no seasonal connotation, consistent with the source's lack of a true kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Unfitness to rule this wicked world (おほけなく + うき世, reframed as political unfitness rather than a vow of compassion)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "With all its pomp and pride — an extrapolated elaboration on 'wicked world' with no direct source equivalent",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "I'd rather in my plain black robe — corresponds to 墨染の袖 (soot-dyed sleeve) but reframed as personal preference",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "A humble priest abide — loosely corresponds to わがたつそま (the speaker's religious stand) but generalized to 'priest' without the specific Mt. Hiei allusion",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Far up the mountain side — corresponds to そま (mountain forest) as generic scenery",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reorders: the original's abstract vow (kami, covering suffering people) is replaced by a renunciation-of-rule statement, and the original's concrete revelatory image (shimo, black sleeve spread over Mt. Hiei) becomes a simple statement of personal retreat; the specific honkadori allusion to Saichō's founding vow and the covering/sheltering verb おほふ are both lost, collapsing the vow-then-image structure into a single continuous personal declaration."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, metrically regular English quatrain-plus-line ballad form over precise semantic and rhetorical fidelity, freely paraphrasing the vow of compassionate universal shelter into a simpler renunciation-of-worldly-rule narrative while dropping the honkadori allusion, the covering/sheltering verb, and both kakekotoba's secondary readings.",
+    "overall_fidelity": "low",
+    "poem_number": 95,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The abstract vow (kami) is retained in lines 1-3, and the concrete image of the sleeve is given in line 4, but the honkadori/place-echo of 'わがたつそま' is flattened into a plain geographic gloss 'I, who live on Mount Hiei,' losing the sense that the sleeve is spread OVER the mountain as a visual manifestation of the vow — the revelation logic is weakened into a simple sequential addition rather than a visual unveiling."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "うき",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "woeful world",
+        "note": "Only the 憂き (sorrowful) sense is rendered as 'woeful'; the secondary 浮き (floating/unstable) connotation is entirely absent, with no hint of drifting or instability in the phrasing."
+      },
+      {
+        "original_word": "たつ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "live on",
+        "note": "The 立つ (standing/dwelling) sense survives as 'live on Mount Hiei,' but the textile pivot to 裁つ (cutting cloth), which would resonate with 'sleeve' and 'dyed,' is lost entirely; no wordplay is attempted."
+      },
+      {
+        "original_word": "そま",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Mount Hiei",
+        "note": "そま is rendered simply as the place name 'Mount Hiei,' preserving the toponymic sense but dropping the secondary self-image of the speaker as a humble woodcutter/laborer in the mountain forest."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "black-dyed",
+      "note": "No seasonal atmosphere is introduced or implied; 'black-dyed (sacred) sleeve' correctly signals the monk's robe but carries no seasonal connotation, consistent with the source analysis noting the poem lacks a true seasonal anchor."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Though I am not fit (おほけなく - unworthy/presumptuous)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "I have dared to shield the folk (おほふかな - covering/sheltering act)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Of this woeful world (うき世の民に - the suffering people of this world)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "With my black-dyed sacred sleeve (墨染の袖 - ink-dyed sleeve)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "I, who live on Mount Hiei (わがたつそまに - the mountain forest where I stand)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders the kami-ku content (lines 2 and 3 swap the order of 'sheltering' and 'the folk of this world' relative to the JP sequence uki-yo-no-tami / oofu, and similarly reverses the shimo-ku order by placing the sleeve image before the Mount Hiei location, inverting 4-5 to 5-4) — a mild syntactic inversion for English readability rather than a structural change to the bipartite logic itself."
+    },
+    "translator_strategy": "McCauley prioritizes clear, literal semantic transmission of the vow-and-image structure over reproducing the poem's wordplay, sacrificing the kakekotoba's double meanings and the honkadori resonance for straightforward prose-like clarity, while preserving the plain religious sense of self-abnegation and sheltering compassion.",
+    "overall_fidelity": "medium",
+    "poem_number": 95,
+    "translator": "McCauley"
+  }
+}

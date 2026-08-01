@@ -1,0 +1,337 @@
+{
+  "poem_number": 33,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "久方の": {
+        "status": "confirmed",
+        "original": {
+          "word": "久方の",
+          "color": "#7EBBEE"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T05:33:16.116802+00:00"
+      },
+      "花のちる": {
+        "status": "confirmed",
+        "original": {
+          "word": "花のちる",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T05:34:11.349096+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "far-away light": {
+          "status": "confirmed",
+          "original": {
+            "word": "far-away light",
+            "color": "#7EBBEE"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:35:00.716589+00:00"
+        },
+        "flowers": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "flowers",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T05:35:11.460635+00:00"
+        },
+        "spring day": {
+          "status": "removed",
+          "original": {
+            "word": "spring day",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:38:59.925758+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:35:25.276986+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:35:25.794109+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:35:26.259785+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:35:27.093441+00:00"
+        }
+      },
+      "device_links": {
+        "flowers": {
+          "status": "corrected",
+          "original": {
+            "word": "flowers"
+          },
+          "corrected": {
+            "source_word": "花のちる"
+          },
+          "reviewed_at": "2026-08-01T01:26:00.964887+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:35:48.528929+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:35:48.926410+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:35:49.560577+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:35:53.560763+00:00"
+        },
+        "5": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T05:36:29.878137+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:36:30.492639+00:00"
+        }
+      },
+      "devices": {
+        "flow'r": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "flow'r",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T05:37:19.309230+00:00"
+        }
+      },
+      "device_links": {
+        "flow'r": {
+          "status": "corrected",
+          "original": {
+            "word": "flow'r"
+          },
+          "corrected": {
+            "source_word": "花のちる"
+          },
+          "reviewed_at": "2026-08-01T01:25:58.699878+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:36:47.162823+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:36:50.976166+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:36:53.780280+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:36:56.194000+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T05:37:53.278004+00:00"
+        }
+      },
+      "devices": {
+        "spring": {
+          "status": "removed",
+          "original": {
+            "word": "spring",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:39:29.073805+00:00"
+        },
+        "blossoms": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "blossoms",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T05:37:11.159508+00:00"
+        }
+      },
+      "device_links": {
+        "blossoms": {
+          "status": "corrected",
+          "original": {
+            "word": "blossoms"
+          },
+          "corrected": {
+            "source_word": "花のちる"
+          },
+          "reviewed_at": "2026-08-01T01:26:24.215421+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:39:10.440158+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:38:49.277124+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:38:50.359865+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:39:11.809264+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T05:39:12.441962+00:00"
+        }
+      },
+      "devices": {
+        "cherry": {
+          "status": "removed",
+          "original": {
+            "word": "cherry",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:26:06.165533+00:00"
+        },
+        "cherry's new-blown bloom": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "cherry's new-blown bloom",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:26:16.968020+00:00"
+        }
+      },
+      "device_links": {
+        "cherry's new-blown bloom": {
+          "status": "corrected",
+          "original": {
+            "word": "cherry's new-blown bloom"
+          },
+          "corrected": {
+            "source_word": "花のちる"
+          },
+          "reviewed_at": "2026-08-01T01:26:19.682124+00:00"
+        }
+      }
+    }
+  }
+}

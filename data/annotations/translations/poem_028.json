@@ -1,0 +1,335 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator preserves the causal-physical logic: lines 1-3 assert the mountain village's loneliness intensifies in winter (kami), and lines 4-6 supply the cause — the rigorous climate has banished both vegetation and human visitors (shimo). The 'for' in line 4 explicitly marks the causal connector, making the relationship even more overt than in the original's more implicit juxtaposition."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かれぬ",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "banished",
+        "note": "The translator collapses the zeugma into a single explicit causal statement using 'banished' to cover both the departure of visitors and the withering of vegetation, but this is done via personification of 'the rigorous clime' as an agent rather than via a pun on one verb governing two subjects; the double meaning of 枯れ/離れ is replaced by a single unified verb with no wordplay, so neither the withering nor the estranging sense is textually distinct — both are merged into one non-punning causal image."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "winter-time",
+      "note": "Winter is named explicitly ('winter-time') and reinforced by 'rig'rous clime' which evokes cold-season harshness; the imagery of banished herb, tree, and human face further reinforces winter desolation atmospherically."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The mountain village nestled among the hills",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Always lonely, in winter especially",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Its solitude fills [my mind] with misery — continuation of the loneliness intensifying claim",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "For now the rigorous climate — causal connector introduced, bridging kami's assertion to shimo's explanation",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Has banished every herb and tree (vegetation withered)",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "And every human face from me (visitors withdrawn)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five ku into six rhymed iambic lines, splitting the kami-no-ku's single assertion (winter intensifies loneliness) across lines 1-4 and stretching the shimo-no-ku's compact zeugma (人めも草もかれぬ) into two separate clauses (lines 5-6) plus an explicit causal link ('for') inserted in line 4 that has no direct verbal equivalent in the source but makes the causal-physical relationship explicit rather than implicit."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrical English verse and explicit causal clarity over preserving the compact zeugma of the original, spelling out in prose-like fashion what the source poem conveys through a single ambiguous pivot verb.",
+    "overall_fidelity": "medium",
+    "poem_number": 28,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "causal-physical",
+      "note": "Kami lines assert winter loneliness as a general truth (lines 1-2), and shimo lines give the causal grounds - human presence and grass dying away (lines 3-4). The causal-physical logic is maintained: the general claim of increased loneliness is explained by the withdrawal of people and withering of grass."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かれぬ",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "die away",
+        "note": "Noguchi collapses both 枯れぬ (wither, of grasses) and 離れぬ (grow distant, of people) into the single English verb phrase 'die away', applied jointly to 'human face and grass' via a shared verb, echoing the zeugma structure of the original. However, 'die away' is more literally suited to grasses withering than to people growing distant/absent, so the pivot is transformed into a macabre unified image (both people and grass 'dying') rather than truly preserving the secondary sense of human withdrawal/estrangement — it reads as if people literally die rather than merely stop visiting."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Winter",
+      "note": "The season is named explicitly in line 1, directly translating 冬. The atmosphere of desolation is reinforced by 'lonelier' and the dying grass/human absence, aligning with the winter kigo's function as the poem's declared seasonal frame."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Mountain village in Winter",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Will be lonelier - the exclamation 'Oh, to think' begins the causal explanation",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Every human face and grass (人め & 草)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Are to die away from me (かれぬ, unifying both withering and estrangement)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "4-line translation compresses the 5-ku original; line 2 bridges the kami's assertion (まさりける) and transitions into the shimo's explanation via 'Oh, to think', slightly blurring the kami/shimo boundary but keeping the causal logic intact."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, emotionally direct rendering that preserves the explicit seasonal frame and causal logic of the original while sacrificing the subtlety of the kakekotoba's double meaning in favor of a single evocative verb phrase ('die away') that unifies human and vegetal imagery.",
+    "overall_fidelity": "medium",
+    "poem_number": 28,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The causal structure is retained—winter loneliness (kami) is explained by the departure of friends and shedding of leaves (shimo)—but the translator adds an interpretive frame ('It seems as if... I dread') that softens the assertive 'まさりける' into a subjective impression, and compresses/expands the shimo content across three lines with added imagery (trees shedding leaves) not explicit in source, weakening the tight zeugmatic causal link."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かれぬ",
+        "reading_preserved": "partial_only",
+        "method": "partial",
+        "en_equivalent": "trees their leaves have shed",
+        "note": "The translator splits the single zeugmatic verb かれぬ into two separate images—'friends are gone' for 人め離れぬ and 'trees their leaves have shed' plus 'plants are dead' for 草枯れぬ—so the punning unity of one verb governing both subjects is lost, though both literal senses (human departure and plant withering) are separately expressed rather than fused."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "winter time",
+      "note": "The season word is named directly ('winter time'), and the imagery of friends departing and leaves shedding reinforces the winter desolation atmosphere, closely following the source's explicit kigo strategy."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The mountain village (topic) and its solitude",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Winter as the season of intensified loneliness, rendered as personal dread rather than assertion",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Friends (visitors) have departed",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Trees shedding leaves — an added concrete image not in the original, standing in for 草かれぬ",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Both people and plants are 'dead' — final restatement of the かれぬ pun's two senses separately",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the tight 5-ku original into 5 lines with added interpretive commentary ('I dread', 'It seems as if') and an invented image of trees shedding leaves, shifting the assertive tone of まさりける into a subjective, almost gothic meditation on death; the final line's 'dead' is a strong but imprecise gloss for かれぬ that captures its ominous connotation without the double-referent wordplay."
+    },
+    "translator_strategy": "Porter opts for a loosely rhymed, paraphrastic quintain that renders the poem's causal logic and winter kigo clearly but sacrifices the zeugmatic precision of the かれぬ pun by expanding it into separate images of shed leaves and death.",
+    "overall_fidelity": "medium",
+    "poem_number": 28,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator preserves the causal-physical logic: lines 1-3 state the general claim that winter loneliness in the mountain hamlet grows deeper, and lines 4-5 supply the concrete cause — guests departed, leaves and grass withered. The 'so runs my thought' closing phrase even echoes the とおもへ of the source, reinforcing the reflective link between the general assertion and its grounding cause."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かれぬ",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "Withered",
+        "note": "McCauley renders かれぬ as 'Withered', which captures only the 枯れぬ (plants wither) sense applied to 'leaves and grass'; the 離れぬ (people grow distant) meaning is handled separately and explicitly via 'Guests are gone', so the zeugmatic unification of the single verb governing both subjects is lost — the two meanings are split into two separate clauses rather than fused in one word."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Winter loneliness",
+      "note": "The season is named outright at the very start of the translation ('Winter loneliness'), matching the source's explicit 冬 as the load-bearing kigo; the withering leaves and grass in the closing lines further reinforce the winter desolation imagery."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces winter loneliness, compressing 山里は and 冬ぞさびしさ into a single opening phrase",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Specifies the setting: mountain hamlet, completing the 山里は clause begun in line 1",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Completes the assertion that loneliness 'grows only deeper' (まさりける), tying back to さびしさ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "States that guests (人め) are gone and introduces leaves and grass (草)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "States that leaves and grass are withered (かれぬ), and closes with a reflective 'so runs my thought' echoing とおもへ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley slightly reorders and interleaves elements of ku 1-3 across lines 1-3, splitting the single clause 山里は冬ぞさびしさまさりける into a three-line English structure that doesn't map one-to-one with ku boundaries, but the overall kami/shimo division at line 3/4 is preserved faithfully."
+    },
+    "translator_strategy": "McCauley prioritizes preserving the poem's logical and syntactic structure (general claim followed by causal explanation) in fluent English verse, favoring clarity of sense over replicating the compact double meaning of the original's central pivot word.",
+    "overall_fidelity": "medium",
+    "poem_number": 28,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translator preserves the basic sequence of a promise/dew-metaphor followed by a lament over autumn, but the elaborate jokotoba structure is compressed into a direct simile ('as the Sasemo from th' dew') rather than an extended metaphor building toward disillusionment; the emotional pivot from trust to lament is present but weakened since 'Alas! I fear me' softens the resigned certainty of 'いぬめり' into an anxious foreboding, changing the emotional register slightly from lament-over-fact to fear-of-outcome.",
+      "relationship_type": "emotional-juxtaposition (weakened)"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "あき",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "autumn's days",
+        "note": "The translation retains only the literal seasonal meaning of 'autumn' as a time period ending; there is no trace of the secondary 飽き (weariness/growing tired) sense — no wordplay on being 'tired of' or 'satiated' appears anywhere in the English text, so the double meaning collapses to the surface reading alone."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "This autumn's",
+      "note": "The season is named directly ('This autumn's days are now but few'), preserving the explicit seasonal marker of the source, though the phrase 'are now but few' shifts the nuance slightly from 'passing/gone' (いぬめり) to 'running out,' emphasizing urgency and impending loss rather than quiet, resigned departure."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The remembered promise/covenant made by the beloved",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The Sasemo grass sustained by dew, introducing the simile",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The speaker's life dependent on the beloved as the grass depends on dew",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Continuation of 'drink in' (life sustained) plus the emotional interjection 'Alas! I fear me' opening the shimo-no-ku's lament",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "This year's autumn passing/nearing its end, expressed as 'days are now but few'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorganizes the syntax into a continuous five-line sentence with enjambment (L3-L4 'Drink in' spanning the ku boundary), which somewhat blurs the kami/shimo division; the jokotoba's function as an extended preparatory metaphor is compressed into a direct simile clause ('And as... So I...') rather than being allowed to unfold as an independent poetic unit before the emotional turn."
+    },
+    "translator_strategy": "Dickens prioritizes producing a fluent, metrically regular English quatrain-plus-line in rhymed iambic verse, sacrificing the wordplay (飽き) and softening the resigned tone of いぬめり into anxious foreboding ('Alas! I fear me') for the sake of poetic naturalness in English verse form.",
+    "overall_fidelity": "medium",
+    "poem_number": 75,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator compresses the elaborate jokotoba metaphor of kami-no-ku (vow=dew sustaining sasame-grass, staked as life) into a single terse line 'The sasaemo's life is a dew,' losing the 'contract/promise' framing and the extended metaphor structure, then adds an interpolated rhetorical question 'Where's thy promise?' that does not exist as a separate ku in the original but compresses ku1-3's emotional content into an exclamation. The shimo-no-ku (autumn passing, disappointment) is rendered fairly literally in lines 3-4. The overall effect collapses the original's slow build-up into a compressed lament-question followed by plain observation, weakening the emotional-juxtaposition logic where the shimo undercuts the kami's hope."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "あき",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Autumn",
+        "note": "The translation renders あき only as 'Autumn' (the season), with no trace of the secondary 飽き (weariness/growing tired) meaning; the reproachful undertone toward the unfaithful patron is lost entirely."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn",
+      "note": "The word 'Autumn' is named outright in line 3, preserving the literal seasonal marker, though the added imagery of dew in line 1 (referring to the jokotoba's dew image rather than a seasonal signal per se) reinforces impermanence but is not itself a seasonal cue."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Compresses the jokotoba's extended metaphor (promise = dew sustaining sasame-grass, staked as life) into a single clipped clause naming 'sasaemo' and 'dew' but dropping 'promise' and 'life' as separate concepts",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "An interpolated rhetorical question 'Where's thy promise?' that dramatizes the broken vow implied in ku1-3, though phrased as direct address absent from the original's third-person lament structure",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Literal naming of the season, 'Autumn of this year'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The autumn 'is passing away', rendering いぬめり",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The four-line translation compresses three ku (kami-no-ku) into essentially one line plus an added exclamatory question, then renders the two shimo ku fairly literally across two lines; this creates an asymmetric compression that shifts weight toward the shimo section and turns the kami's elaborate metaphor into a terse fragment."
+    },
+    "translator_strategy": "Noguchi strips the poem down to its barest imagistic and emotional gestures, sacrificing the jokotoba's extended metaphor and the あき kakekotoba's double meaning in favor of a compact, almost telegraphic four-line lament that keeps only the literal skeleton of promise-dew-autumn-passing.",
+    "overall_fidelity": "low",
+    "poem_number": 75,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        5
+      ],
+      "note": "Porter restructures the poem into a continuous rhetorical complaint rather than preserving the two-part kami/shimo juxtaposition. The 'promise unfulfilled' (shimo's disappointment) is placed at the very start (L1), before the dew/mugwort metaphor (kami content, L3-4) is introduced, and the poem closes with a direct address 'I rely on you' that fuses both the jokotoba metaphor and the emotional lament into a single continuous statement. The autumn-ending image that anchors the shimo-no-ku's temporal/emotional pivot is entirely dropped, so the original back-and-forth between elaborate trust-metaphor and disillusioned realization becomes a straightforward direct plea, collapsing the bipartite architecture into one flowing rhetorical move."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "あき",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "unfulfilled",
+        "note": "Porter drops the autumn/aki image entirely along with its weariness (飽き) undertone; 'unfulfilled' expresses the emotional content of disappointment but carries no trace of the seasonal word or its pivot to 'growing weary', so both readings of the kakekotoba are lost."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "unfulfilled",
+      "note": "The autumn season word and its associated imagery of the year's end are entirely absent from this translation; the poem is reduced to an atemporal complaint about a broken promise with no seasonal marker or atmosphere of fading/lateness surviving."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "States the promise has gone unfulfilled — this is the emotional conclusion of the shimo-no-ku, moved to the opening line",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Speaker's plea/supplication, loosely rendering the sense of having trusted/staked hope on the promise (契りをきし...命にて)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "The mugwort/sasame plant image from the jokotoba metaphor",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "The plant's reliance on dew — completing the jokotoba metaphor",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Direct address 'I rely on you' — collapses the shimo-no-ku's lament about the broken promise into a personal plea, without any reference to autumn's passing",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter reorders the poem: he front-loads the emotional conclusion ('promise unfulfilled') that in the original arrives only in the shimo-no-ku, then works through the dew/mugwort metaphor, and ends with a personal direct address that substitutes for the original's autumnal lament. This inversion plus omission of the autumn image significantly restructures the bipartite logic into a compact five-line English lyric."
+    },
+    "translator_strategy": "Porter prioritizes producing a compact, singable English quatrain-plus-couplet with a personal, direct emotional appeal, sacrificing the autumn kigo, the kakekotoba pun, and the original's two-part temporal structure in favor of a simple plant/dew-versus-lover analogy addressed directly to 'you'.",
+    "overall_fidelity": "low",
+    "poem_number": 75,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translator maintains the two-part structure — a remembered promise likened to dew (L1-3) followed by the lament that autumn/the year has passed without fulfillment (L4-5) — but the connective logic is compressed into a simple 'yet, alas' contrast rather than the fuller emotional collapse implied by the honkadori allusion; the metaphor's weight (staking one's life on the promise as dew sustains grass) is present but the disillusionment pivot is thinner than in the original.",
+      "relationship_type": "emotional-juxtaposition"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "あき",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "autumn time",
+        "note": "McCauley renders あき only as the literal season ('autumn time'), giving no hint of the secondary 飽き (weariness/growing tired) meaning — the reproachful undertone of the beloved's indifference is lost entirely."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn time",
+      "note": "The season is named outright as 'autumn time,' explicitly preserving the kigo, though the deeper resonance of autumn as symbolic of fading hope and a broken promise's deadline is only partially conveyed through the surrounding 'alas' and 'passed' language."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the remembered promise ('契りをきし')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The dew-on-moxa-plant image (させもが露) rendered as a quoted simile",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The promise was, to the speaker, as vital as life itself (命にて)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Lament: alas, the year has passed (あはれことしの)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "...even into autumn time (秋もいぬめり) — the departure is rendered as arrival into autumn rather than autumn's own passing",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator splits ku4-5 differently than the source's sense: rather than 'this year's autumn too is passing' (a single continuous image of autumn ending), McCauley reads it as 'the year has passed [into/even into] autumn time,' which subtly shifts the temporal logic — autumn becomes a terminus reached rather than a season itself departing. This is a notable structural deviation from the source's plain meaning (秋もいぬめり = autumn too is departing) toward 'the year progressed into autumn.'"
+    },
+    "translator_strategy": "McCauley prioritizes a compact, literal quatrain-like rendering that keeps the promise-and-dew metaphor intact as a quoted simile while sacrificing the kakekotoba's double meaning and the honkadori's full allusive depth for concision and clarity.",
+    "overall_fidelity": "medium",
+    "poem_number": 75,
+    "translator": "McCauley"
+  }
+}

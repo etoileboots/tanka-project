@@ -1,0 +1,340 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4
+      ],
+      "note": "The translation retains the basic paradox shape - fleeing the world's evil into the hills only to still hear the deer's mournful cry - but compresses the kami-no-ku's lament about there being 'no road' of escape into a simpler statement about the world's evil holding sway, losing the explicit 'no path exists' declaration that sets up the paradox structurally. The shimo's 'too' ('too, thrills') does gesture at the paradoxical continuation of grief into the mountain retreat, so the logical bipartite relationship survives in weakened form."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "th' world",
+        "note": "The translator renders 世 straightforwardly as 'the world', capturing the primary sense of society/life, but no attempt is made at the latent 夜 (night) undertone, which is unsurprising given the source analysis itself rates this pivot as low-confidence."
+      },
+      {
+        "original_word": "入る",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "fled away",
+        "note": "The physical sense of entering/going deep into the mountains survives as 'fled away / Amis the hills', but the figurative sense of 思ひ入る as deep religious resolve or spiritual absorption is not rendered; there is no equivalent phrase conveying the deliberate, contemplative resolve of renunciation, only the physical flight."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "deer's sad cry",
+      "note": "The word 'autumn' is never named, but the deer's mournful cry is preserved directly, which is the conventional autumn image in waka; an English reader familiar with the convention would recognize the loneliness/longing atmosphere even without the season being explicitly stated."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Declares that evil holds sway over the world, replacing the source's 'there is no road (of escape)' with a moral judgment about the world's nature",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "The speaker's realization/judgment ('I deemed') and the act of fleeing far away, compressing the lament and the resolve-to-enter movement of ku 3",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Specifies flight into 'the hills', corresponding to entering deep into the mountains",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The deer's cry is heard even there, delivering the paradoxical punchline",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four short rhyming lines, substituting the kami-no-ku's abstract 'no road exists' lament with a more concrete moral claim ('evil doth hold sway'), and merges the resolve/entering imagery of ku3 with the mountain depth of ku4 into a single terse phrase 'Amis the hills'."
+    },
+    "translator_strategy": "Dickens prioritizes compact rhymed quatrain form and archaic diction over precise semantic fidelity, freely paraphrasing the kami-no-ku's philosophical lament into a moralizing statement while preserving the shimo-no-ku's core image of the deer's cry as proof of inescapable sorrow.",
+    "overall_fidelity": "medium",
+    "poem_number": 83,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The paradox structure is present but compressed: L1-L2 state the world offers no escape route, and L3-L4 show the deer's cry heard even deep in the hills, confirming the paradox. However, the middle ku (思ひ入る, the resolve to enter religious seclusion) is dropped entirely, so the irony that this is a deliberate spiritual retreat—not just a physical hill—is weakened, making the paradox feel more like simple continuity than a pointed reversal of expectation."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "the world",
+        "note": "The primary sense of 世 as 'this world/life' is rendered directly as 'the world,' but the latent night (夜) resonance, already noted as low-confidence in the source, is not engaged at all — no attempt at a bilingual pun or secondary echo."
+      },
+      {
+        "original_word": "入る",
+        "reading_preserved": "primary_only",
+        "method": "omitted",
+        "en_equivalent": "deep of a hill",
+        "note": "The compound 思ひ入る's dual sense of physically entering the mountains AND being spiritually resolved/absorbed in religious withdrawal is collapsed into a purely spatial image ('deep of a hill'); the entire 思ひ ('deeply resolved,' the religious-renunciation nuance) is dropped, leaving only the literal entering-a-place sense, and even that is diminished to a generic depth-image rather than an active verb of entry."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "deer's cry",
+      "note": "The word 'deer' surfaces directly from 鹿 but 'autumn' itself is never named; the cry of the deer nonetheless carries the conventional connotation of mournful longing for a competent reader of the tradition, so the season survives only implicitly through this single image rather than being made explicit."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Exclamation on 'the world' (世の中よ), rendered as a direct address/lament",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "There is no path/way (道こそなけれ) to escape",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Compresses 思ひ入る (resolve to withdraw) and 山のおく (deep in the mountains) into a single spatial image, dropping the resolve/entering nuance",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The deer's cry is heard (鹿ぞ鳴くなる)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four lines by merging ku 3 and 4 into a single line, sacrificing the kakekotoba nuance of 思ひ入る in the process; overall order and logical flow of kami-to-shimo movement is preserved without inversion."
+    },
+    "translator_strategy": "Noguchi prioritizes concise, plain-spoken emotional directness over preserving the poem's wordplay, sacrificing the double meaning of 思ひ入る and the latent 世/夜 pivot in favor of a compact four-line lament that still lands the core paradox of inescapable grief.",
+    "overall_fidelity": "medium",
+    "poem_number": 83,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation preserves the basic paradox structure (no escape from sorrow / even in mountain retreat the deer cries), but weakens it by casting the mountain retreat as a hypothetical future action ('should I retreat... should I hear') rather than the source's assertion of a resolve already enacted (思ひ入る), softening the paradoxical force of the deer's cry as proof of inescapability."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "pain and sorrow",
+        "note": "The translator renders 世の中 as generalized suffering ('pain and sorrow all around') rather than preserving any wordplay; the latent yo/yo(night) pivot is not engaged at all, only the 'this world/life' sense survives in diffuse paraphrase."
+      },
+      {
+        "original_word": "入る",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "retreat",
+        "note": "The double sense of 思ひ入る (physical entry into the mountains + deep spiritual resolve) is reduced to a simple conditional 'should I retreat', capturing only the literal movement into the mountains and losing the resolve/absorption nuance entirely."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "hunted deer",
+      "note": "The deer's cry survives as the closing image, carrying the poem's autumn mournfulness even though 'autumn' is never named; however 'hunted deer' introduces a violent connotation (being pursued/killed) not present in the source, which shifts the emotional register from lonely mating-call longing toward pathos of persecution."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "General statement of pain and sorrow (世の中よ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "No escape/road exists (道こそなけれ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Hypothetical retreat to mountain wilds (思ひ入る山のおく)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Continuation: even there I would hear",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The cry of the deer (鹿ぞ鳴くなる)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five ku into five lines with a conditional/future-tense framing ('should I retreat... should I hear') that turns the source's declarative resolve into a hypothetical scenario, compressing kami-no-ku into two lines and shimo-no-ku into three, with some blending of ku 3 and 4 in line 3."
+    },
+    "translator_strategy": "Porter prioritizes fluent, rhymed English verse with a clear narrative logic, smoothing the source's compressed pivots and paradox into an explicit conditional statement even at the cost of the kakekotoba's double meanings and the assertive tone of the original's spiritual resolve.",
+    "overall_fidelity": "medium",
+    "poem_number": 83,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation maintains the paradox structure: kami-no-ku laments no escape road from the world, and even the deepest mountain retreat (entered in hope of escape) still resounds with the stag's cry, proving grief inescapable — the 'Yet e'en there' explicitly signals the paradoxical turn."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "within the world",
+        "note": "Only the 'this world/life' sense is rendered; no night-reading or double meaning is attempted, consistent with the low-confidence nature of this pivot in the source analysis."
+      },
+      {
+        "original_word": "入る",
+        "reading_preserved": "both",
+        "method": "partial",
+        "en_equivalent": "thought to hide",
+        "note": "McCauley's phrase 'I had thought to hide / In the mountains' farthest depths' combines the literal sense of entering the mountains with the figurative sense of resolving/intending to withdraw, capturing both the physical and mental dimensions of 思ひ入る, though 'hide' shifts nuance slightly from 'resolve' toward concealment."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "stag's cry",
+      "note": "The autumn kigo is conveyed through the image of the stag's cry in the mountain depths, which carries the conventional autumn association of loneliness and longing even though the word 'autumn' itself is never stated."
+    },
+    "translator_strategy": "McCauley favors a literal, line-by-line rendering that preserves the poem's logical and emotional sequence, using archaic diction ('e'en', 'Ah!') to maintain the elevated tone of the original while keeping the paradox structure intact.",
+    "overall_fidelity": "high",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Exclamation on the world (世の中よ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "No path/way of escape exists (道こそなけれ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The speaker's resolve/thought to withdraw (思ひ入る)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Physical entry into the mountains' depths (山のおくにも), continuing the resolve of line 3",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Yet even there the stag's cry is heard (鹿ぞ鳴くなる)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation closely mirrors the five-ku structure with minimal compression; line 3 and 4 together render the compound verb 思ひ入る and its object 山のおくにも, splitting the kakekotoba's two senses across two lines rather than collapsing them into one."
+    },
+    "poem_number": 83,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "note": "Dickens invents a wholly different scenario: instead of the speaker lamenting the absence of anyone who would ever pity her, he depicts a specific cruel beloved who passes by scornfully and mocks the speaker's burning passion. The causal-physical logic (no witness of compassion → therefore I will die in vain) is replaced by a narrative of scornful rejection leading to an exclamation of woe and failing powers; the relationship type shifts from 'no one exists who would pity me, therefore I perish' to 'you scorned me, therefore I suffer unbearable woe' — a displaced relationship type (scorn-causing-suffering rather than absence-causing-death).",
+      "relationship_type": "displaced (scorn-causes-suffering rather than absence-of-compassion-causes-death)"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "身のいたづらに",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "failing pow're",
+        "note": "The idiomatic double meaning of 'my body coming to nothing/dying in vain' is replaced by a vague image of the speaker's 'failing powers' being surpassed by woe; neither the literal 'futility' sense nor the specific 'death' sense is rendered — it becomes a generic expression of emotional overwhelm rather than a statement of impending death or existential futility."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Alas! alas!",
+      "note": "There is no seasonal marker in the source poem itself (kigo is 'none'), and the translation likewise contains no seasonal imagery; the exclamatory 'Alas! alas!' functions purely as an emotional outcry, consistent with the source's lack of seasonal content, so there is nothing to preserve or omit in terms of season — the absence is faithful to the original's lack of a kigo, though the translation's overall content diverges so far from the source that this alignment is largely coincidental."
+    },
+    "line_mapping": {
+      "confidence": "low",
+      "structural_note": "The translation abandons the original's syntactic structure almost entirely, inventing a scene of a cruel beloved passing by with scorn (not present in the source, which is an interior lament about the absence of any sympathetic witness) and compressing the poem's causal logic into a generalized cry of unbearable woe; only the emotional register (grief, lack of sympathy, suffering) survives, not the specific propositional content of the waka.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Invents a 'cruel one' who passes by, loosely standing in for the source's 'no one who would say aware' (absence of a compassionate witness), reimagined as active cruelty from a specific person.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "No glance of pity — echoes the core idea of lack of compassion/pity (aware) but reframed as directed disdain rather than general absence of any pitying person.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [],
+          "content_summary": "A careless scorn in the eye — entirely invented imagery of facial expression not present in source.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [],
+          "content_summary": "Mocking the burning passion — invented imagery of mockery and passionate burning, not in source.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Alas! alas! — exclamatory equivalent standing loosely for the despairing tone of 身のいたづらになりぬべきかな.",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Such woes my failing powers surpass — loosely renders the idea of being overwhelmed/undone, replacing the specific 'body coming to nothing/dying' idiom with a vaguer notion of powers being surpassed by woe.",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens freely dramatizes the poem into a Western-style lyric of scorned love, sacrificing the original's precise causal logic and idiomatic death-imagery for a vivid narrative scene and emotive exclamation aimed at English poetic convention.",
+    "overall_fidelity": "low",
+    "poem_number": 45,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator replaces the source's causal chain (no compassion → death in vain) with an emotional narrative: absence of sympathy (L1-2) followed by an invented reference to a 'lost lover' (L3) and a general exclamation of misery (L4). The specific idiom 'dying in vain' (身のいたづらに なりぬべきかな) is replaced with a vague cry of misery, and a new element—loss of a lover—is introduced that has no equivalent in the source, so the causal-physical logic linking isolation to death is lost; instead the relationship becomes exclamatory-parallel rather than causal."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "身のいたづらに",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "misery of my life",
+        "note": "The idiomatic double sense of 'dying in vain / becoming pointless' is replaced by a generic exclamation of misery; neither the surface sense (futility) nor the idiomatic sense (death) is conveyed — 'misery' is an emotional gloss rather than a rendering of the dying-in-vain idiom."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "misery",
+      "note": "There is no seasonal word or image in the source (a pure love/lament poem), and none is introduced in the translation either; 'misery' and 'lover lost' are purely emotional, non-seasonal expressions, consistent with the source's lack of kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "No one exists to say (even a word)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "a word of pity on me — completing the 'aware to iu beki hito' thought and touching on 思ほえで (cannot even imagine)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [],
+          "content_summary": "Oh my lover lost! — an invented apostrophe to a lost lover, with no direct equivalent in the source ku",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "What a misery of my life! — a loose, generalized rendering of 身のいたづらに なりぬべきかな (my body/existence coming to a futile end)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the three kami ku into two lines and then expands/embellishes the shimo content by inserting a wholly new apostrophic exclamation ('Oh my lover lost!') not present in the source, before loosely paraphrasing the final idiom as a general cry of misery; this creates an expansion via invention rather than a faithful compression of the original five ku."
+    },
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and lyrical exclamation over literal fidelity, compressing the kami-ku's logical statement and replacing the shimo-ku's idiomatic 'dying in vain' with an invented apostrophe to a lost lover and a generalized cry of misery.",
+    "overall_fidelity": "low",
+    "poem_number": 45,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "Porter compresses the kami-no-ku (no one to say 'aware') into lines 1-3, condensing the idea of no witness/sympathizer into 'She knows no Pity.' The causal link to the shimo-no-ku's despair-driven death wish survives loosely: 'my life I care not to retain' follows from lack of pity, preserving the causal logic but softening the idiomatic 'die in vain' into a willful resignation ('I care not to retain'), and adding an extrapolated final line about prayers being vain that has no direct source equivalent, diluting the tight causal chain of the original into a more discursive lament."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "身のいたづらに",
+        "reading_preserved": "secondary_only",
+        "method": "paraphrase",
+        "en_equivalent": "care not to retain",
+        "note": "The idiomatic sense of 'dying in vain/pointlessly' is loosely rendered as willful indifference to living ('I care not to retain' my life), capturing the death-implication (secondary reading) but losing the 'futility/vanity' surface sense (いたづら) entirely; no wordplay or double meaning is attempted, and the phrasing is closer to a free paraphrase than a precise equivalent of either reading."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As in the source, there is no seasonal marker; Porter's translation stays purely within the register of romantic lament and prayer, with no imagery (natural or otherwise) that could imply a season, consistent with the source analysis that this is a non-seasonal love poem."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Speaker doubts anyone (his lady-love) will show favor/sympathy toward him",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Continuation: no smile/favor forthcoming, echoing 'no one to say aware'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "'She knows no Pity' directly renders the kami-no-ku's absence of compassion; 'and my life' begins the shift toward shimo-no-ku consequence",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Resignation toward death/loss of life, corresponding to 身のいたづらになりぬべき",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [],
+          "content_summary": "Added conclusion about prayers being in vain — an extrapolated flourish not present in the source poem",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five-ku poem into five lines but reassigns emphasis: he personifies the addressee as 'my lady-love' who 'knows no Pity,' converting the impersonal absence of any sympathetic soul into a specific romantic rejection, and appends an extra line (prayers being vain) that has no direct correspondent in the Japanese, softening the sharp causal jump from isolation to death into a more conventional courtly-love lament."
+    },
+    "translator_strategy": "Porter prioritizes rendering the poem into a smooth, rhymed English courtly-love lyric, personalizing the addressee as 'my lady-love' and softening the idiomatic death-wish into resigned romantic despair, even at the cost of adding content (the closing line on vain prayers) not present in the source.",
+    "overall_fidelity": "medium",
+    "poem_number": 45,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator keeps the causal logic — the absence of a sympathetic person (L1-2) leads to the speaker's death (L3-5) — but the connective is weakened: 'I shall pass away' reads almost as a resigned declaration rather than a directly derived consequence, and the added interpretive gloss 'My own folly's (fitting end)' introduces a moralizing tone not present in the causal chain of the original, shifting emphasis slightly from pure lament to self-blame."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "身のいたづらに",
+        "reading_preserved": "transformed",
+        "method": "paraphrase",
+        "en_equivalent": "own folly's",
+        "note": "McCauley renders 'いたづらに' not as 'in vain/futile' (the primary sense) nor purely as 'die' (the idiomatic secondary sense) but reinterprets it as 'folly', shifting the meaning toward self-blame/foolishness rather than futility or death-as-waste; this is a transformation that loses both the literal 'futile' and secondary 'perish' senses in favor of a moral judgment, though the surrounding lines ('I shall pass away', 'my death') do supply the death sense elsewhere, making the overall handling split across two lines rather than unified in one phrase."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal word or imagery of any kind is present; consistent with the source poem which is a pure love/lament (koi) poem lacking any seasonal marker, so omission here is faithful to the original's non-seasonal character.",
+      "en_equivalent": "pass away"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Sure that there is none who will speak a pitying word — compresses kami-no-ku (ku1-3) into two lines",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Continuation: 'who will speak a pitying word' completing the kami-no-ku thought",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'I shall pass away' renders the core shimo-no-ku idea of dying/coming to nothing",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Ah! my death shall only be' — exclamatory intensifier and continuation into judgment of the death",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'My own folly's (fitting end)' — interpretive gloss on みのいたづらに as personal foolishness leading to a fitting demise, an expansion/interpretation beyond literal source wording",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the 3-line kami-no-ku into 2 English lines and expands/interprets the 2-line shimo-no-ku into 3 English lines, adding an explanatory moral gloss ('folly's fitting end') not literally present in the source, which shifts the poem's tone from pure existential lament toward self-reproach."
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, moralizing English narrative over strict lexical fidelity, interpreting the idiomatic 'body becoming futile' as personal 'folly' and thereby recasting the poem's causal lament into a tale of self-blame.",
+    "overall_fidelity": "medium",
+    "poem_number": 45,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "Comparing present feelings after having met and consummated the relationship with the beloved, using the standard 'kurabureba' comparison structure to measure emotional states across time",
+    "shimo_theme": "Realization that former longing before the meeting was, by comparison, not real suffering at all — the present post-union yearning is far more intense",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku sets up an act of comparison (くらぶれば, 'when I compare') between the emotional state now, after having met/been intimate, against the past. The pivot at くらぶれば turns the poem: rather than resolving into contentment after union, the shimo-no-ku delivers the paradoxical realization that the anguish of longing has only deepened after the meeting — the past unfulfilled longing (which felt like suffering at the time) now seems by contrast to have been no suffering ('物を思はざりけり') at all. This is the classic paradox of post-union love poetry: consummation intensifies rather than resolves desire."
+  },
+  "kigo": {
+    "word": "逢ひ見て",
+    "season": "none",
+    "note": "This poem is a love poem (koi-uta) without any seasonal image; 逢ひ見て refers to a romantic meeting/consummation and carries no seasonal connotation. No flowers, birds, moon, dew, frost, or other conventional seasonal markers appear anywhere in the text — the poem belongs to the koi (love) category of the anthology rather than a seasonal category."
+  },
+  "furigana": [
+    {
+      "kanji": "逢",
+      "reading": "あ"
+    },
+    {
+      "kanji": "見",
+      "reading": "み"
+    },
+    {
+      "kanji": "後",
+      "reading": "のち"
+    },
+    {
+      "kanji": "心",
+      "reading": "こころ"
+    },
+    {
+      "kanji": "昔",
+      "reading": "むかし"
+    },
+    {
+      "kanji": "物",
+      "reading": "もの"
+    },
+    {
+      "kanji": "思",
+      "reading": "おも"
+    }
+  ],
+  "poem_number": 43,
+  "poet": "Gonchunagon Atsutada",
+  "source_jp": "逢ひ見ての\n後の心に\nくらぶれば\nむかしは物を\n思はざりけり"
+}

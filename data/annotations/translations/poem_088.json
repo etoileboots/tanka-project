@@ -1,0 +1,337 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [],
+      "shimo_lines": [],
+      "note": "The translator did not attempt any actual translation of the poem's content; instead he provided a note declaring the poem untranslatable due to its wordplay, deferring explanation to an appendix. No bipartite structure of kami/shimo is rendered at all, so the relationship is effectively collapsed into non-existence in the translation proper."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かりね",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "untranslateable",
+        "note": "No English rendering of the reed-cutting/temporary-sleeping pun is given; the translator explicitly states the poem's wordplay defeats translation."
+      },
+      {
+        "original_word": "一夜",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "untranslateable",
+        "note": "The one-night/reed-joint pun is entirely absent from the translation text, which contains no rendering of the poem at all."
+      },
+      {
+        "original_word": "身をつくして",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "untranslateable",
+        "note": "The exhausting-oneself/channel-marker pun is likewise not rendered; the translator only remarks on the poem's untranslatability."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "untranslateable",
+      "note": "No seasonal imagery of reeds or autumn marshland appears anywhere in the translation text, which consists solely of a meta-commentary about the poem's puns being impossible to render."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [],
+          "content_summary": "A translator's note explaining that the poem's puns (plays upon words) make it untranslatable with the force of the original, and referring the reader to an appendix for explanation.",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "There is no actual translation of any ku; the single 'line' is entirely a meta-textual disclaimer rather than a rendering of source content, so no kami/shimo mapping is possible."
+    },
+    "makurakotoba_handling": [],
+    "translator_strategy": "Rather than attempting a translation, Dickens opts to flag the poem's untranslatable wordplay directly to the reader and relegate any interpretive content to a separate appendix, prioritizing honesty about linguistic limits over producing an English poem.",
+    "overall_fidelity": "low",
+    "poem_number": 88,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4
+      ],
+      "relationship_type": "simile-implicit (weakened)",
+      "note": "The translator retains the simile structure explicitly with 'Like a joint of the shore reed' but compresses the shimo-ku into a single short question line, losing the sustained homophonic bridge (身をつくし/澪標) that ties Naniwa setting to the emotional register; the simile is stated overtly rather than implied through the pivot word, so the rhetorical mechanism is replaced by an explicit comparison."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かりね",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "short one night love",
+        "note": "The translator collapses the reed-cutting image and the brief-sleep image into a generic phrase 'short one night love' without conveying either the physical cut-reed-stubble image or the temporary-sleep nuance distinctly; the pivot's double meaning is dissolved into paraphrase."
+      },
+      {
+        "original_word": "一夜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "one night",
+        "note": "The 'one night' reading survives as the literal number of nights, but the secondary reading as a reed-joint/segment is instead relocated into a separate explicit simile ('Like a joint of the shore reed'), so the pivot's fusion is split apart rather than held together in one word."
+      },
+      {
+        "original_word": "身をつくして",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "exhausting me",
+        "note": "Only the 'exhausting/wearing out one's body' meaning survives; the channel-marker stake (澪標) image and its link back to the Naniwa bay setting is entirely lost, so the associative link connecting shimo back to kami is severed."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "shore reed",
+      "note": "The word 'reed' survives as a bare noun and evokes waterside vegetation, but without the cutting/withering action (かりね) rendered concretely, the autumnal desolation and transience specifically associated with cut reed-stubble is diminished to a generic simile object rather than a seasonal marker."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "States the brevity of the one-night love directly, moving the 一夜 concept to the opening line",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Locates the scene at Naniwa shore, echoing kami-ku's setting",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Explicit simile comparing the night's brevity to a reed joint, fusing the かりね image and the 一夜/節 pivot into one stated comparison",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Compresses the shimo-ku's rhetorical question about exhausting longing into a short direct question",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator front-loads the 'one night' concept (normally ku3) into line 1, then returns to the setting (ku1) in line 2, and states the かりね/一夜 pivot as an explicit simile in line 3 — an inversion of ku order for rhetorical clarity — before compressing all of shimo-ku (ku4+ku5) into a single terse final line."
+    },
+    "translator_strategy": "Noguchi prioritizes clarity and brevity over preserving the pivot-word mechanics, converting the kakekotoba's implicit double meanings into an explicit, stated simile and losing the imagery web that ties the Naniwa landscape to the speaker's emotional exhaustion.",
+    "overall_fidelity": "medium",
+    "poem_number": 88,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "Porter keeps the kami-no-ku as an explicit simile ('as short... as bamboo reeds') rather than the source's implicit pivot-based simile, and the shimo-no-ku is compressed into a rhetorical question about measuring love against tide-stakes; the logical connective survives (brevity of encounter vs. depth/measure of love) but the mechanism is made explicit rather than implicit, and the 身をつくして self-exhausting motif is replaced by a 'gauge' metaphor, weakening the original's fusion of landscape and passion into a more generic comparison."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かりね",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "bamboo reeds",
+        "note": "Porter keeps the physical reed image ('bamboo reeds at Naniwa') but drops the 仮寝 (brief sleeping/tryst) secondary meaning entirely; the reeds are used only as a simile for shortness of time, not as a pun on temporary lodging."
+      },
+      {
+        "original_word": "一夜",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "few short hours",
+        "note": "The 'one night' sense is rendered as 'a few short hours', preserving the primary temporal meaning but losing any trace of the reed-joint (節) secondary pun."
+      },
+      {
+        "original_word": "身をつくして",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "tide-stakes",
+        "note": "Porter converts the channel-marker stakes (澪標) into 'tide-stakes' used as a measuring device metaphor ('Can't gauge my love'), abandoning the literal self-exhaustion sense (身を尽くし) altogether and inventing a new rhetorical function (an inadequate measuring instrument) rather than preserving either original reading."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "bamboo reeds",
+      "note": "The reeds survive as an image ('bamboo reeds at Naniwa') giving a faint waterside/marsh atmosphere, but there is no cutting, withering, or stubble imagery, so the autumnal desolation of かりね is lost; only a generic reed-bed picture remains."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The brevity of the encounter stated directly ('a few short hours')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Comparative clause setting up the simile ('As short, they seemed to me')",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The reed image at Naniwa used as the vehicle of comparison ('bamboo reeds at Naniwa')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Introduces tide-stakes (澪標) as a measuring device",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Declares that even tide-stakes cannot measure the speaker's love, replacing the original's self-exhausting longing with an inadequacy-of-measurement conceit",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter inverts the sequence, opening with the shimo-no-ku's emotional claim (brevity of time together) before introducing the kami-no-ku's reed simile, then closes with an extrapolated 'gauge' conceit built from 澪標 that has no direct equivalent in the source's plain declarative structure."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhyme-driven English quatrain-like structure over preserving the puns, converting the reed and channel-marker wordplay into two explicit similes (short time = short reeds; love = immeasurable by tide-stakes) at the cost of the original's implicit image network and double meanings.",
+    "overall_fidelity": "low",
+    "poem_number": 88,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "McCauley preserves the basic kami/shimo division and even makes the simile between the brief reed-node and the one night explicit ('Short as is a node of reed') rather than leaving it implicit as in the source. This is a partial preservation: the relationship type is maintained (comparison between reed-segment and brief night) but the rhetorical subtlety of pivot-word driven implicit simile is flattened into an explicit simile stated in English syntax."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "かりね",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "node of reed",
+        "note": "McCauley drops the 'kariné' (cut stubble / temporary sleeping) pivot entirely, replacing it with 'node of reed,' which shifts to the 一夜 reed-joint imagery instead; the transient-sleep meaning and the cut-stubble literal image are both lost."
+      },
+      {
+        "original_word": "一夜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "one night's",
+        "note": "The 'one night' meaning is rendered literally and clearly, but the secondary reed-joint (ひとよ=節) pun is instead attached to 'node of reed' as a separate simile rather than fused into the same word, so the pivot's double-duty is separated into two phrases rather than preserved as a single word."
+      },
+      {
+        "original_word": "身をつくして",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "whole heart",
+        "note": "McCauley renders only the emotional 'exhausting oneself/whole heart' sense; the channel-marker (澪標) image and its tie to the Naniwa bay setting is entirely dropped, so the wordplay linking landscape to passion is lost."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "node of reed",
+      "note": "The reed imagery survives ('node of reed... Grown in Naniwa bay') giving a marshland/waterside atmosphere, but there is no cutting or withering imagery (no 'kariné' stubble), so the autumnal desolation connoted by cut reeds is softened into a more neutral botanical image of a reed's node; the season is not named and its withering connotation is weakened though the waterside reed setting remains."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "For the sake of just one night",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "as short as a single node/joint of reed",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "grown in Naniwa bay (the reed's setting)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "must I henceforth long for him",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "with my whole heart / exhausting myself, until life's end",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley reorders the kami-no-ku material: he leads with the 'one night' concept (ku3) before the reed/bay imagery (ku1-2), effectively inverting the internal sequence of the kami-no-ku while keeping the kami/shimo macro-division intact; he also adds 'till life's close' as an interpretive expansion not literally present in the source but consonant with 身を尽くして's exhaustion sense."
+    },
+    "translator_strategy": "McCauley favors clarity and explicit simile over preserving the compressed double-meanings of the original, sacrificing the kakekotoba's wordplay to produce a smoothly readable English quatrain-like statement of longing.",
+    "overall_fidelity": "medium",
+    "poem_number": 88,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "Kami content (spring passing, summer coming) is preserved in lines 1-2, but the translator inserts an extraneous fabricated image ('Ama's secret summit may in all its grandeur now be seen') that has no equivalent in the source and disrupts the direct inference-to-evidence logic. Instead of the robes being the sensory proof of summer's arrival, the mountain's visibility becomes an intervening image, and the robes drying (lines 5-6) are presented as a separate, almost antiquarian afterthought ('of yore') rather than the immediate confirming evidence. This weakens the tight inferential-sensory bipartite structure into a more loosely sequential, descriptive one."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "白妙の",
+        "method": "transformed",
+        "en_equivalent": "angels' robes",
+        "note": "Rather than rendering 白妙の as a conventional whiteness-epithet for 衣, the translator recasts the robes themselves as 'angels'' robes, introducing a supernatural/celestial association absent from the original. This performs a different rhetorical function (mystification/elevation via the supernatural) rather than the plain textile-whiteness epithet function of the makurakotoba, so it is transformed rather than a true ornamental_equivalent."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "summer follows close",
+      "note": "The seasonal transition is named explicitly ('spring hath passed away, / Now summer follows close'), directly translating the kigo statement. However, the imagery in the shimo-ku ('drying ground,' 'whitened robes') that reinforces the summer atmosphere is somewhat diluted by 'of yore,' which pushes the robe-drying into a nostalgic/historical register rather than a present, immediate seasonal marker, slightly relocating the felt immediacy of the kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Spring has passed away",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Summer follows/has come, inferential 'I ween'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Introduces Mount Kagu ('Ama's secret summit') but reframes it as something now visible/seen",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [],
+          "content_summary": "Extrapolated grandeur/visibility of the summit, no direct source equivalent",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The drying ground (of yore) referencing the custom of drying robes",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Whitened with angels' robes, spread far around - combines the white-robe imagery and the drying/spreading action",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five ku into six lines, splitting the shimo-ku's mountain reference and robe-drying image across three lines (3,5,6) and inserting an extrapolated line (4) describing the mountain's visibility/grandeur that has no basis in the source, which dilutes the tight declarative structure of the original and adds a scenic elaboration not present in the waka."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, meter-driven Victorian verse aesthetics over literal fidelity, expanding the compact waka into six rhyming lines and introducing embellishments (mountain's 'grandeur,' 'angels' robes') that soften the original's spare inferential logic into a more picturesque, narrativized description.",
+    "overall_fidelity": "medium",
+    "poem_number": 2,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Source structure states the seasonal inference (kami) as a confident 'it seems' assertion (けらし) grounded by the sensory evidence (shimo) of robes drying. Noguchi converts the kami-ku into two rhetorical QUESTIONS ('Has Spring passed away? Did Summer already come?') rather than an inferential statement, so the logical direction is reversed: instead of inference-then-evidence, the poem now reads as question-then-answer/observation. This changes 'inferential-sensory' into more of a 'question-and-resolution' relationship, so it is best characterized as inverted/displaced. I mark it inverted because the confident inference of the original is turned into uncertainty resolved by the sighting of Kagu Yama, flipping the epistemic direction even though the topical order (season-transition first, robe-sighting second) is kept."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "白妙の",
+        "method": "literal",
+        "en_equivalent": "white gowns",
+        "note": "Noguchi renders 白妙の as a literal descriptive adjective 'white' modifying 'gowns' rather than reproducing it as a formal epithet with independent elevating force; the makurakotoba's conventional ornamental/epithetic function (invoking whiteness/purity as a fixed poetic association preceding cloth-words) is not signaled as such — it reads as plain literal color description, so despite surface literal correctness the pillow-word's rhetorical work is lost. This borders between 'literal' and 'omitted'; I classify as literal because the actual semantic content (whiteness) is preserved word-for-word even though the epithet-function is not explained or elevated."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Summer already come",
+      "note": "The season is named directly ('Summer'), matching the explicit seasonal marker of the source (夏来にけらし). The atmosphere is also reinforced by the visual of robes drying in the sun on Kagu Yama, which implicitly carries the early-summer custom noted in the source analysis."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Has Spring passed away? — questioning the passing of spring (春過ぎて)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Did Summer already come? — questioning the arrival of summer (夏来にけらし), turning the inferential けらし into an interrogative",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Lo, Kagu Yama! There — exclamatory naming of the mountain (天の香具山), moved forward ahead of the robe image",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The white gowns are seen being dried — combines 白妙の衣 (white robes) and ほすてふ (the custom/report of drying) into a single observed visual",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Noguchi reorders shimo-no-ku internally, placing the mountain name (ku5) before the robe-drying image (ku3-4), and converts the kami-no-ku's inferential assertion into two direct questions, creating a call-and-response structure (question, question, exclamation, answer) not present in the original's declarative-then-evidentiary logic."
+    },
+    "translator_strategy": "Noguchi prioritizes a dramatic, exclamatory English rendering—turning the original's confident seasonal inference into rhetorical questions resolved by an emphatic sighting of Kagu Yama—sacrificing the makurakotoba's ornamental register and the poem's quiet declarative tone for vivid immediacy and reader engagement.",
+    "overall_fidelity": "medium",
+    "poem_number": 2,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "transformed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "Porter converts the inferential-sensory structure (conclusion + supporting evidence) into a narrative of direct perception: the speaker now claims to 'descry' the peak and see angels drying robes there, rather than inferring summer's arrival from a customary/reported sight. The けらし (hearsay/inference marker) is dropped entirely, turning the poem into first-person eyewitness description, which displaces the original epistemic logic into straightforward observation."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [
+      {
+        "original_word": "白妙の",
+        "method": "omitted",
+        "note": "'white robes' preserves the whiteness content but the epithet's elevating/ornamental function tied to 衣 as a fixed poetic collocation is not reproduced by any special phrasing — it's simply descriptive adjective 'white', not a functioning makurakotoba equivalent."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "The spring has gone, the summer's come",
+      "note": "The season is named directly in line 1, matching the source's explicit seasonal statement, though the inferential quality (‑けらし) is lost — it's stated as flat fact rather than surmise from evidence."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Spring has passed, summer has come — stated as flat fact, losing the inferential 'kerashi'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'And I can just descry' — invented framing of direct visual perception not present in source, replacing the inferential logic",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The peak of Ama-no-kagu (Mount Kagu) named",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'angels of the sky' — invented mythic agents doing the drying, not in source (てふ 'they say/it's told' reinterpreted as literal celestial beings)",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Spread their white robes to dry — white robe (白妙の衣) drying custom (ほすてふ)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter reorders and expands: he inserts a first-person perceptual frame ('I can just descry') absent from the original, and reinterprets the hearsay marker てふ as literal 'angels' performing the action, converting reported custom into a mythologized direct-vision scene. This is a significant expansion/embellishment beyond the compact source."
+    },
+    "translator_strategy": "Porter prioritizes a rhyming, romantic quatrain-like effect in English verse, sacrificing the poem's inferential epistemic structure and pillow-word ornamentation in favor of an invented lyrical scene of the speaker directly beholding mythic 'angels' drying robes on the mountain.",
+    "overall_fidelity": "low",
+    "poem_number": 2,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "The translator maintains the inference-then-evidence structure: L1-2 state the seasonal inference ('it seems' spring has passed, summer come), and L3-5 present the reported sensory evidence (robes spread to dry on Mount Kagu) that confirms it. The 'so 'tis said' in L4 nicely mirrors the てふ (chou, 'it is said') hearsay marker of the original, preserving the reported/inferential quality of the whole structure rather than collapsing it into direct observation."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [
+      {
+        "original_word": "白妙の",
+        "method": "literal",
+        "en_equivalent": "silk-white",
+        "note": "McCauley translates 白妙 as 'silk-white,' treating it as a literal descriptive compound modifying 'robes' rather than restoring its function as a fixed elevating epithet. This is serviceable and evocative but does not really operate as an epithet performing register-elevation the way the makurakotoba does in the source; it reads as a straightforward color/material adjective, so it counts as literal rather than a true ornamental equivalent."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "summer come",
+      "note": "The season is named explicitly ('summer come again'), matching the source's explicit statement of seasonal transition; the added imagery of robes drying reinforces the early-summer atmosphere, though 'again' introduces a cyclical connotation not present in the original's けらし inference."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Spring, it seems, has passed",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "And the summer come again",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "For the silk-white robes",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "So 'tis said, are spread to dry",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "On the Mount of Heaven's Perfume (Kaguyama)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Near-perfect 1:1 correspondence between the five English lines and the five JP ku, preserving both order and the inferential/hearsay quality (けらし → 'it seems'; てふ → 'so 'tis said'). The only addition is 'again' in L2, a minor interpretive expansion suggesting cyclical recurrence not explicit in the source."
+    },
+    "translator_strategy": "McCauley pursues a close, line-by-line literal fidelity to the five ku, carefully rendering the poem's hearsay/inferential grammatical markers (けらし, てふ) into English phrases ('it seems,' 'so 'tis said') while glossing the place name Kaguyama with an etymologizing translation ('Mount of Heaven's Perfume').",
+    "overall_fidelity": "high",
+    "poem_number": 2,
+    "translator": "McCauley"
+  }
+}

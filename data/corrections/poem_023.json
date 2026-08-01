@@ -1,0 +1,361 @@
+{
+  "poem_number": 23,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T01:34:33.898411+00:00"
+    },
+    "devices": {
+      "月": {
+        "status": "confirmed",
+        "original": {
+          "word": "月",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:29:53.041552+00:00"
+      },
+      "秋": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "秋",
+          "color": "#B4DE65"
+        },
+        "reviewed_at": "2026-07-27T01:30:50.886729+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "autumn's moon": {
+          "status": "removed",
+          "original": {
+            "word": "autumn's moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:56:51.602673+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T01:31:13.553700+00:00"
+        },
+        "autumn": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:57:00.627438+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:31:45.578881+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:31:46.037206+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:31:46.771097+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:31:47.321240+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-08-01T00:56:54.106083+00:00"
+        },
+        "autumn": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn"
+          },
+          "corrected": {
+            "source_word": "秋"
+          },
+          "reviewed_at": "2026-08-01T00:57:03.129118+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T01:31:58.988047+00:00"
+        },
+        "autumn": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T01:32:21.984016+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:32:03.355270+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:32:03.704432+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:32:04.037422+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:32:04.387480+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-08-01T00:57:07.393770+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "autumn moon": {
+          "status": "removed",
+          "original": {
+            "word": "autumn moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:57:18.910613+00:00"
+        },
+        "autumn": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T01:32:52.097671+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:57:24.898375+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:32:34.067946+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:32:34.464918+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:32:35.200032+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:32:36.298456+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:32:47.367077+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-08-01T00:57:27.510606+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "autumn time": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn time",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T01:33:09.412654+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T01:33:13.929315+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:33:01.846214+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:33:02.845833+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:33:03.245973+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:33:03.646048+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:33:04.329049+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-08-01T00:57:14.727682+00:00"
+        },
+        "autumn time": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn time"
+          },
+          "corrected": {
+            "source_word": "秋"
+          },
+          "reviewed_at": "2026-08-01T00:57:16.760877+00:00"
+        }
+      }
+    }
+  }
+}

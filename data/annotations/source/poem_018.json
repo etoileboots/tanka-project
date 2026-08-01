@@ -1,0 +1,91 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "よる",
+      "ku": 2,
+      "reading_primary": "寄る (to draw near, approach - waves to shore)",
+      "reading_secondary": "夜 (embedded sonic anticipation, not fully operative here)",
+      "interaction": "岸による波 = waves that draw near/break upon the shore; this よる sets up the sonic echo with 夜さへや in the next ku, priming the reader for the following pivot rather than itself being a full double-meaning pivot"
+    },
+    {
+      "word": "よる",
+      "ku": 3,
+      "reading_primary": "夜 (night)",
+      "reading_secondary": "寄る (to draw near / to meet, echoing the wave imagery)",
+      "interaction": "よるさへや means both 'even at night' and echoes 'even drawing near' from the waves of ku2 — the wave's approach (よる) to the shore is mirrored by night (よる) as the only time the lovers can meet even in dreams; the repetition binds the natural image to the human situation"
+    }
+  ],
+  "jokotoba": {
+    "text": "住の江の岸による波",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "よる",
+    "function": "Describes waves drawing near the shore at Sumi no e (Sumiyoshi), composed specifically for this poem to introduce よる (night) via the sonic/semantic echo of 寄る (draw near); this establishes the natural image that mirrors the lovers' furtive dream-meetings"
+  },
+  "honkadori": {
+    "source_poem": "住吉の岸に寄る波よるさへや夢のかよひぢ人めよくらむ (attributed variously, possibly proto-version in earlier love poetry / Man'yōshū-adjacent Sumiyoshi utamakura tradition)",
+    "source_poet": "Anonymous (Sumiyoshi utamakura tradition)",
+    "echoed_phrase": "住の江の岸による波",
+    "function": "Invokes the established utamakura of Sumiyoshi's shore, famous in poetry for its pines and waves as a place of romantic/divine association, lending the poem's dream-image an air of traditional authority"
+  },
+  "kigo": {
+    "word": "夢",
+    "season": "none",
+    "note": "Dreams are not seasonally marked in classical waka; this poem is fundamentally a love poem (koi) rather than a seasonal one. No element — waves, shore, night — carries a fixed seasonal association in the canon. Sumi no e (Sumiyoshi) is a utamakura but not tied to a season."
+  },
+  "furigana": [
+    {
+      "kanji": "住",
+      "reading": "すみ"
+    },
+    {
+      "kanji": "江",
+      "reading": "え"
+    },
+    {
+      "kanji": "岸",
+      "reading": "きし"
+    },
+    {
+      "kanji": "波",
+      "reading": "なみ"
+    },
+    {
+      "kanji": "夢",
+      "reading": "ゆめ"
+    },
+    {
+      "kanji": "通",
+      "reading": "かよ"
+    },
+    {
+      "kanji": "路",
+      "reading": "ぢ"
+    },
+    {
+      "kanji": "人目",
+      "reading": "ひとめ"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "Waves drawing near the shore at Sumiyoshi, even continuing through the night",
+    "shimo_theme": "The speaker wonders why even the dream-path to the beloved must avoid others' watchful eyes",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The waves' ceaseless nightly approach to the shore (an image of natural, unhindered repetition) is implicitly likened to the lovers' dream-visits — but whereas the waves meet the shore freely every night, the human dream-path is paradoxically still subject to the social restriction of 人目 (others' eyes), even in the realm of dreams where such restriction should not apply. The よる wordplay is the hinge: it makes the waves' 'drawing near' and human 'night' the same word, so the natural image doesn't just resemble the human situation, it linguistically fuses with it before the poem turns to lament the persistence of social surveillance even in unconscious longing."
+  },
+  "poem_number": 18,
+  "poet": "Fujiwara no Toshiyuki",
+  "source_jp": "住の江の\n岸による波\nよるさへや\n夢の通ひ路\n人目よくらむ"
+}

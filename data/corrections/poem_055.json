@@ -1,0 +1,401 @@
+{
+  "poem_number": 55,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-28T03:48:27.436547+00:00"
+    },
+    "devices": {
+      "流れて": {
+        "status": "removed",
+        "original": {
+          "word": "流れて",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T03:48:03.188869+00:00"
+      },
+      "なりぬれ": {
+        "status": "removed",
+        "original": {
+          "word": "なりぬれ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-08-01T01:35:28.938021+00:00"
+      },
+      "滝": {
+        "status": "removed",
+        "original": {
+          "word": "滝",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T03:48:19.956034+00:00"
+      },
+      "なり": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "なり",
+          "color": "#F28FC0",
+          "note": "become/ring"
+        },
+        "reviewed_at": "2026-08-01T01:35:48.282752+00:00"
+      },
+      "ぬれ": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "ぬれ",
+          "color": "#F28FC0",
+          "note": "completion/get wet"
+        },
+        "reviewed_at": "2026-08-01T01:36:03.727821+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "does run": {
+          "status": "removed",
+          "original": {
+            "word": "does run",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:49:10.501839+00:00"
+        },
+        "ceased": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "ceased",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T03:50:46.134403+00:00"
+        },
+        "heard still": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "heard still",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T03:50:52.060570+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:49:32.631642+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:49:33.046838+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:49:33.498449+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:49:33.966548+00:00"
+        }
+      },
+      "device_links": {
+        "ceased": {
+          "status": "corrected",
+          "original": {
+            "word": "ceased"
+          },
+          "corrected": {
+            "source_word": "ぬれ"
+          },
+          "reviewed_at": "2026-08-01T01:36:35.062801+00:00"
+        },
+        "heard still": {
+          "status": "corrected",
+          "original": {
+            "word": "heard still"
+          },
+          "corrected": {
+            "source_word": "なり"
+          },
+          "reviewed_at": "2026-08-01T01:36:37.795171+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:51:06.509362+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:51:06.958820+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:51:07.340550+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:51:07.758433+00:00"
+        }
+      },
+      "devices": {
+        "ceased": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "ceased",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T03:51:15.660670+00:00"
+        },
+        "fame recall": {
+          "status": "removed",
+          "original": {
+            "word": "fame recall",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:36:26.927527+00:00"
+        }
+      },
+      "device_links": {
+        "ceased": {
+          "status": "corrected",
+          "original": {
+            "word": "ceased"
+          },
+          "corrected": {
+            "source_word": "ぬれ"
+          },
+          "reviewed_at": "2026-08-01T01:36:30.176555+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "memory's ear": {
+          "status": "confirmed",
+          "original": {
+            "word": "memory's ear",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:52:06.123036+00:00"
+        },
+        "ceased": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "ceased",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T03:52:12.405269+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:52:30.855172+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-28T03:52:48.051526+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:52:32.069789+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:52:32.636075+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:52:33.917406+00:00"
+        }
+      },
+      "device_links": {
+        "ceased": {
+          "status": "corrected",
+          "original": {
+            "word": "ceased"
+          },
+          "corrected": {
+            "source_word": "ぬれ"
+          },
+          "reviewed_at": "2026-08-01T01:37:57.561246+00:00"
+        },
+        "memory's ear": {
+          "status": "corrected",
+          "original": {
+            "word": "memory's ear"
+          },
+          "corrected": {
+            "source_word": "なり"
+          },
+          "reviewed_at": "2026-08-01T01:37:59.893320+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "ceased": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "ceased",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T03:53:06.451957+00:00"
+        },
+        "it ever flows": {
+          "status": "removed",
+          "original": {
+            "word": "it ever flows",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:53:14.701555+00:00"
+        },
+        "may yet be heard": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "may yet be heard",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:37:36.843164+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:53:16.433970+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:53:17.433564+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:53:17.882229+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:53:18.566957+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:53:20.517664+00:00"
+        }
+      },
+      "device_links": {
+        "ceased": {
+          "status": "corrected",
+          "original": {
+            "word": "ceased"
+          },
+          "corrected": {
+            "source_word": "ぬれ"
+          },
+          "reviewed_at": "2026-08-01T01:37:17.311505+00:00"
+        },
+        "may yet be heard": {
+          "status": "corrected",
+          "original": {
+            "word": "may yet be heard"
+          },
+          "corrected": {
+            "source_word": "なり"
+          },
+          "reviewed_at": "2026-08-01T01:37:41.593358+00:00"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "poem_number": 71,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-30T11:45:59.408900+00:00"
+    },
+    "devices": {
+      "おとづれて": {
+        "status": "removed",
+        "original": {
+          "word": "おとづれて",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:45:42.058808+00:00"
+      },
+      "秋風": {
+        "status": "confirmed",
+        "original": {
+          "word": "秋風",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:45:43.239096+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "murmuring sounds": {
+          "status": "removed",
+          "original": {
+            "word": "murmuring sounds",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:45:48.707108+00:00"
+        },
+        "autumn pass": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn pass",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:48:18.523569+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:47:43.024194+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:47:48.856369+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-30T11:47:59.475385+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:48:11.488730+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:48:12.508874+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:48:12.924565+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "calling on": {
+          "status": "removed",
+          "original": {
+            "word": "calling on",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:45:50.507545+00:00"
+        },
+        "autumn gusts": {
+          "status": "removed",
+          "original": {
+            "word": "autumn gusts",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:48:30.140423+00:00"
+        },
+        "Autumn gusts": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Autumn gusts",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T11:48:28.190076+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-30T11:46:30.396313+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-30T11:46:42.507088+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:46:43.640395+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:46:48.573312+00:00"
+        }
+      },
+      "device_links": {
+        "Autumn gusts": {
+          "status": "corrected",
+          "original": {
+            "word": "Autumn gusts"
+          },
+          "corrected": {
+            "source_word": "秋風"
+          },
+          "reviewed_at": "2026-08-01T02:06:35.035824+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "gentle knocks": {
+          "status": "removed",
+          "original": {
+            "word": "gentle knocks",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:45:52.222477+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:50:37.657533+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:50:40.391680+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-30T11:50:48.588615+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:51:09.890675+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:51:11.270999+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "message": {
+          "status": "removed",
+          "original": {
+            "word": "message",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:45:53.556835+00:00"
+        },
+        "autumn": {
+          "status": "removed",
+          "original": {
+            "word": "autumn",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:48:36.873047+00:00"
+        },
+        "autumn night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn night",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T11:48:42.623985+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:49:24.139567+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-30T11:49:37.538398+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-30T11:49:46.439085+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-30T11:50:30.773957+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:50:11.922300+00:00"
+        }
+      },
+      "device_links": {
+        "autumn night": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn night"
+          },
+          "corrected": {
+            "source_word": "秋風"
+          },
+          "reviewed_at": "2026-08-01T02:06:18.752511+00:00"
+        }
+      }
+    }
+  }
+}

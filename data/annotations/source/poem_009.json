@@ -1,0 +1,70 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "ふる",
+      "ku": 4,
+      "reading_primary": "経る (to pass, of time)",
+      "reading_secondary": "降る (to fall, of rain)",
+      "interaction": "わが身世にふる carries the surface sense of the speaker 'passing through life/the world' (経る) while ふる also evokes 降る, the falling of long rains (ながめ) — linking the aging/passage of the self to the falling of rain, both governed by the same verb."
+    },
+    {
+      "word": "ながめ",
+      "ku": 5,
+      "reading_primary": "眺め (gazing, melancholy reverie)",
+      "reading_secondary": "長雨 (long rains)",
+      "interaction": "ながめ simultaneously means the speaker's long, idle gazing/brooding and the long spring rains that have caused the blossoms' color to fade — the rain that fades the flowers and the speaker's own melancholy abstraction are fused into one word."
+    },
+    {
+      "word": "世",
+      "ku": 4,
+      "reading_primary": "世 (the world, one's life/lot)",
+      "reading_secondary": "夜 (night)",
+      "interaction": "though よ here is primarily read as 世 (this world/life) in 'わが身世にふる,' the sound also carries the conventional resonance of 夜, reinforcing the sense of time passing and things fading unseen, but the operative grammatical reading in context is 世."
+    }
+  ],
+  "jokotoba": "null",
+  "honkadori": "null",
+  "kigo": {
+    "ku": 1,
+    "word": "花の色",
+    "season": "spring",
+    "note": "花 (blossoms, especially cherry blossoms) is the paramount spring image in classical waka; 'the color of the blossoms fading' evokes the brief, transient beauty of cherry blossoms scattering with the spring rains — a stock image for impermanence (mujō) and, here, for the fading of the speaker's own youth and beauty."
+  },
+  "furigana": [
+    {
+      "kanji": "花",
+      "reading": "はな"
+    },
+    {
+      "kanji": "色",
+      "reading": "いろ"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    },
+    {
+      "kanji": "世",
+      "reading": "よ"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The color of the blossoms has faded in vain, uselessly, while the world went on",
+    "shimo_theme": "The speaker's own beauty/youth has likewise faded away while she idly passed her life in melancholy brooding (and rain fell)",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The fading of the cherry blossoms' color in the kami-no-ku is not stated as a simile but functions as one implicitly: the shimo-no-ku reveals that the true subject is the speaker's own aging body and beauty, which have 'faded' in exactly the same way while she was lost in idle reverie (ながめ) — itself doubling as the long rains that caused the physical fading of the flowers. The pivot words ふる and ながめ fuse the natural and personal registers so that the flower's decay and the woman's aging are literally the same event described in one continuous grammatical utterance."
+  },
+  "poem_number": 9,
+  "poet": "Ono no Komachi",
+  "source_jp": "花の色は\nうつりにけりな\nいたづらに\nわが身世にふる\nながめせしまに"
+}

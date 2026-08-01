@@ -1,0 +1,530 @@
+{
+  "poem_number": 13,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T05:17:26.639906+00:00"
+    },
+    "devices": {
+      "みなの川": {
+        "status": "removed",
+        "original": {
+          "word": "みなの川",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-08-01T00:39:15.767605+00:00"
+      },
+      "筑波": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "筑波",
+          "color": "#F28FC0",
+          "note": "The place (Tsukuba)/accompany"
+        },
+        "reviewed_at": "2026-08-01T00:41:54.504577+00:00"
+      },
+      "恋": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "恋",
+          "color": "#F28FC0",
+          "note": "love/deep"
+        },
+        "reviewed_at": "2026-08-01T00:41:15.983405+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:18:52.548497+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:18:53.426160+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:18:56.238737+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:18:58.275850+00:00"
+        }
+      },
+      "devices": {
+        "mina no kawa": {
+          "status": "removed",
+          "original": {
+            "word": "mina no kawa",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:39:18.766827+00:00"
+        },
+        "Tsukuba": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Tsukuba",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:43:29.512109+00:00"
+        },
+        "love": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "love",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:44:25.289725+00:00"
+        },
+        "depth": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "depth",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:44:32.751213+00:00"
+        }
+      },
+      "device_links": {
+        "Tsukuba": {
+          "status": "corrected",
+          "original": {
+            "word": "Tsukuba"
+          },
+          "corrected": {
+            "source_word": "筑波"
+          },
+          "reviewed_at": "2026-08-01T00:43:31.917659+00:00"
+        },
+        "love": {
+          "status": "corrected",
+          "original": {
+            "word": "love"
+          },
+          "corrected": {
+            "source_word": "恋"
+          },
+          "reviewed_at": "2026-08-01T00:44:27.386682+00:00"
+        },
+        "depth": {
+          "status": "corrected",
+          "original": {
+            "word": "depth"
+          },
+          "corrected": {
+            "source_word": "恋"
+          },
+          "reviewed_at": "2026-08-01T00:44:35.893740+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "minagawa's waters": {
+          "status": "removed",
+          "original": {
+            "word": "minagawa's waters",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:39:17.810429+00:00"
+        },
+        "Ts'kuba": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Ts'kuba",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:42:24.284583+00:00"
+        },
+        "loving": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "loving",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:42:44.452414+00:00"
+        },
+        "no limits know": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "no limits know",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:42:58.234480+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:19:49.459821+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:19:52.767937+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:19:53.518181+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:19:53.948063+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:19:54.363193+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:19:55.594607+00:00"
+        }
+      },
+      "device_links": {
+        "Ts'kuba": {
+          "status": "corrected",
+          "original": {
+            "word": "Ts'kuba"
+          },
+          "corrected": {
+            "source_word": "筑波"
+          },
+          "reviewed_at": "2026-08-01T00:42:27.134353+00:00"
+        },
+        "loving": {
+          "status": "corrected",
+          "original": {
+            "word": "loving"
+          },
+          "corrected": {
+            "source_word": "恋"
+          },
+          "reviewed_at": "2026-08-01T00:42:47.732740+00:00"
+        },
+        "no limits know": {
+          "status": "corrected",
+          "original": {
+            "word": "no limits know"
+          },
+          "corrected": {
+            "source_word": "恋"
+          },
+          "reviewed_at": "2026-08-01T00:43:00.700782+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "the mina stream": {
+          "status": "removed",
+          "original": {
+            "word": "the mina stream",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:39:36.885912+00:00"
+        },
+        "love": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "love",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:44:46.884132+00:00"
+        },
+        "Tsukuba": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Tsukuba",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:45:03.277121+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:20:12.934868+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:20:13.507186+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:20:26.662903+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:20:27.427055+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T05:20:29.790417+00:00"
+        }
+      },
+      "device_links": {
+        "love": {
+          "status": "corrected",
+          "original": {
+            "word": "love"
+          },
+          "corrected": {
+            "source_word": "恋"
+          },
+          "reviewed_at": "2026-08-01T00:44:49.561786+00:00"
+        },
+        "Tsukuba": {
+          "status": "corrected",
+          "original": {
+            "word": "Tsukuba"
+          },
+          "corrected": {
+            "source_word": "筑波"
+          },
+          "reviewed_at": "2026-08-01T00:45:06.402934+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "mina's still, full flow": {
+          "status": "removed",
+          "original": {
+            "word": "mina's still, full flow",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:21:18.594748+00:00"
+        },
+        "Mina's still, full flow": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Mina's still, full flow",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:37:27.663871+00:00"
+        },
+        "Mina": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Mina",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:37:49.973449+00:00"
+        },
+        "Tsukuba": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Tsukuba",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:45:19.715902+00:00"
+        },
+        "love": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "love",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:45:30.105787+00:00"
+        },
+        "deeps": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "deeps",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:45:34.019385+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:21:28.582930+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:21:30.221686+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:22:18.929547+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:22:19.693651+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:22:21.262645+00:00"
+        }
+      },
+      "device_links": {
+        "Mina's still, full flow": {
+          "status": "corrected",
+          "original": {
+            "word": "Mina's still, full flow"
+          },
+          "corrected": {
+            "source_word": "みなの川"
+          },
+          "reviewed_at": "2026-08-01T00:37:31.574720+00:00"
+        },
+        "Mina": {
+          "status": "removed",
+          "original": {
+            "word": "Mina"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:39:23.527374+00:00"
+        },
+        "Tsukuba": {
+          "status": "corrected",
+          "original": {
+            "word": "Tsukuba"
+          },
+          "corrected": {
+            "source_word": "筑波"
+          },
+          "reviewed_at": "2026-08-01T00:45:22.553533+00:00"
+        },
+        "deeps": {
+          "status": "corrected",
+          "original": {
+            "word": "deeps"
+          },
+          "corrected": {
+            "source_word": "恋"
+          },
+          "reviewed_at": "2026-08-01T00:45:36.990014+00:00"
+        },
+        "love": {
+          "status": "corrected",
+          "original": {
+            "word": "love"
+          },
+          "corrected": {
+            "source_word": "恋"
+          },
+          "reviewed_at": "2026-08-01T00:45:38.774007+00:00"
+        }
+      }
+    }
+  }
+}

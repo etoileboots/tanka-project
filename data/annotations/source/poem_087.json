@@ -1,0 +1,58 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A sudden autumn shower has passed, leaving dew still clinging, undried, on the needles of the maki (evergreen) tree",
+    "shimo_theme": "Mist rises up from the wet foliage into the autumn evening",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The physical wetness left by the passing shower (murasame) directly causes the mist to rise from the maki leaves in the shimo-no-ku — the kami-no-ku's moisture is the literal, physical precondition for the shimo-no-ku's mist. The poem builds a chain of sensory autumn imagery (shower → dew → mist → evening) that culminates in the famous closing phrase 'aki no yugure,' one of the great cadences of Shinkokinshu autumn poetry, evoking the quiet, damp desolation of a mountain evening after rain rather than stating any emotion directly."
+  },
+  "kigo": {
+    "word": "秋の夕暮",
+    "season": "autumn",
+    "note": "This closing phrase is one of the three canonical 'sabishisa' cadences of the Shinkokinshu (alongside poems by Saigyo and Fujiwara Teika), evoking the desolate stillness of an autumn evening as the paradigmatic seasonal-emotional image of the anthology; it retroactively colors the murasame, dew, and mist as autumn phenomena rather than generic ones.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "露",
+      "reading": "つゆ"
+    },
+    {
+      "kanji": "間",
+      "reading": "ま"
+    },
+    {
+      "kanji": "葉",
+      "reading": "は"
+    },
+    {
+      "kanji": "霧",
+      "reading": "きり"
+    },
+    {
+      "kanji": "立",
+      "reading": "た"
+    },
+    {
+      "kanji": "秋",
+      "reading": "あき"
+    },
+    {
+      "kanji": "夕暮",
+      "reading": "ゆふぐれ"
+    }
+  ],
+  "poem_number": 87,
+  "poet": "Jakuren Hoshi",
+  "source_jp": "むらさめの\n露もまだひぬ\nまきの葉に\n霧立ちのぼる\n秋の夕暮"
+}

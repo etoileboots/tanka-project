@@ -1,0 +1,250 @@
+{
+  "poem_number": 77,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "滝川": {
+        "status": "removed",
+        "original": {
+          "word": "滝川",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T06:57:42.463326+00:00"
+      },
+      "われて": {
+        "status": "removed",
+        "original": {
+          "word": "われて",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T06:57:45.841463+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "divided": {
+          "status": "removed",
+          "original": {
+            "word": "divided",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:57:47.356665+00:00"
+        }
+      },
+      "lines": {
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-31T06:58:53.138976+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:59:03.106613+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:59:03.555540+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:59:04.272530+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:59:05.288962+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:59:06.055642+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "double torrents": {
+          "status": "removed",
+          "original": {
+            "word": "double torrents",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:57:48.689819+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:57:59.905815+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:58:00.406095+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:58:00.842314+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:58:01.227030+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "divided": {
+          "status": "removed",
+          "original": {
+            "word": "divided",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:57:49.990479+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:01:35.656551+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:01:36.035638+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:01:36.469425+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:01:36.820142+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:01:37.335687+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "divides": {
+          "status": "removed",
+          "original": {
+            "word": "divides",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:57:52.072699+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:00:18.225317+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:00:18.670285+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:00:19.170514+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:00:19.704519+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:00:21.207737+00:00"
+        }
+      }
+    }
+  }
+}

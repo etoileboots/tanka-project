@@ -1,0 +1,71 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A lament that there is no path of escape from the sorrows of this world, even for one who has resolved to renounce it",
+    "shimo_theme": "Even deep in the mountains where the speaker has fled in spiritual resolve, the cry of a deer is heard, proving that sorrow reaches everywhere",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku declares that there is no 'road' (michi) of escape from worldly grief; the shimo-no-ku demonstrates this paradoxically by showing that even the deepest mountain retreat, entered specifically to escape the world through religious withdrawal (omoi iru), still resounds with the deer's mournful cry — the very symbol of autumn sorrow the speaker sought to leave behind. The mountain retreat, expected to be a refuge, instead confirms that grief is inescapable anywhere in the world."
+  },
+  "kigo": {
+    "word": "鹿",
+    "season": "autumn",
+    "note": "The cry of the deer (shika) in the mountains, especially calling for a mate, is one of the most conventional autumn images in waka, symbolizing loneliness and mournful longing; here it also functions as the sonic proof of the poem's paradox that grief cannot be escaped even in deep mountain seclusion.",
+    "confidence": "high"
+  },
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "世",
+      "ku": 1,
+      "reading_primary": "よ (this world, life, society)",
+      "reading_secondary": "夜 (night) — not fully active here, but the base pivot pattern よ is present",
+      "interaction": "世の中 establishes 'the world/society' as the poem's subject of lament; while the classic よ=夜/世 pivot is present in the sound, here the primary and dominant sense is 世 'this life/world' rather than a genuine night-reading, so this is noted with lower confidence as a possible latent pivot rather than a fully operative double meaning.",
+      "confidence": "low"
+    },
+    {
+      "word": "入る",
+      "ku": 3,
+      "reading_primary": "入る (to enter, go into)",
+      "reading_secondary": "思ひ入る as a set phrase meaning 'to resolve deeply / to set one's heart upon (religious renunciation)'",
+      "interaction": "思ひ入る functions almost as a compound verb meaning both literally 'to go/press deeply into (the mountains)' and figuratively 'to be deeply resolved/absorbed in thought (toward religious withdrawal)'; the two senses operate simultaneously as the speaker's physical entry into the mountains mirrors his spiritual resolve to escape worldly grief.",
+      "confidence": "medium"
+    }
+  ],
+  "furigana": [
+    {
+      "kanji": "世の中",
+      "reading": "よのなか"
+    },
+    {
+      "kanji": "道",
+      "reading": "みち"
+    },
+    {
+      "kanji": "思ひ入る",
+      "reading": "おもひいる"
+    },
+    {
+      "kanji": "山",
+      "reading": "やま"
+    },
+    {
+      "kanji": "鹿",
+      "reading": "しか"
+    },
+    {
+      "kanji": "鳴くなる",
+      "reading": "なくなる"
+    }
+  ],
+  "poem_number": 83,
+  "poet": "Kotai Kogu no Tayu Toshinari",
+  "source_jp": "世の中よ\n道こそなけれ\n思ひ入る\n山のおくにも\n鹿ぞ鳴くなる"
+}

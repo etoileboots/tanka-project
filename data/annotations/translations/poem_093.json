@@ -1,0 +1,362 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "explicit_wish_for_life_of_leisure (translator replaces implicit simile with an explicit statement of desired lifestyle)",
+      "note": "The source's shimo-no-ku offers an unstated simile — a strained towrope standing in for the fragility of human bonds — but Dickens converts this into a literal wish to live by the shore watching fishermen work, stripping out the pathos (かなしも) and the implicit comparison entirely. The relationship becomes 'wish + elaboration of the peaceful life that would fulfill the wish' rather than 'wish + emotionally freighted image standing for the wish's content.' This is a displacement of relationship type: simile-implicit becomes literal-descriptive elaboration."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "endless life",
+        "note": "Dickens renders 世 as 'life' (a personal existence) rather than 'world/society', and adds 'endless' which is not in the source; this leans toward the secondary personal-life reading but loses the social/political dimension entirely, and the phrase 'endless life' does not really hold both meanings — it picks one reading and reshapes it, so this is closer to a paraphrase/transformed rendering than a clean double-reading."
+      },
+      {
+        "original_word": "綱手",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "abundant haul",
+        "note": "The towrope image itself — the literal object that carries the poem's emotional pivot — is entirely dropped. Dickens substitutes a completely different maritime detail (nets and their abundant catch) with no reference to a rope or towing at all, so the vehicle of the poem's central image-simile is lost."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "fishing yawl",
+      "note": "No seasonal marker exists in the source (kigo confidence is low/none), and Dickens's translation likewise carries no seasonal signal; the 'fishing yawl' and 'nets abundant haul' evoke a generic, cheerful maritime livelihood rather than any specific season, consistent with the source's non-seasonal status."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Wish for an endless/eternal state, corresponding to 世の中は with 'life' substituted for 'world'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Wish to dwell in peace, far from strife — expands つねにもがもな into a personal desire for tranquility, adding the idea of 'strife' not present in source",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Watching the fishing yawl — corresponds to なぎさこぐ あまの小舟 (the boat rowed along the shore), though 'yawl' is a specific European boat type not in the original",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Viewing the abundant net haul — replaces 綱手 (towrope) with an invented detail of a fish catch; the towrope image is dropped entirely",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Exclamation 'how fair to me' — loosely corresponds to かなしも's exclamatory pathos, but reinterpreted as simple pleasantness rather than poignant sorrow-tinged affection",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Further exclamation on how pleasant this lot would be — an expansive doubling of the かなしも exclamation, softened into contentment",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Dickens expands the compact five-ku waka into six rhymed lines, converting the implicit boat/towrope simile into an explicit description of a desired peaceful fisherman's life; the emotional pivot word かなしも (poignant, bittersweet) is diluted into cheerful contentment ('how fair', 'how pleasant'), and an invented detail (the net's abundant haul) fills the space where the towrope image originally stood."
+    },
+    "translator_strategy": "Dickens prioritizes a smooth, rhymed English lyric of pastoral contentment over fidelity to the source's specific imagery, replacing the poignant towrope simile with an invented, cheerier scene of watching fishermen haul nets, and converting political anxiety about 'the world' into a personal wish for a peaceful, strife-free life.",
+    "overall_fidelity": "low",
+    "poem_number": 93,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The wish (L1) and the maritime image (L2-4) are juxtaposed as in the source, but the linking is made more explicit through 'Oh, to be carried away by the sight' which frames the image as an emotional experience the poet wishes for, rather than letting the boat/rope image stand as an unstated visual analogue for societal fragility. The strain/pathos of the towrope is replaced by a more passive, aesthetic pleasure in the scene, weakening the implicit simile function."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "my life",
+        "note": "Noguchi renders 世の中 as 'my life', which captures the personal/relational secondary sense but loses the broader 'world/society' primary sense; conversely if we take 'my life' as the sole rendering, it actually favors the secondary (personal) reading over the political/societal one, so overall only one axis of the intended double meaning survives, with the political/societal frame largely dropped."
+      },
+      {
+        "original_word": "綱手",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "hauling of the net",
+        "note": "The towrope (綱手) that pulls the boat has been changed into 'hauling of the net', a different maritime action; this substitutes a new image for the source's specific towline, transforming rather than translating the vehicle of the central image, and the pathos-word かなしも is not directly rendered but diffused into the earlier 'to be carried away' phrasing."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source itself carries no true kigo (the analysis confirms なぎさこぐ is non-seasonal, occasional imagery), and Noguchi's translation likewise contains no seasonal marker or atmosphere — the fisherman and yawl scene is presented as a timeless, unseasonal genre image, consistent with the source's zōka (non-seasonal) character.",
+      "en_equivalent": "fisherman's yawl"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The wish 'let my life be so' compresses 世の中は つねにもがもな into a personal wish for constancy, shifting the register from societal to individual.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            5
+          ],
+          "content_summary": "'Oh, to be carried away by the sight' introduces the emotional response (かなしも) earlier than in the source, framing it as delight/absorption rather than pathos.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'Of a fisherman's yawl at the shore' renders なぎさこぐ あまの小舟 - the boat rowing/being towed along the shore.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'And by his hauling of the net' substitutes a net-hauling action for the towrope (綱手) image, altering the central vehicle of the simile.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Noguchi compresses the five ku into four lines, front-loading the emotional reaction ('carried away') into line 2 rather than reserving かなしも for the close, and replaces the towrope image with net-hauling, which shifts the concrete visual anchor of the shimo-no-ku while keeping the overall wish+image bipartite shape intact."
+    },
+    "translator_strategy": "Noguchi prioritizes a fluid, personally-inflected English lyric over precise lexical fidelity, softening the political undertone of 世 into private wish and replacing the towrope's strained pathos with a gentler image of aesthetic absorption in a fisherman's net-hauling.",
+    "overall_fidelity": "medium",
+    "poem_number": 93,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [],
+      "shimo_lines": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "Porter's translation entirely omits the kami-no-ku's wish for the world's constancy (世の中は つねにもがもな) and instead expands only the shimo-no-ku's boat imagery into a full descriptive scene, turning the poem into a straightforward genre depiction of fishermen at work. There is no trace of the abstract wish that the boat image was meant to illustrate, so the bipartite simile structure collapses entirely — the vehicle (boat/rope) remains but the tenor (world's instability) is gone, eliminating the implicit comparison altogether."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "世",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "fishing-boats",
+        "note": "The entire kami-no-ku containing 世の中は (the world/one's relationships) is dropped; the translation begins directly with the boat scene, so neither the societal nor the personal-relationship reading of 世 survives at all."
+      },
+      {
+        "original_word": "綱手",
+        "reading_preserved": "primary_only",
+        "method": "literal",
+        "en_equivalent": "coiling ropes",
+        "note": "The towrope is rendered literally as ropes being coiled, preserving the concrete maritime image but stripping away the emotional weight (かなしも) and the simile function that made the rope stand for the fragility of human bonds."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "fishing-boats",
+      "note": "Since なぎさこぐ (shore-rowing) itself is classified as non-seasonal conventional imagery rather than a true kigo, there is no season to preserve; Porter's expanded genre-scene of boats returning to the bay conveys a generic, timeless maritime atmosphere with no seasonal marker, consistent with the source's lack of a governing kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "General statement of affection for watching fishing-boats — expands なぎさこぐ あまの小舟 into an observer's declared enjoyment",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Boats returning to the bay — elaborates on なぎさこぐ (rowing along the shore) with an invented destination",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The crew straining at the oars — visual expansion of the boat/fishermen scene, not present in source which describes towrope not oars",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Coiling ropes away — corresponds to 綱手, rendered as a literal nautical action rather than an emotionally charged simile-vehicle",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Explanatory closing remark that the fishermen are busy people — replaces かなしも (pathos) with a mundane observation, and omits entirely the kami-no-ku's wish for world constancy",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "low",
+      "structural_note": "Porter completely omits the kami-no-ku (世の中は つねにもがもな) and instead builds a five-line genre scene entirely out of an expanded, embellished version of the shimo-no-ku's boat/rope imagery, inventing details (oars, bay, busy folk) not present in the source and replacing the poem's emotional and political core with a picturesque vignette."
+    },
+    "translator_strategy": "Porter abandons the poem's central wish about the instability of the world/relationships and instead turns the shimo-no-ku's boat-towing image into a self-contained, prettified genre scene of industrious fishermen, prioritizing pictorial charm over the source's political and emotional content.",
+    "overall_fidelity": "low",
+    "poem_number": 93,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator keeps the kami wish (L1-L2) separate from the shimo image (L3-L5), but inserts an explicit exclamatory bridge 'What a lovely scene!' that shifts the tone from pathos (かなしも) to simple aesthetic admiration, weakening the implicit simile logic — the reader is told to admire the scene rather than feel the unstated emotional parallel between the fragile towrope and the fragile world."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "this, our world",
+        "note": "McCauley renders 世の中 as 'this, our world', capturing the societal/political sense but losing the secondary personal-relationship nuance entirely; no double meaning attempted."
+      },
+      {
+        "original_word": "綱手",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Rope-drawn",
+        "note": "The towrope image is rendered literally as 'Rope-drawn, rowed along the beach', preserving the physical vehicle of the image but losing the transferred pathos (かなしも) that gives 綱手 its emotional weight in the source; here it becomes cheerful ('lovely') rather than mournful."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "lovely scene",
+      "note": "No seasonal word or atmosphere is present in the source (kigo confidence is low/none) and the translation likewise introduces no seasonal marker; the maritime scene is rendered as a generic pleasant tableau rather than tied to any time of year."
+    },
+    "line_mapping": {
+      "confidence": "high",
+      "structural_note": "The translator expands the five-ku poem into five lines with a roughly 1:1 mapping, but inserts an explanatory exclamation ('What a lovely scene!') that has no direct lexical source in the original text, functioning as an interpretive gloss on the shimo-no-ku rather than a translation of any specific ku.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "世の中は — 'this, our world'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "つねにもがもな — wish that it remain unchanging",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4,
+            5
+          ],
+          "content_summary": "Interpretive exclamation 'What a lovely scene!' anticipating the boat image; not a literal rendering of any single ku but a bridge/gloss",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "なぎさこぐ あまの小舟 — 'that fisherwoman's boat' rowing along the shore",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "綱手かなしも — the towrope pulling the boat along the beach, though 'かなしも' pathos is replaced by cheerful description",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "McCauley prioritizes clear, sequential narrative sense over preserving the original's compressed emotional ambiguity, inserting an explanatory exclamation that turns the poem's implicit pathos-laden simile into an explicitly admired picturesque scene.",
+    "overall_fidelity": "medium",
+    "poem_number": 93,
+    "translator": "McCauley"
+  }
+}

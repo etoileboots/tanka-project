@@ -1,0 +1,87 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "しらね",
+      "ku": 4,
+      "reading_primary": "知らね (not know)",
+      "reading_secondary": "",
+      "interaction": "Primarily functions as 知らね ('[people] do not know'), negating knowledge; there is a secondary latent echo of 白根 (white root/stone) resonating with 石 (stone) imagery in kami-no-ku, but this is associative rather than a fully operative second grammatical reading, so it is noted with low confidence only as a possible pivot.",
+      "confidence": "low"
+    },
+    {
+      "word": "かはく",
+      "ku": 5,
+      "reading_primary": "乾く (to dry)",
+      "reading_secondary": "",
+      "interaction": "かはく means 'to become dry,' contrasted with the constantly submerged, never-drying oki no ishi (offshore rock); no genuine second reading is active here, but the word is essential to the image network of water/wetness established by 潮干 and 沖の石.",
+      "confidence": "low"
+    }
+  ],
+  "jokotoba": {
+    "text": "わが袖は 潮干に見えぬ 沖の石の",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "の",
+    "function": "The kami-no-ku builds an extended simile — the speaker's sleeves are like the offshore rock that never appears even at low tide, i.e., always submerged — which is grammatically linked to the shimo-no-ku via の (rock's [state]) leading into the statement that no one knows, but her sleeves never dry (from tears). Although this is often analyzed as simile via 'の' rather than strict jokotoba, the entire kami functions as an extended preface establishing the image that the shimo-no-ku resolves into human emotion."
+  },
+  "honkadori": {
+    "source_poem": "Attributed to a poem in the Man'yōshū/Goshūishū tradition concerning 'oki no ishi' (offshore rock) never seen dry, often cited as echoing an earlier anonymous poem on the same image (伝承歌), e.g. a Goshūishū-era honka using 'oki の石の人こそ知らねかはくまぞなき' pattern.",
+    "source_poet": "Anonymous (attributed precursor poem, exact source uncertain)",
+    "echoed_phrase": "沖の石の人こそしらね",
+    "function": "Sanuki's poem closely reworks a known image/phrase pattern of the hidden offshore rock that never dries, intensifying it into a personal declaration of ceaseless tears; because the precise historical source poem cannot be verified with full confidence, this allusion should be treated as tentative."
+  },
+  "kigo": {
+    "word": "潮干",
+    "season": "none",
+    "note": "潮干 (shiohi, low tide) is a natural/tidal image rather than a season-bound term; tidal ebb is a coastal, not seasonal, phenomenon in classical convention, though it does carry conventional waka imagery of the shore. No specific season is invoked by any word in this poem — 袖 (sleeves), 潮干 (low tide), 沖の石 (offshore rock), しらね (not knowing), かはく (drying) — all these belong to the timeless conventional imagery of romantic suffering (tears, wet sleeves, submerged rock) rather than to any of the four seasons. This poem belongs to the 恋 (love) category of the Hyakunin Isshu, not a seasonal category.",
+    "confidence": "medium"
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "An extended simile: the speaker's sleeves are compared to an offshore rock (oki no ishi) that is never visible even at low tide — permanently submerged beneath the waves.",
+    "shimo_theme": "No one else knows this hidden suffering; her sleeves, like that rock, never have a moment of dryness — she weeps ceaselessly and secretly.",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The kami-no-ku constructs a natural image (a rock permanently hidden under the tide, never exposed even at low tide) that functions as a sustained implicit simile for the speaker's sleeves, soaked with tears that never dry. The pivot occurs at 沖の石の, where 'の' both concludes the descriptive image of the rock and grammatically launches the shimo-no-ku's claim about human ignorance and ceaseless wetness — the shimo does not explain the simile discursively but lets the physical image (submerged, never dry) silently stand for the emotional truth (hidden tears, never dry sleeves)."
+  },
+  "furigana": [
+    {
+      "kanji": "袖",
+      "reading": "そで"
+    },
+    {
+      "kanji": "潮干",
+      "reading": "しほひ"
+    },
+    {
+      "kanji": "見",
+      "reading": "み"
+    },
+    {
+      "kanji": "沖",
+      "reading": "おき"
+    },
+    {
+      "kanji": "石",
+      "reading": "いし"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    }
+  ],
+  "poem_number": 92,
+  "poet": "Nijonoin Sanuki",
+  "source_jp": "わが袖は\n潮干に見えぬ\n沖の石の\n人こそしらね\nかはくまもなし"
+}

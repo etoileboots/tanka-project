@@ -1,0 +1,297 @@
+{
+  "poem_number": 59,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-28T04:24:49.674582+00:00"
+    },
+    "devices": {
+      "やすらはで": {
+        "status": "removed",
+        "original": {
+          "word": "やすらはで",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T04:24:38.858197+00:00"
+      },
+      "月": {
+        "status": "confirmed",
+        "original": {
+          "word": "月",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T04:24:44.742900+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "should not wait": {
+          "status": "removed",
+          "original": {
+            "word": "should not wait",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:24:56.175573+00:00"
+        },
+        "moon in deep night": {
+          "status": "removed",
+          "original": {
+            "word": "moon in deep night",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:46:05.320325+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:46:13.668245+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:06.623962+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:07.074602+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:07.707073+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:08.157296+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-08-01T01:46:15.667172+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "repose": {
+          "status": "removed",
+          "original": {
+            "word": "repose",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:15.107562+00:00"
+        },
+        "the moon": {
+          "status": "confirmed",
+          "original": {
+            "word": "the moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:25.289815+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:21.509402+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:21.840102+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:22.374394+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-28T04:26:35.852078+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "sleepless in bed": {
+          "status": "removed",
+          "original": {
+            "word": "sleepless in bed",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:32.189831+00:00"
+        },
+        "the moon": {
+          "status": "confirmed",
+          "original": {
+            "word": "the moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:02.038053+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:58.453763+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:58.905936+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:25:59.473223+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:00.154977+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:03.972134+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "care-free": {
+          "status": "removed",
+          "original": {
+            "word": "care-free",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:42.055676+00:00"
+        },
+        "lonely moon": {
+          "status": "confirmed",
+          "original": {
+            "word": "lonely moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:48.755374+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:46.037768+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:46.386794+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:46.753422+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:47.170503+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:26:47.553655+00:00"
+        }
+      }
+    }
+  }
+}

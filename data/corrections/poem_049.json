@@ -1,0 +1,259 @@
+{
+  "poem_number": 49,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T07:11:59.086780+00:00"
+    },
+    "devices": {
+      "おもへ": {
+        "status": "removed",
+        "original": {
+          "word": "おもへ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T07:08:40.053893+00:00"
+      },
+      "衛士のたく火": {
+        "status": "removed",
+        "original": {
+          "word": "衛士のたく火",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T07:08:40.470918+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "dying thought": {
+          "status": "removed",
+          "original": {
+            "word": "dying thought",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:08:55.706811+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:08:58.321535+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:08:59.104258+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:08:59.586233+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:08:59.987701+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:09:09.604499+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:09:15.054750+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:09:16.789219+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T07:09:31.234858+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:09:41.568602+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:10:24.525009+00:00"
+        }
+      },
+      "devices": {
+        "happiness": {
+          "status": "removed",
+          "original": {
+            "word": "happiness",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:09:35.554890+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "constancy": {
+          "status": "removed",
+          "original": {
+            "word": "constancy",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:10:31.187806+00:00"
+        }
+      },
+      "lines": {
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T07:11:35.486174+00:00"
+        },
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T07:11:11.601414+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:10:48.653756+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:10:49.152351+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:10:50.754349+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:11:44.038228+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:11:45.387571+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:11:47.203317+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:11:51.303755+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:11:55.288973+00:00"
+        }
+      },
+      "devices": {
+        "love aglow": {
+          "status": "removed",
+          "original": {
+            "word": "love aglow",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T07:11:56.620033+00:00"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "有明",
+      "ku": 1,
+      "reading_primary": "ありあけ",
+      "reading_secondary": "ありあけ",
+      "interaction": "Not itself a pivot, but sets up 'ariake no tsuki' (the moon still lingering in the dawn sky) as the fixed image against which the cruelty of the departing lover is compared — the moon's coldness and the lover's coldness are conflated through the following つれなく."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The pale, indifferent moon still lingering in the dawn sky at the moment the lover coldly departed after a night together",
+    "shimo_theme": "Since that parting, no time of day feels as bitter and sorrowful as the dawn itself",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The kami-no-ku fixes a single remembered scene — the indifferent (tsurenaku) ariake moon witnessing the lover's cold departure — and the shimo-no-ku generalizes from that single memory into a universal statement: ever since that morning, dawn itself (akatsuki) has become the most hateful (uki) time of all. The pivot works by transferring the moon's coldness onto the parting itself, so that the natural image and the human emotion become inseparable; the word akatsuki in the shimo directly echoes and intensifies ariake from the kami, turning a specific memory into an enduring emotional verdict on the time of day."
+  },
+  "kigo": {
+    "word": "有明",
+    "season": "autumn",
+    "note": "The ariake-no-tsuki (the moon still visible in the sky after dawn has broken) is a classical image of lingering, wistful beauty, most strongly associated with autumn dawns in the waka tradition, though it can appear in other seasons; here it is also bound up with the kinuginu (post-tryst dawn parting) topos, reinforcing its melancholic, love-related seasonal resonance."
+  },
+  "furigana": [
+    {
+      "kanji": "有明",
+      "reading": "ありあけ"
+    },
+    {
+      "kanji": "別",
+      "reading": "わかれ"
+    },
+    {
+      "kanji": "暁",
+      "reading": "あかつき"
+    }
+  ],
+  "poem_number": 30,
+  "poet": "Mibu no Tadamine",
+  "source_jp": "有明の\nつれなくみえし\n別れより\n暁ばかり\nうきものはなし"
+}

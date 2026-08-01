@@ -1,0 +1,325 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator maintains the causal-physical flow: twilight breeze rustles the rice-fields (kami), and that same wind's sound/motion continues past the speaker's reed-thatched hut as the autumn gusts (shimo). The continuous sentence structure across the six lines mirrors the original's single continuous sensory experience linking outer field and inner hut."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おとづれて",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "murmuring sounds",
+        "note": "The translator renders the auditory sense of the wind's rustling ('murmuring sounds my ear please') but loses the personified 'visiting' connotation entirely — there is no sense of the wind as an animate caller upon the hut, only a description of pleasant sound, so only the sound-sense (arguably the secondary/auditory layer) survives while the visitor-pivot itself disappears."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn pass",
+      "note": "The season is named outright in the final line ('The sweeping gusts of autumn pass'), placed at the poem's close just as in the source, and the imagery of twilight, rustling rice-fields, and gusts sweeping past a thatched hut reinforces the melancholic autumn atmosphere throughout."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Twilight falls and the breeze rises",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The wind rustles the rice-fields near the gate/home",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The murmuring sound pleases the speaker's ear, evoking the 'visiting' pivot",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The wind passes by the speaker's thatched hut",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Specification that the thatch is of ashi (reed) grass",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The autumn gusts sweep past, naming the season explicitly",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator expands the five ku into six lines, splitting the shimo-no-ku's hut description (line 4) into two lines (4 and 5) to specify the reed-thatch material, while compressing nothing significantly; the overall sequence order matches the source ku order exactly, producing a faithful one-to-one-ish expansion rather than inversion or collapse."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, metrically regular English verse form (ABABCC-like structure) over close lexical fidelity, expanding the compact waka into six flowing lines that preserve the narrative sequence and explicit naming of autumn while sacrificing the wind's personified 'visiting' pivot for straightforward auditory description.",
+    "overall_fidelity": "medium",
+    "poem_number": 71,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Noguchi reverses the original sequence: the source moves from the field's rustling rice leaves (kami) to the hut being reached by the wind (shimo), a causal-physical progression from outer landscape to inner dwelling. The translation opens with the hut and evening, then moves to the autumn gusts calling on the rice leaves, essentially reversing the direction of the wind's movement and the causal flow, though the same elements are all present."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おとづれて",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "calling on",
+        "note": "‘Calling on’ nicely captures the personified 'visiting' sense of otozurete (primary reading), giving the wind an animate, visitor-like quality, but the auditory pun on 'oto' (sound/rustling) is not separately rendered — there's no accompanying word for the rustling sound itself, so the secondary sound-sense is largely absorbed into 'gusts pass' rather than kept as a distinct auditory pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn gusts",
+      "note": "The season is named directly ('Autumn gusts'), preserving the explicit kigo of akikaze, and the imagery of wind moving through rice leaves toward a humble hut retains the classic autumnal atmosphere of loneliness and seasonal transition."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Sets the temporal frame 'at eve' (yuu sareba)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Introduces the reed (ashi) hut, which in the source appears in ku 4 (ashi no maroya)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5,
+            3
+          ],
+          "content_summary": "The autumn gusts (ku5's akikaze) are described as 'passing' and 'calling on' (otozurete, ku3), merging the wind's arrival and its personified visiting action into one line",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The gate-side rice plant leaves (kadota no inaba) that the wind rustles, corresponding to ku2",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation reorders the source's linear kami-to-shimo progression: instead of field→rustle→visit→hut→wind, it begins with time/hut (originally shimo-adjacent elements) and ends with the field's rice leaves (originally kami), effectively inverting the spatial/causal direction of the poem while preserving all five content units."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, atmospheric four-line lyric that names the season explicitly and personifies the wind, sacrificing the source's strict kami-to-shimo causal sequence and the sound/visit double-meaning of otozurete for concision and evocative imagery.",
+    "overall_fidelity": "medium",
+    "poem_number": 71,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "Porter opens with the autumn wind (originally the shimo-no-ku's culminating image, 秋風ぞふく) rather than the evening scene at the gate-field, then works backward to the rice-patch/rushes imagery of the kami-no-ku, effectively reversing the causal-physical logic where wind rustles the field first and then reaches the hut; here the wind is named up front as an agent whose 'message' the speaker wishes to catch, and only afterward do we get the rushes in the thatch and rice-leaves, so the outer-to-inner causal flow is inverted into inner-then-outer, and the two locales (field, hut) are merged into a single continuous image via 'And leaves of my rice-patch' tacked onto 'the rushes in the thatch.'"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おとづれて",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "message",
+        "note": "Porter renders the wind's 'visiting/calling' sense as an explicit desire to 'catch its message,' which captures the personified-visitor idea but discards the auditory pun on oto (sound/rustling) that underlies the original association-reinforced wordplay; the rustling sound itself is conveyed separately via 'whistles' rather than through this word, so the dual sound/visit interaction collapses into a single interpretive gesture rather than a genuine bilingual pun."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn",
+      "note": "The season is named directly in the opening line ('This autumn night the wind blows shrill'), moving the kigo to the very start of the poem rather than its traditional culminating position in the source's final ku, but the seasonal identification itself is fully explicit and unambiguous."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Autumn wind blowing shrilly at night - the source's climactic final line moved to the opening",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The speaker's wish to catch the wind's 'message', extrapolating from otozurete's visiting-connotation",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The wind whistling through, continuing the auditory image of otozurete",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The rushes of the reed-thatched hut (ashi no maroya)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The rice-leaves of the gate-field (kadota no inaba), evening setting compressed/relocated here",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem by front-loading the culminating 'autumn wind' image from the shimo-no-ku into line 1, then works through the wind's personified visiting/whistling action, and finally arrives at the two originally-kami-no-ku images (thatch-rushes and rice-leaves) as if they were parallel objects the wind blows through, effectively inverting and partially merging the source's outer-field-to-inner-hut causal sequence into a single simultaneous tableau."
+    },
+    "translator_strategy": "Porter prioritizes a compact, singable rhyme-driven quatrain-plus-tag structure in English verse form, sacrificing the source's outer-to-inner causal sequence and the auditory pun of otozurete for a personified wind whose 'message' the speaker longs to understand, while still naming autumn explicitly and preserving the physical images of thatch and rice-leaves.",
+    "overall_fidelity": "medium",
+    "poem_number": 71,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The causal-physical relationship is preserved: the wind's rustling sound in the rice leaves at the gate (kami) is directly continued as the same autumn breeze entering the rush-hut (shimo), maintaining the outer-to-inner sensory progression of the original."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おとづれて",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Gentle knocks",
+        "note": "McCauley renders otozurete as 'Gentle knocks are heard,' which captures the personified 'visiting/calling' sense (as if someone were knocking) but loses the underlying 'oto' (sound/rustling) connection to the wind's literal noise in the leaves as a natural auditory phenomenon; the anthropomorphic 'visitor' idea dominates over the acoustic rustling."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn's roaming",
+      "note": "The season is named directly as 'Autumn's roaming breeze,' explicitly preserving the kigo at the poem's close just as in the source, and the epithet 'roaming' adds a wandering, restless quality that echoes the loneliness conventionally associated with akikaze."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Temporal setting: when evening comes",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The rice leaves at the speaker's gate",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The rustling personified as gentle knocking/visiting",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The speaker's round rush-thatched hut",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Autumn wind blowing into the hut",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation maps almost one-to-one onto the five ku divisions of the original, preserving the five-part structure without compression or expansion, though line 3 slightly personifies the sound as 'knocks' rather than simply rustling."
+    },
+    "translator_strategy": "McCauley pursues a literal, ku-by-ku correspondence that preserves the poem's five-part structure and explicit naming of autumn, while personifying the wind's rustling as 'gentle knocks' to render the visiting-sound pun in accessible English idiom.",
+    "overall_fidelity": "high",
+    "poem_number": 71,
+    "translator": "McCauley"
+  }
+}

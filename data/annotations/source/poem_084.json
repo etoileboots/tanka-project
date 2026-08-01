@@ -1,0 +1,81 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "ながらへば",
+      "ku": 1,
+      "reading_primary": "ながらえば (to survive/live long)",
+      "reading_secondary": "なが (long) embedded root",
+      "interaction": "The verb ながらふ (\"to live on, survive\") contains the root なが- associated with 'long' duration, reinforcing the poem's meditation on the passage of long time even though it functions here primarily as a single verb rather than a full double-reading pivot",
+      "confidence": "low"
+    },
+    {
+      "word": "世",
+      "ku": 4,
+      "reading_primary": "よ (this world / one's life circumstances)",
+      "reading_secondary": "よ (also echoes 夜 night, though not directly operative here)",
+      "interaction": "世 here denotes 'the times/life I once knew' — primarily operative as 'world/era of life' rather than 'night', but the well-known よ pivot family is checked; in this poem the dominant sense is life-circumstance, not night",
+      "confidence": "low"
+    },
+    {
+      "word": "憂しと見し世ぞ",
+      "ku": 4,
+      "reading_primary": "憂し (painful, hateful) — describing the world/era as distressing",
+      "reading_secondary": "うき (floating) - not overtly activated",
+      "interaction": "憂し is checked against the うき/憂き-浮き pivot pattern; here it is the adjective 憂し (ushi) directly, not a form of うき, so no floating-image double reading is grammatically active — included to document the check rather than as a confirmed kakekotoba",
+      "confidence": "low"
+    }
+  ],
+  "jokotoba": {},
+  "honkadori": {},
+  "kigo": {
+    "word": "憂しと見し世",
+    "season": "none",
+    "note": "This poem contains no seasonal imagery at all — it is a purely reflective, philosophical poem about the passage of time and the paradoxical nostalgia for past suffering. There are no flowers, leaves, birds, dew, frost, snow, rain, wind, moon, mist, grasses, rivers, clothing, or famous places referenced. The poem belongs to the 雑 (miscellaneous) category of classical anthologies rather than a seasonal one, dealing with 述懷 (expressing one's feelings on life) rather than nature.",
+    "confidence": "high"
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A conditional meditation: if the speaker survives long enough into the future, will they someday look back fondly even on this present period, remembering it with fond longing (shinobaren)?",
+    "shimo_theme": "A retrospective realization: the era/world that the speaker once regarded as painful and hateful (ushi) is now, from the vantage of the present, an object of longing and nostalgia (koishiki).",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku poses a hypothetical about the future (will I someday miss even this troubled present?), and the shimo-no-ku answers by revealing that this hypothetical has already happened once before — a past era once hated as 'ushi' (painful) is now, in the present, an object of longing. The poem's power lies in this paradoxical loop: suffering, once endured and passed, converts into nostalgia, suggesting the same transformation will happen again to the present suffering. Present and past are folded into each other through this recursive realization."
+  },
+  "furigana": [
+    {
+      "kanji": "頃",
+      "reading": "ころ"
+    },
+    {
+      "kanji": "憂",
+      "reading": "う"
+    },
+    {
+      "kanji": "見",
+      "reading": "み"
+    },
+    {
+      "kanji": "世",
+      "reading": "よ"
+    },
+    {
+      "kanji": "今",
+      "reading": "いま"
+    },
+    {
+      "kanji": "恋",
+      "reading": "こひ"
+    }
+  ],
+  "poem_number": 84,
+  "poet": "Fujiwara no Kiyosuke Ason",
+  "source_jp": "ながらへば\nまたこの頃や\nしのばれむ\n憂しと見し世ぞ\n今は恋しき"
+}

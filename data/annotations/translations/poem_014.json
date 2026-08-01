@@ -1,0 +1,374 @@
+{
+  "Dickens": {
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "speaker's soul vexed with cares — anticipates shimo content, inverted to opening position",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "unnumbered, crowded, perplexed — elaboration of 'midare' (disorder) transferred to soul",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'varied pattern' comparison — the jokotoba's tangled dye image, made explicit simile ('than...more confused')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Mojidsuri fabric — しのぶもぢずり named as textile",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "the produce of Shinobu's loom — restates cloth origin",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Shinobu in Michinoku land — place name doubling, restates ku1-2",
+          "origin": "source"
+        },
+        {
+          "en_line": 7,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "For whose sake ... doth gloom — 誰故に question",
+          "origin": "source"
+        },
+        {
+          "en_line": 8,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "hold o'er my failing heart command — closes with heart's disorder/passivity, echoing 我ならなくに (not my own doing)",
+          "origin": "source"
+        }
+      ]
+    },
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "relationship_type": "simile-explicit (translator makes it an explicit comparison via 'than...more confused' rather than the implicit jokotoba slide)",
+      "note": "Dickens opens with the shimo's emotional content (soul vexed, perplexed) in L1-2, then moves to the kami's cloth-pattern image in L3-6, then returns to shimo's question and conclusion in L7-8. This inverts the source's kami-then-shimo order and converts the implicit jokotoba pivot into an explicit stated simile ('than varied pattern more confused'), which weakens the associative slide the original relies on but preserves the overall comparative logic."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "しのぶ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Shinobu (place name / Mojidsuri fabric / Shinobu's loom)",
+        "note": "Dickens repeats 'Shinobu' twice (L5, L6) treating it purely as the place-name/cloth-type; no attempt to render the secondary sense of 忍ぶ (endure/conceal one's love) is made — the concealment/endurance meaning is entirely absent from the English."
+      },
+      {
+        "original_word": "乱れそめにし",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "perplext / confused",
+        "note": "The 'began to be disordered' sense is rendered via 'vext...perplext...confused', capturing the onset-of-disorder meaning, but the secondary 染め (dyed) pun linking to the cloth's dyeing process is lost — no dye/color vocabulary is used to describe the heart's state, only comparison ('than...more confused')."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Consistent with source analysis, no true kigo exists in this poem (しのぶもぢずり is an utamakura, not seasonal); Dickens correctly renders no seasonal imagery, treating the cloth purely as a textile/place image without adding false seasonal coloring — this is expected and appropriate, not a failure."
+    },
+    "translator_strategy": "Dickens front-loads the emotional confession (soul vexed and perplexed) then works backward to the cloth-pattern source image, converting the poem's implicit associative jokotoba into an explicit rhetorical simile ('than varied pattern more confus'd'), prioritizing metrical rhyme and Victorian verse conventions over preserving the original's word-order logic or the しのぶ kakekotoba's double meaning of concealed love.",
+    "overall_fidelity": "medium",
+    "poem_number": 14,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        2
+      ],
+      "shimo_lines": [
+        1,
+        3,
+        4
+      ],
+      "note": "Noguchi restructures the poem as a question-and-answer dialogue: L1 opens with 'Why does thy heart so stir' (addressed as if to the cloth/beloved, actually anticipating the shimo's emotional content), L2 gives the kami-no-ku image of Mojizuri cloth, then L3-4 return to the speaker's own heart and the answer 'nobody but my love.' This inverts the source's order (image first, then confession) by placing an emotional question BEFORE the cloth image, and splits the shimo confession across two separate lines with the jokotoba image sandwiched between them. The implicit simile logic (cloth's tangle IS the heart's tangle via 'midare') is weakened: the cloth is addressed as if it itself has a stirring heart ('thy heart') rather than functioning as vehicle for the speaker's own disorder, which converts the jokotoba into a semi-personified apostrophe rather than a phonetic/associative slide."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "しのぶ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Shinobu loom",
+        "note": "Noguchi keeps 'Shinobu' as the place-name/cloth designation ('Shinobu loom') but there is no trace of the secondary meaning 'to endure/conceal love' — no word in the translation carries that emotional undertone, so the pun's double function collapses into a single geographic/textile label."
+      },
+      {
+        "original_word": "乱れそめにし",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "stir",
+        "note": "The translator uses 'stir' twice (L1 'thy heart so stir', L3 'my heart does stir') to render 乱れ (disorder/agitation), capturing the 初め (onset of disturbance) sense loosely, but there is no lexical trace of 染め (dyeing) — the pivot linking emotional onset to the physical dyeing process of the cloth is lost; only the 'beginning to be disturbed' sense survives, and even that is diffused by being split across two separate lines/questions rather than fused as in source."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Source correctly notes no true kigo is present (shinobu-zuri is utamakura, not seasonal); Noguchi's translation likewise carries no seasonal imagery or atmosphere — consistent with the source having none to preserve."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Why does thy heart so stir' — an anticipatory emotional question that actually renders the shimo's confusion (乱れそめにし/誰故に) but placed before the cloth image, addressed outward ('thy') rather than inward",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'Mojizuri of Michinoku's Shinobu loom' — the jokotoba image of the tangled dye-cloth",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'Whom my heart does stir to?' — restates the 誰故に (whose fault) question, now correctly attributed to 'my heart'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Alas, nobody but my love!' — the closing confession that it is love itself (not the speaker's own doing) causing the disorder, corresponding to 我ならなくに",
+          "origin": "source"
+        }
+      ],
+      "structural_note": "The translator front-loads an emotional question (normally the shimo's content) before introducing the kami's cloth image, creating a chiastic A-B-A'-B' structure (heart-stir / cloth / heart-stir / answer) instead of the source's linear jokotoba-then-confession (kami then shimo). This compresses and reorders the five ku into four lines with the cloth image isolated in the middle rather than serving as the initiating vehicle."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact question-and-answer dramatic shape over preserving the source's linear jokotoba-to-confession logic, sacrificing the cloth-as-vehicle structure and the しのぶ/乱れそめにし puns' secondary meanings in favor of an emotionally direct, personified apostrophe ending in a plain declarative answer.",
+    "overall_fidelity": "low",
+    "poem_number": 14,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": "{\"preserved\": \"inverted\", \"kami_lines\": [3,4], \"shimo_lines\": [1,2,5], \"note\": \"Porter reorders the poem: he opens with the shimo's emotional content ('why does love distract my thoughts, disordering my will') before introducing the kami's cloth-pattern image ('I'm like the pattern on the cloth of Michinoku hill'), and closes with a return to the shimo's confusion ('all in confusion still'). This makes the implicit jokotoba-simile explicit ('I'm like...') and inverts the source's kami-then-shimo sequence into shimo-kami-shimo, effectively bracketing the cloth image with the emotional statement rather than letting the cloth image precede and phonetically slide into the emotional confession.\"",
+    "kami_lines": [
+      3,
+      4
+    ],
+    "shimo_lines": [
+      1,
+      2,
+      5
+    ],
+    "kakekotoba_handling": [
+      {
+        "original_word": "しのぶ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "Michinoku hill / pattern on the cloth",
+        "note": "Porter translates only the place-name/cloth-pattern surface sense (and even that only partially, rendering しのぶもぢずり as generic 'pattern on the cloth of Michinoku hill' without naming Shinobu specifically), and drops entirely the secondary sense of 忍ぶ (to endure/conceal one's love). No trace of the concealment/endurance meaning survives anywhere in the translation."
+      },
+      {
+        "original_word": "乱れそめにし",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "disordering my will / all in confusion still",
+        "note": "The 'began' (初め) sense of disorder starting is rendered through 'disordering' and 'confusion still', but the 染め (dyeing) pivot linking to the cloth's actual dye process is lost — the simile is stated explicitly ('I'm like the pattern') rather than fused through the wordplay, so only the onset-of-disorder meaning survives, not the dyeing echo."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal marker exists in the source poem itself (shinobu-zuri is a utamakura, not a kigo), and Porter's translation likewise carries no seasonal imagery or atmosphere — consistent with the source having none to preserve."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Why does love distract my thoughts — rendering the shimo's question of whose fault the heart's disorder is, compressed and turned into direct address ('Ah! why')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Disordering my will — continues the shimo's midare-someni-shi (heart thrown into disorder)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "I'm like the pattern on the cloth — makes the implicit jokotoba simile explicit with 'like', naming the comparison rather than letting it operate through phonetic slide",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Of Michinoku hill — place-name from kami-no-ku (みちのくの), though 'hill' is an invented specification not in source",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "All in confusion still — returns to and reinforces the shimo's disorder theme, effectively repeating/closing the emotional frame",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem into an emotional frame (distraction/disorder stated up front and again at the end) bracketing a central explicit simile to the cloth pattern, inverting the source's kami-first sequential logic into a shimo-kami-shimo envelope structure; also compresses 誰故に (whose fault) into a vaguer rhetorical 'why' losing the specific blame-question nuance."
+    },
+    "translator_strategy": "Porter prioritizes clear, singable rhyme-and-meter English verse by making the poem's implicit simile explicit ('I'm like the pattern'), sacrificing the kakekotoba wordplay and the source's kami-to-shimo sequential logic in favor of a tidy emotional frame that opens and closes with the speaker's inner turmoil.",
+    "overall_fidelity": "medium",
+    "poem_number": 14,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "The translation renders the kami-no-ku as a nominal exclamation ('Michinoku print / Of shinobu's tangled leaves!') without syntactic linkage to the shimo, and the shimo becomes a confused, garbled question-and-answer ('For whose sake have I, / Like confused, begun to be? / Only yours! I can not change!'). The implicit jokotoba-simile logic (cloth's disorder = heart's disorder) is not clearly rendered; 'Like confused' gestures vaguely at the comparison but the syntax breaks the connective tissue, effectively collapsing the two halves into a fragmented lyrical outburst rather than preserving the sliding image-to-emotion transition."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "しのぶ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "shinobu's tangled leaves",
+        "note": "McCauley keeps 'shinobu' as the place/cloth-type name (transliterated) but does not render the secondary meaning of enduring/concealing love; the pun is lost, only the proper-noun/cloth reading survives."
+      },
+      {
+        "original_word": "乱れそめにし",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "Like confused, begun to be",
+        "note": "The awkward phrase 'Like confused, begun to be' gestures at 'began' (初め) but the dyeing sense (染め) is entirely absent, and even the 'began' reading is garbled by odd word order; neither pivot meaning is clearly conveyed, so this is closer to a failed paraphrase than a genuine primary_only capture."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal imagery is present or implied; 'Michinoku print' and 'tangled leaves' evoke a textile/place image, not a season, consistent with the source analysis that this poem has no true kigo."
+    },
+    "translator_strategy": "McCauley prioritizes literal, word-by-word rendering of the Japanese lexical items (transliterating 'Michinoku' and 'shinobu') at the expense of syntactic coherence and the poem's rhetorical pivots, producing a fragmented, exclamatory English text that preserves vocabulary but sacrifices the implicit simile logic and both kakekotoba's double meanings.",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Michinoku (place name) rendered as 'Michinoku print'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Shinobu-zuri cloth described as 'tangled leaves', keeping the shinobu name but losing the double meaning",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'For whose sake have I' renders 誰故に (for whose sake)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Like confused, begun to be?' attempts 乱れそめにし but garbles the syntax and drops the dyeing pun",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Only yours! I can not change!' renders 我ならなくに (it is not because of me) as an emphatic declaration of devotion, shifting the rhetorical thrust from denial-of-self-cause to affirmation-of-belonging",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the jokotoba (ku1+2) into two short exclamatory lines and expands/paraphrases the shimo (ku3-5) into a broken question-and-answer structure, altering the original's rhetorical shape from a single flowing rhetorical question into a call-and-response exclamation."
+    },
+    "overall_fidelity": "medium",
+    "poem_number": 14,
+    "translator": "McCauley"
+  }
+}

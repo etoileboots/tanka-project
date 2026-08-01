@@ -1,0 +1,80 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "いく野",
+      "ku": 2,
+      "reading_primary": "いくの (place name Ikuno)",
+      "reading_secondary": "行く (to go)",
+      "interaction": "Ikuno is a real place name on the road to Tango, but 'iku' simultaneously evokes 行く 'to go,' reinforcing the sense of a long road being traveled/journeyed — the place name and the verb of travel are fused."
+    },
+    {
+      "word": "ふみ",
+      "ku": 4,
+      "reading_primary": "文 (a letter, written message)",
+      "reading_secondary": "踏み (to step/tread, from 踏む, echoing 道 'road' and place name Ikuno)",
+      "interaction": "The poem's ostensible surface message is 'I have not yet received a letter,' but ふみ also echoes 踏み, the treading of the road just described in the kami-no-ku — the walked road and the awaited letter are bound together in one word, so that the physical distance of the road stands for the impossibility of yet having a letter."
+    }
+  ],
+  "jokotoba": {
+    "text": "大江山いく野の道のとほければ",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "ふみ (via the echo with 踏み, and the general sense of the long road)",
+    "function": "The entire kami-no-ku describes a real, extremely long physical road (from Kyoto through Oeyama and Ikuno to Tango province) purely in order to establish 'とほければ' (being far/long), which then pivots via associative imagery/kakekotoba into the shimo-no-ku's claim about not yet having received a letter (ふみ) nor set foot on (ふみ) the road to Ama no Hashidate."
+  },
+  "honkadori": {
+    "source_poem": "Ise Monogatari-associated or general konkyo of famous uta-makura places (Oeyama, Ikuno, Ama no Hashidate)",
+    "source_poet": "unspecified / traditional uta-makura",
+    "echoed_phrase": "天の橋立",
+    "function": "This poem is itself famous as an impromptu retort composed on the spot (in the celebrated anecdote of Fujiwara no Sadayori's teasing) rather than as an allusion to a prior fixed poem; no single earlier honka can be identified with confidence, so this field records the traditional association rather than a verified textual source."
+  },
+  "kigo": {
+    "word": "天の橋立",
+    "season": "none",
+    "note": "Ama no Hashidate is a famous scenic place (meisho) rather than a seasonal word; the poem is built entirely around place names (Oeyama, Ikuno, Ama no Hashidate) functioning as uta-makura, with no seasonal image present. The poem's power lies in geographic/rhetorical wit rather than seasonal association."
+  },
+  "furigana": [
+    {
+      "kanji": "大江山",
+      "reading": "おほえやま"
+    },
+    {
+      "kanji": "野",
+      "reading": "の"
+    },
+    {
+      "kanji": "道",
+      "reading": "みち"
+    },
+    {
+      "kanji": "天",
+      "reading": "あま"
+    },
+    {
+      "kanji": "橋立",
+      "reading": "はしだて"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The great length and remoteness of the actual physical road from the capital through Oeyama and Ikuno toward Tango province",
+    "shimo_theme": "The speaker's witty denial that she has yet received any letter from her mother, nor set foot on that road herself, refuting an insinuation that her poems were ghostwritten",
+    "relationship_type": "other",
+    "pivot_note": "The poem is a rhetorical rebuttal built as a single extended conceit: the kami-no-ku establishes the literal distance and difficulty of the road to Tango (where the speaker's mother lived), and the shimo-no-ku pivots on the kakekotoba ふみ (letter/treading) to claim, in effect, 'the road is so far that I have neither traveled it nor received a letter by it' — simultaneously a literal geographic statement and a pointed retort defending her poetic authorship. This is best classified as 'other': the relationship is argumentative/rhetorical rather than seasonal, causal-physical, or a simple visual revelation, since the entire poem functions as wordplay-driven proof within an anecdote."
+  },
+  "poem_number": 60,
+  "poet": "Koshikibu no Naishi",
+  "source_jp": "大江山\nいく野の道の\nとほければ\nまだふみも見ず\n天の橋立"
+}

@@ -1,0 +1,340 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The despair (L1-L2) and the vow (L3-L4) are both present, but the paradoxical pivot linking them via the Naniwa channel-marker/exhaustion wordplay is lost. Instead of resignation logically fueling reckless devotion through a specific image, the translator simply juxtaposes 'I am miserable' with 'but I wish to see you even at cost of life' as a generic emotional sequence — the causal/paradoxical hinge (because all is already lost, I will risk everything) is flattened into a straightforward wish-then-consequence structure, losing the specific rhetorical mechanism (the kakekotoba pivot) that created the paradox. The relationship type shifts from 'paradox built on wordplay' to plain sequential declaration of feeling."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "難波なる身をつくし",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "cost my life",
+        "note": "The translator renders 身を尽くし as 'it should cost my life to me' — capturing the secondary meaning (self-sacrifice/exhaustion of the body) directly. However, the primary reading (澪標, channel marker) and the Naniwa place-name anchor are entirely dropped; there is no image of a marker, buoy, or Naniwa Bay at all. The pivot mechanism itself (the pun licensing the transition) is invisible — the English simply states the sacrifice-idea as a plain conditional clause, so the wordplay itself is not reproduced, only one of its two meanings survives in paraphrase form."
+      },
+      {
+        "original_word": "なにはなる",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "",
+        "note": "Naniwa as a place name is entirely omitted; no trace of the utamakura or the weak secondary associative reading appears anywhere in the translation."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal word or imagery is present in either source or translation; this is non-seasonal love poetry and the translation correctly reflects that absence — there is no atmosphere of season anywhere, consistent with the source having none tied to 難波 beyond its utamakura function."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Distracted by my misery = わびぬれば (having grown weary/despairing)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "How utterly forlorn am I = 今はた同じ (now it is all the same/utterly hopeless)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Oh that I might thee once more see = 逢はむとぞ思ふ (the wish to meet), pulled forward ahead of the cost-clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Tho' it should cost my life to me = 難波なる身をつくしても, with Naniwa/channel-marker dropped, only the 'cost of life' meaning retained",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the JP clause order: source states the cost-clause (身をつくしても) before the wish-to-meet clause (逢はむとぞ思ふ), but the English states the wish first (L3) then the cost (L4), reordering shimo-no-ku's two components. Additionally ku3's Naniwa/channel-marker content is entirely excised rather than mapped to any line, compressing the pivot into a bare abstract conditional."
+    },
+    "translator_strategy": "Dickens prioritizes smooth rhymed quatrain form and emotional directness in Victorian-style English verse, sacrificing the Naniwa utamakura and the channel-marker kakekotoba entirely in favor of a plain, generalized statement of despair-then-devotion.",
+    "overall_fidelity": "low",
+    "poem_number": 20,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The despair/resignation of kami (L1-L2) is present, and shimo (L3-L4) states the resolve to meet the beloved even at cost of life. The paradox logic (despair fueling reckless devotion) is weakly implied by juxtaposition but the causal pivot mechanism (via the kakekotoba) is lost since 'Naniwa' and its channel-marker imagery are entirely omitted — the two halves read as sequential statements rather than a licensed rhetorical turn."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "難波なる身をつくし",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "for my own life",
+        "note": "Noguchi keeps only the 'exhausting one's body/life' meaning ('even for my own life'), rendering it as a simple sacrificial phrase. The primary reading (澪標, channel marker at Naniwa) and the place name itself are dropped entirely, so the pivot/pun structure and its utamakura resonance disappear."
+      },
+      {
+        "original_word": "なにはなる",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "(absent)",
+        "note": "No trace of 'Naniwa' or any place-name reference appears in the translation; the weak secondary association is likewise absent."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "There is no seasonal word in the source (love poem), and Noguchi's translation likewise carries no seasonal imagery or atmosphere — consistent with the source's non-seasonal nature."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'Now it will be same whatever it be' renders わびぬれば 今はた同じ — resignation that all is the same now.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'Oh what a misery!' is an emotional exclamation expanding on the despair of わびぬれば, not present as separate content in source but amplifying kami's mood.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'I might think to see thee once more' renders 逢はむとぞ思ふ (the wish/intention to meet), pulled forward before the sacrifice clause.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'Even for my own life' renders 難波なる身をつくしても but strips the place-name/channel-marker imagery down to the 'life-sacrifice' meaning alone.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Noguchi inverts the shimo-no-ku's internal order: the source structure is [sacrifice-clause][intention-to-meet], but the translation gives [intention-to-meet: L3][sacrifice-clause: L4], reversing ku4 and ku5. Also L2 is an interpolated exclamatory expansion of kami's despair with no direct ku equivalent."
+    },
+    "translator_strategy": "Noguchi prioritizes compact emotional directness and English readability over preserving the wordplay and place-name imagery, sacrificing the Naniwa kakekotoba entirely in favor of a simple, sentimental paraphrase of despair-then-devotion.",
+    "overall_fidelity": "low",
+    "poem_number": 20,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter reframes the kami-no-ku as a narrative memory of an actual past meeting ('We met but for a moment') rather than the source's abstract weariness/resignation with the world ('わびぬれば 今はた同じ'). This turns the paradox (despair fueling reckless resolve) into a simpler cause-effect romantic narrative: a brief past meeting has left the speaker wretched, and now he vows to see her again regardless of cost. The logical connective tissue is displaced from 'resignation licensing sacrifice' to 'unsatisfied longing motivating renewed pursuit' — a different relationship type (cause/consequence rather than paradox)."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "難波なる身をつくし",
+        "reading_preserved": "secondary_only",
+        "method": "partial",
+        "en_equivalent": "The tide shall measure out my life",
+        "note": "Porter keeps the sense of 'exhausting/measuring out one's life' (身を尽くし) via 'the tide shall measure out my life,' a poetic image that evokes the Naniwa seascape (tide) without naming the place or the channel-marker (澪標) itself. The literal channel-marker/utamakura reading is lost, but the watery, self-sacrificial imagery is retained through 'tide,' giving a partial, transformed echo of the pivot rather than a true bilingual pun."
+      },
+      {
+        "original_word": "なにはなる",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "(absent)",
+        "note": "The place name Naniwa is dropped entirely; only the generic 'tide' image remains, so neither the literal place-name reading nor its associative function survives explicitly, though 'tide' faintly gestures at the bay setting."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal word exists in the source (love poem, non-seasonal), and Porter's translation likewise introduces no seasonal imagery — consistent absence, not a mistranslation of a kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Recasts わびぬれば/今はた同じ as a narrative of a brief past meeting ('We met but for a moment')",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'I'm wretched as before' echoes the weariness/resignation of わびぬれば...同じ",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'The tide shall measure out my life' compresses 難波なる身をつくしても into a tidal image of self-exhaustion",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Unless I see once more' renders 逢はむとぞ思ふ as a conditional vow",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'The maid, whom I adore' expands the implicit beloved into an explicit object of affection, adding romantic color not literally present",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses kami-no-ku's abstract resignation into a concrete narrative premise (a past brief meeting), then expands shimo-no-ku's terse vow into two lines with an added epithet ('the maid, whom I adore') not present in the source; the kakekotoba pivot is rendered as a single continuous image (tide measuring life) rather than a two-layered pun."
+    },
+    "translator_strategy": "Porter prioritizes a smoothly rhyming, narratively coherent English love lyric over preserving the source's wordplay and paradox structure, substituting an invented 'brief meeting' backstory and a tidal metaphor for the untranslatable 澪標/身を尽くし pun.",
+    "overall_fidelity": "low",
+    "poem_number": 20,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "McCauley preserves the emotional arc of resignation (L1-2) pivoting into resolve (L3-4), but the paradox is weakened by rendering L3 'let us meet' as a shared invitation rather than the speaker's own unilateral vow, softening the fierce reckless-devotion contrast the source builds. The Naniwa place-name is displaced to the final line, breaking its structural role as the pivot vehicle between kami and shimo, so the logical hinge (despair -> exhausting oneself -> meeting) is somewhat reordered rather than built through the kakekotoba itself."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "難波なる身をつくし",
+        "reading_preserved": "secondary_only",
+        "method": "partial",
+        "en_equivalent": "Even though it costs my life / In the Bay of Naniwa",
+        "note": "McCauley separates the two readings into two different lines: L4 conveys the 'exhausting myself/costing my life' (身を尽くし) sense, and L5 supplies 'Bay of Naniwa' literally as a place name, but the two are not fused into a single pivoting word — the pun's simultaneity is lost, and 澪標 (channel marker) imagery itself disappears entirely, leaving only the place name and the sacrificial sense as sequential statements rather than a single bilingual or structural pun."
+      },
+      {
+        "original_word": "なにはなる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "In the Bay of Naniwa",
+        "note": "The place name Naniwa is preserved literally as a geographic anchor but the weak secondary associative sense (whatever the case) is not attempted, which is consistent with the source analysis noting this is a minor associative reading."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal word exists in the source (this is non-seasonal koi no uta), and McCauley's translation likewise carries no seasonal imagery or atmosphere — consistent with the source having none to preserve."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'Now, in dire distress' renders わびぬれば (having grown weary/distressed with the world)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'It is all the same to me!' renders 今はた同じ (now it's all the same)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'So, then, let us meet' renders 逢はむとぞ思ふ (I think to meet), though 'let us' shifts it from a solitary vow to a shared invitation",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Even though it costs my life' renders 身をつくしても (even if I exhaust my body/life)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'In the Bay of Naniwa' renders 難波なる, the place-name element of the kakekotoba, relocated to the final line",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley reorders the ku sequence: the shimo-no-ku's conclusion (L5 'let us meet') is moved to line 3, before the sacrificial cost (L4) and the place name (L5) are stated, producing an inversion of the source's kami->pivot->shimo linear progression into a resolve-then-justification structure."
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, singable English quatrain-like flow and emotional clarity over preserving the kakekotoba's simultaneous double meaning, sacrificing the channel-marker imagery and pivot mechanics in favor of sequential paraphrase of the poem's emotional logic.",
+    "overall_fidelity": "medium",
+    "poem_number": 20,
+    "translator": "McCauley"
+  }
+}

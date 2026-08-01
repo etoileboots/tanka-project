@@ -1,0 +1,75 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "世",
+      "ku": 1,
+      "reading_primary": "よ (this world/society)",
+      "reading_secondary": "よ (one's life/lot, human relationships)",
+      "interaction": "世の中 literally means 'the world/society' but also carries the sense of 'the state of (my) relationships/life' — particularly love relationships in classical usage, so the poem's wish for constancy applies both to the political/social world and to personal romantic bonds",
+      "confidence": "medium"
+    },
+    {
+      "word": "綱手",
+      "ku": 5,
+      "reading_primary": "つなで (towrope for boat)",
+      "reading_secondary": "かなし (associated pathos, not a true second reading but the emotional weight the rope-image bears)",
+      "interaction": "Not a full pivot in the strict sense — 綱手 itself is single-meaning (towline), but it is the vehicle for the poem's central simile: the fragile, straining rope pulling the fisherman's boat mirrors the tenuous, strained bonds of human society the poet wishes were stable",
+      "confidence": "low"
+    }
+  ],
+  "jokotoba": {
+    "text": "なぎさこぐ あまの小舟の 綱手",
+    "ku_span": [
+      3,
+      4,
+      5
+    ],
+    "pivot": "かなしも (the pathos/affection felt toward the tow-rope scene, transferred back onto 世の中)",
+    "function": "The image of a small fishing boat being towed along the shore by a rope functions as an extended, freshly composed image (not a fixed epithet) that visually and emotionally embodies the fragility and strain the poet feels about the impermanence of human affairs, culminating in the exclamation かなしも that colors the whole poem retrospectively"
+  },
+  "honkadori": {
+    "source_poem": "Man'yōshū poem attributed to Kakinomoto no Hitomaro (or anonymous Man'yōshū verse) describing 'あまの小舟の綱手かなしも' type imagery of towed fishing boats along the shore",
+    "source_poet": "Man'yōshū (anonymous/Hitomaro tradition)",
+    "echoed_phrase": "あまの小舟の綱手かなしも",
+    "function": "The poet draws on the archaic, Man'yōshū-flavored diction of humble fishermen's boats and towropes to lend his Shinkokinshū-era poem a tone of ancient, unadorned pathos, aligning his political anxiety with a timeless natural image"
+  },
+  "kigo": {
+    "word": "なぎさこぐ",
+    "season": "none",
+    "note": "The fishing/boat-towing scene is not tied to a specific season in the classical canon; it belongs to the broad category of 'conventional waka imagery' of coastal/maritime life rather than to any seasonal kigo such as blossoms, snow, or autumn wind. This poem is fundamentally a non-seasonal, occasional/topical (zōka) composition about the instability of the world, so no true kigo governs it.",
+    "confidence": "low"
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2
+    ],
+    "shimo_ku": [
+      3,
+      4,
+      5
+    ],
+    "kami_theme": "A direct wish/exclamation that the world (society, human relationships, the poet's own precarious political position) might remain constant and unchanging",
+    "shimo_theme": "A concrete visual image of a small fisherman's boat being towed along the shore by a rope, and the poet's exclamation of pathos (かなしも) at the sight",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The abstract, almost prayer-like wish of the kami-no-ku (that the world stay constant) is never explained or justified logically; instead the shimo-no-ku offers a small, humble maritime scene — a boat straining against its towrope near the shore — that stands as an unstated simile for the fragility and strain of human affairs and relationships, letting the visual image carry the emotional weight of the opening wish without directly stating the comparison"
+  },
+  "furigana": [
+    {
+      "kanji": "世の中",
+      "reading": "よのなか"
+    },
+    {
+      "kanji": "小舟",
+      "reading": "おぶね"
+    },
+    {
+      "kanji": "綱手",
+      "reading": "つなで"
+    }
+  ],
+  "poem_number": 93,
+  "poet": "Kamakura no Udaijin",
+  "source_jp": "世の中は\nつねにもがもな\nなぎさこぐ\nあまの小舟の\n綱手かなしも"
+}

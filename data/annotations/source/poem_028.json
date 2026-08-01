@@ -1,0 +1,53 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "かれぬ",
+      "ku": 5,
+      "reading_primary": "枯れぬ",
+      "reading_secondary": "離れぬ",
+      "interaction": "枯れぬ (withers/dies away, of grasses) applies literally to 草 (grasses), while 離れぬ (people grow distant, stop visiting) applies to 人め (visitors/human presence); the single verb かれぬ governs both subjects simultaneously via zeugma, so that the withering of plants and the withdrawal of human visitors are expressed as one and the same event."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A general seasonal statement: the mountain village feels its loneliness intensify above all in winter.",
+    "shimo_theme": "The specific reason for that loneliness: both visitors and vegetation have withdrawn/withered, leaving the speaker in isolation.",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku asserts winter as the season of maximal desolation as a general truth (まさりける), and the shimo-no-ku supplies the concrete causal grounds for that claim — the double withdrawal of human visitors (人め) and plant life (草), unified through the kakekotoba かれぬ, which lets a single verb serve as the physical/causal explanation for the abstract loneliness named in the kami."
+  },
+  "kigo": {
+    "word": "冬",
+    "season": "winter",
+    "note": "冬 (fuyu) is stated explicitly and functions as the poem's declared seasonal frame; the loneliness of the mountain village is asserted to be at its peak specifically in winter, contrasted implicitly with the other three seasons which offer at least some visitors or greenery. The withering grasses (枯れぬ) reinforce this as a winter desolation poem, but 冬 itself is the load-bearing, explicitly named kigo governing the whole conception."
+  },
+  "furigana": [
+    {
+      "kanji": "山里",
+      "reading": "やまざと"
+    },
+    {
+      "kanji": "冬",
+      "reading": "ふゆ"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "草",
+      "reading": "くさ"
+    }
+  ],
+  "poem_number": 28,
+  "poet": "Minamoto mo Muneyuki Ason",
+  "source_jp": "山里は\n冬ぞさびしさ\nまさりける\n人めも草も\nかれぬとおもへ"
+}

@@ -1,0 +1,293 @@
+{
+  "poem_number": 26,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T01:52:47.538813+00:00"
+    },
+    "devices": {
+      "みゆき": {
+        "status": "removed",
+        "original": {
+          "word": "みゆき",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:52:06.219509+00:00"
+      },
+      "もみじ葉": {
+        "status": "confirmed",
+        "original": {
+          "word": "もみじ葉",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:52:15.270719+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "miyuki train": {
+          "status": "removed",
+          "original": {
+            "word": "miyuki train",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:52:17.637659+00:00"
+        },
+        "redd'ning leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "redd'ning leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:52:18.286337+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:20.036504+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:23.721092+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:27.720820+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T01:53:35.651248+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:39.985969+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:40.585451+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "miyuki train": {
+          "status": "removed",
+          "original": {
+            "word": "miyuki train",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:52:57.768941+00:00"
+        },
+        "maple leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "maple leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:52:58.519449+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:03.253341+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:12.352788+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:12.753442+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:13.117656+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:53:59.568534+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:03.419981+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:17.239164+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:17.768591+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:18.166380+00:00"
+        }
+      },
+      "devices": {
+        "brilliant leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "brilliant leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:08.386167+00:00"
+        },
+        "royal band": {
+          "status": "removed",
+          "original": {
+            "word": "royal band",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:10.435408+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "pilgrimage": {
+          "status": "removed",
+          "original": {
+            "word": "pilgrimage",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:21.685820+00:00"
+        },
+        "maple leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "maple leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:22.135202+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:24.269203+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:25.016885+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:26.884996+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:54:27.702523+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T01:54:43.084889+00:00"
+        }
+      }
+    }
+  }
+}

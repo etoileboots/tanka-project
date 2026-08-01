@@ -1,0 +1,77 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "そよ",
+      "ku": 4,
+      "reading_primary": "そよ(interjection: そのとおり/well then)",
+      "reading_secondary": "そよ(onomatopoeia: rustling sound of wind)",
+      "interaction": "そよ echoes the rustling sound the wind makes in the bamboo grass (an onomatopoeic mimicry of 'sayo-sayo' wind-in-leaves) while simultaneously functioning as the exclamatory 'that's it!' / 'indeed' interjection introducing the speaker's assertion in the shimo-no-ku — the sound of the wind in the sasawara is literally re-heard in the word that pivots the poem into direct address."
+    }
+  ],
+  "jokotoba": {
+    "text": "ありま山猪名の笹原風吹けば",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "そよ",
+    "function": "The entire kami-no-ku (place names Arima-yama and Ina no Sasawara, plus the image of wind blowing through the bamboo grass) is a freely-composed extended preface that leads, through the sound 'そよ' (the rustling of the grass), into the shimo-no-ku's exclamation 'いでそよ' — it establishes both a real landscape and an auditory bridge into the poem's emotional statement, rather than being a fixed epithet."
+  },
+  "honkadori": {
+    "source_poem": "Attributed in some sources to an anonymous poem in the Shinkokinshu/earlier tradition referencing Arima-yama and Ina no Sasawara wind imagery",
+    "source_poet": "Anonymous (traditional association)",
+    "echoed_phrase": "ありま山ゐなの笹原風吹けば",
+    "function": "Daini no Sanmi draws on a traditional place-name pairing (Arima-yama / Ina no Sasawara) already associated with the imagery of wind stirring bamboo grass, lending her poem an air of established poetic diction even as she turns it toward a personal reproach to a fickle lover — though the precise ur-source poem is not securely attested, the phrase carries the flavor of quotation from established utamakura tradition."
+  },
+  "kigo": {
+    "word": "風",
+    "season": "none",
+    "note": "The wind blowing through the sasawara (bamboo grass) is not tied to a specific season in this poem; it functions primarily as an auditory device generating the pivot 'そよ' rather than as a seasonal marker. Other candidate images — 笹原 (bamboo grass, evergreen, non-seasonal), ありま山/猪名 (place names, non-seasonal) — likewise carry no strong seasonal charge. This poem is essentially a-seasonal, a love poem (relationship/reproach poem) built on landscape and sound rather than seasonal observation, so season is best marked as none despite the presence of a wind image."
+  },
+  "furigana": [
+    {
+      "kanji": "猪名",
+      "reading": "ゐな"
+    },
+    {
+      "kanji": "笹原",
+      "reading": "ささはら"
+    },
+    {
+      "kanji": "風",
+      "reading": "かぜ"
+    },
+    {
+      "kanji": "吹",
+      "reading": "ふ"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "忘",
+      "reading": "わす"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A landscape of Mount Arima and the bamboo grass of Ina, stirred and made to rustle audibly when the wind blows — a scene of natural motion and sound.",
+    "shimo_theme": "The speaker turns sharply to address her lover directly: 'That's it — how could I ever forget you?' asserting through rhetorical question that her feelings, unlike the shifting wind, remain constant.",
+    "relationship_type": "other",
+    "pivot_note": "The kami-no-ku is not merely scenic backdrop but a jokotoba whose culminating sound (そよ, the rustle of wind in grass) is reused as the very interjection that launches the shimo-no-ku's passionate rhetorical question; the natural image of wind that comes and goes ironically underscores the shimo's claim of steadfast, unwavering love, producing a poem that pivots from auditory landscape to emotional avowal through wordplay rather than through simple causation or simile."
+  },
+  "poem_number": 58,
+  "poet": "Daini no Sanmi",
+  "source_jp": "ありま山\n猪名の笹原\n風吹けば\nいでそよ人を\n忘れやはする"
+}

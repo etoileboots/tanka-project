@@ -1,0 +1,129 @@
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:300;font-display:swap;
+  src:url('fonts/inter-variable.woff2') format('woff2');
+}
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:400;font-display:swap;
+  src:url('fonts/inter-variable.woff2') format('woff2');
+}
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:500;font-display:swap;
+  src:url('fonts/inter-variable.woff2') format('woff2');
+}
+@font-face{
+  font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;
+  src:url('fonts/inter-variable.woff2') format('woff2');
+}
+
+*,*::before,*::after{box-sizing:border-box;}
+html{background:#fff;}
+body{
+  margin:0;background:#fff;color:#1a1a1a;
+  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  font-weight:300;
+  font-size:1.05rem;line-height:1.75;
+}
+
+.article{
+  max-width:44rem;margin:0 auto;padding:3rem 1.5rem 6rem;
+}
+
+.back-link{
+  display:inline-block;margin-bottom:1.5rem;
+  font-size:.85rem;font-weight:500;color:#888;text-decoration:none;
+}
+.back-link:hover{color:#1a1a1a;}
+
+h1{
+  font-size:clamp(1.6rem,4vw,2.1rem);font-weight:700;letter-spacing:-.01em;
+  margin:0 0 .6rem;color:#111;text-wrap:balance;
+}
+.lede{
+  font-size:.95rem;color:#666;font-weight:400;font-style:italic;margin:0 0 2.5rem;
+  line-height:1.6;
+}
+
+.toc{
+  display:flex;flex-wrap:wrap;gap:.4rem .7rem;
+  padding:1rem 1.25rem;margin:0 0 2.75rem;
+  background:#fff;border:1px solid #e8e8e8;border-radius:8px;
+  font-size:.85rem;
+}
+.toc a{font-weight:500;color:#444;text-decoration:none;border-bottom:1px solid transparent;}
+.toc a:hover{color:#1a1a1a;border-bottom-color:#1a1a1a;}
+.toc-sep{color:#ccc;}
+
+section{margin-bottom:2.25rem;scroll-margin-top:1.5rem;}
+section:last-child{margin-bottom:0;}
+
+p{margin:0 0 1.1rem;font-weight:300;}
+p:last-child{margin-bottom:0;}
+
+/* "About X:" — bold, inline with the paragraph's own body text (which
+   stays the page's normal light weight), not a separate heading. */
+.lead-label{font-weight:700;color:#111;}
+
+/* Links to other sections on this page — distinguished from surrounding
+   body text by weight alone (medium, not bold, not the page's light
+   default), no underline so it reads as part of the sentence. */
+a.xref{font-weight:500;color:#1a1a1a;text-decoration:none;}
+a.xref:hover{text-decoration:underline;text-decoration-color:#bbb;}
+
+a{color:#1a1a1a;}
+
+strong{font-weight:700;color:#111;}
+
+.pull-quote{
+  margin:1.5rem 0;padding:.9rem 1.4rem;
+  border-left:3px solid #e8e8e8;color:#555;font-weight:300;
+  font-style:italic;font-size:.98rem;
+}
+
+.device-list{
+  display:flex;flex-direction:column;gap:.7rem;
+  margin:1.25rem 0;padding:1rem 1.25rem;
+  background:#fff;border:1px solid #e8e8e8;border-radius:8px;
+}
+.device-list-row{display:flex;align-items:baseline;gap:.6rem;}
+.device-swatch{
+  width:10px;height:10px;border-radius:2px;flex-shrink:0;
+  transform:translateY(-1px);
+}
+.device-list-row b{font-weight:700;color:#111;flex-shrink:0;}
+.device-list-row span{font-weight:300;color:#444;font-size:.96rem;}
+
+.flow-box{
+  margin:1.5rem 0;padding:1.5rem;
+  background:#fff;border:1px solid #e8e8e8;border-radius:8px;
+  overflow-x:auto;
+}
+.flow-box .mermaid{display:flex;justify-content:center;}
+.flow-caption{
+  margin-top:1.4rem;font-size:.82rem;font-weight:300;color:#888;font-style:italic;text-align:center;
+}
+
+.credits-note{
+  margin-top:1.5rem;padding:1rem 1.25rem;
+  background:#fff;border:1px solid #e8e8e8;border-radius:8px;
+  font-size:.94rem;font-weight:300;color:#444;
+}
+
+/* ── Prompt viewer (prompts.html) ──
+   Scoped to pre#pass1/#pass2 specifically, not a bare `pre` selector — the
+   flowchart's mermaid diagram also lives in a <pre class="mermaid">
+   (mermaid keeps the tag as its container), and a bare `pre{}` rule here
+   was painting that dark code-block background behind the diagram too. */
+.prompt-note{font-size:.85rem;font-weight:300;color:#888;font-style:italic;margin:0 0 .8rem;}
+#pass1, #pass2{
+  white-space:pre-wrap;word-break:break-word;
+  background:#1a1a1a;color:#e8e6e0;
+  font-family:'SF Mono',Menlo,Consolas,monospace;
+  font-size:.78rem;line-height:1.6;
+  padding:1.25rem 1.4rem;border-radius:8px;
+  max-height:32rem;overflow-y:auto;
+  margin:0 0 1rem;
+}
+
+@media (max-width:640px){
+  .article{padding:2rem 1.25rem 4rem;}
+}

@@ -1,0 +1,338 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translator preserves the general emotional arc—loss of companions leading to the pine as a foil—but restructures it into a rhyming ballad-like sequence, adding an explicit closing statement ('But not the friends for whom I mourn') that makes the implicit contrast of the original overt, softening the rhetorical-question structure of the kami-no-ku (which becomes a flat declarative 'Men's friendship more I may not seek') and thus weakening rather than inverting the original juxtaposition."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "松",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "pine-trees",
+        "note": "The translator keeps the literal image of the Takasago pine ('ancient pine-trees') but the homophonic pivot to 待つ (waiting/enduring companionship) is not rendered in the English; 'Comrades of many a year now gone' gestures at endurance but doesn't recreate the pun mechanism itself."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "pine-trees",
+      "note": "As in the source, the pine carries no seasonal marker in Japanese poetic convention (it symbolizes longevity/timelessness rather than a season), and the translation likewise conveys no seasonal atmosphere — 'ancient pine-trees' evokes permanence and old age rather than any time of year, consistent with the source's non-seasonal treatment of 松."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Bereft of old companions — sets up the loss theme from the kami-no-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Rhetorical question 'whom shall I know' flattened into a declarative statement about seeking no more friendship",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The ancient pine-trees as the only thing left, introducing the Takasago pine image",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Naming Takasago's peak as the pine's location",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The pine as 'comrades of many a year now gone', echoing the idea of enduring through time",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Explicit statement that the pine is not the friend he mourns, closing the denial of companionship",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact five-ku waka into six rhymed lines, splitting shimo-no-ku content across three lines (3,4,5,6) and adding explicit emotional commentary ('for whom I mourn') not present as a discrete lexical item in the source, though it is a reasonable extrapolation of the poem's implied grief."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrical English verse readability over literal fidelity, expanding the compact waka into a fuller narrative with explicit emotional statement, sacrificing the pivot-word wordplay and rhetorical-question structure of the original in favor of a clear, singable elegiac quatrain-plus-couplet form.",
+    "overall_fidelity": "medium",
+    "poem_number": 34,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The rhetorical question of kami-no-ku is compressed into a single line, and the shimo-no-ku's turn to the pine and its denial as an old friend is preserved across the remaining lines; the juxtaposition logic survives but is compressed, losing the jokotoba's expansive introduction of the pine image."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "松",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "pine-tree",
+        "note": "The translation names the Takasago pine-tree literally (surface reading まつ), but gives no trace of the homophonic 待つ 'to wait' — the waiting/enduring-through-time connotation is lost entirely, so only the primary botanical/place-name reading survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "pine-tree",
+      "note": "Since 松 carries no seasonal marker in the source (it signifies longevity/timelessness rather than a season), the translation's rendering of 'pine-tree' is faithful to the non-seasonal function of the original; there is no seasonal atmosphere to preserve or lose here, so no seasonal signal is present in either text."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Rhetorical question compressing 'whom shall I make my friend' into one line",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Introduction of the Takasago pine as the enduring counter-image",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The pine's inability to remain/qualify as a true old friend",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Final statement that the pine is not an old friend of the speaker's past",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The five ku are compressed into four lines, with the kami-no-ku's two ku merged into a single line (losing the standalone rhetorical force of 'who shall I make my friend' as a full couplet) while the shimo-no-ku is expanded slightly by splitting 'could not remain' from 'as an old friend of mine,' emphasizing the negation with a small caesura not present in the original's single continuous clause."
+    },
+    "translator_strategy": "Noguchi prioritizes concise, natural-sounding English quatrain form over preserving the kakekotoba's double meaning or the jokotoba's rhetorical expansiveness, rendering the poem's emotional core (isolation despite the pine's endurance) plainly and directly.",
+    "overall_fidelity": "medium",
+    "poem_number": 34,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "Porter preserves the two-part structure — loss of human friends versus the enduring pine — but softens the emotional core: rather than explicitly denying that the pine can be an 'old friend,' the final line ('That I knew long ago') implies a nostalgic continuity with the pine, which actually reverses the source's point that the pine is NOT an old friend. This shifts the juxtaposition from a denial/deepening of isolation to something closer to bittersweet consolation, weakening the original contrast."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "松",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "pine trees",
+        "note": "Porter renders 松 straightforwardly as 'pine trees' (Takasago's famous pine), preserving the literal botanical/toponymic meaning but losing entirely the homophonic pivot to 待つ ('to wait'), so the layered sense of enduring/waiting through the ages for a friend who never returns is not activated in English."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "pine trees",
+      "note": "As in the source, the pine is not a seasonal kigo but a symbol of longevity and timelessness tied to the utamakura Takasago; Porter's 'pine trees' correctly carries this non-seasonal, enduring quality rather than any seasonal atmosphere, consistent with the source analysis noting no kigo is present."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Loss of old, familiar friends — the rhetorical question of who can now be called a true confidant is converted into a flat statement of loss.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Further elaboration on the men the speaker used to know, completing the kami-no-ku's sense of isolation.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Introduces Takasago beach/pine as the turn ('Yet still'), corresponding to 高砂の.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The enduring pine trees still growing, corresponding to 松もむかしの.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Extrapolated closing line stating the speaker 'knew' the pine 'long ago,' which inverts the source's assertion that the pine is NOT an old friend into an implication that it IS a familiar, known presence from the past.",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five ku into five lines roughly 1:1, but the crucial negation in the shimo-no-ku (松も昔の友ならなくに — 'the pine is not an old friend of former days') is softened/reversed into a wistful affirmation that the speaker once knew these same pines, altering the poem's emotional logic from denial-of-companionship to continuity-of-memory."
+    },
+    "translator_strategy": "Porter prioritizes smooth, rhyming quatrain-like verse in English (rhyming 'grow'/'ago', 'know'/'grow') over precise preservation of the kakekotoba and the shimo-no-ku's negation, producing a gentler, more consoling meditation on memory rather than the original's starker assertion that even the ancient pine cannot be counted as an old friend.",
+    "overall_fidelity": "medium",
+    "poem_number": 34,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The rhetorical question of whom to hold as a friend (L1-3) is answered obliquely by turning to Takasago's pines, only to deny them companionship (L4-5), preserving the emotional-juxtaposition structure where enduring nature fails to substitute for a lost human friend."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "松",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Takasago's pines",
+        "note": "The translation renders 松 only as the literal pine tree of Takasago; the homophonic pivot with 待つ (waiting) is not activated in English, so the secondary 'waiting' sense is lost entirely."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "松 (pine) carries no seasonal marking in the source, being tied instead to longevity and timelessness; the translation's 'Takasago's pines' likewise conveys no seasonal atmosphere, only an image of ancient endurance, consistent with the source's lack of a kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Rhetorical question: whom now",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Reflection on advanced age, expanding on the speaker's implied aging condition",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Completion of the question: can I hold as friends",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Turn to Takasago's pine as enduring symbol",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Denial that the pine is a friend of former days",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the kami-no-ku's single rhetorical question into three lines by inserting an explanatory parenthetical about age ('so far advanced') not explicitly present in the source's compact ku, likely drawing an interpretive inference about the speaker's state; the shimo-no-ku is compressed into two lines with reasonably faithful correspondence to the original's three ku."
+    },
+    "translator_strategy": "McCauley opts for a plainly literal, expository rendering that clarifies the speaker's implied loneliness and age through added phrasing, sacrificing the kakekotoba's wordplay for clarity and directness.",
+    "overall_fidelity": "medium",
+    "poem_number": 34,
+    "translator": "McCauley"
+  }
+}

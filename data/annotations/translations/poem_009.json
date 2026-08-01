@@ -1,0 +1,379 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "literal narrative of lost love replacing simile-implicit fading of blossoms/self",
+      "note": "Dickens abandons the flower-fading/self-fading simile entirely. Instead he substitutes a literal narrative: 'thy love hath passed away' (kami) and a wintry mourning for a past 'summer' of love (shimo). The blossom image is gone; the relationship becomes a straightforward cause-effect love-lament rather than the implicit simile where the fading flower IS the fading woman. This is a wholesale displacement of the rhetorical structure into a conventional Victorian love-lyric convention (lost love, winter vs summer contrast)."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふる",
+        "reading_preserved": "neither",
+        "method": "transformed",
+        "en_equivalent": "winter-rains / wearily",
+        "note": "Dickens keeps a rain image ('winter-rains') but detaches it from the 経る/降る pun on the speaker's own aging; 'wearily' gestures at passing time but with no wordplay linking rain-falling and life-passing in a single word."
+      },
+      {
+        "original_word": "ながめ",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "mourn",
+        "note": "The dual gazing/long-rains meaning of ながめ is collapsed into simple emotional verb 'mourn'; no rain-gazing pun survives, and the fusion of natural and personal registers is lost."
+      },
+      {
+        "original_word": "よ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "",
+        "note": "No trace of 世/夜 resonance; the 'world/life' vs 'night' undertone is not represented at all, replaced by a straightforward love-narrative frame."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "transformed",
+      "en_equivalent": "winter-rains / summer past",
+      "note": "The original spring kigo (花の色, fading cherry blossoms) is entirely replaced by a winter/summer contrast invented by the translator ('winter-rains', 'the summer past'). This is not merely omission but a substitution of an entirely different seasonal framework, turning a spring poem about blossom-fading into a wintry lament for a departed summer of love."
+    },
+    "translator_strategy": "Dickens discards the flower/self simile and kakekotoba wordplay entirely, rewriting the poem as a rhyming Victorian love-lament using an invented winter/summer seasonal contrast to convey loss, prioritizing English lyrical convention and rhyme over fidelity to the source's imagery and rhetorical structure.",
+    "overall_fidelity": "low",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "'Thy love hath passed away from me' recasts the fading of the blossoms' color (花の色はうつりにけりな) and the 'in vain' (いたづらに) as a lost love rather than a fading flower/self.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'Left, desolate, forlorn' extends いたづらに's sense of futility/uselessness into an emotional state of abandonment.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'In winter-rains how wearily' loosely maps onto わが身世にふるながめせしまに, replacing the ふる/ながめ pivot with an invented winter-rain image and a sense of weary passage of time.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'The summer past I mourn' completes the shimo-no-ku's sense of the speaker mourning her own faded self/time, but recast as mourning a past season of love rather than fading beauty.",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "low",
+      "structural_note": "Dickens compresses and heavily reinterprets the five ku into four rhymed lines, inventing a love-lost narrative and a winter/summer seasonal contrast not present in the source; the mapping to source ku is loose and largely extrapolated rather than translating specific images."
+    },
+    "poem_number": 9,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Noguchi collapses the flower/self simile into a single fused image from the start ('the flowers and my love') rather than presenting the blossom-fading as an independent kami-statement that is then revealed to mirror the speaker in the shimo. The implicit simile structure (flower fading = speaker's beauty fading, revealed only in shimo) is flattened into a continuous narrative where both are named as co-subjects from line 1, and the closing rhetorical question ('Where is my yester-love?') is an invented emotional coda not structurally present in the source's grammatical unity of ふる/ながめ.",
+      "relationship_type": "simile-implicit reduced to direct-equation/continuous narrative"
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ふる",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "under the rain / passed away",
+        "note": "Noguchi's 'passed away under the rain' captures 降る (falling rain) fairly directly but loses 経る (the passage of the speaker's own life/years) as a distinct grammatical action tied to 'わが身'; the aging/passage-of-self sense is not rendered, only the rain-falling sense, and even that is merged with 'passed away' which suggests death/fading rather than temporal duration."
+      },
+      {
+        "original_word": "ながめ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "idly looked upon them",
+        "note": "Only the 眺め (gazing, idle reverie) sense survives via 'idly looked upon'; the 長雨 (long rains) sense is not conveyed by this phrase, though the rain imagery does appear earlier in L2, effectively splitting the two meanings of ながめ across two separate lines rather than fusing them in one word as the original does."
+      },
+      {
+        "original_word": "よ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "—",
+        "note": "No trace of 世 or its secondary resonance with 夜 appears; 'my love' and 'yester-love' replace any notion of 'this world'/'passing through life' with a purely personal romantic frame."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "flowers ... under the rain",
+      "note": "The word 'flowers' combined with 'rain' evokes the spring image of blossoms scattering under rain, though 'spring' is never named and the flowers are immediately equated with 'my love' rather than left as an autonomous seasonal image, weakening the classical kigo function of 花."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Fuses 花の色 (blossom color) with 'my love', already collapsing kami's flower-image into the personal subject",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            4
+          ],
+          "content_summary": "'Passed away under the rain' merges うつりにけりな (faded/changed) with ふる's rain-sense",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'While I idly looked upon them' renders ながめ's gazing sense, addressed to the flowers/love as object",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'Where is my yester-love?' is an invented rhetorical question standing in for いたづらに (in vain, uselessly); no direct source equivalent for this phrasing",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Noguchi compresses five ku into four lines by fusing flower and self from the outset, then adds an invented closing question not grammatically present in the source, while いたづらに's 'in vain' sense is transmuted into elegiac questioning rather than literal 'uselessly'."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, singable English lyric of romantic loss over preserving the grammatical fusion and delayed revelation of Komachi's kakekotoba, openly equating flowers with 'my love' from the first line and inventing a plaintive closing question to supply emotional closure.",
+    "overall_fidelity": "low",
+    "poem_number": 9,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "transformed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "explicit_simile (transformed from simile-implicit)",
+      "note": "Porter explicitly separates the flower's fading (caused literally by rain, L1-2) from the speaker's own fading charms (L3-4), then unites them with an explicit summary line 'Both bloomed, alas! in vain' (L5), which openly states the parallel that the source only implies through the pivot words ふる/ながめ. This makes the simile overt rather than fused grammatically into one continuous utterance — the two events are presented as parallel but discrete, connected by an added authorial comment rather than by a single verb governing both registers. The structural logic (blossom-fading as vehicle, speaker's-aging as tenor) is preserved, but the grammatical fusion characteristic of the kakekotoba is lost, so this is best described as 'partial' preservation with a transformed rhetorical mechanism."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふる",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "heavy showers of rain",
+        "note": "Porter renders ふる almost entirely as 降る (rain falling), making the rain literal and causative ('washed away by heavy showers of rain'), losing the 経る (passage of the speaker's life) reading, which is instead expressed separately and non-punningly in L3-4 ('my charms... are also on the wane')."
+      },
+      {
+        "original_word": "ながめ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "(not directly rendered; implied by 'heavy showers')",
+        "note": "The double meaning of ながめ (long rains / melancholy gazing) is not translated at all as a pivot; the 'melancholy brooding' sense disappears entirely, and the 'long rains' sense is absorbed into the earlier line about washing rain, so the word itself has no direct equivalent doing double duty."
+      },
+      {
+        "original_word": "よ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "N/A",
+        "note": "The secondary resonance with 夜 (night) is not reflected anywhere in the translation; 世 itself is rendered only implicitly via 'my charms... are on the wane' with no explicit mention of 'world' or 'life' or 'night'."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "blossom's tint / bloomed",
+      "note": "Though 'spring' is never named, the image of blossoms fading and 'bloomed... in vain' carries the seasonal atmosphere of cherry blossoms' brief spring beauty; however, by converting ながめ into literal rain rather than preserving the pivot's dual seasonal/emotional resonance, some of the layered seasonal texture (long spring rains) is reduced to a simple external weather event rather than an image fused with the speaker's inner state."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The blossom's color is washed away (fading of flower's hue)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "By heavy showers of rain — externalizes ふる/ながめ as literal rainfall causing the fading",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "My charms, which once I prized so much — speaker's own beauty, corresponds to わが身",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Are also on the wane — parallels the fading of blossom with speaker's aging (経る fused with ながめ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "content_summary": "Both bloomed, alas! in vain — an added authorial summary uniting flower and self, roughly corresponding to いたづらに but expanded into an explicit closing statement not directly present as such in the source line order",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the single continuous 31-syllable utterance into two explicit parallel statements (flower/rain, then self/aging) followed by an added summarizing line that makes the implicit simile explicit; this is a compression-and-expansion move: kami-ku content is compressed into 2 lines, shimo-ku content compressed into 2 lines, and a wholly new 5th line is added to state the parallel outright, which has no direct one-to-one source ku but paraphrases いたづらに's sense of futility for both flower and self."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, metrically regular quatrain-plus-couplet in English by literalizing the kakekotoba into two separate parallel statements (external rain/flower fading, then internal aging) and adding an explicit final line to spell out the implied simile, sacrificing the pivot-word wordplay and the ながめ/世 double meanings for clarity, meter, and rhyme.",
+    "overall_fidelity": "medium",
+    "poem_number": 9,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "McCauley renders the whole poem as a single continuous grammatical utterance in English, closely following the Japanese syntax (flower's color has passed; while I vainly gazed on trivial things, passing through the world). The implicit simile linking blossom-fading to the speaker's own aging is not made explicit as a simile, but the flow does preserve the original's fused, single-sentence structure rather than inverting or clearly separating the two halves. Because 'has already passed away' (kami) and the shimo material run together without any pivot word doing double duty, the two-part parallel logic collapses into one narrative rather than being felt as two linked statements."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ふる",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "journey through the world",
+        "note": "McCauley uses 'my journey through the world' for わが身世にふる, capturing the 世 (passage through life) sense in a paraphrase, but the 降る (falling of rain) sense is entirely dropped — no rain image appears anywhere in the translation. Since the primary reading is only loosely paraphrased (not a precise word for 'passing/aging') and the secondary reading is wholly absent, this counts as paraphrase rather than a clean primary_only rendering, though 'journey through the world' does gesture at 世.",
+        "en_equivalent_note": ""
+      },
+      {
+        "original_word": "ながめ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "set my gaze",
+        "note": "The gazing/brooding sense (眺め) is preserved directly via 'vainly I have set my gaze,' but the secondary meaning 長雨 (long rains) is completely lost — no rain, no weather image appears in the translation at all."
+      },
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "world",
+        "note": "世 is rendered as 'the world' in 'my journey through the world,' preserving the primary sense; the secondary resonance of 夜 (night) is not evoked anywhere in the English."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Color of the flower / Has already passed away",
+      "note": "The word 'flower' names the blossom image but the poem never specifies cherry blossoms or spring explicitly; the fading of 'color of the flower' carries the spring/mujō atmosphere implicitly through the image of a flower's color passing away, without the season being named outright."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Color of the flower — 花の色",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Has already passed away — うつりにけりな + いたづらに (vain fading) partially folded in",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "While on trivial things — いたづらに reinterpreted as 'trivial things' rather than 'in vain'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Vainly I have set my gaze — ながめせしまに, with 'vainly' borrowed from いたづらに",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "In my journey through the world — わが身世にふる",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley reorders content: いたづらに (line 3, 'trivial things') is repositioned before ながめ, and 'vainly' is moved to modify the gazing rather than the fading, while the ふる (line 4) content is pushed to the very end as 'journey through the world,' inverting the JP ku4-ku5 order in English lines 4-5."
+    },
+    "translator_strategy": "McCauley prioritizes producing a smooth, literal-sounding continuous English sentence that tracks the Japanese word order loosely, sacrificing both kakekotoba double meanings (rain/night undertones vanish) and the bipartite pivot in favor of a single flowing statement about vain aging.",
+    "overall_fidelity": "medium",
+    "poem_number": 9,
+    "translator": "McCauley"
+  }
+}

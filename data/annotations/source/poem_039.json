@@ -1,0 +1,76 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "忍ぶ",
+      "ku": 3,
+      "reading_primary": "しのぶ (to endure, to conceal one's feelings)",
+      "reading_secondary": "しのぶ (echoes 篠 shino- of 篠原, and also evokes しのぶ草/しのぶずり, the fern/plant associated with longing)",
+      "interaction": "The verb しのぶれど 'though I conceal/endure it' is phonetically anchored by the preceding 篠原 (shinohara, bamboo-grass field), whose first syllables しの- prefigure しのぶ. This is not a full double-meaning pivot in the strict sense but a jokotoba-pivot: the sound しの links the physical landscape image to the psychological verb, so 忍ぶ itself functions as the hinge-word where the preface's sound resolves into the poem's real subject, concealment of love."
+    }
+  ],
+  "jokotoba": {
+    "text": "浅茅生の小野の篠原",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "しの (篠 → 忍ぶ)",
+    "function": "Describes a sparse, overgrown moor of cogon-grass and low bamboo-grass (shinohara); this landscape image is not literally relevant to the speaker's feelings but is composed specifically to phonetically generate しの, which pivots into 忍ぶ (to conceal/endure one's love), following the established jokotoba technique of using a place-image purely for its sound-bridge into the emotional statement that follows."
+  },
+  "honkadori": {
+    "source_poem": "Man'yōshū-derived / associated with a poem structurally similar to 'Asajiu no ono no shinohara shinoburu ni' type utamakura poems using 浅茅生 and 篠原 as jokotoba for 忍ぶ",
+    "source_poet": "Traditional/anonymous utamakura convention",
+    "echoed_phrase": "浅茅生の小野の篠原",
+    "function": "Draws on a conventional jokotoba pattern using overgrown moor imagery (asajiu, shinohara) to introduce しのぶ, a technique inherited from earlier waka rather than a single identifiable source poem with full confidence"
+  },
+  "kigo": {
+    "word": "浅茅生",
+    "season": "autumn",
+    "note": "浅茅 (asaji, cogon/cogon-grass) growing sparse and low over a moor is a classical image of desolation, most strongly associated with autumn in waka — withered or thinning grasses signal the fading of the year and by extension the fading or hidden nature of the speaker's feelings. Together with 篠原 (a field of small bamboo-grass), it evokes a bleak, untended landscape conventionally linked to autumn desolation and unfulfilled longing, reinforcing the poem's theme of concealed love breaking into open yearning."
+  },
+  "furigana": [
+    {
+      "kanji": "浅茅生",
+      "reading": "あさぢふ"
+    },
+    {
+      "kanji": "小野",
+      "reading": "をの"
+    },
+    {
+      "kanji": "篠原",
+      "reading": "しのはら"
+    },
+    {
+      "kanji": "忍",
+      "reading": "しの"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "恋",
+      "reading": "こひ"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A desolate moor overgrown with sparse cogon-grass and low bamboo-grass, used as a preface whose sound generates the verb 'to endure/conceal' (shinoburedo) — the speaker states that they have been concealing their love",
+    "shimo_theme": "Despite all effort to hide and endure the feeling, it overflows uncontrollably — the speaker asks rhetorically why longing for this person has become so unbearably strong",
+    "relationship_type": "seasonal-pivot",
+    "pivot_note": "The bleak autumnal landscape of kami-no-ku is not merely decorative: it is constructed entirely to yield, through the sound しの, the verb 忍ぶ that opens shimo-no-ku. The physical image of grasses barely containing themselves on a wild moor mirrors the emotional image of a heart that can no longer contain its longing — the landscape's overgrown, uncontained quality silently prefigures the shimo's 'amarite' (overflowing), even though the connection is sonic/associative rather than a stated simile."
+  },
+  "poem_number": 39,
+  "poet": "Sanji Hitoshi",
+  "source_jp": "浅茅生の\n小野の篠原\n忍ぶれど\nあまりてなどか\n人の恋しき"
+}

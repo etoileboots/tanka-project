@@ -1,0 +1,316 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "note": "Dickens radically transforms the poem: he reverses the speaker/addressee relationship, turning it into a male speaker reproaching a 'maiden' for not coming, rather than the original female speaker recalling the man's promise. The causal-physical logic (promise leads to the long vigil ending in the ariake moon) is inverted into a direct reproach ('why com'st thou not'), and the shimo's moon description is repositioned as an accusatory backdrop rather than the emblem of a completed, bitter vigil. The temporal unfolding (waiting through the night until dawn) collapses into a static rebuke scene."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "長月",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "long-moon",
+        "note": "Dickens renders 長月 (Nagatsuki, the ninth month) as 'long-moon,' a mistranslation that conflates 長月 with 有明の月 by pulling the 'naga' (long) association forward and fusing it with 'moon' rather than 'month.' This captures the secondary/associative resonance of 'long' (long night, long wait) but discards the primary calendrical meaning of the ninth month entirely, and invents a compound 'long-moon' that doesn't exist in the source's semantics — it is a transformed rendering rather than a clean primary/secondary split."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "transformed",
+      "en_equivalent": "long-moon",
+      "note": "The autumn month name 長月 is replaced by the invented phrase 'long-moon night,' which relocates the 'long' association from the calendar month to the moon itself, producing a seasonal marker that reads as an odd proper-noun-like descriptor rather than conveying the classical autumn atmosphere of a nine-month lunar dusk. No autumn imagery (cold, dew, insects, foliage) is added to compensate, so the season's felt atmosphere is largely lost even though the phrase gestures at 'long' night."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Address to a 'maiden' scolding her for being heedless of her vow — inverts the source's implied situation where the male lover failed to come, recast as a female addressee failing her vow.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Question 'why com'st thou not' plus naming of 'long-moon night' (mistranslated 長月), compressing the causal setup and the month name together.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The Ariake moon shining now — direct rendering of 有明の月.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Description of the moon's light as 'forgetfulless' and welcoming, an interpretive elaboration of 待ち出でつるかな (the emergence of the moon after the long wait), reframed as the moon's steadfast/welcoming quality rather than the speaker's bitter vigil.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Dickens compresses the jokotoba (今来むといひしばかりに) into a two-line rhetorical question addressed to a 'maiden,' inverting gender roles from the original (traditionally read as a woman's lament over a man's broken promise) into a man's reproach of a woman; the shimo-no-ku's emotional pivot (the moon as sole witness to the failed wait) becomes instead a description of the moon's benevolent light, losing the irony of the original pivot."
+    },
+    "translator_strategy": "Dickens prioritizes a rhyming, quatrain-form English lyric with an invented address to a 'maiden,' sacrificing the source's gender voicing, the precise calendrical kakekotoba, and the bitter irony of the ariake moon pivot in favor of a smooth, moralizing reproach poem.",
+    "overall_fidelity": "low",
+    "poem_number": 21,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "The translation reorders the poem so that the waiting-for-the-moon image (shimo content) appears first (L1-L2) and the lover's broken promise (kami content) appears last (L3-L4), reversing the causal-physical sequence of the original where the promise precedes and motivates the long wait. The causal logic is still present in a loose sense—the reader can infer the promise explains the wait—but syntactically the effect-then-cause order inverts the original's cause-then-effect structure, and the exclamation-mark ending on the promise reframes it as bitter realization rather than initial premise."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "長月",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Naga Tsuki",
+        "note": "Noguchi transliterates 長月 as 'Naga Tsuki' (treating it almost as a proper name/moon-title fused with 'morning moon'), preserving the calendrical/primary reading as a proper noun but losing entirely the resonance with 'long' (nagai) that reinforces the long-night waiting motif; ironically 'naga' is present in the romanization but not conveyed as meaning 'long' to an English reader, so the secondary suggestive resonance is not functionally translated."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Naga Tsuki",
+      "note": "The literal month-name is transliterated but not translated or explained as 'ninth month/autumn'; no autumnal atmosphere (cold, long night, falling leaves) is evoked elsewhere in the translation, so the seasonal signal is present only as an opaque proper noun to non-Japanese readers and functionally omitted as a kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Now I have to wait' — renders the shimo-no-ku's waiting motif, displaced to the opening line",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'Only for the Naga Tsuki morning moon to appear' — combines 長月 (transliterated) with 有明の月 ('morning moon'), compressing ku 3 and 4 into one line",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'But thy word of promise' — renders いひしばかりに, the promise/speech act of the kami-no-ku, now placed after the waiting instead of before it",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'To come and see me soon!' — renders 今来むと, the lover's actual promised words, placed last for emphatic/ironic effect",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the temporal/logical sequence of the original: instead of promise-then-wait (kami then shimo), the English gives wait-then-promise, turning the poem into something closer to a retrospective lament ending on the broken words themselves, with 'soon' ironically undercutting 'now' (ima) and the exclamation point turning the final line into an outcry rather than a simple report."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, rhyme-adjacent English quatrain that foregrounds the emotional irony of the broken promise by reversing chronological order, sacrificing the seasonal/kakekotoba nuance of 長月 and the causal kami-shimo sequence for lyrical compression and an exclamatory closing line.",
+    "overall_fidelity": "low",
+    "poem_number": 21,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Porter reorders the poem so the shimo-no-ku content (the ariake moon witnessed after a night's wait) opens the translation (L1-L2), while the kami-no-ku content (the lover's promise 'ima kon') is placed at the end (L3-L5). This reverses the causal-physical sequence: source moves promise→wait→moon, but Porter moves moon→wait→promise, effectively inverting cause and effect into a retrospective structure where the moon is seen first and the promise is recalled afterward as explanation."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "長月",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "autumn morn",
+        "note": "Porter translates 長月 simply as 'autumn' (via 'autumn morn'), losing both the specific calendrical name Nagatsuki and the なが/'long' resonance with the long night of waiting; no attempt to capture the 'long' undertone survives explicitly, though 'the whole night through' in L1 does gesture at duration, it is decoupled from the 長月 word itself."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn morn",
+      "note": "The season is named outright as 'autumn' rather than through pure imagery, a fairly direct explicit rendering, though it loses the specific poetic month-name Nagatsuki and its 'long' connotation; the moon-through-the-night imagery in L1 reinforces the autumn dawn atmosphere."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The moon that shone the whole night through — refers to the ariake moon witnessed at dawn after the long wait, front-loaded from shimo-no-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'This autumn morn I see' — combines the autumn season marker (長月) with the moment of seeing the moon (有明の月を...出でつるかな)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'As here I wait thy well-known step' — recasts the waiting (待ち出でつる) as waiting for footsteps, adding a physical detail not explicit in source",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'For thou didst promise me' — the lover's promise, corresponding to いひしばかりに",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Direct quotation 'I'll surely come to thee' rendering 今来むと as reported speech",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter inverts the chronological order of the poem: the moon/wait (shimo) is presented first, followed by the promise (kami) as explanatory flashback, and expands the single word 待ち into a scene of listening for footsteps, plus renders 今来むと as a full direct quotation at poem's end for emotional emphasis."
+    },
+    "translator_strategy": "Porter prioritizes a natural, chronologically inverted English narrative (moon first, promise as explanatory close) and singable rhyme/meter over preserving the source's kami-shimo sequence or its subtle morphological wordplay.",
+    "overall_fidelity": "medium",
+    "poem_number": 21,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translation preserves the causal-physical logic: the promise ('I will come') in L1-2 directly motivates the waiting described in L3-5, culminating in the appearance of the dawn moon. The word 'awaited' in L3 acts as the pivot linking the broken promise to the emblematic moon, matching the source's causal structure."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "長月",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "long month",
+        "note": "McCauley translates 長月 (Nagatsuki) literally as 'the long month,' which actually captures both the calendrical name's etymology and the resonance with 'long' waiting — but only by literalizing the etymology rather than preserving a genuine double meaning as a live pivot. Since 'long' is explicitly stated, it reads as a gloss on the month name rather than a wordplay; the secondary emotional resonance (long night of waiting) is present but flattened into direct statement rather than functioning as a subtle undertone, so this counts as primary_only with the 'long' sense made explicit rather than pivoting."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "long month",
+      "note": "McCauley renders 長月 literally as 'the long month,' which is not the conventional English name for autumn but does gesture toward the calendrical/seasonal marker; combined with 'moon of dawn' it evokes the long autumn night atmosphere, though the season 'autumn' itself is never named outright, making this more implicit than fully explicit — however since 'long month' is a direct calque of the actual seasonal term, it functions as an explicit (if opaque to non-specialist readers) naming of the kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Just because she said — sets up the jokotoba premise",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'In a moment I will come' — the lover's promise quoted",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "I've awaited her — the waiting motif, compressing 待ち出でつる's action into present perfect",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "E'en until the moon of dawn — 有明の月, the ariake moon",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "In the long month, hath appeared — 長月, placed out of original ku order, completing the verb 'appeared' for 出でつる",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley inverts the ku-3 (長月) and ku-4 (有明の月) content, placing 'the long month' after 'the moon of dawn' rather than before, likely for rhyme/meter; also splits the waiting verb (待ち出でつる) across L3 and L5, with 'awaited' in L3 anticipating the object completed by 'hath appeared' in L5."
+    },
+    "translator_strategy": "McCauley prioritizes literal, word-for-word fidelity to the Japanese syntax and vocabulary (including a literal calque of 長月 as 'the long month') even at the cost of natural English word order and rhyme-driven inversion of ku-3 and ku-4 content.",
+    "overall_fidelity": "medium",
+    "poem_number": 21,
+    "translator": "McCauley"
+  }
+}

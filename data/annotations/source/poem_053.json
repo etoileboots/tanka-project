@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "夜の",
+      "ku": 2,
+      "reading_primary": "よ (night)",
+      "reading_secondary": "よ (life/world/one's lot)",
+      "interaction": "The 'night' of solitary sleeping simultaneously suggests the speaker's whole married 'life' or 'lot' (as a neglected wife) — the single lonely night stands in for the enduring condition of her marriage."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker lies alone at night, sighing/grieving, waiting through the slow dawn",
+    "shimo_theme": "A bitter rhetorical question: does the man who caused this suffering have any idea how long such a dawn-wait truly feels?",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The kami-no-ku establishes the physical and emotional experience of lying awake sighing through a solitary night; the shimo-no-ku pivots from that lived sensation to a pointed rhetorical accusation — the speaker infers, and demands acknowledgment, that her husband cannot possibly understand the interminable length of that waiting, turning private suffering into implicit reproach."
+  },
+  "kigo": {
+    "word": "夜",
+    "season": "none",
+    "note": "Night here is not a seasonal image but a temporal/emotional setting; the poem contains no explicit or implicit seasonal marker — no blossoms, moon-as-autumn-image, frost, dew, or seasonal creature appears. The 'night' and 'dawn' (明くる) are diurnal, not seasonal, markers, so this poem is properly read as without kigo (season: none)."
+  },
+  "furigana": [
+    {
+      "kanji": "嘆",
+      "reading": "なげ"
+    },
+    {
+      "kanji": "一人寝",
+      "reading": "ひとりぬ"
+    },
+    {
+      "kanji": "夜",
+      "reading": "よ"
+    },
+    {
+      "kanji": "明",
+      "reading": "あ"
+    },
+    {
+      "kanji": "久",
+      "reading": "ひさ"
+    },
+    {
+      "kanji": "知",
+      "reading": "し"
+    }
+  ],
+  "poem_number": 53,
+  "poet": "Mother of Udaisho Michitsuna",
+  "source_jp": "なげきつつ\nひとりぬる夜の\n明くる間は\nいかに久しき\nものとかは知る"
+}

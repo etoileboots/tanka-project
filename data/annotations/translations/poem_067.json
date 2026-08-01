@@ -1,0 +1,365 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator preserves the basic logic — the arm-pillow encounter is likened to the brevity of a spring-night's dream, and this leads into anxiety about rumor/reputation — but restructures it as a conditional ('Had I made...what had rumour said?') rather than the flat declarative-then-pivot structure of the original, turning the pivot on かひなく into a rhetorical question ('what had rumour said?') before the reputation-fear proper. The two-part logic (trivial encounter vs. weighty consequence) survives, but the mechanics are loosened into a hypothetical narrative frame, weakening the tight enactment of the kakekotoba bridge."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "かひなく",
+        "reading_preserved": "secondary_only",
+        "method": "paraphrase",
+        "en_equivalent": "what had rumour said",
+        "note": "The translator conveys the 'in vain/futile speculation' sense through the rhetorical question about rumour, but the embedded image of the arm (かひな) is not echoed at all in this line — the arm appears only earlier in L1 ('proffer'd arm'), disconnected from the pivot moment, so the pun's simultaneous double-image is lost; only the abstract 'futile reputation-risk' notion survives, and even that is paraphrased rather than pinpointed in a single word."
+      },
+      {
+        "original_word": "立たむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "How would my fame",
+        "note": "The rising/spreading of reputation is rendered literally as fame being affected, matching the primary sense of 立つ as applied to 名; no secondary pivot was asserted by the source analysis for this word so this is a straightforward literal rendering."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "spring-night's dream",
+      "note": "The translator names the season directly by retaining 'spring-night's dream' as a fixed phrase, preserving both the explicit seasonal word and its traditional association with brevity/insubstantiality, closely mirroring the source's jokotoba function even though it is compressed into a single line rather than spread across three ku."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the offered arm as a pillow",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "pillow for my weary head, elaborating the arm-pillow image",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "no longer than the charm lasts — brevity comparison",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2,
+            4
+          ],
+          "content_summary": "of a spring-night's dream, followed by the rhetorical pivot 'what had rumour said'",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "how would my fame",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "have suffered from men's slandering blame",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders content: the arm-pillow image (originally ku3, following the jokotoba of ku1-2) is placed first, then the spring-night-dream brevity comparison (ku1-2) follows as a qualifying clause, inverting the original's sequence where the seasonal simile precedes the arm-pillow image; the whole first four lines are cast as a conditional 'had I...' construction not present grammatically in the source."
+    },
+    "translator_strategy": "Dickens recasts the poem as an English conditional lyric with rhyme and meter, prioritizing narrative clarity and euphonic verse form over reproducing the precise mechanics of the jokotoba-kakekotoba pivot.",
+    "overall_fidelity": "medium",
+    "poem_number": 67,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation keeps the general logic of a brief, dream-like encounter (kami) followed by anxiety over a resulting rumor (shimo), but the boundary is blurred: 'what a shame' (line 3) begins the shimo-ku emotional content while still finishing the kami-ku image of the arm-pillow, so the two halves bleed into one continuous sentence rather than standing as a clear simile-then-consequence structure.",
+      "relationship_type": "simile-implicit collapsed into a single run-on exclamation"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かひなく",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "what a shame",
+        "note": "The translator conveys only the abstract regret ('what a shame') and drops both the literal 'in vain' sense and the embedded pun on かひな (arm); the physical arm image from 'Thy arm for my pillow' is present but not linked wordplay-wise to the regret expressed afterward, so the pivot's double meaning is lost entirely."
+      },
+      {
+        "original_word": "立たむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "rumor rise",
+        "note": "The translator renders the conventional 'a rumor will arise' sense directly and does not attempt any secondary pivot, consistent with the source analysis noting this is not a strong true kakekotoba."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Spring night",
+      "note": "The translator names the season directly with 'Spring night dream,' preserving the explicit seasonal word and its association with brevity and dreaminess, though the atmospheric fragility is compressed into a short simile rather than elaborated."
+    },
+    "translator_strategy": "Noguchi prioritizes compact lyrical exclamation over preserving the pivot wordplay, rendering the poem as a single flowing sigh of regret rather than reproducing the structural pause between the dream-image and the anxiety about reputation.",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Emphasizes brevity ('For a short while,—short') corresponding to the fleeting quality of 春の夜",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Names the spring night dream image (春の夜の夢ばかりなる)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Introduces the arm-pillow (手枕) and pivots into the exclamation of shame/regret (かひなく...惜しけれ, partially)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Completes the fear that a bad rumor will arise (立たむ名こそ惜しけれ)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four lines with line 3 bridging kami and shimo content, splitting the かひなく pivot's dual function across lines 3 and 4 rather than concentrating it in one word, which dissolves the ku-boundary that the pivot originally straddled."
+    },
+    "poem_number": 67,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "Porter keeps the structural logic of a brief, dream-like arm-pillow moment (kami) followed by anxiety over reputation (shimo), but compresses the shimo section drastically into a single rhetorical question ('What would the world have said?'), losing the explicit weighing of regret (惜しけれ) and the pivot's wit; the kami/shimo boundary survives but the shimo is thin and generalized rather than a pointed statement about a lasting rumor."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かひなく",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "proffered arm",
+        "note": "Porter renders the arm image early (L1, 'proffered arm') separately from the 'in vain' sense, which is dropped entirely — there is no word conveying futility or worthlessness of reputation; the pivot's dual meaning is dissolved into a straightforward arm-pillow image and a generic worry, so neither the literal 'in vain' nor the wordplay linking arm/futility survives."
+      },
+      {
+        "original_word": "立たむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "world have said",
+        "note": "The notion of a rumor or reputation 'arising' is rendered as 'what would the world have said', preserving the primary sense of gossip/reputation spreading, though flattened into a rhetorical question rather than a statement of fear."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "transformed",
+      "en_equivalent": "summer's dream",
+      "note": "Porter explicitly changes the season from spring to summer ('A summer's dream had fled'), replacing 春の夜 with a different named season entirely — this substitutes the source's characteristic fleeting spring-night atmosphere with an unrelated seasonal marker, likely for rhyme with 'fled', losing the connotation of springtime brevity and romantic hazy tone associated with 春の夜 in the waka tradition."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the offered arm as pillow (手枕)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "pillow for my head, continuing the arm-pillow image",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "the brief moment, referencing the dream-like duration (夢ばかりなる)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "a season's dream having fled — spring night reinterpreted as 'summer's dream'",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "anxiety over reputation compressed into a rhetorical question, omitting the かひなく pivot and the explicit regret 惜しけれ",
+          "origin": "source"
+        }
+      ]
+    },
+    "confidence": "medium",
+    "structural_note": "Porter reorders and compresses: the jokotoba (ku1-3) is spread across four lines with the arm-pillow image moved to the front and the dream/season image pushed later, while the entire shimo (ku4-5, containing the pivot and the regret) is collapsed into one closing rhetorical question, losing the かひなく wordplay and the explicit 惜しけれ sentiment.",
+    "translator_strategy": "Porter prioritizes a smooth, rhyming English quatrain-plus-refrain over preserving the pivot wordplay and precise seasonal reference, sacrificing かひなく's double meaning and swapping 'spring' for 'summer' to serve rhyme and meter.",
+    "overall_fidelity": "low",
+    "poem_number": 67,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translation preserves the conditional structure (If... then...) linking the fleeting spring-night dream/arm-pillow to the fear of consequence, but it compresses and slightly flattens the simile into a straightforward conditional clause rather than the more elaborate jokotoba build-up; the logical connection (trivial encounter -> feared reputation) survives but the ku-by-ku richness (esp. the かひな/かひなく pivot) is lost, weakening the structural nuance."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かひなく",
+        "reading_preserved": "secondary_only",
+        "method": "paraphrase",
+        "en_equivalent": "blameless stained",
+        "note": "The translator renders かひなく as 'blameless stained' (an odd phrase meaning wrongly/undeservedly stained), capturing only the abstract 'in vain/undeservedly' sense tied to reputation; the embedded かひな (arm) pun is entirely lost, though 'arm' does appear separately in line 3 as 'Pillowed on this arm' — but there is no lexical link between that 'arm' and the 'blameless stained' phrase, so the pivot's wit (arm <-> in-vain) is not reconstructed in English."
+      },
+      {
+        "original_word": "立たむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "name were",
+        "note": "The verb 立つ (a reputation 'arising') is rendered through 'my name were... stained', capturing the sense of a reputation coming into being/spreading, though the dynamic verb is replaced by a passive stative construction; no secondary pivot is asserted in the source analysis for this word, so this is treated as a single-meaning rendering."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "spring's short night",
+      "note": "The translator explicitly names the season ('spring's short night'), directly preserving both the seasonal word and its connotation of brevity/insubstantiality, closely matching the source's 春の夜 imagery of a fleeting, dream-like spring night."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Conditional framing invoking the dream of a spring night",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Specifies 'a spring's short night' and the act of resting in dream",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The arm-pillow (手枕) image, rendered literally as 'Pillowed on this arm'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The fear that one's name/reputation would be wrongly ('blameless') stained — corresponds to かひなく立たむ名",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The concluding lament ('Hard, indeed, would be my fate') corresponding to 惜しけれ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation follows the ku order closely in a 5-line structure that maps almost one-to-one onto the five ku, though lines 1-2 together cover the jokotoba's first two ku (春の夜の / 夢ばかりなる) and line 4 compresses かひなく立たむ名 into a single clause, losing the internal pivot but preserving the overall sequential logic."
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, moralizing English rendering with explicit seasonal naming and a conditional syllogism, sacrificing the かひな/かひなく wordplay for clarity and emotional resonance ('Hard, indeed, would be my fate').",
+    "overall_fidelity": "medium",
+    "poem_number": 67,
+    "translator": "McCauley"
+  }
+}

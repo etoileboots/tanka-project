@@ -1,0 +1,452 @@
+{
+  "poem_number": 27,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T01:58:02.749309+00:00"
+    },
+    "devices": {
+      "わき": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "わき",
+          "color": "#F28FC0",
+          "note": "divide/gush forward"
+        },
+        "reviewed_at": "2026-08-01T01:02:35.497731+00:00"
+      },
+      "泉川": {
+        "status": "removed",
+        "original": {
+          "word": "泉川",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:57:51.071170+00:00"
+      },
+      "いつ見き": {
+        "status": "removed",
+        "original": {
+          "word": "いつ見き",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:57:53.783333+00:00"
+      },
+      "泉": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "泉",
+          "color": "#F28FC0",
+          "note": "Isumi/spring"
+        },
+        "reviewed_at": "2026-08-01T01:02:53.058743+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:58:20.367908+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:58:22.633110+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:58:26.584528+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:58:36.452057+00:00"
+        }
+      },
+      "devices": {
+        "when did i see": {
+          "status": "removed",
+          "original": {
+            "word": "when did i see",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:59:29.986278+00:00"
+        },
+        "Izumi": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Izumi",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T01:59:36.200815+00:00"
+        },
+        "izumi": {
+          "status": "confirmed",
+          "original": {
+            "word": "izumi",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:03:11.324512+00:00"
+        },
+        "Boiling down": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Boiling down",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:04:08.674515+00:00"
+        }
+      },
+      "device_links": {
+        "izumi": {
+          "status": "corrected",
+          "original": {
+            "word": "izumi"
+          },
+          "corrected": {
+            "source_word": "泉"
+          },
+          "reviewed_at": "2026-08-01T01:03:09.924615+00:00"
+        },
+        "Boiling down": {
+          "status": "corrected",
+          "original": {
+            "word": "Boiling down"
+          },
+          "corrected": {
+            "source_word": "わき"
+          },
+          "reviewed_at": "2026-08-01T01:04:12.036375+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:59:45.182424+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:59:47.683482+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T02:01:57.190469+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T02:02:00.581292+00:00"
+        }
+      },
+      "devices": {
+        "Idsmi": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Idsmi",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T01:59:57.631891+00:00"
+        },
+        "idsmi": {
+          "status": "confirmed",
+          "original": {
+            "word": "idsmi",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:03:03.107765+00:00"
+        },
+        "boiling waters flow": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "boiling waters flow",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:03:58.892669+00:00"
+        }
+      },
+      "device_links": {
+        "idsmi": {
+          "status": "corrected",
+          "original": {
+            "word": "idsmi"
+          },
+          "corrected": {
+            "source_word": "泉"
+          },
+          "reviewed_at": "2026-08-01T01:03:02.541507+00:00"
+        },
+        "boiling waters flow": {
+          "status": "corrected",
+          "original": {
+            "word": "boiling waters flow"
+          },
+          "corrected": {
+            "source_word": "わき"
+          },
+          "reviewed_at": "2026-08-01T01:04:00.708418+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "i know not if we have met": {
+          "status": "removed",
+          "original": {
+            "word": "i know not if we have met",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:00:43.653921+00:00"
+        },
+        "Izumi": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Izumi",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T02:00:52.916083+00:00"
+        },
+        "izumi": {
+          "status": "confirmed",
+          "original": {
+            "word": "izumi",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:03:14.908539+00:00"
+        },
+        "Gushing forth": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Gushing forth",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:04:38.220634+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:03:07.417514+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:03:08.031433+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:03:09.317232+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:03:16.081672+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:03:17.114276+00:00"
+        }
+      },
+      "device_links": {
+        "izumi": {
+          "status": "corrected",
+          "original": {
+            "word": "izumi"
+          },
+          "corrected": {
+            "source_word": "泉"
+          },
+          "reviewed_at": "2026-08-01T01:03:14.490914+00:00"
+        },
+        "Gushing forth": {
+          "status": "corrected",
+          "original": {
+            "word": "Gushing forth"
+          },
+          "corrected": {
+            "source_word": "わき"
+          },
+          "reviewed_at": "2026-08-01T01:04:43.912156+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:02:09.698871+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:02:11.599198+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:02:44.981758+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:02:45.382347+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:02:46.197971+00:00"
+        }
+      },
+      "devices": {
+        "saw but now": {
+          "status": "removed",
+          "original": {
+            "word": "saw but now",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:02:30.396988+00:00"
+        },
+        "Izumi": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Izumi",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T02:02:36.314444+00:00"
+        },
+        "izumi": {
+          "status": "confirmed",
+          "original": {
+            "word": "izumi",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:03:20.007715+00:00"
+        },
+        "rippling": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "rippling",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:04:28.552547+00:00"
+        }
+      },
+      "device_links": {
+        "Izumi": {
+          "status": "corrected",
+          "original": {
+            "word": "Izumi"
+          },
+          "corrected": {
+            "source_word": "泉"
+          },
+          "reviewed_at": "2026-08-01T01:03:27.426321+00:00"
+        },
+        "rippling": {
+          "status": "corrected",
+          "original": {
+            "word": "rippling"
+          },
+          "corrected": {
+            "source_word": "わき"
+          },
+          "reviewed_at": "2026-08-01T01:04:31.462212+00:00"
+        }
+      }
+    }
+  }
+}

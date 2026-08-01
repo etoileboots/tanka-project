@@ -1,0 +1,355 @@
+{
+  "poem_number": 22,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T11:36:51.461960+00:00"
+    },
+    "devices": {
+      "山風": {
+        "status": "removed",
+        "original": {
+          "word": "山風",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T11:37:32.026815+00:00"
+      },
+      "あらし": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "あらし",
+          "color": "#F28FC0"
+        },
+        "reviewed_at": "2026-07-26T11:37:50.874603+00:00"
+      },
+      "秋の草木": {
+        "status": "confirmed",
+        "original": {
+          "word": "秋の草木",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T11:38:01.690717+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:38:44.805709+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:38:45.288984+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:38:49.506173+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:38:50.306145+00:00"
+        }
+      },
+      "devices": {
+        "yama kaze": {
+          "status": "removed",
+          "original": {
+            "word": "yama kaze",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:39:02.174328+00:00"
+        },
+        "storm": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "storm",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-26T11:39:14.571948+00:00"
+        },
+        "autumn grasses": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn grasses",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:26:33.308436+00:00"
+        }
+      },
+      "device_links": {
+        "storm": {
+          "status": "corrected",
+          "original": {
+            "word": "storm"
+          },
+          "corrected": {
+            "source_word": "あらし"
+          },
+          "reviewed_at": "2026-08-01T00:55:37.786984+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "now autumn's": {
+          "status": "removed",
+          "original": {
+            "word": "now autumn's",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:26:22.776807+00:00"
+        }
+      },
+      "lines": {
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:25:14.329397+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:25:49.691674+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:25:50.576235+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:25:51.376290+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "autumn time": {
+          "status": "removed",
+          "original": {
+            "word": "autumn time",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:55:42.347743+00:00"
+        },
+        "mountain wind": {
+          "status": "removed",
+          "original": {
+            "word": "mountain wind",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:27:04.159290+00:00"
+        },
+        "hurricane": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "hurricane",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T01:27:09.739117+00:00"
+        }
+      },
+      "lines": {
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:27:23.406375+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:27:23.805272+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:27:34.241113+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:27:39.772975+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:27:40.373203+00:00"
+        }
+      },
+      "device_links": {
+        "hurricane": {
+          "status": "corrected",
+          "original": {
+            "word": "hurricane"
+          },
+          "corrected": {
+            "source_word": "あらし"
+          },
+          "reviewed_at": "2026-08-01T00:55:24.167765+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "autumn's leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn's leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:27:58.306961+00:00"
+        },
+        "mountain wind": {
+          "status": "removed",
+          "original": {
+            "word": "mountain wind",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:28:00.207064+00:00"
+        },
+        "The Wild": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "The Wild",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T01:28:06.007613+00:00"
+        },
+        "the wild": {
+          "status": "confirmed",
+          "original": {
+            "word": "the wild",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:56:17.902358+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:28:27.690808+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:28:28.105922+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:28:28.489525+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:28:29.022323+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:28:29.489234+00:00"
+        }
+      },
+      "device_links": {
+        "The Wild": {
+          "status": "corrected",
+          "original": {
+            "word": "The Wild"
+          },
+          "corrected": {
+            "source_word": "あらし"
+          },
+          "reviewed_at": "2026-08-01T00:55:26.867489+00:00"
+        },
+        "the wild": {
+          "status": "corrected",
+          "original": {
+            "word": "the wild"
+          },
+          "corrected": {
+            "source_word": "あらし"
+          },
+          "reviewed_at": "2026-08-01T00:56:25.410496+00:00"
+        }
+      }
+    }
+  }
+}

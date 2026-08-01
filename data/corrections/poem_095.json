@@ -1,0 +1,395 @@
+{
+  "poem_number": 95,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T12:08:45.398582+00:00"
+    },
+    "devices": {
+      "墨染": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "墨染",
+          "color": "#F28FC0",
+          "note": "Meaning black dyed, and newly inhabited"
+        },
+        "reviewed_at": "2026-07-31T12:08:37.881890+00:00"
+      },
+      "たつ": {
+        "status": "removed",
+        "original": {
+          "word": "たつ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:08:14.099204+00:00"
+      },
+      "そま": {
+        "status": "removed",
+        "original": {
+          "word": "そま",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:08:14.583015+00:00"
+      },
+      "うき": {
+        "status": "removed",
+        "original": {
+          "word": "うき",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:08:15.149812+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "sad world": {
+          "status": "removed",
+          "original": {
+            "word": "sad world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:08:57.066036+00:00"
+        },
+        "wagatatsu soma": {
+          "status": "removed",
+          "original": {
+            "word": "wagatatsu soma",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:08:58.066834+00:00"
+        },
+        "black-robed": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "black-robed",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:09:16.517897+00:00"
+        }
+      },
+      "device_links": {
+        "black-robed": {
+          "status": "corrected",
+          "original": {
+            "word": "black-robed"
+          },
+          "corrected": {
+            "source_word": "墨染"
+          },
+          "reviewed_at": "2026-07-31T12:09:19.231447+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:09:21.798816+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:09:22.249326+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:09:22.649321+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:09:23.031753+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "multitude of men": {
+          "status": "removed",
+          "original": {
+            "word": "multitude of men",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:09:33.331738+00:00"
+        },
+        "black robe": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "black robe",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:09:40.682278+00:00"
+        },
+        "dweller on": {
+          "status": "removed",
+          "original": {
+            "word": "dweller on",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:09:45.064339+00:00"
+        },
+        "wagatasoma": {
+          "status": "removed",
+          "original": {
+            "word": "wagatasoma",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:09:52.598885+00:00"
+        }
+      },
+      "device_links": {
+        "black robe": {
+          "status": "corrected",
+          "original": {
+            "word": "black robe"
+          },
+          "corrected": {
+            "source_word": "墨染"
+          },
+          "reviewed_at": "2026-07-31T12:09:42.847308+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:10:28.516077+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:10:29.514406+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:10:30.015578+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:10:30.480905+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:10:30.963598+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:10:31.664389+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-31T12:10:51.764911+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-31T12:11:35.583506+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-31T12:11:42.931087+00:00"
+        }
+      },
+      "devices": {
+        "wicked world": {
+          "status": "removed",
+          "original": {
+            "word": "wicked world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:10:54.997748+00:00"
+        },
+        "black robe": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "black robe",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:11:08.364713+00:00"
+        }
+      },
+      "device_links": {
+        "black robe": {
+          "status": "corrected",
+          "original": {
+            "word": "black robe"
+          },
+          "corrected": {
+            "source_word": "墨染"
+          },
+          "reviewed_at": "2026-07-31T12:11:17.865279+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "live on": {
+          "status": "removed",
+          "original": {
+            "word": "live on",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:11:53.631195+00:00"
+        },
+        "mount hiei": {
+          "status": "removed",
+          "original": {
+            "word": "mount hiei",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:11:54.196416+00:00"
+        },
+        "woeful world": {
+          "status": "removed",
+          "original": {
+            "word": "woeful world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:11:54.748187+00:00"
+        },
+        "black-dyed": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "black-dyed",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:12:10.367358+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:12:02.365083+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:12:03.130371+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:12:03.479301+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:12:03.847503+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:12:04.330694+00:00"
+        }
+      },
+      "device_links": {
+        "black-dyed": {
+          "status": "corrected",
+          "original": {
+            "word": "black-dyed"
+          },
+          "corrected": {
+            "source_word": "墨染"
+          },
+          "reviewed_at": "2026-07-31T12:12:13.864763+00:00"
+        }
+      }
+    }
+  }
+}

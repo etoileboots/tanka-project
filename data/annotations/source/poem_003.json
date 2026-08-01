@@ -1,0 +1,77 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The long, trailing tail of the copper pheasant (yamadori), described through pillow word and extended imagistic preface",
+    "shimo_theme": "The speaker's lonely, seemingly endless autumn night spent sleeping alone, longing for an absent lover",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The entire kami-no-ku (V1-V3) functions as jokotoba: the physical length of the male copper pheasant's drooping tail-feather is a sustained image that mirrors, without stating it, the psychological length of the lonely night in the shimo-no-ku. The pivot is purely sonic/associative — 'ながながし' (long) is triggered by the preceding image of the long tail, so the mountain bird's tail IS the length of the night, an implicit simile rather than a stated one."
+  },
+  "kakekotoba": [
+    {
+      "word": "ながし",
+      "ku": 4,
+      "reading_primary": "長し (nagashi) — long, drawn-out.",
+      "reading_secondary": "流し (nagashi) — drifting, flowing (from 流る/流す).",
+      "interaction": "The tail-end of ながながし reads simultaneously as the plain adjective '(very) long' describing the night, and as a homophonic echo of 流し, 'flowing/drifting' — carrying forward the poem's central image of the pheasant's long tail as something that trails and streams, so the night itself is felt to stretch and drift on without end, not merely measured as long in the abstract."
+    },
+    {
+      "word": "夜",
+      "ku": 4,
+      "reading_primary": "夜 (yo) — night; the literal referent of ながながし ('this long, long night').",
+      "reading_secondary": "世 (yo) — one's life, one's lot in this world.",
+      "interaction": "夜 and 世 are homophones (yo), so 'this long night' doubles as 'this long life/existence' — the speaker's solitary vigil through one endless night reads as a figure for enduring loneliness across an entire lifetime, not just until dawn."
+    }
+  ],
+  "makurakotoba": [
+    {
+      "word": "あしびきの",
+      "ku": 1,
+      "precedes": "山鳥 (mountain bird) / 山 (mountain) words",
+      "conventional_meaning": "A fixed epithet of obscure literal origin (possibly 'leg-wearying') conventionally attached to 山 (mountain) and words derived from it such as 山鳥, elevating register and signaling classical diction without contributing independent propositional content here"
+    }
+  ],
+  "kigo": {
+    "word": "山鳥",
+    "season": "autumn",
+    "note": "The copper pheasant (yamadori) and its long tail were conventionally associated with autumn in classical poetics, partly through their appearance in mountain settings during the season of loneliness and partly through the folk belief that the male and female birds slept separated on opposite ridges at night — reinforcing the poem's theme of solitary longing during the long autumn nights"
+  },
+  "furigana": [
+    {
+      "kanji": "山鳥",
+      "reading": "やまどり"
+    },
+    {
+      "kanji": "尾",
+      "reading": "お"
+    },
+    {
+      "kanji": "尾",
+      "reading": "お"
+    },
+    {
+      "kanji": "夜",
+      "reading": "よ"
+    }
+  ],
+  "jokotoba": {
+    "text": "あしびきの山鳥の尾のしだり尾の",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "なが (long) — sonic/semantic link between the long trailing tail (尾) and ながながし (long night)",
+    "function": "Establishes an extended image of physical length (the drooping tail-feather of the mountain pheasant) that is not stated as a simile but instead flows directly, through repetition of 尾 and the sound/meaning of length, into the description of the interminably long autumn night, making the entire kami-no-ku a preface built for this specific poem rather than a fixed epithet"
+  },
+  "poem_number": 3,
+  "poet": "Kakinomoto no Hitomaro",
+  "source_jp": "あしびきの\n山鳥の尾の\nしだり尾の\nながながし夜を\nひとりかもねむ"
+}

@@ -1,0 +1,312 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation keeps the basic causal shape—dawn arrives too soon (kami) so the speaker wonders/seeks where the moon now rests (shimo)—but compresses the shimo-no-ku's questioning tone ('may be lodging where?') into a more assertive closing statement ('Now knew where...she lay'), which weakens the open, wondering quality of the original's inferential leap (らむ conjecture) into a resolved certainty, so the inferential-sensory logic survives but its rhetorical uncertainty is diminished."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "夜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "summer's night",
+        "note": "The translator treats 夜 straightforwardly as 'night' with no secondary world/life reading, consistent with the source analysis noting this is not a true activated kakekotoba here; the literal meaning is rendered plainly."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "summer's night",
+      "note": "The season is named outright in the opening line, matching the source's explicit seasonal marker 夏の夜, and the brevity-of-night conceit is preserved through the description of dusk seeming to touch dawn ('scarcely thought / The evening hours had passed away / When dawn broke')."
+    },
+    "translator_strategy": "Dickens prioritizes a smooth rhymed quatrain in natural English narrative order, sacrificing the original's open conjectural questioning (らむ) for a tidier, more resolved closing statement about the moon's whereabouts.",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Establishes it was a summer's night, introducing the seasonal setting.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The speaker did not realize the evening (宵) hours had already elapsed.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Dawn broke, and the speaker had been seeking/wondering about the moon.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Now the speaker states where amid the clouds the moon lay, converting the original's tentative conjecture into an assertion of knowledge.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the five ku into four rhymed lines, folding the moon-seeking motif into line 3 (not present as explicitly in the source at that point) and resolving the original's speculative らむ question into a declarative 'knew where...she lay' in line 4, which shifts the rhetorical mode from open wonder to closed certainty."
+    },
+    "overall_fidelity": "medium",
+    "poem_number": 36,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The translation keeps the two-part structure (statement of the short night, then the whimsical question about the moon's hiding place among clouds), but the causal/inferential connector ('since dawn came so fast, the moon must still be somewhere') is left implicit rather than made explicit as in the source's playful deduction; the logical link is compressed into a simple juxtaposition of statement and question."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "夜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "night",
+        "note": "The translator renders 夜 straightforwardly as 'night', preserving only the literal temporal meaning; no secondary 世 (world/life) reading is active here per the source analysis, so this is a non-issue but the primary meaning is rendered plainly and correctly."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Summer night",
+      "note": "The season is named directly in the first line ('The Summer night will break'), preserving the explicit seasonal marker of the source's 夏の夜, though the phrase 'will break' oddly shifts tense/aspect toward future rather than the source's completed action (明けぬる, 'has already dawned'), slightly altering the temporal astonishment at the night's brevity."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "States that the summer night will break/end",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Notes the evening (宵) had scarcely passed when dawn came",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Poses the question of which cloud",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The moon will take as her lodging place",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses kami-no-ku (ku 1-3) into two lines, inverting the temporal logic slightly by placing 'will break' (future) before 'evening scarcely passed' (past), which reverses the source's sequence of 'still felt like evening' followed by 'yet it has already dawned'. The shimo-no-ku (ku 4-5) is rendered fairly literally across the final two lines, personifying the moon as 'her'."
+    },
+    "translator_strategy": "Noguchi prioritizes concise lyrical economy and grammatical smoothness in English over exact reproduction of the source's temporal sequence and inferential logic, opting for a compact four-line lyric that keeps the explicit seasonal marker and the central image of the moon's hidden lodging while softening the causal 'therefore' connecting the two halves.",
+    "overall_fidelity": "medium",
+    "poem_number": 36,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "Porter reorders the logical sequence: he opens with the general observation of the short night (kami content, lines 1-2), but then introduces the moon-watching question (shimo content) as if it were an ongoing action ('I watched to see behind which cloud / The moon would chance to stay') before finally landing on the dawn's arrival ('here's the dawn of day') as the closing surprise. This restructures the original's causal flow — in the source, the night's brevity is stated FIRST as an accomplished fact, and the wondering about the moon's hiding place is the speaker's inferential reaction AFTER that fact. Porter instead frames the moon-watching as a continuous activity happening throughout the night, with the dawn's suddenness delivered as a final punchline, effectively inverting which element is treated as premise and which as consequence."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "夜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "summer night",
+        "note": "Porter renders 夜 straightforwardly as 'night' (via 'summer night'), preserving only the literal meaning; since the source analysis notes no true secondary 世 reading is grammatically activated in this poem, this is not a significant loss — the primary reading is intact and adequate."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "summer night",
+      "note": "The season is named outright via 'summer night' in line 1, directly translating 夏の夜, preserving the explicit seasonal marker at the very start of the poem, matching its position in the source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "States the summer night is 'too short' — direct rendering of 夏の夜は with an added evaluative adjective 'lovely'.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'Too soon 'tis passed away' compresses まだ宵ながら明けぬるを into a single statement of the night ending quickly, losing the 'while still evening' nuance of 宵ながら.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'I watched to see behind which cloud' translates 雲のいづくに, but reframes the moon's hiding as something the speaker actively watched for, rather than a retrospective wondering.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'The moon would chance to stay' renders 月やどるらむ, converting the speculative 'らむ' (wonder/conjecture) into a description of watching for an event.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'And here's the dawn of day!' is an added exclamatory restatement of 明けぬるを (dawn breaking), placed at the end as a surprise punchline rather than at its original mid-poem position.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the 5-ku source into 5 lines but restructures the temporal logic: the dawn's arrival (originally stated early, in ku 3) is relocated to the final line as a climactic exclamation, while the moon-watching (originally ku 4-5, a retrospective wondering) is presented earlier as an ongoing activity — effectively swapping the order of stated-fact and inferential question found in the original."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhyming, singable English quatrain-plus-refrain form over preserving the original's precise causal/temporal sequence, sacrificing the source's fact-then-inference logic for a punchier surprise-ending structure.",
+    "overall_fidelity": "medium",
+    "poem_number": 36,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The kami section (L1-3) establishes the brief summer night and sudden dawn, and the shimo section (L4-5) poses the speaker's inferential question about where the moon could be lodging in the clouds, mirroring the source's causal leap from observed brevity to whimsical speculation."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "夜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "summer night",
+        "note": "The translator renders 夜 straightforwardly as 'night' with no attempt at or need for a secondary 世 reading, consistent with the source analysis noting this is not a true activated kakekotoba in this poem."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "summer night",
+      "note": "The seasonal marker is named directly in the opening line, preserving both the explicit season word and the atmosphere of a night so short that evening seems to blend into dawn, matching the source's central conceit."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "States the setting: summer night.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The evening still feels present (宵ながら).",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Dawn has already broken (明けぬるを), rendered with an exclamatory 'Lo!'.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Speaker wonders in which part of the clouds.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The moon's resting place is questioned, moon described as 'wandering'.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The five English lines map almost one-to-one onto the five ku, preserving the original's sequential logic without compression or expansion, though 'Lo!' adds a mild exclamatory emphasis not present in the source and 'wandering' is a slight embellishment on 月 not explicitly in the original text."
+    },
+    "translator_strategy": "McCauley pursues a close, line-for-line literal rendering that preserves the sequential logic and imagery of the original with minimal embellishment, adding only slight poetic coloring (such as 'Lo!' and 'wandering') to maintain an English verse rhythm.",
+    "overall_fidelity": "high",
+    "poem_number": 36,
+    "translator": "McCauley"
+  }
+}

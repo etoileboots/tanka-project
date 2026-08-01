@@ -1,0 +1,254 @@
+{
+  "poem_number": 21,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T11:28:25.741454+00:00"
+    },
+    "devices": {
+      "長月": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "長月",
+          "color": "#B4DE65"
+        },
+        "reviewed_at": "2026-07-26T11:30:43.712757+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "long-moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "long-moon",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-26T11:31:09.031134+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:34:37.860555+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:34:38.455460+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:34:38.883656+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T11:34:41.574010+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "naga tsuki": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "naga tsuki",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-26T11:31:35.546479+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:32:48.249988+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:32:49.236517+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:32:58.664664+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:32:59.305821+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "long month": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "long month",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-26T11:36:10.480003+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:36:22.344418+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:36:22.727190+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:36:26.012306+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:36:26.395164+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:36:26.944274+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "autumn morn": {
+          "status": "removed",
+          "original": {
+            "word": "autumn morn",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:30:08.798692+00:00"
+        },
+        "moon that shone the whole night through": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon that shone the whole night through",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:55:07.175855+00:00"
+        }
+      },
+      "lines": {
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T11:35:18.911125+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:35:24.394924+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:35:25.473794+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:35:26.844581+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:35:27.618900+00:00"
+        }
+      },
+      "device_links": {
+        "moon that shone the whole night through": {
+          "status": "corrected",
+          "original": {
+            "word": "moon that shone the whole night through"
+          },
+          "corrected": {
+            "source_word": "長月"
+          },
+          "reviewed_at": "2026-08-01T00:55:09.475647+00:00"
+        }
+      }
+    }
+  }
+}

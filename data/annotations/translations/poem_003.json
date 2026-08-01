@@ -1,0 +1,370 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "relationship_type": "explicit simile (converted from implicit jokotoba)",
+      "note": "Dickens compresses the jokotoba drastically: instead of the extended tail-length imagery of ku1-3 building organically into the pivot word, he collapses it into a single line ('his long-drooped tail') and then explicitly states the comparison with 'so drags the night' in line 2. This makes the simile explicit rather than implicit/associative — the mirroring is stated outright via 'so' rather than emerging from a shared word/sound (なが). The logical relationship (tail-length mirrors night-length) is preserved, but the poetic mechanism (jokotoba building through repetition of 尾/なが) is replaced by direct comparison, so it's a partial preservation: the relationship_type survives in spirit but not in method."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ながし",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "so drags the night",
+        "note": "The 'drags' verb actually captures something close to the secondary 流し (drifting/flowing/dragging on) sense as well as the primary 'long' sense, but no distinct English pun exists—translator conflates both readings into one vivid verb rather than preserving them as separate meanings. Since 'drags' evokes duration AND a sense of slow trailing motion (echoing the tail dragging), this is arguably closer to 'transformed' than pure primary_only, but the explicit statement removes the wordplay itself, so only the 'long/drawn-out' sense is functionally rendered as meaning; the pun mechanism is gone."
+      },
+      {
+        "original_word": "夜/世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "night",
+        "note": "Only 'night' (夜) appears; no echo of 世 (life/existence) is attempted — the loneliness is expressed through added phrases ('my lonely plight', 'sleepless wretchedness') as separate emotional commentary rather than through a pun that extends 'night' into 'lifetime'."
+      }
+    ],
+    "makurakotoba": [
+      {
+        "original_word": "あしびきの",
+        "method": "omitted",
+        "en_equivalent": "(none)",
+        "note": "No equivalent epithet or elevating phrase attached to 'hill-side fowl' — 'hill-side' is a plain locative descriptor, not a register-elevating fixed epithet performing the function of あしびきの; the pillow word's ornamental/classical-signaling function is simply dropped."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal marker or atmosphere survives — 'hill-side fowl' with 'long-drooped tail' conveys the bird and its tail but strips any autumn association; the folk belief of birds sleeping apart and the autumn night chill are absent, replaced by generic 'lonely plight' and 'wretchedness' that could apply to any season."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "The hill-side fowl (mountain bird) and his long-drooped tail — compresses jokotoba (ku1-3) into one line, dropping あしびきの's epithet function and the repeated 尾/しだり尾 structure",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Sweeps o'er the ground (continuation of tail image) — so drags the night (explicit statement of the simile linking tail-length to night-length, corresponding to ながながし夜)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "My lonely plight — corresponds to ひとり (alone) in ku5",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "I mourn / bewail sleepless wretchedness — expands ねむ (sleep) and かも (question/exclamation of uncertainty) into an emotional outburst not literally present in source, exceeding the terse original",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The four-line English structure compresses the three-ku jokotoba into essentially one line and expands the single shimo ku5 (ひとりかもねむ) into two full lines of emotional elaboration, shifting the poem's balance from image-heavy kami to emotion-heavy shimo."
+    },
+    "translator_strategy": "Dickens sacrifices the source's understated, associative jokotoba mechanism for a compact, explicitly stated simile ('so drags the night') paired with heightened emotional paraphrase ('mourn', 'wretchedness bewail'), prioritizing Victorian lyrical sentiment and rhyme over preserving the pivot-word wordplay, pillow-word function, or seasonal specificity.",
+    "overall_fidelity": "medium",
+    "poem_number": 3,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Noguchi places the shimo-no-ku content (long night, sleeping alone) first (L1-L2), then follows with the kami-no-ku jokotoba image of the mountain fowl's tail (L3-L4) as an explanatory afterthought in parentheses, effectively reversing the source's build-up-then-arrival structure into statement-then-simile. The implicit sonic pivot becomes an explicit simile via 'Dragging / As a mountain fowl's long-dropped tail', which clarifies the comparison but destroys the jokotoba's associative, non-stated quality by making it an overt simile placed in reverse order."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ながし (long/flowing)",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "long / drags / dragging",
+        "note": "The translator repeats 'long' and 'drags/dragging' emphasizing duration and slow motion, which gestures toward the 'flowing/drifting' secondary sense of 流し through the verb 'drags' and 'dragging', but this is likely coincidental intensification rather than a deliberate bilingual pun; the primary 'long' meaning dominates and is the only reading clearly rendered."
+      },
+      {
+        "original_word": "夜/世 (yo)",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "night",
+        "note": "Only 'night' appears; no trace of the 'life/world' (世) secondary sense is rendered — the lifetime-loneliness dimension is lost entirely."
+      }
+    ],
+    "makurakotoba": [
+      {
+        "original_word": "あしびきの",
+        "method": "omitted",
+        "en_equivalent": "(none)",
+        "note": "No epithet or elevating phrase precedes 'mountain fowl' in L4; 'あしびきの' is dropped without any ornamental substitute, so its register-elevating function disappears entirely, leaving only the bare noun phrase 'mountain fowl's long-dropped tail'."
+      }
+    ],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "mountain fowl's long-dropped tail",
+      "note": "The autumn association is not named explicitly, but the image of the mountain fowl with its long drooping tail is retained, which classically carries the seasonal connotation for readers familiar with the convention; an English reader without that background would miss the seasonal signal entirely, so it survives only as bare imagery, not atmosphere-reinforced season."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Exclamation on the long night",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Question of sleeping alone",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Repeated emphasis: the night drags, introducing the simile",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "The kami-no-ku jokotoba image compressed into an explicit simile: mountain fowl's long-dropped tail, appended parenthetically",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the source's order, placing the shimo-no-ku (night/loneliness) first and the kami-no-ku (mountain-fowl tail image) last as a bracketed explanatory simile, compressing three ku (V1-V3) into a single line (L4) and converting implicit jokotoba into an explicit stated simile."
+    },
+    "translator_strategy": "Noguchi front-loads the emotional core (the long, lonely night) as an exclamation and question, then appends the traditional mountain-fowl image as an explicit, parenthetical simile, prioritizing immediate emotional impact for the English reader over preserving the source's build-up structure or its pillow word and double-meanings.",
+    "overall_fidelity": "medium",
+    "poem_number": 3,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "Porter converts the implicit jokotoba pivot into an explicit comparative structure ('Long is...But longer still') — the simile is now stated outright rather than left as pure sonic/associative overlap, so the underlying logic (tail-length maps onto night-length) survives but the rhetorical mechanism shifts from implicit juxtaposition to explicit comparison ('longer still, it seems to me')."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ながし (長し/流し)",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "longer / unending",
+        "note": "Porter renders 'nagashi' straightforwardly as 'longer' and 'unending', capturing the plain sense of duration/length but losing the secondary echo of 流し (drifting/flowing) tied to the trailing tail image; no attempt at a flowing/streaming double meaning in English."
+      },
+      {
+        "original_word": "夜/世 (yo)",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "night",
+        "note": "Translated simply as 'night' ('this unending night'); the secondary sense of 世 (life/existence) is not evoked — no lifetime or existential resonance is suggested, only a single night's duration."
+      }
+    ],
+    "makurakotoba_handling": [
+      {
+        "original_word": "あしびきの",
+        "method": "omitted",
+        "en_equivalent": "(none)",
+        "note": "The epithet is dropped entirely; L1 begins directly with 'Long is the mountain pheasant's tail' with no elevating epithet or archaic-register substitute performing the same function. No compensatory device (like an inverted syntax or special adjective) stands in for it."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "none",
+      "note": "The word 'autumn' never appears, and no seasonal atmosphere (chill, falling leaves, cold dew, etc.) is introduced to compensate. The mountain pheasant is present as a visual/thematic image but its conventional autumn association and the folk belief of separated mates sleeping apart is not conveyed; the poem reads as a generic image of a long night without any seasonal marker or implicit seasonal feeling."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Long is the mountain pheasant's tail — combines the makurakotoba-stripped 'mountain pheasant' image with the length statement, compressing ku1 (あしびきの, omitted) and ku2 (山鳥の尾の) into one line.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "That curves down in its flight — renders しだり尾の (the drooping/trailing tail), adding 'in its flight' as an extrapolative flourish not literally in the source (the pheasant is not depicted flying; the image is static/drooping).",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "But longer still, it seems to me — introduces the explicit comparative pivot, corresponding to ながながし's meaning of extended length, but converts implicit jokotoba into explicit simile with added first-person framing ('it seems to me') not in the source.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Left in my lonely plight — corresponds to ひとりかもねむ (sleeping alone), rendering the solitude explicitly as 'lonely plight', an interpretive expansion of the spare original phrase.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Is this unending night — completes the ながながし夜 image, echoing back to line 3's 'longer still' to close the explicit simile.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the five ku into a five-line English stanza with an explicit 'long...but longer still' comparative frame, splitting the shimo-no-ku's single kakekotoba-bearing phrase (ながながし夜を) across lines 3 and 5, and reordering ku4 and ku5 content so that the solitude line (L4) precedes the night-length payoff (L5), an inversion of the source's word order where 'long night' precedes 'sleep alone'."
+    },
+    "translator_strategy": "Porter prioritizes clear, metrical, rhymed English verse that renders the poem's emotional logic through an explicit comparative simile, sacrificing the jokotoba's implicit sonic pivot, both kakekotoba's secondary readings, the makurakotoba's ornamental function, and the seasonal (autumn) association in favor of accessible narrative clarity.",
+    "overall_fidelity": "medium",
+    "poem_number": 3,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "McCauley preserves the jokotoba structure: the drooping tail image (L1-3) precedes and implicitly likens itself to the long night (L4-5), maintaining the kami-shimo sequence and the implicit-simile logic without stating it outright. However the exclamation 'Ah!' and dash-punctuation slightly foreground the tail imagery as a separate lyrical outburst rather than a seamless preface flowing into the night description, weakening the sonic/associative pivot to a more visibly segmented two-part structure."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ながし",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "long, long-dragging",
+        "note": "McCauley renders ながながし as 'long, long-dragging' which captures both the plain duration meaning (長し) and gestures toward motion/trailing (via 'dragging'), but 'dragging' evokes weight/reluctance rather than 流し's sense of flowing/drifting continuity. It's a near-miss: the secondary reading is echoed in spirit through 'dragging' but not through an actual flowing/streaming image, so it counts as primary_only with a faint gesture rather than a clean 'both'."
+      },
+      {
+        "original_word": "夜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "night",
+        "note": "Translated straightforwardly as 'night'; no attempt to carry the 世 (life/existence) homophone into English — the lifetime-long-loneliness reading is entirely lost."
+      }
+    ],
+    "makurakotoba": [
+      {
+        "original_word": "あしびきの",
+        "method": "literal",
+        "en_equivalent": "Ah! the foot-drawn trail",
+        "note": "McCauley translates the epithet quasi-literally as 'foot-drawn' (a guess at the etymology 'leg-wearying/leg-pulling'), treating it as if it carries propositional content about the mountain rather than functioning as a pure register-elevating conventional epithet. This is a literal rendering of a pillow word whose actual classical function was ornamental/formulaic, not descriptive."
+      }
+    ],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "mountain-pheasant, long night alone",
+      "note": "No season word is named, but the mountain-pheasant with its trailing tail and the imagery of a solitary, endless night together carry the autumn atmosphere of loneliness conventionally associated with 山鳥 in classical poetics; an English reader steeped in the tradition might sense autumn's melancholy, though it is not textually marked as any particular season."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'Ah! the foot-drawn trail' renders あしびきの as a literal descriptive phrase about a trailing/drawn quality, front-loaded with an exclamation absent from source.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'Of the mountain-pheasant's tail' completes the first line's syntax and translates 山鳥の尾の.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'Drooped like down-curved branch!' translates しだり尾の, adding an explicit simile (down-curved branch) not present in the Japanese, which uses drooping tail imagery without a branch comparison.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Through this long, long-dragging night' renders ながながし夜を, capturing duration and a hint of dragging motion.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Must I keep my couch alone?' translates ひとりかもねむ as a rhetorical question about sleeping alone.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley expands the 3-ku jokotoba into 3 lines with an inserted simile ('like down-curved branch') not present in the source, which literalizes and slightly over-elaborates the drooping tail image; the shimo-no-ku (2 ku) maps cleanly onto 2 lines with the question form preserved."
+    },
+    "translator_strategy": "McCauley favors a literalizing, quasi-archaic verse rendering that treats the jokotoba's imagery as substantive description (even inventing a supporting simile) rather than as a formal rhetorical preface, while still preserving the overall two-part sequence and rhetorical question ending of the original.",
+    "overall_fidelity": "medium",
+    "poem_number": 3,
+    "translator": "McCauley"
+  }
+}

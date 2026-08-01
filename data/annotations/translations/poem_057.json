@@ -1,0 +1,333 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "simile-implicit turned into continuous narrative",
+      "note": "The translation reads as a single continuous anecdote: the speaker goes out at night, glimpses someone, cannot identify them before they pass, then the moon (now explicitly the subject, personified as having a 'pallid ray' holding 'tranquil sway') is covered by clouds. The rendering loses the fused identity of the human encounter and the moon's obscuring — the moon-hiding is presented as a separate, sequential event rather than the very vehicle through which the human meeting is narrated. The added personification ('tranquil sway') further distances the shimo-no-ku from functioning as a metaphor for the encounter, making the two halves feel like two events in a story rather than one image standing for both planes at once."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "雲がくれ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "dark clouds was the moon o'ercast",
+        "note": "The translator renders only the literal astronomical image of the moon being covered by clouds; the figurative fusion with the friend's sudden disappearance is not carried by this phrase — instead the human vanishing was already narrated separately in lines 2-3 ('saw some one hastening past... Ere I could tell who 'twas aright'), so the single-word pivot that fuses both planes is split into two distinct, sequential events rather than one image doing double duty."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "moonlight night",
+      "note": "The poem opens and closes with moon imagery ('moonlight night', 'pallid ray', 'middle night') which evokes the autumnal moon-viewing atmosphere without ever naming the season explicitly; the elegiac chill of 'pallid ray' and 'tranquil sway' over 'the middle night' carries some of the aware associated with the autumn moon, though the season itself is never named."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Speaker goes out on a moonlit night",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Sees someone hurrying past",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Cannot tell for certain who it was before they are gone",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The moon becomes overcast with dark clouds",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The moon's pale ray, expanded/personified detail",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The moonlight holding tranquil sway over the middle of the night",
+          "origin": "source"
+        }
+      ],
+      "structural_note": "The translator expands the five ku into six lines, adding personifying detail ('pallid ray', 'tranquil sway') not present in the source, which stretches out the shimo-no-ku's single image of moon-hidden-by-cloud into a small scene of its own; this expansion further separates the human encounter (kami) from the moon image (shimo) rather than fusing them as the source does."
+    },
+    "translator_strategy": "Dickens prioritizes producing a smoothly rhymed, narrative English quatrain-plus-couplet that tells the anecdote in sequential story form, sacrificing the source's fusion of the human encounter and the moon's obscuring into a single image in favor of a personified, decoratively expanded description of the moon.",
+    "overall_fidelity": "medium",
+    "poem_number": 57,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator merges the human encounter and the moon-image into one continuous narrative sentence, using 'Alas, passed in the cloud / The midnight moon!' as a direct continuation of the human meeting rather than presenting it as a separate parallel image; the fusion of vehicle and tenor is flattened into a single storyline where the moon almost seems literally identified with the man ('him'), collapsing the implicit simile into a single narrative rather than preserving the dual-plane suspension of the original."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "雲がくれ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "passed in the cloud",
+        "note": "The translator renders the literal image of the moon disappearing behind cloud, but by attaching this directly to 'him' (translating the friend as male and merging the moon with the human departure via 'passed'), the figurative dimension of the friend's vanishing is not held as a separate resonant meaning — it is instead literalized into the moon's action, losing the fused double-plane effect of the original pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "midnight moon",
+      "note": "The moon is named directly as 'the midnight moon', preserving the season-bearing image explicitly, though the surrounding autumnal atmosphere of aware/melancholy is thinned by the brisk, almost prosaic narration and the exclamatory 'Alas'."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Chance meeting ('meguriaite')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Parting before being certain who it was ('mishi ya sore tomo wakanu ma ni')",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Uncertainty resolved into 'Who he was', then the moon passing into cloud ('kumogakure ni shi')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The midnight moon ('yowa no tsuki kage')",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the five ku into four lines, blending ku 3 and 4 into a single line 3 that yokes 'who he was' to 'passed in the cloud', effectively fusing the identity-uncertainty and the moon's disappearance into one grammatical unit and thereby literalizing the pivot rather than preserving it as a suspended double image."
+    },
+    "translator_strategy": "Noguchi prioritizes narrative clarity and a compact quatrain over preserving the pivot-word's dual-plane ambiguity, converting the poem into a straightforward story of a fleeting meeting with a man who vanishes 'like' the moon behind clouds.",
+    "overall_fidelity": "medium",
+    "poem_number": 57,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "Porter turns the poem into a continuous narrative scene: 'I wandered forth... someone hurried by... but who it was I could not see' flows directly into 'Clouds driving o'er the sky / Obscured the moon on high.' The original's fusion of human encounter and lunar image into a single event is replaced by two sequential, separately narrated occurrences — a human passerby and then, as an almost unconnected closing image, clouds covering the moon — so the implicit identity of moon-and-friend is lost and the structure reads as simple chronological narration rather than the source's collapsed simile-identity."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "雲がくれ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Obscured the moon",
+        "note": "Porter renders only the literal astronomical meaning — clouds driving across the sky and obscuring the moon — as a separate closing image; the figurative fusion with the friend's disappearance is not carried by this phrase, since the human encounter was already narrated in lines 1-3 as a distinct, unrelated event (someone hurrying by), so the reader has no cue that the moon IS the vehicle for the friend's vanishing."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "moonlight night",
+      "note": "The moon appears twice, in 'moonlight night' and 'moon on high', preserving the central image, but the word 'autumn' is never named and the atmosphere is more narrative/anecdotal than elegiac, so the full weight of autumnal aware is diminished though the lunar imagery itself survives."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "Porter expands the compact five-ku original into five lines of narrative verse with added rhyme (night/sky, see/high), inventing a physical setting ('wandered forth') not explicit in the source, and separates the human encounter (lines 1-3) from the moon image (lines 4-5) as two discrete narrative beats rather than one fused event.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Speaker wanders out on a moonlit night — 'moonlight night' extrapolates a setting not stated in kami-no-ku 1 (めぐりあひて, 'having met by chance')",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Someone hurries by, corresponding to the chance meeting/glimpse (めぐりあひて 見しやそれとも)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Could not tell who it was — わかぬ間に (before being able to tell)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Clouds driving across the sky — 雲がくれにし, literal cloud action",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The moon on high obscured — completes 雲がくれにし 夜半の月かげ",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Porter prioritizes fluent, rhymed narrative verse in the Victorian ballad style, sacrificing the poem's fused kakekotoba identity between friend and moon in favor of a linear anecdote followed by a separate closing natural image.",
+    "overall_fidelity": "low",
+    "poem_number": 57,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translation preserves the sequence of human encounter followed by the moon's disappearance, but the connective logic fusing the two (moon-as-vehicle for the human meeting) is weakened by the interjection 'Lo!' and 'ah me!' which frame the moon image as a separate poetic exclamation rather than a continuous single statement; the reader must supply the identification between the woman and the moon themselves, so the bipartite structure survives as sequence but the implicit-simile fusion is only partially conveyed."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "雲がくれ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "In a cloud has disappeared",
+        "note": "McCauley renders the literal astronomical image (moon vanishing into cloud) faithfully but does not signal the secondary figurative sense of the friend's disappearance; the fusion of literal and figurative planes that defines this kakekotoba is lost, leaving only the surface meaning explicit while the human parallel must be inferred entirely from context rather than from the wording itself."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "midnight moon",
+      "note": "The season word is not named as 'autumn' but the image of the midnight moon suddenly obscured is preserved intact, carrying the elegiac, transient atmosphere associated with the autumn moon even though the specific seasonal label is absent."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Meeting (chance encounter) rendered as 'Meeting in the way'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Inability to clearly know/recognize, combining 見しやそれとも and わかぬ間に",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Continuation of uncertainty about whether it was the friend, completing the kami-no-ku sense",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Exclamatory introduction of the midnight moon image, combining shimo no ku's opening with an added interjection 'Lo! ah me!' not present in source",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The moon disappearing behind a cloud, completing 雲がくれにし",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses ku2 and ku3 together into two English lines and adds interjections ('Lo!', 'ah me!') not present in the source, expanding the shimo-no-ku emotionally while keeping the same overall bipartite sequence of five lines mapping roughly onto five ku."
+    },
+    "translator_strategy": "McCauley prioritizes a literal, line-by-line rendering of the surface narrative (meeting, uncertainty, moon's disappearance) while inserting exclamatory interjections to convey emotional intensity, sacrificing the subtle fusion of the kakekotoba's dual meaning for clarity of the literal image.",
+    "overall_fidelity": "medium",
+    "poem_number": 57,
+    "translator": "McCauley"
+  }
+}

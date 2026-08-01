@@ -1,0 +1,355 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "The translator retains the visual-revelation logic — blossoms scattered like snow in the storm-torn court, followed by the pivot to the speaker's own decline — but compresses and blends the pivot into line 3 ('and I too soon'), so the boundary between the meteorological image and the human revelation is less sharply demarcated than in the source; the 'inevitable foe' (death/age) closes the shimo with an added moralizing gloss not explicit in the original.",
+      "relationship_type": "visual-revelation"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふり",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "withered low",
+        "note": "The translator substitutes an image of withering and lying low rather than the falling/aging pivot; 'withered' conveys decline but not the visual echo of falling snow/blossoms nor the specific double sense of 降り/経り, so the pun's fusion of falling-motion and aging is lost, replaced by a static image of withering."
+      },
+      {
+        "original_word": "ならで",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "As thick as though",
+        "note": "The negation logic ('not snow, but...') is converted into a simile ('as thick as though the drifted snow did thereon lay'), preserving the comparative surface sense that the fallen blossoms resemble snow, but dropping the rhetorical negation that pivots toward the human referent."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Sakura's flowers",
+      "note": "The translator explicitly names 'Sakura's flowers,' making the seasonal referent (cherry blossoms, the archetypal spring kigo) more explicit than the bare 花 of the original, though the season word 'spring' itself is never named; the imagery of blossoms strewn and later withering carries the late-spring pathos of the source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The court is strewn with cherry blossoms scattered by the wind",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "As thick as though drifted snow had fallen",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The snow simile continues, then pivots to 'I too soon' introducing the speaker's own decline",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The speaker envisions himself withered and lying low, echoing the falling/aging pivot",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "An added moralizing gloss naming death/age as 'man's inevitable foe,' extrapolating beyond the source's simple 'わが身なりけり'",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five ku into five lines but redistributes content unevenly: the snow-simile occupies two lines while the pivot to the speaker's decline is compressed into a brief clause before an added explanatory line (line 5) invents a personification of death not present in the source."
+    },
+    "translator_strategy": "The translator prioritizes an English rhyme scheme and moralizing closure over preserving the exact pivot-word ambiguity, converting the kakekotoba into an explicit simile followed by an invented gloss on mortality.",
+    "overall_fidelity": "medium",
+    "poem_number": 96,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translator keeps the basic 'not X but Y' revelation structure (Tis not the stormy snow ... But what is falling ... is my own self), preserving the pivot logic, but compresses/muddles the kami imagery: 'stormy snow luring the garden flower' inverts the original cause-effect (storm scattering blossoms that resemble snow) into snow luring the flower, weakening the visual set-up before the revelation."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふり",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "falling fast",
+        "note": "The translation renders ふりゆく as 'falling fast', capturing only the physical falling/scattering sense (primary reading); the secondary sense of aging/passing years (経る/古る) is not conveyed by any distinct wording, though the final line's 'my own self' gestures at the human referent without linguistically encoding the pun."
+      },
+      {
+        "original_word": "ならで",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "’Tis not",
+        "note": "The negation ならで is rendered directly as ''Tis not', preserving the grammatical/rhetorical negation that sets up the pivot, as expected for this low-confidence, non-homophonic device."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "garden flower",
+      "note": "The word 'flower' (for 花) survives literally, retaining the image of blossoms in a garden being disturbed, but the translation never names spring nor evokes cherry-blossom connotations distinctly; the seasonal cue is reduced to a generic 'flower' rather than the culturally loaded hana of falling cherry blossoms, so the season is only faintly implied through the flower/garden/snow imagery rather than vividly conveyed."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Negation: it is not the stormy snow",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The storm luring/scattering the garden flower (compressed image of ku1-2, but reordered as cause of snow-like appearance)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "But what is falling fast (the falling/aging verb ふりゆく)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Is nothing but my own self (revelation that the falling thing is the speaker)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders the kami content: line1 states the negation (originally ku3) before line2 supplies the storm/garden/flower imagery (originally ku1-2), inverting the sequence within the kami section while keeping the overall kami-then-shimo bipartite order intact."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, near-literal four-line rendering that preserves the poem's negation-then-revelation logic and its core images (snow, flower, falling, self) while sacrificing the double meaning of ふりゆく and reordering the kami-section imagery for English syntactic flow.",
+    "overall_fidelity": "medium",
+    "poem_number": 96,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "Porter reorders the syntax so the negation ('not from blossoms') appears first, followed by the description of the storm-scattered garden, then the revelation in the final line. This preserves the overall shape of setup-then-revelation but front-loads the negation that in the source only appears at ku3, effectively inverting the order in which 'not snow' vs 'snow-like scene' are presented — the English states the negation before establishing the visual image fully, whereas the Japanese builds the visual first and only negates it at the pivot."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふり",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "snows my hair",
+        "note": "Porter invents a new English pun-like image: 'age that snows my hair' fuses whiteness of snow/blossoms with white hair of old age, which is a clever transformation capturing the spirit of the aging/falling overlap, but it does not use a single verb doing double duty the way 降り/経り does — instead it substitutes a new metaphor (hair turning white like snow) rather than preserving the 'falling/passing of years' sense directly."
+      },
+      {
+        "original_word": "ならで",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "not from",
+        "note": "The negation is rendered literally as 'not from blossoms white,' preserving the grammatical negation function but not carrying any secondary wordplay since none was truly present."
+      }
+    ],
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Denial that the white scene is snow",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Wind scattering blossoms here and there",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Blossoms whitening the garden paths",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Branches left bare after the storm",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Revelation that it is age snowing the speaker's hair",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reorders: the negation (ku3) is moved to the opening line, the storm/garden imagery (ku1-2) is expanded into three lines with an invented detail ('leave the branches bare') not present in the source, and the final revelation (ku4-5) is condensed into a single rhymed closing line that introduces the 'snows my hair' image as a new vehicle for the kakekotoba."
+    },
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "blossoms white",
+      "note": "The cherry blossoms are named explicitly as 'blossoms white,' preserving the spring kigo's visual identity, though the season word itself ('spring') is never stated; the scattering-by-wind detail keeps the classical late-spring pathos of falling blossoms intact even as it is likened to snow."
+    },
+    "translator_strategy": "Porter prioritizes rhymed, metrically regular quatrain-plus-couplet verse in English at the expense of literal syntax, restructuring the poem's negation-then-revelation logic into a more linear English narrative and inventing new imagery (bare branches, snowing hair) to preserve rhyme and the snow/age conceit rather than the original's single ambiguous verb.",
+    "overall_fidelity": "medium",
+    "poem_number": 96,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translator maintains the setup of the storm scattering blossoms mistaken for snow (lines 1-3) followed by the revelation that what truly falls is the speaker himself (lines 4-5), preserving the pivot structure though the syntax is somewhat inverted (negation placed first)."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ふり",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "withering, falls",
+        "note": "The translator renders the falling/scattering sense literally with 'withering, falls' but does not capture the secondary sense of aging/growing old (経る/古る) as a wordplay; the human-aging meaning is instead delivered separately and explicitly in line 5 ('That in truth is I, myself'), so the pivot's double meaning is split into two lines rather than fused in one word."
+      },
+      {
+        "original_word": "ならで",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Not the snow",
+        "note": "The grammatical negation 'ではなくて' is rendered literally as 'Not the snow of flowers', preserving the rhetorical setup of negating snow to introduce the true referent, though this is not a true kakekotoba so little wordplay is lost."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "snow of flowers",
+      "note": "The translator names 'flowers' (a rendering of 花/hana) directly rather than specifying cherry blossoms, and pairs it with 'snow' to preserve the cross-seasonal illusion central to the kigo's poignancy, though the explicit spring association is diluted since 'flowers' is generic rather than specifically cherry blossoms."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Negation: not the snow of flowers",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The hurrying wild-wind drags",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Round the garden court (storm scattering blossoms in garden)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Is it that here, withering, falls (rhetorical question restating the negation and introducing the falling)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "That in truth is I, myself",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the natural word order of the source, placing the negation ('Not the snow') in line 1 before establishing the storm and garden imagery in lines 2-3, then circling back to complete the negation as a rhetorical question in line 4 before delivering the revelation in line 5; this creates a slightly circular, suspended syntax compared to the source's linear kami-to-shimo progression."
+    },
+    "translator_strategy": "McCauley prioritizes preserving the poem's grammatical and rhetorical shape (negation-then-revelation) through a literal, word-for-word rendering, even at the cost of natural English syntax and the fusion of the ふり pivot's double meaning.",
+    "overall_fidelity": "medium",
+    "poem_number": 96,
+    "translator": "McCauley"
+  }
+}

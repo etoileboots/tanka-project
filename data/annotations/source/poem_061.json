@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "九重",
+      "ku": 4,
+      "reading_primary": "ここのえ",
+      "reading_secondary": "九重(kyūjū/many-layered)",
+      "interaction": "九重 literally means 'ninefold' and is a fixed term for the Imperial Palace/capital (Kyoto), while also numerically echoing and contrasting with 八重 (eightfold) in the kami-no-ku — the poem plays on the numerical progression from eight-layered blossoms to the nine-layered palace, so the word simultaneously denotes the physical place (the palace) and completes the numerical wordplay begun by yae-zakura. This is not a strict homophonic pivot but a paronomastic number-play that functions similarly, linking the two halves through arithmetic/verbal echo rather than two unrelated lexical meanings, so it is included here as a borderline case of double-signification central to the poem's wit."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The ancient capital of Nara and its famous eightfold cherry blossoms — an image of a bygone era's beauty",
+    "shimo_theme": "Today, in the ninefold palace of the present capital (Kyoto), those very blossoms bloom in fragrant splendor",
+    "relationship_type": "seasonal-pivot",
+    "pivot_note": "The poem pivots from a nostalgic evocation of the old Nara capital's celebrated yae-zakura to the present moment, in which those same (or descended) blossoms have been brought to bloom within the imperial court at the new capital — collapsing past and present, and old and new capitals, into a single image of continuity and flourishing. The numerical wordplay (八重→九重) reinforces the sense of the past blossoming anew, more richly, in the present."
+  },
+  "kigo": {
+    "word": "八重桜",
+    "season": "spring",
+    "note": "Yae-zakura, the double-flowered cherry blossom, is one of the most celebrated spring flowering images in classical waka, associated with abundance and courtly splendor; here it also carries historical resonance tying Nara's ancient glory to the present flourishing of the Heian court."
+  },
+  "furigana": [
+    {
+      "kanji": "奈良",
+      "reading": "なら"
+    },
+    {
+      "kanji": "都",
+      "reading": "みやこ"
+    },
+    {
+      "kanji": "八重桜",
+      "reading": "やえざくら"
+    },
+    {
+      "kanji": "今日",
+      "reading": "きょう"
+    },
+    {
+      "kanji": "九重",
+      "reading": "ここのえ"
+    },
+    {
+      "kanji": "匂",
+      "reading": "にお"
+    }
+  ],
+  "poem_number": 61,
+  "poet": "Ise no Osuke",
+  "source_jp": "いにしへの\n奈良の都の\n八重桜\n今日九重に\n匂ひぬるかな"
+}

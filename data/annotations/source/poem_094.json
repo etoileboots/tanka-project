@@ -1,0 +1,70 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "ふるさと",
+      "ku": 4,
+      "reading_primary": "furusato (old village/former capital)",
+      "reading_secondary": "ふる (古る/経る) - to grow old, to pass time",
+      "interaction": "ふるさと literally means 'old village/former capital' (here referring to the old Yoshino palace site), but the ふる element also resonates with 古る/経る 'to age, to pass time,' reinforcing the poem's mood of decline and the passage of time associated with the deserted former capital, while the surface sense keeps its place-noun function as the subject of the coldness described in the shimo-no-ku.",
+      "confidence": "medium"
+    }
+  ],
+  "jokotoba": {
+    "text": "みよし野の山の秋風",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "秋風(akikaze)",
+    "function": "Establishes the specific place (Yoshino mountains) and the autumn wind blowing there, setting the scene that leads into the sound and coldness of night described in the shimo-no-ku; functions almost like an extended locative preface introducing the sensory experience of the cold wind before the temporal and emotional turn in ku 3-5."
+  },
+  "honkadori": {
+    "source_poem": "み吉野の山の秋風さ夜ふけて故郷寒く衣打つなり (attributed poetic tradition tied to Yoshino as former imperial retreat)",
+    "source_poet": "Traditional Yoshino poetic topos (via earlier Kokinshū-period diction)",
+    "echoed_phrase": "みよし野の山",
+    "function": "Invokes the established poetic image of Yoshino as a place of imperial nostalgia and autumnal solitude, drawing on the accumulated classical association of 'ふるさと' with the abandoned Yoshino detached palace found in earlier Heian poetry, deepening the sense of historical loss."
+  },
+  "kigo": {
+    "word": "秋風",
+    "season": "autumn",
+    "note": "Autumn wind (akikaze) is one of the most emotionally loaded seasonal images in classical waka, conventionally signaling loneliness, the chill of parting, and the transience of things; here it also carries the physical cold that motivates the fulling of cloth, making it the poem's dominant seasonal and emotional anchor.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "山",
+      "reading": "やま"
+    },
+    {
+      "kanji": "秋風",
+      "reading": "あきかぜ"
+    },
+    {
+      "kanji": "衣",
+      "reading": "ころも"
+    },
+    {
+      "kanji": "打",
+      "reading": "う"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The autumn wind blowing through the mountains of Yoshino as night deepens, establishing a scene of cold, remote, and historically resonant landscape.",
+    "shimo_theme": "The speaker perceives, from within the old village (the former capital site), the sound of cloth being fulled (beaten) in the cold night, evoking solitude and nostalgic melancholy.",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The kami-no-ku builds the sensory and atmospheric conditions (deepening night, mountain autumn wind) that lead the speaker to notice — by sound alone, in darkness — the cold and the fulling of cloth in the shimo-no-ku; the wind's chill is inferred to explain why the cloth-beating sound feels so poignantly cold, uniting landscape perception with implied human activity and emotion."
+  },
+  "poem_number": 94,
+  "poet": "Sangi Masatsune",
+  "source_jp": "みよし野の\n山の秋風\nさよふけて\nふるさとさむく\n衣うつなり"
+}

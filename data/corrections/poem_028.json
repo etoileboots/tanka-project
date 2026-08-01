@@ -1,0 +1,540 @@
+{
+  "poem_number": 28,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T02:10:33.609897+00:00"
+    },
+    "devices": {
+      "冬": {
+        "status": "confirmed",
+        "original": {
+          "word": "冬",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T02:04:09.950032+00:00"
+      },
+      "かれぬ": {
+        "status": "confirmed",
+        "original": {
+          "word": "かれぬ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T02:05:42.381271+00:00"
+      },
+      "め": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "め",
+          "color": "#F28FC0",
+          "note": "eye/sprout"
+        },
+        "reviewed_at": "2026-08-01T20:45:33.860175+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:06:40.496612+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:06:40.996355+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:06:41.393893+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:06:41.846377+00:00"
+        }
+      },
+      "devices": {
+        "grass": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "grass",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T02:06:11.846571+00:00"
+        },
+        "die away": {
+          "status": "confirmed",
+          "original": {
+            "word": "die away",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:06:38.964238+00:00"
+        },
+        "winter": {
+          "status": "confirmed",
+          "original": {
+            "word": "winter",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:06:39.779070+00:00"
+        },
+        "human face and grass": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "human face and grass",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T02:07:56.296781+00:00"
+        }
+      },
+      "device_links": {
+        "winter": {
+          "status": "corrected",
+          "original": {
+            "word": "winter"
+          },
+          "corrected": {
+            "source_word": "冬"
+          },
+          "reviewed_at": "2026-08-01T01:20:33.778829+00:00"
+        },
+        "human face and grass": {
+          "status": "corrected",
+          "original": {
+            "word": "human face and grass"
+          },
+          "corrected": {
+            "source_word": "め"
+          },
+          "reviewed_at": "2026-08-01T20:45:46.472039+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:06:53.197922+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:06:55.114168+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T02:08:39.294230+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:08:40.327893+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:08:40.693103+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:08:43.893193+00:00"
+        }
+      },
+      "devices": {
+        "winter-time": {
+          "status": "confirmed",
+          "original": {
+            "word": "winter-time",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:07:03.046192+00:00"
+        },
+        "herb and tree And every human face": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "herb and tree And every human face",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T02:08:09.395834+00:00"
+        },
+        "herb and tree": {
+          "status": "confirmed",
+          "original": {
+            "word": "herb and tree",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:21:40.034226+00:00"
+        },
+        "And every human face": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "And every human face",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T02:08:21.694881+00:00"
+        },
+        "and every human face": {
+          "status": "removed",
+          "original": {
+            "word": "and every human face",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:21:19.640714+00:00"
+        },
+        "herb and tree and every human face": {
+          "status": "confirmed",
+          "original": {
+            "word": "herb and tree and every human face",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T20:45:40.337394+00:00"
+        }
+      },
+      "device_links": {
+        "winter-time": {
+          "status": "corrected",
+          "original": {
+            "word": "winter-time"
+          },
+          "corrected": {
+            "source_word": "冬"
+          },
+          "reviewed_at": "2026-08-01T01:11:03.904723+00:00"
+        },
+        "herb and tree": {
+          "status": "corrected",
+          "original": {
+            "word": "herb and tree"
+          },
+          "corrected": {
+            "source_word": "め"
+          },
+          "reviewed_at": "2026-08-01T01:21:39.334491+00:00"
+        },
+        "herb and tree and every human face": {
+          "status": "corrected",
+          "original": {
+            "word": "herb and tree and every human face"
+          },
+          "corrected": {
+            "source_word": "め"
+          },
+          "reviewed_at": "2026-08-01T20:45:43.573628+00:00"
+        },
+        "herb and tree And every human face": {
+          "status": "corrected",
+          "original": {
+            "word": "herb and tree And every human face"
+          },
+          "corrected": {
+            "source_word": "め"
+          },
+          "reviewed_at": "2026-08-01T20:47:39.986078+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:09:00.593710+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:09:00.977888+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:09:16.878999+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:09:17.645098+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:09:23.762703+00:00"
+        }
+      },
+      "devices": {
+        "men and plants": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "men and plants",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T02:09:44.478198+00:00"
+        },
+        "trees their leaves have shed": {
+          "status": "removed",
+          "original": {
+            "word": "trees their leaves have shed",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:09:53.828284+00:00"
+        },
+        "dead": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "dead",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T02:09:55.794716+00:00"
+        },
+        "winter time": {
+          "status": "removed",
+          "original": {
+            "word": "winter time",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:22:34.798835+00:00"
+        },
+        "winter": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "winter",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:22:44.049994+00:00"
+        }
+      },
+      "device_links": {
+        "winter time": {
+          "status": "corrected",
+          "original": {
+            "word": "winter time"
+          },
+          "corrected": {
+            "source_word": "冬"
+          },
+          "reviewed_at": "2026-08-01T01:10:46.394246+00:00"
+        },
+        "winter": {
+          "status": "corrected",
+          "original": {
+            "word": "winter"
+          },
+          "corrected": {
+            "source_word": "冬"
+          },
+          "reviewed_at": "2026-08-01T01:22:47.465726+00:00"
+        },
+        "men and plants": {
+          "status": "corrected",
+          "original": {
+            "word": "men and plants"
+          },
+          "corrected": {
+            "source_word": "め"
+          },
+          "reviewed_at": "2026-08-01T20:45:52.221800+00:00"
+        },
+        "dead": {
+          "status": "corrected",
+          "original": {
+            "word": "dead"
+          },
+          "corrected": {
+            "source_word": "かれぬ"
+          },
+          "reviewed_at": "2026-08-01T01:23:02.831511+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "winter loneliness": {
+          "status": "removed",
+          "original": {
+            "word": "winter loneliness",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:10:50.988639+00:00"
+        },
+        "withered": {
+          "status": "confirmed",
+          "original": {
+            "word": "withered",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:10:06.394599+00:00"
+        },
+        "leaves and grass": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "leaves and grass",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T02:10:18.543550+00:00"
+        },
+        "winter": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "winter",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:10:55.704542+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:10:07.544810+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:10:09.795370+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:10:10.361195+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:10:28.692276+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:10:29.759451+00:00"
+        }
+      },
+      "device_links": {
+        "winter": {
+          "status": "corrected",
+          "original": {
+            "word": "winter"
+          },
+          "corrected": {
+            "source_word": "冬"
+          },
+          "reviewed_at": "2026-08-01T01:10:58.237514+00:00"
+        },
+        "withered": {
+          "status": "corrected",
+          "original": {
+            "word": "withered"
+          },
+          "corrected": {
+            "source_word": "かれぬ"
+          },
+          "reviewed_at": "2026-08-01T01:22:18.283759+00:00"
+        },
+        "leaves and grass": {
+          "status": "corrected",
+          "original": {
+            "word": "leaves and grass"
+          },
+          "corrected": {
+            "source_word": "め"
+          },
+          "reviewed_at": "2026-08-01T20:45:50.387529+00:00"
+        }
+      }
+    }
+  }
+}

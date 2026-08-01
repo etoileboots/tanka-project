@@ -1,0 +1,55 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "おとづれて",
+      "ku": 3,
+      "reading_primary": "おとづれて (to visit/come, of the wind rustling)",
+      "reading_secondary": "音connotation - to make a sound",
+      "interaction": "The verb literally means 'to visit/call upon' but is built on 'oto' (sound), so it simultaneously conveys the rustling sound the wind makes in the rice leaves and the personified 'visiting' of the wind/season upon the hut — both the auditory and animate-visitor senses operate together, though this is closer to an association-reinforced pun than a strict two-referent kakekotoba, so confidence is medium.",
+      "confidence": "medium"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "At evening, the wind passes through and rustles the rice leaves of the field before the gate, producing a sound that seems like a visitor arriving",
+    "shimo_theme": "That same autumn wind now blows into the speaker's humble reed-thatched hut",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku describes the wind's action on the rice leaves in the field as an auditory event ('otozurete' — as if calling/visiting), and the shimo-no-ku reveals that this same wind-borne sound continues on to blow directly into the poet's reed hut, collapsing outer landscape and inner dwelling into one continuous sensory experience of autumn's arrival and its accompanying loneliness."
+  },
+  "kigo": {
+    "word": "秋風",
+    "season": "autumn",
+    "note": "Akikaze (autumn wind) is one of the most classic autumn kigo, conventionally associated with loneliness, the rustling of dying leaves and grasses, and the poignant sense of seasonal change and solitude — here it is the poem's culminating and most load-bearing image, explicitly named in the closing ku after being implied through the rustling rice leaves.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "夕",
+      "reading": "ゆふ"
+    },
+    {
+      "kanji": "門田",
+      "reading": "かどた"
+    },
+    {
+      "kanji": "稲葉",
+      "reading": "いなば"
+    },
+    {
+      "kanji": "秋風",
+      "reading": "あきかぜ"
+    }
+  ],
+  "poem_number": 71,
+  "poet": "Dainagon Tsunenobu",
+  "source_jp": "夕されば\n門田の稲葉\nおとづれて\nあしのまろやに\n秋風ぞふく"
+}

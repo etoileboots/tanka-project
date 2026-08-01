@@ -1,0 +1,645 @@
+*,*::before,*::after{box-sizing:border-box;}
+html,body{height:100%;margin:0;overflow:hidden;background:#fff;
+  font-family:system-ui,-apple-system,sans-serif;}
+
+/* Spec: cell=82pt, gap=21pt, margin=50pt → ratios cell:gap=3.905, margin:gap=2.381
+   Scale so grid+margins fit inside available viewport (width and height).
+   total_w = 13*cell + 12*gap + 2*margin = gap*(13*3.905+12+2*2.381) = gap*67.525
+   total_h = 8*cell + 7*gap = gap*(8*3.905+7) = gap*38.238
+   With ~70px header: available_h = 100vh - 70px
+   gap = min( 100vw/67.525 , (100vh - 70px)/38.238 ) */
+:root{
+  /* --hd-h is set dynamically by updateHdHeight() in app.js (via a
+     ResizeObserver on .hd), not guessed here — the header's real height
+     depends on its own content (title/subtitle wrap differently per
+     viewport width, plus the toggles row), so a fixed px guess either
+     left dead space or, if too small, let the grid's own height budget
+     overshoot and push the header's top off-screen under
+     html,body{overflow:hidden}. The 96px fallback only covers the first
+     paint before JS runs. */
+  --hd-h: 96px;
+  /* Divisor is 43, not 38.238 — 38.238 is only 8*cell + 7*gap (the grid's
+     own height), leaving out the top+bottom --margin this budget is
+     supposed to include (margin:gap*2.381 each, so +2.381+2.381 = 43
+     total). Using 38.238 computed a --gap slightly too large, so the grid
+     plus its margin came out taller than the space actually available —
+     with .gw centering it and clipping via overflow:hidden, that overshoot
+     showed up as the top row (and bottom) getting cut off. */
+  --gap: min(calc(100vw / 67.525), calc((100vh - var(--hd-h)) / 43));
+  --cell: calc(var(--gap) * 3.905);
+  --margin: calc(var(--gap) * 2.381);
+}
+
+/* Page layout */
+.page{height:100%;display:flex;flex-direction:column;}
+
+/* Header */
+.hd{flex-shrink:0;text-align:center;padding:.9rem 1rem .6rem;}
+.hd h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.1rem,2.2vw,1.6rem);
+  font-weight:700;margin:0;letter-spacing:-.01em;}
+.hd p{font-size:.78rem;color:#888;margin:.35rem auto 0;font-style:italic;max-width:52rem;}
+.toggles-row{
+  display:flex;align-items:center;justify-content:center;gap:1.4rem;
+  margin-top:.6rem;flex-wrap:wrap;
+}
+.toggle-group{display:flex;align-items:center;gap:.5rem;}
+.toggle-label{font-family:'Inter',system-ui,sans-serif;font-size:.66rem;font-weight:600;
+  letter-spacing:.06em;text-transform:uppercase;color:#999;}
+/* Plain text options separated by "/", not a pill/button group — the
+   chosen one is just darker/bolder, nothing gets a filled background. */
+.view-toggle{display:flex;align-items:center;gap:.4rem;}
+.vt-btn{
+  border:none;background:none;padding:0;font-family:Georgia,"Times New Roman",serif;
+  font-size:.82rem;font-weight:400;color:#aaa;cursor:pointer;transition:color .12s;
+}
+.vt-btn+.vt-btn::before{content:'/';margin-right:.4rem;color:#ccc;font-weight:400;}
+.vt-btn:hover{color:#666;}
+.vt-btn.active{color:#111;font-weight:700;}
+.zoom-hint{font-size:.68rem;color:#aaa;font-style:italic;}
+.help-btn{
+  position:absolute;top:.8rem;right:1rem;width:1.6rem;height:1.6rem;border-radius:50%;
+  border:1px solid #ddd;background:#fff;color:#888;font-size:.8rem;font-weight:700;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  text-decoration:none;transition:background .12s,color .12s;
+}
+.help-btn:hover{background:#f5f4f0;color:#444;}
+.hd{position:relative;}
+
+/* Grid wrapper — scaled to viewport
+   Spec: 13 cols × 8 rows, 82×82pt cells, 21pt gap, 50pt page margin */
+.gw{
+  flex:1;min-height:0;
+  display:flex;align-items:center;justify-content:center;
+  padding-bottom:var(--margin);
+  position:relative;
+  overflow:hidden;
+}
+
+/* Discrete row/column steppers — jump the selection one column or row at a
+   time, independent of the continuous hover-magnifier zoom (applyZoom() in
+   app.js drives both from the same selected cell). */
+.grid-nav{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  grid-template-rows:auto 1fr;
+  gap:.5rem .6rem;
+}
+.col-rail{
+  grid-column:2;grid-row:1;
+  display:flex;gap:var(--gap);align-items:center;justify-content:center;
+  transition:opacity .15s ease;
+}
+.row-rail{
+  grid-column:1;grid-row:2;
+  display:flex;flex-direction:column;gap:var(--gap);align-items:center;justify-content:center;
+  transition:opacity .15s ease;
+}
+/* Hide the static navigation rails while the grid is transformed. */
+.grid-nav:has(#grid.zoom-active) .col-rail,
+.grid-nav:has(#grid.zoom-active) .row-rail{
+  opacity:0;pointer-events:none;
+}
+.nav-btn{
+  border:none;background:none;padding:0;
+  font-family:'Inter',system-ui,sans-serif;font-size:.66rem;font-weight:500;
+  color:#bbb;cursor:pointer;transition:color .12s;
+  display:flex;align-items:center;justify-content:center;
+}
+.col-rail .nav-btn{width:var(--cell);}
+.row-rail .nav-btn{height:var(--cell);}
+.nav-btn:hover{color:#555;}
+.nav-btn.active{color:#111;font-weight:700;}
+
+/* Takes over #grid's old grid-nav placement and clips to it — #grid itself
+   is what scales/translates during zoom, and this static, never-
+   transformed wrapper is what guarantees that transform can never make
+   the zoomed content visually spill past the grid's own resting box,
+   regardless of the scale/centering math in setZoomLevel/applyZoom. */
+.grid-clip{grid-column:2;grid-row:2;overflow:hidden;position:relative;}
+
+/* Same 13×8 dimensions (grid-template-columns/rows) at every zoom level —
+   zooming is a transform:scale on this whole element (see setZoomLevel in
+   app.js), never a change to the track layout itself, so every cell
+   (focal and neighbors) grows together in sync, in place. */
+.grid{
+  transition:transform .18s ease-out;
+  display:grid;
+  grid-template-columns:repeat(13,var(--cell));
+  grid-template-rows:repeat(8,var(--cell));
+  gap:var(--gap);
+  grid-auto-flow:dense;
+}
+
+/* Legend — occupies the bottom-right 2×2 corner of .grid-clip (matching
+   the same 2×2 block nextGridPos() in app.js still reserves when placing
+   poems), but as a sibling of #grid rather than a child — position:
+   absolute here, not a grid-column/row placement, is what keeps it OUT of
+   #grid's own zoom transform, so it neither scales nor pans away and
+   stays visible/in-place at every zoom level. */
+.legend{
+  position:absolute;right:0;bottom:0;
+  width:calc(var(--cell)*2 + var(--gap));height:calc(var(--cell)*2 + var(--gap));
+  padding:1.15rem 1.25rem;font-size:.6rem;line-height:1.5;
+  font-family:'Inter',system-ui,sans-serif;font-weight:300;
+  display:flex;flex-direction:column;justify-content:center;
+  background:#fff;
+}
+.legend strong{display:block;text-align:center;font-size:.58rem;font-weight:700;
+  letter-spacing:.05em;text-transform:uppercase;color:#111;margin-bottom:.4rem;}
+.legend-row{display:flex;align-items:center;gap:.35rem;color:#444;font-weight:300;}
+.legend-swatch{width:8px;height:8px;border-radius:1px;flex-shrink:0;}
+/* Structure mode shows only the bipartite kami/shimo/imagined skeleton —
+   the device rows (kakekotoba/makurakotoba/kigo) describe highlights that
+   Structure mode doesn't draw at all, so listing them would document a
+   layer that isn't actually on screen. */
+.legend.structure-only .legend-device{display:none;}
+
+/* Poem cell — normal size/position never changes; zoom is done entirely
+   with #grid's own transform:scale, which the compositor animates
+   smoothly with zero layout recalculation. */
+.pc{
+  width:100%;height:100%;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;
+  border-radius:4px;user-select:none;position:relative;
+  transition:transform .09s ease-out, filter .3s ease, opacity .3s ease;
+  will-change:transform;
+}
+.pc:focus-visible{outline:2px solid #1D7058;outline-offset:1px;}
+/* Every other poem greys out while one is zoomed — the grid's own
+   dimensions never change (same 13×8 tracks, same footprint), so this
+   desaturation is what actually draws the eye to the focused poem instead
+   of a same-size, same-color, same-position grid of near-identical bars. */
+.grid.zoom-active .pc:not(.zoomed){filter:grayscale(1) brightness(1.05);opacity:.55;}
+.glyph-wrap{width:100%;height:100%;display:flex;align-items:center;justify-content:center;transition:opacity .18s ease;}
+.glyph-wrap svg{width:100%;height:100%;display:block;}
+
+/* ── Zoom ────────────────────────────────────────────────────────────────
+   The WHOLE grid scales (see #grid transform in app.js), anchored on the
+   selected poem and recentered toward the viewport, so approaching a poem
+   feels like zooming into a map region — every neighbor grows and slides
+   in sync with the focal cell, at the same rate, rather than the focal
+   cell alone popping out over static neighbors. The grid's own dimensions
+   (track count) never change — only its scale does. */
+.pc.zoomed{
+  z-index:5;
+  background:#fff;
+  border-radius:6px;
+}
+/* At rest/hover: just this label, centered — no bars underneath it, no
+   absolute overlay positioning needed since it's the only content. */
+.zc-hover-lbl{
+  width:100%;height:100%;display:flex;align-items:center;justify-content:center;
+  text-align:center;font-family:'Inter',system-ui,sans-serif;font-weight:700;
+  font-size:7.5px;color:#333;padding:2px;pointer-events:none;
+  overflow:hidden;word-break:break-word;
+}
+/* Self-contained zoom card — replaces .glyph-wrap's plain SVG for the
+   selected cell once actually zoomed to the book tier (level 0 stays a
+   plain glyph; the first zoom press stays in-cell too — see
+   applyCellZoomTier). Centered on its own (now-scaled-up) parent cell via
+   left/top 50% + translate, NOT position:fixed — the cell itself already
+   ends up centered in the viewport once the grid's own transform recenters
+   it, and staying attached to the cell (rather than the raw viewport)
+   keeps it visually in sync with the neighbors zooming around it. */
+.zc-card{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  display:flex;flex-direction:column;
+  /* No shadow, no border — the shadow read as a distinct floating pop-up
+     layer sitting on top of the grid; even a thin outline still drew a
+     visible edge around the card. Just the white fill against the
+     greyed-out neighbors is what sets it apart now. */
+  background:#fff;border-radius:6px;overflow:hidden;
+}
+.zc-body{
+  flex:1;min-height:0;display:flex;align-items:flex-start;justify-content:center;
+  overflow:hidden;padding:8px;
+}
+.zc-bars{width:100%;height:100%;}
+
+/* Two-page book layout — source text (left) | poem number (gutter) |
+   divider | title + all four translations (right). Same idea as the
+   modal's jp-panel/en-panel split, just laid out inline and sized to
+   whatever room the current zoom level has. */
+.zc-book{display:flex;align-items:flex-start;gap:10px;height:100%;}
+.zc-book-jp{display:flex;align-items:flex-start;gap:4px;flex-shrink:0;height:100%;}
+.zc-book-num{
+  writing-mode:vertical-rl;text-orientation:mixed;
+  font-family:'Iansui','Hiragino Mincho ProN','Yu Mincho',serif;font-size:5px;color:#999;
+  letter-spacing:.15em;flex-shrink:0;align-self:stretch;
+  display:flex;align-items:center;justify-content:center;
+}
+.zc-book-divider{width:1px;background:#e4e1db;align-self:stretch;flex-shrink:0;}
+.zc-book-en{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px;}
+.zc-book-title{
+  font-family:'Ibarra Real Nova',Georgia,serif;font-weight:700;
+  font-size:7px;color:#111;text-align:center;margin-bottom:2px;
+}
+.zc-book-block{display:flex;flex-direction:column;gap:1px;}
+/* font-size set inline per-poem (see renderZcBook in app.js), proportional
+   to that column's own body-text size — a fixed size here made the label
+   look much bigger than the actual poem text once the body shrank to fit. */
+.zc-book-lbl{font-family:'Inter',system-ui,sans-serif;font-weight:700;color:#888;}
+.zc-book-lines{font-family:'Ibarra Real Nova',Georgia,serif;color:#333;line-height:1.4;word-break:break-word;}
+/* Keep each line's underline aligned with its text. */
+.zc-book-line{
+  /* display:block (not inline-block) — width:fit-content alone already
+     keeps the underline from overrunning short text; inline-block also
+     put each line into an INLINE formatting context, so short adjacent
+     lines could flow onto the same visual row like wrapping words instead
+     of always stacking, one per row — which is what made two lines with
+     two different, individually-correct ku colors (e.g. shimo then
+     imagined) look like one line with a wrong, two-toned underline. */
+  display:block;width:fit-content;max-width:100%;
+  /* em, not px — .zc-book-line inherits its font-size from .zc-book-lines,
+     which shrinkToFitAll (app.js) shrinks dynamically to fit the card. A
+     fixed px border/padding/margin stayed the same thickness no matter how
+     far the text shrank, so at small sizes the underline read as a thick
+     bar dwarfing its own text; em units track the actual rendered font
+     size automatically, at every size, with no separate JS bookkeeping. */
+  border-bottom:0.22em solid transparent;padding-bottom:0.12em;margin-bottom:0.12em;
+}
+
+/* Zoom "bars" tier — the selected cell's bars swap for its actual source
+   characters, hoverable (withTips), inside the self-contained .zc-card
+   at press 1 before the book layout takes over at press 2. */
+.gz-sidebar{
+  /* width set inline per-poem (see renderZcBook in app.js), proportional
+     to uiScale — a fixed 3px was disproportionately thick next to JP text
+     shrunk down for a small card. height:100% (was a fixed 82%) so the
+     kami/shimo bar always spans the JP text's own full height — 82% left
+     a visible gap at the bottom whenever the text itself filled its
+     column (which .gz-text's own height:100% means it always does). */
+  height:100%;flex-shrink:0;
+  display:flex;flex-direction:column;border-radius:2px;overflow:hidden;
+}
+.gz-sb-seg{flex-shrink:0;}
+/* Fixed narrow width (not just a max) leaves no room for CJK's default
+   behavior of wrapping overflow into a second vertical column further
+   left — that's what let text spill sideways across neighboring cells.
+   With only one column possible, an over-long poem instead clips its own
+   tail via overflow:hidden; renderGridTextGlyph() sizes the font down to
+   make that the rare exception rather than the norm. */
+.gz-text{
+  writing-mode:vertical-rl;text-orientation:mixed;
+  font-family:'Iansui','Hiragino Mincho ProN','Yu Mincho',serif;
+  width:1.1em;flex-shrink:0;
+  /* height:100% + overflow:hidden are what actually enforce the "only one
+     column possible" intent below — without an explicit height, this flex
+     item had no hard vertical limit of its own to overflow AGAINST, so
+     when the text ran long enough it fell back to CJK's default behavior
+     of wrapping into a second vertical column further left instead of
+     clipping, which read as the poem's text being split in two. */
+  height:100%;overflow:hidden;
+  line-height:1.35;letter-spacing:.04em;color:#1a1a1a;
+}
+.gz-ch{padding:0 .5px;border-radius:1px;background-clip:padding-box;border:1px solid transparent;box-sizing:border-box;}
+
+/* ── By-Author layout ── 5 panels (source + 4 translators), each a compact
+   10×10 grid of that one translator's 100 poems — lets a reader scan one
+   translator's whole body of work, or compare corpus-wide patterns between
+   translators, instead of poem-by-poem. Each mini-cell is a single bar
+   (not five), same color logic as the by-poem view's bars. */
+.author-grids{
+  display:flex;gap:1.1rem;align-items:flex-start;justify-content:center;
+  width:100%;height:100%;padding:0 1rem;
+}
+.author-panel{
+  display:flex;flex-direction:column;align-items:center;gap:.5rem;
+  flex:1;min-width:0;max-width:19%;
+}
+.author-panel-label{
+  font-family:'Ibarra Real Nova',Georgia,serif;font-weight:700;font-size:.85rem;color:#333;
+  text-align:center;white-space:nowrap;
+}
+.author-mini-grid{
+  display:grid;
+  grid-template-columns:repeat(10,1fr);
+  gap:3px;width:100%;aspect-ratio:1;
+}
+.author-cell{
+  cursor:pointer;border-radius:2px;overflow:hidden;
+  transition:transform .1s ease;
+}
+.author-cell:hover{transform:scale(1.35);z-index:5;position:relative;box-shadow:0 2px 8px rgba(0,0,0,.25);}
+.author-cell svg{width:100%;height:100%;display:block;}
+
+/* ── Modal overlay ── */
+.overlay{
+  display:none;position:fixed;inset:0;z-index:200;
+  background:#ffffff;
+  overflow:hidden;
+}
+.overlay.open{display:flex;flex-direction:column;}
+
+/* Modal top bar — prev arrow | title | next arrow + close, no boxes around
+   any of them (arrow-key nav — see keydown handler in app.js — already
+   covers the same Prev/Next actions, so these are a visible affordance,
+   not the only way to navigate). */
+.modal-bar{
+  flex-shrink:0;display:flex;align-items:center;justify-content:space-between;
+  padding:.7rem 1.25rem;border-bottom:1px solid #e4e1db;
+  background:#fff;
+}
+.modal-title{
+  font-family:'Ibarra Real Nova',Georgia,serif;font-size:1.05rem;font-weight:700;
+  color:#111;text-align:center;flex:1;min-width:0;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 1rem;
+}
+.modal-bar-right{display:flex;align-items:center;gap:1rem;}
+.mnav-arrow{
+  border:none;background:none;padding:.2rem;cursor:pointer;
+  font-size:1.2rem;line-height:1;color:#444;transition:color .1s;
+}
+.mnav-arrow:hover{color:#111;}
+.mnav-arrow:disabled{opacity:.3;cursor:default;}
+.mnav-arrow:disabled:hover{color:#444;}
+.mbtn-close{
+  border:none;background:none;padding:.2rem;cursor:pointer;
+  font-size:1rem;color:#888;transition:color .1s;
+}
+.mbtn-close:hover{color:#111;}
+
+/* Modal body: JP panel | EN panel */
+.modal-body{flex:1;min-height:0;display:grid;grid-template-columns:44% 56%;}
+
+/* Left panel — JP text with sidebar, title, and poem-specific legend */
+.jp-panel{
+  position:relative;
+  display:flex;align-items:stretch;justify-content:center;
+  background:#ffffff;border-right:1px solid #e4e1db;overflow:hidden;
+  padding:1.2rem 1rem;
+}
+/* justify-content:center (horizontal) but deliberately NOT
+   align-items:center (vertical) — centering the cross axis on the flex
+   CONTAINER is the classic flexbox+overflow trap: once content is taller
+   than the container, browsers clip it equally from both ends instead of
+   letting you scroll to the actual top, so scrolling could never reach
+   the poem's first characters. margin:auto on .jp-inner itself (below)
+   centers it the same way when it fits, but behaves like normal
+   top-anchored, fully-scrollable content once it doesn't. */
+.jp-scroll{
+  flex:1;min-width:0;display:flex;justify-content:center;
+  overflow-y:auto;overflow-x:hidden;
+}
+/* Sidebar + text kept as one tightly-packed unit, centered as a whole —
+   so the kami/shimo color bracket sits flush against the characters
+   instead of pinned to the panel's far edge with a gap. */
+.jp-inner{
+  display:flex;flex-direction:row;align-items:stretch;gap:.6rem;
+  margin:auto 0;
+}
+.jp-sidebar{
+  width:8px;flex-shrink:0;display:flex;flex-direction:column;
+  border-radius:4px;overflow:hidden;align-self:stretch;
+}
+.jp-sidebar-seg{flex-shrink:0;}
+.jp-chars-area{
+  display:flex;align-items:center;justify-content:center;
+  padding:.4rem 0;
+}
+/* Real writing-mode:vertical-rl (not a flex-column stack of horizontal
+   boxes) — a fake vertical column built from flex-direction:column lays
+   each character out as its own independent horizontal-text box, which
+   reads as "sideways"/out-of-line the moment anything doesn't perfectly
+   center (furigana groups especially). Native vertical text keeps every
+   character genuinely upright and in one continuous column, the same way
+   .gz-text/.zc-book-num/.title-jp already do it elsewhere on this page. */
+.jp-chars{
+  writing-mode:vertical-rl;text-orientation:mixed;
+  font-family:'Iansui','Hiragino Mincho ProN','Yu Mincho','MS Mincho',serif;
+  font-size:clamp(1rem,2.6vh,1.7rem);
+  letter-spacing:.06em;color:#1a1a1a;
+  /* height:max-content, not the "no height rule = auto" assumption — under
+     the chain of flex ancestors here (.jp-scroll > .jp-inner > .jp-chars-
+     area, mixing stretch and centered/auto-margin alignment), the browser
+     was still resolving .jp-chars' cross-size against an implicit
+     available-space figure from somewhere up that chain during its OWN
+     line-wrap decision, even though nothing set an explicit height/
+     max-height on .jp-chars directly — the poem wrapped into a second
+     column despite that. Forcing height:max-content overrides whatever
+     that implicit figure was and guarantees single-line sizing regardless
+     of how the surrounding flex layout resolves. */
+  height:max-content;
+}
+/* Plain white by default — kami/shimo is shown only by the bracket beside
+   the text (.jp-sidebar). A device word gets an actual highlight
+   background in its own color, strong enough to read clearly at a glance.
+   Consecutive characters of the SAME device run are rounded only at the
+   run's start/end, so a multi-character word reads as one continuous
+   highlighted block, not a stack of separate rounded chips with visible
+   seams between them. */
+.jp-ch{
+  display:inline-block;
+  padding:.16em .09em;
+  border:2px solid transparent;box-sizing:border-box;
+}
+/* position:relative, not flex — the kanji spans inside are plain inline
+   content, contributing their own natural width to .jp-chars' single
+   column exactly like any ungrouped .jp-ch does, so the poem's main text
+   stays on one uninterrupted vertical line regardless of where furigana
+   does or doesn't appear. Flex (row OR column) sized the GROUP itself to
+   fit kanji+furigana side by side, which nudged the kanji's own position
+   within the column at every furigana run — a poem's base text should
+   never shift depending on whether the word next to it happens to be
+   annotated. */
+.jp-ruby-group{position:relative;display:inline-block;}
+/* Furigana always reads to the RIGHT of its kanji in vertical Japanese
+   text (into the gutter toward the previous, already-read column) — never
+   left, never below. Absolutely positioned so it can never affect the
+   kanji's own layout width/position (see .jp-ruby-group above), and
+   vertically centered against whatever height the kanji run itself ends
+   up being. */
+.jp-furigana{
+  position:absolute;top:50%;left:100%;
+  transform:translateY(-50%);
+  margin-left:.08em;
+  font-family:'Iansui','Hiragino Mincho ProN','Yu Mincho',serif;
+  font-size:.42em;color:#999;
+  white-space:nowrap;
+}
+
+.title-jp{
+  writing-mode:vertical-rl;text-orientation:mixed;
+  font-family:'Iansui','Hiragino Mincho ProN','Yu Mincho',serif;
+  font-size:clamp(.65rem,1.1vw,.9rem);
+  letter-spacing:.1em;color:#888;
+  white-space:nowrap;
+  position:absolute;top:1rem;right:1.1rem;
+}
+/* Poem-specific device legend — same corner treatment, font, and no-border
+   look as the main grid's own .legend (see near the top of this file):
+   bottom-right corner of its panel, plain Inter, no box around it. */
+.jp-legend{
+  position:absolute;bottom:0;right:0;
+  padding:1.15rem 1.25rem;font-size:.6rem;line-height:1.5;
+  font-family:'Inter',system-ui,sans-serif;font-weight:300;color:#444;
+  display:flex;flex-direction:column;gap:0;
+  background:#fff;
+  max-width:9.5rem;
+}
+.jp-legend .lgd-title{
+  display:block;text-align:center;font-size:.58rem;font-weight:700;
+  letter-spacing:.05em;text-transform:uppercase;color:#111;margin-bottom:.4rem;
+}
+.jp-legend .lrow{display:flex;align-items:center;gap:.35rem;line-height:1.3;font-weight:300;}
+.jp-legend .lsw{width:8px;height:8px;border-radius:1px;flex-shrink:0;}
+
+/* Right panel — all four translations (the title moved into .modal-title
+   in the top bar — see index.html/app.js openModal — so it's not
+   duplicated here). */
+.en-panel{
+  padding:1.5rem 2rem;overflow-y:auto;background:#fff;
+}
+/* One translator block after another, in reading order (D, N, M, P — see
+   MODAL_ORDER in app.js) — not a 2×2 grid pairing them off side by side. */
+.trans-grid{
+  display:flex;flex-direction:column;gap:1.5rem;
+}
+.trans-block{min-width:0;}
+/* No border-bottom under the translator's name — it read as a divider
+   line the block didn't need. */
+.trans-label{
+  font-family:'Inter',system-ui,sans-serif;font-size:.72rem;font-weight:700;
+  letter-spacing:.03em;color:#888;margin-bottom:.4rem;
+}
+.trans-lines{display:flex;flex-direction:column;}
+.tl-row{}
+.tl{
+  display:inline-block;width:fit-content;max-width:100%;
+  font-family:'Ibarra Real Nova',Georgia,serif;font-size:.92rem;line-height:1.65;
+  color:#222;
+  border-bottom:3px solid transparent;padding-bottom:.15rem;margin-bottom:.3rem;
+}
+.no-data{color:#bbb;font-style:italic;font-size:.8rem;}
+/* Highlight backgrounds match the legend swatch exactly (full color, not a
+   lightened tint). Text stays black everywhere — never white. */
+.dw-en{
+  background-clip:padding-box;border-radius:2px;padding:0 .08em;
+  -webkit-box-decoration-break:clone;box-decoration-break:clone;
+}
+
+/* ── Tied-highlight glow — every element sharing one data-device value (the
+   JP word + its rendering in all four translators) brightens together when
+   any one of them is hovered, so the connection reads as one thing, not
+   four coincidentally-same-colored patches.
+   .dw-en is already one span per whole EN phrase, so a uniform ring reads
+   fine there. .jp-ch is one span per CHARACTER though (vertical text is
+   built one glyph at a time) — a uniform per-character ring would draw a
+   separate white box around every character of a multi-character word,
+   reading as several stacked chips instead of one unit. A permanent
+   transparent border (reserved space, so toggling the visible color never
+   shifts layout) only turns visible on the left/right always, and top/
+   bottom only at .run-start/.run-end (set in app.js's renderJPChars from
+   the same word-boundary logic that already rounds the background) —
+   together they trace one continuous outline around the whole word. */
+.jp-ch.glow{
+  border-left-color:rgba(255,255,255,.9);
+  border-right-color:rgba(255,255,255,.9);
+  filter:brightness(1.12) saturate(1.25);
+  transition:border-color .12s,filter .12s;
+  position:relative;z-index:1;
+}
+.jp-ch.glow.run-start{border-top-color:rgba(255,255,255,.9);}
+.jp-ch.glow.run-end{border-bottom-color:rgba(255,255,255,.9);}
+.dw-en.glow{
+  box-shadow:0 0 0 2px rgba(255,255,255,.9), 0 0 10px 3px rgba(0,0,0,.35);
+  filter:brightness(1.12) saturate(1.25);
+  transition:box-shadow .12s,filter .12s;
+  position:relative;z-index:1;
+}
+/* Same approach as .jp-ch.glow above (border-tracing, not a per-character
+   box-shadow) — a box-shadow drew its own halo around EVERY character,
+   which reads as separate glowing chips instead of one highlighted word.
+   run-start/run-end (set in buildJpMarkup in app.js, same word-boundary
+   logic that already rounds the background) trace one continuous outline
+   around the whole run instead. */
+.gz-ch.glow{
+  border-left-color:rgba(255,255,255,.9);
+  border-right-color:rgba(255,255,255,.9);
+  filter:brightness(1.12) saturate(1.25);
+  transition:border-color .12s,filter .12s;
+  position:relative;z-index:1;
+}
+.gz-ch.glow.run-start{border-top-color:rgba(255,255,255,.9);}
+.gz-ch.glow.run-end{border-bottom-color:rgba(255,255,255,.9);}
+
+/* Custom hover tooltip (see #hoverTip in index.html) */
+.hover-tip{
+  display:none;position:fixed;z-index:300;pointer-events:none;
+  transform:translate(0,-50%);
+  background:rgba(20,20,20,.94);color:#fff;
+  border-radius:4px;padding:.35rem .6rem;
+  font-family:'Inter',system-ui,sans-serif;font-size:.72rem;font-weight:500;
+  white-space:nowrap;max-width:16rem;white-space:normal;
+  box-shadow:0 2px 10px rgba(0,0,0,.25);
+}
+.hover-tip.show{display:block;}
+.hover-tip.flip{transform:translate(-100%,-50%);}
+
+/* ── First-visit walkthrough ── */
+.intro-overlay{
+  display:none;position:fixed;inset:0;z-index:400;
+  background:rgba(20,18,15,.55);
+  align-items:center;justify-content:center;
+}
+.intro-overlay.open{display:flex;}
+.intro-card{
+  position:relative;background:#fff;border-radius:10px;
+  width:min(30rem,90vw);max-height:85vh;overflow-y:auto;
+  padding:2rem 2.2rem 1.4rem;
+  box-shadow:0 10px 40px rgba(0,0,0,.25);
+}
+.intro-steps{min-height:12rem;}
+.intro-step{display:none;}
+.intro-step.active{display:block;}
+.intro-step h2{
+  font-family:Georgia,"Times New Roman",serif;font-size:1.15rem;margin:0 0 .8rem;color:#111;
+}
+.intro-step p{font-size:.88rem;line-height:1.6;color:#444;margin:0 0 .8rem;}
+.intro-step strong{color:#222;}
+.intro-bars-demo{
+  display:flex;align-items:flex-end;gap:.9rem;justify-content:center;
+  padding:1rem 0;
+}
+.intro-bars-demo .lbl{
+  display:flex;flex-direction:column;align-items:center;gap:.35rem;
+  font-size:.7rem;color:#888;font-weight:600;
+}
+.intro-bar{width:14px;border-radius:6px;}
+.intro-swatches{display:flex;flex-direction:column;gap:.45rem;margin-top:.4rem;}
+.intro-swatch-row{display:flex;align-items:center;gap:.55rem;font-size:.82rem;color:#444;line-height:1.4;}
+.intro-swatch{width:12px;height:12px;border-radius:2px;flex-shrink:0;}
+.intro-nav{display:flex;align-items:center;justify-content:space-between;margin-top:.6rem;}
+.intro-dots{display:flex;gap:.4rem;}
+.intro-dot{width:6px;height:6px;border-radius:50%;background:#ddd;}
+.intro-dot.active{background:#1D7058;}
+.intro-btns{display:flex;gap:.6rem;}
+/* Only used by the intro walkthrough's Back/Next now — the modal's own
+   prev/next became plain .mnav-arrow (no box) per its own design; the
+   intro dialog's buttons still want the boxed/pill look. */
+.mbtn{padding:.3rem .75rem;border-radius:4px;border:1px solid #d0cdc8;
+  background:#fff;cursor:pointer;font-size:.8rem;font-weight:500;color:#444;
+  transition:background .1s;}
+.mbtn:hover{background:#f0efe9;}
+.mbtn:disabled{opacity:.4;cursor:default;}
+.mbtn:disabled:hover{background:#fff;}
+.intro-primary{background:#1D7058;color:#fff;border-color:#1D7058;}
+.intro-primary:hover{background:#175c48;}
+.intro-close{
+  position:absolute;top:.7rem;right:.8rem;border:none;background:none;
+  font-size:1.1rem;color:#999;cursor:pointer;line-height:1;padding:.3rem;
+}
+.intro-close:hover{color:#444;}
+
+/* ── Responsive: narrow viewports flip the grid to 8 cols × 13 rows
+   (computeGridDims() in app.js) and stack the modal panels. ── */
+@media (max-width:640px){
+  .grid{
+    grid-template-columns:repeat(8,var(--cell));
+    grid-template-rows:repeat(13,var(--cell));
+  }
+  .modal-body{grid-template-columns:1fr;grid-template-rows:auto auto;overflow-y:auto;}
+  .jp-panel{border-right:none;border-bottom:1px solid #e4e1db;min-height:40vh;}
+  .author-grids{flex-direction:column;align-items:center;overflow-y:auto;}
+  .author-panel{max-width:min(20rem,90vw);width:100%;}
+}

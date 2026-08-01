@@ -1,0 +1,57 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "つらぬきとめぬ玉",
+      "ku": 4,
+      "reading_primary": "つらぬきとめぬ玉 (jewels not strung/threaded together)",
+      "reading_secondary": "n/a - not a true kakekotoba, but a conceit comparing dew to unstrung jewels/beads",
+      "interaction": "This is not a genuine double-reading kakekotoba but a metaphor: the dewdrops are likened to jewels (tama) that have not been threaded onto a string, hence scattering. Included here only to note it was checked and rejected as a kakekotoba, since 'tama' can sometimes pivot with 魂 (spirit); here that secondary reading is not grammatically activated by the syntax, so it is excluded from the final list."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The autumn wind blows continuously and forcefully across the moor, striking the white dew that lies on the grasses",
+    "shimo_theme": "The dew, dislodged and scattered by the wind, is likened to jewels/beads that have come loose because they were never strung on a thread",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The kami-no-ku describes a purely physical, sensory scene (wind battering dew on the autumn moor), while the shimo-no-ku reinterprets that same dew visually as scattering jewels — the pivot is the moment of perception where literal dew becomes figurative unstrung gems. The causal force of the wind (kami) directly produces the visual effect described in the shimo, but the deeper poetic work is the implicit simile equating tsuyu (dew) with tama (jewels) without ever stating 'like' — the whole poem is built as an extended visual conceit."
+  },
+  "kigo": {
+    "word": "秋の野",
+    "season": "autumn",
+    "note": "The 'autumn moor' (aki no no) is the explicit seasonal setting, evoking the classical image of open grassland covered in dew and rustled by wind — a quintessential autumn topos in waka. The 白露 (shiratsuyu, white dew) reinforces the season, as dew was conventionally associated with autumn mornings in the poetic calendar, often appearing on grasses and about to scatter with the wind, symbolizing the fragility and transience characteristic of autumn imagery."
+  },
+  "furigana": [
+    {
+      "kanji": "白露",
+      "reading": "しらつゆ"
+    },
+    {
+      "kanji": "風",
+      "reading": "かぜ"
+    },
+    {
+      "kanji": "秋",
+      "reading": "あき"
+    },
+    {
+      "kanji": "野",
+      "reading": "の"
+    },
+    {
+      "kanji": "玉",
+      "reading": "たま"
+    }
+  ],
+  "poem_number": 37,
+  "poet": "Bunya no Asayasu",
+  "source_jp": "白露を\n風のふきしく\n秋の野は\nつらぬきとめぬ\n玉ぞちりける"
+}

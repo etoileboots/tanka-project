@@ -1,0 +1,77 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "ふれる",
+      "ku": 5,
+      "reading_primary": "降れる (has fallen)",
+      "reading_secondary": "古れる/経れる (has aged/passed time)",
+      "interaction": "The primary and dominant reading is 降れる, 'has fallen,' referring to the snow that lies on Yoshino village. A secondary resonance with 経る/古る (aging, the passage of time) is sometimes suggested in commentary because of the moonlight-then-snow revelation motif, but this is not strongly grammatically activated here; the poem's central wordplay is not this pivot. Treating it strictly, ふれる functions primarily as 降れる with only a faint associative echo, so it is included here as a borderline case rather than a fully double-operative kakekotoba."
+    }
+  ],
+  "jokotoba": {
+    "text": "朝ぼらけ有明の月とみるまでに",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "みるまでに (to the point of seeing/mistaking)",
+    "function": "The entire kami-no-ku builds an extended perceptual illusion — dawn light resembling the lingering moon — that is not a fixed epithet but a freely composed sensory conceit unique to this poem, leading into the revelation of snow in the shimo-no-ku. It functions less as a sound-pivot and more as an extended simile/illusion-preface culminating in 'made ni' (to the extent that), which pivots into the realization of the shimo-no-ku."
+  },
+  "honkadori": {
+    "source_poem": "Traditionally associated with the broader Kokinshū-era conceit of confusing moonlight and snow, but no single specific source poem can be confidently identified as the direct honkadori target for this composition.",
+    "source_poet": "unidentified",
+    "echoed_phrase": "有明の月とみるまでに",
+    "function": "Evokes the conventional courtly trope of mistaking a white natural phenomenon for moonlight, though not traceable to one definite earlier poem with certainty."
+  },
+  "kigo": {
+    "word": "白雪",
+    "season": "winter",
+    "note": "白雪 (white snow) is the unambiguous seasonal center of the poem — it is the actual physical phenomenon that has fallen on Yoshino and been mistaken for the lingering dawn moon. Although 有明の月 (the lingering moon at dawn) and 朝ぼらけ (daybreak) carry their own strong classical associations with autumn dawn partings in the aristocratic love-poem tradition, here they are explicitly subordinated as a perceptual illusion ('to the extent that I mistook it for...') that is corrected by the final revelation of snow. The poem's entire rhetorical structure exists to set up and then resolve into this winter image, making 白雪 the dominant, load-bearing kigo rather than the moon imagery, which functions here as a decoy rather than the actual season being depicted."
+  },
+  "furigana": [
+    {
+      "kanji": "朝",
+      "reading": "あさ"
+    },
+    {
+      "kanji": "有明",
+      "reading": "ありあけ"
+    },
+    {
+      "kanji": "月",
+      "reading": "つき"
+    },
+    {
+      "kanji": "吉野",
+      "reading": "よしの"
+    },
+    {
+      "kanji": "里",
+      "reading": "さと"
+    },
+    {
+      "kanji": "白雪",
+      "reading": "しらゆき"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "At the pale light of daybreak, the speaker perceives a bright whiteness and momentarily mistakes it for the lingering moon still visible at dawn (ariake no tsuki) — an act of visual confusion under uncertain half-light.",
+    "shimo_theme": "The whiteness is revealed to be snow that has fallen on the village of Yoshino, correcting the speaker's initial misperception and grounding the poem in a concrete winter landscape.",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku stages a perceptual illusion — dawn light resembling the moon — sustained through the phrase 'miru made ni' ('to the point that I took it for...'), and the shimo-no-ku resolves this illusion by naming the true object of perception: snow fallen on Yoshino. The poem's entire art lies in withholding the true referent until the final ku, so that the reader experiences the same instant of dawning recognition as the speaker."
+  },
+  "poem_number": 31,
+  "poet": "Sakanouye no Korenori",
+  "source_jp": "朝ぼらけ\n有明の月と\nみるまでに\n吉野の里に\nふれる白雪"
+}

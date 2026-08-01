@@ -1,0 +1,297 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "seasonal-pivot",
+      "note": "The translator keeps the kami-no-ku's devotional errand (obeying the beloved's wishes, going to the spring meadows to seek wakana) in lines 1-4, then pivots to the shimo-no-ku's image of falling snow on the sleeve in lines 5-6. The pivot structure is preserved: the purposeful spring action is followed by the intruding image of snow, with 'Lo' marking the turn much as tsutsu suspends the moment. The continuous, unresolved quality of tsutsu is reasonably captured by the present-tense 'doth leave' though it reads as a completed rather than ongoing action."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "spring-time...wakana plant...falling snow",
+      "note": "The translator names 'spring-time' explicitly and retains 'wakana' (transliterated rather than translated, oddly treated as a proper plant name — 'The wakana plant that groweth there'), plus the falling snow image. This gives both explicit naming of the season and the accompanying snow imagery that marks the early-spring liminal moment, though the untranslated 'wakana' may obscure for an English reader that this is specifically the New Year's herb-gathering custom rather than generic foraging."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Thy wishes, love, have I obeyed — renders 君がため (for your sake) as obedience to the beloved's wishes.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "And 'mid the meadows have I strayed — renders 春の野に出でて (went out into the spring fields).",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "In this spring-time, and sought with care — reiterates/extends the spring field setting and introduces the seeking action (つむ, to pick).",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The wakana plant that groweth there — completes 若菜つむ, naming the wakana explicitly as the object sought.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Lo on my sleeve — renders わが衣手に (upon my sleeve).",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The falling snow its trace doth leave — renders 雪はふりつつ (snow keeps falling), converting the continuous tsutsu into a completed image of a 'trace' left behind.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator expands the five ku into six lines by splitting the kami-no-ku's spring-field setting across two lines (2 and 3) for rhyme/meter purposes, and adds interpretive verbs ('obeyed', 'strayed', 'sought with care') not literally in the source but consistent with its sense. The shimo-no-ku's tsutsu (ongoing snowfall) is compressed into a single completed image ('its trace doth leave') rather than preserving the continuous, suspended quality of the original ending."
+    },
+    "translator_strategy": "The translator prioritizes a rhymed, metrical English ballad-like rendering that preserves the narrative sequence and emotional devotion of the original, expanding the terse waka into fuller descriptive clauses ('obeyed', 'strayed', 'sought with care') while retaining 'wakana' as an exotic proper noun and converting the continuous snowfall (tsutsu) into a single completed image for closural effect.",
+    "overall_fidelity": "medium",
+    "poem_number": 15,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4
+      ],
+      "relationship_type": "seasonal-pivot",
+      "note": "The kami-no-ku (going to the spring field for the beloved's sake, gathering wakana) occupies lines 1-3, closely mirroring the source's three-ku kami structure. Line 4 delivers the shimo-no-ku pivot to falling snow on the sleeves, retaining the tsutsu-style open-endedness via 'Lo,' and the present participle 'falling.' The devotional errand vs. lingering winter-cold pivot is preserved intact and in the same order."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Spring field ... wakana ... snow-flakes falling on my gown",
+      "note": "The translator names 'Spring' explicitly in line 2, and retains 'wakana' untranslated (a culturally loaded term for the young spring greens), while also preserving the snow image in line 4. This gives both explicit naming of the season and the implicit sensory detail of snow-on-sleeve that marks the early-spring liminality described in the source analysis. The pairing of named spring with lingering snow closely reproduces the 'spring snow' zansetsu effect of the original."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "For thy sake — 君がため",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "I come out in the Spring field — 春の野に出でて",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "And the wakana I gather — 若菜つむ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Lo, the snow-flakes falling on my gown — わが衣手に雪はふりつつ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Nearly 1:1 mapping of the five ku onto four lines, with ku4 and ku5 compressed into a single closing line that nonetheless captures both the sleeve image and the continuous falling of snow. No inversion or invented content; the translation is a compact, faithful rendering of the five-ku structure."
+    },
+    "translator_strategy": "Noguchi aims for a spare, literal line-by-line rendering that preserves the poem's five-part progression and imagery (including retaining the Japanese word 'wakana') rather than expanding or explaining the cultural context.",
+    "overall_fidelity": "high",
+    "poem_number": 15,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "seasonal-pivot",
+      "note": "The structure is maintained: lines 1-3 cover the purposeful errand of going to the spring fields to gather wakana for the beloved's sake, and lines 4-5 pivot to the sensory image of snow falling on the sleeves, preserving the seasonal-pivot logic of devotion undercut/deepened by lingering winter cold. The 'And see—' at the start of line 4 even mimics the tsutsu suspension by drawing attention to the ongoing, presented image."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "wakana / snow",
+      "note": "The translation names 'wakana' directly (untranslated loanword) and depicts snow falling on the sleeves, preserving both seasonal markers from the source almost verbatim in imagery, though the English reader may not recognize 'wakana' as a spring kigo without gloss; the snow-on-sleeves image retains the early-spring liminal atmosphere."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "For thy/your sake (kimi ga tame) — addressee altered to 'Mother'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Where the wakana grow — spring field setting compressed with picking action",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "To bring thee back some fresh green leaves — expands on the wakana-picking action (wakana tsumu) and adds an explanatory purpose ('bring back') not explicit in source",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "my koromo (transliterated 'sleeve/robe') — sleeve image, with 'And see—' added as an emphatic interjection",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Is sprinkled with the snow — snow falling continuously (furitsutsu) rendered as a completed/discrete image rather than ongoing",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The five-line English structure roughly parallels the five ku, but line 3 expands ku2-3 content with an added purpose clause ('to bring thee back'), and the addressee is changed from an unspecified 'you/kimi' (traditionally read as a lover or spouse in this poem's context) to 'Mother,' which alters the emotional register from romantic devotion to filial devotion without changing the structural pivot."
+    },
+    "translator_strategy": "Porter aims for a compact, singable quatrain-like rendering that keeps the two-part seasonal pivot intact and uses transliterated Japanese terms (wakana, koromo) for local color, but takes the interpretive liberty of specifying the addressee as 'Mother,' subtly reshaping the poem's emotional context from courtly/romantic devotion to filial affection.",
+    "overall_fidelity": "medium",
+    "poem_number": 15,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "seasonal-pivot",
+      "note": "The kami-no-ku devotional errand (going to the spring fields for 'thy sake' to gather herbs) is preserved in lines 1-3, and the shimo-no-ku's lingering winter image (snow falling on sleeves) is preserved in lines 4-5, maintaining the same pivot from purposeful spring action to the intrusion of wintry snow. The tsutsu continuative ending is rendered with 'beflecked' which, while static, still keeps the sense of ongoing accumulation rather than a single completed event."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "spring / green herbs / falling snow",
+      "note": "The translation explicitly names 'spring' (L2) and directly translates the wakana-picking act ('Gathering green herbs', L3), which is the load-bearing kigo per the source analysis. The snow imagery in L4-5 ('falling snow beflecked') reinforces the early-spring liminal atmosphere described in the source note, so both the explicit seasonal designation and the accompanying wintry marker survive intact."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "For your sake (君がため)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "I go out to the spring fields (春の野に出でて)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Gathering young herbs (若菜つむ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "My garment's hanging sleeves (わが衣手に)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Are flecked with falling snow (雪はふりつつ)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "One-to-one line mapping with no compression or expansion; the five English lines correspond directly to the five ku of the original, preserving the exact sequence and pacing of the source."
+    },
+    "translator_strategy": "McCauley pursues a close, line-for-line literal translation that mirrors the original's five-ku structure and vocabulary almost exactly, prioritizing fidelity to sequence and denotative content over any added poetic flourish.",
+    "overall_fidelity": "high",
+    "poem_number": 15,
+    "translator": "McCauley"
+  }
+}

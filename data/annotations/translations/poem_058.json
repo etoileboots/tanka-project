@@ -1,0 +1,317 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator radically restructures the relationship: instead of the wind imagery functioning as a jokotoba culminating in the sound-pivot 'そよ' that launches a rhetorical question of steadfastness, Dickens turns the wind itself into a direct simile/comparison — the lover is 'more fickle' than the wind. This converts the original's auditory-pivot logic (wind sound → exclamation → assertion) into an explicit comparison between the fickleness of wind and the fickleness of the addressee, a relationship type the source does not have (the source wind is not explicitly called 'fickle' as a moral quality, and the comparison to the lover is implicit/structural rather than stated). The shimo's rhetorical question 'how could I forget you' is also flattened into a paradoxical statement 'I have forgotten to forget' rather than a rhetorical question asserting undying memory."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "そよ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "pout",
+        "note": "The pivot word そよ, which simultaneously evokes the rustling sound of wind in the grass and the interjection 'that's it/indeed' launching the speaker's declaration, is entirely absent from the translation. Dickens replaces the wind's rustling with the verb 'pout,' which carries neither the onomatopoeic echo nor the interjectory function of そよ; the pivot's double work is lost, replaced by a moralizing adjective 'fickle' applied directly to the wind."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "winds that pout",
+      "note": "Consistent with the source analysis noting this poem is essentially a-seasonal (wind here functions as an auditory pivot device, not a seasonal marker), the translation likewise carries no seasonal imagery — the wind is moralized as 'fickle'/'pout' rather than tied to any season, so there is nothing to preserve or omit beyond the source's own lack of seasonal charge."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The wind is called 'more fickle' than the addressee, introducing the wind-comparison; this personifies and moralizes 風吹けば as an emblem of inconstancy.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The place names Arima and Ina's moor (笹原) are rendered as the location the wind blows down through, compressing the two place-name ku into one descriptive line.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'And still my love for thee as yet' corresponds loosely to the pivot いでそよ人を, converting the interjection into a declarative transition toward the speaker's steadfast love, but without any rhetorical question.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'I have forgotten to forget' is a paradoxical rendering of 忘れやはする (the rhetorical question 'how could I ever forget you'), transforming the rhetorical negative question into a witty epigrammatic paradox.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Dickens compresses the three-ku kami-no-ku (place names + wind) into two lines (1–2) and the two-ku shimo-no-ku into two lines (3–4), but inverts the logical order by opening with the moral judgment 'fickle' that in the source only emerges implicitly through structural irony at the poem's end; the pivot mechanism is entirely replaced by end-rhyme (pout/moor, yet/forget) as the poem's binding device instead of sound-echo wordplay."
+    },
+    "translator_strategy": "Dickens prioritizes English rhymed epigrammatic wit and metrical form over reproducing the specific mechanics of jokotoba and kakekotoba, substituting a direct moralizing simile ('more fickle than the wind') and a paradoxical closing couplet ('forgotten to forget') for the original's auditory pivot and rhetorical question.",
+    "overall_fidelity": "low",
+    "poem_number": 58,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "other",
+      "note": "The translator keeps the two-part structure — a wind/landscape image followed by an emotional turn — but weakens the pivot mechanism: instead of the sound そよ recycling into the interjection いでそよ, the translator inserts a generic exclamation ('Ah, passing wind of thy love!') that blends kami-no-ku imagery into what should be a purely shimo-no-ku declaration, partially collapsing the boundary between the two parts by carrying the wind image forward into the emotional address rather than treating it as a completed jokotoba."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "そよ",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "Ah, passing",
+        "note": "The pivot word そよ, which functions both as the onomatopoeic echo of the rustling wind and as the interjection launching the rhetorical question, is not rendered with any single English word carrying both functions; instead the translator substitutes a free exclamation ('Ah, passing wind of thy love!') that neither reproduces the sound-echo nor precisely captures the 'that's it!' assertive interjection, merging the wind image directly into the address in a paraphrastic gesture."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "wind may blow",
+      "note": "The source poem itself carries no true seasonal marker (kigo marked 'none'), and this translation likewise conveys no seasonal atmosphere — the wind imagery is treated purely as a metaphor for fickleness ('passing wind of thy love') rather than as any seasonal observation, consistent with the source's a-seasonal character."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "The translator compresses the three-ku kami-no-ku (Arima-yama / Inano sasawara / wind blowing) into two short lines, then expands the shimo-no-ku's compact そよ+rhetorical question into two lines, inserting an extra apostrophic exclamation ('Ah, passing wind of thy love!') that blends wind imagery from the kami-no-ku into the shimo-no-ku's emotional register — this line has no clean one-to-one source equivalent and functions as a transitional graft between the two parts.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The wind may blow — rendering 風吹けば as a conditional/hypothetical opening",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "From Arima Hill and Inano bamboo bush — the place names and grass image",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Ah, passing wind of thy love! — an interpretive graft turning the wind into a metaphor for the lover's fickleness, loosely derived from ku3's wind and ku4's pivot そよ but substantially reworded",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "But how could one forget thee! — the rhetorical question 忘れやはする, retaining the emotional assertion of constancy",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, romantically resonant English lyric over literal fidelity to the jokotoba mechanism, converting the wind-in-grass imagery directly into a metaphor for the lover's inconstancy rather than preserving the auditory pivot word そよ.",
+    "overall_fidelity": "medium",
+    "poem_number": 58,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "simile/contrast",
+      "note": "Porter converts the jokotoba landscape into an explicit simile ('As fickle as the mountain gusts') comparing the lover's fickleness to wind, rather than preserving the auditory jokotoba-to-pivot structure. The shimo becomes a meditation on trying to forget but failing, ending in the opposite rhetorical stance from the source's confident 'how could I forget' — here it's a struggle resolved in helpless attachment. The relationship type shifts from sound-triggered emotional avowal to a simile of instability followed by a confession of enduring feeling, which is a different structural logic (comparison + concession) than the source's pivot-based turn."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "そよ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "’Twere best",
+        "note": "The pivot word そよ, which simultaneously mimics the rustling sound of wind in grass and functions as the interjection launching the emotional declaration, has no equivalent here. Porter's translation moves directly from the wind simile to a statement of resolve ('’Twere best to think no more of thee'), losing both the onomatopoeic echo and the exclamatory pivot function entirely. No English wordplay is introduced to compensate for this loss."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "mountain gusts",
+      "note": "The source poem is itself a-seasonal despite the wind imagery, and Porter's rendering ('mountain gusts') preserves that non-seasonal, purely atmospheric use of wind as a symbol of fickleness rather than as a marker of season. No seasonal atmosphere is introduced or lost, consistent with the source's own lack of seasonal charge."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "The wind image from the kami-no-ku is condensed into a simile: 'As fickle as the mountain gusts' — collapsing the place-names Arima-yama and Ina no Sasawara and the wind-blowing image into a single comparative epithet.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "'That on the moor I've met' continues the wind/landscape image, substituting a generic 'moor' for the specific place names Arima-yama/Ina no Sasawara, completing the simile begun in line 1.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'’Twere best to think no more of thee' corresponds to the shimo-no-ku's rhetorical turn, but inverts its rhetorical thrust — instead of asserting she could never forget, this line voices a resolve to forget, which is the opposite surface claim.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'And let thee go. But yet' extends the resolve-to-forget thought and pivots toward its retraction, corresponding to the emotional turn of the shimo-no-ku though restructured as a concession.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'I never can forget' delivers the final emotional content matching the source's rhetorical question 'how could I forget you', but stated as a flat declarative rather than a question.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five-ku poem into five lines but reallocates content: lines 1-2 compress kami-no-ku's landscape into a simile, while lines 3-5 dramatize an internal debate (resolve to forget vs. inability to forget) that is only implicit in the source's single rhetorical question, effectively adding a psychological narrative arc not present in the original's compact structure."
+    },
+    "translator_strategy": "Porter prioritizes producing a fluent, rhymed English lyric with a dramatized emotional arc (resolve to forget, then failure to do so), sacrificing the jokotoba/kakekotoba wordplay and place-name specificity in favor of a simile-driven, metrically regular love-poem in the English tradition.",
+    "overall_fidelity": "low",
+    "poem_number": 58,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "other",
+      "note": "The translator preserves the basic two-part structure — a conditional/scenic image of wind through Arima/Ina bamboo grass followed by a turn to direct emotional address — but the pivot's auditory mechanism (そよ as both rustle-sound and interjection) is flattened into a generic exclamation 'Well! in truth', losing the wordplay that fuses the wind's sound with the speaker's assertion. The logical connective is changed from jokotoba-into-pivot to a simple 'If... then' conditional structure, weakening the organic link between the two parts."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "そよ",
+        "reading_preserved": "secondary_only",
+        "method": "partial",
+        "en_equivalent": "Well!",
+        "note": "McCauley renders そよ only as an exclamatory interjection ('Well! in truth, tis as you say') capturing the assertion-launching function, but the onomatopoeic echo of wind rustling through the grass is not reproduced in the English wording; the auditory pun linking kami and shimo is lost."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "rustling winds",
+      "note": "As the source analysis notes, the poem itself carries no true seasonal marker (風 is not seasonally coded here), and McCauley's 'rustling winds' and 'bamboo-plains' likewise convey no specific season, consistent with the source's essentially a-seasonal, landscape-and-sound-based composition."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Mount Arima named as subject of a conditional clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "wind blowing, personified as 'his rustling winds'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Ina's bamboo grass/plains, reordered after the wind image",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "exclamatory turn 'Well! in truth, tis as you say' rendering そよ・いで as concession",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "rhetorical question of undying love/remembrance",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley restructures the kami-no-ku into an explicit conditional ('If Mount Arima / Sends his rustling winds...') and reorders the place-name/bamboo-grass elements (Ina's bamboo-plains placed after the wind clause, line 3) compared to the source's linear ku sequence; this creates a subordinate-clause architecture (If X, then Y) rather than the source's jokotoba-into-pivot flow, and personifies the mountain as sending winds, an interpretive addition not literally in the source."
+    },
+    "translator_strategy": "McCauley favors a smooth, grammatically explicit English syntax (conditional clause plus exclamatory turn) over reproducing the source's auditory wordplay, sacrificing the そよ pivot's double function for readability and rhyme-like cadence.",
+    "overall_fidelity": "medium",
+    "poem_number": 58,
+    "translator": "McCauley"
+  }
+}

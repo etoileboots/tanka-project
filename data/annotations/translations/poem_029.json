@@ -1,0 +1,316 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation compresses the tentative guesswork resolve of the kami-no-ku into a simple statement of intent/attempt ('I had to pluck thee... in vain I sought'), losing the speculative 'shall I guess and pick' nuance, and then in the shimo lines states plainly that frost 'feigning' the flower 'cheated' the speaker. The visual-revelation logic (frost and flower being indistinguishable in whiteness, defeating sight itself) is reduced to a simple deception narrative — the causal reveal is stated as fact rather than emerging as a visual epiphany, so the bipartite structure collapses into a continuous four-line account of attempt-then-failure rather than two distinct rhetorical movements."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おきまどはせる",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "feigning",
+        "note": "The translator renders the frost's confusing effect as the frost 'feigning' the flower — this captures a version of the confusion/deception idea (secondary sense of being confused) but does not carry the verb 置く's literal 'settling' sense in a way that preserves both readings simultaneously; it reads as a single unified metaphor of impersonation rather than the layered pivot between 'settling' and 'being confused,' so it functions closer to a paraphrase of the overall effect than a precise rendering of either etymological reading."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "hoar-frost",
+      "note": "The season is signaled through 'earliest hoar-frost' (first frost of the year) and the naming of 'Shiragiku' (white chrysanthemum) by its Japanese name, both of which are explicit markers of the autumn-to-winter threshold; the chrysanthemum's proper name is retained untranslated, which preserves the specific cultural kigo reference directly rather than dissolving it into generic imagery."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The speaker's resolve/attempt to pluck the flower, compressing the tentative guesswork of 心あてに折らばや折らむ into a flat statement of intent 'I had to pluck thee, flower,--thought--'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Restates and completes the failed attempt to pluck ('in vain I sought'), continuing the kami-no-ku's action but revealing its failure earlier than the source structure would",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Introduces the first frost as the deceptive agent, merging 初霜 and おきまどはせる into 'the earliest hoar-frost feigning thee'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Names the flower directly (Shiragiku) and states the speaker was cheated, resolving the shimo-no-ku's revelation as a simple deception rather than a moment of visual confusion",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation restructures the poem into a straightforward chronological narrative (attempted pluck -> failure -> explanation via frost -> naming of flower), rather than preserving the source's two-part suspended structure where the first three ku pose a tentative guess and the final two ku reveal the visual cause; the 'in vain' resolution appears in line 2, before the frost's role is even introduced in line 3, meaning the failure is announced before its cause is stated, inverting the source's suspense-then-revelation logic."
+    },
+    "translator_strategy": "The translator prioritizes rhyme and narrative clarity in English couplet form, converting the poem's suspended visual riddle into a straightforward tale of attempted picking followed by frost's deception, sacrificing the pivot-word ambiguity and the tentative guesswork tone for a resolved, moralized statement of being cheated.",
+    "overall_fidelity": "medium",
+    "poem_number": 29,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Noguchi compresses the kami-no-ku's guessing conceit into lines 1-3 ('How shall I pluck... 'Tis hard to choose one') and merges the shimo-no-ku's frost-revelation into line 4, but the causal logic linking the guessing-difficulty explicitly to the frost's visual confusion with the white flowers is compressed rather than fully unfolded; the visual-revelation structure survives only weakly since 'thickly set' gestures at frost covering but doesn't dramatize the frost-and-flower being indistinguishable to the eye."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おきまどはせる",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "thickly set",
+        "note": "The translation conveys the frost settling densely ('thickly set') which captures the primary sense of frost 置く (settling), but the confusion/bewilderment sense (まどはせる, causing visual confusion between frost and white chrysanthemum) is not rendered; 'hard to choose' in line 3 gestures at confusion but is disconnected from the frost image itself, so the pivot's dual function is split apart rather than fused."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "chrysanthemum",
+      "note": "The white chrysanthemum is named explicitly, and paired with 'earliest frost,' preserving the seasonal marker directly and explicitly rather than through disguised imagery; the atmosphere of late-autumn/early-winter threshold is present but relies on the naming rather than added sensory texture."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The speaker wonders how to pluck a flower, echoing the 'guess and pick' resolve of kokoro-ate ni oraba ya oramu",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Names the white chrysanthemum, drawn forward from the final ku to clarify line 1's object",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Restates the difficulty of choosing one flower, reinforcing the guesswork conceit of the kami-no-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The frost of early winter has settled thickly, causing the visual confusion described in ku 3-4",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders content, pulling the object 'white chrysanthemum' (originally in the final ku) up to line 2 to clarify the syntax early, then circles back to frost's effect in line 4; this creates a chiastic restructuring rather than a straightforward kami-then-shimo sequence, though the overall logical arc (doubt about picking → frost as cause) is retained in compressed form."
+    },
+    "translator_strategy": "Noguchi prioritizes clarity and compact natural English phrasing over reproducing the wordplay, reordering the poem's elements (naming the chrysanthemum early) so an English reader immediately grasps the visual scene, at the cost of the kakekotoba's fused double-meaning and the full causal drama of frost confusing sight.",
+    "overall_fidelity": "medium",
+    "poem_number": 29,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter merges the tentative guessing-game logic of the kami-no-ku with the frost-confusion revelation of the shimo-no-ku into a single continuous narrative. The speaker's original playful 'shall I guess and pick one?' framing is replaced with a first-person statement of intent ('I came to take away'), and the shimo's revelation is rendered as the reason for hesitation ('I'm half afraid to say') rather than a distinct visual epiphany, softening the sharp two-part structure into one flowing anecdote."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おきまどはせる",
+        "reading_preserved": "secondary_only",
+        "method": "paraphrase",
+        "en_equivalent": "half afraid",
+        "note": "Porter keeps the confusion/bewilderment sense (secondary reading, the speaker's perceptual doubt) via 'half afraid to say' and 'which are coloured, which are white,' but the literal 'frost settling' (置く) sense is reduced to the closing line 'So thick the frost to-day' which is separated from the confusion clause rather than fused into one pivot word, so the two meanings are split across lines rather than unified in a single word."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "white chrysanthemum",
+      "note": "The chrysanthemum is named explicitly in line 1, and the frost imagery in the final line reinforces the autumn-to-winter threshold atmosphere, though 'frost' and 'chrysanthemum' are separated across the stanza rather than fused as in the original's single confounding image."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3,
+            5
+          ],
+          "content_summary": "Introduces the white chrysanthemum as the object, conflating the flower (shimo) with the frost's arrival (also shimo) as the poem's subject",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The speaker's intent to pick/take the flower, corresponding to the kami-no-ku's 'shall I pick it' resolve, though rendered as a completed/intended action rather than a guessing game",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The visual confusion between colored and white flowers, corresponding to the frost confusing the chrysanthemums",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The speaker's hesitation/fear to say which is which, an expansion of the confusion imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Explicit statement that the frost is thick, restating the cause of confusion",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem into a five-line rhymed narrative that reorders content: the flower is introduced first (originally the shimo's object), then the speaker's original intent (kami), then the visual confusion (shimo), ending with an explicit frost statement that echoes but delays the shimo's causal explanation. This creates a circular rather than linear kami-to-shimo revelation structure."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhymed English narrative and vivid concrete imagery (coloured vs. white) over preserving the original's two-part guess-then-reveal structure or its wordplay, softening the pivot word into a diffuse sense of visual confusion spread across several lines.",
+    "overall_fidelity": "medium",
+    "poem_number": 29,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        5
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "McCauley reorders the poem: the guessing-resolve of the kami-no-ku (L1,L2) is separated from its natural conclusion 'I by chance might pluck' (L5), which is pushed to the end after the frost-confusion clause (L3,L4) is inserted in between. The source's revelation logic (kami sets up doubt, shimo reveals cause) is reshuffled into a syntactic chain of clauses ('if...then...puzzled by...I might pluck'), so the visual-revelation structure becomes a single continuous sentence with the frost-cause placed medially rather than as a culminating discovery. This blurs the sequence: instead of frost/whiteness revealing why guesswork is needed, the frost is presented almost parenthetically before the final act of picking, weakening the revelatory effect described in the source's bipartite logic."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おきまどはせる",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "Puzzled by the frost",
+        "note": "McCauley renders the confusion (まどはせる) explicitly with 'Puzzled,' capturing the perceptual bewilderment reading, but the physical settling/appearing sense of 置く (frost 'lying' or 'settling' upon the flowers) is not rendered with any verb of settling or appearing — there is no 'lying' or 'fallen' frost image, only the abstract state of being puzzled. The dual duty of 置く as both a frost-verb and an implicit 起く is collapsed into a single psychological adjective, losing the physical-visual half of the pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "early autumn",
+      "note": "McCauley explicitly names the season as 'early autumn time,' which is a somewhat inexact rendering since 初霜 (first frost) more precisely marks the threshold between autumn and winter rather than 'early autumn'; nonetheless the seasonal word is stated outright rather than left to imagery alone, and the chrysanthemum (a standard autumn flower) reinforces the seasonal frame even though its literal color-based confusion with frost is somewhat underplayed."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "the conditional wish/resolve to pick",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "picking a white chrysanthemum",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "being puzzled by the frost",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the seasonal marker of first frost, glossed as 'early autumn time'",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "the eventual act of plucking the flower by chance/guesswork",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator splits the kami-no-ku content (lines 1-2, resolve to pick) from its logical completion (line 5, actually plucking), inserting the shimo-no-ku frost material (lines 3-4) in between; this creates a chiastic/interleaved structure rather than the source's clean two-part kami/shimo division, and ku3 (初霜の) and ku4 (おきまどはせる) are reordered relative to each other (frost's confusing effect named before the frost itself is specified as autumnal)."
+    },
+    "translator_strategy": "McCauley prioritizes producing a smooth, grammatically continuous English sentence over preserving the discrete two-part kami/shimo structure, resulting in a reordering that sacrifices the source's build-toward-revelation logic for narrative clarity.",
+    "overall_fidelity": "medium",
+    "poem_number": 29,
+    "translator": "McCauley"
+  }
+}

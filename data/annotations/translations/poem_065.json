@@ -1,0 +1,327 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "The source's paradox hinges on sleeves that are NOT wet (concealed suffering) yet reputation still rotting from within. Dickens completely inverts the core image: he has the sleeve DRENCHED with tears ('My tears drench my sleeve'), directly contradicting the source's claim that her sleeves are dry. This destroys the central paradox — instead of dry-sleeves-yet-rotting-reputation, we get simply wet-sleeves-and-general-misery. The shimo's specific fear about her 'name' (reputation) rotting is replaced with generic complaint about unhappiness and unrequited love ('happiness... wrecked', 'struggles to achieve Thy stubborn love'), and the ending pivots to a plea for pity rather than fear of scandal, so the paradox structure is not just weakened but reversed and then replaced by straightforward romantic lament."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "朽ちなん",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "wrecked",
+        "note": "The associative metaphorical bridge of decay/rot (朽ち) extending from cloth to reputation is replaced by 'wrecked' applied to 'happiness of my life' rather than to name/reputation or sleeve-decay; the specific image of rotting cloth/reputation is lost entirely, and no play on decay-of-fabric vs decay-of-name survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No kigo exists in the source (love-category poem), and Dickens's translation likewise contains no seasonal imagery — consistent with the source analysis noting no genuine kigo is present; sleeves here are treated purely as tear-vessels, matching the classical emotional register but not introducing any seasonal signal.",
+      "en_equivalent": "drench my sleeve"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Speaker weeps over neglect/resentment (恨みわび), rendered as 'Despised, I weep thy long neglect'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Contradicts source: instead of 'sleeves not yet drenched' (ほさぬ袖だに), translation states sleeves ARE drenched with tears — a direct inversion of the source's key image",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "General claim that happiness of life is wrecked, loosely mapped to the shimo's despair over reputation decaying, but reworded as generic unhappiness",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Struggles to achieve — extrapolated elaboration of the emotional struggle implied by 恋に (through love)",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Thy stubborn love — references the beloved's unresponsiveness, loosely tied to 恋 (love/longing) in ku4",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "My fate might all men's pity move — replaces the source's fear over 'name' (reputation) rotting with a plea for sympathy/pity, changing the emotional register from shame-fear to self-pity",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation restructures the poem into six rhymed lines with an ABABCC-like rhyme scheme, expanding the five ku into six lines through added connective and emotional material (struggle, stubborn love, pity), while dropping the specific images of dry sleeves and decaying reputation/name in favor of generalized romantic suffering."
+    },
+    "translator_strategy": "Dickens prioritizes English poetic form (rhyme and meter) and generalized sentimental expression of unrequited love over precise fidelity to the source's specific paradox of dry sleeves versus rotting reputation, effectively rewriting the poem's central image.",
+    "overall_fidelity": "low",
+    "poem_number": 65,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "The translator completely inverts the poem's actual content: source kami-no-ku says her sleeves are (at least) NOT wet/stained, while this translation states the opposite — 'my sleeves are drenched' with tears. The paradox of dry sleeves concealing suffering (which then festers into reputation-destroying shame) is lost; instead a conventional wet-sleeves-of-weeping image is substituted, and the reputation/shame content of the shimo-no-ku is retained but now follows logically from visible tears rather than paradoxically arising despite their absence."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "朽ちなん",
+        "reading_preserved": "secondary_only",
+        "method": "paraphrase",
+        "en_equivalent": "ruin my name",
+        "note": "The English keeps only the reputation/decay-of-name sense ('ruin my name') and drops the literal decay-of-cloth/sleeve associative link entirely, and even reassigns the cause to 'empty love' rather than the corrosive effect of hidden resentment."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "drenched",
+      "note": "No seasonal word exists in the source (love poem, not seasonal), and this translation likewise contains no natural/seasonal imagery — 'drenched' sleeves are purely emotional, not seasonal, consistent with the source's lack of kigo."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "The translator inverts and compresses: L1-2 render the sleeve image but reverse its polarity (wet instead of dry), while L3-4 compress the reputation/shame content of the shimo-no-ku and add an extrapolated moralizing gloss ('empty love') not present in the source.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "resentment expressed as weeping ('urami-wabi')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "sleeves described as drenched — inverts source's 'sleeves not wet' (ほさぬ袖だにあるものを)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "shame/regret over ruined reputation (名こそ惜しけれ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "love as the cause of decay, recast as 'empty love' — an interpretive addition not literally in 恋に朽ちなん",
+          "origin": "extrapolated"
+        }
+      ]
+    },
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and natural English phrasing over structural fidelity, sacrificing the poem's central paradox (dry sleeves vs. decaying reputation) by converting it into a conventional image of tearful weeping followed by regret.",
+    "overall_fidelity": "low",
+    "poem_number": 65,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter completely inverts the original paradox: rather than dry sleeves concealing suffering that then threatens the name, this translation makes tears overflow visibly (wet sleeves) and blames the loss of the lover directly for both grief and the coming loss of reputation. The ironic self-undercutting logic of 'dry sleeves at least, yet still my name will rot' is replaced by a simple causal sequence: lover gone -> tears -> name lost too. The subtle paradox of concealment/exposure is lost entirely."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "朽ちなん",
+        "reading_preserved": "secondary_only",
+        "method": "paraphrase",
+        "en_equivalent": "must also go",
+        "note": "Porter renders the reputation's decay as 'must also go', capturing the metaphorical sense that her good name will be lost, but the literal 'rotting/decaying' imagery (朽ち, tied to cloth/sleeve corrosion) is entirely dropped in favor of a generic English idiom for loss."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "tears o'erflow",
+      "note": "No seasonal imagery is present in either the source or this translation; the poem belongs to the love category, and Porter's added imagery (tears overflowing) is emotional rather than seasonal, consistent with the source's lack of a true kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "An apology/plea for pardon, loosely standing in for 'resentful and exhausted' (恨みわび), reframed as a request for forgiveness rather than an internal state of grief",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Tears overflowing — inverts the source's claim that her sleeves are NOT wet (ほさぬ袖だにあるものを); Porter has her tears actively overflowing instead of dry",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Introduces 'My lover's gone' as an extrapolated cause not present in the source, then transitions to 'my good name'",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Reference to valuing her good name (名こそ惜しけれ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Fear that the name 'must also go', paralleling 恋に朽ちなん (will rot away through love)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter significantly reorders and reinterprets the poem: he invents a departed lover (not in the source, which is about unrequited/hidden love and inward suffering) and reverses the dry-sleeves motif into overflowing tears, producing a simpler linear causality (lover leaves -> tears -> reputation lost) rather than preserving the original's ironic paradox of concealed suffering threatening reputation despite outward composure."
+    },
+    "translator_strategy": "Porter prioritizes fluent rhymed quatrain-like verse and emotional immediacy over literal fidelity, inventing a departing lover and inverting the dry/wet sleeve imagery to produce a more conventional Victorian love-lament rather than preserving the source's subtle paradox of hidden suffering threatening reputation.",
+    "overall_fidelity": "low",
+    "poem_number": 65,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "McCauley actually reverses the source's paradox: in the original, the speaker's sleeves are surprisingly dry despite her grief (the paradoxical 'at least' point), but this translation says her sleeves 'never once are dry,' turning the kami-no-ku into a conventional wet-sleeves-of-grief image rather than the ironic dry-sleeves image. This removes the paradox that the source analysis identifies as the core rhetorical structure, since the shimo-no-ku's warning about reputation now follows naturally from wet sleeves rather than ironically undercutting a claim of dryness.",
+      "relationship_type": "cause-effect (grief causing both wet sleeves and reputation decay), rather than paradox"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "朽ちなん",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "name decays",
+        "note": "The translation renders 朽ちなん fairly literally as the decay of the speaker's 'name,' capturing the metaphorical bridge from physical rot to reputation, but does not render the auxiliary's conjectural-future nuance ('will surely rot') as a distinct pivot; it also fails to connect this decay imagery back to any cloth/sleeve associative link since the sleeves here are described as wet, not dry, weakening the imagery linkage."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As the source analysis notes, no genuine kigo exists in this love poem; McCauley's translation likewise contains no seasonal imagery — sleeves, hate, misery, love, and reputation are all rendered in a purely emotional-human register with no natural or seasonal element introduced.",
+      "en_equivalent": ""
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the sleeves motif, corresponding to kami ku1 (恨みわび)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Elaborates the emotional cause: hate and misery, corresponding to 恨みわび",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "States sleeves are never dry — inverts the source's claim that sleeves ARE dry (ほさぬ袖だにあるものを)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Reputation decays because of love, corresponding to 恋に朽ちなん",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Final lament, corresponding to 名こそ惜しけれ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation expands the 5 ku into 5 lines roughly one-to-one, but line 3 semantically inverts the source's paradoxical claim (dry sleeves) into its opposite (wet sleeves), which is a significant structural distortion rather than mere compression or expansion."
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, emotionally coherent English quatrain-like reading over precise fidelity to the source's paradox, converting the poem's ironic 'dry sleeves despite grief' into a conventional 'wet sleeves from grief' image that sacrifices the central rhetorical inversion for narrative clarity.",
+    "overall_fidelity": "low",
+    "poem_number": 65,
+    "translator": "McCauley"
+  }
+}

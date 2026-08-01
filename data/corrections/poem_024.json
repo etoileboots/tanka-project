@@ -1,0 +1,387 @@
+{
+  "poem_number": 24,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T01:40:58.975522+00:00"
+    },
+    "devices": {
+      "手向山": {
+        "status": "confirmed",
+        "original": {
+          "word": "手向山",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:36:25.511206+00:00"
+      },
+      "手向": {
+        "status": "removed",
+        "original": {
+          "word": "手向",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:36:24.697029+00:00"
+      },
+      "たび": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "たび",
+          "color": "#F28FC0"
+        },
+        "reviewed_at": "2026-07-27T01:36:45.328697+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "time": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "time",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T01:37:23.847109+00:00"
+        },
+        "brocade of maple leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "brocade of maple leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:37:57.995014+00:00"
+        },
+        "tamuke mountain": {
+          "status": "confirmed",
+          "original": {
+            "word": "tamuke mountain",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:37:58.492881+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:38:05.592903+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:38:08.577676+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:38:13.844827+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:38:16.293191+00:00"
+        }
+      },
+      "device_links": {
+        "time": {
+          "status": "corrected",
+          "original": {
+            "word": "time"
+          },
+          "corrected": {
+            "source_word": "たび"
+          },
+          "reviewed_at": "2026-08-01T00:58:19.565950+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T01:38:52.293779+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:38:48.609506+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:38:48.976374+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:38:53.159413+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:38:53.727191+00:00"
+        }
+      },
+      "devices": {
+        "maple-tree": {
+          "status": "confirmed",
+          "original": {
+            "word": "maple-tree",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:38:55.159700+00:00"
+        },
+        "tamuke-yama": {
+          "status": "confirmed",
+          "original": {
+            "word": "tamuke-yama",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:39:00.560047+00:00"
+        },
+        "This time": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "This time",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T01:39:10.428810+00:00"
+        },
+        "this time": {
+          "status": "confirmed",
+          "original": {
+            "word": "this time",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:58:26.415341+00:00"
+        }
+      },
+      "device_links": {
+        "This time": {
+          "status": "corrected",
+          "original": {
+            "word": "This time"
+          },
+          "corrected": {
+            "source_word": "たび"
+          },
+          "reviewed_at": "2026-08-01T00:58:22.671255+00:00"
+        },
+        "this time": {
+          "status": "corrected",
+          "original": {
+            "word": "this time"
+          },
+          "corrected": {
+            "source_word": "たび"
+          },
+          "reviewed_at": "2026-08-01T00:58:25.827495+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:39:20.711067+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:39:26.593428+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:39:32.060008+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-27T01:39:51.491822+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T01:40:01.792822+00:00"
+        }
+      },
+      "devices": {
+        "maple leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "maple leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:40:04.509288+00:00"
+        },
+        "tamuké": {
+          "status": "confirmed",
+          "original": {
+            "word": "tamuké",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:40:05.693578+00:00"
+        },
+        "to-day": {
+          "status": "removed",
+          "original": {
+            "word": "to-day",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:58:36.005862+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "present time": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "present time",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-27T01:40:28.726260+00:00"
+        },
+        "mount tamuke": {
+          "status": "confirmed",
+          "original": {
+            "word": "mount tamuke",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:40:33.376583+00:00"
+        },
+        "red leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "red leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:40:34.276356+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:40:43.792320+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:40:44.142259+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:40:44.458776+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:40:45.293372+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:40:45.908136+00:00"
+        }
+      },
+      "device_links": {
+        "present time": {
+          "status": "corrected",
+          "original": {
+            "word": "present time"
+          },
+          "corrected": {
+            "source_word": "たび"
+          },
+          "reviewed_at": "2026-08-01T00:58:06.877757+00:00"
+        }
+      }
+    }
+  }
+}

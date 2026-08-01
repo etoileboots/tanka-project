@@ -1,0 +1,493 @@
+{
+  "poem_number": 3,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T03:10:06.439868+00:00"
+    },
+    "devices": {
+      "山鳥": {
+        "status": "confirmed",
+        "original": {
+          "word": "山鳥",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T03:09:15.587956+00:00"
+      },
+      "あしびきの": {
+        "status": "confirmed",
+        "original": {
+          "word": "あしびきの",
+          "color": "#7EBBEE"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T03:09:17.408577+00:00"
+      },
+      "ながし": {
+        "status": "removed",
+        "original": {
+          "word": "ながし",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T03:12:19.574984+00:00"
+      },
+      "夜": {
+        "status": "removed",
+        "original": {
+          "word": "夜",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T03:12:20.506912+00:00"
+      },
+      "ながながし夜": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "ながながし夜",
+          "color": "#F28FC0"
+        },
+        "reviewed_at": "2026-07-26T03:12:53.237432+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:13:08.152344+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:13:08.884790+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:13:21.501232+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:13:32.650498+00:00"
+        }
+      },
+      "devices": {
+        "hill-side": {
+          "status": "removed",
+          "original": {
+            "word": "hill-side",
+            "color": "#7EBBEE"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:14:05.697793+00:00"
+        },
+        "hill-side fowl": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "hill-side fowl",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:16:57.277401+00:00"
+        },
+        "night": {
+          "status": "removed",
+          "original": {
+            "word": "night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:42:45.365056+00:00"
+        }
+      },
+      "device_links": {
+        "hill-side fowl": {
+          "status": "corrected",
+          "original": {
+            "word": "hill-side fowl"
+          },
+          "corrected": {
+            "source_word": "山鳥"
+          },
+          "reviewed_at": "2026-08-01T00:16:59.144803+00:00"
+        },
+        "so drags the night": {
+          "status": "corrected",
+          "original": {
+            "word": "so drags the night"
+          },
+          "corrected": {
+            "source_word": "ながながし夜"
+          },
+          "reviewed_at": "2026-08-01T20:58:24.656410+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:13:49.451855+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:13:57.366804+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:13:57.930642+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:13:58.734246+00:00"
+        }
+      },
+      "devices": {
+        "mountain fowl": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "mountain fowl",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:17:37.050013+00:00"
+        },
+        "long": {
+          "status": "removed",
+          "original": {
+            "word": "long",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:44:23.344114+00:00"
+        },
+        "night": {
+          "status": "removed",
+          "original": {
+            "word": "night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:17:26.463766+00:00"
+        },
+        "night drags": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "night drags",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:17:20.182846+00:00"
+        },
+        "dragging": {
+          "status": "removed",
+          "original": {
+            "word": "dragging",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:17:23.695782+00:00"
+        },
+        "drags": {
+          "status": "removed",
+          "original": {
+            "word": "drags",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:17:25.379642+00:00"
+        }
+      },
+      "device_links": {
+        "mountain fowl": {
+          "status": "corrected",
+          "original": {
+            "word": "mountain fowl"
+          },
+          "corrected": {
+            "source_word": "山鳥"
+          },
+          "reviewed_at": "2026-07-31T07:42:15.796642+00:00"
+        },
+        "dragging": {
+          "status": "corrected",
+          "original": {
+            "word": "dragging"
+          },
+          "corrected": {
+            "source_word": "ながながし夜"
+          },
+          "reviewed_at": "2026-07-31T07:43:06.296135+00:00"
+        },
+        "drags": {
+          "status": "corrected",
+          "original": {
+            "word": "drags"
+          },
+          "corrected": {
+            "source_word": "ながながし夜"
+          },
+          "reviewed_at": "2026-07-31T07:43:10.810219+00:00"
+        },
+        "long": {
+          "status": "corrected",
+          "original": {
+            "word": "long"
+          },
+          "corrected": {
+            "source_word": "ながながし夜"
+          },
+          "reviewed_at": "2026-07-31T07:43:13.744713+00:00"
+        },
+        "night": {
+          "status": "corrected",
+          "original": {
+            "word": "night"
+          },
+          "corrected": {
+            "source_word": "ながながし夜"
+          },
+          "reviewed_at": "2026-07-31T07:43:15.960404+00:00"
+        },
+        "night drags": {
+          "status": "corrected",
+          "original": {
+            "word": "night drags"
+          },
+          "corrected": {
+            "source_word": "ながながし夜"
+          },
+          "reviewed_at": "2026-08-01T00:17:22.348585+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:15:08.828000+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:15:09.911435+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:15:10.444978+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:15:11.460977+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:15:12.662453+00:00"
+        }
+      },
+      "devices": {
+        "mountain pheasant": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "mountain pheasant",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:17:57.637425+00:00"
+        },
+        "night": {
+          "status": "removed",
+          "original": {
+            "word": "night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:44:00.848809+00:00"
+        },
+        "unending": {
+          "status": "removed",
+          "original": {
+            "word": "unending",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:44:02.646605+00:00"
+        },
+        "longer": {
+          "status": "removed",
+          "original": {
+            "word": "longer",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:44:03.660013+00:00"
+        },
+        "unending night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "unending night",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:44:11.792560+00:00"
+        }
+      },
+      "device_links": {
+        "mountain pheasant": {
+          "status": "corrected",
+          "original": {
+            "word": "mountain pheasant"
+          },
+          "corrected": {
+            "source_word": "山鳥"
+          },
+          "reviewed_at": "2026-07-31T07:42:28.863199+00:00"
+        },
+        "unending night": {
+          "status": "corrected",
+          "original": {
+            "word": "unending night"
+          },
+          "corrected": {
+            "source_word": "ながながし夜"
+          },
+          "reviewed_at": "2026-07-31T07:44:16.142912+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "device_links": {
+        "long, long-dragging": {
+          "status": "corrected",
+          "original": {
+            "word": "long, long-dragging"
+          },
+          "corrected": {
+            "source_word": "ながながし夜"
+          },
+          "reviewed_at": "2026-07-31T07:43:20.361881+00:00"
+        },
+        "long, long-dragging night": {
+          "status": "corrected",
+          "original": {
+            "word": "long, long-dragging night"
+          },
+          "corrected": {
+            "source_word": "ながながし夜"
+          },
+          "reviewed_at": "2026-07-31T07:43:36.562330+00:00"
+        },
+        "mountain-pheasant": {
+          "status": "corrected",
+          "original": {
+            "word": "mountain-pheasant"
+          },
+          "corrected": {
+            "source_word": "山鳥"
+          },
+          "reviewed_at": "2026-08-01T00:18:16.447841+00:00"
+        }
+      },
+      "devices": {
+        "long, long-dragging night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "long, long-dragging night",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:43:34.148125+00:00"
+        },
+        "night": {
+          "status": "removed",
+          "original": {
+            "word": "night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:43:37.411130+00:00"
+        },
+        "long, long-dragging": {
+          "status": "removed",
+          "original": {
+            "word": "long, long-dragging",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:43:38.594555+00:00"
+        },
+        "mountain-pheasant": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "mountain-pheasant",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:18:13.555222+00:00"
+        }
+      }
+    }
+  }
+}

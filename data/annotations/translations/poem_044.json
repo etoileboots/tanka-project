@@ -1,0 +1,310 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "note": "The Dickens translation flattens the counterfactual paradox into a generalized moralizing statement about love and human fate. The original's tight logical structure — an unreal conditional in kami (if meeting had never existed) yielding a paradoxical consequence in shimo (then no resentment) — is replaced by a broad universalizing claim: love is fate, therefore men both shun others and hate themselves 'since love's birth.' The specific personal voice (speaker's own resentment toward the beloved and himself) is generalized into 'men' as a class, and the counterfactual 'mashi' auxiliary logic is turned into an ongoing habitual/historical statement ('as since love's birth they've ever done'), which actually asserts the opposite direction of causality from the original's contrary-to-fact wish. This is a structural displacement rather than a preserved paradox."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "中々に",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "Then men",
+        "note": "The pivotal 'nakanaka ni' (rather, on the contrary) which reverses the poem's logic is not rendered as a distinct pivot; instead the translation collapses cause and consequence into a continuous descriptive statement ('Then men their fellows would not shun'), losing the sharp rhetorical inversion of the original where meeting having existed is precisely what causes resentment. The 'then' functions merely as a sequential conjunction, not a paradox-marking adverb."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As correctly noted in the source analysis, this is a purely conceptual love poem with no seasonal element. The Dickens translation likewise contains no seasonal imagery whatsoever — it deals entirely in abstract terms of love, fate, hatred, and human relations, consistent with the source's kigo-less nature.",
+      "en_equivalent": "love's birth"
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Converts the counterfactual premise 'if there had been no meeting at all' into a general statement 'to love, were it not human fate' — shifting from a specific past/present conditional about meeting to an abstract statement about love as human destiny.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Renders part of the shimo consequence — 'men their fellows would not shun' corresponds loosely to not resenting 'hito' (the beloved/other) — but generalizes to all men rather than the speaker's personal resentment.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Corresponds to not resenting one's own self ('mi'), rendered as 'their very selves they would not hate.'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [],
+          "content_summary": "An extrapolated closing line, 'As since love's birth they've ever done,' which asserts a historical/habitual claim about humanity's love-driven mutual hatred and self-hatred that has no direct equivalent in the source's five ku; it universalizes and historicizes the personal counterfactual lament into a timeless moral aphorism.",
+          "origin": "extrapolated"
+        }
+      ],
+      "structural_note": "The translation compresses the five ku into four lines but shifts register from a personal, counterfactual love lament to a generalized proverb about human nature and love, adding an extrapolated temporal claim ('since love's birth') not present in the source, while losing the tight logical conditional-consequence relationship between kami and shimo."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, aphoristic English quatrain that generalizes the poem's personal counterfactual lament into a universal moral statement about love and human nature, sacrificing the source's tight paradoxical logic and personal voice for poetic economy and closure.",
+    "overall_fidelity": "low",
+    "poem_number": 44,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation compresses the counterfactual conditional and the paradoxical consequence into a single flowing sentence ('Oh, if there were no meeting and loving! I should have nothing to resent...'), losing the sharp pivot marked by 中々に. The 'rather/on the contrary' logical inversion that gives the poem its paradoxical force is absent — instead of asserting that meeting is worse than not meeting, the translation simply states a straightforward wish that if there had been no meeting, there would be nothing to resent. This flattens the paradox into simple cause-and-effect, so the bipartite boundary and its rhetorical tension dissolve into continuous statement."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "中々に",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "I should have",
+        "note": "The pivot word 中々に, which signals the poem's paradoxical reversal ('meeting is worse than not meeting'), is not rendered at all; the translation moves directly from the conditional premise to the consequence without any marker of ironic inversion, losing the logical fulcrum entirely."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "no meeting",
+      "note": "As the source analysis notes, this poem has no kigo — it is a purely conceptual love poem. The translation likewise contains no seasonal imagery or atmosphere of any kind, consistent with the source's absence of natural imagery."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Conditional wish: if there were no meeting",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Extension of conditional to 'loving', then transition into consequence 'I should have'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Nothing to resent — collapses the resentment clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Nothing of myself and others — restates the object of resentment (hito, mi)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four short lines, merging the conditional premise (ku1-2) into line 1-2, and splitting the consequence (ku4-5) across lines 3-4 with 'nothing' repeated for emphasis; the pivot word 中々に (ku3) is entirely dropped, causing the paradoxical logic of the original to vanish into a simple straightforward wish."
+    },
+    "makurakotoba_handling": [],
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and brevity over preserving the poem's precise logical structure, rendering the counterfactual wish plainly but sacrificing the central paradoxical pivot (中々に) that gives the original its ironic force.",
+    "overall_fidelity": "medium",
+    "poem_number": 44,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "paradox (attempted but garbled)",
+      "note": "Porter's version drastically reinterprets the poem: lines 1-2 assert falling in love is an unlucky fate (this stands in for the kami's counterfactual premise about meeting), and lines 3-5 wish it were otherwise so the speaker could appreciate/love men he now hates. The original's precise logical paradox — that a partial meeting breeds more resentment than no meeting at all — is replaced by a generalized complaint about the fate of loving women and hating men, losing the specific mashi-conditional structure. The paradox shape (wishing for a counterfactual alternative) survives loosely, but the actual propositional content (resentment stemming from meeting itself, not from a general condition of romantic misfortune) is substantially altered, so this is best characterized as collapsed into a single continuous narrative complaint rather than a preserved bipartite logical pivot."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "中々に",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "If only",
+        "note": "Porter converts the logical pivot 中々に into a simple wish ('If only it were otherwise'), which retains a counterfactual wishing structure but loses the paradoxical 'rather/on the contrary' inversion logic — the sense that meeting itself is the source of resentment is replaced with a generic desire for a different fate, so the specific rhetorical reversal is transformed rather than reproduced."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal imagery or atmosphere appears anywhere in this translation; consistent with the source, which is a purely conceptual love poem with no kigo, so omission here is expected and not a translation failure."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Falling in love with women, replacing the abstract 'meeting' (逢ふこと) with a concrete romantic predicament",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Frames this as an 'unlucky fate', loosely corresponding to the counterfactual premise of the kami",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'If only it were otherwise' stands in for the pivot 中々に, converting the logical inversion into a simple wish",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'I might appreciate' corresponds loosely to not needing to resent (恨みざらまし)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Some men, whom now I hate' replaces 人をも身をも with a narrower, more literal target (men), losing the dual resentment toward both the beloved and the self",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "low",
+      "structural_note": "Porter significantly reinterprets and narrows the poem's abstract dual-resentment logic (toward both 'the beloved' and 'the self') into a single concrete grievance against 'men', producing a free paraphrase rather than a close structural mapping; the five ku are compressed and rearranged into a rhymed English quatrain-plus-tag with an entirely different narrative frame (heterosexual romantic misfortune causing generalized misandry) not present in the original's introspective self/other resentment structure."
+    },
+    "translator_strategy": "Porter prioritizes rhymed, metrical English verse readability over precise semantic fidelity, freely reinterpreting the poem's abstract paradox about meeting and resentment into a simpler, more literal narrative about romantic misfortune and gendered feeling.",
+    "overall_fidelity": "low",
+    "poem_number": 44,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The counterfactual conditional structure (kami: 'if there were never any meeting') is preserved in lines 1-2, and the consequence 'I should not complain' in line 3 correctly carries the paradoxical logic that no meeting would mean no complaint. However, the pivot word 中々に ('on the contrary') that signals the logical reversal is not rendered explicitly — the English 'I should not complain' reads as a plain conditional consequence rather than an emphasized paradox, so the rhetorical force of the inversion is softened though the overall paradox logic survives."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "中々に",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "I should not complain",
+        "note": "The pivot adverb signaling the counter-intuitive reversal of expectation (meeting causes more grief than no meeting) is not lexically rendered; the translation simply states the consequence as a plain result of the conditional without any word marking the paradoxical 'on the contrary' turn, so the rhetorical fulcrum is lost even though the overall sense of the sentence remains logically correct."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As the source analysis notes, this poem contains no seasonal imagery at all; the translation likewise contains no seasonal imagery, correctly reflecting the abstract, conceptual nature of the original love poem — there is no season to preserve or omit in a meaningful sense, and the translator adds none artificially."
+    },
+    "line_mapping": {
+      "confidence": "high",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "the notion of a meeting/tryst (逢ふことの)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "counterfactual conditional: if there never were any meeting at all (絶えてしなくは)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the consequence: I should not complain (中々に ... 恨みざらまし, verb portion)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "regarding myself, often left forlorn (身をも, with added interpretive gloss 'oft left forlorn')",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "or of her, in heartless mood (人をも, with added interpretive gloss 'in heartless mood')",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "McCauley renders the poem as a smooth, metrically regular English conditional statement, sacrificing the semantic pivot word 中々に and adding explanatory emotional glosses ('oft left forlorn', 'in heartless mood') to clarify the implied feelings behind 身 and 人.",
+    "overall_fidelity": "medium",
+    "poem_number": 44,
+    "translator": "McCauley"
+  }
+}

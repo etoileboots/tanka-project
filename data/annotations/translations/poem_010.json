@@ -1,0 +1,330 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "other",
+      "note": "Dickens compresses kami's parallel pairs (going/returning, parting) into L1-L3, merging 'friends and strangers' (shimo's acquaintance/stranger pair) into the same line as parting, thus blending kami and shimo content in L3 rather than keeping a clean division. The final couplet (L5-L6) isolates the toponym-as-resolution idea, preserving the cumulative gesture toward Ausaka as the naming site, but the explicit 'reasoning toward the name' is turned into a direct authorial comment ('Apt is the name it seems to me') rather than the source's demonstrative rhetorical question 'これやこの', softening the jokotoba's emphatic framing into a mild aside. The overall paradox-logic (all partings become meetings at the barrier) is retained only weakly, since 'meet and part' in L3 flattens the cumulative building of opposites into a simple simultaneous listing, and the shimo's culminating pun-driven revelation is diluted into an explanatory couplet about the fittingness of a name, which is a mild displacement of the source's structural logic (paradox by naming) into a more explicit editorializing gesture."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "逢坂",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Ausaka gate",
+        "note": "Dickens transliterates the place name and glosses its aptness in L5 ('Apt is the name it seems to me'), signaling awareness that the name means something, but does not render 逢う ('to meet') into the English word for the place itself — the pun is explained rather than reproduced bilingually; the secondary sense is gestured at only through the surrounding narrative of meeting/parting, not embedded in the name itself."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Source poem has no kigo; translation correspondingly introduces no seasonal imagery — consistent absence, appropriately so."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Some traveling toward the city (going)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Some traveling from the city (returning)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Friends and strangers meet and part — merges kami's parting (ku3) with shimo's acquaintance/stranger pair (ku4)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Extra descriptive elaboration on manner of meeting ('kindly glance and careless eye') — expands shimo's acquaintance/stranger theme with invented emotional coloring",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            5
+          ],
+          "content_summary": "Authorial comment on aptness of the name, echoing jokotoba's demonstrative framing but converted to a statement",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Naming of Ausaka gate/barrier",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Six-line translation stretches five ku into six lines by inserting an extra descriptive line (L4) not present in the source, and by splitting the jokotoba/jokotoba-echo and the barrier-naming across two lines (L5-L6) instead of the source's single compact ku5. The kami/shimo division is blurred at the L3 seam where parting and the acquaintance/stranger distinction are conflated."
+    },
+    "translator_strategy": "Dickens prioritizes a smooth, rhyming quatrain-plus-couplet narrative in English verse, explaining the pun on Ausaka's aptness discursively rather than embedding double meaning in the place-name itself, and adding interpretive emotional detail (kindly/careless) not present in the source to fill out the meter.",
+    "overall_fidelity": "medium",
+    "poem_number": 10,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "L1 covers ku1-3 (going/returning/parting) compressed into a single line rather than the two lines of source structure; L2 also carries parting/meeting; L3 covers ku4 (acquaintance/stranger); L4 covers ku5 (the barrier name with translated gloss). The cumulative-paradox structure survives loosely — the final line still delivers the toponym as the resolving image — but the compression of kami's threefold enumeration into one line weakens the parallel building rhythm."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "逢坂",
+        "reading_preserved": "both",
+        "method": "literal_primary",
+        "en_equivalent": "Ausaka Gate (the \"Meeting Height Gate\")",
+        "note": "Noguchi explicitly glosses the place name with its punning meaning in parentheses, making the double meaning fully explicit to the English reader rather than embedding it as true wordplay — the translator essentially explains the pun outright, preserving both the toponym and its 'meeting' sense but as explanation rather than organic double-reading."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Source has no kigo; correctly, translation carries no seasonal imagery, consistent with the miscellaneous (zō) classification of the poem."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Compresses jokotoba 'これやこの' opening and the going/returning pairing (ku1-2) into a single declarative line, omitting the rhetorical demonstrative force of 'これやこの'.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Restates parting and reunion, covering ku3 別れては, slightly overlapping with L1's content.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The acquaintance/stranger pair, 知るも知らぬも.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Names the barrier and glosses its pun explicitly in parentheses.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The four-line translation compresses the source's five ku into four lines, with ku1-3 compacted into two lines that overlap in content (both mention parting/meeting), losing the crisp threefold parallelism of the kami-no-ku; the jokotoba's rhetorical emphasis ('is this the very...') is dropped, flattening the exclamatory framing into plain assertion."
+    },
+    "translator_strategy": "Noguchi prioritizes making the toponym's pun transparent to English readers by explicitly glossing 'Ausaka' with its meaning in parentheses, sacrificing the rhetorical build-up of the jokotoba and the parallel structure of the kami-no-ku for directness and clarity.",
+    "overall_fidelity": "medium",
+    "poem_number": 10,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "other",
+      "note": "Porter compresses the kami-no-ku's parallel pairs (going/returning, parting) into two personified figures — 'stranger' and 'friend' — losing the explicit acquaintance/stranger pairing that properly belongs to the shimo-no-ku (知るも知らぬも), and instead front-loading it into lines 1-2. Line 3 restates the going/coming generically. The shimo's convergence at the barrier is preserved in lines 4-5, but the cumulative-paradox logic (parting and meeting coincide at the named site) is flattened into a simple genial scene of travelers resting together, losing the philosophical tension between 別れ and 逢ふ."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "逢坂",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "this mountain stile",
+        "note": "The place name Ōsaka is replaced by a generic descriptive 'mountain stile,' losing both the toponym itself and the pun on 逢ふ (to meet) it carries; the verb 'meet' does appear in the English but is disconnected from the name that would have carried the wordplay, so the dual meaning collapses into an unmarked coincidence rather than an enacted pun."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal imagery is present in source or translation; consistent with the miscellaneous (雑) classification, and Porter introduces no season-suggestive elements (e.g., no autumn dew, no cold) to compensate."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The stranger who has travelled far — recasts 別れては/知らぬ into a single figure of a traveling stranger",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The friend with welcome smile — recasts 知るも into a personified 'friend'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "All sorts of men who come and go — restates 行くも帰るも generically",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Meet at this mountain stile — the Ōsaka barrier reduced to generic 'mountain stile,' pun lost",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "They meet and rest awhile — extrapolated elaboration emphasizing conviviality and rest, not present in source",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter reorders the kami content: he pulls the acquaintance/stranger distinction (properly shimo-no-ku, ku4) forward into lines 1-2, then restates the going/returning motif (ku2) in line 3, effectively inverting the sequence of ideas while keeping the barrier-meeting as the final resolution. Line 5 is a freely invented closing flourish reinforcing sentimental warmth rather than philosophical paradox."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, sentimental balladic retelling that renders the poem's abstract philosophical pairs as a concrete genial vignette of travelers and friends resting together, sacrificing the wordplay on 逢坂 and the stark parting/meeting paradox for warmth and metrical smoothness.",
+    "overall_fidelity": "low",
+    "poem_number": 10,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "other",
+      "note": "McCauley preserves the cumulative structure: kami (L1-3) enumerates travelers going/coming and parting, shimo (L4-5) resolves into the universal meeting at the barrier. The paradox of parting-yet-meeting is retained via 'all must meet' followed by naming the barrier as 'Meeting Hill,' echoing the source's logic where the toponym itself enacts reconciliation of opposites."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "逢坂",
+        "reading_preserved": "both",
+        "method": "literal_primary",
+        "en_equivalent": "Meeting Hill",
+        "note": "McCauley glosses the place name as 'Meeting Hill,' which explicitly renders the secondary meaning (逢ふ, to meet) while still functioning as the proper name of the barrier/gate, thus a bilingual-pun-like solution capturing both the toponymic and the semantic 'meeting' sense, though it sacrifices the sound 'Ōsaka' itself. Because the English phrase directly encodes the meeting-sense while also standing in as the place name via 'gate of Meeting Hill,' both readings are functionally present, though not through wordplay on a single word but through translation-explanation combined."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal word or imagery exists in the source (miscellaneous/philosophical poem) and none is introduced by McCauley; the translation stays fully within the non-seasonal, aphoristic register of the original."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'Truly, this is where' renders the jokotoba これやこの as an emphatic demonstrative opening.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'Travelers who go or come' renders 行くも帰るも.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'Over parting ways' renders 別れては, marking the parting.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Friends or strangers,--all must meet' renders 知るも知らぬも and anticipates the meeting resolution.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "''Tis the gate of Meeting Hill' renders 逢坂の関, naming the barrier and glossing its meaning.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Very close 1:1 mapping of five English lines to five ku, with the kakekotoba resolved by explanatory naming ('Meeting Hill') rather than by sound-play; no compression or expansion beyond minor rephrasing."
+    },
+    "translator_strategy": "McCauley aims for a transparent, literal line-by-line rendering that surfaces the pun on 逢坂 through an explanatory epithet ('Meeting Hill') rather than through phonetic wordplay, preserving the poem's cumulative paradox structure at the cost of the original's aural pivot.",
+    "overall_fidelity": "high",
+    "poem_number": 10,
+    "translator": "McCauley"
+  }
+}

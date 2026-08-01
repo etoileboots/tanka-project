@@ -1,0 +1,328 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "paradox",
+      "note": "Dickens greatly expands the kami section into a full catalogue of calm weather (no frosts, no storm-winds, no rain-clouds, bright sun) across four lines, then pivots with 'Yet' to the shimo image of a withering flower. The paradox structure is preserved in that the calm setting is explicitly contrasted with the flower's distress via 'Yet', but the shimo content is transformed: instead of blossoms scattering restlessly (しづ心なく花のちるらむ, an image of agitated motion and speculative wonder), the translation gives a single flower withering and dying, which shifts the imagery from restless scattering petals to a dying plant, losing the plural, wind-blown, quasi-animate scattering quality and the speculative 'らむ' wonder tone."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "久方の",
+        "method": "omitted",
+        "note": "The pillow word introducing 'light' is dropped entirely; the translation moves straight to describing the pleasant day and sunny weather without any elevating epithet performing the celestial/luminous signaling function of 久方の."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "transformed",
+      "en_equivalent": "merry spring",
+      "note": "Spring is named explicitly ('merry spring'), so the season word itself survives, but the central seasonal image of scattering cherry blossoms (花のちる) is replaced by a single 'trembling little flow'r' that withers and dies — a generalized image of a fading flower rather than the iconic sakura-scattering imagery, so the kigo's specific emotional charge (mono no aware of falling petals) is transformed into a more generic pathos of a dying flower."
+    },
+    "translator_strategy": "Dickens freely expands the calm-weather kami section into a rhymed catalogue of fair-weather details and personifies the falling blossom as a single dying flower, prioritizing an English ballad-like rhyme scheme and emotional pathos over literal fidelity to the plural scattering imagery and the speculative tone of the original.",
+    "overall_fidelity": "low",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Establishes the pleasant spring day, corresponding to the general calm atmosphere of the kami (久方の光のどけき春の日に)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Extrapolated detail: 'no bitter frosts' expands on the calm/peaceful (のどけき) quality with invented specific weather imagery not in the source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Further extrapolated weather details: no storms, no rain-clouds, reinforcing the calm atmosphere of 光のどけき",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "The sun shining brightly corresponds to 久方の光 (the light), completing the kami's celestial imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Shift to the flower's distress, corresponding to しづ心なく (restless heart), though recast as a single trembling flower rather than scattering blossoms",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The flower withering and dying corresponds to 花のちるらむ (the blossoms scattering), though transformed from scattering petals to a dying flower",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation expands the three-ku kami into four rhymed lines with invented weather details (frost, storms, rain-clouds) not present in the source, and compresses/transforms the two-ku shimo into two lines that shift the plural scattering blossom image into a singular personified dying flower, weakening the collective, wind-scattered quality of the original image."
+    },
+    "poem_number": 33,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation keeps the two-part structure — calm spring light in lines 1-2, restless falling blossoms in lines 3-4 — but compresses the kami into a brief impressionistic phrase ('lovely far-away light') without emphasizing のどけき's tranquility strongly enough to sharpen the paradox; the 'why' framing (posed as a question) does gesture toward the wondering らむ tone, preserving some of the paradoxical tension between stillness and unrest, though weakened by brevity."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "久方の",
+        "method": "transformed",
+        "note": "Rather than omitting or literally translating the epithet, Noguchi repurposes it into the descriptive phrase 'far-away light,' which evokes a sense of celestial distance and elevated diction reminiscent of the makurakotoba's conventional association with sky/heaven/light, though it functions more as a modifying image than a formal epithet.",
+        "en_equivalent": "far-away light"
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "note": "The season is named directly ('Spring day'), and the falling blossoms in line 3 carry the seasonal pathos of scattering sakura, so both the explicit naming and the imagery of transience are present, though condensed.",
+      "en_equivalent": "Spring day"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Establishes the spring day setting",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Describes the calm, distant light of the day, folding in the makurakotoba's celestial connotation with のどけき's tranquility",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Wondering why the blossoms fall, echoing the speculative らむ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The blossoms' unquiet hearts, rendering しづ心なく",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation inverts the ku order slightly, placing 春の日 (ku3) before 光のどけき (ku1-2) for smoother English syntax, and rephrases the shimo as a question, compressing ku4 and ku5 into two short lines that reverse their logical sequence (cause before effect) for rhetorical effect."
+    },
+    "translator_strategy": "Noguchi prioritizes brevity and lyrical impressionism over literal fidelity, condensing the waka into a compact four-line question-and-answer structure that preserves the emotional paradox (calm light vs. restless blossoms) while sacrificing the formal markers of the makurakotoba and the speculative nuance of らむ.",
+    "overall_fidelity": "medium",
+    "poem_number": 33,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The kami's calm imagery (sun shining, gentle heavens) is retained, and the shimo does present the falling blossoms, but the translator inserts an emotional reaction ('it almost makes me cry') that shifts the paradox from 'why do blossoms scatter restlessly amid such calm' to a more direct sentimental lament over transience. The wondering, paradoxical tension of しづ心なく/らむ is softened into a straightforward expression of sorrow, so the structural logic survives but is weakened."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "久方の",
+        "method": "omitted",
+        "note": "No epithet or elevated phrase precedes the sun/sky imagery; 'The sun shines in the sky' is a plain, unadorned statement with no trace of the celestial-elevating function of 久方の."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "spring",
+      "note": "The season is named directly in line 1 ('The spring has come'), and the falling/dying blossoms in line 5 carry the seasonal pathos, though 'droop and die' shifts the register toward death rather than the lighter classical image of scattering petals."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Spring has arrived (expansion/addition of temporal framing not explicit in source, though 春の日 implies spring)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The sun shines in the sky - covers 久方の光 and part of のどけき",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The heavens smile gently - covers のどけき (calm/peaceful) reframed as personified smiling",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Emotional reaction of the speaker ('makes me cry') - expansion/interpretation of しづ心なく, converting the blossoms' restlessness into the speaker's own sorrow",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Blossoms droop and die - covers 花のちるらむ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five ku into five rhymed lines but redistributes content: the calm/peaceful quality of ku2 becomes personified 'smiling heavens' in line 3, and the speaker's own emotional response (crying) is inserted as new content in line 4, effectively converting the objective wondering tone of the original into a first-person subjective lament. This is a significant restructuring since the source's speculative らむ (wondering why blossoms scatter) is replaced by a declared emotional response."
+    },
+    "translator_strategy": "Porter prioritizes a singable, rhymed English quatrain-plus-couplet form over literal fidelity, sacrificing the pillow word and the speculative wondering tone in favor of a sentimental, first-person emotional climax that dramatizes the transience of blossoms as personal grief.",
+    "overall_fidelity": "medium",
+    "poem_number": 33,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translator maintains the paradox structure: lines 1-3 establish the calm, cheerful, ever-shining spring light, while lines 4-5 pose the wondering question of why the blossoms fall in ceaseless, restless haste despite this calm — the 'why' explicitly signals the speculative らむ and the tension between serenity and agitation is preserved."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [
+      {
+        "original_word": "久方の",
+        "method": "ornamental_equivalent",
+        "en_equivalent": "ever-shining",
+        "note": "Rather than omitting the epithet, McCauley transfers its celestial/luminous elevating function onto the sun itself via 'ever-shining,' which conventionally emphasizes the eternal, heavenly quality the makurakotoba would have signaled, even though it is attached to 'Sun' rather than functioning as a detachable fixed epithet."
+      }
+    ],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "days of spring",
+      "note": "The season is named explicitly ('days of spring') and reinforced by the imagery of the cherry blossom falling, so both the explicit naming and the implicit seasonal pathos of scattering blossoms survive together."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "the cheerful/calm light",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "the ever-shining sun, rendering 久方の as an epithet for the sun's eternal light",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "in the days of spring",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "why with ceaseless restless haste (しづ心なく + らむ's wondering tone)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "falls the cherry's new-blown bloom",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator expands ku1 (久方の) across lines 1-2 by attaching its elevating force to 'ever-shining Sun,' and otherwise maps cleanly one line per ku for ku3-5, preserving the 5-line/5-ku correspondence with only minor restructuring at the start."
+    },
+    "translator_strategy": "McCauley favors a literal, line-by-line correspondence to the five ku while relocating the pillow word's celestial elevation onto an epithet for the sun itself, preserving both the explicit seasonal setting and the calm/restless paradox with minimal interpretive embellishment.",
+    "overall_fidelity": "high",
+    "poem_number": 33,
+    "translator": "McCauley"
+  }
+}

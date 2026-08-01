@@ -1,0 +1,429 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        6,
+        7,
+        8
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "Dickens converts the implicit jokotoba/pivot structure into an explicit simile: he literally states 'Thy beauty is... As well-known as the... billow on Takashi's strand,' making the comparison overt with 'As' rather than letting the wave imagery pivot silently into the emotional statement via kakekotoba. The original's fusion of wave-touching and heart-engaging is replaced by a discrete two-part comparison (your fame is like the famous waves; and just as those waves drench passersby, so shall my sleeve/her sleeve be wet with tears) — the logical connective tissue is preserved as an explicit simile rather than the source's more elliptical, pun-driven implicit simile, so the relationship type itself has shifted from implicit to explicit even though the general vehicle/tenor mapping survives."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "高師の浜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Takashi's strand",
+        "note": "The place name is preserved as a proper noun ('Takashi's strand'), retaining the toponymic primary reading; the secondary associative overtone of 高し 'high/lofty' waves is not separately signaled, though 'furious play' and later imagery does gesture at wave intensity, so the secondary nuance is faintly present but not tied to the place name itself."
+      },
+      {
+        "original_word": "あだ浪",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "furious play",
+        "note": "Dickens renders adanami as simply intense/furious waves ('furious play / Of billow') without capturing the 'fickle, faithless' (仇/徒) secondary sense that fuses the waves with a faithless lover; the poem's central pun linking wave-inconstancy to the man's inconstancy is lost, replaced instead with a straightforward simile about fame/beauty being widely known, which changes the poem's emotional target from warning-against-infidelity to praising beauty."
+      },
+      {
+        "original_word": "かけじ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "who come",
+        "note": "The pivotal かけ (both 'waves touching shore' and 'heart engaging with advances') is not rendered at all as a double meaning; instead Dickens describes the venturesome 'who come their sweep too nigh' being drenched, a narrative literalization of the wave hazard with no trace of the emotional 'I will not let my heart be engaged' resolve — the vow structure of the original is entirely replaced by third-person description of 'she who hath thee once beheld.'"
+      },
+      {
+        "original_word": "ぬれ",
+        "reading_preserved": "both",
+        "method": "literal_secondary",
+        "en_equivalent": "ne'er be dry",
+        "note": "The wetness of the sleeve is retained and explicitly tied to 'tears of jealous love,' successfully carrying forward the double sense of spray-wetting and tear-wetting, though by this point the wave/shore vehicle has already been abandoned as a discrete simile earlier in the poem, so the fusion is achieved through explicit statement ('tears... compelled... sleeve shall ne'er be dry') rather than through the single ambiguous word ぬれ itself."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "billow on Takashi's strand",
+      "note": "As in the source, there is no seasonal marker; the poem belongs to the Love category, and Dickens's imagery of waves and drenched sleeves remains purely maritime/emotional rather than seasonal, consistent with the source analysis's classification of this poem as non-seasonal."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "Dickens restructures the poem into an eight-line rhymed stanza that turns the source's jokotoba-plus-pivot structure into an explicit two-part simile: lines 1-5 build the wave/fame comparison (kami, ku 1-3, with added content 'Thy beauty' as the tenor), and lines 6-8 render the emotional consequence (shimo, ku 4-5), but the translator also inserts new interpretive material ('Thy beauty is... well-known', 'she who hath thee once beheld') that has no direct lexical equivalent in the source and effectively re-frames the whole poem as being about the beloved's fame for beauty rather than a warning against a fickle suitor.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [],
+          "content_summary": "Extrapolated framing: 'Thy beauty is throughout the land' — introduces a tenor (the addressee's beauty) not explicit in the source's 音にきく which merely means 'as I have heard' about the waves.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'As well-known as' continues the simile-comparison, echoing 音にきく's sense of reputation/fame.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'Of billow on Takashi's strand' renders 高師の浜 directly as a place name with waves.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'That drench the venturesome with spray' renders あだ浪's wave-wetting action, though the 'fickle/faithless' undertone is replaced with straightforward hazard description.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'Who come their sweep too nigh' extends the wave-hazard image, an elaboration not directly present in the terse あだ浪.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'So she who hath thee once beheld' replaces the speaker's first-person vow (かけじや) with a third-person narrative about 'she' who has seen 'thee', losing the direct kakekotoba pivot.",
+          "origin": "source"
+        },
+        {
+          "en_line": 7,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'To tears of jealous love compelled' renders the emotional consequence, roughly corresponding to the pivot's secondary meaning and the general shimo theme.",
+          "origin": "source"
+        },
+        {
+          "en_line": 8,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Her sleeve shall ne'er be dry' directly renders 袖のぬれ (sleeve's wetness).",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens prioritizes a fluent, rhymed English ballad-stanza that renders the poem as an explicit simile praising the addressee's famed beauty (paralleling the famed waves), sacrificing the original's compact kakekotoba-driven pivot and its warning-against-a-faithless-lover meaning in favor of narrative clarity and metrical/rhyme conformity.",
+    "overall_fidelity": "low",
+    "poem_number": 72,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Noguchi compresses the whole poem into a single continuous descriptive statement — 'fickle waves ... do drench one's sleeves with spray' — without ever pivoting to an explicit statement of the speaker's emotional resolve ('I will not let my heart be engaged'). The kakeji vow disappears entirely, so the kami's wave-image simply flows into a literal image of wet sleeves rather than resolving into the metaphorical warning about a faithless lover touching the heart. The simile-implicit logic (waves=lover's advances) is reduced to a literal description of waves wetting sleeves, losing the bipartite pivot altogether."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "高師の浜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Takashi strand",
+        "note": "The place name is rendered literally as a toponym ('Takashi strand'); no secondary echo of 高し (high/lofty) is suggested in the wording chosen."
+      },
+      {
+        "original_word": "あだ浪",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "fickle waves",
+        "note": "'fickle waves' captures the literal meaning of adanami (inconstant/wanton waves) but the fused secondary sense of a faithless lover is left only as an implicit metaphor never made explicit — the human referent is never named or hinted at beyond the wave image itself."
+      },
+      {
+        "original_word": "かけじ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "do drench",
+        "note": "The crucial pivot — the speaker's vow not to let her heart be engaged/touched — is entirely absent. Noguchi replaces the volitional negative ('I will not risk') with a plain declarative verb 'do drench,' collapsing the pivot into a simple continuation of the wave description, so neither the literal 'touching' nor the emotional 'engaging one's heart' readings survive as a pivot."
+      },
+      {
+        "original_word": "ぬれ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "drench",
+        "note": "'drench...with spray' conveys only the literal wetting of sleeves by wave-spray; the conventional secondary meaning of tears/weeping from heartbreak is not signaled anywhere in the wording."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "fickle waves",
+      "note": "As the source analysis notes, this poem carries no true seasonal kigo (it is a Love-category poem using wave/shore imagery as metaphor rather than seasonal marker), and Noguchi's translation likewise conveys no seasonal atmosphere — the wave and shore imagery remains purely a love-poem trope with no seasonal coloring added or implied."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'Tis known to the world — renders 音にきく (heard by reputation)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Ah me, the fickle waves — renders あだ浪 with an added exclamatory sigh not present in source",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Of the Takashi strand do drench — combines the place name (高師の浜) with the verb of wetting, compressing ku2 and the beginning of the shimo action",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "One's sleeves with spray — renders 袖のぬれ (sleeves wetted), but drops the emotional/vow content of ku4 (かけじや) entirely",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the five-ku structure into four lines and, critically, omits ku4 (かけじや, the speaker's vow not to engage her heart) altogether, turning the poem into a single continuous literal image of waves wetting a shore/sleeves rather than a two-part hearsay-then-resolve structure; the kami/shimo pivot is effectively erased, with 'Ah me' the only trace of emotional commentary in the entire translation."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, self-contained literal seascape image over reproducing the poem's rhetorical pivot, dropping the speaker's explicit vow of emotional resistance (かけじ) and thereby flattening the original's love-poem argument into a simple descriptive statement about waves wetting sleeves.",
+    "overall_fidelity": "low",
+    "poem_number": 72,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "The translation abandons the simile-implicit fusion of wave-touching and heart-touching, instead presenting the wave/shore image as a simple factual scene-setter (kami) followed by a direct, literal declaration of the speaker's own fidelity (shimo) as contrast rather than as continuous metaphor.",
+      "note": "Porter's version turns the poem into a straightforward vow of constancy ('I, too, will constant be') rather than a warning against a faithless suitor's advances; the pivot that makes wave and lover's touch one image is lost, so the kami's waves become mere scene-setting rather than the vehicle for the shimo's emotional content. The relationship is displaced from 'vehicle-becomes-tenor' pivot logic into a simpler 'image then personal statement' contrast structure."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "高師の浜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Takashi",
+        "note": "The place name is preserved literally as a proper noun, but the secondary associative resonance with 高し (high/lofty waves) is not engaged at all — no imagery of height or rising waves is added."
+      },
+      {
+        "original_word": "あだ浪",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "ripples on the shore",
+        "note": "The 'ripples' image loses the 'fickle/wanton' (あだ) connotation entirely; there is no hint that the waves are inconstant or that they represent a faithless lover's advances — indeed the translation reverses the poem's warning into a pledge of the speaker's own constancy."
+      },
+      {
+        "original_word": "かけじ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "Should surely prove",
+        "note": "The pivot verb かけ, which fuses 'waves touching shore' with 'heart engaging in love,' has no equivalent; Porter substitutes a generic assurance phrase disconnected from any wave-touching imagery."
+      },
+      {
+        "original_word": "ぬれ",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "wet with tears",
+        "note": "The wetness is explicitly attributed to tears rather than wave-spray, so the emotional/weeping reading survives but the literal coastal wave-wetting half of the pun is lost, since 'wet with tears' severs the connection to the shore imagery of the kami-no-ku."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "shore",
+      "note": "As identified in the source analysis, this poem carries no true seasonal kigo (it is a Love-category poem using wave/shore imagery metaphorically), and Porter's translation likewise contains no seasonal marker or atmosphere — the 'shore' and 'ripples' function purely as scene-setting for the love theme, consistent with the source's lack of seasonal content."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The sound of waves/ripples on the shore, referencing 音にきく (hearsay) and the shore imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Explicit naming of Takashi as the location of the waves",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The speaker's sleeves worn and wet with tears, corresponding to 袖のぬれ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "A vow/assurance addressed to 'thee' about proof of feeling, loosely corresponding to かけじ's engagement of heart, though reworked as direct address",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "An added declarative statement of the speaker's own constancy, which inverts the source's warning against the male lover's inconstancy into a personal pledge of fidelity",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses ku1-3 (the extended jokotoba about wanton waves) into two brief lines (L1-L2) that merely name the location and sound of waves without conveying 'wanton/inconstant,' then expands the shimo section into three lines (L3-L5) that reinterpret the poem's warning against a faithless lover into the speaker's own vow of constancy — a significant thematic inversion not present in the source, where it is the *other* party's fickleness being guarded against, not the speaker's own steadfastness being asserted."
+    },
+    "translator_strategy": "Porter prioritizes producing a smooth, singable rhymed quatrain-plus-couplet in conventional Victorian verse diction, sacrificing the pivot-word wordplay and the poem's original warning-against-a-faithless-lover sense in favor of a simpler, more sentimental declaration of the speaker's own constancy.",
+    "overall_fidelity": "low",
+    "poem_number": 72,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translator preserves the two-part structure (hearsay report of fickle waves, then the speaker's resolve/fear about her sleeves), but the pivot is weakened: line 4 introduces a hypothetical ('Should I e'er go near that shore') that reframes the metaphor as a literal conditional rather than fusing wave-touching and heart-engagement in one word. The simile-implicit relationship survives as a loose extended metaphor but the fusion of vehicle and tenor (the man's advances) is lost, since the translation never makes clear that the waves stand for a faithless lover rather than actual waves."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "高師の浜",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Takashi's strand",
+        "note": "The place name is preserved literally as a toponym; the secondary echo of 高し (high/lofty) is not activated in English, since 'strand' carries no such connotation."
+      },
+      {
+        "original_word": "あだ浪",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "fickle waves",
+        "note": "The waves are called 'fickle,' which nicely gestures toward the human-fickleness connotation in the adjective itself, but the poem never makes explicit that these waves stand for a fickle man — the metaphorical fusion of wave and suitor is left implicit at best, so only the literal sense of restless/inconstant waves is clearly rendered."
+      },
+      {
+        "original_word": "かけじ",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "go near",
+        "note": "The translator resolves the pivot into a simple conditional ('Should I e'er go near that shore'), capturing only the physical-proximity sense of かけ (touching/approaching) and losing entirely the emotional sense of 'engaging one's heart' with a suitor's advances."
+      },
+      {
+        "original_word": "ぬれ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "wet my sleeves",
+        "note": "The wetting of sleeves is rendered literally as a physical consequence of nearing the shore; the conventional secondary meaning of tears/emotional distress from heartbreak is not signaled anywhere in the English text, so the reader unfamiliar with the convention would take it purely as literal spray."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Takashi's strand",
+      "note": "As in the source, there is no seasonal marker; the poem is a Love-category piece built on wave/shore imagery rather than seasonal imagery, and the translation correctly carries no seasonal atmosphere, consistent with the source analysis's classification of the kigo field as 'none'."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Assertion of having heard of the fame (音にきく)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The fickle/wanton waves (あだ浪は)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Naming the place, Takashi's strand (高師の浜の)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Conditional resolve not to approach the shore, standing in for かけじや",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The wetting of sleeves, standing in for 袖のぬれもこそすれ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders ku 2 and 3 (placing the wave description before the place name in lines 2-3) for smoother English syntax, but otherwise maps the five ku fairly directly onto the five English lines; the pivot at かけ is dissolved into an explicit hypothetical conditional ('Should I e'er go near'), converting the fused wave/suitor metaphor into a literal statement about physically visiting the shore."
+    },
+    "translator_strategy": "McCauley prioritizes clear, literal narrative sense and smooth English syntax over preserving the poem's punning fusion of wave-imagery and human fickleness, rendering the honkadori-based extended metaphor as a straightforward conditional about physically visiting a famous, wave-battered shore.",
+    "overall_fidelity": "medium",
+    "poem_number": 72,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker has tried to conceal a secret love, but it has visibly shown on his face/complexion despite his effort at concealment.",
+    "shimo_theme": "Others have noticed this outward sign and now directly ask him whether he is troubled by some hidden longing.",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku states the internal effort (concealment) and its involuntary physical betrayal (color showing on the face); the shimo-no-ku reveals the social consequence — other people's direct inquiry — which functions as external proof that the concealment in kami has failed. The turn is from private failure of will to public exposure through others' perception, making the whole poem a single continuous causal chain: secrecy → betrayal of countenance → others noticing → being asked directly."
+  },
+  "kigo": {
+    "word": "色",
+    "season": "none",
+    "note": "Though 色 ('color, complexion') might evoke autumn foliage imagery elsewhere in the canon, here it is used purely in the psychological-physiognomic sense ('one's countenance betraying inner feeling'), a stock phrase in love poetry (koi no uta) rather than a seasonal image. No genuine seasonal word is present in this poem; it belongs to the koi (love) topic-category of the Hyakunin Isshu rather than any of the four seasons."
+  },
+  "furigana": [
+    {
+      "kanji": "忍",
+      "reading": "しの"
+    },
+    {
+      "kanji": "色",
+      "reading": "いろ"
+    },
+    {
+      "kanji": "出",
+      "reading": "い"
+    },
+    {
+      "kanji": "恋",
+      "reading": "こい"
+    },
+    {
+      "kanji": "物",
+      "reading": "もの"
+    },
+    {
+      "kanji": "思",
+      "reading": "おも"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "問",
+      "reading": "と"
+    }
+  ],
+  "poem_number": 40,
+  "poet": "Taira no Kanemori",
+  "source_jp": "忍ぶれど\n色に出でにけり\nわが恋は\n物や思ふと\n人の問ふまで"
+}

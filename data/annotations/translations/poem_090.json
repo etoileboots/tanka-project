@@ -1,0 +1,333 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translator preserves the basic contrast between the fisher's sleeves whose color the sea 'ne'er thieves' and the speaker's own sleeves whose colors 'pass' (fade) due to tears; the juxtaposition is maintained but simplified into a clean antithesis (theirs unchanged / mine changed) rather than the more paradoxical layered structure of the original where the ama's sleeve wetness itself stands in for the speaker's weeping."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ぬれにぞぬれし",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "oft-drenched",
+        "note": "The physical wetness of the fisherman's sleeve is rendered ('oft-drenched sleeve'), but the doubled intensity (ぬれにぞぬれし) that also evokes the speaker's own tear-weeping is not carried by this phrase; the emotional/tearful reading is instead relocated to lines 5-6 ('tear-bedewed') as a separate, explicit statement rather than as a pivot fused into the same word."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal marker exists in the source (kigo marked 'none') and none is introduced in the translation; the imagery of sea, sleeves, and tears remains in the timeless love/grief register rather than any seasonal one.",
+      "en_equivalent": ""
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "wish to show to you (見せばやな)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "the island-fisher's (Ojima ama's) oft-drenched sleeve",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "restates the wish, expanding it into 'thine own eyes might see' for rhyme/meter",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "the salt waves never steal (thieve) the sleeve's color — i.e. color does not change despite soaking",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "contrast marker 'from mine, alas!' introducing the speaker's own sleeves",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "ever tear-bedewed, the colours pass/fade — speaker's own weeping and faded/changed sleeve color",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact 5-ku waka into 6 rhymed lines, splitting the single wish (見せばやな) across lines 1 and 3 for rhyme scheme (ABAB) and adding an explicit contrastive pivot ('From mine, alas!') that is only implicit in the Japanese; the doubled ぬれにぞぬれし is separated into two distinct English statements (drenched vs tear-bedewed) rather than fused in one pivotal word."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, metrical English quatrain-plus-couplet form over literal fidelity, expanding the wish and separating the pivot's double meaning into distinct explicit statements to make the implicit contrast fully overt for an English readership.",
+    "overall_fidelity": "medium",
+    "poem_number": 90,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator maintains the overall logical contrast (ama's sleeves stay unchanged in color despite being drenched, unlike speaker's own tearful sleeves), but compresses the kami section (ku1-3) into two lines and shifts the explicit contrast into an exclamatory final line ('But, alas, tearful sleeves of mine!') that is an addition not literally present in the shimo ku, which in the original only states 'ぬれにぞぬれし色はかはらず' without naming the speaker's own sleeves directly. This makes the implicit contrast explicit, weakening the subtlety of the juxtaposition but preserving its emotional logic."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ぬれにぞぬれし",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "wet through",
+        "note": "The translator renders the doubled verb as straightforward physical wetness ('wet through') applied to the fishers' sleeves, capturing the literal soaking but not linking it explicitly to the secondary meaning of weeping; the emotional weeping is instead relocated to a separate new line about the speaker's own 'tearful sleeves', so the pivot's simultaneous double-reference is split into two separate images rather than fused in one word."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As per the source analysis this expression is not a seasonal kigo but a love-poem/utamakura image; the translation appropriately conveys no seasonal atmosphere, focusing instead on the tear-soaked sleeve motif and the utamakura place name 'Oshima island', consistent with the non-seasonal nature of the original.",
+      "en_equivalent": "Oshima island"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Wish to show someone (見せばやな)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The Oshima fishers' sleeves (雄島のあまの袖だにも)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Sleeves never change color though wet through (ぬれにぞぬれし色はかはらず)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Speaker's own tearful sleeves, added exclamation making the implicit contrast explicit",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the three kami ku into two lines and then splits the shimo ku's single statement into two lines, adding an explicit final exclamation ('But, alas, tearful sleeves of mine!') that spells out the implied comparison to the speaker's own sleeves, which the original leaves unstated but embedded in the doubled verb pivot."
+    },
+    "translator_strategy": "Noguchi favors clarity and emotional directness, unpacking the poem's implicit tear/wetness pivot into an explicit final exclamatory line about the speaker's own sleeves, sacrificing the subtlety of the kakekotoba for immediate comprehensibility to an English readership.",
+    "overall_fidelity": "medium",
+    "poem_number": 90,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "Porter keeps the contrastive logic — the fisher's clothes withstand the wetting while the speaker's own sleeve is discolored by tears — but compresses/simplifies it into an explicit 'but see I' contrast rather than the source's subtler paradox of 'even the ama's constantly-soaked sleeve does not change color, yet mine has.' The comparison is stated rather than implied, and the utamakura specificity (Ojima) is dropped, weakening the original's allusive juxtaposition into a more generic love-complaint parallel."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ぬれにぞぬれし",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "drenching",
+        "note": "Porter renders the literal soaking of the fisher's clothes ('the drenching they receive') and separately supplies 'floods of tears' for the speaker's own weeping, but he splits the doubled pivot into two distinct images (fisher's wetness vs. speaker's tears) rather than having a single word carry both physical and emotional wetness simultaneously — so the kakekotoba's fused double meaning is not preserved in one term, only the primary literal sense is attached to 'drenching' while the secondary sense is explained separately via 'floods of tears.'"
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "fisher's clothes",
+      "note": "No seasonal word or atmosphere is present; Porter converts the utamakura 'Ojima no ama' into a generic 'fisher's clothes, though cheap' image, losing both the place-name allusion and any seasonal resonance the source analysis notes is largely absent anyway."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "the fisher's (ama's) clothes, described as cheap, correspond to the wish to show someone the Ojima ama's sleeves",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "the clothes withstand/receive the drenching, corresponding to 'nure ni zo nureshi' applied to the fisher",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "speaker's own floods of tears, contrasted with the fisher's sleeve, corresponding to the shift to the speaker's own weeping and blurred colors",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "the colors of the speaker's sleeve are blurred/changed, corresponding to 'iro wa kawarazu' but inverted to say the speaker's DID change",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [],
+          "content_summary": "explicit statement 'as for thy love I grieve' naming the emotional cause, not present in source wording",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the kami's wish-to-show (見せばやな) and the utamakura specificity (雄島のあまの) into a brief generic reference in line 1, then expands the shimo's implicit contrast into an explicit stated contrast across lines 3-4, adding an extrapolated final line naming 'thy love' as the cause of grief, which is not stated in the original poem."
+    },
+    "translator_strategy": "Porter prioritizes producing a smooth, rhymed English love-lyric that states the emotional contrast explicitly, sacrificing the utamakura place-name, the fused kakekotoba wordplay, and subtlety of implication in favor of clarity and metrical closure.",
+    "overall_fidelity": "medium",
+    "poem_number": 90,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation keeps the kami wish-to-show and the shimo statement that the ama's sleeves, though soaked, do not change color, but the implicit contrast with the speaker's own tear-stained sleeves is left entirely unstated (as in the original), so the emotional-juxtaposition survives only as a bare juxtaposition without any added interpretive framing to help an English reader recover the implied comparison.",
+      "relationship_type": "emotional-juxtaposition"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ぬれにぞぬれし",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "wet through and wet again",
+        "note": "McCauley renders the doubled verb literally as physical soaking of the fisherwomen's sleeves, capturing the primary meaning vividly with repetition ('wet through and wet again'), but there is no signal of the secondary meaning of the speaker's own tears/weeping — the word 'wet' stays purely literal with no emotional undertone supplied."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "fisherwomen's sleeves",
+      "note": "As the source analysis notes, this image is not seasonal but utamakura/love-imagery; McCauley preserves the place-name (Ojima) and the ama figure literally but supplies no seasonal atmosphere, consistent with the source having none to preserve."
+    },
+    "translator_strategy": "McCauley prioritizes a literal, line-by-line rendering of the imagery and syntax, preserving the surface meaning of the ama's soaked-but-colorfast sleeves while leaving the poem's implicit emotional comparison to the reader's inference.",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Speaker's wish to show 'him' something (見せばやな)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The fisherwomen's (ama) sleeves",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Ojima's shores — utamakura place name plus 'even the sleeves' qualifier merged from ku2/ku3",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Sleeves wet through and wet again — literal rendering of ぬれにぞぬれし",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Their color does not change — literal rendering of 色はかはらず",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "McCauley maps almost one-to-one onto the five ku, slightly compressing ku2 and ku3 into lines 2-3, but otherwise follows the original's five-part structure closely without inversion or major compression."
+    },
+    "poem_number": 90,
+    "translator": "McCauley"
+  }
+}

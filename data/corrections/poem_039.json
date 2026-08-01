@@ -1,0 +1,393 @@
+{
+  "poem_number": 39,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T06:09:27.045114+00:00"
+    },
+    "devices": {
+      "浅茅生": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "浅茅生",
+          "color": "#7EBBEE"
+        },
+        "reviewed_at": "2026-07-27T06:09:08.877433+00:00"
+      },
+      "忍ぶ": {
+        "status": "confirmed",
+        "original": {
+          "word": "忍ぶ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T06:09:26.214303+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "concealed": {
+          "status": "confirmed",
+          "original": {
+            "word": "concealed",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:11:40.678758+00:00"
+        },
+        "Asajiu": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Asajiu",
+            "color": "#7EBBEE"
+          },
+          "reviewed_at": "2026-07-27T06:11:55.747488+00:00"
+        },
+        "asajiu": {
+          "status": "confirmed",
+          "original": {
+            "word": "asajiu",
+            "color": "#7EBBEE"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:27:16.130823+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:28:17.153436+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:28:17.718673+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:28:18.939940+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:28:25.588292+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:28:29.670771+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:28:30.171258+00:00"
+        }
+      },
+      "device_links": {
+        "asajiu": {
+          "status": "corrected",
+          "original": {
+            "word": "asajiu"
+          },
+          "corrected": {
+            "source_word": "浅茅生"
+          },
+          "reviewed_at": "2026-08-01T01:27:15.330247+00:00"
+        },
+        "concealed": {
+          "status": "corrected",
+          "original": {
+            "word": "concealed"
+          },
+          "corrected": {
+            "source_word": "忍ぶ"
+          },
+          "reviewed_at": "2026-08-01T01:28:08.401341+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "grass-grown": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "grass-grown",
+            "color": "#7EBBEE",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:30:13.079158+00:00"
+        },
+        "keep secret": {
+          "status": "confirmed",
+          "original": {
+            "word": "keep secret",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:27:54.004317+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-27T06:27:31.719285+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:27:49.486544+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:27:50.003387+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:27:50.419067+00:00"
+        }
+      },
+      "device_links": {
+        "keep secret": {
+          "status": "corrected",
+          "original": {
+            "word": "keep secret"
+          },
+          "corrected": {
+            "source_word": "忍ぶ"
+          },
+          "reviewed_at": "2026-08-01T01:28:10.013307+00:00"
+        },
+        "grass-grown": {
+          "status": "corrected",
+          "original": {
+            "word": "grass-grown"
+          },
+          "corrected": {
+            "source_word": "浅茅生"
+          },
+          "reviewed_at": "2026-08-01T01:30:14.462546+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "reeds": {
+          "status": "removed",
+          "original": {
+            "word": "reeds",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:28:48.187254+00:00"
+        },
+        "hide": {
+          "status": "confirmed",
+          "original": {
+            "word": "hide",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:28:49.454190+00:00"
+        }
+      },
+      "lines": {
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T06:29:16.384228+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:11.568768+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:12.120042+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:17.001626+00:00"
+        }
+      },
+      "device_links": {
+        "hide": {
+          "status": "corrected",
+          "original": {
+            "word": "hide"
+          },
+          "corrected": {
+            "source_word": "忍ぶ"
+          },
+          "reviewed_at": "2026-08-01T01:28:14.146618+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "bamboo-growing plain": {
+          "status": "removed",
+          "original": {
+            "word": "bamboo-growing plain",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:19.102535+00:00"
+        },
+        "bear my lot": {
+          "status": "confirmed",
+          "original": {
+            "word": "bear my lot",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:30.937849+00:00"
+        },
+        "Bamboo-growing plain": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Bamboo-growing plain",
+            "color": "#7EBBEE",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:29:24.951702+00:00"
+        },
+        "reeds": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "reeds",
+            "color": "#7EBBEE",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:30:28.996821+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:24.170022+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:24.534847+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:25.187395+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:25.584322+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T06:29:26.484332+00:00"
+        }
+      },
+      "device_links": {
+        "bear my lot": {
+          "status": "corrected",
+          "original": {
+            "word": "bear my lot"
+          },
+          "corrected": {
+            "source_word": "忍ぶ"
+          },
+          "reviewed_at": "2026-08-01T01:28:11.698351+00:00"
+        },
+        "reeds": {
+          "status": "corrected",
+          "original": {
+            "word": "reeds"
+          },
+          "corrected": {
+            "source_word": "浅茅生"
+          },
+          "reviewed_at": "2026-08-01T01:30:37.978792+00:00"
+        }
+      }
+    }
+  }
+}

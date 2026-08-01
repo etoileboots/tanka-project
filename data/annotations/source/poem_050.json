@@ -1,0 +1,53 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "ながく",
+      "ku": 4,
+      "reading_primary": "長く (long, of duration)",
+      "reading_secondary": "",
+      "interaction": "On the surface simply means 'long' modifying life (命), but the choice of ながく rather than a plainer intensifier carries the conventional なが/長 association with duration and lingering — here used straightforwardly rather than as a double-syntax pivot, reinforcing the poem's central wish that life extend long enough to enjoy the beloved's presence. No second grammatically distinct reading (e.g. 流く) is active here, so this is flagged as a checked-but-not-fully-doubled case rather than a true kakekotoba."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker declares that, for the sake of his beloved, he once did not even value his own life — he was prepared to sacrifice it without regret.",
+    "shimo_theme": "Now, having met and been near her, he finds himself wishing instead that this same life could go on long — a complete reversal of his earlier indifference to living.",
+    "relationship_type": "paradox",
+    "pivot_note": "The poem turns on a stark emotional reversal: the kami-no-ku establishes that the speaker's life (命) was something he did not prize — he would have given it up readily for his beloved's sake — while the shimo-no-ku confesses that now, precisely because of her, he wishes that same life to continue (ながくもがな, 'if only it were long'). The pivot word is 命さへ ('even my life'), which bridges the two: the very life once held cheap becomes, through the force of love realized, something he suddenly wants to preserve. This is a paradox structure because the shimo does not simply extend or explain the kami — it inverts its emotional premise entirely, dramatizing how love transforms the speaker's relationship to his own mortality."
+  },
+  "kigo": {
+    "word": "命",
+    "season": "none",
+    "note": "This poem is a love poem (koi-no-uta) with no seasonal imagery whatsoever — no flowers, birds, moon, dew, frost, rain, or seasonal plants appear. Every lexical item (君, 惜し, 命, ながく, もがな, おもひ) belongs to the vocabulary of personal devotion and desire, not to seasonal description. 命 (life) is marked here as season=none deliberately, to record that after exhaustive review no kigo is present; it is included only as the poem's central noun, not as a seasonal marker."
+  },
+  "furigana": [
+    {
+      "kanji": "君",
+      "reading": "きみ"
+    },
+    {
+      "kanji": "為",
+      "reading": "ため"
+    },
+    {
+      "kanji": "惜",
+      "reading": "お"
+    },
+    {
+      "kanji": "命",
+      "reading": "いのち"
+    }
+  ],
+  "poem_number": 50,
+  "poet": "Fujiwara no Yoshitaka",
+  "source_jp": "君がため\n惜しからざりし\n命さへ\nながくもがなと\nおもひけるかな"
+}

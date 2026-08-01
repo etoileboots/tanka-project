@@ -1,0 +1,81 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "いなば",
+      "ku": 2,
+      "reading_primary": "いなば (Inaba, place name)",
+      "reading_secondary": "いなば (往なば - if I go/depart)",
+      "interaction": "いなばの山 is the mountain of Inaba (a real place in present-day Tottori), but いなば also echoes 往なば (\"if I go away\"), reinforcing the speaker's imminent departure announced in 立ち別れ. The place name carries the emotional weight of the parting."
+    },
+    {
+      "word": "まつ",
+      "ku": 4,
+      "reading_primary": "松 (pine tree, growing on the peak)",
+      "reading_secondary": "待つ (to wait, for the beloved)",
+      "interaction": "The 松 (pine) growing on the peak of Mount Inaba, established in the kami-no-ku, pivots into 待つ (\"to wait\") — the speaker says that if he hears that his beloved is \"waiting\" (like the pine on the peak), he will return at once. The physical image of the pine sustains and licenses the emotional verb of waiting."
+    }
+  ],
+  "jokotoba": {
+    "text": "立ち別れいなばの山の峰に生ふる",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "まつ",
+    "function": "The image of parting and travel to Mount Inaba, with the pine growing on its peak, is built up over three ku purely to set up the pivot word まつ, which then triggers the shift from the physical pine to the emotional sense of waiting. This is a composed, poem-specific preface rather than a fixed epithet, and exceeds 5 morae, functioning as jokotoba leading into the kakekotoba at V4."
+  },
+  "honkadori": {
+    "source_poem": "Man'yōshū-style conventional association between 松 (pine) and 待つ (waiting), rather than a single identifiable source poem",
+    "source_poet": "unknown / conventional",
+    "echoed_phrase": "まつとし聞かば",
+    "function": "invokes the well-established poetic convention linking pine trees and waiting for a beloved's return, though no single specific honka can be pinpointed with confidence"
+  },
+  "kigo": {
+    "word": "松",
+    "ku": 3,
+    "season": "none",
+    "note": "Pine trees are evergreen and not tied to a specific season in the classical calendar; here 松 functions primarily as the vehicle for the まつ/待つ kakekotoba rather than as a seasonal marker. No other lexical item in the poem (立ち別れ, いなばの山, 峰, 生ふる, きかば, かへりこむ) carries seasonal association — this is fundamentally a parting poem (別れの歌) organized around travel and longing rather than seasonal imagery."
+  },
+  "furigana": [
+    {
+      "kanji": "立ち別れ",
+      "reading": "たちわかれ"
+    },
+    {
+      "kanji": "山",
+      "reading": "やま"
+    },
+    {
+      "kanji": "峰",
+      "reading": "みね"
+    },
+    {
+      "kanji": "生ふる",
+      "reading": "おふる"
+    },
+    {
+      "kanji": "今",
+      "reading": "いま"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker's physical departure, traveling away toward Mount Inaba, with the image of pine trees growing on its distant peak",
+    "shimo_theme": "A vow: if the speaker hears that his beloved is waiting for him, he will return home at once",
+    "relationship_type": "other",
+    "pivot_note": "The kami-no-ku functions as jokotoba: it builds the physical scene of parting and the pine-covered peak of Mount Inaba purely to arrive at the word まつ, which pivots from '松' (pine, the literal image just established) to '待つ' (to wait, the emotional content of the shimo). The entire kami section exists to license this single pivot; the poem's meaning depends on holding the physical journey and the emotional promise together through that one word, making this a composite of jokotoba-structure and kakekotoba-pivot rather than a simple simile or causal link."
+  },
+  "poem_number": 16,
+  "poet": "Chunagon Yukihira",
+  "source_jp": "立ち別れ\nいなばの山の\n峰に生ふる\nまつとしきかば\n今かへりこむ"
+}

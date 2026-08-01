@@ -1,0 +1,71 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker describes his humble hermitage, located southeast of the capital, where he lives content and at peace (しかぞすむ - 'thus I dwell').",
+    "shimo_theme": "Yet people call this place 'Ujiyama' — punning on 憂し (uki, 'wretched/miserable') — implying they mistakenly believe he lives in misery, in a world of sorrow.",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku presents the speaker's own calm, contented self-description of his dwelling and manner of life ('shika zo sumu' — 'thus I dwell,' with 'shika' also suggesting 'deer,' evoking the lonely mountain deer-cry topos). The shimo-no-ku then reveals that outsiders label this same place 'Ujiyama,' a name that phonetically encodes 憂し (uki, 'wretched'), and further exploits 世 (yo) as both 'this place/mountain' and 'the world/one's life in it.' The poem's entire meaning turns on the gap between the hermit's own serene self-perception (kami) and the world's projection of misery onto his reclusive life (shimo) — a classic irony: what others call a hermitage of sorrow, the hermit himself experiences as simple, sufficient dwelling. The pivot is essentially ironic-paradoxical: two irreconcilable perspectives on the same site are held together by the kakekotoba う぀/憂し embedded in うぢ."
+  },
+  "kakekotoba": [
+    {
+      "word": "うぢ山",
+      "ku": 4,
+      "reading_primary": "うぢ (Uji, place name)",
+      "reading_secondary": "憂し (uki, 'wretched, painful, miserable')",
+      "interaction": "The place name Uji-yama, southeast of the capital, phonetically contains/evokes 憂し, so that 'they call it Ujiyama' simultaneously means 'people call this a mountain of misery' — the toponym doubles as an emotional judgment on the hermit's reclusive life, which the speaker himself does not share."
+    },
+    {
+      "word": "世",
+      "ku": 4,
+      "reading_primary": "世 (yo, 'the world, one's life, one's lot')",
+      "reading_secondary": "夜 (yo, 'night') — secondary/associative, not fully operative here",
+      "interaction": "世をうぢ山と — 'this world/my life as Ujiyama' — 世 functions primarily as 'my present existence/this life here,' allowing 'yo' to carry both the sense of 'this locale' and 'my lot in life,' reinforcing that outsiders judge not just his location but his whole manner of living as wretched."
+    },
+    {
+      "word": "しか",
+      "ku": 3,
+      "reading_primary": "然 (shika, 'thus, in this way')",
+      "reading_secondary": "鹿 (shika, 'deer')",
+      "interaction": "しかぞすむ literally 'thus I dwell,' but しか also evokes 鹿 (deer), a classical symbol of lonely mountain solitude and the plaintive cry associated with autumn hermitage poetry — reinforcing the reclusive, melancholy mountain setting even as the surface statement is contentedly neutral."
+    }
+  ],
+  "makurakotoba": [],
+  "kigo": {
+    "word": "しか",
+    "season": "autumn",
+    "note": "Though grammatically functioning as 然 ('thus'), しか's secondary association with 鹿 (deer) evokes the classical autumn topos of the deer's cry in lonely mountains (a staple image of aware and solitude in autumn poetry), lending the poem a seasonal undertone of autumnal melancholy even though the poem's primary content is not explicitly seasonal narrative."
+  },
+  "furigana": [
+    {
+      "kanji": "庵",
+      "reading": "いほ"
+    },
+    {
+      "kanji": "都",
+      "reading": "みやこ"
+    },
+    {
+      "kanji": "世",
+      "reading": "よ"
+    },
+    {
+      "kanji": "宇治山",
+      "reading": "うぢやま"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    }
+  ],
+  "poem_number": 8,
+  "poet": "Kisen Hoshi",
+  "source_jp": "わが庵は\n都のたつみ\nしかぞすむ\n世をうぢ山と\n人はいふなり"
+}

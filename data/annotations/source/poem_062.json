@@ -1,0 +1,83 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "よ",
+      "ku": 4,
+      "reading_primary": "夜",
+      "reading_secondary": "世",
+      "interaction": "よにあふ literally means 'to meet at night' but 世に逢ふ also carries the sense of 'in this world' — reinforcing the pun on Osaka (逢坂/逢う) that follows, so the phrase plays on both a nocturnal meeting and a worldly, ongoing state of affairs, echoing the poem's earlier night setting (夜をこめて) while pivoting toward the place name Ausaka."
+    },
+    {
+      "word": "あふさか",
+      "ku": 4,
+      "reading_primary": "逢坂",
+      "reading_secondary": "逢ふ",
+      "interaction": "Ausaka is simultaneously the actual Barrier of Ausaka (逢坂の関) on the road to the capital and the verb 逢ふ 'to meet' (as lovers) — the barrier that will not be crossed literally stands for the meeting the speaker refuses to permit."
+    },
+    {
+      "word": "はかる",
+      "ku": 3,
+      "reading_primary": "謀る",
+      "reading_secondary": "計る",
+      "interaction": "はかる carries the sense of both 'to deceive/trick' (referring to the cockcrow ruse of the Han-ku story) and 'to reckon/scheme' — the fraudulent birdcall may deceive at the level of practical scheming, but it cannot overcome the deeper barrier."
+    }
+  ],
+  "jokotoba": {
+    "text": "夜をこめて鳥の空音ははかるとも",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "よに",
+    "function": "The entire kami-no-ku recounts the Chinese legend of Meng Changjun's retainer who mimicked a cockcrow to trick the barrier guards into opening the gate before dawn — this extended narrative preface, longer than a single ku and freely composed for this poem, sets up the pivot into the Ausaka barrier by sound-association (empty birdcall vs. the guarded pass) and semantic contrast (a trick that works on one barrier but not on this one)."
+  },
+  "honkadori": {
+    "source_poem": "Meng Changjun's cockcrow anecdote from the Chinese Shiji/Zhanguo Ce (as known via Sei Shōnagon's own prose anecdote in the Makura no Sōshi and Chinese lore transmitted in Heian court culture)",
+    "source_poet": "Traditional Chinese legend of Meng Changjun (孟嘗君)",
+    "echoed_phrase": "鳥の空音",
+    "function": "Invokes the well-known tale in which a fake cockcrow tricked barrier guards into opening the gate at Kankoku Pass, allowing Meng Changjun to escape — the poem asserts that even such a clever ruse, which worked on that Chinese barrier, will not work on the Ausaka barrier of love/meeting."
+  },
+  "kigo": {
+    "word": "鳥の空音",
+    "season": "none",
+    "note": "The birdcall here refers to the legendary rooster's imitated crow of the Meng Changjun tale rather than a seasonal birdsong; it is emblematic/narrative rather than a natural seasonal marker. No other lexical item in the poem (barrier, night, meeting) carries a fixed seasonal association either — this is fundamentally a wit-poem built on wordplay and allusion rather than natural imagery, so no true kigo is present."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The night-deep ruse of a false cockcrow, alluding to the Chinese legend of a barrier tricked open by an imitated rooster's cry",
+    "shimo_theme": "The declaration that the Ausaka Barrier — punning on 'meeting' — will never grant such easy passage, refusing the suitor's advances",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku sets up a precedent where trickery successfully breached a barrier, priming the reader to expect the same logic to apply; the shimo-no-ku overturns this expectation by asserting that the Ausaka barrier — which is simultaneously a real checkpoint and a metaphor for romantic 'meeting' (逢ふ) — cannot be fooled by the same ruse. The wit lies in the collision between a famous historical trick and the speaker's proud refusal, turning the whole poem into an elegant rebuff wrapped in scholarly allusion."
+  },
+  "furigana": [
+    {
+      "kanji": "夜",
+      "reading": "よ"
+    },
+    {
+      "kanji": "鳥",
+      "reading": "とり"
+    },
+    {
+      "kanji": "空音",
+      "reading": "そらね"
+    },
+    {
+      "kanji": "関",
+      "reading": "せき"
+    }
+  ],
+  "poem_number": 62,
+  "poet": "Seisho Nagon",
+  "source_jp": "夜をこめて\n鳥の空音は\nはかるとも\nよにあふさかの\n関はゆるさじ"
+}

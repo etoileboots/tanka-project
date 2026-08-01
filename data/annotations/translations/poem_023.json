@@ -1,0 +1,310 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Source moves from personal sorrow (kami) to universalizing correction (shimo) — 'it is not I alone.' This translation inverts the logic: L3 asserts 'I alone have felt' the sadness, then L4 concedes others have viewed the moon but implies they haven't felt it as he has. This is nearly the opposite of the original's shimo-ku, which explicitly denies the sadness is his alone. The translator has reversed the emotional-philosophical thrust from universalizing to solipsistic."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "秋",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "autumn's moon",
+        "note": "The kakekotoba pivot (秋/飽き, autumn/weariness) and its function of universalizing sorrow is entirely lost; worse, the translation reverses the semantic claim of the line, having the speaker insist he alone feels the sadness ('I alone have felt') even while others view the same autumn moon — the opposite of the source's 'not mine alone.' Neither the seasonal noun's double meaning nor its original logical function survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn's moon",
+      "note": "The word 'autumn' is named explicitly in the final line, paired with 'moon,' fulfilling the literal seasonal reference, though its placement and function have been altered — it becomes a phrase about others' shared viewing rather than the ground for universal melancholy."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Repeated gazing at the moon ('How oft' my glance upon the moon hath dwelt') — expands 月見れば into an habitual, repeated action not present in source.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The moon's 'secret power' subduing the soul — corresponds to 千々に物こそ悲しけれ, the thousandfold sadness, though rendered as an external mystical force rather than internal diffuse feeling.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Her sadd'ning influence I alone have felt' — this directly inverts the source's ku4-5 claim ('わが身ひとつの秋にはあらねど' = it is NOT my sorrow alone); translator has the speaker assert uniqueness of his own suffering.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Though all men autumn's moon have viewed' — acknowledges universal moon-viewing but frames it as contrast to his singular feeling, reversing the source's logic that others share the same sadness.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses ku1 into L1, expands ku2-3 into L2, and then inverts the meaning of ku4-5 across L3-L4, turning the source's universalizing conclusion into a solipsistic assertion — a significant structural and logical inversion despite maintaining four-line form roughly parallel to the five ku."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, metrically regular English quatrain (iambic pentameter/tetrameter with ABAB-like rhyme) over precise semantic fidelity, reshaping the poem's philosophical turn into a more conventional, melancholic-Romantic assertion of singular personal suffering contrasted with others' indifferent moon-viewing.",
+    "overall_fidelity": "low",
+    "poem_number": 23,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The kami sentiment (moon-gazing causing thousandfold sadness) is preserved in L1-L2. The shimo qualification is compressed into L3-L4, retaining the 'not mine alone' logic but losing some of the reflective pivot nuance — 'Though' signals concession but the universalizing self-awareness is thinner than in source."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "秋",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Autumn",
+        "note": "Translator renders 秋 literally as 'Autumn,' preserving the seasonal/surface meaning but not attempting the 飽き (weariness/being forsaken) undertone at all; no wordplay or double meaning is suggested in the English."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn",
+      "note": "The season is named outright ('Autumn'), capitalized for emphasis, directly translating 秋; however the moon (月), the poem's primary seasonal trigger-image, is present only as 'moon' without special seasonal coloring beyond the literal reference in L1."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Gazing upon the moon",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "thousand-fold sadness",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Autumn (as universal condition)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "not meant to be my own self's — the 'not mine alone' qualification",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders shimo content: 'Autumn' (ku5) appears in L3 before the 'not my own self's' qualifier (ku4) in L4, inverting the JP word order (わが身ひとつの秋にはあらねど has 'my self alone's' before 'autumn') though the overall shimo meaning is preserved across the two lines."
+    },
+    "translator_strategy": "Noguchi opts for compact literal fidelity, rendering the poem's surface propositional content plainly in four lines while sacrificing the kakekotoba's punning depth and any archaic ornamentation.",
+    "overall_fidelity": "medium",
+    "poem_number": 23,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "Kami is compressed to two lines (moon triggers enthralled/cheerless mood), losing the 'thousand-fold' intensity and diffuseness of ku2-3; shimo is expanded to three lines with the universalizing 'others also have their griefs' and personified autumn casting her pall. The pivot from solipsistic feeling to universal reflection is present but the personification of autumn as an active agent ('cast her gloomy pall') shifts the tone from philosophical self-correction toward a more fatalistic, externalized image, weakening the original's introspective self-awareness."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "秋",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "autumn",
+        "note": "The word 'autumn' is repeated (L1 'cheerless autumn moon', L4 'autumn on us all') but only the literal seasonal meaning survives; no play on 飽き (weariness/being forsaken) is attempted or hinted at in the English wording. The personification 'cast her gloomy pall' reinforces melancholy but as external fate, not as the pun's undertone of romantic weariness."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn moon",
+      "note": "The season is named directly and doubled ('autumn moon' in L1, 'autumn' again in L4), with added epithets 'cheerless' and 'gloomy pall' that supply the melancholic atmosphere explicitly rather than through implicit imagery."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Moon-viewing recast as 'the cheerless autumn moon', with 'cheerless' importing the sorrow of ku3 in advance.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'Doth all my mind enthrall' compresses the thousand-fold sadness (千々に物こそ悲しけれ) into a single image of mental captivation.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'But others also have their griefs' renders わが身ひとつの (not for me alone) as an explicit universalizing statement.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'For autumn on us all' restates the universality of autumn's effect, corresponding to 秋にはあらねど.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Hath cast her gloomy pall' is an extrapolated personification of autumn casting gloom, expanding beyond the source's spare grammatical negation into an added poetic image.",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The five-line English form compresses kami (3 ku) into 2 lines and expands shimo (2 ku) into 3 lines, adding a personified 'pall' image not present in the source, which shifts emphasis toward an externalized, fated melancholy rather than the original's reflective self-correction."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, metrically regular English quatrain-plus-tag form, sacrificing the pivot pun and the diffuse 'thousand-fold' imagery for a clear, moralizing statement of shared autumnal grief personified as an external force.",
+    "overall_fidelity": "medium",
+    "poem_number": 23,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The kami/shimo split into personal sorrow vs. universalizing correction is structurally kept (L1-3 = moon gazing, thousand sorrows; L4-5 = 'not for me alone'), but the pivot's philosophical force is weakened because L5 flatly states 'the autumn time has come' rather than tying autumn's melancholy explicitly back to the sadness of L1-3 as a shared condition — it reads more as a temporal observation than an emotional universalizing claim, so the juxtaposition is present but blunted."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "秋",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "autumn time",
+        "note": "McCauley renders 秋 as a literal seasonal reference ('the autumn time has come'), preserving the surface meaning of autumn but losing the 飽き (weariness/being forsaken) undertone entirely; the line reads as though autumn is merely arriving now, which also oddly literalizes the season as an event rather than the speaker's shared emotional state, weakening even the primary reading's connection to universality."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn time",
+      "note": "The season word is named directly ('autumn time'), but oddly reframed as something that 'has come' rather than as the shared quality of melancholy affecting all moon-gazers, so while explicit, it loses some of the atmospheric/emotional resonance of the original's aki/aki-no-tsuki tradition."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Gazing at the moon",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "myriad/thousand things arise",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "sad thoughts",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "not for me alone",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "autumn has come / autumn season",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Near one-to-one mapping of each English line to each JP ku, a fairly literal five-line rendering matching the 5-7-5-7-7 structure in sense order without inversion or compression."
+    },
+    "translator_strategy": "McCauley pursues a close, line-by-line literal correspondence to the Japanese ku structure, prioritizing clarity and fidelity of surface meaning over reproducing the kakekotoba's double entendre or the shimo-no-ku's fuller philosophical/emotional pivot.",
+    "overall_fidelity": "medium",
+    "poem_number": 23,
+    "translator": "McCauley"
+  }
+}

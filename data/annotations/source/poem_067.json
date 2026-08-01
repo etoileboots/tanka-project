@@ -1,0 +1,88 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "かひなく",
+      "ku": 4,
+      "reading_primary": "かひなく (甲斐なく)",
+      "reading_secondary": "かひな (腕/かいな, forearm)",
+      "interaction": "かひなく means 'in vain, to no avail' (甲斐なし), but it is built on かひな 'arm/forearm' — echoing 手枕 (arm-pillow) from the previous ku. The word thus simultaneously means 'a futile, worthless (reputation)' and evokes the physical image of an arm, tying the abstract judgment about reputation directly back to the arm that served as a pillow. This is a classic embedded pivot exploiting the homophony between かひなし (worthless) and かひな (arm)."
+    },
+    {
+      "word": "立たむ",
+      "ku": 4,
+      "reading_primary": "たつ (立つ, to arise/spread - of a rumor/name)",
+      "reading_secondary": "たつ (colloquial resonance with 経つ, time passing) - secondary reading not strongly operative here",
+      "interaction": "立つ here primarily governs 名 (reputation) — 'a name/rumor will arise' — a conventional collocation (名が立つ). While たつ has other classical pivot uses elsewhere, in this poem only the 'a reputation will spread' sense is grammatically active, so this is best treated as a single-meaning verb rather than a true kakekotoba; included here for completeness of the checking process but not asserted as a genuine pivot."
+    }
+  ],
+  "jokotoba": {
+    "text": "春の夜の夢ばかりなる手枕に",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "function": "This extended three-ku preface builds up the image of a short, insubstantial spring night's dream-like arm-pillow, leading into the pivot on かひなく (both 'in vain' and 'arm'), which triggers the poem's real subject: anxiety over reputation from an implied brief romantic encounter.",
+    "pivot": "かひな (arm) / かひなく (in vain)"
+  },
+  "honkadori": {
+    "source_poem": "Composed as part of a witty poetic exchange recorded in the Senzaishū / Gosenshū tradition, replying to Fujiwara no Tadaie's playful request for a pillow at a palace gathering",
+    "source_poet": "Fujiwara no Tadaie (exchange context)",
+    "echoed_phrase": "手枕",
+    "function": "The poem is traditionally understood as a real-time witty retort composed at a court gathering when Tadaie jokingly asked to borrow her arm as a pillow; rather than alluding to an older poem, it wittily inverts the conventional romantic trope of 手枕 (arm-pillow) as a token of a night spent together, worrying that even a fleeting, playful gesture could spark unwanted rumors."
+  },
+  "kigo": {
+    "word": "春の夜",
+    "season": "spring",
+    "note": "春の夜 (the spring night) is a well-established seasonal image in waka, prized for being short-lived, hazy, and charged with romantic and dreamlike sensibility — famously invoked elsewhere (e.g. the spring night whose bridge of dreams breaks off in the Shin Kokinshū). Here it sets the fleeting, insubstantial quality of the encounter, reinforcing the 'dream-like, momentary' quality of the arm-pillow before the pivot into anxiety about lasting reputation. No other lexical item in the poem (夢, 手枕, かひなく, 立つ, 名, 惜し) carries independent seasonal weight; they are all part of the human/emotional register rather than nature imagery, making 春の夜 the sole and dominant kigo."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The fleeting, dream-like brevity of a spring night is likened to a momentary, insubstantial arm-pillow offered/accepted in play.",
+    "shimo_theme": "Despite the encounter's triviality, the speaker fears that a reputation (rumor of impropriety) will arise regardless, and that would be a regrettable loss.",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The kami-no-ku constructs an elaborate simile — the entire encounter is 'as brief and insubstantial as a spring night's dream' — which is not stated as commentary but structurally enacted through the jokotoba. The pivot word かひなく then bridges the physical image of the arm (かひな) into the abstract fear of a ruined reputation (名), so the poem's wit hinges on treating an ephemeral, playful gesture with the same weight as scandal, exposing the gap between trivial reality and social consequence."
+  },
+  "furigana": [
+    {
+      "kanji": "春",
+      "reading": "はる"
+    },
+    {
+      "kanji": "夜",
+      "reading": "よ"
+    },
+    {
+      "kanji": "夢",
+      "reading": "ゆめ"
+    },
+    {
+      "kanji": "手枕",
+      "reading": "たまくら"
+    },
+    {
+      "kanji": "立",
+      "reading": "た"
+    },
+    {
+      "kanji": "名",
+      "reading": "な"
+    },
+    {
+      "kanji": "惜",
+      "reading": "お"
+    }
+  ],
+  "poem_number": 67,
+  "poet": "Suwo no Naishi",
+  "source_jp": "春の夜の\n夢ばかりなる\n手枕に\nかひなく立たむ\n名こそ惜しけれ"
+}

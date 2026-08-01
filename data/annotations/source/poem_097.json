@@ -1,0 +1,95 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "まつほ",
+      "ku": 2,
+      "reading_primary": "まつほ（地名）",
+      "reading_secondary": "松",
+      "interaction": "Matsuho is a real place name (bay in Awaji), but its initial まつ simultaneously evokes 松 'pine' and, through the poem's opening こぬ人を, resonates with 待つ 'to wait' — the speaker waiting for a lover who does not come; the place name carries the emotional weight of waiting even though it is nominally just a toponym",
+      "confidence": "medium"
+    },
+    {
+      "word": "やく",
+      "ku": 4,
+      "reading_primary": "焼く（塩を焼く）",
+      "reading_secondary": "（身を）焦がす祈望の火",
+      "interaction": "やく literally describes the salt-makers' fires reducing brine (moshio) at Matsuho bay, but it is grammatically fused with the following もしほの身もこがれ image so that the 'burning' of the salt kilns and the 'burning/scorching' of the speaker's body with longing are experienced as the same act of combustion",
+      "confidence": "low"
+    },
+    {
+      "word": "こがれ",
+      "ku": 5,
+      "reading_primary": "焦がれ（塩が焦げる／身が焦がれる）",
+      "reading_secondary": "恋い焦がれる（恋情に身を焦がす）",
+      "interaction": "こがれ describes both the physical scorching of the seaweed/brine in the salt-making process (焦がれ) and the speaker's emotional burning with unfulfilled longing (恋い焦がれる) — the two meanings are fused into a single image via the mo-shio simile, making this the poem's central pivot",
+      "confidence": "high"
+    }
+  ],
+  "jokotoba": {
+    "text": "まつほの浦の夕なぎにやくやもしほの",
+    "ku_span": [
+      2,
+      3,
+      4
+    ],
+    "pivot": "こがれ",
+    "function": "An extended (well over 5 morae) descriptive preface describing the evening calm at Matsuho bay and the burning of salt-brine seaweed, composed specifically for this poem to lead sonically and imagistically into 身もこがれつつ — the salt slowly scorching over a low fire mirrors the speaker's heart slowly consumed by longing"
+  },
+  "honkadori": {
+    "source_poem": "風をいたみ岩うつ波のおのれのみ砕けてものを思ふころかな (attributed source imagery of salt-burning at Matsuho ura is drawn from an earlier anonymous/Man'yō-era convention of 藻塩焼く imagery associated with Matsuho no ura in Awaji)",
+    "source_poet": "traditional/anonymous convention",
+    "echoed_phrase": "まつほの浦の...もしほ",
+    "function": "Draws on the established poetic association of Matsuho no ura with salt-burning (moshio) imagery, inherited from earlier Man'yōshū-period descriptions of the Awaji coast, to lend the burning-longing metaphor an air of traditional authority"
+  },
+  "kigo": {
+    "word": "夕なぎ",
+    "season": "summer",
+    "note": "夕なぎ (evening calm at the shore) is conventionally associated with summer evenings at the coast in classical poetics, when the wind dies down at dusk over calm water; here it sets the tranquil, suspended scene of waiting at dusk that frames the salt-burning image, though the poem's dominant imagery of 藻塩 (moshio) production is itself a genre convention tied to coastal life rather than a strict season",
+    "confidence": "medium"
+  },
+  "furigana": [
+    {
+      "kanji": "来",
+      "reading": "こ"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "浦",
+      "reading": "うら"
+    },
+    {
+      "kanji": "夕",
+      "reading": "ゆふ"
+    },
+    {
+      "kanji": "塩",
+      "reading": "しほ"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker waits at evening for a lover who does not come, framed through the calm evening scene at Matsuho bay where salt-makers tend their brine fires",
+    "shimo_theme": "The speaker's own body/heart burns and is consumed with longing, just as the moshio seaweed is scorched over the salt-fires",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The entire kami-no-ku functions as an extended jokotoba built on the coastal salt-burning scene at Matsuho, and the shimo-no-ku reveals that this scene is not mere description but a sustained implicit simile: the slow, smoldering combustion of moshio brine over a low fire mirrors the speaker's own heart being slowly consumed by unfulfilled longing for the absent lover named in the poem's very first words (こぬ人を)"
+  },
+  "poem_number": 97,
+  "poet": "Gonchunagon Sadaiye",
+  "source_jp": "こぬ人を\nまつほの浦の\n夕なぎに\nやくやもしほの\n身もこがれつつ"
+}

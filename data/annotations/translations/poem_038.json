@@ -1,0 +1,278 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "The translation reorders the poem's logic: it opens with the oath and the speaker's naive trust (L1-L2, roughly corresponding to shimo's 'chikaiteshi hito' content moved to the front), then moves to being forgotten/scorned and the penalty of death (L3-L4, corresponding to kami's 'wasuraruru mi' content merged with shimo's death-penalty idea). The original paradoxical pivot — 'I do not grieve for myself, but for his endangered life' — is lost; instead the translation reads as a fairly linear reproach culminating in a wish/near-curse of death upon the unfaithful lover, inverting the source's selfless concern into something closer to vindictive judgment."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source poem itself contains no seasonal imagery (a purely emotional koi-uta), and the translation likewise contains no seasonal markers or atmosphere; this is consistent with the source's lack of kigo.",
+      "en_equivalent": "solemn oath"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The oath he swore ('chikaiteshi') is foregrounded as the poem's opening image.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The speaker's naive belief in his constancy — an invented interpretive gloss on 'hito' (the man who swore) blended with an added notion of her having 'dreamt' he would be faithful.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'Forgotten' clearly renders 'wasuraruru' (being forgotten), but 'scorned the penalty' introduces a moralizing judgment not present in source.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The idea of death connects to 'hito no inochi no oshiku mo aru kana' (the preciousness/peril of his life), but here it is inverted into an almost vengeful wish for his death/punishment rather than tender anxiety for his life.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses and reorders the five ku into four rhymed lines, front-loading the oath and back-loading 'forgotten' and 'death,' which inverts the source's original sequence (self-abandonment first, concern for his life second) and changes the emotional valence from selfless worry to something closer to reproach or a near-curse."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, quatrain-form English lyric over literal fidelity, reshaping the poem's selfless paradox into a more conventional narrative of betrayal and retribution.",
+    "overall_fidelity": "low",
+    "poem_number": 38,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The paradox structure is retained (I do not mind for myself, but I grieve for him), but the second half loses the specific reasoning about the sacredness of the broken vow and divine punishment for oath-breaking; it is compressed into a generic 'grieve for his life's sake', weakening the piercing irony of the original where her concern is specifically that his oath-breaking endangers his life."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source poem has no seasonal imagery at all (koi-uta), and this translation likewise contains no seasonal reference or imagery of any kind, consistent with the original's purely emotional/relational content."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "I do not mind of myself (denial of self-pity)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "to be forgotten by him",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "but for his own life's sake",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "I have to grieve",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The five ku are compressed into four lines; ku3 (誓ひてし, 'who vowed') is entirely dropped, so the vow itself — the crux of why his life is at risk — disappears, leaving 'his own life's sake' as a vaguer, less motivated concern."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, natural-sounding English paraphrase of the emotional paradox over preserving every semantic unit, sacrificing the vow (誓ひてし) and its implied divine retribution for economy and readability.",
+    "overall_fidelity": "medium",
+    "poem_number": 38,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "The source's paradox hinges on the speaker explicitly setting aside her own suffering ('mi o ba omowazu') to redirect concern entirely onto the man's peril from broken vows. Porter's version preserves a two-part structure (self-resignation vs. concern for the man) but reverses the emotional thrust of the shimo: instead of fearing for the man's life/safety as punishment for oathbreaking, Porter has the speaker praying the gods will 'absolve' him — an almost merciful, forgiving gesture rather than an anxious, piercing reproach about mortal danger. This changes the paradox from 'my own suffering doesn't matter, but I fear for your life' into 'I don't lament my heartbreak, and I even wish you well despite your broken vow,' softening the irony into simple generosity, thus inverting the emotional logic even though the two-part shape survives."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal imagery exists in the source poem, and none appears in this translation; it remains a purely emotional/relational poem about heartbreak and broken vows.",
+      "en_equivalent": ""
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Declares she does not lament her broken heart, i.e. the state of being forgotten/abandoned",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Adds a resigned 'I bow to destiny,' an interpretive gloss on her acceptance of fate not explicitly in the source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Shifts to the man who broke his solemn oath (誓ひてし人)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Introduces prayer to the Gods, echoing the source's concern with divine consequence for oathbreaking but reframed as intercession rather than fear",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Completes the prayer: wishes the gods 'absolve' him from his vow, replacing the source's anxious concern for his life ('命の惜しくもあるかな') with a wish for forgiveness/release",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the kami's three ku into two lines and expands the shimo into three lines, using rhyme (heart/bow, oaths/now/vow) to unify the stanza; the emotional content of the shimo is substantially altered from fear-for-his-life to a plea for divine forgiveness, softening the original's ironic reproach into a gentler, more magnanimous sentiment."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, hymn-like English quatrain-plus-couplet form over precise semantic fidelity, substituting the original's anxious foreboding about the man's fate with a softer, more forgiving prayer for his absolution.",
+    "overall_fidelity": "low",
+    "poem_number": 38,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translator preserves the paradoxical turn: lines 1-2 assert the speaker's indifference to her own forgotten state, while lines 3-5 shift concern entirely to the man's peril for having broken his vow, mirroring the source's redirection of sympathy from self to the faithless lover."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "The source poem itself contains no seasonal imagery (it is a koi-uta about broken vows), and the translation likewise contains no natural or seasonal imagery of any kind, consistent with the source's lack of a kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Though forgotten now — renders 忘らるる (being forgotten)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "For myself I do not care — renders 身をば思はず (I do not think of myself)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "He, by oath, was pledged — renders 誓ひてし (he who swore)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "And his life, who is forsworn — renders 人の命の, adding 'forsworn' to emphasize the broken vow",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "That is, ah! so pitiful — renders 惜しくもあるかな, the exclamation of pity/regret for his life",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation maps almost one-to-one onto the five ku, preserving the original five-line structure and sequential logic without compression or inversion; the only minor expansion is the insertion of 'forsworn' in line 4 to make explicit the broken-vow theme already implicit in the source."
+    },
+    "translator_strategy": "McCauley pursues a close, line-by-line literal rendering that mirrors the five-ku structure and preserves the poem's paradoxical shift from self-neglect to concern for the faithless man's fate, at the cost of natural English syntax and idiom.",
+    "overall_fidelity": "high",
+    "poem_number": 38,
+    "translator": "McCauley"
+  }
+}

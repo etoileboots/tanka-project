@@ -1,0 +1,218 @@
+{
+  "Dickens": {
+    "translator_strategy": "Dickens prioritizes English rhyme and metrical flow (an octosyllabic rhymed sestet) over literal fidelity, freely adding explanatory or atmospheric details (hill-side, twilight's chilly hour) and substituting a familiar English tree (yew) for the unfamiliar maki to naturalize the poem for a Victorian readership.",
+    "overall_fidelity": "medium",
+    "poem_number": 87,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Noguchi maintains the sequence shower->dew->mist->evening but changes the causal-physical link slightly: line 3-4 reads 'mist rising up toward the maki leaves' rather than mist rising FROM the wet maki leaves, which reverses/displaces the physical direction of causation implied in the source (moisture on leaves produces mist rising from them). The overall chronological flow (shower, still-wet dew, then mist, then evening) is kept, but the precise causal-physical logic (mist arising out of the wet foliage) is altered into mist moving toward the foliage, making the relationship more spatial/directional than causal."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn eve",
+      "note": "The season word is directly named in the final line ('this Autumn eve'), preserving the canonical shimo-no-ku cadence explicitly, and the imagery of dew, mist and shower still reinforces the damp autumnal atmosphere throughout."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The dew left by the passing autumn shower (murasame no tsuyu)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The dew is not yet dried (mada hinu)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Mist rising up (kiri tachinoboru), with an added interjection 'Lo'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4,
+            5
+          ],
+          "content_summary": "Mist directed toward the maki leaves (maki no ha), combined with the closing seasonal phrase 'this Autumn eve' (aki no yugure)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses five ku into four lines, splitting the kami-no-ku's shower/dew content across L1-2 and merging the maki-leaf image (ku3) with the mist (ku4) and closing seasonal cadence (ku5) into L3-4; the maki-no-ha reference, which in the source precedes and grounds the mist's rising, is shifted to follow the mist verb, altering the spatial logic slightly (mist rising 'toward' rather than 'from' the leaves)."
+    },
+    "translator_strategy": "Noguchi prioritizes a smooth, image-forward English lyric that preserves the sequential progression of shower, dew, mist, and autumn evening, sacrificing some of the source's precise causal-physical logic (mist rising from the wet leaves) for a more fluid, exclamatory rendering ('Lo, the mist rising up').",
+    "overall_fidelity": "medium",
+    "poem_number": 87,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation retains the causal-physical sequence (rain/dew on fir needles leading to mist rising) but compresses the shimo-no-ku's autumn evening image into 'autumn skies', shifting the closing cadence from a temporal/atmospheric mood (evening) to a spatial image (skies), which weakens the canonical 'aki no yugure' resonance while keeping the physical causality intact."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "transformed",
+      "en_equivalent": "autumn skies",
+      "note": "The source's closing phrase 'aki no yugure' (autumn evening) is the anthology's canonical dusk-desolation cadence; Porter replaces 'evening' with 'skies', shifting the seasonal marker from a twilight mood to a daytime/sky image and losing the specific evening stillness that defines the kigo's emotional weight, though the word 'autumn' itself is retained explicitly."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "the rain from passing showers (murasame)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "dew-like moisture still remaining/undried",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "upon the fir-tree (maki) needles/leaves",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "mists of evening rising",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "rising up to the autumn skies",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Fairly line-for-ku mapping overall, though the translator collapses 'evening' and 'autumn' into one closing image ('autumn skies') rather than preserving the source's distinct closing phrase 'autumn evening', and adds 'skies' as an interpretive expansion not literally present in the source (kiri tachinoboru simply says mist rises, without specifying rising 'to' the sky)."
+    },
+    "translator_strategy": "Porter prioritizes a smooth rhyming quatrain-plus-couplet in English verse form, sacrificing the precise placement and mood of the source's canonical 'autumn evening' cadence for metrical and rhyme convenience (rhyming 'rise'/'skies').",
+    "overall_fidelity": "medium",
+    "poem_number": 87,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3
+      ],
+      "note": "McCauley opens with the shimo-no-ku's autumn evening and mist imagery (L1-L3) before closing with the kami-no-ku's shower and dew content (L4-L5), reversing the source's causal-physical sequence of shower/dew-then-mist into a mist-then-shower order; the physical causality is thus structurally inverted even though the same elements appear."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn eve",
+      "note": "The translator names the season outright in the opening line, front-loading the canonical 'aki no yugure' cadence rather than saving it for the close, but the explicit seasonal word and its atmosphere of mist and dampness are both preserved."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Exclamatory naming of the autumn evening, moved to the opening position",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Mist rising from the deep vale",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Among the fir-tree's (maki) leaves",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The leaves still holding the dripping wet (dew not yet dried)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The sudden showers (murasame) of the chill day",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation reverses the entire ku order of the source: it begins with the shimo-no-ku's closing cadence (autumn evening) and mist, then works backward through the leaves, dew, and finally the shower that in the original opens the poem — a full retrograde restructuring."
+    },
+    "translator_strategy": "McCauley reorders the poem into an English-friendly sequence that leads with the atmospheric exclamation 'Lo, an autumn eve!' and mist, then explains backward to the causal shower, sacrificing the source's forward causal-physical logic for a more conventional English descriptive unfolding.",
+    "overall_fidelity": "medium",
+    "poem_number": 87,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "poem_number": 89,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "しのぶ": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "しのぶ",
+          "color": "#F28FC0",
+          "note": "hide/ensure/long for"
+        },
+        "reviewed_at": "2026-07-31T11:28:31.991722+00:00"
+      },
+      "玉の緒": {
+        "status": "removed",
+        "original": {
+          "word": "玉の緒",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T11:28:38.077235+00:00"
+      },
+      "よはり": {
+        "status": "removed",
+        "original": {
+          "word": "よはり",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T11:28:46.489575+00:00"
+      },
+      "よ": {
+        "status": "removed",
+        "original": {
+          "word": "よ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T11:28:47.422890+00:00"
+      },
+      "ながらへば": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "ながらへば",
+          "color": "#F28FC0",
+          "note": "flow/fall"
+        },
+        "reviewed_at": "2026-07-31T11:29:31.271778+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "hard to keep": {
+          "status": "removed",
+          "original": {
+            "word": "hard to keep",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:30:03.891957+00:00"
+        },
+        "longer life": {
+          "status": "confirmed",
+          "original": {
+            "word": "longer life",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:30:17.687488+00:00"
+        },
+        "oh, thread": {
+          "status": "removed",
+          "original": {
+            "word": "oh, thread",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:30:27.204655+00:00"
+        },
+        "secret would be hard to keep": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "secret would be hard to keep",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T11:30:54.422640+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:30:04.654149+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:30:05.003921+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-31T11:32:28.069774+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:30:06.238937+00:00"
+        }
+      },
+      "device_links": {
+        "longer life": {
+          "status": "corrected",
+          "original": {
+            "word": "longer life"
+          },
+          "corrected": {
+            "source_word": "ながらへば"
+          },
+          "reviewed_at": "2026-07-31T11:30:17.105759+00:00"
+        },
+        "secret would be hard to keep": {
+          "status": "corrected",
+          "original": {
+            "word": "secret would be hard to keep"
+          },
+          "corrected": {
+            "source_word": "しのぶ"
+          },
+          "reviewed_at": "2026-07-31T11:30:58.404521+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "longer life": {
+          "status": "confirmed",
+          "original": {
+            "word": "longer life",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:31:27.039462+00:00"
+        },
+        "low laid": {
+          "status": "removed",
+          "original": {
+            "word": "low laid",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:31:32.570640+00:00"
+        },
+        "secret of our love displayed": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "secret of our love displayed",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T11:33:22.553451+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:32:39.588816+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:32:40.070260+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:32:41.019960+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:32:41.569054+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:32:42.152219+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:32:42.785804+00:00"
+        }
+      },
+      "device_links": {
+        "secret of our love displayed": {
+          "status": "corrected",
+          "original": {
+            "word": "secret of our love displayed"
+          },
+          "corrected": {
+            "source_word": "しのぶ"
+          },
+          "reviewed_at": "2026-07-31T11:33:25.634042+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T11:34:17.635609+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T11:34:33.516460+00:00"
+        }
+      },
+      "devices": {
+        "cannot be defied": {
+          "status": "removed",
+          "original": {
+            "word": "cannot be defied",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:34:55.317665+00:00"
+        },
+        "advancing years": {
+          "status": "removed",
+          "original": {
+            "word": "advancing years",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:35:01.221263+00:00"
+        },
+        "try to hide": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "try to hide",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T11:35:15.484785+00:00"
+        }
+      },
+      "device_links": {
+        "try to hide": {
+          "status": "corrected",
+          "original": {
+            "word": "try to hide"
+          },
+          "corrected": {
+            "source_word": "しのぶ"
+          },
+          "reviewed_at": "2026-07-31T11:35:18.584226+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "life!": {
+          "status": "removed",
+          "original": {
+            "word": "life!",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:35:24.682921+00:00"
+        },
+        "if yet i live": {
+          "status": "confirmed",
+          "original": {
+            "word": "if yet i live",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:35:32.384175+00:00"
+        },
+        "grow weak": {
+          "status": "removed",
+          "original": {
+            "word": "grow weak",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:35:45.531867+00:00"
+        },
+        "hide": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "hide",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T11:36:13.804889+00:00"
+        }
+      },
+      "lines": {
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:35:48.356500+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:35:49.269362+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:35:50.049742+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:35:50.866381+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:35:51.834714+00:00"
+        }
+      },
+      "device_links": {
+        "hide": {
+          "status": "corrected",
+          "original": {
+            "word": "hide"
+          },
+          "corrected": {
+            "source_word": "しのぶ"
+          },
+          "reviewed_at": "2026-07-31T11:36:16.865684+00:00"
+        }
+      }
+    }
+  }
+}

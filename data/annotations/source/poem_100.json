@@ -1,0 +1,51 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "しのぶ",
+      "ku": 3,
+      "reading_primary": "しのぶ (忍ぶ)",
+      "reading_secondary": "しのぶ (植物・軒忍/しのぶ草)",
+      "interaction": "Shinobu-gusa (fern growing on old eaves, a conventional image of decay and neglect) is fused with the verb 忍ぶ 'to endure, to yearn secretly, to bear with longing' — the plant growing on the crumbling palace eaves becomes simultaneously the speaker's own act of enduring/longing for the past, so the eaves' physical decay and the speaker's emotional endurance are expressed in one word",
+      "confidence": "high"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The old palace (momoshiki) with its decaying eaves overgrown with shinobu fern — an image of physical and institutional decline",
+    "shimo_theme": "The speaker's longing for the past (the age of imperial glory) exceeds even the capacity of 'shinobu' (endurance/longing) itself to contain",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The kami-no-ku's visual image of decayed eaves overgrown with shinobu fern pivots, via the kakekotoba on しのぶ, directly into the shimo-no-ku's declaration that no amount of endurance or nostalgic longing can be 'enough' — the physical decay becomes the measure and trigger of an emotional excess that overflows the very word meant to name it"
+  },
+  "kigo": {
+    "word": "しのぶ",
+    "season": "none",
+    "note": "Shinobu-gusa (hare's-foot fern) growing on old eaves is a conventional image of a ruined or neglected dwelling and the passage of time rather than a seasonal marker tied to a specific time of year; it carries no strong seasonal association in the classical canon and functions here as an emblem of decline and nostalgia rather than as a kigo",
+    "confidence": "low"
+  },
+  "furigana": [
+    {
+      "kanji": "百敷",
+      "reading": "ももしき"
+    },
+    {
+      "kanji": "古",
+      "reading": "ふる"
+    },
+    {
+      "kanji": "軒端",
+      "reading": "のきば"
+    }
+  ],
+  "poem_number": 100,
+  "poet": "Juntokuin",
+  "source_jp": "百敷や\n古き軒端の\nしのぶにも\nなほあまりある\nむかしなりけり"
+}

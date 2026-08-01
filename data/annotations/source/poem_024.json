@@ -1,0 +1,68 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "手向山",
+      "ku": 3,
+      "reading_primary": "たむけやま",
+      "reading_secondary": "手向くる山",
+      "interaction": "Functions as a proper place name (Tamukeyama, a mountain pass where travelers made offerings) while also transparently containing the verb 手向く (\"to make an offering\"), echoing the 幣 (nusa) offering just mentioned — the place name itself enacts the ritual act of offering."
+    }
+  ],
+  "jokotoba": {
+    "text": "このたびは幣もとりあへず手向山",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "手向山",
+    "function": "Sets up the narrative situation — a hurried journey with no time to prepare formal offerings — building toward the resolution in the shimo-no-ku where the maple leaves themselves become the offering. Not a fixed epithet; freely composed for this journey scene, and longer than 5 morae, but tightly integrated with the poem's logic rather than merely a sonic bridge."
+  },
+  "honkadori": {
+    "source_poem": "Poems referencing offerings (幣) at mountain passes such as Tamukeyama were a established travel-poem convention in Man'yōshū and early Heian poetry (e.g. traveler's offering poems at famous passes)",
+    "source_poet": "traditional/convention",
+    "echoed_phrase": "幣もとりあへず"
+  },
+  "kigo": {
+    "word": "紅葉",
+    "season": "autumn",
+    "note": "紅葉 (autumn maple leaves) is one of the most canonical autumn images in waka, conventionally likened to brocade (錦) scattered on mountains — here explicitly compared to a nishiki brocade offered to the gods, making it the poem's dominant seasonal and visual image."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The traveler, caught unprepared on this journey, has no time to properly prepare the ritual cloth/paper offerings (nusa) required at the sacred mountain pass of Tamukeyama.",
+    "shimo_theme": "The scattered autumn maple leaves, brilliant as brocade, are offered instead — let the gods do as they will with this natural, unplanned offering.",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku establishes a ritual deficiency (no formal offering prepared), and the shimo-no-ku resolves it by revealing that nature itself — the maple-leaf brocade — has supplied the offering in place of human effort, transforming an apology into an act of devotional surrender ('as the gods will')."
+  },
+  "furigana": [
+    {
+      "kanji": "幣",
+      "reading": "ぬさ"
+    },
+    {
+      "kanji": "手向山",
+      "reading": "たむけやま"
+    },
+    {
+      "kanji": "紅葉",
+      "reading": "もみじ"
+    },
+    {
+      "kanji": "神",
+      "reading": "かみ"
+    }
+  ],
+  "poem_number": 24,
+  "poet": "Kanke",
+  "source_jp": "このたびは\n幣もとりあへず\n手向山\n紅葉のにしき\n神のまにまに"
+}

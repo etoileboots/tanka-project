@@ -1,0 +1,303 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "note": "The translator has recast the poem entirely: instead of the source's contrast between resolving to abandon love (kami) and wishing to convey that resolution directly rather than through a go-between (shimo), Dickens presents a straightforward complaint of misery (kami) followed by a wish to confide that misery only in the beloved rather than 'none'/'mankind' (shimo). The structural gesture of 'direct communication desired' survives loosely, but the specific content — giving up on love, and wanting to announce that abandonment in person — is replaced by a generic love-lament confided only to the beloved. This is a displacement into a different but adjacent relationship type (complaint + desire for a sole confidant) rather than the original's paradox of renunciation reasserting desire."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "deep misery",
+      "note": "As in the source, there is no seasonal word or imagery in the original poem, and Dickens's translation likewise contains no seasonal signal — it is purely an emotional/love-complaint register with no natural imagery invoked to imply a season."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Deep misery now oppresses the speaker — a free rendering of the resolve to let love die out, recast as ongoing suffering rather than a decision to give up.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Describes the speaker's vexed and sorrowed state of mind, continuing the emotional description that stands in for 思ひ絶えなむ.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The speaker will confess his woe to no one — reworking 人づてならで (not through an intermediary) into a blanket refusal to confide in anyone else.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Except to 'thee' — the beloved is singled out as the sole exception, corresponding to the wish for direct speech rather than a go-between.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The speaker seeks to be with the beloved directly, echoing the desire for unmediated communication (いふよしもがな).",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "To speak of all his wretchedness — a final restatement of the wish to voice his suffering to the beloved directly.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Dickens expands the compact 31-syllable original into six English lines with considerable elaboration (e.g. 'deep misery', 'vex'd and sorrow'd mind', 'wretchedness'), converting the source's terse resolve-and-wish structure into a fuller emotional complaint; the kami/shimo boundary is blurred into a continuous six-line lament rather than a clear two-part structure."
+    },
+    "translator_strategy": "Dickens prioritizes fluent, metrically regular English verse with a rhyme scheme, freely expanding and paraphrasing the poem's compact resolve-and-wish structure into a conventional Victorian love-lament addressed directly to 'thee', sacrificing the source's precise semantic content and rhetorical economy for poetic effect in the target language.",
+    "overall_fidelity": "low",
+    "poem_number": 63,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Noguchi actually reverses the logical order of the original: the source states the emotional resolution first (kami: giving up on love) and then wishes for direct communication (shimo). The translation opens with the wish/lament ('there's no way / but to ask one to tell thee') before landing on the resolution to forget, effectively inverting the sequence of emotional statement and communicative wish, and compressing the go-between wish into line 2 while pushing the resolution to lines 3-4."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "This is a pure love poem with no seasonal content in the source, and Noguchi's translation likewise contains no seasonal imagery or atmosphere of any kind — it is purely emotional/relational language ('forget', 'tell thee'), consistent with the absence of a true kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Expresses a lament/resignation that there is no way (to speak directly) — corresponds to the shimo-no-ku's wish for a means of direct communication, stated negatively here as 'no way'.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The wish is recast as reliance on an intermediary ('one to tell thee'), inverting the source's wish to avoid a go-between (人づてならで) into acceptance of using one.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "States the resolution 'we will try' — corresponds to the kami-no-ku's declaration of intent (今はただ思ひ絶えなむ).",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'To forget' completes the resolution to abandon the love, paralleling 思ひ絶えなむ.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Noguchi compresses the five ku into four short lines and reorders the emotional logic: the translation opens with what reads as resignation about communication method (echoing shimo-no-ku) before arriving at the resolution to forget (kami-no-ku), effectively inverting the original's kami-then-shimo sequence. Notably the 'not through a go-between' nuance (人づてならで) is lost or reversed — the translation implies asking 'one' (an intermediary) to convey the message, which is the opposite of the source's wish for direct, non-mediated speech."
+    },
+    "translator_strategy": "Noguchi prioritizes brevity and a plaintive lyrical tone over precise structural and semantic fidelity, freely compressing and reordering the poem's logic into a short quatrain that captures a general mood of resigned heartbreak rather than the original's specific tension between renunciation and the desire for direct, unmediated speech.",
+    "overall_fidelity": "low",
+    "poem_number": 63,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter's translation is a near-total fabrication that discards the source's original conceptual content — resolving to abandon love and wishing to convey that resolution directly rather than via a go-between — and replaces it with an entirely different scenario of a secret rendezvous where the speaker whispers a declaration of love ('I'm dying, Love, for thee'). The relationship between the two halves becomes a straightforward narrative sequence (condition -> action -> speech) rather than the source's tension between renunciation and the wish for direct communication. The bipartite emotional-juxtaposition structure of the original is not recognizable in this rendering."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source poem has no true seasonal word, and Porter's translation likewise contains no seasonal imagery; the invented content (secret meeting, whispered declaration) carries no atmospheric or seasonal coloring at all."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [],
+          "content_summary": "Invented condition: 'if we could meet in privacy' — no equivalent in source, which discusses renouncing love, not meeting in secret.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [],
+          "content_summary": "Invented elaboration: 'where no one else could see' — extends the fabricated secret-meeting scenario.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Loosely echoes the shimo-no-ku's wish for direct communication ('not through a go-between') by imagining whispering directly in the ear, though the content and register are wholly changed.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            5
+          ],
+          "content_summary": "Faint echo of 'とばかりを...いふよしもがな' (wishing for a way to say just that) via 'this little word from me', though the actual content of the word is changed.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Invented declaration 'I'm dying, Love, for thee' replaces the source's resolution to let love die ('思ひ絶えなむ') with an assertion of undying passionate love — essentially inverting the emotional content of the kami-no-ku.",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "low",
+      "structural_note": "Porter radically reinvents the poem's narrative: instead of a resolve to abandon love and a wish to communicate that resolve directly, he constructs a scene of secret romantic meeting and whispered love declaration. Only the abstract shape of 'wanting to say something directly, privately' survives from the shimo-no-ku; the kami-no-ku's renunciation theme is inverted into an avowal of passionate love, making line-to-ku mapping highly approximate and largely extrapolated."
+    },
+    "translator_strategy": "Porter prioritizes producing a metrical, rhymed English love lyric with immediate emotional appeal over fidelity to the source's specific conceptual content, freely inventing a secret-meeting scenario and inverting the poem's renunciation theme into a declaration of passionate love.",
+    "overall_fidelity": "low",
+    "poem_number": 63,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3
+      ],
+      "note": "McCauley reorders the poem: he opens with the shimo-no-ku's wish for direct (non-mediated) communication ('Is there now no way, But through others' lips, to say') and places the kami-no-ku's resolution to abandon love ('my love for you I must banish from my thoughts') at the end. The emotional-juxtaposition logic (resolution to give up love vs. wish to say so directly) is preserved in content, but the order of presentation is reversed relative to the source, turning the poem into a rhetorical question framing the renunciation as its answer."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "This is a pure love poem with no seasonal content in the source, and McCauley's translation likewise contains no seasonal imagery or atmosphere — it is entirely about emotional resolution and communication, consistent with the source's lack of kigo.",
+      "en_equivalent": "banish"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Rhetorical question opening: is there no way (to say this)?",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "except through others' lips (non go-between wish, inverted into negative rhetorical framing)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            5
+          ],
+          "content_summary": "to say these fateful words (とばかりを...いふ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "that henceforth my love for you",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "I must banish from my thoughts (思ひ絶えなむ)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley restructures the whole poem into a single rhetorical question spanning all five lines, moving the shimo-no-ku's communicative wish to the front and the kami-no-ku's resolution to the end, effectively inverting the source's kami/shimo sequence while retaining both semantic components."
+    },
+    "translator_strategy": "McCauley recasts the entire waka as one flowing rhetorical question in English verse, prioritizing natural English syntax and rhyme over preserving the original's kami/shimo ordering.",
+    "overall_fidelity": "medium",
+    "poem_number": 63,
+    "translator": "McCauley"
+  }
+}

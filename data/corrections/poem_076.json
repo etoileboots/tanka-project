@@ -1,0 +1,260 @@
+{
+  "poem_number": 76,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T06:56:37.689522+00:00"
+    },
+    "devices": {
+      "おきつしらなみ": {
+        "status": "removed",
+        "original": {
+          "word": "おきつしらなみ",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T06:53:22.452830+00:00"
+      },
+      "久方の": {
+        "status": "confirmed",
+        "original": {
+          "word": "久方の",
+          "color": "#7EBBEE"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T06:53:31.426318+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "far-away": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "far-away",
+            "color": "#7EBBEE",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T06:54:00.381817+00:00"
+        }
+      },
+      "device_links": {
+        "far-away": {
+          "status": "corrected",
+          "original": {
+            "word": "far-away"
+          },
+          "corrected": {
+            "source_word": "久方の"
+          },
+          "reviewed_at": "2026-07-31T06:54:03.976270+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:54:11.108516+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:54:11.508562+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:54:11.943816+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:54:12.861980+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T06:54:40.743764+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:54:42.491966+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T06:55:15.313455+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:55:27.227311+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:55:28.041695+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:55:28.641895+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:55:57.229056+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:55:57.707827+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:55:58.240067+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:56:12.891763+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:56:14.406300+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:56:09.641792+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:56:09.973492+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:56:10.890103+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:56:29.042242+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:56:29.726037+00:00"
+        }
+      },
+      "device_links": {
+        "ever shining": {
+          "status": "corrected",
+          "original": {
+            "word": "ever shining"
+          },
+          "corrected": {
+            "source_word": "久方の"
+          },
+          "reviewed_at": "2026-07-31T06:56:31.526425+00:00"
+        }
+      },
+      "devices": {
+        "ever shining": {
+          "status": "confirmed",
+          "original": {
+            "word": "ever shining",
+            "color": "#7EBBEE"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T06:56:32.240635+00:00"
+        }
+      }
+    }
+  }
+}

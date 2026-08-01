@@ -1,0 +1,311 @@
+{
+  "poem_number": 19,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T11:04:58.914168+00:00"
+    },
+    "devices": {
+      "ふし": {
+        "status": "confirmed",
+        "original": {
+          "word": "ふし",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T11:04:57.316632+00:00"
+      },
+      "よ": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "よ",
+          "color": "#F28FC0",
+          "note": "life/node"
+        },
+        "reviewed_at": "2026-08-01T00:53:42.020801+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:06:52.968721+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:06:53.430430+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:06:53.980974+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:06:54.512599+00:00"
+        }
+      },
+      "devices": {
+        "ashi joints": {
+          "status": "confirmed",
+          "original": {
+            "word": "ashi joints",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:06:55.081470+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "ashi reed": {
+          "status": "removed",
+          "original": {
+            "word": "ashi reed",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:07:30.246363+00:00"
+        },
+        "nanihagata": {
+          "status": "removed",
+          "original": {
+            "word": "nanihagata",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:07:31.212578+00:00"
+        },
+        "joints": {
+          "status": "confirmed",
+          "original": {
+            "word": "joints",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:07:36.612438+00:00"
+        },
+        "time": {
+          "status": "confirmed",
+          "original": {
+            "word": "time",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:07:37.180218+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:07:54.197368+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:07:54.746591+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:07:55.395426+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:07:56.160911+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:07:56.562081+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T11:08:49.093533+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:10:22.860244+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:10:02.143729+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:10:20.609766+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:10:21.125907+00:00"
+        }
+      },
+      "devices": {
+        "joints": {
+          "status": "confirmed",
+          "original": {
+            "word": "joints",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:10:24.860798+00:00"
+        },
+        "the time": {
+          "status": "confirmed",
+          "original": {
+            "word": "the time",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:10:25.492631+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "naniwa's marsh": {
+          "status": "removed",
+          "original": {
+            "word": "naniwa's marsh",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:10:38.226203+00:00"
+        },
+        "tiny reed": {
+          "status": "removed",
+          "original": {
+            "word": "tiny reed",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:10:42.744107+00:00"
+        },
+        "joint of tiny reed": {
+          "status": "confirmed",
+          "original": {
+            "word": "joint of tiny reed",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:11:27.971897+00:00"
+        },
+        "this life": {
+          "status": "confirmed",
+          "original": {
+            "word": "this life",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:11:28.793360+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:11:22.261161+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:11:22.758906+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:11:23.694910+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:11:24.076890+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:11:24.710870+00:00"
+        }
+      }
+    }
+  }
+}

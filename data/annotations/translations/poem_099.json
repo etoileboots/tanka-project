@@ -1,0 +1,309 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "note": "The kami-no-ku's paradoxical love/hate feeling is compressed into a single opening line, while the shimo-no-ku's causal explanation (brooding over the world leading to a state of perpetual sorrow) is expanded across the remaining three lines. The causal connective is present ('whene'er I think upon / This miserable world') linking to the resulting state ('my gate... pitiable doth seem'), so the causal-physical logic survives but is weakened by compression of the kami half and awkward syntactic inversion in the shimo half."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "miserable world",
+        "note": "Dickens renders 世 solely as 'this miserable world', capturing the social/public reading (the state of the world) but losing the personal/fated reading of one's own life and lot, which the original word carries simultaneously."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "note": "No seasonal word or imagery is present in the source poem (kigo is 'none'), and none has been introduced in this translation either; the poem remains entirely in the abstract emotional-philosophical register, consistent with the original.",
+      "en_equivalent": "miserable world"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Compresses the paradoxical love/hate feeling toward people and the exclamatory 'how bitter/futile' into a single terse antithetical line.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Introduces the causal turn: 'whene'er I think upon' corresponds to 世を思ふ (brooding on the world).",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Completes the object of thought: 'this miserable world', rendering 世 with an evaluative adjective not present in the original word itself.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "States the resulting condition: the speaker's 'gate' (likely meaning 'fate' or state of being) seems pitiable to him, corresponding to もの思ふ身 (a being sunk in troubled thought).",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the three-ku kami-no-ku into a single opening line and expands the two-ku shimo-no-ku into three lines, inverting the original's balance (3 ku kami / 2 ku shimo becomes roughly 1 line kami / 3 lines shimo); the word 'gate' is an archaic/dialectal or possibly erroneous rendering for 'fate' or 'state', adding some obscurity not present in the source."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, metrically regular English quatrain (ABAB-ish) over structural fidelity, compressing the kami-no-ku's antithesis into a single terse line and expanding the shimo-no-ku's causal reasoning to fill out the rhyme scheme, sacrificing the kakekotoba's dual meaning and the balanced 3+2 ku structure for poetic form in the target language.",
+    "overall_fidelity": "medium",
+    "poem_number": 99,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4
+      ],
+      "note": "The translation compresses the kami-no-ku (people loved/resented) into L1-L2, but the shimo-no-ku's causal structure ('because I brood over the world, my being has become one perpetually sunk in troubled thought') is reduced to a vague rhetorical question in L4 ('What wandering thought of mine?'). The explicit causal marker (ゆゑに) and the notion of a 'body/self' habitually absorbed in thought (もの思ふ身) are lost; the logical pivot from symptom to cause is replaced by open-ended musing rather than an explanation, so the causal-physical link collapses into a single continuous impressionistic utterance."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "this world",
+        "note": "Noguchi renders 世 as 'this world', capturing only the public/social sense (the state of affairs) and dropping the personal 'my own life/fate' resonance that would tie the sentiment to the poet's own exile; the dual pivot is flattened to a single external referent."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal word or imagery exists in the source (kigo is 'none'), and none is introduced in the translation; the poem remains in the abstract emotional register throughout, consistent with the source."
+    },
+    "makurakotoba_handling": [],
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "I prize him — corresponds to 人も惜し (some people are dear/precious)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "I resent him too — corresponds to 人も恨めし (some people are resented)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "I deem this world miserable — compresses あぢきなく (how futile/bitter) with 世を思ふ (brooding over the world) into a single evaluative statement",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "What wandering thought of mine? — a rhetorical/interrogative rendering that gestures at ゆゑに...もの思ふ身 (because of which, my being is one sunk in troubled thought) but turns the causal explanation into an open question",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four short lines, merging あぢきなく into the 'miserable' judgment of L3 and converting the causal clause of the shimo-no-ku (ゆゑに...身は) into an interrogative in L4, thereby losing the explicit cause-and-effect syntax of the original while retaining its general emotional arc."
+    },
+    "translator_strategy": "Noguchi opts for extreme compression and impressionistic paraphrase, trading the poem's explicit causal logic and dual-meaning pivot for a terser, more suggestive four-line lyric that gestures at the original's ambivalence rather than reproducing its argumentative structure.",
+    "overall_fidelity": "medium",
+    "poem_number": 99,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter turns the causal-philosophical structure (paradoxical feelings about people caused by brooding over 'the world/one's fate') into a simple sequential narrative: first regret/despise (kami), then a general weariness with life and longing for death/rest (shimo). The original's ゆゑに causal logic linking brooding-over-the-world to the state of 'a body sunk in troubled thought' is replaced by an unrelated image of longing for life's 'close' and 'repose', which is not present in the source at all — the shimo-no-ku's actual content (もの思ふ身, sunk in melancholy thought because of 世 brooding) is lost and substituted with a wish for death, a different relationship type (resultant-desire rather than causal-explanatory)."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "世",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "tired of life",
+        "note": "The dual meaning of 世 as both 'the world/society' and 'one's own life/fate' is entirely lost; Porter substitutes a generic 'tired of life' phrase that captures neither the social-critique sense nor the personal-fate sense with any precision, instead inventing a wish for death that has no equivalent in the source."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "long day's close",
+      "note": "There is no genuine seasonal word in the source (kigo is 'none'), and Porter's invented imagery of a 'long day's close' and 'repose' (evoking death/rest rather than any season) introduces an extraneous metaphor with no seasonal content or atmosphere corresponding to the original's abstract philosophical register."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Regret for 'fallen friends' loosely renders 人も惜し (some people are dear/regretted)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Despise for 'foes' renders 人も恨めし (some people are resented)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'Tired of life' loosely stands in for あぢきなく世を思ふ (bitterly brooding over the world/life), but recast as weariness with life itself rather than anxious rumination",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'To reach my long day's close' invents a wish for death/end of life that has no direct equivalent to もの思ふ身 (a body sunk in troubled thought)",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [],
+          "content_summary": "'And gain at last repose' is a further extrapolated image of peace/death with no source equivalent",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the kami-no-ku's paradox into two crisp antithetical lines, then expands the shimo-no-ku (which in the original is a compact causal explanation of ceaseless melancholy) into three lines that introduce an entirely new theme of longing for death and rest, absent from the source."
+    },
+    "translator_strategy": "Porter prioritizes English poetic euphony and a rhymed, quatrain-like closure over literal fidelity, freely inventing a death-wish/repose conceit to resolve the poem's abstract philosophical brooding into a more conventionally 'poetic' English sentiment.",
+    "overall_fidelity": "low",
+    "poem_number": 99,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "McCauley keeps the general symptom-then-cause order (love/hate people, then world-weariness/care), but the causal connector ('ゆゑに') is weakened into a loose additive statement rather than an explicit logical cause; the 'wretched world' and 'weighted down with care' lines run together into a single descriptive conclusion rather than clearly marking 世 as the root cause of もの思ふ身, so the causal-physical logic survives only partially."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "wretched world",
+        "note": "McCauley renders 世 only as the external social/public 'world', losing the personal/existential 'my life or fate' reading that would resonate with Gotoba's own exile; the double register collapses into a single literal sense."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "wretched world",
+      "note": "There is no genuine kigo in the source poem, and McCauley's translation likewise contains no seasonal imagery or atmosphere; the poem remains entirely in the abstract emotional register of the original, consistent with the source analysis's 'none' verdict."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "For some men I grieve — corresponds to 人も惜し (some people are dear/regrettable to lose)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Some men are hateful to me — corresponds to 人も恨めし (some people are resented)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'this wretched world' compresses あぢきなく (bitterness/futility) and 世を思ふ (brooding on the world) into a single evaluative phrase",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'weighted down with care' renders the causal ゆゑに and the resulting もの思ふ身 (a body/self sunk in troubled thought)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Is a place of misery' extends and dramatizes もの思ふ身, converting the description of the speaker's inner state into a statement about the world itself being miserable",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley expands the tightly compact 5-ku structure into 5 lines with the final line adding an extrapolated evaluative clause ('a place of misery') that shifts the emphasis from the speaker's inner troubled state (もの思ふ身) to an assertion about the world's nature, subtly altering the introspective focus of the original into an external judgment."
+    },
+    "translator_strategy": "McCauley prioritizes smooth, moralizing English verse over preserving the poem's tight causal logic and dual-meaning wordplay, turning the introspective 'a self sunk in troubled thought' into a broader external claim that the world itself is miserable.",
+    "overall_fidelity": "medium",
+    "poem_number": 99,
+    "translator": "McCauley"
+  }
+}

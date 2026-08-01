@@ -1,0 +1,371 @@
+{
+  "poem_number": 75,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "いぬめり": {
+        "status": "removed",
+        "original": {
+          "word": "いぬめり",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T12:13:26.561093+00:00"
+      },
+      "をき": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "をき",
+          "color": "#F28FC0",
+          "note": "おく is a kake-kotoba meaning ‘do in advance’ or ‘rise’."
+        },
+        "reviewed_at": "2026-07-30T12:16:03.871222+00:00"
+      },
+      "秋": {
+        "status": "confirmed",
+        "original": {
+          "word": "秋",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T12:16:08.923550+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "dew": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "dew",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T12:16:39.055886+00:00"
+        },
+        "autumn": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T12:16:54.874930+00:00"
+        }
+      },
+      "lines": {
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-30T12:16:45.900948+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:16:46.653207+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:16:47.971441+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:16:48.967915+00:00"
+        }
+      },
+      "device_links": {
+        "autumn": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn"
+          },
+          "corrected": {
+            "source_word": "秋"
+          },
+          "reviewed_at": "2026-08-01T02:09:09.800138+00:00"
+        },
+        "dew": {
+          "status": "corrected",
+          "original": {
+            "word": "dew"
+          },
+          "corrected": {
+            "source_word": "をき"
+          },
+          "reviewed_at": "2026-08-01T02:09:11.733309+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:17:12.436143+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:17:13.169386+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:17:13.984963+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:17:14.701025+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:17:15.334782+00:00"
+        }
+      },
+      "devices": {
+        "autumn's days": {
+          "status": "removed",
+          "original": {
+            "word": "autumn's days",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:17:17.188250+00:00"
+        },
+        "this autumn's": {
+          "status": "confirmed",
+          "original": {
+            "word": "this autumn's",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:17:19.954634+00:00"
+        },
+        "dew": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "dew",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T12:17:38.086605+00:00"
+        }
+      },
+      "device_links": {
+        "dew": {
+          "status": "corrected",
+          "original": {
+            "word": "dew"
+          },
+          "corrected": {
+            "source_word": "をき"
+          },
+          "reviewed_at": "2026-08-01T02:09:14.749600+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:18:44.921743+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:18:45.417674+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:18:46.134130+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:18:46.534385+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:18:47.435727+00:00"
+        }
+      },
+      "devices": {
+        "dew": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "dew",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:09:25.733936+00:00"
+        }
+      },
+      "device_links": {
+        "dew": {
+          "status": "corrected",
+          "original": {
+            "word": "dew"
+          },
+          "corrected": {
+            "source_word": "をき"
+          },
+          "reviewed_at": "2026-08-01T02:09:28.050487+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:19:05.371344+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:19:05.751181+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:19:06.867543+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:19:07.371154+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:19:08.382068+00:00"
+        }
+      },
+      "devices": {
+        "autumn time": {
+          "status": "removed",
+          "original": {
+            "word": "autumn time",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:19:09.251051+00:00"
+        },
+        "autumn": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T12:19:18.154534+00:00"
+        },
+        "dew": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "dew",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:09:54.735887+00:00"
+        }
+      },
+      "device_links": {
+        "autumn": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn"
+          },
+          "corrected": {
+            "source_word": "秋"
+          },
+          "reviewed_at": "2026-08-01T02:09:06.782589+00:00"
+        },
+        "dew": {
+          "status": "corrected",
+          "original": {
+            "word": "dew"
+          },
+          "corrected": {
+            "source_word": "をき"
+          },
+          "reviewed_at": "2026-08-01T02:09:58.115223+00:00"
+        }
+      }
+    }
+  }
+}

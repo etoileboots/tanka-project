@@ -1,0 +1,74 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "逢坂山",
+      "ku": 2,
+      "reading_primary": "おうさかやま (place name)",
+      "reading_secondary": "逢ふ坂 - hill of meeting/lovers meeting",
+      "interaction": "Osakayama is a real place name (barrier gate between Yamashiro and Omi) but the 逢 (au, to meet) embedded in it activates the meaning 'hill of meeting,' foreshadowing the poet's wish to meet his beloved secretly. The place name and the meaning 'meeting' operate simultaneously."
+    },
+    {
+      "word": "さねかづら",
+      "ku": 3,
+      "reading_primary": "sanekazura (plant name, Kadsura japonica, a vine)",
+      "reading_secondary": "さ寝 (sa-ne, to sleep together) + かづら (vine that one 'draws/pulls' - つる, to pull/lead)",
+      "interaction": "The plant name literally names a vine, but さね puns on 寝 (sleeping together, i.e. intimacy with the beloved), and the vine's habit of being 繰る/くる (drawn in, pulled toward one) sets up the pivot to くる in ku5."
+    },
+    {
+      "word": "くる",
+      "ku": 5,
+      "reading_primary": "来る (to come)",
+      "reading_secondary": "繰る (to draw in/reel in, as one pulls a vine)",
+      "interaction": "くる functions as the pivot linking back to the vine imagery of さねかづら (which one 繰る, draws/pulls toward oneself) and forward to the literal wish for the beloved to 来る, come to the speaker secretly."
+    }
+  ],
+  "jokotoba": {
+    "text": "名にしおはば逢坂山のさねかづら",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "くる (さねかづらを繰る → 人が来る)",
+    "function": "The first three ku build an extended preface establishing the name-play on Osakayama ('meeting hill') and the sanekazura vine (whose vine one draws/pulls in, くる), leading by sound and association into the shimo's wish that the beloved would 来る (come) without others knowing."
+  },
+  "honkadori": {},
+  "kigo": {
+    "word": "さねかづら",
+    "season": "none",
+    "note": "Sanekazura (Kadsura japonica) is an evergreen vine without strong seasonal marking in classical poetic convention; it is used here primarily for its wordplay (さ寝, 繰る) rather than seasonal association. No other lexical item in the poem (逢坂山 as place name, 人, よし) carries seasonal weight either. This poem is fundamentally a love poem (恋の歌) built on wordplay rather than seasonal imagery, so season is best marked none despite the plant image."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "Wordplay preface on the name 'Osakayama' (meeting hill) and the sanekazura vine, which one draws/pulls toward oneself",
+    "shimo_theme": "The wish that the beloved might come to him secretly, unknown to others",
+    "relationship_type": "other",
+    "pivot_note": "The kami is a jokotoba/kakekotoba complex built entirely on the conceit that 'if it lives up to its name' (逢坂山 = meeting hill), then like the sanekazura vine one draws in, there ought to be some way (よしもがな) for the beloved to come to him without anyone knowing. The pivot is lexical/associative rather than sensory or causal: the names themselves (逢坂, さねかづら/くる) generate the wish expressed in the shimo, so the relationship is best described as a name-driven wordplay pivot rather than any of the standard sensory/causal/seasonal categories."
+  },
+  "furigana": [
+    {
+      "kanji": "名",
+      "reading": "な"
+    },
+    {
+      "kanji": "逢坂山",
+      "reading": "おうさかやま"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    }
+  ],
+  "poem_number": 25,
+  "poet": "Sanjo no Udaijin",
+  "source_jp": "名にしおはば\n逢坂山の\nさねかづら\n人にしられで\nくるよしもがな"
+}

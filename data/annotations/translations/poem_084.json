@@ -1,0 +1,366 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation compresses the original's recursive paradox structure into a simpler, flattened comparative statement. The kami-no-ku's hypothetical future recollection (will I fondly remember even this troubled present?) is reduced to a single conditional clause ('Were I to linger more in life'), and the shimo-no-ku's central realization — that a PAST era once hated is NOW an object of present longing — is converted into a general claim that suffering will seem lighter with time. The crucial temporal fold (past pain becomes present nostalgia, implying future pain will become future nostalgia) is lost; instead we get a simple 'time heals' sentiment without the poem's self-referential loop. The paradoxical structure survives only faintly as an implied 'time softens memory' logic, so it is partial/weakened rather than fully preserved."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "linger more",
+        "note": "The translator renders the primary meaning of 'to live on/survive' as 'linger more in life,' but does not activate or gesture toward the embedded root なが (long) as a separate resonance; the pivot's secondary durational echo is simply absorbed into the plain sense."
+      },
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "grievous strife",
+        "note": "世 (the era/circumstances of life) is rendered as 'grievous strife,' capturing the emotional coloring but not preserving any wordplay; the secondary 夜/night echo (already noted as barely operative) is entirely absent, and the translation paraphrases rather than finding an equivalent pivot."
+      },
+      {
+        "original_word": "憂しと見し世ぞ",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "seemed of old",
+        "note": "The 憂し (painful/hateful) sense survives via 'grievous strife,' but the floating/uki undertone (already marked low-confidence in the source analysis) is not engaged at all; this is a straightforward paraphrase of the surface meaning."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source poem itself contains no seasonal imagery (confirmed high-confidence in source analysis as a 雑/miscellaneous reflective poem), and this translation likewise introduces no seasonal vocabulary or atmosphere — it remains entirely in the register of abstract emotional/philosophical reflection on time and suffering, consistent with the original's non-seasonal nature.",
+      "en_equivalent": "grievous strife"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Conditional hypothetical: if I go on living longer",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "What once seemed painful hardship (the 'ushi' world)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3,
+            5
+          ],
+          "content_summary": "Would come to seem a lighter burden — compressing the future-recollection idea (kami ku2-3) with the present nostalgia (shimo ku5) into one statement",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Borne almost with delight — the transformation of past pain into present fondness/longing",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four rhymed couplet lines and reorders content: line 1 covers only ku1, but line 2 jumps ahead to the shimo-no-ku's 'ushi' content before line 3 returns to elaborate on the kami-no-ku's future-recollection idea merged with the shimo's resolution, and line 4 extends the resolution. This creates a chiastic-like reordering rather than a clean sequential kami-then-shimo mapping, driven by rhyme scheme (strife/life, slight/delight) rather than strict semantic fidelity to ku order."
+    },
+    "translator_strategy": "Dickens prioritizes an elegant rhymed English couplet form (iambic tetrameter with AABB rhyme) over precise structural or lexical fidelity, compressing the poem's recursive past/future paradox into a simpler generalized statement about time softening suffering.",
+    "overall_fidelity": "medium",
+    "poem_number": 84,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translator preserves the basic paradox — a future hypothetical (kami) answered by a present realization that the once-hated past is now longed for (shimo). However, the logical structure is slightly muddled: L2 ('The present days would grow dear again') seems to conflate the future hypothetical with the present tense, blurring the temporal distinction that in the original separates 'if I live on, will THIS PRESENT MOMENT be longed for' from 'THAT PAST ERA, once hated, is now longed for.' The recursive loop (present suffering will itself become nostalgia, just as past suffering already has) is present but less sharply articulated than in the Japanese, since L2 uses 'the present days' rather than clearly framing it as a future retrospective glance back at now."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "linger longer",
+        "note": "The primary meaning 'to survive/live on' is rendered as 'linger longer in life,' which is a literal_primary translation of the verb; the secondary embedded root なが (long) is coincidentally echoed by the word 'longer' in English, giving an unintentional but pleasing partial resonance, though this is not a deliberate double-pivot rendering."
+      },
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "days",
+        "note": "世 is rendered as 'days' (in both L2's 'present days' and L4's 'days I deemed sad'), capturing the primary sense of a lived era/circumstance but not engaging the secondary echo of 夜 (night), which is not active in this poem anyway per the source analysis."
+      },
+      {
+        "original_word": "憂しと見し世ぞ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "deemed sad",
+        "note": "憂し is translated straightforwardly as 'sad,' capturing the primary distressing sense without any activation of the うき/浮き floating-image, which the source analysis itself notes is not grammatically active here."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "linger longer",
+      "note": "As the source analysis confirms, this poem has no seasonal word or imagery at all — it is a purely reflective, non-seasonal (miscellaneous/zo) poem about time and paradoxical nostalgia. The translation likewise contains no seasonal vocabulary or imagery (no flowers, weather, or nature references), which is entirely appropriate and faithful to the source's non-seasonal character."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Conditional: if I live on/linger longer in life",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The present days would become dear/longed-for again (future retrospective hypothetical)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Exclamation: now I long for",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The days once deemed sad in the past",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses ku2-3 (またこの頃やしのばれむ) into a single line 2, and inverts the shimo-ku order by placing the 'now I long for' exclamation (ku5) before the 'days deemed sad' (ku4) content, though this simply mirrors the natural English syntax of 'I long for X' rather than being a true structural inversion of meaning."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, natural four-line English lyric that preserves the poem's central paradox and emotional arc over reproducing the precise five-part ku segmentation or the subtler kakekotoba wordplay.",
+    "overall_fidelity": "medium",
+    "poem_number": 84,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "transformed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "The translator turns the paradox into a straightforward temporal reversal (young man despised youth / old man now longs for youth) rather than the original's recursive philosophical loop about a hypothetical future re-evaluating the present.",
+      "note": "The original's kami-ku is a conditional hypothesis about a still-unknown future ('if I live on, will I look back fondly on even this troubled present?'), while shimo-ku reveals this has already happened with a past era. Porter collapses this into a completed, concrete narrative: past dislike of youth (kami) versus present old-age longing for youth (shimo). The paradox of a *recurring* psychological pattern is replaced by a single linear before/after contrast, and the original's abstract 'this troubled present' becomes concretely 'youth' as the object of both scorn and longing. The bipartite logic is retained only loosely — a reversal of feeling over time — but the recursive, still-open nature of the original's structure (the speaker still doesn't know if they'll survive; the shimo-ku's realization retroactively answers the kami-ku's question) is lost in favor of a settled, closed reminiscence by an 'old decrepid man' explicitly named as such, which the original never states."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "Time was",
+        "note": "Porter replaces the conditional 'if I live long enough' with a flat retrospective 'Time was when...', losing both the survival/duration verb and its embedded 'naga' (long) resonance; no pivot or double meaning is attempted."
+      },
+      {
+        "original_word": "世",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "youth",
+        "note": "The abstract 'yo' (world/era of life, the troubled present) is narrowed and transformed into the concrete noun 'youth', losing the ambiguity and dual resonance of yo as both era and (potentially) night; no pivot preserved."
+      },
+      {
+        "original_word": "憂しと見し世ぞ",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "despised my youth",
+        "note": "The phrase 'despised my youth' captures only a general sense of past dislike but drops the layered ushi/uki checking the source analysis flags; the potential floating-image undertone is entirely absent, replaced by a simple biographical statement."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "decrepid man",
+      "note": "The source poem has no seasonal imagery (it is a miscellaneous/reflective poem), and Porter's translation likewise introduces no seasonal vocabulary or atmosphere; instead he adds an explicit biological marker of old age ('decrepid man') that stands in for the passage of time but carries no seasonal connotation."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Recasts the hypothetical 'if I live on, will I look back fondly' as a settled past fact: 'Time was when I despised my youth' — turns future-conditional musing into simple past-tense narrative.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Extends line 1's idea with 'As boyhood only can', emphasizing the intensity of youthful contempt; loosely corresponds to the 'shinobaren' (longing) ku but inverted into 'despising' rather than longing.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'What would I give for boyhood now' directly renders the shimo-ku's 'ima wa koishiki' (now it is dear/longed for), substituting 'youth/boyhood' for the vaguer 'yo' (era/world).",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'When finishing life's span' evokes the idea of reaching old age/end of life, loosely corresponding to the shimo-ku's retrospective vantage point ('ushi to mishi yo').",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [],
+          "content_summary": "'An old decrepid man!' is an extrapolated concrete image of old age not present in the original, which never explicitly names the speaker as elderly or decrepit — it only implies duration via 'nagaraeba'.",
+          "origin": "extrapolated"
+        }
+      ]
+    },
+    "translator_strategy": "Porter prioritizes a clear, singable, meter-driven English narrative of youth-versus-old-age nostalgia over preserving the original's abstract conditional-paradox structure and its untranslatable kakekotoba nuances.",
+    "overall_fidelity": "low",
+    "poem_number": 84,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "translation": {
+      "line_mapping": {
+        "entries": [
+          {
+            "en_line": 1,
+            "jp_ku": [
+              1
+            ],
+            "content_summary": "conditional 'if I long should live' translates ながらへば",
+            "origin": "source"
+          },
+          {
+            "en_line": 2,
+            "jp_ku": [
+              2
+            ],
+            "content_summary": "'the present days' renders またこの頃や",
+            "origin": "source"
+          },
+          {
+            "en_line": 3,
+            "jp_ku": [
+              3
+            ],
+            "content_summary": "'may be dear to me' renders しのばれむ (the fond remembering)",
+            "origin": "source"
+          },
+          {
+            "en_line": 4,
+            "jp_ku": [
+              4
+            ],
+            "content_summary": "'past time fraught with grief' renders 憂しと見し世ぞ",
+            "origin": "source"
+          },
+          {
+            "en_line": 5,
+            "jp_ku": [
+              5
+            ],
+            "content_summary": "'now comes fondly back in thought' renders 今は恋しき",
+            "origin": "source"
+          }
+        ],
+        "confidence": "high",
+        "structural_note": "One-to-one mapping of each English line to a single ku, preserving the original five-part structure almost exactly; no compression or inversion."
+      },
+      "bipartite": {
+        "preserved": "preserved",
+        "kami_lines": [
+          1,
+          2,
+          3
+        ],
+        "shimo_lines": [
+          4,
+          5
+        ],
+        "relationship_type": "paradox",
+        "note": "The translation keeps the conditional-future musing in lines 1-3 (kami) followed by the retrospective realization in lines 4-5 (shimo), with 'just as' explicitly signalling the analogy/parallel that constitutes the paradoxical loop of the original: present-hated-become-future-beloved mirrors past-hated-now-beloved."
+      },
+      "kakekotoba": [
+        {
+          "original_word": "ながらへば",
+          "reading_preserved": "primary_only",
+          "method": "literal_primary",
+          "en_equivalent": "long should live",
+          "note": "The verb is translated straightforwardly as 'to live long', capturing the primary meaning of survival/duration; the embedded 'なが' (long) root echo is not distinctly rendered as a separate pun, though the word 'long' happens to appear, coincidentally overlapping with the root's semantic association rather than functioning as a deliberate wordplay."
+        },
+        {
+          "original_word": "世",
+          "reading_preserved": "primary_only",
+          "method": "literal_primary",
+          "en_equivalent": "past time",
+          "note": "世 is rendered as 'past time', capturing the life-circumstance/era sense; no night-echo is present or intended, consistent with the source's own low-confidence flagging of this as not truly activated."
+        },
+        {
+          "original_word": "憂しと見し世ぞ",
+          "reading_preserved": "primary_only",
+          "method": "literal_primary",
+          "en_equivalent": "fraught with grief",
+          "note": "The phrase is rendered as 'past time fraught with grief', preserving the direct 憂し (painful) sense; no floating/浮き imagery is introduced, matching the source analysis's own conclusion that this pivot is not truly double in this poem."
+        }
+      ],
+      "makurakotoba": [],
+      "kigo_handling": {
+        "preserved": "omitted",
+        "en_equivalent": "",
+        "note": "As the source poem itself contains no seasonal word or imagery (it is a 雑/miscellaneous reflective poem), the translation correctly contains no seasonal signal either — there is no dew, leaves, moon, or other nature imagery introduced or lost; the absence is faithful to the source's lack of kigo."
+      },
+      "translator_strategy": "McCauley aims for a highly literal, line-by-line rendering that mirrors the five-ku structure and preserves the conditional-then-retrospective logical architecture of the original almost exactly, using explicit connective phrasing ('Just as') to make the implicit parallel/paradox of the waka clear to an English reader.",
+      "overall_fidelity": "high"
+    },
+    "poem_number": 84,
+    "translator": "McCauley"
+  }
+}

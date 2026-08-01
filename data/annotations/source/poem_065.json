@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "朽ちなん",
+      "ku": 4,
+      "reading_primary": "くちなん",
+      "reading_secondary": "くちなむ",
+      "interaction": "朽ち (to rot/decay, said of sleeves/reputation) combines with the auxiliary なん/なむ (conjectural-future 'will surely...'), and the whole phrase puns on 'my name will rot away' — literal decay of cloth imagery extended metaphorically to the decay of reputation; not a true double-referent pivot but a metaphorical bridge word, treated as an associative image, not separately listed as kakekotoba"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker, exhausted from resentment and grief over unrequited or faithless love, notes that at least she still has sleeves that are unstained by tears — implying that others' sleeves are visibly soaked with weeping, but hers, though inwardly ravaged, remain outwardly dry.",
+    "shimo_theme": "She fears that though her sleeves stay dry, her very reputation (na) will decay and rot away because of the corrosive power of her hidden love — and that public shame, not physical tears, is what she cannot bear.",
+    "relationship_type": "paradox",
+    "pivot_note": "The poem turns on a paradox: normally in waka, wet sleeves (tears) are the visible sign of suffering in love, and the shame of love is hidden. Here Sagami inverts this — her sleeves are NOT wet (concealing her suffering successfully), yet this very success in concealment means the suffering festers invisibly and threatens to destroy something more precious than physical composure: her reputation. The 'at least' (だに) of the kami-no-ku ironically undercuts itself in the shimo-no-ku, since keeping dry sleeves does not save her from the deeper corrosion of name and honor."
+  },
+  "kigo": {
+    "word": "袖",
+    "season": "none",
+    "note": "Sleeves (袖) function here as an emblem of romantic suffering (tear-soaked sleeves being the classical sign of heartbreak) rather than as a seasonal image; this poem belongs to the love (恋) category of the anthology, not a seasonal one — no genuine kigo is present. The imagery of dry/wet sleeves, decay (朽ち), and reputation is entirely within the human-emotional register, with no natural/seasonal image (no flowers, moon, snow, mist, or seasonal creature) appearing anywhere in the poem."
+  },
+  "furigana": [
+    {
+      "kanji": "恨",
+      "reading": "うら"
+    },
+    {
+      "kanji": "袖",
+      "reading": "そで"
+    },
+    {
+      "kanji": "恋",
+      "reading": "こひ"
+    },
+    {
+      "kanji": "朽",
+      "reading": "く"
+    },
+    {
+      "kanji": "名",
+      "reading": "な"
+    },
+    {
+      "kanji": "惜",
+      "reading": "を"
+    }
+  ],
+  "poem_number": 65,
+  "poet": "Sagami",
+  "source_jp": "恨みわび\nほさぬ袖だに\nあるものを\n恋に朽ちなん\n名こそ惜しけれ"
+}

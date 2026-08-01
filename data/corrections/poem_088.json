@@ -1,0 +1,306 @@
+{
+  "poem_number": 88,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T08:08:42.073628+00:00"
+    },
+    "devices": {
+      "かりね": {
+        "status": "confirmed",
+        "original": {
+          "word": "かりね",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T08:08:04.293339+00:00"
+      },
+      "一夜": {
+        "status": "confirmed",
+        "original": {
+          "word": "一夜",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T08:08:21.541525+00:00"
+      },
+      "芦": {
+        "status": "confirmed",
+        "original": {
+          "word": "芦",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T08:08:26.078206+00:00"
+      },
+      "身をつくして": {
+        "status": "confirmed",
+        "original": {
+          "word": "身をつくして",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T08:08:39.591105+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T08:08:53.608513+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "one night": {
+          "status": "confirmed",
+          "original": {
+            "word": "one night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T08:09:02.307264+00:00"
+        },
+        "shore reed": {
+          "status": "confirmed",
+          "original": {
+            "word": "shore reed",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T08:09:05.123326+00:00"
+        },
+        "exhausting me": {
+          "status": "confirmed",
+          "original": {
+            "word": "exhausting me",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:24:22.460370+00:00"
+        }
+      },
+      "device_links": {
+        "shore reed": {
+          "status": "corrected",
+          "original": {
+            "word": "shore reed"
+          },
+          "corrected": {
+            "source_word": "芦"
+          },
+          "reviewed_at": "2026-07-31T08:09:04.240487+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:24:04.964942+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:24:05.358790+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:24:05.978760+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:24:20.576708+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "few short hours": {
+          "status": "confirmed",
+          "original": {
+            "word": "few short hours",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:24:39.561618+00:00"
+        },
+        "bamboo reeds": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "bamboo reeds",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:13:53.195370+00:00"
+        },
+        "tide-stakes": {
+          "status": "confirmed",
+          "original": {
+            "word": "tide-stakes",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:26:03.725985+00:00"
+        }
+      },
+      "device_links": {
+        "bamboo reeds": {
+          "status": "corrected",
+          "original": {
+            "word": "bamboo reeds"
+          },
+          "corrected": {
+            "source_word": "芦"
+          },
+          "reviewed_at": "2026-07-31T11:26:41.556911+00:00"
+        },
+        "tide-stakes": {
+          "status": "corrected",
+          "original": {
+            "word": "tide-stakes"
+          },
+          "corrected": {
+            "source_word": "身をつくして"
+          },
+          "reviewed_at": "2026-07-31T11:26:04.828103+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:25:12.692041+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:25:13.241883+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:25:14.176498+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:25:14.692186+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:25:15.341931+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:26:08.961346+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:26:09.777450+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:26:11.326976+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:26:13.490817+00:00"
+        }
+      },
+      "device_links": {
+        "whole heart": {
+          "status": "corrected",
+          "original": {
+            "word": "whole heart"
+          },
+          "corrected": {
+            "source_word": "身をつくして"
+          },
+          "reviewed_at": "2026-07-31T11:26:23.145198+00:00"
+        },
+        "reed": {
+          "status": "corrected",
+          "original": {
+            "word": "reed"
+          },
+          "corrected": {
+            "source_word": "芦"
+          },
+          "reviewed_at": "2026-07-31T11:26:50.522572+00:00"
+        }
+      },
+      "devices": {
+        "reed": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "reed",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T11:26:48.274950+00:00"
+        }
+      }
+    }
+  }
+}

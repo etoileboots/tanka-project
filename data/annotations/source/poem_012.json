@@ -1,0 +1,57 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "An address to the heavenly wind, commanding it to close up the pathway through the clouds",
+    "shimo_theme": "The wish to keep the dancing maidens (celestial dancers, or the young women performing at court) visible a little longer",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku's command to the wind to physically close off the 'path through the clouds' is the enabling cause of the shimo's wish: by sealing the cloud-path, the wind would trap the otome (maiden dancers, imagined as celestial beings returning to the sky) on earth a little longer, allowing the speaker to keep gazing at their beautiful forms. The logic is literal and causal — block the road home, and the visitors cannot leave."
+  },
+  "kigo": {
+    "word": "雲",
+    "season": "none",
+    "note": "Clouds here are not a seasonal marker but part of the mythic conceit of the sky-path (天路) along which celestial beings travel; the poem centers on a court ritual (Gosechi dance) reference rather than a specific season, so no true kigo governs the poem despite the sky/wind/cloud imagery."
+  },
+  "furigana": [
+    {
+      "kanji": "天",
+      "reading": "あま"
+    },
+    {
+      "kanji": "風",
+      "reading": "かぜ"
+    },
+    {
+      "kanji": "雲",
+      "reading": "くも"
+    },
+    {
+      "kanji": "路",
+      "reading": "じ"
+    },
+    {
+      "kanji": "吹",
+      "reading": "ふ"
+    },
+    {
+      "kanji": "乙女",
+      "reading": "おとめ"
+    },
+    {
+      "kanji": "姿",
+      "reading": "すがた"
+    }
+  ],
+  "poem_number": 12,
+  "poet": "Sosho Henjo.",
+  "source_jp": "天つ風\n雲のかよひ路\n吹きとぢよ\n乙女のすがた\nしばしとどめむ"
+}

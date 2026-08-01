@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "あらざらむ",
+      "ku": 1,
+      "reading_primary": "will not exist (I shall not be alive)",
+      "reading_secondary": "n/a",
+      "interaction": "Not a true kakekotoba pivot itself, but the negative existential sets up the poem's entire premise — 'I shall soon be no more.' Checked against standard pivot canon (なが/よ/あき/まつ/ふる/うき/かる) — none of these sound-pairs appear as double-readings in this poem; あらざらむ, この世, 思ひ出, 今ひとたび, 逢ふ are all single-meaning in context. The apparent candidate 'よ' in 'この世' functions purely as 世 (this world/life) without a second 夜 (night) reading being grammatically active here, since there is no night imagery or context to activate it — so it is excluded as kakekotoba."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker, facing imminent death, contemplates having a single memory to carry beyond this world — 'since I shall soon not exist, as a memento for beyond this life'",
+    "shimo_theme": "A desperate wish for one more meeting with the beloved before death",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku establishes the mortal condition (impending death, the boundary of 'this world') as the reason/cause for the urgent wish expressed in the shimo-no-ku; the anticipation of death directly motivates and justifies the plea for 'one more meeting,' making the two halves a single unbroken causal utterance rather than a contrastive or metaphorical pairing."
+  },
+  "kigo": {
+    "word": "この世の外",
+    "season": "none",
+    "note": "No conventional seasonal image is present in this poem. Every lexical item was checked: あらざらむ (existential, non-seasonal), この世の外 (metaphysical boundary of life/death, non-seasonal), 思ひ出 (memory, non-seasonal), 今ひとたび (temporal but not seasonal), 逢ふ (meeting, non-seasonal). There are no flowers, leaves, birds, insects, dew, frost, snow, rain, moon, wind, mist, grasses, rivers, clothing, or famous places referenced. The poem's imagery is entirely existential/metaphysical (life, death, the afterlife) rather than tied to a season, so season is correctly 'none' despite the requirement to name a governing word field."
+  },
+  "furigana": [
+    {
+      "kanji": "世",
+      "reading": "よ"
+    },
+    {
+      "kanji": "外",
+      "reading": "ほか"
+    },
+    {
+      "kanji": "思",
+      "reading": "おも"
+    },
+    {
+      "kanji": "出",
+      "reading": "で"
+    },
+    {
+      "kanji": "今",
+      "reading": "いま"
+    },
+    {
+      "kanji": "逢",
+      "reading": "あ"
+    }
+  ],
+  "poem_number": 56,
+  "poet": "Isumi Shikibu",
+  "source_jp": "あらざらむ\nこの世の外の\n思ひ出に\n今ひとたびの\n逢ふこともがな"
+}

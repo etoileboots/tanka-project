@@ -1,0 +1,73 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker, though feeling unworthy (おほけなく), declares that he covers/shelters the suffering people of this sorrowful world",
+    "shimo_theme": "The image of his black-dyed monastic sleeve spread over Mt. Hiei (the 'sooty-dyed sleeve' on the mountain where he 'stands/dwells as a woodcutter/monk')",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku states the abstract religious vow (to shelter all beings under Buddhist compassion), and the shimo-no-ku reveals the concrete image that enacts it: the black sleeve of the monk's robe spread wide like a canopy over the mountain (Mt. Hiei, home of Tendai Buddhism) where he has taken his religious stand — the physical image of the sleeve becomes the visual manifestation of the abstract vow of universal protection."
+  },
+  "kigo": {
+    "word": "墨染",
+    "season": "none",
+    "note": "墨染の袖 (ink/soot-dyed sleeve) refers to the black robes of a Buddhist monk — this is not a seasonal image but a conventional religious/clothing image signaling renunciation of the world; the poem as a whole lacks a true seasonal anchor, as うき世 (sorrowful world) and そま (mountain forest/woodcutter) are moral-religious and toponymic images rather than seasonal ones",
+    "confidence": "low"
+  },
+  "kakekotoba": [
+    {
+      "word": "うき",
+      "ku": 2,
+      "reading_primary": "憂き",
+      "reading_secondary": "浮き",
+      "interaction": "うき世 primarily means 'this sorrowful/painful world' (憂き世), the standard Buddhist term for the transient world of suffering; the secondary sense of 浮き (floating, unstable) reinforces the image of an insecure, drifting existence that the speaker vows to shelter and stabilize",
+      "confidence": "medium"
+    },
+    {
+      "word": "たつ",
+      "ku": 4,
+      "reading_primary": "立つ (to stand, to take one's stand/position)",
+      "reading_secondary": "裁つ (to cut cloth)",
+      "interaction": "わがたつそま literally means 'the mountain forest where I stand/take my place' (a conventional reference to Mt. Hiei, called 'waga tatsu soma' in the founding legend of the Tendai sect), while the cloth-cutting sense of たつ resonates with 袖 (sleeve) and 墨染 (dyed robe) in the final ku, activating a textile image network alongside the standing/place meaning",
+      "confidence": "medium"
+    },
+    {
+      "word": "そま",
+      "ku": 4,
+      "reading_primary": "杣 (mountain forest / timberland, specifically Mt. Hiei by convention)",
+      "reading_secondary": "man who works the mountain forest (woodcutter, by extension the monk himself as one who labors in the 'forest' of religious practice)",
+      "interaction": "そま denotes both the literal wooded mountain (Mt. Hiei, site of the Tendai headquarters) and metaphorically the speaker's own place of ascetic labor, doubling the physical setting with the speaker's self-image as a humble laborer for the Buddhist Law",
+      "confidence": "low"
+    }
+  ],
+  "makurakotoba": [],
+  "honkadori": {
+    "source_poem": "阿耨多羅三藐三菩提の仏たち我が立つ杣に冥加あらせたまへ (Attributed to Saichō, founder of the Tendai sect, recorded in Shūi Wakashū and temple legend)",
+    "source_poet": "Dengyō Daishi (Saichō)",
+    "echoed_phrase": "わがたつそま",
+    "function": "Jien, as head of the Tendai sect (Sakino Daisojo), directly echoes Saichō's founding vow poem about Mt. Hiei ('the forest where I take my stand'), asserting his own inheritance of the founder's religious mission to protect and save all sentient beings from atop the same mountain"
+  },
+  "furigana": [
+    {
+      "kanji": "民",
+      "reading": "たみ"
+    },
+    {
+      "kanji": "墨染",
+      "reading": "すみぞめ"
+    },
+    {
+      "kanji": "袖",
+      "reading": "そで"
+    }
+  ],
+  "poem_number": 95,
+  "poet": "Sakino Daisoko Jiyen",
+  "source_jp": "おほけなく\nうき世の民に\nおほふかな\nわがたつそまに\n墨染の袖"
+}

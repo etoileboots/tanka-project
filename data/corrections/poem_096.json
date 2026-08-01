@@ -1,0 +1,341 @@
+{
+  "poem_number": 96,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T12:15:40.331232+00:00"
+    },
+    "devices": {
+      "ふり": {
+        "status": "confirmed",
+        "original": {
+          "word": "ふり",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:13:22.117119+00:00"
+      },
+      "ならで": {
+        "status": "removed",
+        "original": {
+          "word": "ならで",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:13:23.295798+00:00"
+      },
+      "花": {
+        "status": "confirmed",
+        "original": {
+          "word": "花",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:13:24.145780+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "’tis not": {
+          "status": "removed",
+          "original": {
+            "word": "’tis not",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:13:44.146293+00:00"
+        },
+        "garden flower": {
+          "status": "confirmed",
+          "original": {
+            "word": "garden flower",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:13:45.013731+00:00"
+        },
+        "falling fast": {
+          "status": "confirmed",
+          "original": {
+            "word": "falling fast",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:13:45.663745+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:13:49.479225+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:13:50.462938+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:13:50.879759+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:13:51.380717+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "sakura's flowers": {
+          "status": "confirmed",
+          "original": {
+            "word": "sakura's flowers",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:01.429746+00:00"
+        },
+        "as thick as though": {
+          "status": "removed",
+          "original": {
+            "word": "as thick as though",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:03.045736+00:00"
+        },
+        "withered low": {
+          "status": "confirmed",
+          "original": {
+            "word": "withered low",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:03.945812+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:18.072749+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:18.498827+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:19.032514+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:19.413819+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:19.897703+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "blossoms white": {
+          "status": "confirmed",
+          "original": {
+            "word": "blossoms white",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:40.829907+00:00"
+        },
+        "not from": {
+          "status": "removed",
+          "original": {
+            "word": "not from",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:42.599202+00:00"
+        },
+        "snows my hair": {
+          "status": "removed",
+          "original": {
+            "word": "snows my hair",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:15:08.896501+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:49.514913+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:50.030097+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:50.497025+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:14:51.265319+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T12:15:06.416843+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "not the snow": {
+          "status": "removed",
+          "original": {
+            "word": "not the snow",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:15:15.296096+00:00"
+        },
+        "withering, falls": {
+          "status": "confirmed",
+          "original": {
+            "word": "withering, falls",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:15:15.928344+00:00"
+        },
+        "flowers": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "flowers",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:15:31.427978+00:00"
+        }
+      },
+      "device_links": {
+        "flowers": {
+          "status": "corrected",
+          "original": {
+            "word": "flowers"
+          },
+          "corrected": {
+            "source_word": "花"
+          },
+          "reviewed_at": "2026-07-31T12:15:33.695923+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:15:34.779035+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:15:35.262738+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:15:37.727493+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:15:38.060464+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:15:38.461275+00:00"
+        }
+      }
+    }
+  }
+}

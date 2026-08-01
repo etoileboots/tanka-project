@@ -1,0 +1,361 @@
+{
+  "poem_number": 29,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T02:13:26.144361+00:00"
+    },
+    "devices": {
+      "おきまどはせる": {
+        "status": "removed",
+        "original": {
+          "word": "おきまどはせる",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T02:13:16.466285+00:00"
+      },
+      "白菊": {
+        "status": "confirmed",
+        "original": {
+          "word": "白菊",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T02:13:30.594868+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "white chrysanthemum": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "white chrysanthemum",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T02:13:56.162841+00:00"
+        },
+        "chrysanthemum": {
+          "status": "removed",
+          "original": {
+            "word": "chrysanthemum",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:13:58.657465+00:00"
+        },
+        "thickly set": {
+          "status": "removed",
+          "original": {
+            "word": "thickly set",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:14:03.391594+00:00"
+        }
+      },
+      "lines": {
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T02:14:14.476209+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:14:42.359083+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:17:37.924328+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-27T02:15:02.625665+00:00"
+        }
+      },
+      "device_links": {
+        "white chrysanthemum": {
+          "status": "corrected",
+          "original": {
+            "word": "white chrysanthemum"
+          },
+          "corrected": {
+            "source_word": "白菊"
+          },
+          "reviewed_at": "2026-08-01T01:23:31.515571+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "feigning": {
+          "status": "removed",
+          "original": {
+            "word": "feigning",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:15:26.180125+00:00"
+        },
+        "hoar-frost": {
+          "status": "removed",
+          "original": {
+            "word": "hoar-frost",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:15:33.826534+00:00"
+        },
+        "Shiragiku": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Shiragiku",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T02:15:41.391363+00:00"
+        }
+      },
+      "lines": {
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-27T02:15:56.824451+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:16:05.540804+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:16:35.307281+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:17:28.959406+00:00"
+        }
+      },
+      "device_links": {
+        "shiragiku": {
+          "status": "corrected",
+          "original": {
+            "word": "shiragiku"
+          },
+          "corrected": {
+            "source_word": "白菊"
+          },
+          "reviewed_at": "2026-08-01T01:23:36.231555+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "white chrysanthemum": {
+          "status": "confirmed",
+          "original": {
+            "word": "white chrysanthemum",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:17:45.189987+00:00"
+        },
+        "half afraid": {
+          "status": "removed",
+          "original": {
+            "word": "half afraid",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:17:45.855729+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T02:17:53.456596+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:18:03.307587+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T02:18:28.988108+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:19:52.506906+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-27T02:20:06.072894+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T02:20:16.388233+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:21:44.320984+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:22:03.070929+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-27T02:22:13.954773+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:22:40.722056+00:00"
+        }
+      },
+      "devices": {
+        "puzzled by the frost": {
+          "status": "removed",
+          "original": {
+            "word": "puzzled by the frost",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:20:20.489231+00:00"
+        },
+        "early autumn": {
+          "status": "removed",
+          "original": {
+            "word": "early autumn",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T20:44:52.428476+00:00"
+        },
+        "White chrysanthemum": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "White chrysanthemum",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T02:21:12.588210+00:00"
+        },
+        "white chrysanthemum": {
+          "status": "confirmed",
+          "original": {
+            "word": "white chrysanthemum",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:23:25.881651+00:00"
+        }
+      },
+      "device_links": {
+        "white chrysanthemum": {
+          "status": "corrected",
+          "original": {
+            "word": "white chrysanthemum"
+          },
+          "corrected": {
+            "source_word": "白菊"
+          },
+          "reviewed_at": "2026-08-01T01:23:25.299680+00:00"
+        }
+      }
+    }
+  }
+}

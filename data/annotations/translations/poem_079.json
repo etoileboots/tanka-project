@@ -1,0 +1,298 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        3
+      ],
+      "shimo_lines": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator preserves the causal chain (autumn wind → clouds drift → rifts appear → moonbeams peep through) but interleaves kami and shimo content across lines rather than keeping them as two clean blocks: L1 (wind/kami), L2 (rifts/moonbeams = shimo), L3 (clouds drifting = kami, restating the cause after its effect was already mentioned), L4-6 (moonlight's effect on earth, elaborated with an added personal reflection 'I love to see' not in the source). This scrambles the clean bipartite sequence into a more continuous, expanded narrative, though the causal logic itself is intact."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn's",
+      "note": "The season is named outright in line 1 ('autumn's chilly blast'), and the moon's clarity is rendered through 'moonbeams', 'pallid radiance', and 'bright-edged shadows', preserving the autumn-moon atmosphere quite fully, though the translator adds an editorializing personal touch ('I love to see') and slightly shifts emphasis from bare exclamation of clarity (sayakesa) to a described scene with an appended sentiment."
+    },
+    "translator_strategy": "Dickens expands the terse waka into a rhymed six-line English lyric stanza, prioritizing meter and rhyme (ABAB CC) and adding an explicit first-person emotional response ('I love to see') not present in the original, at the cost of the poem's compact, objective exclamatory close.",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Autumn wind blowing (chilly blast)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Moonbeams peeping through rifts (gaps) — shimo image introduced early",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Dark clouds drifting past — kami image, restated after shimo already mentioned",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Earth steeped in pallid radiance — extension of moonlight's effect",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [],
+          "content_summary": "Added personal sentiment 'I love to see' — not present in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Bright-edged shadows over the lea — final image of moonlight's clarity/sayakesa",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator interleaves kami (wind, clouds) and shimo (moonlight through gaps) content out of source order, introducing the moonbeams-through-rifts image in line 2 before returning to describe the clouds drifting in line 3, and expands the closing exclamation of 'sayakesa' into a full descriptive clause with an inserted personal reflection."
+    },
+    "poem_number": 79,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation inverts the JP order by opening with the 'rifts of the clouds' (taema, ku4's spatial hinge) before the cloud-wind action (ku1-3), then closing with the moon's clarity (ku4-5). The causal-physical logic survives in substance—wind drives clouds, gaps let moonlight through—but the surface sequence is reordered: 'From the rifts of the clouds / Drifting abroad in the Autumn wind' presents the gap image first and the wind-causation second, reversing the source's cause-then-effect linear structure."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn wind",
+      "note": "The season is named directly via 'Autumn wind,' matching the source's 秋風. The autumnal moon-clarity atmosphere is also preserved through 'clear shadow' and 'peeping moon,' reinforcing the seasonal association beyond mere naming."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the gaps/rifts in the clouds (taema)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "clouds trailing/drifting in the autumn wind",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "exclamation on the clarity (sayakesa) of the shadow/light",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "the moon peeping/emerging through the gaps",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders the ku: the gap image (ku3) is moved to the opening line, the wind-cloud causation (ku1-2) follows, then the exclamation of clarity (ku5) appears before the moon's emergence (ku4) is fully named, producing a chiasmus-like restructuring rather than a direct linear rendering of the source's kami-then-shimo sequence."
+    },
+    "translator_strategy": "Noguchi prioritizes a vivid, compact image-cluster over strict sequential fidelity, rearranging the cloud-wind-gap-moon elements into a more English-poetic order while preserving all core content and the explicit autumn kigo.",
+    "overall_fidelity": "medium",
+    "poem_number": 79,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The causal-physical logic (wind moves clouds, gaps let moonlight through) is preserved in basic structure — L1-2 wind driving clouds, L3 moon peeping through gaps — but the shimo's core image of sayakesa (bare exclamation of the moon's clarity) is diluted into a moralizing/personifying conceit: the moon 'dispersing... the darkness' (L4-5), which shifts the climax from an exclamation of visual brightness to a small narrative of light conquering dark, weakening the causal-physical directness into a slightly more figurative one."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn",
+      "note": "The season word is named directly in L1 ('the wind of autumn'), and the imagery of moonlight through clouds is preserved, though the added phrase 'darkness of the night' (L5) is an extrapolation that shifts emphasis from the classical 'clear autumn moon' set-piece toward a light-versus-dark moralized image, slightly diffusing the pure kigo focus on tsuki's sayakesa."
+    },
+    "translator_strategy": "Porter prioritizes rhyme and singsong meter over literal fidelity, expanding the terse five-ku original into a five-line rhymed lyric that personifies the moon ('her light') and adds a moralizing image of dispelled darkness not present in the source.",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "autumn wind blowing",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "clouds driven left and right, implying the trailing and gapping of clouds",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "moon peeping out between the gaps",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "moon's light dispersing something (extrapolated action of dispersing darkness)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "the darkness of the night — extrapolated elaboration of the moon's clarity (sayakesa) recast as darkness being dispelled",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses kami's three ku (wind, clouds trailing, gaps) into two lines and expands shimo's two ku (moonlight emerging, its clarity) into three lines, adding an interpretive image of darkness being dispersed that has no direct equivalent in the source's bare exclamation of clarity (sayakesa)."
+    },
+    "poem_number": 79,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3
+      ],
+      "note": "McCauley reverses the poem's natural sequence: the English opens with the shimo-no-ku content (the moon's clarity, line 1-2), then moves to the clouds through which it emerges (line 3), and only in lines 4-5 gives the kami-no-ku's cause (autumn wind driving the clouds across the sky). The causal-physical logic is technically still present as the reader eventually learns the wind causes the cloud movement that creates the gaps, but the exclamatory framing at the start ('See, how clear and bright') foregrounds the effect before the cause, inverting the original's build-up toward a final exclamation of sayakesa."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn-wind",
+      "note": "The season is named directly via 'autumn-wind,' preserving the explicit seasonal marker from the source (秋風). The moon's clarity, the other half of the kigo pairing, is rendered through 'clear and bright' and 'moon-light,' reinforcing the autumnal atmosphere of a crisp, luminous night even though 'moon' alone is not inherently seasonal in English."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Exclamation on the clarity and brightness of the moon",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The moonlight finding its way through obstacles",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Among the riven (gapped) clouds — taema",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Clouds drifting with the autumn wind",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Clouds gracefully floating across the sky (elaboration of tanabiku)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation restructures the poem into an English syntactic order (main clause first, subordinate cause-clauses following), effectively inverting the JP sequence of cause (wind/clouds) before effect (moonlight clarity). Line 5 slightly expands on 'tanabiku' with the added interpretive flourish 'gracefully float,' which has no direct lexical equivalent in the source but conveys the same drifting cloud imagery."
+    },
+    "translator_strategy": "McCauley prioritizes a natural, exclamatory English sentence order — leading with the poem's emotional climax (the moon's clarity) and trailing off into the causal explanation — sacrificing the original's build-then-release structure for immediate lyrical impact.",
+    "overall_fidelity": "medium",
+    "poem_number": 79,
+    "translator": "McCauley"
+  }
+}

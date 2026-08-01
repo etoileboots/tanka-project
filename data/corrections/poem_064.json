@@ -1,0 +1,312 @@
+{
+  "poem_number": 64,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-28T07:14:33.715939+00:00"
+    },
+    "devices": {
+      "宇治の川ぎり": {
+        "status": "confirmed",
+        "original": {
+          "word": "宇治の川ぎり",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T07:15:48.549859+00:00"
+      },
+      "ぜぜ": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "ぜぜ",
+          "color": "#F28FC0"
+        },
+        "reviewed_at": "2026-07-28T07:14:23.332210+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:16:01.362033+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:16:02.079175+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:16:07.179516+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:16:08.430241+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "rifting mist": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "rifting mist",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-28T07:16:35.154745+00:00"
+        },
+        "Zeze": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Zeze",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T07:16:44.688104+00:00"
+        }
+      },
+      "lines": {
+        "5": {
+          "status": "corrected",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-28T07:16:57.238118+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:16:59.391020+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:16:59.991253+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:17:00.724079+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:17:01.257889+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:17:03.259025+00:00"
+        }
+      },
+      "device_links": {
+        "rifting mist": {
+          "status": "corrected",
+          "original": {
+            "word": "rifting mist"
+          },
+          "corrected": {
+            "source_word": "宇治の川ぎり"
+          },
+          "reviewed_at": "2026-08-01T02:02:20.473829+00:00"
+        },
+        "zeze": {
+          "status": "corrected",
+          "original": {
+            "word": "zeze"
+          },
+          "corrected": {
+            "source_word": "ぜぜ"
+          },
+          "reviewed_at": "2026-08-01T02:02:24.572296+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "morning mist": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "morning mist",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-28T07:17:44.073296+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:17:47.423916+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:17:48.040181+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-28T07:17:58.189780+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-28T07:18:08.655294+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:18:11.188645+00:00"
+        }
+      },
+      "device_links": {
+        "morning mist": {
+          "status": "corrected",
+          "original": {
+            "word": "morning mist"
+          },
+          "corrected": {
+            "source_word": "宇治の川ぎり"
+          },
+          "reviewed_at": "2026-08-01T02:02:11.372281+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:18:21.373831+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:18:32.672164+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:18:33.071722+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:18:41.422780+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:18:41.821126+00:00"
+        }
+      },
+      "devices": {
+        "early dawn": {
+          "status": "removed",
+          "original": {
+            "word": "early dawn",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:18:23.024234+00:00"
+        },
+        "mists": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "mists",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-28T07:18:30.221360+00:00"
+        }
+      },
+      "device_links": {
+        "mists": {
+          "status": "corrected",
+          "original": {
+            "word": "mists"
+          },
+          "corrected": {
+            "source_word": "宇治の川ぎり"
+          },
+          "reviewed_at": "2026-08-01T02:02:14.988173+00:00"
+        }
+      }
+    }
+  }
+}

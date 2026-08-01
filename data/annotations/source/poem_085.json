@@ -1,0 +1,59 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker lies awake all night lost in painful thoughts of love, waiting through a night that will not end",
+    "shimo_theme": "Even the crack/gap in the bedroom door or shutters, through which dawn light should show, seems cruelly indifferent, refusing to reveal the coming of daylight",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The kami-no-ku establishes the speaker's sleepless, anguished waiting through the night; the shimo-no-ku pivots from the speaker's own inner state to project that same cruelty (つれなし) onto an inanimate detail of the room — the sliver of the door/shutter that will not let dawn light in. The poem's point is that even this tiny physical gap, which should admit the relief of daybreak, behaves with the same heartless indifference as an unresponsive lover, deepening the speaker's suffering by extending emotional betrayal to the physical world itself."
+  },
+  "kigo": {
+    "word": "ねや",
+    "season": "none",
+    "note": "Bedroom (neya) is a conventional setting for love-longing poems but is not itself a seasonal marker; the poem is fundamentally a love poem (koi) rather than a seasonal one, focused on the psychological suffering of waiting through the night for an unresponsive lover or for dawn.",
+    "confidence": "low"
+  },
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "明けやらぬ",
+      "ku": 3,
+      "reading_primary": "あけやらぬ",
+      "reading_secondary": "あけやらぬ",
+      "interaction": "Primarily functions literally as 'not yet dawning/breaking' (of night into day), but classically resonates with the sense of a relationship or feeling not resolving/opening — however here the grammatically operative reading is singular (dawn not breaking), so this is best treated as strongly loaded diction rather than a true double-grammar pivot.",
+      "confidence": "low"
+    }
+  ],
+  "furigana": [
+    {
+      "kanji": "夜",
+      "reading": "よ"
+    },
+    {
+      "kanji": "物思ふ",
+      "reading": "ものおもふ"
+    },
+    {
+      "kanji": "頃",
+      "reading": "ころ"
+    },
+    {
+      "kanji": "明",
+      "reading": "あ"
+    },
+    {
+      "kanji": "閨",
+      "reading": "ねや"
+    }
+  ],
+  "poem_number": 85,
+  "poet": "Junei Hoshi",
+  "source_jp": "夜もすがら\n物思ふ頃は\n明けやらぬ\nねやのひまさへ\nつれなかりけり"
+}

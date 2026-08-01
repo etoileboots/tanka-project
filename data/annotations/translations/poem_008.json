@@ -1,0 +1,378 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Source paradox is between hermit's contented self-perception (kami) and outsiders' misjudgment (shimo). Dickens compresses kami to a mere geographic statement (line 1-2) and shimo to the naming (line 3), but then adds a defiant 'Yet still do I dwell here' (line 4) which reassigns the contented-dwelling idea from kami into a rebuttal placed AFTER the naming — inverting the original order where the speaker's calm self-description comes first and the world's label comes second. This produces a displaced structure: instead of irony (world calls it X, but I calmly just live), it becomes a stated contrast/defiance (world calls it X, BUT despite that I still live here), turning paradox into a more explicit adversative structure."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "うぢ(山)",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Yo-uji / mountain call",
+        "note": "Dickens transliterates 'Yo-uji' as a place name (mountain name), preserving only the toponymic surface reading; the pun on 憂し (wretched) is entirely lost, with no English word carrying that secondary emotional sense."
+      },
+      {
+        "original_word": "世",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "(absorbed into 'Yo-uji')",
+        "note": "世 is folded into the transliterated compound 'Yo-uji' rather than rendered as 'world/life'; neither 'this world/my life' nor 'night' readings are conveyed — it functions merely as part of a proper noun transliteration."
+      },
+      {
+        "original_word": "しか",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "(implied in 'still do I dwell')",
+        "note": "The 'thus/so' sense of しか is rendered loosely via 'still do I dwell here,' capturing the notion of continuing to live in this manner, but there is no trace of the deer (鹿) association — no cry, animal, or autumn imagery appears anywhere in the translation."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No imagery evocative of deer, autumn, or seasonal melancholy appears; 'thus I dwell' is reduced to 'still do I dwell here,' a purely temporal/defiant statement devoid of any seasonal undertone."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "My cabin lies in Tatsumi (southeast)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "near the capital (Miako)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "People call my mountain 'Yo-uji' (Ujiyama transliterated with 世 folded in)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Yet still do I dwell here (defiant continuation, loosely rendering しかぞすむ)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Line 4 relocates and transforms the kami-ku's 'shika zo sumu' content to after the naming (shimo), reversing chronological/rhetorical order of the original and turning the poem into an assertion of defiance rather than an ironic juxtaposition of self-perception vs. others' label."
+    },
+    "translator_strategy": "Dickens prioritizes a tidy rhymed quatrain and transliterated proper nouns (Tats'mi, Miako, Yo-uji) over reproducing the kakekotoba's double meanings, sacrificing both the 憂し pun and the 鹿 undertone to achieve metrical/rhyme closure in English verse.",
+    "overall_fidelity": "low",
+    "poem_number": 8,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "Noguchi preserves the basic ironic structure — 'here like this I live alone' (contented dwelling) versus 'people call here Ujiyama / World-sad Hill' (outsiders' judgment) — but the paradox is softened by rendering it as a simple explanatory gloss rather than an ironic clash. The ironic gap is present but its sharpness is reduced since the speaker's own contentment ('alone' rather than something more clearly serene/sufficient) is thinner, making the contrast feel more descriptive than pointedly paradoxical."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "うぢ(山)",
+        "reading_preserved": "both",
+        "method": "explained",
+        "en_equivalent": "Ujiyama (\"World-sad Hill\")",
+        "note": "Noguchi transliterates the place name and then appends an explanatory parenthetical gloss '(The World-sad Hill)' that explicitly unpacks the pun for the English reader, achieving both readings but through overt explanation rather than a single word doing double duty."
+      },
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "World-sad",
+        "note": "The 'World' in 'World-sad Hill' captures 世 as 'world/life,' folding it into the explanatory compound, but the nuance of 世 as 'my particular lot/this life here' rather than 'the world' generally is diminished; it becomes more generic to reinforce the pun gloss than to carry an independent double meaning."
+      },
+      {
+        "original_word": "しか",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "like this",
+        "note": "Noguchi renders しか only as 'like this,' the 然 (thus) sense; there is no trace of 鹿 (deer) or the autumn solitude topos — the secondary reading is entirely lost."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No deer imagery, no autumn atmosphere, and no seasonal undertone survives; 'like this I live alone' conveys solitude but not specifically an autumnal or animal-cry-inflected melancholy — the seasonal layer embedded in しか/鹿 is entirely lost."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "My hut is southward of the city — combines 'wa ga io wa' and 'miyako no tatsumi'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "here like this I live alone — renders しかぞすむ, adding 'alone' as interpretive gloss on solitary dwelling",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Why, people call here Ujiyama — renders 世をうぢ山と人はいふなり, compressing the yo/Ujiyama pun setup and the reporting verb into one line",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "(The \"World-sad Hill\")! — an explanatory parenthetical translating/glossing the kakekotoba embedded in Ujiyama, expanding one ku's pun into a separate explanatory line",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Noguchi compresses kami-no-ku (3 ku) into 2 lines and expands the shimo-no-ku's single kakekotoba into an extra explanatory parenthetical line, effectively adding a line not structurally present in the 5-ku original in order to gloss the pun directly for an English readership."
+    },
+    "translator_strategy": "Noguchi prioritizes making the central pun transparent to English readers by transliterating the place name and then explicitly glossing its punning meaning in a bracketed aside, sacrificing the subtler deer/autumn undertone and the ironic tension's sharpness for clarity of the wordplay.",
+    "overall_fidelity": "medium",
+    "poem_number": 8,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "paradox",
+      "note": "Porter runs the poem into a single continuous narrative from dwelling location to the naming of it 'Hill of Care.' The paradox is weakened: there's no explicit contrast between the hermit's own contentment and others' perception of misery. The kami section never voices the speaker's calm self-satisfaction ('thus I dwell' / しかぞすむ is reduced to a place-name connector 'so'); the poem reads more as a single descriptive statement plus an appended folk-etymology ('the people all declare / my life's a Hill of Care') than as an ironic gap between two perspectives. The bipartite turn survives only faintly as 'so / the people all declare' introducing the shimo idea, but the emotional contrast (my peace vs. their judgment) is not dramatized."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "うぢ(山)",
+        "reading_preserved": "both",
+        "method": "bilingual_pun",
+        "en_equivalent": "Mount Uji ... Hill of Care",
+        "note": "Porter cleverly renders the pun by giving both the toponym 'Mount Uji' (L4) and its punning meaning 'Hill of Care' (L6) as a translation-gloss, effectively splitting the kakekotoba across two lines rather than fusing it into one word, but both readings are present in English."
+      },
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "life",
+        "note": "'My life's a Hill of Care' picks up 世 as 'life/lot,' preserving that half of the pun, but the sense of 世 as 'this place/mountain' is folded entirely into 'Mount Uji' rather than doubled through one word; the two senses are distributed across separate lines rather than compressed into a true double meaning within a single word."
+      },
+      {
+        "original_word": "しか",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "so",
+        "note": "しかぞすむ is reduced to the connective 'so' (L4), losing both the 'thus I dwell' contented self-description and any trace of the deer (鹿) association; no autumn deer imagery survives at all."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal imagery survives; しか is rendered merely as the connective 'so,' erasing any trace of the deer/autumn undertone. The poem reads as a purely spatial/emotional statement with no seasonal atmosphere."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "My home is near the Capital",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "My humble cottage bare (elaborates 庵)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Lies south-east on (たつみ, capital's southeast)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Mount Uji; so (compresses しかぞすむ into a place-name transition)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The people all declare (人はいふなり)",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "My life's a 'Hill of Care' (unpacking 憂し pun)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the compact 5-ku poem into 6 rhyming lines, splitting single ku across multiple lines (庵 across L1-L2) and merging others (しかぞすむ + うぢ山 across L3-L4), while relocating the kakekotoba's secondary meaning to a separate closing line (L6) rather than fusing it into the place-name itself."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, aphoristic English quatrain-style closure ('Hill of Care') that makes the wordplay explicit for an English reader, sacrificing the deer-echo and the ironic tension between self-perception and outside judgment in favor of clarity and rhyme.",
+    "overall_fidelity": "medium",
+    "poem_number": 8,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation maintains the basic two-part structure: hermit's contented self-description (L1-3) followed by outsiders' judgment (L4-5). However, the irony is softened: 'Thus I choose to dwell' emphasizes agency/choice rather than simple contented dwelling, and 'Mount of Gloom' is a direct gloss of Ujiyama's pun rather than allowing the toponym itself to carry the double meaning, so the paradox is explained rather than enacted through wordplay."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "うぢ(山)",
+        "reading_preserved": "secondary_only",
+        "method": "explained",
+        "en_equivalent": "Mount of Gloom",
+        "note": "McCauley translates the placename directly as its emotional connotation ('Mount of Gloom'), losing the actual toponym 'Uji' entirely. The pun's mechanism (place name sounding like 'wretched') is dissolved into a straightforward emotional label; readers get the secondary meaning as if it were the primary, denotative name, with no trace of the real place-name reading."
+      },
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal",
+        "en_equivalent": "the world in which I live",
+        "note": "'World' captures 世 as 'my present existence/life' reasonably well, but doesn't achieve any double meaning with 'night' (which the source analysis itself notes is only weakly operative); this is a straightforward, competent single-meaning rendering."
+      },
+      {
+        "original_word": "しか",
+        "reading_preserved": "primary_only",
+        "method": "literal",
+        "en_equivalent": "Thus I choose to dwell",
+        "note": "'Thus' captures 然 cleanly but there is no trace of 鹿 (deer) or the autumn deer-cry association; the secondary evocation is entirely lost, and 'choose' even adds an interpretive gloss (agency) not present in the terse original 'shika zo sumu.'"
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No trace of the deer/autumn undertone survives; 'Thus I choose to dwell' is purely about manner of living, with no imagery evoking solitude, cry, or season. The seasonal association carried by しか's pun on 鹿 is entirely lost."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "My hut is humble/lowly",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Southeast of the capital",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Thus I dwell (with added interpretive 'choose')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The world/life I live in (world=yo)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "People call it 'Mount of Gloom' (fuses uji-yama pun directly into English label, plus 'men have named' = hito wa ifu nari)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Fairly literal 1:1 line-to-ku mapping except line 5 compresses both the toponym-pun and the reporting verb (hito wa ifu nari) into a single line, resolving the pun outright as 'Mount of Gloom' rather than preserving 'Uji' as a place-name with covert meaning."
+    },
+    "translator_strategy": "McCauley prioritizes clarity and explicit sense-making over preserving wordplay, resolving the Ujiyama pun into a direct emotional epithet ('Mount of Gloom') and sacrificing both the deer-association of しか and the place-name's phonetic double meaning in favor of a smoothly readable, moralizing English quatrain-plus.",
+    "overall_fidelity": "medium",
+    "poem_number": 8,
+    "translator": "McCauley"
+  }
+}

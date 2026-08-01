@@ -1,0 +1,69 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The tangled, disordered pattern of Shinobu-dyed cloth from Michinoku — a fixed image of chaotic interwoven lines used here as jokotoba/simile",
+    "shimo_theme": "The speaker's own heart thrown into disordered longing, and the question of whose fault (whose love) has caused this — protesting that it is not the speaker's own doing",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The kami-no-ku describes the visually tangled, irregular dye-pattern of shinobu-zuri cloth; this physical image of 'midare' (disarray) is not stated as metaphor but functions as a jokotoba that phonetically and semantically slides into the shimo's midare-someni-shi (my heart has become disordered/dyed with longing) — the cloth's random tangled pattern IS the speaker's tangled heart, the comparison implicit rather than declared with 'like' or 'as'."
+  },
+  "kigo": {
+    "word": "しのぶもぢずり",
+    "season": "none",
+    "note": "Shinobu-zuri is a famous textile/place-name image (Michinoku) but carries no seasonal marker — it functions as a conventional utamakura (poetic place-name) evoking rustic disorder and longing rather than season. No true kigo is present in this poem; the imagery is textile/emotional, not seasonal."
+  },
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "しのぶ",
+      "ku": 2,
+      "reading_primary": "しのぶ (place name / cloth type, Shinobu-zuri)",
+      "reading_secondary": "忍ぶ (to endure secretly, to conceal one's love)",
+      "interaction": "The word names the specific tangled-dye cloth of the Shinobu district while simultaneously invoking 'to endure/conceal' — suggesting the speaker's secret, endured love that has now broken into visible disorder, paralleling the cloth's chaotic pattern becoming a public sign of hidden feeling made manifest."
+    },
+    {
+      "word": "乱れそめにし",
+      "ku": 4,
+      "reading_primary": "乱れ初めにし (began to become disordered)",
+      "reading_secondary": "乱れ染めにし (became disordered/dyed, echoing the dyeing of the cloth)",
+      "interaction": "そめ operates as a pivot between 初め (began) and 染め (dyed), linking the onset of the speaker's emotional disarray to the physical dyeing process of the shinobu-zuri cloth introduced in the kami-no-ku, fusing the jokotoba's textile imagery with the shimo's confession of unbidden passion."
+    }
+  ],
+  "jokotoba": {
+    "text": "みちのくの しのぶもぢずり",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "乱れ (disorder) — the tangled dye-pattern of shinobu-zuri cloth introduces the idea of 'midare' which is then applied to the speaker's heart",
+    "function": "Establishes an extended, freely composed (not fixed) image of the famous Michinoku shinobu-zuri cloth, whose randomly tangled dye pattern serves as the vehicle that leads, via the shared idea of 'midare' (disarray), into the shimo-no-ku's description of the speaker's heart thrown into confused longing."
+  },
+  "furigana": [
+    {
+      "kanji": "誰",
+      "reading": "たれ"
+    },
+    {
+      "kanji": "故",
+      "reading": "ゆゑ"
+    },
+    {
+      "kanji": "乱",
+      "reading": "みだ"
+    },
+    {
+      "kanji": "我",
+      "reading": "われ"
+    }
+  ],
+  "poem_number": 14,
+  "poet": "Kawara no Sadaijin",
+  "source_jp": "みちのくの\nしのぶもぢずり\n誰故に\n乱れそめにし\n我ならなくに"
+}

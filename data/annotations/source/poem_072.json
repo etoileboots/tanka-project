@@ -1,0 +1,99 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "高師の浜",
+      "ku": 2,
+      "reading_primary": "Takashi no hama (place name)",
+      "reading_secondary": "implicit 高し (high/lofty, as in high waves)",
+      "interaction": "The place name Takashi-no-hama (a famous shore) resonates with 高し 'high,' reinforcing the image of waves rising high, though the primary function is toponymic; some commentators note this associative overtone but it is not a fully independent grammatical pivot.",
+      "confidence": "low"
+    },
+    {
+      "word": "あだ浪",
+      "ku": 3,
+      "reading_primary": "adanami (fickle/inconstant waves)",
+      "reading_secondary": "adanami evokes ada (仇/徒 - fickle, faithless) applied metaphorically to a faithless lover",
+      "interaction": "あだ浪 literally means 'wanton/inconstant waves' but simultaneously characterizes the faithless man being warned against — the waves that carelessly wet the shore stand for his fickle advances, so 'wave' and 'faithless suitor' are fused in one word.",
+      "confidence": "high"
+    },
+    {
+      "word": "かけじ",
+      "ku": 4,
+      "reading_primary": "kakeji (I will not let [the waves/my heart] be involved/touch)",
+      "reading_secondary": "kake- from 掛く 'to hang/entrust one's heart' combined with 懸けじ 'will not risk/engage'",
+      "interaction": "かけ carries both the sense of waves 'breaking upon/touching' the shore and of the speaker 'engaging her heart' with the man's advances — she vows not to let either happen.",
+      "confidence": "medium"
+    },
+    {
+      "word": "ぬれ",
+      "ku": 5,
+      "reading_primary": "nure (to become wet, of sleeves from waves/spray)",
+      "reading_secondary": "nure also conventionally signifies weeping/being overcome with emotion (tears wetting sleeves)",
+      "interaction": "The literal wetting of sleeves by wave-spray doubles as the wetting of sleeves with tears of heartbreak, so the coastal image and the emotional consequence of a love affair are simultaneously present in one word.",
+      "confidence": "high"
+    }
+  ],
+  "jokotoba": {
+    "text": "音にきく高師の浜のあだ浪は",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "かけ",
+    "function": "The opening three ku build an extended image of a famous shore (Takashi-no-hama) known for its restless, faithless waves, purely by reputation ('I hear tell'), which then pivots via かけ (both 'waves breaking/touching' and 'engaging one's heart') into the speaker's resolve not to let a faithless man's advances touch her heart."
+  },
+  "honkadori": {
+    "source_poem": "Man'yōshū-derived proverbial association of Takashi-no-hama with inconstant waves, echoed in earlier Kokinshū-era poems using 高師の浜のあだ波 as a stock image for a fickle lover's advances",
+    "source_poet": "traditional/anonymous convention",
+    "echoed_phrase": "高師の浜のあだ浪",
+    "function": "invokes the established poetic reputation of Takashi-no-hama as a place proverbially associated with restless, untrustworthy waves, transferring that reputation onto the human lover being distrusted"
+  },
+  "kigo": {
+    "word": "浜",
+    "season": "none",
+    "note": "Takashi-no-hama is a famous utamakura (poetic place name) associated with waves rather than any specific season; the poem's imagery of waves and shore is conventional love-poem scenery, not seasonal. No explicit seasonal marker (blossom, snow, moon, autumn wind, dew, frost, insects, birds) appears anywhere in the text — the wave/shore imagery here functions purely as a metaphor for an inconstant lover's advances, placing this poem in the Love (恋) category rather than any of the four seasons.",
+    "confidence": "low"
+  },
+  "furigana": [
+    {
+      "kanji": "音",
+      "reading": "おと"
+    },
+    {
+      "kanji": "高師",
+      "reading": "たかし"
+    },
+    {
+      "kanji": "浜",
+      "reading": "はま"
+    },
+    {
+      "kanji": "浪",
+      "reading": "なみ"
+    },
+    {
+      "kanji": "袖",
+      "reading": "そで"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The famous, reputedly wanton waves of Takashi-no-hama, known only by hearsay, introduced as a scene-setting image",
+    "shimo_theme": "The speaker's resolve not to let her heart (or sleeves) be touched by a faithless man's advances, for fear of the tears/heartbreak that would follow",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The wave imagery of the kami-no-ku is never abandoned but transforms, via the pivot かけ, into a direct statement about the speaker's emotional guardedness — the waves that carelessly wet the shore become the metaphorical vehicle for a fickle lover's advances, and the poem's entire force rests on holding 'wave touching shore' and 'man touching my heart' as one continuous image."
+  },
+  "poem_number": 72,
+  "poet": "Yushi Naishinnoke Kii",
+  "source_jp": "音にきく\n高師の浜の\nあだ浪は\nかけじや袖の\nぬれもこそすれ"
+}

@@ -1,0 +1,389 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "paradox",
+      "note": "The translator retains the basic structure of a conditional trick (kami) being overturned by a refusal (shimo), but compresses the pivot into a single 'thou ne'er canst cheat' clause that blurs the boundary between the two parts. The paradox of a barrier that resists a proven trick is preserved in sense but the elegant collision of allusion and rebuff is flattened into a straightforward contrast, weakening the structural distinctiveness of kami vs shimo."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "morning",
+        "note": "The translator substitutes a temporal marker ('morn'/'morning') for the night-meeting pun, losing both the 'night' and 'world/meeting' senses of よ; the wordplay bridging 夜 and 世 is not attempted at all."
+      },
+      {
+        "original_word": "あふさか",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Ausaka's gate",
+        "note": "Ausaka is rendered as a literal place name/barrier ('Ausaka's gate') without any attempt to signal the pun on 逢ふ (to meet); the secondary meeting-sense is lost, though the primary barrier-sense survives clearly."
+      },
+      {
+        "original_word": "はかる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "cheat",
+        "note": "The translator uses 'cheat' twice, which captures the trickery/deceit sense of はかる (謀る) well, but the secondary reckoning/scheming nuance (計る) is not distinctly rendered; only the primary deceptive sense survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "false cock-crow",
+      "note": "As in the source, no true seasonal marker exists in the original; the translator's 'false cock-crow' and 'morn' imagery are narrative/allusive rather than seasonal, consistent with the source analysis's conclusion that this poem lacks a genuine kigo."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "The translator compresses the jokotoba narrative (ku1-3) into four lines with added explanatory material ('Kan-kok'-kan') and then folds the pivot and shimo declaration into the final two lines, blurring the original ku boundaries; the repeated word 'cheat' bridges kami and shimo, creating a rhetorical echo not present in the source's structure.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the concessive 'though' framing and the barrier guardians, corresponding to the night-deep setting and the barrier trick premise.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Names the Chinese pass (Kankokukan) explicitly and the false cock-crow ruse, an explanatory expansion of 鳥の空音 and its legendary context.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Continues describing the successful deception ('might'st cheat, and thus anticipate'), corresponding to はかる.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Pivots to the assertion that the addressee cannot deceive the speaker regarding Ausaka, blending はかる's negation with the よにあふさか transition.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Names Ausaka's gate directly, corresponding to あふさかの関.",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "States the barrier will hold firm until morning, corresponding to 関はゆるさじ, though 'until the morning' is an added temporal frame not explicit in the source's ゆるさじ.",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens prioritizes narrative clarity and rhymed verse form over preserving the wordplay, explicitly naming the Chinese pass and expanding the allusion into readable English couplets while sacrificing the kakekotoba's double meanings almost entirely.",
+    "overall_fidelity": "medium",
+    "poem_number": 62,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation preserves the basic contrast between the attempted trick (lines 1-2) and the refusal at the gate (lines 3-4), but the paradox is weakened because the Meng Changjun legend and the deception's prior 'success' elsewhere are not evoked — it reads as a simple two-part 'you might try X, but Y won't allow it' rather than a witty allusion-based reversal."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "Thou might",
+        "note": "No trace of the night/world double meaning survives; the temporal 'night' setting from the jokotoba is dropped entirely and no pun on 世 is attempted."
+      },
+      {
+        "original_word": "あふさか",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "Ausaka gate",
+        "note": "The place name is kept literally as a proper noun ('Ausaka gate'), preserving the barrier's identity, but the pun on 逢ふ (to meet, as lovers) is not activated in English — no wordplay signals the romantic meaning."
+      },
+      {
+        "original_word": "はかる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "cheat me",
+        "note": "‘Cheat me’ captures the deceive/trick sense of はかる directly, but the secondary nuance of 'reckon/scheme' as a broader calculation is not conveyed."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "false voice",
+      "note": "As the source analysis notes, there is no true kigo in this poem (the birdcall is legendary/narrative rather than a seasonal marker), and this translation likewise carries no seasonal imagery or atmosphere — 'false voice of a bird' remains purely narrative/allusive rather than naturalistic."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four lines, dropping the 'night' (夜をこめて) imagery entirely and merging the jokotoba's narrative allusion into a simple two-line setup before pivoting to the barrier refusal.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "Attempted deception ('Thou might'st try to cheat me') combines the night-ruse setup and the はかる (deceive) verb, but omits explicit night imagery.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The false birdcall (鳥の空音) rendered as 'the false voice of a bird'.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Naming of the Ausaka barrier as the site of refusal.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Declaration that the gate will not permit entry, combining the 逢ふ pun's implication and the final 許さじ (will not permit).",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Noguchi prioritizes plain narrative clarity and compact quatrain form over preserving the poem's wordplay, allusion, and seasonal/temporal texture, rendering the poem as a straightforward statement of refusal rather than an intricate pun-laden rebuff.",
+    "overall_fidelity": "medium",
+    "poem_number": 62,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "Porter turns the poem into a single continuous scolding statement rather than a two-part rhetorical structure with a pivot; the paradox of a trick that works elsewhere but fails at Ausaka is flattened into a straightforward refusal ('twill not / Unlock the tollbar gate'), losing the allusive tension between the Chinese legend's success and the Ausaka barrier's resistance. The bipartite division is present in sequence (lines 1-3 recount the ruse, lines 4-5 assert the refusal) but the paradoxical, elegant collision of legend-vs-reality is diluted into a literal admonishment, more narrative continuity than pivot."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "to-night",
+        "note": "Porter renders よ only as 'night' (to-night), preserving the literal nocturnal sense but entirely losing the 世 'in this world/state of affairs' resonance that reinforces the Ausaka pun; the double layering collapses into a single temporal marker."
+      },
+      {
+        "original_word": "あふさか",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "tollbar gate",
+        "note": "The place name Ausaka and its pun on 逢ふ 'to meet' is replaced by the generic phrase 'tollbar gate', which conveys the barrier/checkpoint sense but discards both the specific place name and the romantic 'meeting' double meaning entirely — the wordplay vanishes."
+      },
+      {
+        "original_word": "はかる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "imitate",
+        "note": "'Imitate' captures the deceptive mimicry of the cockcrow (謀る, to trick) but drops the secondary sense of 'to reckon/scheme' (計る), leaving only the surface act of imitation without the fuller doubled nuance of calculated deception."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "daylight",
+      "note": "There is no true kigo in the source poem (the birdcall is legendary/narrative, not seasonal), and Porter's translation likewise introduces no seasonal imagery; 'daylight' simply marks the resolution of the night-versus-day framing without invoking any season."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Addressing the visitor who has lingered too long at night",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Even though you imitate (the cockcrow)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The crowing of a cock, referencing the false birdcall ruse",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "It will not unlock the tollbar gate — the Ausaka barrier will not open",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "You must wait until daylight — an extrapolated closing admonition reinforcing the refusal",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the extended jokotoba narrative (ku 1-3) into two brisk lines and turns the shimo-no-ku's punning barrier metaphor into a literal, moralizing conclusion ('Till daylight must you wait') that has no direct textual equivalent in the source, functioning as an interpretive gloss rather than translation of specific words."
+    },
+    "translator_strategy": "Porter prioritizes producing a smooth, rhymed, colloquial English quatrain-plus-couplet that conveys the poem's basic scolding scenario, sacrificing the wordplay, place-name pun, and allusive density of the original for narrative clarity and metrical polish.",
+    "overall_fidelity": "low",
+    "poem_number": 62,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translator keeps the two-part structure — a concessive clause about the deceptive cockcrow followed by a firm rebuttal at Ausaka's gate — and the 'though...yet' construction faithfully signals the paradoxical logic (a trick that works elsewhere will not work here). However, the pun on Ausaka as both place and 'meeting' is lost, so the paradox reads as a simple physical-barrier claim rather than the layered romantic rebuff of the original, weakening the full rhetorical force of the bipartite structure."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "middle night",
+        "note": "The translation renders 夜をこめて as 'in middle night', capturing only the temporal/nocturnal sense; the secondary sense of 世 (worldly, ongoing state of affairs) tied to よにあふ is entirely absent, and the pivot into 'meeting' is not rendered at all in this line."
+      },
+      {
+        "original_word": "あふさか",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "note": "The translator renders it simply as the place name 'Ausaka's gate', preserving only the literal barrier/place meaning; the pun on 逢ふ (to meet, as lovers) is not signaled anywhere in the English text, so the romantic double meaning collapses into a purely geographic reference."
+      },
+      {
+        "original_word": "はかる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "note": "Rendered as 'may be deceived', which captures the 'trick/deceive' sense (謀る) accurately but drops the secondary sense of 'reckon/scheme' (計る); only one reading survives, and it is done via straightforward paraphrase rather than a pun."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "feigned crow",
+      "note": "As the source analysis notes, this poem contains no true kigo — the birdcall is a legendary/narrative element from the Meng Changjun tale, not a natural seasonal signal. The translation's 'feigned crow of the cock' preserves the narrative allusion but, consistent with the source, carries no seasonal atmosphere at all; no season is named or implied anywhere in the English text."
+    },
+    "line_mapping": {
+      "confidence": "high",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Sets the temporal scene 'in middle night' corresponding to 夜をこめて.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The feigned/false crow of the cock, corresponding to 鳥の空音.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The concessive clause 'some may be deceived' rendering はかるとも.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Naming Ausaka's gate, corresponding to よにあふさかの関, though the 'meeting' pun is dropped.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The firm refusal 'this can never be achieved' rendering 関はゆるさじ.",
+          "origin": "source"
+        }
+      ],
+      "structural_note": "The five English lines map almost one-to-one onto the five ku, preserving the original's sequential unfolding without compression or inversion, though the semantic richness of the kakekotoba in ku 4 is flattened into a single literal place-name reference."
+    },
+    "translator_strategy": "McCauley prioritizes a clear, metrically regular narrative retelling of the poem's surface logic (the cockcrow trick versus the barrier's refusal) at the expense of reproducing its layered wordplay, particularly the Ausaka/meeting pun and the 世/夜 double sense.",
+    "overall_fidelity": "medium",
+    "poem_number": 62,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "poem_number": 9,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "世": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "世",
+          "color": "#F28FC0",
+          "note": "Meaning world and relationships"
+        },
+        "reviewed_at": "2026-08-01T00:29:48.382889+00:00"
+      },
+      "ふる": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "ふる",
+          "color": "#F28FC0",
+          "note": "old/fall"
+        },
+        "reviewed_at": "2026-08-01T00:32:25.980240+00:00"
+      },
+      "ながめ": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "ながめ",
+          "color": "#F28FC0",
+          "note": "long rain/gaze at"
+        },
+        "reviewed_at": "2026-08-01T00:32:46.022239+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:33:06.517640+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:33:07.210083+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:33:07.628887+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:33:08.019979+00:00"
+        }
+      },
+      "device_links": {
+        "winter-rains": {
+          "status": "corrected",
+          "original": {
+            "word": "winter-rains"
+          },
+          "corrected": {
+            "source_word": "ふる"
+          },
+          "reviewed_at": "2026-08-01T00:33:30.353695+00:00"
+        },
+        "wearily": {
+          "status": "corrected",
+          "original": {
+            "word": "wearily"
+          },
+          "corrected": {
+            "source_word": "ふる"
+          },
+          "reviewed_at": "2026-08-01T00:33:34.002235+00:00"
+        }
+      },
+      "devices": {
+        "mourn": {
+          "status": "confirmed",
+          "original": {
+            "word": "mourn",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:33:44.569220+00:00"
+        },
+        "wearily": {
+          "status": "confirmed",
+          "original": {
+            "word": "wearily",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:33:44.988185+00:00"
+        },
+        "winter-rains": {
+          "status": "confirmed",
+          "original": {
+            "word": "winter-rains",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:33:46.022787+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "idly looked upon them": {
+          "status": "confirmed",
+          "original": {
+            "word": "idly looked upon them",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:33:55.743631+00:00"
+        },
+        "under the rain": {
+          "status": "confirmed",
+          "original": {
+            "word": "under the rain",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:33:57.364284+00:00"
+        },
+        "passed away": {
+          "status": "confirmed",
+          "original": {
+            "word": "passed away",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:34:05.561508+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "color of the flower": {
+          "status": "confirmed",
+          "original": {
+            "word": "color of the flower",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:34:12.110908+00:00"
+        },
+        "has already passed away": {
+          "status": "removed",
+          "original": {
+            "word": "has already passed away",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:34:21.468665+00:00"
+        },
+        "set my gaze": {
+          "status": "confirmed",
+          "original": {
+            "word": "set my gaze",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:34:25.503853+00:00"
+        },
+        "world": {
+          "status": "removed",
+          "original": {
+            "word": "world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:34:27.071387+00:00"
+        },
+        "journey through the world": {
+          "status": "removed",
+          "original": {
+            "word": "journey through the world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:34:30.371757+00:00"
+        },
+        "passed away": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "passed away",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:34:39.967047+00:00"
+        }
+      },
+      "device_links": {
+        "has already passed away": {
+          "status": "corrected",
+          "original": {
+            "word": "has already passed away"
+          },
+          "corrected": {
+            "source_word": "ふる"
+          },
+          "reviewed_at": "2026-08-01T00:34:17.427852+00:00"
+        },
+        "passed away": {
+          "status": "corrected",
+          "original": {
+            "word": "passed away"
+          },
+          "corrected": {
+            "source_word": "ふる"
+          },
+          "reviewed_at": "2026-08-01T00:34:45.692995+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "device_links": {
+        "blossom's tint": {
+          "status": "corrected",
+          "original": {
+            "word": "blossom's tint"
+          },
+          "corrected": {
+            "source_word": "花の色"
+          },
+          "reviewed_at": "2026-08-01T00:35:01.838706+00:00"
+        },
+        "on the wane": {
+          "status": "corrected",
+          "original": {
+            "word": "on the wane"
+          },
+          "corrected": {
+            "source_word": "ふる"
+          },
+          "reviewed_at": "2026-08-01T00:35:28.541926+00:00"
+        }
+      },
+      "devices": {
+        "bloomed": {
+          "status": "removed",
+          "original": {
+            "word": "bloomed",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:02.516665+00:00"
+        },
+        "heavy showers of rain": {
+          "status": "confirmed",
+          "original": {
+            "word": "heavy showers of rain",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:03.963815+00:00"
+        },
+        "on the wane": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "on the wane",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:35:25.518574+00:00"
+        }
+      }
+    }
+  }
+}

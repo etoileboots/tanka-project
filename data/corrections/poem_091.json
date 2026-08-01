@@ -1,0 +1,370 @@
+{
+  "poem_number": 91,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "きりぎりす": {
+        "status": "confirmed",
+        "original": {
+          "word": "きりぎりす",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T11:46:37.947679+00:00"
+      },
+      "かたしき": {
+        "status": "removed",
+        "original": {
+          "word": "かたしき",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T11:44:26.759047+00:00"
+      },
+      "さむしろ": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "さむしろ",
+          "color": "#F28FC0",
+          "note": "むしろ (‘straw mat’), さむし (‘cold’), and むし (‘insect’)"
+        },
+        "reviewed_at": "2026-07-31T11:46:15.661139+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "device_links": {
+        "crickets sing": {
+          "status": "corrected",
+          "original": {
+            "word": "crickets sing"
+          },
+          "corrected": {
+            "source_word": "きりぎりす"
+          },
+          "reviewed_at": "2026-07-31T11:46:43.475738+00:00"
+        },
+        "the mat": {
+          "status": "corrected",
+          "original": {
+            "word": "the mat"
+          },
+          "corrected": {
+            "source_word": "さむしろ"
+          },
+          "reviewed_at": "2026-07-31T11:46:50.991334+00:00"
+        },
+        "frost": {
+          "status": "corrected",
+          "original": {
+            "word": "frost"
+          },
+          "corrected": {
+            "source_word": "さむしろ"
+          },
+          "reviewed_at": "2026-07-31T11:47:24.474061+00:00"
+        }
+      },
+      "devices": {
+        "the mat": {
+          "status": "confirmed",
+          "original": {
+            "word": "the mat",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:46:51.608670+00:00"
+        },
+        "raiment not yet unbound": {
+          "status": "removed",
+          "original": {
+            "word": "raiment not yet unbound",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:47:03.157258+00:00"
+        },
+        "frost": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "frost",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T11:47:20.559937+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "grasshopper": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "grasshopper",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T11:47:41.908822+00:00"
+        },
+        "unbound": {
+          "status": "removed",
+          "original": {
+            "word": "unbound",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:47:58.041214+00:00"
+        },
+        "hoard-frost": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "hoard-frost",
+            "color": "#F28FC0",
+            "note": "referring to cold"
+          },
+          "reviewed_at": "2026-07-31T11:48:50.243061+00:00"
+        }
+      },
+      "device_links": {
+        "grasshopper": {
+          "status": "corrected",
+          "original": {
+            "word": "grasshopper"
+          },
+          "corrected": {
+            "source_word": "きりぎりす"
+          },
+          "reviewed_at": "2026-07-31T11:48:55.677777+00:00"
+        },
+        "hoard-frost": {
+          "status": "corrected",
+          "original": {
+            "word": "hoard-frost"
+          },
+          "corrected": {
+            "source_word": "さむしろ"
+          },
+          "reviewed_at": "2026-07-31T11:48:54.041323+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:48:58.307984+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:48:58.774324+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:48:59.740321+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:00.357297+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:00.941024+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:01.423871+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "crickets": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "crickets",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T11:49:13.360303+00:00"
+        },
+        "across the bed": {
+          "status": "removed",
+          "original": {
+            "word": "across the bed",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:22.940818+00:00"
+        }
+      },
+      "device_links": {
+        "crickets": {
+          "status": "corrected",
+          "original": {
+            "word": "crickets"
+          },
+          "corrected": {
+            "source_word": "きりぎりす"
+          },
+          "reviewed_at": "2026-07-31T11:49:16.107378+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:38.507195+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:39.058725+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:39.540614+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:39.973877+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:51:28.094950+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "chilling mat": {
+          "status": "confirmed",
+          "original": {
+            "word": "chilling mat",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:46.373668+00:00"
+        },
+        "folded quilt": {
+          "status": "removed",
+          "original": {
+            "word": "folded quilt",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:49:48.257116+00:00"
+        },
+        "cricket": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "cricket",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T11:49:57.643479+00:00"
+        }
+      },
+      "device_links": {
+        "cricket": {
+          "status": "corrected",
+          "original": {
+            "word": "cricket"
+          },
+          "corrected": {
+            "source_word": "きりぎりす"
+          },
+          "reviewed_at": "2026-07-31T11:50:00.240244+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:51:43.590725+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:51:44.140550+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:51:45.839680+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:51:47.190086+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T11:51:47.906739+00:00"
+        }
+      }
+    }
+  }
+}

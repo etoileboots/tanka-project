@@ -1,0 +1,368 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation compresses the hypothetical conditional structure of the source (if I live on, I will look back longingly) into a present-tense continuous statement ('but still must stay'), removing the future-conditional inference and replacing it with an immediate present-tense reaction ('how wistfully my eyes regard'). The pivot from general existential condition to future-nostalgic sensory image is flattened into a single continuous present-moment scene, so the inferential-sensory logic (present hypothetical leading to imagined future longing) becomes a simple cause-effect present description."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "浮世",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "this world so hard",
+        "note": "'this world so hard' conveys the 憂き (sorrowful/hard) secondary sense strongly via 'hard', but the 浮 (floating/fleeting) primary sense of transience is lost; if anything the secondary reading is what survives, not the primary, so this leans toward secondary_only in effect though the word 'world' preserves the literal referent."
+      },
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "still must stay",
+        "note": "The idea of enduring/continuing to live is present in 'must stay', but the embedded 'long' association from なが is not activated by any lexical echo in English; the conditional 'if' hypothetical is also converted into an assertion, losing the ば structure."
+      },
+      {
+        "original_word": "夜半",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "midnight moonbeams",
+        "note": "'midnight' captures the literal temporal meaning of 夜半 but there is no echo of 世/one's life or lot in this world, so the secondary resonance with 浮世 is entirely lost."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "midnight moonbeams",
+      "note": "The moon at midnight is retained as the crystallizing image, preserving the atmosphere of nocturnal contemplative sorrow associated with the autumn moon, though the word 'autumn' itself is never named, so the season is conveyed only through the moon-at-night imagery rather than explicit seasonal vocabulary."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Expresses the speaker's reluctant wish not to have to endure this harsh/fleeting world (心にもあらで浮世に)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "States that despite wishing otherwise, he must go on living (ながらへば) in the world",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Introduces present-tense wistful looking, replacing the source's future-conditional 'will be longed for' (恋しかるべき) with a present emotional reaction",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The midnight moon's tranquil movement, corresponding to 夜半の月かな",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator converts the hypothetical future-oriented structure (if I live on, I will someday long for this very moonlit night) into a continuous present-tense scene of enduring hardship and wistful gazing at the moon now, compressing the temporal displacement between present moment and imagined future nostalgia into a single unified present tableau."
+    },
+    "translator_strategy": "The translator prioritizes a smooth, metrical, rhymed English quatrain that conveys the poem's emotional gist of reluctant endurance and wistful moon-gazing, sacrificing the source's conditional/future-tense structure and its layered wordplay for lyrical clarity and closed narrative present-tense coherence.",
+    "overall_fidelity": "medium",
+    "poem_number": 68,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The hypothetical structure (ながらへば/if I live on) is compressed into a flat statement 'I am lingering', losing the conditional/future-oriented inference; the shimo then reads as a present emotional reaction to that lingering rather than a predicted future longing for this very midnight moon. The moon is still the crystallizing image, but the pivot from hypothetical future to imagined nostalgia is weakened into an immediate present-tense complaint."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "浮世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "this world",
+        "note": "Only the 'fleeting/transient world' surface sense survives as 'this world'; the 憂き世 'sorrowful world' undertone is not carried by any specific word, though 'in spite of myself' upstream supplies some emotional coloring."
+      },
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "Lingering",
+        "note": "The conditional 'if I live on long' is collapsed into a simple present participle 'Lingering', losing both the hypothetical future framing and the なが/'long duration' resonance."
+      },
+      {
+        "original_word": "夜半",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "midnight moon",
+        "note": "Only the literal 'midnight' temporal meaning survives; the echo of 世 (one's lot in life) linking back to 浮世 is not reproduced by any wordplay in English."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "midnight moon",
+      "note": "The moon is retained as the crystallizing image of longing, and 'midnight' preserves the nocturnal stillness, but no explicit season name (autumn) appears, so the seasonal atmosphere is present only through the traditional moon-at-night image rather than being named."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "In spite of myself, I am — renders 心にもあらで (against my own heart/will)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Lingering in this world — compresses 浮世に ながらへば (the fleeting/sad world, if I go on living) into a flat present-tense statement, dropping the conditional",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Ah, what longing — renders 恋しかるべき (should be longed for) as an exclamatory present feeling",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "For the midnight moon! — renders 夜半の月かな, the crystallizing image",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the five ku into four lines, merging ku2 and ku3 into a single line and losing the conditional 'if I live on' framing, which shifts the poem from a future-oriented hypothetical lament into a present-tense declaration of longing."
+    },
+    "translator_strategy": "Noguchi prioritizes brevity and emotional immediacy, compressing the poem's conditional, future-oriented structure into a compact four-line present-tense exclamation that sacrifices the kakekotoba's layered double meanings for lyrical directness.",
+    "overall_fidelity": "medium",
+    "poem_number": 68,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "Porter maintains the hypothetical-then-emotional-response structure (kami sets condition, shimo gives the future feeling tied to the moon), but shifts the logic slightly: instead of 'I will long for this midnight moon,' the moon becomes an anthropomorphized 'friend' whose loyalty is contrasted with 'other friends' being gone — this reframes the inferential-sensory pivot into a more explicit personification/companionship trope, weakening the original's subtle sound-linkage between 世 and 夜半 while keeping the overall shape of condition→future emotional attachment to the moon."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "浮世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "troubled world",
+        "note": "‘Troubled world’ captures the 憂き (sorrowful) undertone reasonably well through the adjective ‘troubled,’ but the ‘floating/fleeting’ (浮) sense of transience is lost; so this actually leans toward blending both but privileges the secondary/sorrow sense over the literal 'floating' image — still, it is rendered as a single fused adjective+noun without exploiting a double meaning in English, so it reads as primary_only in the sense that only one semantic layer (the melancholy one) survives as an explicit descriptor."
+      },
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "linger on",
+        "note": "‘Linger on’ conveys the literal sense of continuing/persisting in life, but the embedded なが (‘long’) durational nuance is not specifically echoed by any long-duration word choice; the secondary durational resonance is not distinctly rendered."
+      },
+      {
+        "original_word": "夜半",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "the moon",
+        "note": "Porter renders 夜半 not as an explicit time marker but folds it into the general moon image ('the moon,' with night implied contextually by 'shone' and 'gone'); the secondary echo of 世 (world/life) linking back to 浮世 is entirely lost, and even the literal 'midnight' timing is not explicitly named, so only a diffuse primary sense of nocturnal moon survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "the moon",
+      "note": "The moon is retained as the central image and given emotional weight as the speaker's sole comforting 'friend,' preserving the classical association of the moon with solitary contemplation and melancholy even though 'midnight' and any explicit season name are dropped; the autumn resonance is not named and the nocturnal specificity is diffused into general imagery of moonlight and loneliness."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Hypothetical condition: 'if in this troubled world' covers 心にもあらで浮世に (unwillingly, in this sad/fleeting world)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'I still must linger on' translates ながらへば (if I go on living)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'My only friend shall be the moon' compresses 恋しかるべき (will be longed for) and 夜半の月かな (the midnight moon) into a personified companionship image",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Which on my sadness shone' expands the moon's role, added descriptive imagery not explicit in source but consistent with its emotional function",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'When other friends were gone' is an extrapolated addition explaining why the moon becomes the sole object of longing (恋しかるべき), not present literally in the source",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the kami-no-ku (ku1-3) into two lines and expands the shimo-no-ku (ku4-5) into three lines, adding the invented 'friend' motif and the notion of 'other friends' being gone, which has no direct source equivalent but serves to justify the moon's emotional significance in English idiom."
+    },
+    "translator_strategy": "Porter prioritizes natural English rhyme and idiomatic sense over literal fidelity, inventing a personified 'moon as friend' motif to convey the poem's melancholy attachment to the moon while sacrificing the wordplay and sound-linkages of the original.",
+    "overall_fidelity": "medium",
+    "poem_number": 68,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation maintains the inferential-sensory structure: lines 1-3 set up the hypothetical condition of unwanted survival in the sorrowful world, and lines 4-5 give the speaker's predicted emotional response (pining) crystallized in the sensory image of the midnight moon, matching the kami/shimo pivot from general existential condition to specific image."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "浮世",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "world of sorrows",
+        "note": "McCauley renders 浮世 as 'world of sorrows,' which directly foregrounds the 憂き世 (sorrowful world) secondary reading but loses the 'floating/fleeting' literal sense of 浮 entirely; no attempt at holding both meanings simultaneously."
+      },
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "for long should live",
+        "note": "The phrase explicitly renders both the verb 'live on' and the 'long' association, but this is achieved through separate explicit words ('for long' + 'should live') rather than a true pun, so only the literal/primary sense is conveyed rather than a fused double meaning."
+      },
+      {
+        "original_word": "夜半",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "middle-night",
+        "note": "McCauley translates 夜半 literally as 'middle-night,' capturing only the temporal/literal meaning; the resonance with 世 (life/world) echoing 浮世 is not conveyed or gestured at in English."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "moon of middle-night",
+      "note": "The moon is retained as the crystallizing image, and 'middle-night' preserves the nocturnal stillness and solitude associated with the autumnal moon topos, though the season 'autumn' itself is never named explicitly."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Against my wish (心にもあらで)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "In the world of sorrows still (浮世)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "I for long should live (ながらへば)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "How then I would pine, alas! (恋しかるべき)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "For this moon of middle-night (夜半の月かな)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The five-line English translation maps almost one-to-one onto the five ku of the original, preserving both the sequence and the internal division between kami (lines 1-3) and shimo (lines 4-5) with no compression or expansion."
+    },
+    "translator_strategy": "McCauley pursues a close, line-by-line literal fidelity to each ku's surface meaning, sacrificing the compressed double meanings of the kakekotoba for clarity and explicit emotional statement.",
+    "overall_fidelity": "medium",
+    "poem_number": 68,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "poem_number": 58,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-28T04:22:19.260475+00:00"
+    },
+    "devices": {
+      "猪名": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "猪名",
+          "color": "#F28FC0",
+          "note": "River Ina/No"
+        },
+        "reviewed_at": "2026-08-01T01:45:03.253795+00:00"
+      },
+      "そよ": {
+        "status": "confirmed",
+        "original": {
+          "word": "そよ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T04:19:36.952323+00:00"
+      },
+      "風": {
+        "status": "removed",
+        "original": {
+          "word": "風",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T04:19:37.666453+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:19:49.284156+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:19:49.849911+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:19:50.716842+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:19:51.368553+00:00"
+        }
+      },
+      "devices": {
+        "Ina": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Ina",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T04:21:04.649990+00:00"
+        }
+      },
+      "device_links": {
+        "Ina": {
+          "status": "corrected",
+          "original": {
+            "word": "Ina"
+          },
+          "corrected": {
+            "source_word": "猪名"
+          },
+          "reviewed_at": "2026-08-01T01:45:18.835872+00:00"
+        },
+        "ina": {
+          "status": "corrected",
+          "original": {
+            "word": "ina"
+          },
+          "corrected": {
+            "source_word": "猪名"
+          },
+          "reviewed_at": "2026-08-01T01:45:20.753487+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:19:54.717285+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:19:55.066033+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:19:55.549266+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:19:56.099374+00:00"
+        }
+      },
+      "devices": {
+        "Inano": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Inano",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T04:20:20.525862+00:00"
+        },
+        "ah, passing": {
+          "status": "removed",
+          "original": {
+            "word": "ah, passing",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:20:32.082055+00:00"
+        },
+        "ah": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "ah",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T04:22:12.997329+00:00"
+        }
+      },
+      "device_links": {
+        "ah": {
+          "status": "corrected",
+          "original": {
+            "word": "ah"
+          },
+          "corrected": {
+            "source_word": "そよ"
+          },
+          "reviewed_at": "2026-08-01T01:43:13.820164+00:00"
+        },
+        "inano": {
+          "status": "corrected",
+          "original": {
+            "word": "inano"
+          },
+          "corrected": {
+            "source_word": "猪名"
+          },
+          "reviewed_at": "2026-08-01T01:45:34.985489+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:42.963113+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:43.862779+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:45.313378+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:47.597379+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:47.979964+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:49.933483+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:50.663377+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:51.962890+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:52.530406+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:21:53.279278+00:00"
+        }
+      },
+      "devices": {
+        "Ina": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Ina",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T04:22:01.946726+00:00"
+        },
+        "rustling winds": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "rustling winds",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T04:22:46.945044+00:00"
+        },
+        "ina": {
+          "status": "confirmed",
+          "original": {
+            "word": "ina",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:45:40.234533+00:00"
+        }
+      },
+      "device_links": {
+        "well!": {
+          "status": "corrected",
+          "original": {
+            "word": "well!"
+          },
+          "corrected": {
+            "source_word": "そよ"
+          },
+          "reviewed_at": "2026-08-01T01:43:08.809338+00:00"
+        },
+        "rustling winds": {
+          "status": "corrected",
+          "original": {
+            "word": "rustling winds"
+          },
+          "corrected": {
+            "source_word": "そよ"
+          },
+          "reviewed_at": "2026-08-01T01:43:30.070760+00:00"
+        },
+        "ina": {
+          "status": "corrected",
+          "original": {
+            "word": "ina"
+          },
+          "corrected": {
+            "source_word": "猪名"
+          },
+          "reviewed_at": "2026-08-01T01:43:35.736782+00:00"
+        }
+      }
+    }
+  }
+}

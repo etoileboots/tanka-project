@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — A Syntenic View of Poetic Translations</title>
+<link rel="stylesheet" href="about.css">
+</head>
+<body>
+<div class="article">
+  <a class="back-link" href="index.html">← Back to visualization</a>
+  <h1>About this Project</h1>
+
+  <section id="translation">
+    <p><strong class="lead-label">About translation:</strong> Translation matters. When reading any work of translation, the translator's
+      interpretation becomes intrinsically tied with, and affects, the original
+      content. In translation, things such as structure, tone, and even content
+      vary from the original work.</p>
+  </section>
+
+  <section id="motivation">
+    <p><strong class="lead-label">About motivation:</strong> This project was inspired by a curiosity for how we can better support
+      understanding and visualizing comparative translations (the study of
+      contrasting translations of the same work in terms of strategy and outcome,
+      side by side). It focuses on how visualization specifically can be used to
+      encourage this understanding.</p>
+  </section>
+
+  <section id="project">
+    <p><strong class="lead-label">About the project:</strong> This project is a digital collection of the <em>Ogura Hyakunin Isshu</em>
+      (OHI), a 13th-century Japanese poetry anthology containing 100 poems from
+      100 poets, along with four English translations of these poems. The OHI has
+      been translated over a dozen times. The choice of translators to include in
+      this analysis was determined by data availability and access; only
+      translations within the public domain were included. The translators and
+      their respective publication years are: Frederick Victor Dickens
+      (1865/1866), Yone Noguchi (1907), Clay MacCauley (1899/1917), and William Ninnis Porter (1909).</p>
+    <p>When zooming into a poem (by the up arrow key), you'll see these names abbreviated to their
+      initials: <strong>O</strong> (original), <strong>D</strong> (Dickens),
+      <strong>N</strong> (Noguchi), <strong>M</strong> (MacCauley), and
+      <strong>P</strong> (Porter). More detail on the source material itself is in
+      <a class="xref" href="#waka-poetry">About waka poetry and the OHI</a>.</p>
+    <p>The visualizations in this analysis are largely inspired by the diagrams
+      used in <em>syntenic analysis</em>. Synteny is a genomics concept used to
+      study the physical arrangement of DNA sequences and gene positions across
+      species. It is a powerful tool for studying the relationship between ancestor and
+      descendant species, measuring evolutionary distance, and identifying
+      mutations and inversions. More on synteny and how I've adapted it here is in
+      <a class="xref" href="#synteny">About synteny</a>.</p>
+  </section>
+
+  <section id="waka-poetry">
+    <p><strong class="lead-label">About waka poetry and the OHI:</strong> Waka poetry is a classical form of Japanese poetry that follows a
+      31-syllable structure arranged into a 5-7-5-7-7 meter across five ku
+      (verses). You'll notice the first three ku form a haiku.</p>
+    <p>The OHI translates to "Ogura's one hundred people, one hundred poems," and
+      contains, as the name suggests, 100 poems from 100 poets. The most
+      well-known version was collected by the anthologist Fujiwara no Teika for
+      his home near Ogura Mountain, in Kyoto.</p>
+    <p>Waka poetry is distinct for a few reasons.</p>
+    <p>First, it's divided into an upper and lower section. The first three ku
+      form the upper part, called the <strong>kami-no-ku</strong> (5-7-5), which
+      typically sets the scene through physical descriptions of nature. The last
+      two ku form the lower part, called the <strong>shimo-no-ku</strong> (7-7),
+      which often shifts to the author's internal reflection. Within these
+      sections — often overlapping — is a pivot that connects observation with
+      revelation. Translations may invert this narrative structure, or add extra
+      detail to connect the two sections.</p>
+    <p>Second, waka poetry employs various literary devices. These aren't found in
+      every waka poem, but they're common and relatively standard. This project
+      focuses on drawing out three of them:</p>
+    <div class="device-list">
+      <div class="device-list-row">
+        <span class="device-swatch" style="background:#F28FC0"></span>
+        <b>掛詞 Kakekotoba</b>
+        <span>— a "pivot word": a single phonetic word carrying two meanings at
+          once, often bridging the kami-no-ku and the shimo-no-ku.</span>
+      </div>
+      <div class="device-list-row">
+        <span class="device-swatch" style="background:#7EBBEE"></span>
+        <b>枕詞 Makurakotoba</b>
+        <span>— literally "pillow word": a fixed 5-syllable epithet placed before
+          specific words (e.g. god, mountain) to add rhythm and evoke imagery.</span>
+      </div>
+      <div class="device-list-row">
+        <span class="device-swatch" style="background:#B4DE65"></span>
+        <b>季語 Kigo</b>
+        <span>— a "season word": a word associated with a specific season (e.g.
+          cherry blossoms for spring) that signals the time of year without
+          necessarily stating the season directly-though sometimes it does.</span>
+      </div>
+    </div>
+    <p>There are several other literary techniques used in waka poetry, but these
+      are the three devices this analysis focuses on.</p>
+  </section>
+
+  <section id="synteny">
+    <p><strong class="lead-label">About synteny:</strong> A brief introduction to synteny is in <a class="xref" href="#project">About project</a>;
+      this section explains synteny's use for in visualization for comparative translation, and explains the
+      parallel I'm drawing between two seemingly disparate fields.</p>
+    <p>Synteny is useful for spotting evolutionary shifts. If two species
+      originate from one ancestor species, they'll have copied genes from that
+      ancestor, and share genes between themselves. This copying process is
+      inevitably subject to mutations such as deletions, translocations, duplications,
+      or inversions. Synteny is a way to study these changes: if genetic information and order are perfectly conserved, that's
+      perfect synteny; any of the disruptions above is disrupted synteny. There's
+      both macro- and micro-synteny. Macrosynteny looks at whether large blocks of genes remain on the same chromosome across species. 
+      Microsynteny is the conservation of local gene content..</p>
+    <p>Stated broadly: synteny helps us understand, from an
+      origin to a destination string of information, where information and order
+      was preserved, where it wasn't, and how it was modified.</p>
+    <p>In comparative translation, we can liken the original work to the
+      "ancestor gene," and the translations to descendants that draw information
+      from the ancestor but rearrange and modify it to reflect their own language
+      and context. The preservation and modification of original information and
+      structure across different translations can be viewed through the lens of
+      synteny.</p>
+    <p>This analogy works particularly well for waka poetry, which has a clear
+      structure and a defined set of literary devices. <strong>Macrosynteny</strong>
+      can be viewed as the conservation of the overall structure (kami-no-ku and
+      shimo-no-ku) — taking the content of each and seeing where meaning was
+      preserved, inverted, deleted, or mutated past recognition (resulting in an
+      "imagined line"). <strong>Microsynteny</strong> looks at the literary
+      devices, to understand the preservation of local content like the kigo and
+      kakekotoba.</p>
+    <p>Through this view, we can compare not only the original text to a
+      translation, but translations against each other — spotting patterns across
+      translators and poems to ask questions like:</p>
+    <p class="pull-quote">"What was the translator's goal in this poem — to
+      preserve the literal translation, to provide a creative reinterpretation, or
+      something else entirely?"</p>
+    <p class="pull-quote">"What in the source text is easier or more difficult to
+      translate, as seen through patterns of inheritance?"</p>
+    <p class="pull-quote">"How do the origin language and the target language
+      differ in narrative structure — does one allow the structure to be
+      preserved, or does it require shifts?"</p>
+  </section>
+
+  <section id="data-process">
+    <p><strong class="lead-label">About Data Process:</strong> For ease of understanding, a simple flowchart of the full data pipeline is
+      included below.</p>
+    <div class="flow-box">
+      <pre class="mermaid">
+flowchart TD
+    A["Raw CSV export"] --> B["ingest_csv.py"]
+    B --> C["poems_clean.csv\n100 poems, poet + JP + 4 translations"]
+    C --> D["annotate_translations.py — Pass 1\nClaude identifies source devices\n(kakekotoba, makurakotoba, kigo, structure)"]
+    D --> E["data/annotations/source/"]
+    E --> F["annotate_translations.py — Pass 2\nClaude evaluates each translation\n× 4 translators"]
+    F --> G["data/annotations/translations/"]
+    G --> H{"review_app — human review"}
+    H -->|confirm / remove / correct / add| I["data/corrections/"]
+    H -->|no changes needed| J["build_data.py"]
+    I --> J
+    C -.-> J
+    E -.-> J
+    G -.-> J
+    J --> K["site/data/poems.json"]
+    K --> L["site/ — the visualization"]
+      </pre>
+    </div>
+    <p class="flow-caption">Corrections don't trigger an automatic rebuild —
+      build_data.py is re-run manually after any annotation or correction batch.</p>
+  </section>
+
+  <section id="about-ai">
+    <p><strong class="lead-label">About AI:</strong> I used Claude in two ways during this project. First, on the Desktop app,
+      as an engineering tool to build the data pipeline, website, and
+      interactivity. Second, through its API, to run a targeted LLM prompt as a
+      first pass for identifying the structure and literary devices of the
+      original Japanese poem, and their preservation into each translation. You
+      can read the <a class="xref" href="prompts.html">exact prompt used</a>. The design of the
+      website, and of the data pipeline itself, were mine.</p>
+    <p>This project is not meant to be AI-native, nor to offer a black-box
+      solution to comparative translation as a whole. An expert Japanese/English
+      translator trained in 13th-century waka poetry would classify these
+      translations far more reliably than AI can. Finding and paying such an
+      expert for a personal project, however, isn't realistic.</p>
+    <div class="credits-note">
+      All AI classifications were spot-checked thoroughly — by me, and by a
+      trained Japanese/English translator who isn't a waka expert: my mom. She was
+      compensated in freshly baked goods and (I hope) the joy of quality time with
+      her daughter, reviewing 500 poems together.
+    </div>
+  </section>
+</div>
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'base',
+    themeVariables: {
+      background: '#ffffff',
+      primaryColor: '#ffffff',
+      primaryTextColor: '#1a1a1a',
+      primaryBorderColor: '#c9c4ba',
+      lineColor: '#a39c8f',
+      fontFamily: "'Inter', system-ui, sans-serif",
+      fontSize: '14px',
+    },
+  });
+</script>
+</body>
+</html>

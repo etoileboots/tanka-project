@@ -1,0 +1,298 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "note": "The translator keeps the cause-effect structure: dawn mist (kami) rifting/scattering (bridge) reveals stakes (shimo). However line 6 adds an extrapolated detail (the fisherman's net) not in the source, which shifts the shimo's focus from pure visual revelation of the stakes themselves to an added narrative/human action, slightly diluting the pure 'gradual unveiling' effect of the original's tae-dae ni pivot."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "dim grey light",
+      "note": "No season is named explicitly, but the 'dim grey light of early dawn' combined with mist and the cold stillness of the river scene evokes a chilly winter dawn atmosphere; the seasonal signal is carried through mood/imagery rather than an explicit word like 'winter'."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Dawn described as 'dim grey light of early dawn' — translates asaborake",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The speaker strays by Uji's river — locates scene at Uji-gawa, though 'I stray'd' introduces a first-person narrator not present in the source",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The mist 'rifting' and 'upborne' — combines the river mist image with the tae-dae ni (patchy/intermittent) breaking-apart quality",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'Scattered glimpses' given by the mist — conveys the gradual, piecemeal revelation (arawarewataru) enabled by the mist's patchiness",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The stakes of Zeze's fish-weirs (ajirogi) are named directly",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [],
+          "content_summary": "An invented detail: 'the fisher spreads his net' upon the stakes — no equivalent in the source poem, which mentions only the stakes themselves, not fishermen or net-spreading",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five ku into six rhymed lines, inserting a first-person narrator ('I stray'd') and an extrapolated closing image of a fisherman spreading his net, which is not present in the original — the source ends purely on the visual emergence of the stakes."
+    },
+    "translator_strategy": "Dickens prioritizes a fluent, rhymed English ballad-style verse over literal fidelity, adding a first-person speaker and a fisherman's net to round out the scene poetically, while still preserving the poem's core cause-and-effect movement from mist to revealed stakes.",
+    "overall_fidelity": "medium",
+    "poem_number": 64,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Uji river mist fading, establishing scene",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "early morning setting (asaborake)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "the fisher's net stakes (ajirogi) begin to appear",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "appearing here and there, rendering taedae-ni's fragmented/intermittent quality",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders the temporal markers, placing 'early morn' after the mist description rather than at the very start as in the source; the taedae-ni (patchily) concept is split and rendered at the end as 'here and there' rather than describing the mist's fragmentation directly."
+    },
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The cause-effect visual logic (mist thinning reveals stakes) is retained, but the pivot word taedae-ni is relocated to describe the stakes' appearance ('here and there') rather than the mist's own fragmentation, slightly blurring the mist-to-stakes causal chain that structures the original bipartite division."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "mists fade",
+      "note": "No season word is named, but the cold river mist at dawn imagery survives, conveying an atmosphere consistent with winter, though nothing distinguishes it from autumn mist to an English reader unfamiliar with the poem's classification."
+    },
+    "translator_strategy": "Noguchi favors a smooth, natural-sounding four-line English lyric that preserves the visual sequence of mist dissolving to reveal fish-weir stakes, at the cost of relocating the 'taedae-ni' fragmentation effect from the mist itself onto the stakes' emergence.",
+    "overall_fidelity": "medium",
+    "poem_number": 64,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        5
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Porter completely reverses the poem's logic: instead of mist thinning to reveal the ajirogi stakes one by one, his mist is 'thick' and obscures the fish-nets so that they can 'scarcely' be seen. The cause-and-effect of dissolving mist revealing objects is inverted into mist persistently concealing objects — the opposite visual-revelation direction. The temporal pivot 'tae-dae ni' (patchy, intermittent thinning) is lost entirely; instead 'past daybreak though it be' suggests the mist has not lifted despite the late hour, which contradicts the source's implication of successive revelation."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "transformed",
+      "en_equivalent": "morning mist",
+      "note": "The river mist survives as an image, but Porter reverses its function — rather than a dawn mist breaking into patches that reveals the winter scene, it becomes a thick, persistent mist that obscures vision even 'past daybreak.' This shifts the atmosphere from crisp winter dawn clarity-through-fragments to a hazy, socked-in morning, losing the specific implicit seasonal signal of thinning cold-morning river mist associated with winter Uji scenes."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Establishes thick morning mist (inverts 朝ぼらけ 宇治の川ぎり into an obscuring rather than dawn-lit mist)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Speaker's inability to see clearly — replaces the visual revelation of たえだえに あらはれわたる with a negation of sight",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The fish-nets/stakes (ぜぜの網代木), rendered generically as 'fish-nets' rather than the specific ajirogi weir stakes at Zeze",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Names the Uji River explicitly, relocated from ku2 to its own line",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Extrapolated temporal comment ('past daybreak though it be') not present in source, which merely names 朝ぼらけ (dawn) as the time, not a claim that the mist persists despite it being past dawn",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem into a single continuous sentence expressing frustration at not being able to see through thick mist, rather than the source's two-part structure of mist thinning (kami) and stakes progressively appearing (shimo). The place-name 'Zeze' is dropped and 網代木 is generalized to 'fish-nets,' collapsing specific imagery into a vaguer image."
+    },
+    "translator_strategy": "Porter prioritizes rhymed, metrical English verse over literal fidelity, freely inverting the poem's central visual logic (mist obscuring rather than dissolving to reveal) to produce a coherent rhyming quatrain-plus-line in natural English.",
+    "overall_fidelity": "low",
+    "poem_number": 64,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translator keeps the cause-effect structure: lines 1-3 describe the dawn mist over the Uji river lifting and clearing, and lines 4-5 reveal the net-stakes becoming visible as a result. The temporal/visual pivot (mist thinning -> stakes appearing) is preserved, though 'Slowly lift and clear' is a slightly more continuous, less patchy image than 'tae-dae ni' (patchily/intermittently) suggests."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "early dawn",
+      "note": "No season is named explicitly, but the imagery of mist over the river at early dawn, gradually lifting to reveal fixed net-stakes, evokes the cold stillness classically associated with the winter dawn scene at Uji; the atmosphere of chill morning mist survives even though 'winter' itself is never stated."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Sets the scene at early dawn (朝ぼらけ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Introduces the mist over the Uji river (宇治の川ぎり)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Describes the mist gradually lifting and clearing, corresponding to たえだえに (patchily/intermittently), rendered here as a continuous lifting motion rather than a fragmentary one",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The net-stakes on the shoals becoming visible, combining あらはれわたる (appearing/spreading into view) with 網代木 (the ajirogi stakes) and implicitly ぜぜ (Zeze) as 'the shoals'",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Further elaborates on the manner of appearance ('Near and far away, appear') expanding あらはれわたる into a spatial description",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the shimo-no-ku's single image (stakes appearing through the mist) across two lines (4-5), using 'Near and far away' to render the spreading/successive quality of あらはれわたる, while compressing the specific place name ぜぜ into the generic 'shoals' rather than naming Zeze explicitly."
+    },
+    "translator_strategy": "McCauley prioritizes smooth, rhyme-conscious English verse that conveys the overall dawn-mist-revealing-stakes scene, sacrificing some of the original's specific place-naming (Zeze) and its patchy, intermittent visual texture in favor of a more continuous and melodious lifting-and-appearing motion.",
+    "overall_fidelity": "medium",
+    "poem_number": 64,
+    "translator": "McCauley"
+  }
+}

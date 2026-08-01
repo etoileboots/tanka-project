@@ -1,0 +1,82 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "みなの川",
+      "ku": 3,
+      "reading_primary": "みなの川 (river name, Mina-no-gawa)",
+      "reading_secondary": "みな (\"all/everyone\") — associative pun, though primarily functioning as jokotoba pivot",
+      "interaction": "The river name Minano-gawa is introduced literally as the river formed from Tsukuba's peaks, but its component sound みな also faintly echoes 皆 (\"all/everything\"), reinforcing the sense of totality/accumulation carried into 恋ぞつもりて — however this is a soft, secondary resonance rather than a fully split grammatical pivot, so it is noted but the primary device here is jokotoba, not a strict kakekotoba"
+    }
+  ],
+  "jokotoba": {
+    "text": "筑波嶺の峰より落つるみなの川",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "みな(の川)→淵(となりぬる)",
+    "function": "The entire kami-no-ku describes the physical formation of the Minano River, cascading from the peaks of Mt. Tsukuba and gradually deepening into a pool (淵). This composed, poem-specific image is not a fixed epithet but a freely built preface whose logic (small stream becoming a deep pool) is transferred by structural analogy onto the shimo-no-ku's claim that accumulated longing has become a deep pool of love. The pivot is essentially the shared image of gradual accumulation culminating in 淵 (a deep pool), mapped onto つもりて (accumulating) and 淵となりぬる (has become a deep pool)."
+  },
+  "honkadori": {
+    "source_poem": "Man'yōshū-derived commonplace on Tsukuba/Minano-gawa (also echoed in later waka tradition, e.g. Gosenshū anonymous poems on Mt. Tsukuba's waters)",
+    "source_poet": "traditional/anonymous Man'yōshū-Gosenshū lineage",
+    "echoed_phrase": "筑波嶺の峰より落つるみなの川",
+    "function": "Invokes the well-established poetic association of Mt. Tsukuba's cascading streams converging into the Minano (or Sakura) River as a conventional emblem of small beginnings growing into overwhelming force, lending the poem's central metaphor an air of received, authoritative imagery rather than pure invention."
+  },
+  "kigo": {
+    "word": "筑波嶺／みなの川",
+    "ku": 1,
+    "season": "none",
+    "note": "Mt. Tsukuba and the Minano River are famous utamakura (poetic place-names) but carry no fixed seasonal association in the classical canon — they function here as topographical/rhetorical material for the jokotoba rather than as a seasonal marker. No other lexical item in the poem (峰, 落つる, 恋, つもりて, 淵) carries seasonal connotation either; 恋 (love) is a perennial topic-category (koi-uta) rather than a seasonal one. After exhaustive check of every noun and verb, this poem is best classified as non-seasonal, belonging to the love (恋) section of the anthology rather than any seasonal book."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A small stream cascading down from the peaks of Mt. Tsukuba, gradually gathering into the Minano River",
+    "shimo_theme": "The speaker's love, accumulating over time, has become a deep, unfathomable pool of emotion",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The kami-no-ku's physical description of trickling mountain water accumulating into a deep pool (淵) is never explicitly compared to the speaker's love — the shimo-no-ku simply asserts that 'love has piled up and become a pool,' relying entirely on the reader recognizing the sustained river-image of the kami as the vehicle for the tenor of accumulated passion. The word 淵 functions as the hinge: literal deep pool in the river, and metaphorical depth of overwhelming love, uniting both halves without any explicit comparative particle."
+  },
+  "furigana": [
+    {
+      "kanji": "筑波嶺",
+      "reading": "つくばね"
+    },
+    {
+      "kanji": "峰",
+      "reading": "みね"
+    },
+    {
+      "kanji": "落",
+      "reading": "お"
+    },
+    {
+      "kanji": "川",
+      "reading": "がわ"
+    },
+    {
+      "kanji": "恋",
+      "reading": "こい"
+    },
+    {
+      "kanji": "淵",
+      "reading": "ふち"
+    },
+    {
+      "kanji": "成",
+      "reading": "な"
+    }
+  ],
+  "poem_number": 13,
+  "poet": "Yoseiin",
+  "source_jp": "筑波嶺の\n峰より落つる\nみなの川\n恋ぞつもりて\n淵となりぬる"
+}

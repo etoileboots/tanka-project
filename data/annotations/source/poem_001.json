@@ -1,0 +1,61 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A rustic autumn scene: a temporary hut in the autumn rice fields, its thatched roof of woven rushes (toma) coarse and rough-woven",
+    "shimo_theme": "The speaker's sleeves are being continually wetted by dew (or dripping moisture)",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The coarseness of the hut's thatch (とまをあらみ, 'because the thatch is coarse') is the physical cause that allows dew/moisture to seep or drip through, wetting the speaker's sleeves — the kami-no-ku establishes the material condition of the hut, and the shimo-no-ku states the direct physical consequence upon the speaker's body, blending the guardian-of-the-fields scenario with an implicit emotional resonance of hardship and exposure."
+  },
+  "kigo": {
+    "word": "秋の田",
+    "season": "autumn",
+    "note": "The autumn rice field (aki no ta) evokes the harvest season, specifically the time when watchmen would stay in makeshift field-huts (kario no io) to guard ripening rice from birds and animals — a classical autumn labor scene tied to harvest vigilance, carrying connotations of loneliness and exposure to the elements."
+  },
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "かりほ",
+      "ku": 2,
+      "reading_primary": "仮庵／仮廬 (kariho) — a temporary, makeshift hut, here built to watch over the ripening rice field through the autumn nights.",
+      "reading_secondary": "刈り穂 (kariho) — the cut, harvested ears of rice.",
+      "interaction": "The two readings fuse the dwelling and the labor it exists for: the hut is temporary BECAUSE it stands only for the duration of the harvest, and its name puns on the very rice-ears (刈り穂) being reaped around it. This echoes the poem's honkadori source, the Man'yōshū's 秋田刈る仮廬 ('the temporary hut for reaping the autumn field'), where the harvesting and the hut are already grammatically fused — the Hyakunin Isshu version compresses that phrase into the single pivot word かりほ."
+    }
+  ],
+  "furigana": [
+    {
+      "kanji": "秋",
+      "reading": "あき"
+    },
+    {
+      "kanji": "田",
+      "reading": "た"
+    },
+    {
+      "kanji": "庵",
+      "reading": "いほ"
+    },
+    {
+      "kanji": "苫",
+      "reading": "とま"
+    },
+    {
+      "kanji": "衣手",
+      "reading": "ころもで"
+    },
+    {
+      "kanji": "露",
+      "reading": "つゆ"
+    }
+  ],
+  "poem_number": 1,
+  "poet": "Tenchi Tenno",
+  "source_jp": "秋の田の\nかりほの庵の\n苫をあらみ\nわが衣手は\n露にぬれつつ"
+}

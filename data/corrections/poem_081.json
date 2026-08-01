@@ -1,0 +1,265 @@
+{
+  "poem_number": 81,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T07:22:21.218459+00:00"
+    },
+    "devices": {
+      "ほととぎす": {
+        "status": "confirmed",
+        "original": {
+          "word": "ほととぎす",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:22:17.159745+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:22:25.702651+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:22:26.686208+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:22:30.954218+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:22:31.369232+00:00"
+        }
+      },
+      "devices": {
+        "cuckoo": {
+          "status": "confirmed",
+          "original": {
+            "word": "cuckoo",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:22:27.569128+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "Hototogis": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Hototogis",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:22:46.185573+00:00"
+        }
+      },
+      "device_links": {
+        "Hototogis": {
+          "status": "corrected",
+          "original": {
+            "word": "Hototogis"
+          },
+          "corrected": {
+            "source_word": "ほととぎす"
+          },
+          "reviewed_at": "2026-07-31T07:22:48.585092+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:22:55.886791+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:22:56.287077+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:22:56.786221+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:22:57.294781+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "cuckoo's echo": {
+          "status": "confirmed",
+          "original": {
+            "word": "cuckoo's echo",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:07.722864+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:14.571412+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:15.938005+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:22.458703+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T07:23:25.335347+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:28.136626+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:54.886013+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:55.303365+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:55.702255+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:56.185289+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:23:57.620982+00:00"
+        }
+      },
+      "devices": {
+        "Hototogisu": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Hototogisu",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:24:10.123499+00:00"
+        },
+        "hototogisu": {
+          "status": "confirmed",
+          "original": {
+            "word": "hototogisu",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T02:10:45.514600+00:00"
+        }
+      },
+      "device_links": {
+        "hototogisu": {
+          "status": "corrected",
+          "original": {
+            "word": "hototogisu"
+          },
+          "corrected": {
+            "source_word": "ほととぎす"
+          },
+          "reviewed_at": "2026-08-01T02:10:44.949197+00:00"
+        }
+      }
+    }
+  }
+}

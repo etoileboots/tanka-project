@@ -1,0 +1,359 @@
+{
+  "poem_number": 17,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "千早ぶる": {
+        "status": "confirmed",
+        "original": {
+          "word": "千早ぶる",
+          "color": "#7EBBEE"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T05:55:16.449277+00:00"
+      },
+      "くくる": {
+        "status": "removed",
+        "original": {
+          "word": "くくる",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T05:58:58.353287+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "beheld so brave, so fair a stream": {
+          "status": "removed",
+          "original": {
+            "word": "beheld so brave, so fair a stream",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:59:03.480372+00:00"
+        },
+        "the stern gods": {
+          "status": "confirmed",
+          "original": {
+            "word": "the stern gods",
+            "color": "#7EBBEE"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:00:48.527219+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:59:49.594364+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:59:50.074242+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:01:19.284138+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T06:01:30.736084+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:01:20.798744+00:00"
+        }
+      },
+      "device_links": {
+        "the stern gods": {
+          "status": "corrected",
+          "original": {
+            "word": "the stern gods"
+          },
+          "corrected": {
+            "source_word": "千早ぶる"
+          },
+          "reviewed_at": "2026-08-01T00:47:56.609465+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "reddened": {
+          "status": "removed",
+          "original": {
+            "word": "reddened",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:59:05.512516+00:00"
+        },
+        "gods' age": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "gods' age",
+            "color": "#7EBBEE"
+          },
+          "reviewed_at": "2026-07-26T06:02:44.960372+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:02:50.543479+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:02:51.160062+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:02:51.609467+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:02:52.042603+00:00"
+        }
+      },
+      "device_links": {
+        "gods' age": {
+          "status": "corrected",
+          "original": {
+            "word": "gods' age"
+          },
+          "corrected": {
+            "source_word": "千早ぶる"
+          },
+          "reviewed_at": "2026-08-01T00:48:00.884464+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "bound": {
+          "status": "removed",
+          "original": {
+            "word": "bound",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:59:07.649870+00:00"
+        },
+        "gods": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "gods",
+            "color": "#7EBBEE"
+          },
+          "reviewed_at": "2026-07-26T06:04:17.527359+00:00"
+        },
+        "water bound with red": {
+          "status": "removed",
+          "original": {
+            "word": "water bound with red",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:47:52.433725+00:00"
+        }
+      },
+      "lines": {
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:03:56.710867+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:03:57.311209+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-26T06:04:42.528013+00:00"
+        },
+        "0": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-26T06:04:56.612705+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-26T06:04:57.111651+00:00"
+        }
+      },
+      "device_links": {
+        "gods": {
+          "status": "corrected",
+          "original": {
+            "word": "gods"
+          },
+          "corrected": {
+            "source_word": "千早ぶる"
+          },
+          "reviewed_at": "2026-08-01T00:47:54.832240+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "so sweet a song": {
+          "status": "removed",
+          "original": {
+            "word": "so sweet a song",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:59:10.089798+00:00"
+        },
+        "purls along": {
+          "status": "removed",
+          "original": {
+            "word": "purls along",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:59:11.397112+00:00"
+        },
+        "everlasting Gods": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "everlasting Gods",
+            "color": "#7EBBEE"
+          },
+          "reviewed_at": "2026-07-26T06:03:35.143444+00:00"
+        },
+        "everlasting gods": {
+          "status": "removed",
+          "original": {
+            "word": "everlasting gods",
+            "color": "#7EBBEE"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:48:21.533793+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:03:05.060657+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:03:08.261900+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:03:11.978015+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:03:16.143752+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T06:03:22.744300+00:00"
+        }
+      },
+      "device_links": {
+        "everlasting Gods": {
+          "status": "corrected",
+          "original": {
+            "word": "everlasting Gods"
+          },
+          "corrected": {
+            "source_word": "千早ぶる"
+          },
+          "reviewed_at": "2026-08-01T00:48:23.928302+00:00"
+        },
+        "everlasting gods": {
+          "status": "removed",
+          "original": {
+            "word": "everlasting gods"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:48:23.258858+00:00"
+        }
+      }
+    }
+  }
+}

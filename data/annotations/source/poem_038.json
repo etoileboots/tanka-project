@@ -1,0 +1,57 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker declares that she does not grieve over her own fate of being forgotten and abandoned by her lover, despite the vow he once swore.",
+    "shimo_theme": "Instead, her concern shifts entirely to him: she fears for the life of the man who swore that vow, since breaking a sacred oath was believed to invite divine punishment and death.",
+    "relationship_type": "paradox",
+    "pivot_note": "The poem turns on an ironic reversal: one would expect the abandoned woman to lament her own suffering, but the pivot at 'mi o ba omowazu' (I do not think of myself) redirects all emotional weight onto the faithless man's peril — her selfless anxiety for his life becomes a far more piercing reproach than any self-pity could be. The shimo does not resolve the kami's declaration but subverts the listener's expectation of where sympathy should lie."
+  },
+  "kigo": {
+    "word": "忘らるる",
+    "season": "none",
+    "note": "This poem contains no seasonal imagery; it is a purely emotional/relational poem (koi-uta) concerned with abandonment and broken vows, with no reference to natural phenomena, flora, fauna, or seasonal markers of any kind."
+  },
+  "furigana": [
+    {
+      "kanji": "忘",
+      "reading": "わす"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    },
+    {
+      "kanji": "思",
+      "reading": "おも"
+    },
+    {
+      "kanji": "誓",
+      "reading": "ちか"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "命",
+      "reading": "いのち"
+    },
+    {
+      "kanji": "惜",
+      "reading": "お"
+    }
+  ],
+  "poem_number": 38,
+  "poet": "Ukon",
+  "source_jp": "忘らるる\n身をば思はず\n誓ひてし\n人の命の\n惜しくもあるかな"
+}

@@ -1,0 +1,307 @@
+{
+  "poem_number": 20,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T11:15:12.184839+00:00"
+    },
+    "devices": {
+      "難波": {
+        "status": "removed",
+        "original": {
+          "word": "難波",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T11:14:16.301929+00:00"
+      },
+      "難波なる身をつくし": {
+        "status": "removed",
+        "original": {
+          "word": "難波なる身をつくし",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T11:16:50.243013+00:00"
+      },
+      "身をつくして": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "身をつくして",
+          "color": "#F28FC0"
+        },
+        "reviewed_at": "2026-07-26T11:17:14.942166+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:15:26.397856+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-26T11:16:11.393256+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:16:23.938821+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:16:24.703832+00:00"
+        }
+      },
+      "devices": {
+        "for my own life": {
+          "status": "confirmed",
+          "original": {
+            "word": "for my own life",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:17:31.541122+00:00"
+        }
+      },
+      "device_links": {
+        "for my own life": {
+          "status": "corrected",
+          "original": {
+            "word": "for my own life"
+          },
+          "corrected": {
+            "source_word": "身をつくして"
+          },
+          "reviewed_at": "2026-08-01T00:54:37.446713+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "cost my life": {
+          "status": "confirmed",
+          "original": {
+            "word": "cost my life",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:17:33.891718+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:17:41.453320+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:17:42.399027+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:17:47.425488+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:17:48.130080+00:00"
+        }
+      },
+      "device_links": {
+        "cost my life": {
+          "status": "corrected",
+          "original": {
+            "word": "cost my life"
+          },
+          "corrected": {
+            "source_word": "身をつくして"
+          },
+          "reviewed_at": "2026-08-01T00:54:34.261670+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:12.047812+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:13.988886+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:24.485281+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:31.752943+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:35.030359+00:00"
+        }
+      },
+      "devices": {
+        "the tide shall measure out my life": {
+          "status": "confirmed",
+          "original": {
+            "word": "the tide shall measure out my life",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:31.008956+00:00"
+        }
+      },
+      "device_links": {
+        "the tide shall measure out my life": {
+          "status": "corrected",
+          "original": {
+            "word": "the tide shall measure out my life"
+          },
+          "corrected": {
+            "source_word": "身をつくして"
+          },
+          "reviewed_at": "2026-08-01T00:54:43.862524+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:52.187524+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:52.727917+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:53.682109+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:18:56.404724+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-26T11:20:54.551526+00:00"
+        }
+      },
+      "devices": {
+        "in the bay of naniwa": {
+          "status": "removed",
+          "original": {
+            "word": "in the bay of naniwa",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:19:32.321681+00:00"
+        },
+        "even though it costs my life": {
+          "status": "confirmed",
+          "original": {
+            "word": "even though it costs my life",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T11:19:36.470784+00:00"
+        }
+      },
+      "device_links": {
+        "even though it costs my life": {
+          "status": "corrected",
+          "original": {
+            "word": "even though it costs my life"
+          },
+          "corrected": {
+            "source_word": "身をつくして"
+          },
+          "reviewed_at": "2026-08-01T00:54:41.481523+00:00"
+        }
+      }
+    }
+  }
+}

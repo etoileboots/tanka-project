@@ -1,0 +1,316 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator compresses the whole poem into a single continuous narrative moment: the moon lingering (kami) is juxtaposed directly with the speaker's parting pain (shimo), but the generalizing shift from a single remembered morning to 'no dawn since is ever so bitter' is lost. Instead of the shimo-ku universalizing the emotion across all subsequent dawns, the translation reads as a single scene of parting happening now, with 'Akadski' rendered as a proper-name compulsion device rather than an abstract intensifier of grief. The distinct kami/shimo emotional-juxtaposition logic collapses into one continuous vignette."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "有明",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Ariake-moonbeams",
+        "note": "The translator keeps 'Ariake' as a proper name for the moon, preserving the literal image of the lingering dawn moon, but the pivot's emotional function—the moon's coldness echoed in 'tsurenaku' and the later 'akatsuki' echo—is not reproduced; 'Akadski' (a garbled transliteration of 暁) appears only as a separate word for dawn, severing the intended internal echo between ariake and akatsuki that carries the poem's emotional escalation."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "morning heaven",
+      "note": "The moon lingering in 'th' morning heaven' evokes the visual image of the ariake-no-tsuki, conveying a dawn atmosphere, though no season name (autumn) is given and the melancholic seasonal resonance tied to the kinuginu parting topos is largely lost in favor of a generic dawn-parting scene."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The Ariake moon (moonbeams) introduced as subject",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The moon lingers still in the morning sky, corresponding to tsurenaku mieshi image of the moon's persistence",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The speaker's pain at parting from the beloved",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Compelled by 'Akadski' (dawn) to part; conflates the shimo's akatsuki-uki generalization into a single causal parting event",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four rhymed couplet lines, collapsing the kami's descriptive scene and the shimo's generalized emotional verdict into one continuous narrative of a single parting scene; the universalizing 'no time is as bitter as dawn' sentiment of the shimo-ku is reduced to a causal clause ('by Akadski compelled, must part') rather than a standalone emotional generalization."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrically regular English couplets and treats 有明 and 暁 as quasi-proper nouns, sacrificing the poem's internal echo and generalizing shift from a single memory to an enduring emotional judgment in favor of a compact, versified parting scene.",
+    "overall_fidelity": "low",
+    "poem_number": 30,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Noguchi places the shimo-no-ku's generalized emotional verdict ('There's nothing more hard/than an early morning parting') at the START of the poem (L1-L2), then moves to the kami-no-ku's specific remembered image of the heartless moon (L3-L4). This reverses the source's order, where the specific memory (moon witnessing the cold departure) comes first and the generalized emotional conclusion about dawn comes second. The emotional-juxtaposition logic (a specific memory yielding a universal feeling) is preserved in content but its sequence is inverted, and the two also become more tightly fused into a single continuous statement rather than a two-part structure with a temporal pivot."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "有明",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "morning moon",
+        "note": "Noguchi renders 有明 as 'the morning moon,' preserving the literal image of the moon at dawn but losing the specific 'ariake' association with the moon still lingering after dawn breaks, and losing the wordplay link to 'akatsuki' in the shimo-no-ku since the English doesn't echo the same term across kami and shimo."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "morning moon",
+      "note": "The seasonal word 有明 is rendered as 'the morning moon,' which carries the dawn imagery but strips away the autumn-associated wistfulness of the ariake-no-tsuki topos; the atmosphere of a lingering dawn moon survives but without any explicit or strongly implied seasonal marker beyond 'morning.'"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "General emotional statement that nothing is harder/more bitter than dawn",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Specifies the hardship as an early morning parting, condensing the departure and the dawn-time bitterness together",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Exclamatory turn to the moon's heartlessness, echoing つれなく",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The image of the morning moon appearing indifferent",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation reorders the poem: it opens with the shimo-no-ku's generalized verdict about dawn/parting and closes with the kami-no-ku's specific image of the heartless moon, inverting the source's kami-then-shimo sequence and compressing five ku into four lines with some content overlap between lines 1-2 and 2."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, emotionally immediate quatrain in natural English word order, sacrificing the source's chronological kami-to-shimo structure and its ariake/akatsuki wordplay in favor of an inverted structure that opens with the poem's emotional conclusion and closes with its vivid image.",
+    "overall_fidelity": "medium",
+    "poem_number": 30,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translation keeps the basic movement from the cold indifferent moon at dawn (kami) to a generalized statement that no time is sadder than dawn (shimo), but compresses the 'parting' (wakare) content into the connecting clause 'When I am left forlorn' rather than giving it its own clear narrative beat; the echo between ariake and akatsuki that structurally links kami and shimo in the original is reduced to the repetition of 'morn'/'dawn' across lines, weakening but not destroying the juxtaposition."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "有明",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "cold unfriendly moon",
+        "note": "The translator renders ariake as simply 'the moon that shines at early morn,' capturing the literal image of the lingering dawn moon, but the pivot function linking it forward to akatsuki (the emotional generalization) is not reproduced as wordplay — it survives only as thematic repetition of dawn imagery rather than a true kakekotoba effect."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "early morn",
+      "note": "No season word appears explicitly; the poem's autumn-associated ariake-no-tsuki image is reduced to a generic 'moon that shines at early morn,' preserving the dawn-parting atmosphere but losing any seasonal specificity — the melancholic mood survives but not the autumnal association."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Speaker's hatred for the cold, unfriendly moon",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The moon shining at early morning (ariake)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Nothing seems so sad and grey",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The parting compressed into 'left forlorn'",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Day's returning dawn as the most sorrowful time",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders content: the 'parting' (wakare) is deferred to line 4, after the 'sad and grey' judgment of line 3, producing a slight inversion of the source's cause-then-effect sequence (moon/parting -> dawn's bitterness) into a more emotionally immediate exclamation followed by explanation."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhyme-driven English lyric (ABABB) over precise structural fidelity, sacrificing the kakekotoba's linking wordplay and the poem's autumnal specificity in favor of an emotionally direct, metrically regular verse.",
+    "overall_fidelity": "medium",
+    "poem_number": 30,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translator keeps the two-part structure: lines 1-2 fix the remembered scene of the cold/indifferent dawn moon and the lover's departure (compressing the ariake image and the cold parting into a simile), while lines 3-5 generalize from that memory into the universal statement that dawn's light is now the most hated thing. The moon-coldness/lover-coldness conflation is rendered as an explicit simile ('Like the morning moon, Cold, unpitying was my love') rather than the more oblique juxtaposition of the original, but the emotional logic (a fixed dawn image leading to a generalized verdict on dawn itself) is preserved."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "有明",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "morning moon",
+        "note": "The translator renders 有明 as 'the morning moon' used explicitly as a simile for the lover's coldness ('Like the morning moon, Cold, unpitying was my love'), collapsing what in the original is an implicit conflation (moon's indifference bleeding into the lover's) into an explicit stated comparison. This preserves the literal image of the lingering dawn moon but sacrifices the subtler pivot logic where the moon itself is not directly said to be cold — only tsurenaku describes the departure, with the moon's coldness inferred. The secondary evocative connection between ariake and akatsuki (the echo/intensification across kami and shimo) is retained lexically via 'morning moon' / 'breaking light of day', but the two words no longer share the wordplay-like structural echo of ありあけ/あかつき."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "morning moon",
+      "note": "No season is named explicitly, but the image of 'the morning moon' lingering at dawn evokes the classical ariake-no-tsuki topos; the melancholic, wistful atmosphere associated with autumn dawns survives through imagery even though the word 'autumn' itself never appears."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The lingering dawn moon (ariake) introduced as a simile",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The coldness/indifference of the departing lover, compared to the moon",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Since that hour of parting",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Nothing is disliked so much",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "As the breaking light of dawn/day",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the kami-no-ku's implicit moon/lover conflation into an explicit simile spanning lines 1-2, then unpacks the shimo-no-ku's generalization across lines 3-5, reordering slightly (the 'nothing so hateful' clause precedes 'breaking light of day' rather than the original's noun-then-verdict order, but this is largely a function of English syntax)."
+    },
+    "translator_strategy": "McCauley opts for clarity and explicit simile, converting the original's subtle implicit conflation of the moon's coldness with the lover's indifference into a direct stated comparison ('Like the morning moon... was my love'), prioritizing accessible emotional logic over the source's more oblique juxtaposition.",
+    "overall_fidelity": "medium",
+    "poem_number": 30,
+    "translator": "McCauley"
+  }
+}

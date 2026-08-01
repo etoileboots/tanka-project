@@ -1,0 +1,70 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "なら",
+      "ku": 2,
+      "reading_primary": "奈良/ならの小川(place name, Nara no Ogawa in Kamo Shrine precinct)",
+      "reading_secondary": "楢 (oak/nara tree, evoking the rustling of leaves in 風そよぐ)",
+      "interaction": "The place name 'Nara no Ogawa' phonetically echoes 楢 (oak tree), reinforcing the image of leaves/branches rustling (そよぐ) established in ku1, though this is a soft/associative pivot rather than a fully separate grammatical clause",
+      "confidence": "low"
+    }
+  ],
+  "jokotoba": {
+    "text": "風そよぐならの小川の",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "夕ぐれ",
+    "function": "The rustling wind over the little river sets a sensory scene of coolness and motion that leads into the evening setting, priming the reader for the paradox that despite the wind's coolness this is still summer"
+  },
+  "honkadori": {
+    "source_poem": "Anonymous poems on Nara no Ogawa / misogi at Kamo Shrine in earlier imperial anthologies (e.g. Kokinshu-era purification poems)",
+    "source_poet": "Anonymous (conventional Kamo Shrine misogi tradition)",
+    "echoed_phrase": "みそぎ",
+    "function": "Invokes the established poetic tradition of the Nagoshi no Harae (summer purification rite) held at Kamo Shrine's Nara no Ogawa on the last day of the Sixth Month, situating the poem within a long lineage of misogi poems"
+  },
+  "kigo": {
+    "word": "みそぎ",
+    "season": "summer",
+    "note": "Misogi here refers specifically to the Nagoshi no Harae, the ritual purification performed at the Kamo Shrine's Nara no Ogawa stream on the last day of the Sixth Month (end of summer by the lunar calendar). Although the wind and evening coolness suggest autumn to the senses, the poem's turn insists that this ritual act is the only true 'sign' (shirushi) that summer persists — making みそぎ the load-bearing seasonal word that overturns the sensory impression of the kami-no-ku.",
+    "confidence": "high"
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A cool wind rustles over the little river of Nara at evening, creating a sensory scene that feels autumnal rather than summery",
+    "shimo_theme": "Only the ritual purification (misogi) being performed reveals that it is, in fact, still summer",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku presents sensory evidence (rustling wind, evening coolness) that would normally signal autumn's arrival, but the shimo-no-ku overturns this expectation: the only proof that summer persists is not the season's own qualities but a human ritual act performed within it. The poem hinges on the tension between what the season *feels* like and what calendrically it *is*."
+  },
+  "furigana": [
+    {
+      "kanji": "風",
+      "reading": "かぜ"
+    },
+    {
+      "kanji": "小川",
+      "reading": "おがわ"
+    },
+    {
+      "kanji": "夕",
+      "reading": "ゆう"
+    },
+    {
+      "kanji": "夏",
+      "reading": "なつ"
+    }
+  ],
+  "poem_number": 98,
+  "poet": "Junii Iyetaka",
+  "source_jp": "風そよぐ\nならの小川の\n夕ぐれは\nみそぎぞ夏の\nしるしなりける"
+}

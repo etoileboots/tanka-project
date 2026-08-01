@@ -1,0 +1,301 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "note": "The translator preserves the logical structure: lines 1-3 state the accepted cyclical knowledge (day breaks, then darkness/night will overthrow the day), and lines 4-6 pivot with 'Yet' to state the emotional resentment of dawn. The paradox contrast is retained via the explicit 'Yet' conjunction, though the kami-ku's content is oddly inverted (emphasizing night overthrowing day rather than day yielding to dusk then returning to day), which somewhat muddies the precise cyclical logic of the original."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal imagery is present; 'asaborake' is rendered purely as a time-of-day event ('breaking of the dawn'), consistent with the source having no true seasonal marker, but the poem's amorous/kinuginu emotional resonance is treated generically as 'hate' and 'mourn' rather than any atmospheric cue.",
+      "en_equivalent": "breaking of the dawn"
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrical English verse form over precise semantic fidelity, sacrificing exactness of the day/dusk cycle's logic to fit a ballad-like rhyme scheme while still preserving the overall paradox structure of resigned knowledge versus persistent resentment.",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "When day breaks (明けぬれば) — acknowledging dawn's arrival",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The darkness of the ensuing night — anticipation of dusk/night returning",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The hated day shall overthrow — completing the 'knowing' clause (知りながら), though rephrased as night overthrowing day rather than day yielding to dusk",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Yet aye the daylight I do hate — the pivot to resentment (なをうらめしき)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "And bitterly mourn — intensification of the emotional resentment, expanded beyond source wording",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Th' unwelcome breaking of the dawn — direct rendering of あさぼらけ as the object of resentment",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five-ku poem into six rhymed lines, splitting the kami-ku's single logical clause across three lines (1-3) and the shimo-ku's shorter two-ku pivot across three lines (4-6), adding an extra line ('bitterly mourn') not directly present in the source to fill out the rhyme scheme."
+    },
+    "poem_number": 52,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator keeps the two-part structure (day/night cycle vs. hatred of dawn) but softens the 'knowing/accepting' logic of the kami-ku into a simple factual statement ('Day will be followed by / the darkness of night'), losing the explicit 'I know' (知りながら) that sets up the paradox. The shimo-ku's 'yet I do hate' retains the pivot 'yet' signaling the paradox, but without the explicit acknowledgment clause, the logical collision between reason and feeling is weakened rather than fully dissolved.",
+      "relationship_type": "paradox (weakened)"
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "breaking of dawn",
+      "note": "No seasonal marker exists in the source (asaborake is a diurnal, not seasonal, image tied to the kinuginu love-parting topos), and this translation likewise conveys no seasonal atmosphere — 'breaking of dawn' and 'darkness of night' evoke time-of-day only, consistent with the source's lack of kigo, so there is nothing to preserve or omit in seasonal terms; here 'omitted' reflects the absence of any seasonal signal, matching the source's own seasonlessness."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Day gives way to something following it (明けぬれば, 'once day breaks')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The darkness of night when the speaker will meet the beloved — combines 暮るるものとは (dusk falling) with 知りながら (knowing this), reinterpreting the cycle as a lovers' meeting rather than a neutral natural law",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'And yet I do hate' renders なをうらめしき (still I resent)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'The breaking of dawn' renders あさぼらけ (dawn's first light)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses and reinterprets the kami-ku: rather than stating the abstract natural law of day-becoming-dusk-becoming-day-again as pure cognitive acceptance, line 2 recasts the dusk as the anticipated moment of reunion with the beloved ('when I shall meet thee'), an interpretive addition not explicit in the source's abstract phrasing, shifting the poem's logic from 'I know dawn always leads to dusk' toward 'I know night brings us together' — a romantic gloss layered onto the natural-cycle statement."
+    },
+    "translator_strategy": "Noguchi prioritizes emotional clarity and romantic narrative coherence over literal fidelity, glossing the abstract cyclical logic of the original into a concrete lovers'-reunion scenario while preserving the basic 'yet I hate dawn' pivot.",
+    "overall_fidelity": "medium",
+    "poem_number": 52,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter inverts and reinterprets the original paradox. In the source, the kami-ku is an intellectual acknowledgment ('I know dawn leads to dusk again') that should logically neutralize complaint, but the shimo-ku overturns it emotionally with resentment at the specific dawn. Porter's kami content (L1-2) recasts the 'knowing' proposition as 'the gentle night will surely follow morn' — reversing the actual cycle direction (source moves dawn->dusk, Porter's phrasing moves toward night following morning, an inversion of the natural sequence emphasis) and shifting emotional weight. The shimo content is expanded into a comic morning-routine scene (waking, turning over, stretching, yawning) before arriving at 'How I detest the dawn!' This preserves the paradox loosely (knowledge vs. felt resentment) but the logical structure and the specific 'a paradox of dawn leading to dusk' is muddled by the reversed clause and comic expansion, so it counts as inverted/displaced rather than cleanly preserved."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "detest the dawn",
+      "note": "No seasonal marker exists in the source (asaborake is a diurnal/amorous topos, not a season word), and Porter's translation likewise carries no seasonal atmosphere — it reads as a comic domestic scene about waking up, with no imagery evoking season at all; the dawn is treated purely as a disliked interruption of sleep rather than as the kinuginu parting topos."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Statement of the known cycle: night following morn (Porter recasts the kami-ku's day/night cycle claim)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Continuation of the 'known cycle' clause: 'will surely follow morn'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Waking scene introduced — extrapolated comic detail not in source ('wakened by the sun')",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Further extrapolated comic physical detail: turning over, stretching, yawning — invented content with no equivalent in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The resentment statement: 'How I detest the dawn!' corresponds to なをうらめしきあさぼらけかな",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the kami-ku's logical proposition into two lines (1-2) but alters its content (night following morn, rather than dawn breaking then dusk returning), then massively expands the shimo-ku into a comic domestic vignette (lines 3-4) invented largely from imagination, before delivering the resentment line (5) that most directly correlates to the source's closing line."
+    },
+    "translator_strategy": "Porter prioritizes an accessible, wittily domesticated English quatrain-plus-refrain over literal fidelity, inventing a comic morning routine to dramatize the speaker's grudge against dawn rather than reproducing the source's austere philosophical paradox.",
+    "overall_fidelity": "low",
+    "poem_number": 52,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The kami-lines set up the rational acceptance ('Though I know full well / That the night will come again / E'en when day has dawned') and the shimo-lines overturn it with the emotional resentment ('Yet, in truth, I hate the sight / Of the morning's coming light'), preserving the paradox structure with 'Though' and 'Yet' as explicit logical markers."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal word or imagery is introduced; the translation correctly treats asaborake as a time-of-day/amorous-parting image rather than a seasonal marker, consistent with the source analysis that this poem carries no true kigo. The 'morning's coming light' conveys the diurnal dawn motif but no seasonal atmosphere.",
+      "en_equivalent": "morning's coming light"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Though I know full well — the concessive framing of 知りながら",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "That the night will come again — 暮るるものとは",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "E'en when day has dawned — 明けぬれば",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Yet, in truth, I hate the sight — なをうらめしき",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Of the morning's coming light — あさぼらけかな",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator reorders the kami-no-ku internally (placing the concessive clause 'Though I know full well' first, then the dusk clause, then the dawn clause) to fit English syntax, but the overall five-line structure maps cleanly one-to-one onto the five ku, preserving the original sequence's logical flow within a natural English sentence order."
+    },
+    "translator_strategy": "McCauley prioritizes clear, versified fidelity to the poem's logical argument, using explicit English connectives ('Though'/'Yet') to make the paradox structure legible even at the cost of reordering clauses for natural English syntax.",
+    "overall_fidelity": "high",
+    "poem_number": 52,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "poem_number": 51,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-28T03:22:33.390873+00:00"
+    },
+    "devices": {
+      "いぶきの": {
+        "status": "confirmed",
+        "original": {
+          "word": "いぶきの",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T03:22:26.939862+00:00"
+      },
+      "さしも": {
+        "status": "removed",
+        "original": {
+          "word": "さしも",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T03:22:38.125516+00:00"
+      },
+      "さしも草": {
+        "status": "confirmed",
+        "original": {
+          "word": "さしも草",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T03:23:47.543555+00:00"
+      },
+      "もゆる": {
+        "status": "removed",
+        "original": {
+          "word": "もゆる",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T03:23:53.026052+00:00"
+      },
+      "ひ": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "ひ",
+          "color": "#F28FC0"
+        },
+        "reviewed_at": "2026-07-28T03:24:06.510044+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "burning": {
+          "status": "confirmed",
+          "original": {
+            "word": "burning",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:25:16.682688+00:00"
+        },
+        "ibuki moxa’s": {
+          "status": "confirmed",
+          "original": {
+            "word": "ibuki moxa’s",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:25:17.346423+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:25:33.529484+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:25:37.145435+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:25:50.561615+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:25:51.445323+00:00"
+        }
+      },
+      "device_links": {
+        "burning": {
+          "status": "corrected",
+          "original": {
+            "word": "burning"
+          },
+          "corrected": {
+            "source_word": "ひ"
+          },
+          "reviewed_at": "2026-08-01T01:31:45.063116+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:26:44.175843+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:26:44.706663+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-28T03:27:18.822660+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:27:41.636568+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:27:42.103257+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:27:42.687545+00:00"
+        }
+      },
+      "devices": {
+        "ibuki grown": {
+          "status": "confirmed",
+          "original": {
+            "word": "ibuki grown",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:27:40.722266+00:00"
+        },
+        "love's flames": {
+          "status": "confirmed",
+          "original": {
+            "word": "love's flames",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:27:41.085816+00:00"
+        }
+      },
+      "device_links": {
+        "love's flames": {
+          "status": "corrected",
+          "original": {
+            "word": "love's flames"
+          },
+          "corrected": {
+            "source_word": "ひ"
+          },
+          "reviewed_at": "2026-08-01T01:31:48.961672+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "paining me": {
+          "status": "removed",
+          "original": {
+            "word": "paining me",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:28:15.988402+00:00"
+        },
+        "than i can say": {
+          "status": "removed",
+          "original": {
+            "word": "than i can say",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:28:24.069411+00:00"
+        },
+        "blisters made from leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "blisters made from leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:28:32.136589+00:00"
+        },
+        "mount ibuki": {
+          "status": "confirmed",
+          "original": {
+            "word": "mount ibuki",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:28:32.516054+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:28:33.737313+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:28:34.251069+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:28:34.632255+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:28:35.182819+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:28:35.752893+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "n'er know": {
+          "status": "removed",
+          "original": {
+            "word": "n'er know",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:29:07.734133+00:00"
+        },
+        "ibuki's": {
+          "status": "confirmed",
+          "original": {
+            "word": "ibuki's",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:29:23.229332+00:00"
+        },
+        "moxa burns": {
+          "status": "removed",
+          "original": {
+            "word": "moxa burns",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:31:35.330398+00:00"
+        },
+        "burns": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "burns",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:31:58.662623+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:29:19.733208+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:29:20.196848+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:29:20.579913+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:29:21.729774+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:29:22.480548+00:00"
+        }
+      },
+      "device_links": {
+        "burns": {
+          "status": "corrected",
+          "original": {
+            "word": "burns"
+          },
+          "corrected": {
+            "source_word": "ひ"
+          },
+          "reviewed_at": "2026-08-01T01:32:01.045193+00:00"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translation retains the causal logic — the birds' cry ('ceaseless cry') causes the sleeplessness ('scarce a moment's sleep allow') of the guard — but compresses and rearranges the imagery, merging the strait-crossing motion with the crying into a single continuous description, and pushing the identification of the sekimori to the very end as an appositive clause rather than a discrete unit paralleling the kami-no-ku. The rhymed couplet structure also somewhat flattens the two-part causal logic into one continuous narrative sentence."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "Night after night",
+        "note": "The repeated nightly waking (幾夜ねざめぬ) is rendered as 'Night after night' modifying the birds' cry and the guard's sleeplessness, capturing the temporal/primary sense of repeated nights, but the secondary resonance of 世 (the guard's whole life/lot, his enduring exile at Suma) is not conveyed — there is no sense of an entire span of years or fate-laden solitude beyond an incidental phrase 'his fate' which is disconnected from the yo pivot itself."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "screaming sea-birds",
+      "note": "The word 千鳥 (plover) is not named specifically — generalized to 'sea-birds' — but the imagery of birds crying over water at night, disturbing sleep, still carries the desolate maritime atmosphere associated with the winter kigo, even though the precise seasonal specificity of chidori is lost and no season name appears anywhere in the poem."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "The six-line translation compresses and reorders the five ku into a continuous narrative sentence with a rhymed couplet ending; L1-L2 fuse the strait-crossing motion (ku1-2) into a single image, L3 covers the repeated nightly cry (ku3-4 partially), L4 gives the effect on sleep (ku4), and L5-L6 finally identify the sekimori (ku5), with 'fate' inserted as an interpretive gloss not present in the source.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Establishes the geography: birds flying between Awaji and Suma",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The crying sea-birds moving to and fro over the strait",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Nightly repetition of the birds' ceaseless cry",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The cry prevents even a moment's sleep",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Interpretive addition: this is his fate",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Identification of the sekimori as guardian of Suma's gate",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens prioritizes English rhymed-couplet verse form and narrative fluency over literal ku-by-ku fidelity, smoothing the bipartite structure into a single flowing sentence and inserting an interpretive notion of 'fate' to underscore the guard's melancholy condition.",
+    "overall_fidelity": "medium",
+    "poem_number": 78,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translation keeps the causal-physical logic: the cry of the plovers crossing Awaji (kami) is presented as the direct cause of the guard's wakefulness (shimo), mirroring the source's structure of stimulus followed by human effect. The order is preserved (cause then effect), though the syntax is inverted within the sentence since 'By the cry...' opens the poem as a causal clause rather than following it, but the semantic relationship itself remains intact."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "How many nights",
+        "note": "The translation renders いくよ straightforwardly as 'how many nights,' capturing the literal count-of-nights reading (夜) but losing the secondary resonance of 世 (one's lot/lifetime as guardian), so the deepening sense of a whole career of solitary wakefulness is not conveyed."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "cry of the plovers",
+      "note": "The word 'plovers' names the bird (chidori) but the translation does not explicitly mark the season; the atmosphere of a desolate nocturnal shoreline crossing (implying winter's cold, mournful cry) survives through the imagery of plovers crying at night over water, even though 'winter' itself is never stated."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The cry (naku koe) of the plovers as the causal stimulus",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The plovers that frequent/cross Awaji Island",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "How many nights (has he) been awakened",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The guard of the Suma barrier, addressed directly",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator reorders the first three ku: line 1 gives the cry (ku3) before line 2 supplies its origin (ku1-2, the island and the plovers), an inversion of the source's linear kami-no-ku sequence, but the overall kami/shimo cause-effect logic is retained since both causal elements precede the shimo's effect in lines 3-4."
+    },
+    "translator_strategy": "Noguchi prioritizes a natural, compact English syntax and direct address ('Guard of the Suma gate?') over literal ku-by-ku sequencing, reordering the kami-no-ku's causal elements while preserving the poem's essential cause-and-effect logic and forgoing any attempt to render the kakekotoba's dual resonance.",
+    "overall_fidelity": "medium",
+    "poem_number": 78,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The causal-physical structure is retained—the birds' cry (kami) causes the guard's sleeplessness (shimo)—but the translation compresses the imagery (dropping 'plovers crossing the strait' texture) and adds an extrapolated closing image ('Until the morning light') not present in the source, slightly diluting the tight two-part logic into a more continuous narrative."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "sleepless night",
+        "note": "The translation renders いくよねざめぬ as 'Full oft... a sleepless night,' capturing the repeated-nights/insomnia sense (幾夜 as recurring nights) but not the secondary resonance of 世 as the guard's whole life/lot at the barrier; the pivot's double layer collapses into a single literal reading of repeated nights."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "birds scream",
+      "note": "The word 千鳥 (plover) is generalized to 'birds' and the season is never named, but the imagery of crying birds over a strait at night, causing a guard's sleepless watch, retains the desolate, cold, nocturnal atmosphere conventionally associated with the winter kigo, even though the specific plover identity and its seasonal marking are lost."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Location: between Awaji island and the shore (kami-no-ku's Awaji reference)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Birds screaming in flight — compresses 'chidori crossing' and 'crying voice' into one line, losing the specific plover imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Introduces the Suma Guard, echoing shimo-no-ku's subject",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Sleepless night — corresponds to いくよねざめぬ",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [],
+          "content_summary": "Added closing image 'Until the morning light' — not present in the source poem, an extrapolated embellishment for rhyme/closure",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the five ku into a rhymed quatrain-plus-tag structure, merging kami-no-ku's plover-crossing imagery into a brief 'birds scream' line and expanding the shimo-no-ku's sleeplessness into two lines plus an invented fifth line for rhyme, which slightly narrativizes the original's tighter bipartite causal logic."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, singable quatrain-like English verse over lexical fidelity, sacrificing the specific plover imagery and the kakekotoba's double resonance in favor of a smooth narrative that preserves only the poem's basic causal skeleton (crying birds keep the guard awake).",
+    "overall_fidelity": "medium",
+    "poem_number": 78,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3
+      ],
+      "relationship_type": "causal-physical",
+      "note": "McCauley opens with the shimo-no-ku content (the guard of Suma's gate and his sleeplessness) in lines 1-3, then moves to the kami-no-ku content (the plovers crying, migrant from Awaji) in lines 4-5. This reverses the source's cause-then-effect order into an effect-then-cause structure, though the causal-physical link between the cry and the wakefulness is still legible because line 3 ('waked at cries') bridges directly into line 4 ('of the plaintive sanderlings'). The logical relationship survives but its presentation order is inverted relative to the original."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "how many nights",
+        "note": "McCauley renders いくよ as 'how many nights,' capturing the literal counting-of-nights sense (幾夜) clearly, but there is no trace of the secondary resonance with 世 (the guard's whole lot/lifetime of solitary service); the phrase reads as a simple temporal question rather than an existential one."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "sanderlings",
+      "note": "The word 千鳥 is rendered as 'sanderlings' (a shorebird), which retains the natural-history imagery of a shorebird crying at night over water, evoking a cold, desolate coastal scene consistent with winter, but the season itself is never named nor is the winter atmosphere reinforced by any other cold/desolate diction elsewhere in the translation."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Introduces the addressee as the guard of Suma's barrier gate",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Poses the question of how many nights the guard has woken from sleep",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            3
+          ],
+          "content_summary": "States he has waked at the cries",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            2
+          ],
+          "content_summary": "Identifies the cries as those of the plaintive sanderlings (plovers)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            2,
+            1
+          ],
+          "content_summary": "Notes the birds migrate from Awaji island",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley restructures the poem as a single continuous address to the guard, opening with the shimo-no-ku subject (the guard) and working backward through the causal chain to the kami-no-ku origin (Awaji), effectively inverting the source's presentation order while keeping all content intact through syntactic reordering rather than omission."
+    },
+    "translator_strategy": "McCauley restructures the poem as a direct apostrophe to the Suma guard, front-loading the addressee and question to create an English rhetorical question, then working backward through the causal chain to the plovers and their Awaji origin, sacrificing the original's kami-to-shimo sequence and the 世 undertone of いくよ for smooth, idiomatic English syntax.",
+    "overall_fidelity": "medium",
+    "poem_number": 78,
+    "translator": "McCauley"
+  }
+}

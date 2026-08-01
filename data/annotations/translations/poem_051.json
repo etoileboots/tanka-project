@@ -1,0 +1,391 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "other",
+      "note": "The translator keeps a two-part structure — an opening statement of inexpressibility followed by a simile of moxa-burning, then the closing declaration of secretly burning passion — but converts the jokotoba's sonic wordplay into an explicit simile ('As writhes the flesh...So madly writhes my spirit'), turning the sound-driven pivot into a stated comparison. The bipartite logic survives as a rhetorical parallel (moxa burning : passion burning) rather than as the original device-driven pivot via さしも repetition, so the relationship type is preserved in spirit but restructured mechanically as simile rather than sound-bridge."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "いぶきの",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Ibuki grown",
+        "note": "The place name Ibuki is kept literally as the mountain where the moxa grows, but the secondary sound-play leading into さしも is not reproduced; it functions only as geographic label."
+      },
+      {
+        "original_word": "さしも",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "scarcely known",
+        "note": "The repetition/pivot of さしも (herb-name echoing the adverb 'to that degree') is lost entirely; the translator instead paraphrases the sentiment with 'scarcely known,' abandoning both the plant-name echo and the intensifier meaning."
+      },
+      {
+        "original_word": "もゆる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Love's flames",
+        "note": "The burning-passion meaning is rendered directly as 'Love's flames,' but the association with moxa-burning (associative link with さしも草) is expressed only via the added simile structure, not through a single word carrying both senses simultaneously."
+      }
+    ],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "moxa on Ibuki",
+      "note": "The seasonal herb sashimogusa is retained as 'moxa on Ibuki grown,' preserving the concrete botanical/place image, though the summer association is conveyed only through this residual image rather than being named or evoked as a season."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Statement that expressing love fully would be impossible/vain — corresponds to かくとだに",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Claim that even the speaker himself scarcely knows the depth of feeling — compresses the jokotoba's えやはいぶきのさしも草 into an abstract statement",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Simile introduced: flesh writhing under moxa's pain — expands the plant image into an explicit simile not present as simile in the source (source uses it as sound-bridge, not simile)",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Specifies the moxa is grown on Mount Ibuki, restoring the place-name content",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Speaker's spirit writhes as madly as the moxa simile suggested — maps to さしも知らじな's intensity claim",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Burning, unknown love-flames, sorely wrung — corresponds to もゆる思ひを",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the jokotoba's compressed wordplay (kami-no-ku, ku2-3) into an explicit multi-line simile (lines 3-4) describing physical moxa-treatment pain, then extends the simile's vehicle ('writhes') into the shimo-no-ku's emotional description (line 5), effectively fusing the two halves through the borrowed verb 'writhes' rather than through the original さしも sound-pivot."
+    },
+    "makurakotoba": [],
+    "translator_strategy": "Dickens converts the poem's sound-based jokotoba/kakekotoba wordplay into an explicit extended simile of physical moxa-cautery pain mirroring emotional burning, sacrificing the original pivot mechanics for a vivid, discursive English analogy.",
+    "overall_fidelity": "medium",
+    "poem_number": 51,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        2
+      ],
+      "note": "Noguchi restructures the poem so that the shimo-no-ku's core claim ('how could I tell you my burning heart') is fronted as the opening statement, with the jokotoba material (Ibuki moxa) relegated to a parenthetical simile appended afterward, dissolving the original sonic pivot structure into a simple statement-plus-explanatory-image sequence rather than the source's preface-then-payoff logic."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "いぶきの",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Ibuki Moxa’s",
+        "note": "The place name Ibuki is kept literally as a proper noun modifying 'Moxa', preserving the geographic/herb reference but losing the sound-play leading into さしも."
+      },
+      {
+        "original_word": "さしも",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "",
+        "note": "The repeated さしも wordplay and its pivot into the 'to that degree' meaning is entirely dropped; no English word does double duty here."
+      },
+      {
+        "original_word": "もゆる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "burning",
+        "note": "The 'burning' of passion is preserved via 'burning heart'/'heart burning', but the association with actual moxa-burning (moxibustion) is only weakly gestured at through the parenthetical simile 'as under an Ibuki Moxa's sting' rather than fused into one word as in the original."
+      }
+    ],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Ibuki Moxa",
+      "note": "The seasonal herb is named directly as 'Ibuki Moxa', preserving the concrete botanical/place reference, though it is presented as a simile ('as under an Ibuki Moxa's sting') rather than integrated into the poem's structural logic, so the seasonal weight is present but diminished to decorative imagery."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "How could I tell thee — corresponds to the shimo-no-ku's rhetorical question about disclosing feelings, echoing かくとだに from ku1 fused with さしも知らじな from ku4",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "My burning heart — corresponds to もゆる思ひを, the final payoff of the shimo-no-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Ah, my heart burning as under — restates/expands the burning image, functioning as a bridge into the simile",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "An Ibuki Moxa's sting — corresponds to いぶきのさしも草, the jokotoba's place-name and herb, recast as a simile for the burning sensation",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the source's order: instead of jokotoba (kami) building toward the emotional declaration (shimo), the English opens with the emotional question and burning-heart statement, then appends the Ibuki moxa material as a trailing parenthetical simile — effectively reversing the rhetorical sequence and compressing the extended preface into a four-word tag."
+    },
+    "makurakotoba": [],
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and compact lyric effect over reproducing the jokotoba/kakekotoba mechanics, fronting the confession of burning passion and relegating the Ibuki moxa material to a brief explanatory simile in parentheses.",
+    "overall_fidelity": "low",
+    "poem_number": 51,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "other",
+      "note": "Porter preserves the overall two-part shape—an extended simile about the moxa-herb of Mt. Ibuki (kami) followed by the declaration that the beloved cannot know the speaker's suffering (shimo)—but converts the jokotoba's sonic/wordplay bridge into an explicit simile ('like blisters'), so the pivot mechanism itself (sound-linked さしも repetition) is lost even though the two-part thematic structure survives."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いぶきの",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Mount Ibuki",
+        "note": "The place name is preserved literally as a location for the herb, but the secondary sound-play leading into さしも is entirely lost since Porter uses no sonic bridge."
+      },
+      {
+        "original_word": "さしも",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "than I can say",
+        "note": "The repetition of さしも linking the herb-name to the adverbial 'to that degree' is dissolved; Porter substitutes a generic English idiom of intensity with no trace of the herb-name echo or double meaning."
+      },
+      {
+        "original_word": "もゆる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "paining me",
+        "note": "The burning-passion meaning survives faintly as 'paining me,' but the association with the physical burning of moxa (mogusa) established via 'blisters' earlier is not reactivated at this final verb, so the associative connection is weakened rather than completed."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "blisters made from leaves",
+      "note": "The summer herb sashimogusa is not named as a season word, but its physical/medicinal use (moxa causing blisters) is rendered as an image of burnt/blistered leaves, preserving the botanical concreteness though stripped of explicit seasonal marking."
+    },
+    "translator_strategy": "Porter converts the jokotoba's phonetic wordplay into an explicit simile ('love, like blisters') so English readers grasp the burning-love/moxa connection directly, sacrificing the untranslatable sound-pivot for clarity of image and sentiment.",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            4,
+            5
+          ],
+          "content_summary": "Introduces the simile of love as blisters, compressing かくとだに (ku1) forward and anticipating the burning/pain theme of shimo",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Names Mount Ibuki as the location where the herb grows, covering the jokotoba's geographic anchor",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "States the torment is beyond what can be expressed, corresponding to さしも草/さしも知らじな",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "States the beloved shall not know/see, corresponding to さしも知らじな",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "States how she is causing him pain, corresponding to もゆる思ひを",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reorders slightly: line 1 front-loads the simile (blending ku1's かくとだに with the burning theme of ku5) before the geographic detail of ku2-3 is given in line 2, producing a mild inversion of the source's strict sequential unfolding."
+    },
+    "poem_number": 51,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "other",
+      "note": "McCauley preserves the basic five-line structure mapping roughly onto kami (L1-L3) and shimo (L4-L5), keeping the jokotoba's sound-bridge into 'moxa burns' at the very end, but the pivot's sonic mechanism (さしも repeated as both herb-name echo and degree-adverb) is flattened into a simple simile ('Like Ibuki's moxa burns'), so the relationship survives only as a loose comparison rather than the original device-driven wordplay bridge."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いぶきの",
+        "reading_preserved": "primary_only",
+        "method": "literal",
+        "en_equivalent": "Ibuki's",
+        "note": "The place name Ibuki is preserved literally as a geographic label attached to 'moxa,' but the secondary sound-play leading into さしも is not reproduced in English; only the primary place-name reading survives."
+      },
+      {
+        "original_word": "さしも",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "n'er know",
+        "note": "The repetition of さしも as both herb-name echo and degree-adverb is lost; the translator instead renders the meaning as a simple negative ('may n'er know'), losing the sound-pivot entirely and giving neither the plant-name echo nor the 'to that degree' nuance distinctly."
+      },
+      {
+        "original_word": "もゆる",
+        "reading_preserved": "primary_only",
+        "method": "literal",
+        "en_equivalent": "moxa burns",
+        "note": "The verb 'burns' captures the literal burning-passion sense and is attached directly to 'moxa,' which preserves the associative connection to moxibustion, but the deeper double resonance (passion burning / herb burning as one word doing two jobs) is rendered as an explicit simile rather than a true pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "moxa burns",
+      "note": "The seasonal herb sashimogusa is named via 'moxa,' and its burning is depicted, preserving the botanical/thermal imagery associated with the plant even though the explicit summer-season convention is not stated; the image survives but functions purely as simile vehicle rather than seasonal scene-setting."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'That, tis as it is' renders かくとだに, the initial assertion of the unspeakable state",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'How can I make known to her' compresses the jokotoba えやはいぶきのさしも草 into a rhetorical question about inability to declare feelings, dropping most of the herb/place imagery to this line's syntax",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'So, she may n'er know' corresponds to さしも知らじな, the declaration that she cannot know the depth of feeling",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'That the love I feel for her' introduces もゆる思ひを content, expanding the referent explicitly as 'love'",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            5
+          ],
+          "content_summary": "'Like Ibuki's moxa burns' reintroduces the herb name from ku3 as an explicit simile vehicle for the burning of ku5's もゆる思ひ, collapsing the jokotoba's sound-bridge into a stated comparison",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator splits the jokotoba's place-name/herb content across lines 2 and 5, using it first as an oblique rhetorical question and then reintroducing it explicitly as a simile at the close, rather than keeping it as a continuous preface; this creates a ring structure not present in the original's linear jokotoba-to-payoff progression."
+    },
+    "translator_strategy": "McCauley prioritizes clarity and metrical smoothness over reproducing the sound-play mechanics, converting the untranslatable さしも pivot into an explicit closing simile ('Like Ibuki's moxa burns') that preserves imagery and sense but sacrifices the original's wordplay-driven structural bridge.",
+    "overall_fidelity": "medium",
+    "poem_number": 51,
+    "translator": "McCauley"
+  }
+}

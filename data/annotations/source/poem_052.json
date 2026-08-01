@@ -1,0 +1,41 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The rational acknowledgment that dawn's arrival inevitably leads to dusk's return — a statement of known, accepted natural law (and by extension, the cyclical parting of lovers after a night together)",
+    "shimo_theme": "Yet despite this intellectual acceptance, the speaker's heart still resents the very dawn (asaborake) that forces the lovers' parting",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku sets up a logically resigned proposition (I know that what dawns must dusk again) via 'knowing' (知りながら), which grammatically and emotionally should neutralize any complaint — yet the shimo-no-ku overturns this expectation with 'なをうらめしき' (still I resent it), producing a paradox where rational knowledge fails to console emotional experience. The poem's entire force rests on this collision between wakari (understanding) and kanjō (feeling): the speaker admits the inevitability of dawn-to-dusk cycling (and thus of separation) yet cannot help resenting the specific dawn that separates him from his beloved."
+  },
+  "kigo": {
+    "word": "あさぼらけ",
+    "season": "none",
+    "note": "Asaborake (dawn's first light) is not tied to a specific season in the classical canon — it is a time-of-day image rather than a seasonal one. However it carries the strong conventional association of kinuginu (後朝) partings, the morning after lovers separate, which is the true poetic weight of the term here — an emotional/amorous topos rather than a seasonal marker. No true seasonal word appears in this poem; the imagery of 明け (dawn) and 暮る (dusk) is diurnal, not seasonal, and no flower, bird, frost, dew, moon-as-autumn-symbol, or other seasonal marker is present. This poem belongs to the 恋 (love) category of the Hyakunin Isshu rather than a seasonal one."
+  },
+  "furigana": [
+    {
+      "kanji": "明",
+      "reading": "あ"
+    },
+    {
+      "kanji": "暮",
+      "reading": "く"
+    },
+    {
+      "kanji": "知",
+      "reading": "し"
+    }
+  ],
+  "poem_number": 52,
+  "poet": "Fujiwara no Michinobu Ason",
+  "source_jp": "明けぬれば\n暮るるものとは\n知りながら\nなをうらめしき\nあさぼらけかな"
+}

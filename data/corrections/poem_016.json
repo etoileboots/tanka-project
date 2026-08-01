@@ -1,0 +1,291 @@
+{
+  "poem_number": 16,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T05:45:52.574720+00:00"
+    },
+    "devices": {
+      "いなば": {
+        "status": "confirmed",
+        "original": {
+          "word": "いなば",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T05:45:54.139431+00:00"
+      },
+      "まつ": {
+        "status": "confirmed",
+        "original": {
+          "word": "まつ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T05:46:04.123247+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:07.506742+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:08.172524+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:09.690486+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:11.257091+00:00"
+        }
+      },
+      "devices": {
+        "pine for me": {
+          "status": "confirmed",
+          "original": {
+            "word": "pine for me",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:34.733678+00:00"
+        },
+        "pine": {
+          "status": "confirmed",
+          "original": {
+            "word": "pine",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:35.356673+00:00"
+        },
+        "inaba's lofty range": {
+          "status": "confirmed",
+          "original": {
+            "word": "inaba's lofty range",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:36.962147+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:52.055216+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:52.584970+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:53.074751+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:53.867301+00:00"
+        }
+      },
+      "devices": {
+        "inaba mountain": {
+          "status": "confirmed",
+          "original": {
+            "word": "inaba mountain",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:55.323373+00:00"
+        },
+        "pine": {
+          "status": "confirmed",
+          "original": {
+            "word": "pine",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:46:55.765207+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:47:23.120850+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-26T05:48:16.689730+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:48:03.401019+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-26T05:48:31.643916+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-26T05:48:32.312852+00:00"
+        }
+      },
+      "devices": {
+        "inaba's peak": {
+          "status": "confirmed",
+          "original": {
+            "word": "inaba's peak",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:48:39.526723+00:00"
+        },
+        "pine": {
+          "status": "confirmed",
+          "original": {
+            "word": "pine",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:48:40.044392+00:00"
+        },
+        "pine for me": {
+          "status": "confirmed",
+          "original": {
+            "word": "pine for me",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:48:40.864175+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:49:28.949813+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:49:29.667574+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:49:40.131890+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-26T05:50:26.182217+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-26T05:50:28.600543+00:00"
+        }
+      },
+      "devices": {
+        "mount inaba": {
+          "status": "confirmed",
+          "original": {
+            "word": "mount inaba",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:50:30.145954+00:00"
+        },
+        "pine trees": {
+          "status": "confirmed",
+          "original": {
+            "word": "pine trees",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:50:30.707214+00:00"
+        }
+      }
+    }
+  }
+}

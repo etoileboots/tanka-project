@@ -1,0 +1,335 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "note": "The translator preserves the basic two-part logic (vow-making followed by the emblematic pledge), but the crucial irony of the source—that quoting the vow verbatim implies its breaking—is flattened into a straightforward causal narrative ('That we our oath would fail to keep / When...') rather than the ironic citation structure of the original; the emotional-juxtaposition becomes more of a simple sequential/explanatory relationship."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "末の松山波こさじとは",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "S'ye's pine-crown'd steep",
+        "note": "The translator keeps the place-name/topographical image (rendered oddly as 'S'ye's pine-crown'd steep') and the waves crossing it, preserving the literal picture, but the phrase 'That we our oath would fail to keep / When th' waves o'erleapt' reverses the original's rhetorical logic: instead of citing the vow's confident negative ('waves shall never cross'), it states the vow would fail precisely when waves crossed, collapsing the pivot into a plain conditional rather than activating the culturally-loaded emblem of an unbreakable promise now broken; the honkadori resonance and the ironic citation-of-a-broken-vow are lost, leaving only the surface image."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "pine-crown'd",
+      "note": "No seasonal atmosphere is conveyed; 'pine-crown'd steep' registers only as a scenic epithet for the mountain, not as an evergreen/winter seasonal marker, consistent with the source analysis's judgment that this poem carries no true kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Recollection of a past embrace/vow moment ('ちぎりきな')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The solemn vow of faith sworn between the lovers",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Sealing the vow with tears, mutual sleeve-wringing imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Tears drenching sleeves down the cheeks",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Statement that the oath would fail (restructured causal framing of the vow's content)",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Waves overleaping the pine-crowned steep of Sue no Matsuyama",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact 5-ku structure into six rhymed lines, splitting the kami-no-ku's single embrace/vow ku (1) across two lines (1-2) for meter, and merging the tear/sleeve imagery of ku 2-3 into lines 3-4; ku 5 (波こさじとは, the negative pledge) is restructured into an affirmative-conditional statement in lines 5-6, altering the ironic citation structure of the original into a plainer narrative causality."
+    },
+    "translator_strategy": "Dickens prioritizes English rhymed verse form (a flowing iambic ballad-like sextet) over preserving the ironic citation-structure and cultural resonance of the honkadori, rendering the poem as a coherent narrative of a broken vow rather than reproducing the original's allusive, elliptical pivot.",
+    "overall_fidelity": "medium",
+    "poem_number": 42,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The four-line compression preserves the basic two-part structure (vow recalled, then content of the vow via the place-name image) but compresses the kami-no-ku's three ku into two lines and merges the tear-wringing image slightly with the promise itself, weakening the discrete rhetorical pivot between the vow's utterance and its emblematic content."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "末の松山波こさじとは",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Suyeno Matsuyama",
+        "note": "The place name is retained literally and transliterated, and the 'no billow comes' line renders the surface topographical claim, but the honkadori resonance (the phrase as inherited cultural shorthand for an unbreakable vow now broken) is not signaled or explained; the irony must be inferred solely from context, so the secondary allusive layer is not actively conveyed by the translator's word choice."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "billow",
+      "note": "As the source analysis notes, 松山 here is non-seasonal love-poem imagery rather than a true kigo; the translation's 'billow' and 'Matsuyama' retain the emblematic place-name but carry no seasonal atmosphere, consistent with the source having no genuine seasonal marker to preserve."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Rhetorical question recalling the vow: 'Didst not thou promise me'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Sleeves wrung with tears while pledging, compressed with a gloss on the heart's constancy",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Vow that the heart would be as safe/unbreakable as Sue no Matsuyama",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Where no wave (billow) ever crosses",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the three kami ku into two lines and slightly interprets ちぎりきな as a rhetorical question ('Didst not thou promise'), adding an explanatory clause ('thy heart would be safe') not literally present, which shifts the phrase from a stated pledge to a psychological interpretation of it, but the overall five-part progression maps fairly cleanly onto four lines without inversion."
+    },
+    "translator_strategy": "Noguchi opts for a fluent, slightly interpretive four-line rendering that preserves the surface narrative and the Sue no Matsuyama place-name literally, sacrificing the honkadori's allusive irony and the pivot word's double resonance for clarity and lyrical economy.",
+    "overall_fidelity": "medium",
+    "poem_number": 42,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translator preserves the two-part structure (tearful vow / emblematic impossibility image) but compresses the kami section into a plain factual statement and converts the shimo's honkadori-laden irony into a straightforward hypothetical condition ('Till Pine-tree Hill shall be sunk beneath the sea'), losing the quotation-of-vow structure ('did we not pledge...') and thus flattening the implied irony that the vow has since been broken."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "末の松山波こさじとは",
+        "reading_preserved": "primary_only",
+        "method": "transformed",
+        "en_equivalent": "Sunk far beneath the sea",
+        "note": "Porter keeps the place name 'Pine-tree Hill' as a literal topographic image but reworks the classical image of waves crossing the hill into 'sunk beneath the sea,' losing the specific honkadori resonance and the exact traditional idiom (waves crossing) that Japanese readers would recognize as an emblem of impossibility/unbreakable vow; the secondary cultural-allusive meaning is diluted since the phrasing departs from the canonical wave-crossing image."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Pine-tree Hill",
+      "note": "No seasonal marker or atmosphere is introduced; 'Pine-tree Hill' functions purely as the literal place-name/emblem of impossibility, consistent with the source analysis's judgment that this is non-seasonal love-poem imagery rather than true kigo, so its absence here is not a translation failure but matches the source's own non-seasonal status."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Sleeves wet with tears as evidence/witness of the vow",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Mutual agreement between the two lovers",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Pledge of mutual fidelity ('we'll be true')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Invocation of Pine-tree Hill (Sue no Matsuyama) as the emblem of the vow's impossibility",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Condition of the vow: the hill would have to sink beneath the sea (transformed image replacing 'waves crossing')",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the three kami ku (contract-tears-wringing) into three flowing narrative lines (1-3), then expands/adapts the single shimo ku pivot (末の松山波こさじとは) into two lines (4-5), substituting a rhymed hypothetical ('sunk beneath the sea') for the canonical 'waves crossing' idiom, producing a smooth quatrain-plus-line ballad structure rather than the original's tight 5-7-5-7-7 pivot."
+    },
+    "translator_strategy": "Porter prioritizes English metrical and rhyme fluency (a ballad-like ABAB-ish rhyme scheme) over precise preservation of the honkadori allusion, smoothing the classical wave-crossing idiom into an accessible hypothetical image of a hill sinking beneath the sea.",
+    "overall_fidelity": "medium",
+    "poem_number": 42,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translation keeps the kami-no-ku as the intimate vow-scene (pledging via wringing sleeves) and the shimo-no-ku as the quoted content of that vow (waves never crossing Sue's Mount of Pines), preserving the structural logic and the implicit irony of quoting a now-seemingly-broken vow verbatim, rendered as a rhetorical question 'Have we not been pledged...that...waves shall never pass?' which mirrors the source's quotation-with-irony structure."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "末の松山波こさじとは",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Sue's Mount of Pines",
+        "note": "The translation renders the place name literally and preserves the honkadori image of waves never crossing the pine mountain as a pledge, but treats it purely as literal topography/simile rather than activating a double meaning; the secondary cultural-emblem irony is present only through allusion inherited from the source phrase itself, not through any added English wordplay device, so it functions as a straightforward literal rendering of the borrowed image rather than a true pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Mount of Pines",
+      "note": "No seasonal atmosphere is conveyed; 'Mount of Pines' functions purely as a place-name within the vow-image, consistent with the source analysis that this poem carries no true seasonal marker, so the absence here is faithful to the original's non-seasonal, love-poem character rather than a translation loss."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Opening rhetorical assertion of the vow ('Have we not been pledged') corresponds to ちぎりきな",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The wringing of sleeves as proof of the pledge, corresponding to かたみに袖を",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Mutual reciprocity of the act, 'Each for each in turn' corresponding to しぼりつつ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The emblematic place name Sue's Mount of Pines, corresponding to 末の松山",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The content of the vow itself, that ocean waves shall never pass, corresponding to 波こさじとは",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The five-line English translation maps almost one-to-one onto the five ku of the original, preserving both the sequence and the rhetorical-question framing that implies the vow has been broken without stating it outright."
+    },
+    "translator_strategy": "McCauley prioritizes close literal fidelity to both the syntax and imagery of each ku, rendering the poem as a single unfolding rhetorical question that preserves the original's quotation-based irony without adding interpretive commentary.",
+    "overall_fidelity": "high",
+    "poem_number": 42,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "難波なる身をつくし",
+      "ku": 3,
+      "reading_primary": "みをつくし (澪標 - channel marker/buoy)",
+      "reading_secondary": "身を尽くし (to exhaust oneself, give up one's body/life)",
+      "interaction": "みをつくし is a kakekotoba spanning ku3-4: 澪標 (channel marker, a wooden post marking navigable water in Naniwa Bay, famous utamakura) is homophonous with 身を尽くし (to exhaust one's body/life, to give everything). The channel-marker image, tied to Naniwa's famous seascape, is invoked purely to license the pivot into 'even if it costs me my life/body, I will meet you.' Both readings are grammatically active: 難波なる (place name modifying) applies literally to the channel-marker reading, while 身をつくしても as a verb phrase applies to the 'exhausting oneself' reading."
+    },
+    {
+      "word": "難波なる",
+      "ku": 3,
+      "reading_primary": "難波なる (Naniwa, place name, 'that is in Naniwa')",
+      "reading_secondary": "何は・なにはあれ implied 'whatever the case' (weak/associative, not fully independent)",
+      "interaction": "Primarily functions as a place-name modifier setting up the みをつくし pivot; included here only as context for the main kakekotoba, not itself a strong independent pivot."
+    }
+  ],
+  "jokotoba": {
+    "text": "難波なる身をつくして",
+    "ku_span": [
+      3,
+      4
+    ],
+    "pivot": "みをつくし (澪標/身を尽くし)",
+    "function": "The Naniwa channel-marker image serves as an extended, poem-specific lead-in (built around the kakekotoba) that motivates and licenses the emotional declaration in the shimo-no-ku; it is not a fixed epithet but composed for this poem's wordplay, functioning jokotoba-like even though its core mechanism is the pivot itself."
+  },
+  "honkadori": {
+    "source_poem": "Man'yōshū / traditional Naniwa channel-marker poems (e.g. Man'yōshū anonymous poems using 澪標 imagery of Naniwa Bay)",
+    "source_poet": "Anonymous (Man'yōshū tradition)",
+    "echoed_phrase": "難波なる身をつくし",
+    "function": "Invokes the established poetic association of Naniwa's 澪標 (channel markers) with self-sacrificing devotion, drawing on a long tradition of using this Naniwa utamakura for expressions of romantic determination."
+  },
+  "kigo": {
+    "word": "難波",
+    "season": "none",
+    "note": "難波 (Naniwa) is a famous utamakura (poetic place-name) associated with its bay, channel markers, and reeds, but it is not tied to a specific season — it functions here as a place-based rhetorical anchor for the kakekotoba rather than a seasonal marker. No genuine seasonal word is present in this poem; the imagery (channel markers, exhaustion, love) is non-seasonal love poetry (koi no uta)."
+  },
+  "furigana": [
+    {
+      "kanji": "今",
+      "reading": "いま"
+    },
+    {
+      "kanji": "同",
+      "reading": "おなじ"
+    },
+    {
+      "kanji": "難波",
+      "reading": "なにわ"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    },
+    {
+      "kanji": "逢",
+      "reading": "あわ"
+    },
+    {
+      "kanji": "思",
+      "reading": "おもふ"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker's present state of despair/resignation ('having grown weary of the world, it is all the same now') set against the Naniwa channel-marker image, establishing both emotional resignation and the wordplay vehicle for what follows.",
+    "shimo_theme": "A resolute declaration: even at the cost of one's own body/life, the speaker will still seek to meet the beloved.",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku voices despair and resignation ('it's all the same now, whatever happens'), which logically should lead to giving up — yet the shimo-no-ku pivots via the みをつくし kakekotoba into a fierce vow of self-sacrificing devotion. The despair of the opening becomes, paradoxically, the very fuel for reckless romantic resolve: because all is already lost, the speaker will now risk everything to meet the beloved, turning resignation into defiant devotion."
+  },
+  "poem_number": 20,
+  "poet": "Motoyoshi Shinno",
+  "source_jp": "わびぬれば\n今はた同じ\n難波なる\n身をつくしても\n逢はむとぞ思ふ"
+}

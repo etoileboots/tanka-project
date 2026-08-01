@@ -1,0 +1,350 @@
+{
+  "poem_number": 53,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "corrected",
+      "original": {},
+      "corrected": {
+        "kamiEnd": 18
+      },
+      "reviewed_at": "2026-07-28T03:37:45.132113+00:00"
+    },
+    "devices": {
+      "夜": {
+        "status": "removed",
+        "original": {
+          "word": "夜",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T03:36:48.790266+00:00"
+      },
+      "夜の": {
+        "status": "removed",
+        "original": {
+          "word": "夜の",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T03:37:25.482551+00:00"
+      },
+      "明くる": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "明くる",
+          "color": "#F28FC0"
+        },
+        "reviewed_at": "2026-07-28T03:37:31.649541+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:38:01.930770+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:38:02.430170+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:38:03.013599+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:38:03.814452+00:00"
+        }
+      },
+      "devices": {
+        "the night": {
+          "status": "removed",
+          "original": {
+            "word": "the night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:38:12.729551+00:00"
+        },
+        "dawn": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "dawn",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T03:38:18.179288+00:00"
+        }
+      },
+      "device_links": {
+        "dawn": {
+          "status": "corrected",
+          "original": {
+            "word": "dawn"
+          },
+          "corrected": {
+            "source_word": "明くる"
+          },
+          "reviewed_at": "2026-08-01T01:33:06.044520+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "through the night": {
+          "status": "removed",
+          "original": {
+            "word": "through the night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:39:00.933275+00:00"
+        },
+        "morning light": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "morning light",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T03:39:07.125666+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:39:41.778591+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:39:44.091176+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:39:44.573664+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:39:45.040035+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:39:45.556977+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:39:46.207972+00:00"
+        }
+      },
+      "device_links": {
+        "morning light": {
+          "status": "corrected",
+          "original": {
+            "word": "morning light"
+          },
+          "corrected": {
+            "source_word": "明くる"
+          },
+          "reviewed_at": "2026-08-01T01:33:03.394736+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "long and dreary night": {
+          "status": "removed",
+          "original": {
+            "word": "long and dreary night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:39:59.640522+00:00"
+        },
+        "desolate": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "desolate",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T03:40:09.405873+00:00"
+        }
+      },
+      "lines": {
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-28T03:40:52.900441+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:01.515205+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:02.047321+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:09.764013+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:10.281346+00:00"
+        }
+      },
+      "device_links": {
+        "desolate": {
+          "status": "corrected",
+          "original": {
+            "word": "desolate"
+          },
+          "corrected": {
+            "source_word": "明くる"
+          },
+          "reviewed_at": "2026-08-01T01:33:44.480211+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "the night": {
+          "status": "removed",
+          "original": {
+            "word": "the night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:25.746531+00:00"
+        },
+        "break of day": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "break of day",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T03:41:34.264414+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:38.146642+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:38.743800+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:39.828677+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:41.330053+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T03:41:42.095628+00:00"
+        }
+      },
+      "device_links": {
+        "break of day": {
+          "status": "corrected",
+          "original": {
+            "word": "break of day"
+          },
+          "corrected": {
+            "source_word": "明くる"
+          },
+          "reviewed_at": "2026-08-01T01:33:07.727365+00:00"
+        }
+      }
+    }
+  }
+}

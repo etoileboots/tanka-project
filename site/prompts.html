@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Annotation prompts — Comparative Translations of the Ogura Hyakunin Isshu</title>
+<link rel="stylesheet" href="about.css">
+</head>
+<body>
+<div class="article">
+  <a class="back-link" href="about.html">← Back to About</a>
+  <h1>The annotation prompts</h1>
+  <p class="lede">These are the exact, complete system prompts sent to Claude for the
+    two-pass structural analysis described in <a href="about.html#about-ai">About AI</a> —
+    exported directly from <code>annotate_translations.py</code> at build time.</p>
+
+  <section>
+    <h2>Pass 1 — Source analysis</h2>
+    <p class="prompt-note">Run once per poem, against the Japanese source only (no
+      translation is visible to this pass).</p>
+    <pre id="pass1">Loading…</pre>
+  </section>
+
+  <section>
+    <h2>Pass 2 — Translation evaluation</h2>
+    <p class="prompt-note">Run once per poem × translator, given the Pass-1 source
+      analysis plus one translator's English lines.</p>
+    <pre id="pass2">Loading…</pre>
+  </section>
+</div>
+
+<script>
+fetch('./data/prompts.json')
+  .then(r => r.json())
+  .then(d => {
+    document.getElementById('pass1').textContent = d.SYSTEM_PASS1;
+    document.getElementById('pass2').textContent = d.SYSTEM_PASS2;
+  })
+  .catch(err => {
+    document.getElementById('pass1').textContent = 'Failed to load prompts.json — ' + err;
+  });
+</script>
+</body>
+</html>

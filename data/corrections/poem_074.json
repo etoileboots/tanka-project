@@ -1,0 +1,334 @@
+{
+  "poem_number": 74,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-30T12:10:19.595830+00:00"
+    },
+    "devices": {
+      "うかりける": {
+        "status": "removed",
+        "original": {
+          "word": "うかりける",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T12:09:55.880124+00:00"
+      },
+      "はつせ": {
+        "status": "removed",
+        "original": {
+          "word": "はつせ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T12:09:58.980650+00:00"
+      },
+      "山おろし": {
+        "status": "confirmed",
+        "original": {
+          "word": "山おろし",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T12:10:12.650444+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "hatsuse mountain": {
+          "status": "removed",
+          "original": {
+            "word": "hatsuse mountain",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:24.694772+00:00"
+        },
+        "heartlessness": {
+          "status": "removed",
+          "original": {
+            "word": "heartlessness",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:25.229111+00:00"
+        },
+        "mountain blast": {
+          "status": "confirmed",
+          "original": {
+            "word": "mountain blast",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:26.765943+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:40.412839+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:41.046293+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:41.512271+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:41.879768+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "hasse's steep": {
+          "status": "removed",
+          "original": {
+            "word": "hasse's steep",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:45.911072+00:00"
+        },
+        "rudely": {
+          "status": "removed",
+          "original": {
+            "word": "rudely",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:46.562432+00:00"
+        },
+        "windy blasts": {
+          "status": "confirmed",
+          "original": {
+            "word": "windy blasts",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:10:47.163065+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:12.781601+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:16.830400+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:18.380192+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:18.879834+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:19.293954+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:19.996145+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "obstinate and wayward": {
+          "status": "removed",
+          "original": {
+            "word": "obstinate and wayward",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:26.244637+00:00"
+        },
+        "this hill": {
+          "status": "removed",
+          "original": {
+            "word": "this hill",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:26.911157+00:00"
+        },
+        "gusts": {
+          "status": "confirmed",
+          "original": {
+            "word": "gusts",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:27.645600+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:38.481787+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:39.014032+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:46.813993+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:47.347610+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:48.595577+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "unkind": {
+          "status": "removed",
+          "original": {
+            "word": "unkind",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:51.362996+00:00"
+        },
+        "hase's hills": {
+          "status": "removed",
+          "original": {
+            "word": "hase's hills",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:52.379959+00:00"
+        },
+        "storms of hase's hills": {
+          "status": "confirmed",
+          "original": {
+            "word": "storms of hase's hills",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:11:55.530887+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:12:16.696106+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:12:17.114483+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:12:17.929900+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:12:18.547870+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:12:19.597566+00:00"
+        }
+      }
+    }
+  }
+}

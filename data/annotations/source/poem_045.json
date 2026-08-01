@@ -1,0 +1,49 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "身のいたづらに",
+      "ku": 4,
+      "reading_primary": "身が虚しく（無駄に・空しく）",
+      "reading_secondary": "身が死ぬ（命を失う）",
+      "interaction": "いたづら literally means 'futile/vain/useless' but in classical usage 身のいたづらになる is an idiom for dying; the surface sense of 'my existence becoming pointless/wasted' and the deeper implication of 'I will die' operate simultaneously, though this is better classified as an idiomatic double-meaning phrase rather than a strict kakekotoba on a single word"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker laments that there is no one who would say 'how pitiful' (aware) about her — no one who feels compassion or concern for her suffering in love",
+    "shimo_theme": "Because of this utter lack of anyone's sympathy, the speaker feels she will simply die in vain, her body/life coming to nothing",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku establishes the absence of a sympathetic witness to the speaker's suffering (no one who would even say 'aware'), and the shimo-no-ku draws the direct consequence: without such compassion to sustain her, she will perish pointlessly. The logical connective is 'de' (思ほえで) — 'since I cannot even imagine such a person exists, therefore...' — making this a causal chain from emotional isolation to physical/existential ruin."
+  },
+  "kigo": {
+    "word": "あはれ",
+    "season": "none",
+    "note": "Although 'aware' often carries strong classical resonance of pathos and is sometimes loosely associated with autumn melancholy in later poetics, here it functions purely as an emotional/exclamatory term ('how pitiful') referring to compassion for the speaker's plight, with no concrete seasonal image (no flower, bird, moon, dew, or weather word) present anywhere in the poem. This is a purely love/lament (koi) poem with no seasonal marker."
+  },
+  "furigana": [
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "思",
+      "reading": "おも"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    }
+  ],
+  "poem_number": 45,
+  "poet": "Kentokuko",
+  "source_jp": "あはれとも\nいふべき人は\n思ほえで\n身のいたづらに\nなりぬべきかな"
+}

@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "立ち",
+      "ku": 3,
+      "reading_primary": "たち (立つ - to arise/spread, of rumor)",
+      "reading_secondary": "none - single primary reading but pivotal in idiom 名が立つ",
+      "interaction": "立ちにけり literally means 'has arisen/spread' referring to the rumor (名 - one's name/reputation) becoming public; this is the core verb of the poem rather than a double-meaning pivot, but it is included here because 名+立つ is a fixed idiomatic collocation meaning 'a rumor has spread' that some commentators treat as carrying a submerged echo of 立つ 'to stand' in a more literal sense of the name 'standing out' - the two senses (idiomatic 'spreading' and literal 'standing up/appearing') operate together to heighten the visual sense of the rumor becoming conspicuous"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker laments that rumors of his love affair (恋すてふ我が名) have already spread abroad (まだき立ちにけり) — his reputation as a lover has become public knowledge with surprising speed.",
+    "shimo_theme": "In contrast, the speaker reveals that he had only just begun to feel this love secretly, in his own heart, unknown to anyone (人しれずこそ思ひそめしか) — the private, tentative beginning of his feelings.",
+    "relationship_type": "paradox",
+    "pivot_note": "The pivot turns on a temporal and epistemic contradiction: the kami-no-ku describes the public, already-completed fact (rumor has already spread, まだき立ちにけり) while the shimo-no-ku reveals the private truth that the love had only just secretly begun (思ひそめしか, emphasized by the exclamatory こそ...しか construction). The poem's entire power lies in this paradox — the outward rumor has outrun the inward reality, so that what should be most hidden (secret first love) turns out to be the very thing already known to everyone. The koso...shika (係り結び) intensifies this ironic reversal, underscoring the speaker's astonishment that concealment failed at the very moment of its inception."
+  },
+  "kigo": {
+    "word": "恋",
+    "season": "none",
+    "note": "Love (恋) is a central topic-category in waka anthologies (typically grouped as its own book, separate from the four seasons) but does not itself carry a seasonal association; this poem, drawn from the Koi (Love) books of the Shūi Wakashū, contains no seasonal imagery at all — no flowers, birds, moon, snow, rain, or seasonal plants appear. Having checked every lexical item (恋, 名, 立つ, 人, しれず, 思ひ, そめ), none evokes a specific season; the poem is a pure love poem (恋の歌) with no seasonal pivot."
+  },
+  "furigana": [
+    {
+      "kanji": "恋",
+      "reading": "こひ"
+    },
+    {
+      "kanji": "我",
+      "reading": "わ"
+    },
+    {
+      "kanji": "名",
+      "reading": "な"
+    },
+    {
+      "kanji": "立",
+      "reading": "た"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "思",
+      "reading": "おも"
+    }
+  ],
+  "poem_number": 41,
+  "poet": "Mibu no Tadami",
+  "source_jp": "恋すてふ\n我が名はまだき\n立ちにけり\n人しれずこそ\n思ひそめしか"
+}

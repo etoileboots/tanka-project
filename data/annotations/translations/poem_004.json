@@ -1,0 +1,324 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The kami portion is transformed from a journey/vista act (going out onto the shore and looking) into a static description of a vantage point ('From where my home... doth stand, the wandering eye may roam'), which weakens the dynamic 'stepping out and looking' motion of 打ち出でてみれば into a more passive scene-setting. The shimo still delivers the revelation of Fuji's snow-covered peak, so the basic visual-revelation logic survives but the pivot from motion to sight is softened into a continuous panorama rather than a discrete moment of discovery."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [
+      {
+        "original_word": "白妙の",
+        "method": "omitted",
+        "note": "The makurakotoba 白妙の (conventionally invoking white cloth/mulberry-bark cloth before words for white things) is not rendered at all; 'whitened by th' new-fallen snow' conveys whiteness through the snow image itself but supplies no separate elevating epithet or ornamental substitute performing the pillow-word's function of ritually framing the whiteness before naming the peak."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "new-fallen snow",
+      "note": "Winter is not named explicitly, but 'new-fallen snow' whitening 'lofty brow' clearly conveys the season's imagery and the sublime, cold purity associated with Fuji's peak, closely paralleling the source's 雪. The 'つつ' continuous/ongoing sense (perpetual snowfall) is somewhat lost, replaced by a completed-action feel ('is whitened by')."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "From where my home -- establishes a vantage point tied to Tago's shore, replacing the act of emerging (打ち出でて) with a static 'home' location",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "My lonely home, on Tago's shore -- names the location, adds 'lonely' as invented emotional coloring not in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Doth stand, the wandering eye may roam -- conveys the act of looking (みれば) but reframes it as a roaming gaze from a fixed home rather than a traveler stepping into view",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "O'er Fusiyama's summit hoar -- introduces Mount Fuji's peak, mapping to 富士の高嶺",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Whose lofty brow -- continues description of the peak, elaborating 高嶺 with an added personifying epithet 'brow'",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Is whitened by th' new-fallen snow -- delivers the snow image corresponding to 雪はふりつつ, though rendered as a completed state rather than continuous falling",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact five-ku poem into six lines by inventing a 'home' framing device and personifying epithets ('lofty brow') not present in the source, while compressing the jokotoba's dynamic emergence-and-viewing action into a static 'wandering eye' motif; this softens the journey/discovery structure into a domesticated vista scene."
+    },
+    "translator_strategy": "Dickens prioritizes English poetic meter and rhyme (iambic, ABABCC-ish scheme) and a Victorian romantic sensibility, freely inventing a 'lonely home' vantage point and personifying epithets to produce a fluent English lyric at the expense of the source's dynamic emergence-and-revelation structure and its makurakotoba.",
+    "overall_fidelity": "medium",
+    "poem_number": 4,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "From Tago Ura (compresses the jokotoba's location and implies the act of emerging/looking, but drops explicit 'looking' verb, folding it into 'behold' in next line)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3,
+            4
+          ],
+          "content_summary": "'I behold Fuji's white summit' — combines the seeing (みれば) with the makurakotoba's whiteness and the shimo-no-ku's Fuji peak into a single compressed clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Over the high summit' — redundant restatement/expansion of 高嶺, repeating content already given in L2, likely for rhythmic/repetitive effect",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'The snow falling and falling on' — renders 雪はふりつつ, capturing the continuous aspect of ふりつつ with repetition 'falling and falling'",
+          "origin": "source"
+        }
+      ]
+    },
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The visual revelation logic is retained — an approach/emergence (L1) leading to sight of Fuji (L2) — but the compression of みれば and 白妙の into L2 blurs the kami/shimo boundary, and L3's repetition of 'summit' creates a stall rather than a clean revelatory pivot; the structure is weakened, not inverted or collapsed outright."
+    },
+    "kakekotoba": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "白妙の",
+        "method": "literal",
+        "en_equivalent": "white",
+        "note": "Noguchi renders 白妙の as literal 'white' modifying 'summit' ('Fuji's white summit'), treating it as a descriptive adjective rather than an elevating conventional epithet; the pillow word's ornamental/epithetic function (invoking white cloth imagery to elevate register) is lost, reduced to a plain color descriptor — so while the semantic content ('white') survives, the rhetorical device itself is not reproduced as an epithet, making this closer to 'literal' translation of the surface meaning without preserving the elevating convention."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "snow falling and falling on",
+      "note": "雪 (snow) is named explicitly in L4, and the continuous falling aspect (ふりつつ) is conveyed through the repetitive 'falling and falling on,' preserving both the literal winter kigo and its atmosphere of ongoing, timeless snowfall on the sacred peak."
+    },
+    "translator_strategy": "Noguchi compresses the jokotoba and pivot into a brief declarative sighting of Fuji, then expands the shimo-no-ku's snow image into two lines emphasizing repetition and continuity of the snowfall, prioritizing lyrical rhythm and closure over structural fidelity to the original's two-part visual pivot.",
+    "overall_fidelity": "medium",
+    "poem_number": 4,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "Kami-no-ku (Tago shore, emerging/looking) is rendered in L1-L2 as physical movement onto the shore; shimo-no-ku (Fuji's snowy peak) is revealed in L3-L5, preserving the visual-revelation structure where movement/looking discharges into the sight of the mountain. The 'And saw' in L3 functions as the pivot equivalent to みれば, directly connecting the two halves."
+    },
+    "kakekotoba": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "白妙の",
+        "method": "omitted",
+        "en_equivalent": "white and glist'ning",
+        "note": "The translator does render 'white' as a descriptor of the peak, which captures the literal color-content of shirotae, but the makurakotoba's actual rhetorical function — an ornamental epithet conventionally preceding words for white things, elevating register through allusion to white cloth — is not reproduced. 'White and glist'ning' is simply a descriptive adjective phrase functioning as ordinary imagery, not as an epithet performing the same elevating gesture; hence omitted rather than ornamental_equivalent."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "falling flakes of snow",
+      "note": "Snow is named directly in L5 ('Through falling flakes of snow'), preserving the kigo explicitly. The continuous/ongoing quality of ふりつつ (falling and continuing) is also captured by 'falling flakes' as an ongoing action, matching the source's sense of perpetual snowfall on the peak rather than a single completed event."
+    },
+    "line_mapping": {
+      "confidence": "high",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Speaker starts off along the shore — captures 打ち出でて (emerging/setting out)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Specifies location: the sea shore at Tago (田子の浦)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "And saw the white and glistening peak — captures みれば (looking/seeing) and echoes 白妙の as 'white'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Of Fuji all aglow — names Fuji's high peak (富士の高嶺), 'aglow' is an added embellishment not in source",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Through falling flakes of snow — renders 雪はふりつつ, ongoing snowfall",
+          "origin": "source"
+        }
+      ],
+      "structural_note": "The translator expands the compact 5-ku structure into 5 rhyming English lines with added connective and decorative material (e.g., 'all aglow') not present in the source, and splits ku 1 across two lines (L1-L2) for rhyme/meter purposes, while ku 2's みれば pivot is compressed into 'And saw' at the start of L3."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, metrical English quatrain-plus-tag form (ABABB or similar), sacrificing the makurakotoba's ornamental function and jokotoba's scene-setting subtlety in favor of a smooth narrative rendering with added decorative touches ('all aglow') to fit rhyme and rhythm.",
+    "overall_fidelity": "medium",
+    "poem_number": 4,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Tago's coast named as destination",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "speaker's movement out and act of seeing",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'Perfect whiteness laid' - rendering of 白妙の as descriptive whiteness",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Mount Fuji's lofty peak named",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "falling snow, continuous drift",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Very close 1:1 line-to-ku correspondence, preserving the five-part structure almost exactly as in the original, with L3 absorbing the makurakotoba's descriptive force into 'Perfect whiteness laid' rather than treating it as a separate epithet."
+    },
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translation maintains the journey-and-look (L1-L2) discharging into the revealed white peak (L3-L4-L5), preserving the visual-revelation logic almost line-for-line; the syntactic suspension mirrors the original's build toward the sighted mountain."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "白妙の",
+        "method": "ornamental_equivalent",
+        "en_equivalent": "Perfect whiteness laid",
+        "note": "McCauley converts the pillow word into a vivid descriptive phrase ('Perfect whiteness laid') that performs the same function of emphasizing whiteness and elevating the visual register before the peak is named, though it is folded into the sentence as description rather than kept as a detachable epithet — still, it retains the elevating, whiteness-foregrounding rhetorical work of 白妙の rather than being dropped."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "falling snow / drift of falling snow",
+      "note": "The season word 雪 (snow) is preserved explicitly and given continuous/ongoing quality ('by the drift of falling snow'), matching the ふりつつ continuous aspect of the original; the perpetual, sublime snow atop Fuji is well conveyed."
+    },
+    "translator_strategy": "McCauley aims for a faithful, line-by-line rendering that mirrors the original's five-ku structure and syntactic suspension, converting the makurakotoba into vivid descriptive language while keeping the visual-revelation logic and the continuous snowfall intact.",
+    "overall_fidelity": "high",
+    "poem_number": 4,
+    "translator": "McCauley"
+  }
+}

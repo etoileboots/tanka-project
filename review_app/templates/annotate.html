@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Annotate — Comparative Translations of the Ogura Hyakunin Isshu</title>
+<link rel="stylesheet" href="/static/annotate.css">
+</head>
+<body>
+<div class="page">
+  <div class="hd">
+    <h1>Comparative Translations of the Ogura Hyakunin Isshu</h1>
+    <p>Reviewer mode — confirm, remove, or add highlighted devices; correct the kami/shimo boundary; and reclassify translation lines. Click any poem to open.</p>
+  </div>
+  <div class="gw" id="gw">
+    <div id="rowTooltip"></div>
+    <div class="grid" id="grid">
+      <div class="legend">
+        <strong>Legend</strong>
+        <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kami-no-ku</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimo-no-ku</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#6F63C9"></div>Imagined line</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#F28FC0"></div>掛詞 Kakekotoba</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#7EBBEE"></div>枕詞 Makurakotoba</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#B4DE65"></div>季語 Kigo</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#D6D2C9"></div>Not yet analyzed</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="overlay" id="overlay" role="dialog" aria-modal="true">
+  <div class="modal-bar">
+    <div class="modal-nav">
+      <button class="mbtn" id="mPrev">← Prev</button>
+      <button class="mbtn" id="mNext">Next →</button>
+    </div>
+    <button class="mbtn mbtn-close" id="mClose" aria-label="Close">✕</button>
+  </div>
+  <div class="modal-body">
+    <div class="jp-panel" id="jpPanel"></div>
+    <div class="title-col" id="titleCol"></div>
+    <div class="en-panel" id="enPanel"></div>
+  </div>
+</div>
+
+<!-- Correction sidebar — slides in from the right whenever a device,
+     kami/shimo boundary, or translation line is clicked for review. Replaces
+     a small floating popover, which ran off-screen for elements near the
+     panel's own right/bottom edge and felt cramped for a multi-field form. -->
+<div id="corrSidebar" class="corr-sidebar" aria-hidden="true">
+  <div class="corr-sidebar-head">
+    <span>Review</span>
+    <button id="corrSidebarClose" aria-label="Close">✕</button>
+  </div>
+  <div class="corr-sidebar-body" id="corrSidebarBody"></div>
+</div>
+
+<div id="accuracyBadge">Loading accuracy…</div>
+
+<!-- Custom hover tooltip for device definitions — see the matching listener
+     in annotate.js. Also drives the tied cross-highlight glow: hovering a
+     source JP device word (or its rendering in any translator's English)
+     brightens every element sharing the same data-device value. -->
+<div id="hoverTip" class="hover-tip"></div>
+
+<script src="/static/annotate.js"></script>
+</body>
+</html>

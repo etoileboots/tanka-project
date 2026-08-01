@@ -1,0 +1,92 @@
+{
+  "poem_number": 6,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {}
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "glittering film": {
+          "status": "confirmed",
+          "original": {
+            "word": "glittering film",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:22:28.673438+00:00"
+        },
+        "hoar-frost's sheen": {
+          "status": "confirmed",
+          "original": {
+            "word": "hoar-frost's sheen",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:22:29.872538+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "frost white": {
+          "status": "confirmed",
+          "original": {
+            "word": "frost white",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:22:32.899422+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "hoar-frost king": {
+          "status": "confirmed",
+          "original": {
+            "word": "hoar-frost king",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:22:36.005661+00:00"
+        },
+        "sparkling mantle": {
+          "status": "confirmed",
+          "original": {
+            "word": "sparkling mantle",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:22:36.521936+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "deep-laid frost": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "deep-laid frost",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:22:52.283703+00:00"
+        }
+      },
+      "device_links": {
+        "deep-laid frost": {
+          "status": "corrected",
+          "original": {
+            "word": "deep-laid frost"
+          },
+          "corrected": {
+            "source_word": "霜"
+          },
+          "reviewed_at": "2026-08-01T00:22:54.678407+00:00"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "浮世",
+      "ku": 2,
+      "reading_primary": "うきよ",
+      "reading_secondary": "憂き世",
+      "interaction": "浮世 literally means 'this fleeting/floating world' but simultaneously carries 憂き世 'this sorrowful world' — the speaker's melancholy view of continued existence is fused with the conventional Buddhist term for the transient world, so that 'living on in this world' is inherently colored as painful."
+    },
+    {
+      "word": "ながらへば",
+      "ku": 3,
+      "reading_primary": "ながらへば (long-continue, if I)",
+      "reading_secondary": "なが (長) embedded sense of 'long/continuing'",
+      "interaction": "ながらふ 'to live on, endure long' contains the なが root associated with 'long' duration, reinforcing the poem's theme of prolonged, unwanted survival — functions as an intensifier of the temporal theme rather than a full double-reading, but the 'long' association is active alongside the verb's literal meaning of persisting in life."
+    },
+    {
+      "word": "夜半",
+      "ku": 5,
+      "reading_primary": "よは (the middle of the night)",
+      "reading_secondary": "よ = 世 (one's life/lot in this world)",
+      "interaction": "夜半 denotes literally 'midnight,' but the よ syllable it opens with resonates with 世 'this life/world,' echoing back to 浮世 in ku2 — the moon seen at midnight becomes bound up with the poet's reflection on his own transient lot in the world, so the temporal setting and the existential theme are fused in the same sound."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker, against his own will, imagines being forced to go on living in this sad, fleeting world",
+    "shimo_theme": "He foresees that if that happens, he will look back longingly on this very midnight moon",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The kami-no-ku sets up a hypothetical future condition (unwanted survival in this world), and the shimo-no-ku is the speaker's inferred emotional response to that future condition — he predicts that the present moment, symbolized by the midnight moon, will become an object of nostalgic longing (恋しかるべき) precisely because it is tied to the sorrow of the moment of composition (traditionally read as written facing death/exile). The pivot moves from a general existential condition to a specific, sensory, image-laden object (the moon at night) that crystallizes the emotion."
+  },
+  "kigo": {
+    "word": "夜半の月",
+    "season": "autumn",
+    "note": "The moon (月) alone is the classical autumn kigo of highest prestige in waka, and 夜半の月 'the midnight moon' intensifies this by combining the autumnal moon with the deep stillness and solitude of night, a combination strongly associated with contemplative sorrow and impermanence in the classical tradition (cf. many Kokinshū and Shinkokinshū moon poems). Even though the poem's occasion is not explicitly seasonal, the moon governs the poem's imagery and emotional resonance as the crystallizing image of the speaker's longing."
+  },
+  "furigana": [
+    {
+      "kanji": "心",
+      "reading": "こころ"
+    },
+    {
+      "kanji": "浮世",
+      "reading": "うきよ"
+    },
+    {
+      "kanji": "恋",
+      "reading": "こひ"
+    },
+    {
+      "kanji": "夜半",
+      "reading": "よは"
+    },
+    {
+      "kanji": "月",
+      "reading": "つき"
+    }
+  ],
+  "poem_number": 68,
+  "poet": "Sanjo no In",
+  "source_jp": "心にも\nあらで浮世に\nながらへば\n恋しかるべき\n夜半の月かな"
+}

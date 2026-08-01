@@ -1,0 +1,342 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator keeps the extended simile structure: L1-L2 present the sleeve compared to the hidden offshore rock never bared even at low tide (kami-no-ku content), and L3-L4 resolve into the human claim that no one knows and the sleeve never dries (shimo-no-ku content). The implicit simile logic — physical image standing in for emotional truth — is preserved, though the translation makes the comparison slightly more explicit with 'as' in L1 rather than leaving it purely implicit.",
+      "relationship_type": "simile-explicit (rendered slightly more overt than source's simile-implicit)"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "しらね",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "none do guess",
+        "note": "The translation renders しらね as 'none do guess my grief,' capturing the primary meaning of 'not knowing' clearly, but there is no attempt at any secondary echo of 白根/stone imagery; the latent low-confidence secondary reading is entirely absent."
+      },
+      {
+        "original_word": "かはく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "ne'er dried",
+        "note": "かはく (to dry) is rendered directly as 'ne'er dried,' preserving the literal meaning of never drying out, consistent with the image network of wetness/tears; no second reading was ever really active here so this is a straightforward literal rendering."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "lowest ebb",
+      "note": "As the source analysis notes, this poem carries no true seasonal kigo (it belongs to the love category), and the translation likewise conveys no seasonal atmosphere — 'lowest ebb of tide' evokes tidal/coastal imagery but no season-bound feeling, consistent with the source's timeless romantic-suffering imagery rather than any seasonal marker."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Sleeve compared to the unseen rock — introduces the simile of concealment",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The rock never bared even at the lowest ebb of the tide, completing the image of permanent submersion",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "No one perceives or guesses the speaker's hidden grief",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Her tear-drenched sleeve never dries, resolving the simile into emotional truth",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation maps quite cleanly onto the five ku divided into two couplets: lines 1-2 render the kami-no-ku's rock simile (ku 1-3), and lines 3-4 render the shimo-no-ku's human claim of hidden, ceaseless weeping (ku 4-5), preserving the original bipartite split almost exactly onto the four-line English structure with only minor internal reallocation of ku 2-3 content between lines 1 and 2."
+    },
+    "translator_strategy": "Dickens opts for a compact rhymed quatrain that renders the extended rock-simile and the hidden-tears resolution in clear, direct English, sacrificing the pivot-word's associative ambiguity for metrical concision and rhyme (unseen/ween, tide/dried).",
+    "overall_fidelity": "medium",
+    "poem_number": 92,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator preserves the simile structure explicitly ('My sleeves are like...') which actually makes the implicit simile more explicit than the original; the shimo's claim of hidden suffering and ceaseless wetness is compressed into lines 3-4, with line 3 straddling both the tidal image and the 'nobody would know' clause, slightly blurring the kami/shimo boundary."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "しらね",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Nobody would know",
+        "note": "Only the primary reading ('people do not know') is rendered; the tentative secondary echo of 白根/stone imagery, already low-confidence in the source, is not attempted at all."
+      },
+      {
+        "original_word": "かはく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "never dry",
+        "note": "The literal meaning of drying is preserved directly, maintaining the image network of wetness/dryness, though no secondary pivot was present to preserve or lose."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "lowest tide",
+      "note": "No seasonal signal is present or implied; 'lowest tide' and 'sea rocks' evoke a coastal, timeless setting appropriate to the love category rather than any of the four seasons, consistent with the source analysis's judgment that this poem carries no kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "My sleeves are like — introduces the simile, corresponding to わが袖は",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The wide sea rocks unseen — compresses 潮干に見えぬ and 沖の石の into one image of unseen rocks in the wide sea",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            4
+          ],
+          "content_summary": "Even at the lowest tide continues the tidal image from ku2, then 'Nobody would know' begins the shimo's claim from ku4 (人こそしらね)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "That their tears never dry — renders かはくまもなし with the emotional referent (tears) made explicit, which is an interpretive addition since 'tears' is not stated in the original text but implied",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the three kami-ku into two lines and merges the pivot into line 3, which straddles both the completion of the rock image and the opening of the shimo's declaration, slightly obscuring the clean kami/shimo division present in the Japanese original."
+    },
+    "translator_strategy": "Noguchi prioritizes clarity and explicit simile over ambiguity, making the implicit comparison overt with 'like' and supplying the interpretive word 'tears' to ensure the emotional payload is unmistakable to an English reader.",
+    "overall_fidelity": "medium",
+    "poem_number": 92,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter restructures the poem so that the tears/wet-sleeve claim (originally the emotional resolution in shimo-no-ku) is stated first and explicitly ('wet with floods of tears... as here I sit and cry'), while the offshore-rock image (originally the kami-no-ku simile-vehicle) is introduced afterward as a comparison ('wetter than a low-tide rock'). The simile logic survives (sleeve compared to rock) but its order and grammatical shape are reversed: the source builds the rock-image first and lets it silently stand for the emotion, whereas Porter states the emotion first and then invokes the rock only as an intensifying comparison, collapsing the implicit simile into an explicit rhetorical comparison stated in the opposite sequence."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "しらね",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "No one",
+        "note": "Porter renders 人こそしらね as 'No one... can find a spot that's dry,' preserving the sense that others don't know/perceive, but the word 'No one' only carries the surface meaning of not-knowing/not-finding; the tentative secondary echo of 白根 (white stone) noted in the source analysis is not engaged with at all, and there was no true second reading in play to begin with, so this is effectively a straightforward literal rendering of the primary sense only."
+      },
+      {
+        "original_word": "かはく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "dry",
+        "note": "かはく (to dry) is rendered literally and directly as 'dry' in 'a spot that's dry,' preserving the core denotative meaning; there is no secondary reading to preserve since the source analysis marks this as a low-confidence associative image word rather than a true pivot with two meanings."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "low-tide rock",
+      "note": "As the source analysis notes, this poem carries no true seasonal kigo (it belongs to the love category, not a seasonal one), and Porter's translation likewise introduces no seasonal atmosphere; 'low-tide rock' preserves the tidal/coastal image but does not evoke any of the four seasons, consistent with the source's absence of seasonal content."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Sleeve wet with floods of tears — the emotional claim from shimo-no-ku stated explicitly and moved to the front",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Extrapolated dramatic detail 'as here I sit and cry' — expands on the weeping implied by かはくまもなし, adding a physical posture not in the source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Comparison to the low-tide rock (沖の石, 潮干に見えぬ) used as an intensifying simile rather than the sustained image-first structure of the original",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "人こそしらね — no one, however hard he tries, i.e., others do not know/perceive",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "かはくまもなし — cannot find a dry spot, i.e., never dry",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Porter prioritizes a singable, rhymed English quatrain-plus-couplet form over preserving the original's image-first structure, front-loading the emotional statement (tears/weeping) and relegating the offshore-rock image to a mid-poem simile, effectively inverting and explicitizing the source's implicit, image-driven bipartite logic for the sake of narrative clarity and rhyme.",
+    "overall_fidelity": "medium",
+    "poem_number": 92,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "McCauley preserves the simile structure clearly: L1-3 present the rock image explicitly as a simile ('Like a rock at sea'), and L4-5 resolve it into the human emotional claim of ceaseless tears and hidden suffering, matching the source's implicit-simile bipartite logic, though the translator makes the simile explicit with 'Like' rather than leaving it purely implicit as in the Japanese."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "しらね",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "unknown",
+        "note": "The translator renders しらね as 'unknown in human ken,' capturing the primary meaning (people do not know) but no attempt is made at the low-confidence secondary echo of 白根/白 (white root/stone), which is unsurprising given its tentative status in the source analysis."
+      },
+      {
+        "original_word": "かはく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "dry",
+        "note": "かはく is rendered directly as 'dry' in 'Never for a moment dry,' preserving the primary drying-sense meaning; there is no secondary reading to preserve, so this is a straightforward literal rendering that maintains the image network of wetness/dryness with the rock and tide imagery."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "ebb-tide",
+      "note": "As the source analysis notes, this poem carries no true seasonal kigo (it belongs to the love category), and McCauley's translation likewise conveys no seasonal atmosphere; 'ebb-tide' is a tidal/coastal image rather than a seasonal one, consistent with the absence of kigo in the source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Introduces the rock-at-sea simile explicitly with 'Like,' corresponding to 沖の石の (offshore rock)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Describes the rock as hidden even at ebb-tide, corresponding to 潮干に見えぬ (not seen even at low tide)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Identifies the sleeve as tear-drenched, corresponding to わが袖は (my sleeves), resolving the simile",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "States the sleeve is never dry for a moment, corresponding to かはくまもなし",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "States this suffering is unknown to others, corresponding to 人こそしらね",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "McCauley restructures the kami-no-ku's word order: the Japanese sequence is sleeve→low-tide→rock (ku1-2-3), but the translation reorders as rock→low-tide→sleeve (L1-2-3), front-loading the simile marker 'Like' to make the comparison explicit at the outset rather than resolving it at the end of the kami-no-ku as in the source; the shimo-no-ku order (ku4-5) is also inverted in translation (L4 corresponds to ku5, L5 corresponds to ku4), likely for English syntactic flow."
+    },
+    "translator_strategy": "McCauley prioritizes clear, explicit simile structure and natural English syntax over preserving the Japanese ku-by-ku word order, rendering the poem as a tightly logical five-line statement that makes the comparison and its emotional resolution immediately legible to an English reader.",
+    "overall_fidelity": "high",
+    "poem_number": 92,
+    "translator": "McCauley"
+  }
+}

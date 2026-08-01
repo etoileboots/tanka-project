@@ -1,0 +1,349 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The reed-joint image (L1-2) is retained as the measure-image, and L3 explicitly draws the comparison ('e'en as brief space') linking the physical brevity to the temporal complaint in L4-5. This preserves the simile-implicit logic reasonably well, though the translator makes the comparison more explicit ('as brief space') than the source's more fused, implicit pivot-word logic, so it is weakened into a stated simile rather than the fused image the source achieves through ふし. Also the final line's added exclamation ('I fain would die!') is an extrapolated emotional intensifier not directly in the source, slightly diluting the tight bipartite fusion."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふし",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "joints",
+        "note": "Dickens renders ふし straightforwardly as 'joints' of the reed, capturing the literal node/segment meaning clearly, but there is no trace of the secondary 臥し (lying down/night together) sense — no word suggesting reclining, sleeping, or a night together appears anywhere in the translation."
+      },
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "time",
+        "note": "The 'この世を過ぐしてよ' idea is compressed into 'While time o'er...speed' and 'Failst thou to greet my longing eye' — this captures a temporal/durational sense loosely tied to 世 (life/time) but does so vaguely, and there's no echo of 夜 (night) at all; the specific double meaning is lost, reduced to a generic notion of time passing rather than either 'this world/life' or 'night' precisely."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Ashi reed / Nanihagata",
+      "note": "The translator retains the proper noun 'Nanihagata' and the reed imagery literally, preserving the utamakura reference itself, but does nothing to evoke the autumn atmosphere (no withering, rustling, or seasonal coloring language) — the season survives only as a named place/plant reference transliterated from the original, not as felt atmosphere, so it sits between explicit and omitted; closest categorization is implicit_imagery via the bare presence of reed/marsh imagery, though weakly so since no autumnal mood language is added."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Scant/short joints of the Ashi reed",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "growing near Naniwa's tidal flats (Nanihagata)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the brief interval of time/space compared to the reed-joint gap",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "failing to meet/greet the speaker despite passing of life/time",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "expression of despair/wish to die, extrapolated intensification of the plea in ku5",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the order of ku1 and ku2 (naming the reed's joints before the place name), and expands the final lament into an added exclamatory line ('I fain would die!') that has no direct textual equivalent in the source, intensifying emotional register beyond the original's more restrained rhetorical question 'とや'."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, metrically regular English verse form (ballad-like quatrain plus refrain) over precise preservation of the kakekotoba's double meanings, opting for literal/primary readings and adding an emotional exclamation to compensate for the lost pivot-word nuance.",
+    "overall_fidelity": "medium",
+    "poem_number": 19,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Noguchi inverts the source order: shimo-no-ku content (the lament about passing a whole life without meeting the beloved) is placed first (L1-L2), and the kami-no-ku reed-joint image is placed last (L3-L4) as an explicit simile ('short like the ashi joints'). The simile-implicit fusion of the source is made into an explicit simile via 'like', which clarifies the comparison but reverses the presentation order, turning the jokotoba into a trailing clarifying image rather than an opening scene-setter that organically pivots into the complaint."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ふし",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "ashi joints",
+        "note": "The 'joint' (節) meaning is rendered literally as 'ashi joints,' but the secondary echo of 臥し (lying together / a night together) is entirely absent — no vocabulary in the translation gestures toward intimacy or lying down, so the pun's double resonance collapses into a single physical image."
+      },
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "days and world",
+        "note": "世 is rendered as 'the days and world,' preserving the 'span of life/existence' sense, but 夜 (night) is not evoked at all — no word suggesting night or a single night's meeting appears, so the secondary reading is lost."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "ashi joints of the Naniwa shore",
+      "note": "The place-name Naniwa and the reed (ashi) image survive literally, preserving the utamakura reference, but no autumnal atmosphere (withering, rustling, loneliness of an autumn shore) is evoked beyond the bare naming of the reed and location; the seasonal charge is present only as a residual toponymic/botanical detail rather than as felt atmosphere."
+    },
+    "translator_strategy": "Noguchi restructures the poem into a clear cause-then-image English sentence, foregrounding the emotional complaint and appending the reed-joint image as an explicit simile, sacrificing the pivot-word ambiguities and the autumn atmosphere for narrative clarity and compactness.",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Must I pass the days and world (この世を過ぐしてよ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Not seeing thee (あはで...とや, the lament of not meeting)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Even for a short time - short (ふしのまも, the brief interval)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "like the ashi joints of the Naniwa shore (難波潟 みじかき芦の, the reed-joint image)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation inverts kami/shimo order, placing the shimo lament first and the kami reed image last as an explicit simile via 'like', compressing the five ku into four lines with the jokotoba function made syntactically explicit rather than embedded as an opening scene."
+    },
+    "poem_number": 19,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator preserves kami content (reed joints, Naniwa) in lines 1-3, but the shimo content is drastically altered: instead of a lament that she must endure a whole lifetime without meeting, Porter's L4-5 seems to express hope that the *separation* itself will be as short as the reed-joint (misreading or reversing the complaint into a hopeful wish). The relationship between the reed-joint image and the human situation is retained as a measure-of-brevity simile, but the emotional valence is inverted: instead of despairing over enforced non-meeting for a lifetime, the speaker hopes the time apart will be brief. This flips the shimo's meaning while keeping the kami's image intact, so the bipartite pivot logic is inverted rather than preserved."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ふし",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "joints",
+        "note": "Porter renders ふし only as 'joints' of the reed/bamboo, capturing the literal node-image but entirely dropping the 臥し 'lying down/night together' resonance; no English wordplay attempts the secondary meaning."
+      },
+      {
+        "original_word": "よ",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "the time",
+        "note": "The 世/夜 pivot is not rendered at all — Porter's 'I hope the time may be / When thou'rt away from me' abandons both the 'whole life' (世) and 'night' (夜) senses, replacing them with a vague temporal wish that doesn't correspond to either meaning precisely."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "reeds ... beside the sea ... pebble beach at Naniwa",
+      "note": "No season word appears explicitly, but the reed/shore imagery of Naniwa is retained, which is the vehicle through which autumn atmosphere would normally be conveyed in the Japanese tradition; an English reader, however, would not perceive any seasonal association since 'reeds' and 'sea' read as neutral, timeless natural imagery rather than autumnal desolation."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Short as the joints of bamboo reeds — renders みじかき芦のふしのま (short reed-joint interval)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "That grow beside the sea — expands on Naniwa-gata's coastal setting",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "On pebble beach at Naniwa — names the utamakura Naniwa-gata explicitly, with invented 'pebble beach' detail not in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "I hope the time may be — corresponds loosely to この世を過ぐしてよとや but reverses the sense from lament to hope",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "When thou'rt away from me — recasts あはで (not meeting) as separation, dropping 過ぐしてよとや's rhetorical questioning tone",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reorders: the reed-joint measure-image (kami) is spread across lines 1-3 with added scenic detail (pebble beach), while the shimo's lament is softened into a wish, altering the poem's plaintive question into an expressed hope; this changes the direction of the simile-based complaint into something closer to a stoic acceptance or even inverted desire for brevity of separation."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhymed English quatrain-plus-line form over precise semantic and rhetorical fidelity, sacrificing the kakekotoba wordplay and reversing the emotional charge of the shimo-no-ku to fit a tidy rhyme scheme.",
+    "overall_fidelity": "low",
+    "poem_number": 19,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "McCauley preserves the structural order (reed-joint image first, then the lament), but the fusing pivot ふし that ties measure-of-time to lying-together/moment is flattened into a straightforward simile ('even for a space short as...') stated up front rather than emerging organically from the image; the simile-implicit relationship survives but is made more explicit/mechanical, weakening the subtlety of the original fusion."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふし",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "joint of tiny reed",
+        "note": "McCauley renders ふし as 'joint' — the literal reed-node meaning is clearly present ('Short as joint of tiny reed'), but there is no trace of 臥し (lying down / night together); the secondary erotic/intimacy resonance is entirely lost, so this is primary_only."
+      },
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "this life",
+        "note": "よ is rendered as 'this life,' preserving 世 (lifetime/world) but giving no echo of 夜 (night); the secondary reading that ties back to the reed-joint/night imagery is dropped, so again only the primary sense survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Naniwa's marsh / tiny reed",
+      "note": "The translation keeps 'Naniwa's marsh' and 'tiny reed,' preserving the utamakura and reed imagery that carries the autumnal, withering-reed-bed atmosphere, but the word 'autumn' itself is never named; the seasonal feeling survives only through the marsh/reed image being kept intact, not through explicit naming."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'Even for a space' — sets up the measure-of-time framing that in the source arises from ふしのま (ku3)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'Short as joint of tiny reed' — combines みじかき芦 (ku2) with ふし (ku3), rendering the reed-joint image directly",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'From Naniwa's marsh' — the utamakura 難波潟 (ku1), placed after the reed image rather than before, an inversion of source ku order",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'We must never meet again' — renders あはでこの世を (ku4), specifically the not-meeting clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'In this life? This, do you ask?' — completes ku4's 'this life' (この世) and ku5's 過ぐしてよとや (the questioning plea)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley inverts the internal order of kami-no-ku: he front-loads the abstract 'space' measure (from ku3) before the concrete reed/marsh images (ku1-2), reversing the source's concrete-to-abstract build. The shimo-no-ku is expanded slightly into two lines with an added rhetorical question mark ('This, do you ask?') that renders とや's questioning force explicit."
+    },
+    "translator_strategy": "McCauley prioritizes clarity and forward rhetorical momentum in English syntax, restating the reed-joint simile explicitly upfront and rendering the closing question directly, at the cost of the kakekotoba's secondary erotic/night reading and the pillow-word-less but utamakura-carried seasonal subtlety.",
+    "overall_fidelity": "medium",
+    "poem_number": 19,
+    "translator": "McCauley"
+  }
+}

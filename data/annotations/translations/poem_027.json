@@ -1,0 +1,310 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "simile-like parallel (confusion of river likened to confusion of mind)",
+      "note": "Dickens converts the sound-driven jokotoba pivot into an explicit simile: the river's 'tumult' and 'boiling waters' are directly compared to the speaker's mental 'confusion,' making the kami-no-ku a metaphorical vehicle for the shimo-no-ku's emotional state rather than a purely acoustic pivot generating a rhetorical question. This is a displacement of relationship type from sound-association ('other') to image-based simile."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いつ見き",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "confusion know",
+        "note": "The rhetorical question 'when did I ever see you' that structures the shimo-no-ku is entirely dropped; Dickens replaces it with a declarative statement of mental confusion mirroring the river's turbulence, losing both the literal reading (when did I see you) and the sound-echo with Izumi. No trace of the interrogative bewilderment or the itsu/izumi pivot survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "boiling waters",
+      "note": "No seasonal marker is present in the source (this is a love poem using a place-name jokotoba, not a true kigo), and Dickens's translation likewise carries no seasonal atmosphere; the 'boiling waters' image emphasizes turbulence and heat rather than the cold, clear spring-fed purity conventionally associated with the Izumi River, so even the incidental coldness/clarity connotation is replaced by an image of violent agitation."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Izumi River's waters described as boiling/flowing",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The vast tumult of the river flowing through Mika Plain",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The speaker's mind is likened to the river's confusion",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The speaker is a wretched victim of love's pain",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Dickens compresses the three kami ku into two lines (inverting the original ku order by placing Izumi before Mika Plain) and converts the shimo-no-ku's rhetorical question into a direct simile connecting river turbulence to mental confusion, collapsing the acoustic pivot into an explicit image-based comparison."
+    },
+    "translator_strategy": "Dickens sacrifices the poem's sound-driven wordplay and rhetorical-question structure in favor of a smooth quatrain built on an explicit simile between the river's turbulence and the speaker's emotional confusion, prioritizing metrical rhyme and narrative clarity over the original's associative logic.",
+    "overall_fidelity": "low",
+    "poem_number": 27,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Noguchi turns the jokotoba into an explicit simile ('Like the Izumi stream... Boiling down') rather than a sound-pivot preface, so the kami-no-ku becomes an overt metaphor for the intensity of feeling (boiling = passion) instead of a pure acoustic association. This is a displaced relationship type: image-based simile substituted for the original's purely phonetic pivot mechanism, though the general two-part shape (river description then question about love) is kept."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いつ見き",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "When did I see",
+        "note": "The literal rhetorical question 'when did I see her' is rendered directly and clearly, but the sound-echo with Izumi (泉) that motivates the pivot in Japanese is entirely lost — there is no wordplay connecting 'Izumi' and 'when' in English, so only the surface meaning survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Izumi stream",
+      "note": "No seasonal marker or atmosphere is introduced; 'Izumi stream' is treated as a proper place-name/simile vehicle without any seasonal coloring, consistent with the source analysis noting this poem carries no true kigo, though the 'Boiling down' imagery (turbulent water) does not evoke any season either — it evokes passion instead."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Names the Izumi stream as a simile vehicle ('Like the Izumi stream')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Describes the stream boiling/rushing through Mika plain, condensing 'wakite nagaruru' and 'mika no hara' into one line",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [],
+          "content_summary": "Exclamatory interjection 'Oh, my heart!' — an emotional outburst not directly present in the source ku, functioning as an inserted transition/emphasis",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The rhetorical question 'when did I see her' combined with the conclusion 'to love so', compressing both shimo ku into one line",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Noguchi restructures the poem as an explicit simile ('Like X... Oh my heart... when did I see her') rather than preserving the jokotoba/sound-pivot structure; he also reorders content, placing the river name before the plain description (L1 river, L2 plain) which inverts the original's kami-ku internal sequence (plain first, then river)."
+    },
+    "translator_strategy": "Noguchi converts the jokotoba's sound-driven pivot into an explicit emotional simile, prioritizing vivid, exclamatory English imagery (\\\"Boiling down,\\\" \\\"Oh, my heart!\\\") and clarity of feeling over reproducing the acoustic wordplay between Izumi and itsu.",
+    "overall_fidelity": "medium",
+    "poem_number": 27,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "causal_rhetorical_question",
+      "note": "Porter converts the jokotoba's pure sound-pivot structure into a direct causal-emotional question: he keeps the river imagery as an opening invocation (almost apostrophe, 'Oh! rippling River Izumi') but instead of preserving the associative logic ('itsu' echoing 'Izumi'), he supplies a literal narrative premise — that the speaker actually did see the maid ('the maid I saw but now / And soon shall see again') — which removes the bewildered, causeless-longing logic of the original entirely. The relationship type shifts from a sound-driven jokotoba pivot into a straightforward invocation + rhetorical question about why love torments him, i.e., a different (causal) structure than the source's acoustic non-sequitur."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いつ見き",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "saw but now",
+        "note": "Porter discards the rhetorical bewilderment ('when did I ever see her, that I should feel this way?') and instead asserts an actual, specific encounter ('the maid I saw but now / And soon shall see again'), inventing a narrative of a real meeting. This eliminates both the literal question-reading and the sound-echo with Izumi entirely; no attempt at wordplay is present, and the emotional logic of unexplained longing is replaced by a concrete love story."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "rippling River",
+      "note": "As the source itself notes, no true kigo governs this love poem; Porter's 'rippling River Izumi' preserves the topographical/utamakura imagery but carries no seasonal signal, consistent with the source's kigo analysis of 'none'."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Apostrophe to the Izumi River, invoking it directly ('Oh! rippling River Izumi')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The river flows through Mika Plain",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Rhetorical question reframed as referencing an actual seen maid ('the maid I saw but now')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Invented continuation: 'and soon shall see again' — no equivalent in source, which only questions a past sighting",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The longing/torment of love ('Torment my love-sick brain')",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter inverts the order of ku 3 (Izumi Kawa) ahead of ku 1-2 (Mika Plain), opening with direct address to the river before describing its geographic setting, and expands ku4's rhetorical bewilderment into a concrete narrative of past and future sightings, adding content not present in the source (line 4 is largely invented)."
+    },
+    "translator_strategy": "Porter prioritizes rhyme, meter, and narrative clarity for an English readership over preserving the source's sound-driven jokotoba logic, inventing a concrete love-narrative (a maid actually seen) to replace the original's rhetorical bewilderment about causeless longing.",
+    "overall_fidelity": "low",
+    "poem_number": 27,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "other",
+      "note": "McCauley keeps the two-part structure (river description then rhetorical question of longing) but the sound-pivot linking Izumi to 'itsu' (when) is lost since English cannot replicate the homophony; the jokotoba becomes a straightforward scenic preface rather than a phonetic trigger for the shimo-no-ku's question, weakening the causal/associative logic to mere juxtaposition."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いつ見き",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "I know not if we have met",
+        "note": "The rhetorical-question sense 'when did I ever see her' is rendered as 'I know not if we have met,' preserving the primary semantic content of doubt/never-having-met, but the sound-echo with 'Izumi' (泉/いつ) that binds this line to the preceding river name is entirely lost in English, since 'Izumi' and 'when' share no phonetic resemblance in translation."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Izumi's stream",
+      "note": "The river name Izumi is preserved as a proper noun but carries no seasonal marking in this translation; no imagery of cold, clear, or seasonal water is emphasized beyond the plain naming of the stream, so no seasonal atmosphere is conveyed since the source itself carries no true kigo here."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Mika Plain as setting",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "the river gushing forth and flowing freely (wakite nagaruru)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "naming the Izumi River",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "rhetorical question of never having met/seen her",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "wondering why he longs for her so much",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "McCauley maps almost one-to-one, five English lines to five ku, preserving the original's sequential unfolding without compression or inversion; the only loss is the phonetic pivot linking ku 3 and ku 4, which becomes invisible when rendered as separate semantic units in English."
+    },
+    "translator_strategy": "McCauley pursues a literal, line-by-line semantic translation that preserves narrative sequence and imagery but necessarily sacrifices the wordplay-driven cohesion (the Izumi/itsu sound-pivot) that unifies the original's two halves.",
+    "overall_fidelity": "medium",
+    "poem_number": 27,
+    "translator": "McCauley"
+  }
+}

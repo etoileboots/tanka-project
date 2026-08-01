@@ -1,0 +1,280 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4
+      ],
+      "note": "The translator maintains the visual-revelation structure: lines 1-3 build the auditory expectation (hearing the cuckoo, searching the sky, failing to find it) and line 4 delivers the anticlimactic visual revelation of the moon replacing the bird, matching the source's kami/shimo logic closely, though compressed into a single closing line rather than two."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Hototogis cry",
+      "note": "The translator retains the Japanese word 'Hototogis' (cuckoo) directly rather than naming the season, so the seasonal marker is present as a proper noun/bird name but the English reader is not told it signals summer; the season is conveyed only through the bird's name itself, not through explicit seasonal vocabulary or additional summer atmosphere, so this is best read as implicit imagery via the retained loanword rather than fully explicit naming of season."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The speaker hears the cuckoo's cry (combines the bird name and the act of crying)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The speaker searches/gazes across the sky toward where the cry came from",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Reinforces the search, emphasizing the bird cannot be found — an expansion of the gazing act into a couplet of futile searching",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Only the morning (dawn) moon remains, met by the speaker's eye instead of the bird",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the single kami-no-ku act of gazing (眺むれば) into two lines (2-3) for rhyme/meter purposes, and compresses the two shimo-no-ku lines (ただ有明の月ぞのこれる) into a single closing line, producing a 3:1 compression relative to the source's 3:2 ku division."
+    },
+    "translator_strategy": "This translator prioritizes a tight rhymed quatrain (AAAA rhyme scheme) and narrative clarity over preserving the precise five-part ku structure, expanding the search motif for rhyme while compressing the moon's revelation into a single terse final line.",
+    "overall_fidelity": "medium",
+    "poem_number": 81,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator keeps the visual-revelation structure: L1-L2 set up the act of looking toward where the cuckoo sang (kami), and L3-L4 reveal that only the moon remains instead (shimo), preserving the anticlimactic disjunction between auditory expectation and visual result."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "cuckoo",
+      "note": "The cuckoo is named directly ('cuckoo sung'), preserving the summer seasonal marker explicitly as vocabulary, though the translation compresses the scene so the bird's cry itself (its sound) is referenced only in passing rather than dwelt upon; the season is still clearly signaled by the word itself rather than through atmosphere alone, so this borders on explicit, but the overall mood (dawn, moon, absence) carries the seasonal feeling as much as the word does."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Imperative 'Behold' stands in for 眺むれば (the act of gazing), placed first as a framing command rather than a subordinate clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The sky where the cuckoo sang — combines ほととぎす and 鳴きつる方を into one line",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'There remains' translates のこれる, the verb of persistence",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Only the morning moon' translates ただ有明の月, though 'morning moon' softens the specific 'dawn moon after moonset' nuance of 有明の月 into a more generic phrase",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders the kami-no-ku: the gazing verb 眺むれば, which structurally comes third in the Japanese and functions as the pivot into the shimo-no-ku, is moved to the very front as an imperative 'Behold', creating a more direct address to the reader/listener before naming what was seen; this is a mild inversion within the kami segment itself but the overall kami/shimo bipartite order is preserved."
+    },
+    "translator_strategy": "Noguchi compresses the poem into four short, declarative English lines that foreground the imperative act of looking ('Behold') before naming the cuckoo, prioritizing brevity and immediacy over reproducing the original's exact grammatical sequence.",
+    "overall_fidelity": "medium",
+    "poem_number": 81,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The kami-no-ku is compressed to the cuckoo's cry fading and an odd invented image of 'the branch is bare', which substitutes for the act of gazing toward the direction of the cry (眺むれば is dropped). The shimo-no-ku's revelation of the moon is preserved and even expanded (lines 3-5), maintaining the basic anticlimax of absence-replaced-by-moon, but the causal link (turning to look BECAUSE of the cry) is weakened since 'the branch is bare' replaces the deliberate gaze with a static image of emptiness."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "cuckoo's echo",
+      "note": "The cuckoo is named explicitly in line 1 ('The cuckoo's echo dies away'), preserving the summer kigo lexically, though the invented 'bare branch' image shifts the atmosphere toward autumnal desolation rather than the fleeting-cry imagery of the original; the moon imagery in the later lines is generic dawn-moon rather than distinctly summer."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The cuckoo's cry fades into silence",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Invented image of a bare branch replacing the act of gazing (眺むれば)",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The speaker sees only the morning (dawn) moon remaining",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The moon's light is described as fading",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Extra detail: fading before daylight's glare, an added temporal/visual flourish not in the original",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the 5-ku poem into 5 lines but reallocates content: the kami-no-ku's central verb of gazing (眺むれば) is replaced by an invented visual image ('the branch is bare'), and the shimo-no-ku is stretched across three lines with an extra invented clause about daylight's glare, producing a rhyme scheme (ABABB) at the cost of literal fidelity."
+    },
+    "translator_strategy": "Porter prioritizes rhyme and metrical smoothness in a Victorian ballad style, freely inventing imagery (the bare branch, daylight's glare) to fill out rhymed lines even where it departs from the original's spare logic of listening-then-looking.",
+    "overall_fidelity": "medium",
+    "poem_number": 81,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation keeps the same visual-revelation logic: lines 1-3 set up the act of turning to look toward where the cuckoo's cry came from, and lines 4-5 reveal that only the dawn moon was found there instead of the bird, preserving the anticlimactic disjunction between auditory expectation and visual result."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "Hototogisu",
+      "note": "The translator retains the Japanese word itself (transliterated, capitalized as a proper name) rather than translating it as 'cuckoo,' which explicitly names the summer kigo, though an English reader unfamiliar with the term may not register its seasonal connotation without a gloss. The dawn moon imagery in line 5 also reinforces the lingering nocturnal/early-summer atmosphere."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The speaker turns his gaze (眺むれば)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Toward the direction/place where the cry had been heard (鳴きつる方を)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Naming the cuckoo (ほととぎす)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The anticlimactic revelation—only one thing remained (ただ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The dawn moon that lingered (有明の月ぞのこれる)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator reorders the kami-no-ku content: the source order is cuckoo(1)-cry-place(2)-gaze(3), but the English presents gaze(1)-place(2)-cuckoo(3), inverting the internal sequence of the kami-no-ku while preserving the overall bipartite kami/shimo division and its content."
+    },
+    "translator_strategy": "McCauley pursues a highly literal, line-by-line rendering that preserves the poem's original word order and content almost clause-for-clause, even retaining the Japanese term 'Hototogisu' untranslated to signal the exotic/technical nature of the reference rather than domesticating it as 'cuckoo.'",
+    "overall_fidelity": "high",
+    "poem_number": 81,
+    "translator": "McCauley"
+  }
+}

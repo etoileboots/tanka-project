@@ -1,0 +1,314 @@
+{
+  "poem_number": 14,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T05:25:00.941556+00:00"
+    },
+    "devices": {
+      "しのぶ": {
+        "status": "confirmed",
+        "original": {
+          "word": "しのぶ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T05:25:56.149927+00:00"
+      },
+      "しのぶもぢずり": {
+        "status": "removed",
+        "original": {
+          "word": "しのぶもぢずり",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T05:25:54.933563+00:00"
+      },
+      "乱れそめにし": {
+        "status": "confirmed",
+        "original": {
+          "word": "乱れそめにし",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T05:25:51.117564+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "6": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:27:10.075122+00:00"
+        },
+        "7": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:27:11.254446+00:00"
+        },
+        "0": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T05:27:32.373388+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T05:27:36.775585+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:27:56.517703+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:27:57.313259+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:27:58.024728+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:27:58.850228+00:00"
+        }
+      },
+      "devices": {
+        "perplext": {
+          "status": "confirmed",
+          "original": {
+            "word": "perplext",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:28:31.594644+00:00"
+        },
+        "shinobu": {
+          "status": "confirmed",
+          "original": {
+            "word": "shinobu",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:28:33.997719+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "shinobu loom": {
+          "status": "confirmed",
+          "original": {
+            "word": "shinobu loom",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:28:39.534990+00:00"
+        },
+        "stir": {
+          "status": "confirmed",
+          "original": {
+            "word": "stir",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:28:50.089138+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:29:02.990743+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:29:03.655725+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:29:04.168494+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:29:05.269230+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:01.903660+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:02.781997+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:03.238106+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:04.476052+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:07.678060+00:00"
+        }
+      },
+      "devices": {
+        "all in confusion still": {
+          "status": "confirmed",
+          "original": {
+            "word": "all in confusion still",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:17.165736+00:00"
+        },
+        "disordering my will": {
+          "status": "confirmed",
+          "original": {
+            "word": "disordering my will",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:20.761253+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:33.421782+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:34.687905+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:54.018569+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:30:54.625715+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:31:02.230489+00:00"
+        }
+      },
+      "devices": {
+        "like confused, begun to be": {
+          "status": "confirmed",
+          "original": {
+            "word": "like confused, begun to be",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:31:10.669732+00:00"
+        },
+        "shinobu's tangled leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "shinobu's tangled leaves",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T05:31:11.306584+00:00"
+        }
+      }
+    }
+  }
+}

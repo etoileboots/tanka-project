@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "夜",
+      "ku": 1,
+      "reading_primary": "よ",
+      "reading_secondary": "よ",
+      "interaction": "Primarily literal 'night' here; while よ can pivot to 世 (world/life) elsewhere in the canon, in this poem the grammar and context (夏の夜は = 'the summer night') keep it firmly denoting the night itself with no secondary 世 reading grammatically activated, so this is noted but not counted as a true kakekotoba."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The short summer night has already ended while it still felt like early evening (yoi) — a statement of temporal astonishment at how briefly night lasted.",
+    "shimo_theme": "The speaker wonders in which part of the clouds the moon could possibly be lodging/resting now, since dawn came too fast for it to have completed its journey across the sky.",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The kami-no-ku establishes the physical/temporal fact (the brevity of the summer night, dawn arriving while it still feels like early evening), and the shimo-no-ku is the speaker's playful inferential leap: since the moon had no time to set in the west, it must still be hiding somewhere among the clouds. The whole poem turns on a witty causal deduction from an observed natural fact (short night) to a whimsical unseen event (the moon's whereabouts)."
+  },
+  "kigo": {
+    "word": "夏の夜",
+    "season": "summer",
+    "note": "The short summer night (natsu no yo) is itself the poem's explicit and central seasonal marker — classical poetics prized the phenomenon of nights so short in summer that dusk seems to touch dawn directly, a marvel distinct from the long nights of autumn/winter praised elsewhere in the canon. The moon (月), though often an autumn kigo in isolation, is here subordinated to and reframed by the summer-night conceit, so summer governs the poem rather than the moon carrying its usual autumnal association."
+  },
+  "furigana": [
+    {
+      "kanji": "夏",
+      "reading": "なつ"
+    },
+    {
+      "kanji": "夜",
+      "reading": "よ"
+    },
+    {
+      "kanji": "宵",
+      "reading": "よい"
+    },
+    {
+      "kanji": "明",
+      "reading": "あ"
+    },
+    {
+      "kanji": "雲",
+      "reading": "くも"
+    },
+    {
+      "kanji": "月",
+      "reading": "つき"
+    }
+  ],
+  "poem_number": 36,
+  "poet": "Kiyowara no Fukayabu",
+  "source_jp": "夏の夜は\nまだ宵ながら\n明けぬるを\n雲のいづくに\n月やどるらむ"
+}

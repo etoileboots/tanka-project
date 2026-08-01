@@ -1,0 +1,284 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4
+      ],
+      "relationship_type": "inferential-sensory transformed into simple observation/conclusion",
+      "note": "The source's logic is: seeing white frost on the bridge → realizing the night has grown late (deep, dark night). Dickens instead concludes 'the break of day is nigh,' which inverts the temporal implication—frost/whiteness is read as a sign of approaching dawn rather than evidence that deep night has already set in. The sensory-to-inferential mechanism (seeing frost → inferring time) survives structurally, but the actual inference drawn is altered, so the relationship type is displaced rather than simply preserved or inverted in order."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "hoar-frost's sheen / glittering film",
+      "note": "The frost imagery is retained and even amplified ('hoar-frost's sheen', 'glittering film'), preserving the visual whiteness and cold atmosphere characteristic of the winter kigo, though the word 'winter' itself is never named."
+    },
+    "translator_strategy": "Dickens prioritizes rhyme and meter (an ABBA-ish quatrain with strong end-rhymes 'aye/nigh' and 'sheen/seen') over precise fidelity to the source's imagery and logic, substituting 'ravens' for magpies and inverting the temporal conclusion from 'deep night' to 'dawn approaching' to fit the rhymed verse form.",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The bridge that (ravens) cross/frequent — corresponds to kasasagi no wataseru hashi, but 'ravens' substituted for magpies",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "the bridge where hoar-frost's sheen appears; continues describing the bridge and introduces frost imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "when the glittering film of frost is seen — corresponds to 'oku shimo no shiroki wo mireba'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "I trow the break of day is nigh — corresponds to 'yo zo fukenikeru' but alters meaning to imply dawn approaching rather than deep night having set in",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses and re-orders content: line 1 introduces the bridge and its frequenters, but the bird's identity is mistranslated (ravens for magpies); lines 2-3 both elaborate on the frost imagery in a way that splits ku3 across two lines for rhyme purposes; line 4 delivers the conclusion but shifts its meaning from 'night has deepened' to 'dawn is near', altering the source's temporal logic while preserving the sensory-to-inference structure."
+    },
+    "overall_fidelity": "medium",
+    "poem_number": 6,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1
+      ],
+      "note": "Noguchi places the shimo-ku conclusion ('Must be done the night') as line 1, before the kami-ku imagery of the bridge and frost is introduced in lines 2-4. This inverts the source order (bridge/frost first, then realization of lateness), though the inferential-sensory logic itself (frost's whiteness signals deep night) is nominally retained since 'must be done the night' echoes 'yo zo fukenikeru' and is causally tied to the frost image that follows rather than precedes it."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "frost white",
+      "note": "The word 'frost' is preserved directly from the source, carrying the cold, late-night winter atmosphere, though 'winter' itself is never named; the imagery of whiteness and coldness implicitly signals the season as in the original."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Anticipatory statement that the night must be far advanced/'done'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The magpie bridge in the sky",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The frost, white, that the speaker sees",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The frost 'is set already' - completion of the frost settling",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation inverts the source's kami-shimo order, opening with the shimo-ku's temporal realization ('Must be done the night') before presenting the kami-ku's bridge and frost imagery; line 4 re-emphasizes the frost's settling, causing some overlap/redundancy with line 3's content rather than a clean progression to the shimo conclusion."
+    },
+    "translator_strategy": "Noguchi front-loads the poem's emotional/temporal conclusion as a dramatic opening statement, then unspools the sensory image (magpie bridge, frost) that justifies it, prioritizing poetic effect and compact rhyme-like brevity over preserving the source's original inferential sequence.",
+    "overall_fidelity": "medium",
+    "poem_number": 6,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "The inferential-sensory logic is retained (seeing frost -> knowing night is late), but Porter personifies frost as 'Hoar-frost King' casting a 'sparkling mantle', adding a mythic/allegorical flourish not in source, and extends the shimo with an invented line 5 ('Daylight approaches fast') that has no equivalent in the original, shifting the emotional register from quiet realization of deep night to anticipation of dawn."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Hoar-frost King...sparkling mantle",
+      "note": "Frost imagery is preserved and even amplified through personification ('Hoar-frost King', 'sparkling mantle'), retaining the visual/cold winter atmosphere though the word 'winter' itself is never named; the season's chill and stillness are conveyed through the frost conceit rather than explicit naming."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Seeing the magpies' bridge (spatial setting)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Frost personified as 'Hoar-frost King' casting frost",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The frost as 'sparkling mantle', leading into realization ('well I know')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Realization that night is nearly past",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [],
+          "content_summary": "Invented addition: daylight approaching fast, extrapolated beyond source's simple 'night has deepened'",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five-ku poem into five lines with rhyme scheme, but line 5 introduces new content (dawn approaching) not present in source, which only states the night has deepened, not that day is coming; this shifts the poem's temporal endpoint and mood from deep-night solitude to anticipation of morning."
+    },
+    "translator_strategy": "Porter prioritizes rhymed, singsong Victorian verse form and vivid personification (the 'Hoar-frost King') over literal fidelity, expanding the poem's ending into an invented anticipation of dawn to satisfy rhyme and narrative closure.",
+    "overall_fidelity": "medium",
+    "poem_number": 6,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "McCauley oddly duplicates the frost imagery: line 3 'White with frost I see' already gestures toward the shimo's visual perception, then line 4 restates 'deep-laid frost made white' as if still describing the kami bridge, before line 5 finally delivers the temporal inference. This redundancy blurs the clean pivot from sensory image (frost's whiteness) to temporal realization, weakening the single-pivot logic into a stretched, doubled description before the payoff, but the basic inferential-sensory relationship (see frost -> infer late night) is retained."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "frost",
+      "note": "Frost is named literally twice ('White with frost', 'deep-laid frost made white'), which is more than typical implicit imagery — it is the literal seasonal word itself surviving, though McCauley never names the season 'winter' outright, so the season is conveyed through the frost image rather than being explicitly labeled as a season name."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces 'Magpie Bridge' as a conditional/naming phrase",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Explains the bridge as one spanned by flight of magpies (elaborating kami's image)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "White with frost I see - begins the perception of frost's whiteness",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Restates frost imagery with 'deep-laid frost made white', redundant elaboration",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Concludes with the temporal realization that night has grown late",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley expands the single kami-shimo pivot into five lines, with lines 3 and 4 both dwelling on the frost's whiteness (duplicating content from ku 3-4) before delivering the shimo's temporal conclusion in line 5; this creates an expansive, almost incantatory repetition not present in the tightly compressed source."
+    },
+    "translator_strategy": "McCauley prioritizes an expansive, quasi-archaic elaboration of the bridge and frost imagery—even at the cost of redundancy—in order to build dramatic suspense before delivering the shimo's temporal realization as a climactic final line.",
+    "overall_fidelity": "medium",
+    "poem_number": 6,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "poem_number": 83,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T07:30:39.379432+00:00"
+    },
+    "devices": {
+      "世": {
+        "status": "removed",
+        "original": {
+          "word": "世",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:30:24.298722+00:00"
+      },
+      "入る": {
+        "status": "removed",
+        "original": {
+          "word": "入る",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:30:24.797327+00:00"
+      },
+      "鹿": {
+        "status": "confirmed",
+        "original": {
+          "word": "鹿",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:30:37.533637+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:31:44.601320+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:30:55.944628+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-31T07:32:10.361975+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:30:59.245769+00:00"
+        }
+      },
+      "devices": {
+        "fled away": {
+          "status": "removed",
+          "original": {
+            "word": "fled away",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:31:46.564651+00:00"
+        },
+        "th' world": {
+          "status": "removed",
+          "original": {
+            "word": "th' world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:31:47.378529+00:00"
+        },
+        "deer": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "deer",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:31:58.848524+00:00"
+        }
+      },
+      "device_links": {
+        "deer": {
+          "status": "corrected",
+          "original": {
+            "word": "deer"
+          },
+          "corrected": {
+            "source_word": "鹿"
+          },
+          "reviewed_at": "2026-08-01T02:10:53.914898+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:31:02.246087+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:31:02.727959+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:31:05.029620+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:31:05.661311+00:00"
+        }
+      },
+      "devices": {
+        "the world": {
+          "status": "removed",
+          "original": {
+            "word": "the world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:31:06.145348+00:00"
+        },
+        "deer": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "deer",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:31:16.478435+00:00"
+        }
+      },
+      "device_links": {
+        "deer": {
+          "status": "corrected",
+          "original": {
+            "word": "deer"
+          },
+          "corrected": {
+            "source_word": "鹿"
+          },
+          "reviewed_at": "2026-07-31T07:31:20.701360+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "pain and sorrow": {
+          "status": "removed",
+          "original": {
+            "word": "pain and sorrow",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:32:16.411982+00:00"
+        },
+        "retreat": {
+          "status": "removed",
+          "original": {
+            "word": "retreat",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:32:17.312293+00:00"
+        },
+        "deer": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "deer",
+            "color": "#B4DE65",
+            "note": "The deer is mentioned in the poem, but not as hunted."
+          },
+          "reviewed_at": "2026-07-31T07:33:09.445129+00:00"
+        }
+      },
+      "lines": {
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T07:32:44.061951+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:32:44.861815+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:32:45.328445+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-31T07:33:49.810395+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:32:46.243334+00:00"
+        }
+      },
+      "device_links": {
+        "deer": {
+          "status": "corrected",
+          "original": {
+            "word": "deer"
+          },
+          "corrected": {
+            "source_word": "鹿"
+          },
+          "reviewed_at": "2026-07-31T07:33:19.245162+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "thought to hide": {
+          "status": "removed",
+          "original": {
+            "word": "thought to hide",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:33:23.544304+00:00"
+        },
+        "within the world": {
+          "status": "removed",
+          "original": {
+            "word": "within the world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:33:24.127633+00:00"
+        },
+        "stag": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "stag",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:34:07.259591+00:00"
+        }
+      },
+      "lines": {
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-31T07:33:42.525983+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:33:57.393733+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:33:57.794109+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:33:58.310567+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:34:00.076238+00:00"
+        }
+      },
+      "device_links": {
+        "stag": {
+          "status": "corrected",
+          "original": {
+            "word": "stag"
+          },
+          "corrected": {
+            "source_word": "鹿"
+          },
+          "reviewed_at": "2026-07-31T07:34:10.259853+00:00"
+        }
+      }
+    }
+  }
+}

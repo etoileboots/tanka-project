@@ -1,0 +1,359 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "note": "The translator inverted the internal order of the kami-no-ku's geography (starting with the road toward Ikuno before naming Oeyama, whereas the source moves from Oeyama through Ikuno), but retains the basic logic of the long road (kami) preceding the claim about the letter/footsteps (shimo). However, the crucial ふみ pivot ('letter') is replaced entirely with 'footsteps,' which shifts the shimo-no-ku's actual content from a denial of receiving a letter to a denial of having walked the road — collapsing two meanings of one kakekotoba into a single literal reading and thus altering the rhetorical argument being made (the original is a retort about ghostwriting via letters, but this rendering keeps only the literal-tread meaning), making the relationship type effectively displaced from an argumentative wordplay-proof into a simple travel-description conceit."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いく野",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Ikuno's",
+        "note": "The place name Ikuno is preserved as a proper noun ('Ikuno's'), but the secondary sense of 行く (to go/travel) implied within the pivot is not activated by any wordplay in English; it is simply a geographic label."
+      },
+      {
+        "original_word": "ふみ",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "footsteps",
+        "note": "The translator renders ふみ only via its secondary sense (踏み, treading/footsteps: 'Thy footsteps yet hath no one seen'), entirely dropping the primary sense of 文 (a letter), which is central to the poem's actual anecdote about the speaker not having received a letter from her mother. This flips which of the two meanings survives compared to a literal 'letter' rendering, but only one meaning is present at all, so it registers as a single-reading loss rather than a double pun."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Ama-no-hashi-date",
+      "note": "There is no seasonal word in the source, and this translation likewise contains no seasonal imagery or atmosphere — the poem is treated purely as a geographic/travel statement, consistent with the source having no kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The road crossing the plain, said to be long/far for the addressee",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Naming Ikuno explicitly, reiterating its length/distance",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The road continuing far away, restating distance",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Naming the distant range of Oeyama",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Naming Ama-no-hashidate",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Claim that no one has yet seen the addressee's footsteps there, replacing the letter (ふみ) conceit with a literal footprint image",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact 5-ku source into 6 rhymed lines, splitting and repeating the 'long road' imagery across lines 1-4 (with Oeyama named last rather than first, inverting the source's geographic sequence of Oeyama→Ikuno→road), and compresses the shimo-no-ku's ふみ kakekotoba into a purely literal 'footsteps' image in line 6, losing the letter-denial layer of meaning."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, metrical English verse form and vivid place-name imagery over preserving the kakekotoba's dual meaning, converting the poem into a straightforward, literal statement about geographic distance and untraveled footsteps rather than the original's witty rebuttal about an unreceived letter.",
+    "overall_fidelity": "low",
+    "poem_number": 60,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "argumentative/rhetorical retort built on a long road establishing distance, then denying travel/letter",
+      "note": "The translator keeps the basic two-part structure (distance of the road, then denial of travel and letter), but compresses and reorders slightly: L2 spills into the Hashidate mention early ('I have never stepped'), and the negation of the letter is pushed to a parenthetical final line, weakening the tight rhetorical fusion of ふみ (letter/treading) that binds kami and shimo together in the source. The witty pivot becomes two separate factual denials rather than one unified pun-driven conceit."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いく野",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Ikuno plain",
+        "note": "Ikuno is rendered as a place name ('Ikuno plain') preserving the toponymic reading; the secondary sense of 行く (going/journeying) is not activated by any wordplay in English, though the surrounding verbs ('far away', 'stepped') gesture at travel without formally encoding the pun."
+      },
+      {
+        "original_word": "ふみ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "no letter",
+        "note": "The translator splits the pun into two separate literal statements — 'I have never stepped / In Ama no Hashidate' for 踏み and '(Alas, no letter I have seen!)' for 文 — so both surface meanings appear in the English text, but as two disjoint sentences rather than as a single fused pivot word; the essential kakekotoba compression (one word carrying both senses simultaneously) is lost, so only the literal 'letter' sense is preserved in the word that actually corresponds to ふみ, while 'stepped' handles the other half separately."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As the source analysis notes, there is no seasonal word in this poem (Ama no Hashidate is a meisho, not a kigo); the translation likewise contains no seasonal imagery, consistent with the source's non-seasonal, geography/wit-based content."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "States the distance to Mount Oe",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Names Ikuno plain and begins the claim of never having traveled the road (compressing 'the road is far' into travel-denial)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            5
+          ],
+          "content_summary": "Completes the denial of having stepped in Ama no Hashidate, merging the 'road far' conclusion with the place name from the shimo-no-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Parenthetical exclamation that no letter has been seen, corresponding to まだふみも見ず",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator splits the single kakekotoba ふみ into two separate ideas across lines 2-3 (stepping/treading) and line 4 (letter), and pulls the place name 天の橋立 forward into line 3 to serve as the object of 'stepped', rather than keeping it as the closing image; this reorders the source's kami/shimo boundary so that the geographic conceit and the personal claim about the letter are interleaved rather than sequential."
+    },
+    "translator_strategy": "Noguchi prioritizes clear sequential sense over preserving the compact double meaning of the kakekotoba, unpacking ふみ's pun into two separate explicit statements (never having trodden the road / never having received a letter) at the cost of the poem's single unifying pivot.",
+    "overall_fidelity": "medium",
+    "poem_number": 60,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "argumentative_rhetorical",
+      "note": "The kami-no-ku is compressed into a single generic line ('So long and dreary is the road') that loses the specific place names Oeyama and Ikuno, weakening the jokotoba's geographic/rhetorical build-up, while the shimo-no-ku is expanded into a rhetorical question that captures the witty retort tone but shifts the logical connector from 'therefore I have not received a letter' to 'therefore how could I have seen the verses' — the argumentative logic survives but the specific letter/treading pun is replaced with an explicit rhetorical question about hearsay verses."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いく野",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "the road",
+        "note": "The place name Ikuno and its echo of 行く (to go) are entirely dropped; only a generic 'road' remains, losing both the toponym and the travel-verb overtone."
+      },
+      {
+        "original_word": "ふみ",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "seen",
+        "note": "The pun on 文 (letter) and 踏み (treading/stepping) is collapsed into a single English verb 'seen' referring to verses, which captures neither the literal letter nor the treading-of-the-road sense, instead substituting a new but unrelated logical link (having not walked there, how could she have seen/known the verses)."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "There is no seasonal element in the source (Ama no Hashidate is a meisho, not a kigo), and the translation likewise contains no seasonal imagery or atmosphere; the poem is rendered purely as geographic/rhetorical wit, consistent with the original's non-seasonal nature.",
+      "en_equivalent": "Ama-no-Hashidate"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Compresses the entire jokotoba (Oeyama, Ikuno, the road) into a generic statement of the road's length and dreariness, dropping the specific place names.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "States the speaker has never traveled the road, corresponding to the negation embedded in 'まだふみも見ず' via the 踏み reading.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            5
+          ],
+          "content_summary": "Names the destination Ama-no-Hashidate, fusing the endpoint of the road with the final ku's place name.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Rhetorical question expanding on the denial, tied to the 'letter' reading of ふみ but reframed as a question about hearsay verses rather than an unreceived letter.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Clarifies that 'the verses' refers to poems the addressee suspects were ghostwritten, making explicit the anecdote's context (the accusation of forged authorship) that is only implicit in the source.",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the tripartite jokotoba into a single introductory line and then expands the shimo-no-ku's terse denial into a three-line rhetorical question, making explicit the anecdote's underlying accusation (that someone else wrote her verses) which is only implied by context in the Japanese original."
+    },
+    "translator_strategy": "Porter prioritizes idiomatic, metrically regular English verse and narrative clarity over reproducing the specific place-name wordplay, sacrificing the いく野/ふみ kakekotoba puns and the jokotoba's geographic density in favor of a plainly stated rhetorical rebuttal.",
+    "overall_fidelity": "medium",
+    "poem_number": 60,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "other",
+      "note": "McCauley preserves the surface causal logic ('the way is so far... therefore I have not yet seen') but flattens the rhetorical wit of the kakekotoba ふみ into a simple literal statement of 'not yet seen', losing the pivot between letter and treading that gives the original its argumentative force as a rebuttal."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いく野",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Iku's plain",
+        "note": "The place name Ikuno is preserved as a proper noun ('Iku's plain'), but the secondary sense of 行く 'to go/travel' is not activated in the English, since 'Iku's' reads purely as a possessive place-name marker with no verbal echo."
+      },
+      {
+        "original_word": "ふみ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "seen",
+        "note": "McCauley renders ふみ見ず as 'I have not yet even seen', collapsing the letter/treading pun into a single verb of visual perception ('seen'), which loses both the literal 'letter' sense and the 踏み 'tread the road' sense, replacing the pivot with plain narrative closure."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Ama-no-hashidate",
+      "note": "As the source analysis notes, there is no seasonal word in this poem; Ama-no-hashidate is a scenic place name (meisho), not a kigo, and McCauley correctly renders it as a bare place name with no seasonal coloring added or implied."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Oe's mountain, establishing the starting point of the road",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Iku's plain and the road/way through it",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the way being very far (とほければ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "the speaker's claim not to have even seen (ふみ見ず)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Ama-no-hashidate, the destination place name",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "McCauley maps the five ku almost one-to-one onto five English lines, closely mirroring the original's 5-7-5-7-7 segmentation without compression or expansion, though this fidelity to line count forces the kakekotoba's double meaning to be reduced to a single literal sense."
+    },
+    "translator_strategy": "McCauley prioritizes a close, line-by-line formal correspondence to the original's five-part structure and literal geographic content, sacrificing the wordplay (kakekotoba) for metrical and syntactic fidelity to the surface narrative.",
+    "overall_fidelity": "medium",
+    "poem_number": 60,
+    "translator": "McCauley"
+  }
+}

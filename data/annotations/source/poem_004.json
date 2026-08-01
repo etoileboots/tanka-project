@@ -1,0 +1,83 @@
+{
+  "makurakotoba": [
+    {
+      "word": "白妙の",
+      "ku": 3,
+      "precedes": "富士の高嶺 (snow-covered peak, white things)",
+      "conventional_meaning": "white cloth/mulberry-bark cloth; conventionally precedes words for white things such as garments, sleeves, snow, clouds"
+    }
+  ],
+  "kakekotoba": [],
+  "jokotoba": {
+    "text": "田子の浦に打ち出でてみれば",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "みれば",
+    "function": "Establishes the speaker's physical movement out onto the open shore of Tago and the act of looking, which grammatically and narratively leads into the revelation of Fuji's snow-capped peak in the shimo-no-ku. This is not a fixed epithet but a scene-setting preface composed specifically for this poem's journey/vista structure."
+  },
+  "honkadori": {
+    "source_poem": "田子の浦ゆ うち出でて見れば 真白にぞ 富士の高嶺に 雪は降りける (Man'yōshū, Yamabe no Akahito, original longer form)",
+    "source_poet": "Yamabe no Akahito",
+    "echoed_phrase": "田子の浦に打ち出でてみれば...富士の高嶺に雪はふりつつ",
+    "function": "This Hyakunin Isshu version is itself a condensed/adapted quotation of Akahito's own Man'yōshū poem, substituting 真白にぞ...降りける with 白妙の...ふりつつ, shifting from a completed past state to an ongoing continuous image; the Hyakunin Isshu compilers selected this reworded Shin Kokinshū variant as canonical for the anthology."
+  },
+  "kigo": {
+    "word": "雪",
+    "season": "winter",
+    "note": "Snow (雪) is the canonical winter kigo, evoking purity, stillness, and the sublime remoteness of the sacred mountain; here it also signals eternal or perpetual snow atop Fuji, a marker of the mountain's numinous, timeless quality rather than a fleeting seasonal storm."
+  },
+  "furigana": [
+    {
+      "kanji": "田子",
+      "reading": "たご"
+    },
+    {
+      "kanji": "浦",
+      "reading": "うら"
+    },
+    {
+      "kanji": "打",
+      "reading": "う"
+    },
+    {
+      "kanji": "出",
+      "reading": "い"
+    },
+    {
+      "kanji": "白妙",
+      "reading": "しろたへ"
+    },
+    {
+      "kanji": "富士",
+      "reading": "ふじ"
+    },
+    {
+      "kanji": "高嶺",
+      "reading": "たかね"
+    },
+    {
+      "kanji": "雪",
+      "reading": "ゆき"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker travels out onto the open shore of Tago Bay and looks up, an act of physical emergence and vision",
+    "shimo_theme": "The sublime, snow-covered peak of Mount Fuji is revealed in the distance, snow perpetually falling upon it",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku enacts the physical and perceptual act of stepping into open view and looking (打ち出でてみれば), which grammatically and dramatically discharges directly into the shimo-no-ku's revelation of Fuji's white peak — the entire poem hinges on the moment of sight transitioning from anticipation to the awe-inspiring visual object itself."
+  },
+  "poem_number": 4,
+  "poet": "Yamabe no Akahito",
+  "source_jp": "田子の浦に\n打ち出でてみれば\n白妙の\n富士の高嶺に\n雪はふりつつ"
+}

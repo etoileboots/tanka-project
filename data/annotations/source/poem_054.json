@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "忘れじ",
+      "ku": 1,
+      "reading_primary": "wasureji (I will not forget)",
+      "reading_secondary": "n/a - not a true pivot, but note the auxiliary じ (negative volitional) sets up the whole poem's irony",
+      "interaction": "This is not strictly a kakekotoba but a quoted vow ('I will never forget you'); flagged here only to note it is not being misidentified as one — no second grammatically active meaning coexists with it."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The lover's promise 'I will never forget you' is recalled, but its endurance into the distant future is doubted — such faithfulness is hard to sustain 'till the end of things.'",
+    "shimo_theme": "Since the vow's future is uncertain and painful to contemplate, the speaker wishes her life could end today, at this moment of highest happiness, before that faithfulness can fade.",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The kami-no-ku sets up rational doubt (the beloved's vow of eternal love is unlikely to hold across a lifetime), and the shimo-no-ku pivots that doubt into an extreme emotional resolution: rather than live to witness the vow broken, the speaker wishes to die now, while the promise is still intact. The turn from measured skepticism to a wish for death is the poem's emotional crux — happiness so acute that its anticipated loss makes death preferable to endurance."
+  },
+  "kigo": {
+    "word": "忘れじ",
+    "season": "none",
+    "note": "This poem contains no seasonal imagery at all — it is a purely conceptual/emotional love poem (a variant of the 'love' category, koi, in the Hyakunin Isshu) built entirely on abstract vocabulary of vows, futurity, and mortality, with no natural image (no flower, bird, moon, dew, frost, or seasonal marker) present in any of its five ku."
+  },
+  "furigana": [
+    {
+      "kanji": "忘",
+      "reading": "わす"
+    },
+    {
+      "kanji": "行末",
+      "reading": "ゆくすえ"
+    },
+    {
+      "kanji": "難",
+      "reading": "かた"
+    },
+    {
+      "kanji": "今日",
+      "reading": "けふ"
+    },
+    {
+      "kanji": "限",
+      "reading": "かぎ"
+    },
+    {
+      "kanji": "命",
+      "reading": "いのち"
+    }
+  ],
+  "poem_number": 54,
+  "poet": "Mother of Gido Sanshi",
+  "source_jp": "忘れじの\n行末までは\n難ければ\n今日を限りの\n命ともがな"
+}

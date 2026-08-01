@@ -1,0 +1,264 @@
+{
+  "poem_number": 70,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-30T11:40:49.080064+00:00"
+    },
+    "devices": {
+      "秋の夕暮": {
+        "status": "confirmed",
+        "original": {
+          "word": "秋の夕暮",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:40:51.544127+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "autumn eve": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn eve",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:41:20.392521+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:41:32.108731+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:41:32.526266+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:41:32.874792+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:41:33.209542+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "autumn-e'en": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn-e'en",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:41:35.594734+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:41:51.675973+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:41:52.191745+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:41:53.858831+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:42:01.175212+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:42:03.995799+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:42:16.811433+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:42:17.376719+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:42:24.242499+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:43:07.330879+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-30T11:43:11.843547+00:00"
+        }
+      },
+      "devices": {
+        "autumn night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn night",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T11:43:21.942769+00:00"
+        }
+      },
+      "device_links": {
+        "autumn night": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn night"
+          },
+          "corrected": {
+            "source_word": "秋の夕暮"
+          },
+          "reviewed_at": "2026-07-31T06:51:25.163575+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:43:29.626898+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:43:29.943187+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:43:30.328897+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:43:31.526408+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:43:31.874705+00:00"
+        }
+      },
+      "devices": {
+        "autumn eve": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn eve",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:06:10.703711+00:00"
+        }
+      },
+      "device_links": {
+        "autumn eve": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn eve"
+          },
+          "corrected": {
+            "source_word": "秋の夕暮"
+          },
+          "reviewed_at": "2026-07-31T06:51:37.944182+00:00"
+        }
+      }
+    }
+  }
+}

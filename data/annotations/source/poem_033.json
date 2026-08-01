@@ -1,0 +1,60 @@
+{
+  "makurakotoba": [
+    {
+      "word": "久方の",
+      "ku": 1,
+      "precedes": "光 (light)",
+      "conventional_meaning": "fixed epithet conventionally introducing words for sky, heaven, light, moon, or sun — signals celestial/luminous imagery and elevates diction"
+    }
+  ],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "the calm, tranquil light of a peaceful spring day",
+    "shimo_theme": "the restless, unsettled scattering of cherry blossoms",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami establishes an atmosphere of perfect stillness and tranquility (のどけき, 'calm/peaceful') in the spring sunlight, which sets up an expectation of undisturbed serenity; the shimo then presents the paradox that despite this calm, the blossoms fall restlessly (しづ心なく, 'without a tranquil heart') — the poem's entire force lies in the tension between the placid external setting and the blossoms' agitated, hurried scattering, as if the flowers alone refuse to share in the day's calm. The suffix らむ adds a speculative, wondering tone, as the speaker muses over why the blossoms should be so restless amid such peace."
+  },
+  "kigo": {
+    "word": "花のちる",
+    "season": "spring",
+    "note": "Scattering cherry blossoms (hana chiru) is one of the most iconic and heavily loaded images in the classical spring canon — it encapsulates the pathos of transience (mono no aware) intrinsic to the fleeting beauty of sakura. Here it is reinforced by 春の日 ('spring day') explicitly naming the season, but the falling blossoms themselves carry the poem's emotional and seasonal center of gravity, since the entire poem's wonder and pathos derive from their restless scattering rather than from the season word alone."
+  },
+  "furigana": [
+    {
+      "kanji": "久方",
+      "reading": "ひさかた"
+    },
+    {
+      "kanji": "光",
+      "reading": "ひかり"
+    },
+    {
+      "kanji": "春",
+      "reading": "はる"
+    },
+    {
+      "kanji": "日",
+      "reading": "ひ"
+    },
+    {
+      "kanji": "心",
+      "reading": "こころ"
+    },
+    {
+      "kanji": "花",
+      "reading": "はな"
+    }
+  ],
+  "poem_number": 33,
+  "poet": "Ki no Tomonori",
+  "source_jp": "久方の\n光のどけき\n春の日に\nしづ心なく\n花のちるらむ"
+}

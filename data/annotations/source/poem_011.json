@@ -1,0 +1,53 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker describes rowing out onto the vast sea toward the many islands (Oki), an act of departure into exile",
+    "shimo_theme": "An appeal to the fisherman's boat to carry word of this departure back to people (loved ones/court) left behind",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The physical act of rowing out into the sea (kami) becomes the occasion and vehicle for the message the speaker begs to have conveyed (shimo) — the boat that carries him away is entreated (via the fisherman who might see him) to also carry news of his fate back to those he leaves behind, turning a scene of departure into an urgent communicative plea across the gap of exile."
+  },
+  "kakekotoba": [
+    {
+      "word": "かけて",
+      "ku": 2,
+      "reading_primary": "かけて (目指して/towards, heading for)",
+      "reading_secondary": "かけて (懸けて, to stake/risk, or to span/extend across)",
+      "interaction": "Primarily read as 'heading toward/aiming for' the eighty islands, but carries an undertone of 懸けて, 'staking' or 'spanning across' the vast distance, reinforcing the sense of a perilous, committed crossing into exile."
+    }
+  ],
+  "kigo": {
+    "word": "わたの原・あまのつり舟",
+    "season": "none",
+    "note": "The poem centers on the sea, islands, and a fisherman's boat, which are not tied to a specific season in the classical calendar; this is fundamentally a travel/exile poem (a topic outside the four-season kigo framework) rather than a seasonally-marked poem. No blossom, leaf, snow, moon, dew, frost, mist, insect, or seasonal bird term appears; 舟 (boat) and 海人 (fisherman) are conventional imagery of sea life but carry no seasonal charge in the classical canon."
+  },
+  "furigana": [
+    {
+      "kanji": "原",
+      "reading": "はら"
+    },
+    {
+      "kanji": "八十島",
+      "reading": "やそしま"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "舟",
+      "reading": "ふね"
+    }
+  ],
+  "makurakotoba": [],
+  "poem_number": 11,
+  "poet": "Sangi Takamura",
+  "source_jp": "わたの原\n八十島かけて\nこぎ出ぬと\n人には告げよ\nあまのつり舟"
+}

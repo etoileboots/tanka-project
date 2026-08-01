@@ -1,0 +1,59 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A rhetorical question challenging whether the moon itself compels one to feel sorrow — 'Does the moon really make one grieve, saying \"lament!\"?'",
+    "shimo_theme": "The speaker's own tears, which fall as though reproaching the moon (or reproaching fate), betraying the truth that the sorrow is self-generated, not caused by the moon",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku sets up a rhetorical denial — the moon cannot possibly be the true cause of human grief, since it is an insentient object incapable of intention. Yet the shimo-no-ku shows the speaker's tears falling 'as if reproachful,' implicitly blaming the moon anyway. The poem's deepest turn is this self-aware paradox: the speaker intellectually knows the moon is not responsible, but emotionally cannot help attributing his sorrow to it — his tears themselves seem to accuse the moon, exposing the gap between reason and feeling that is the hallmark of Saigyo's moon poems."
+  },
+  "kakekotoba": [
+    {
+      "word": "かこちがほなる",
+      "ku": 4,
+      "reading_primary": "かこちがほなる (looking as if reproaching/complaining)",
+      "reading_secondary": "implicit blame directed at the moon",
+      "interaction": "This phrase does not split into two lexical meanings but functions as the semantic hinge answering the kami's rhetorical question: the tears 'look as if they reproach' something, silently confirming that the speaker treats the moon as cause even while denying it grammatically. Included here as a borderline pivot-like construction rather than a strict homophonic kakekotoba.",
+      "confidence": "low"
+    }
+  ],
+  "makurakotoba": [],
+  "kigo": {
+    "word": "月",
+    "season": "autumn",
+    "note": "The autumn moon (月, tsuki, without a qualifying season word defaults to the harvest/autumn moon in classical convention) is the central image of the poem and the traditional trigger for solitary melancholy and tears in waka — here it is explicitly named as the object the speaker rhetorically denies is the cause of his grief, making it both the poem's occasion and its argumentative pivot.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "月",
+      "reading": "つき"
+    },
+    {
+      "kanji": "物",
+      "reading": "もの"
+    },
+    {
+      "kanji": "思",
+      "reading": "おも"
+    },
+    {
+      "kanji": "顔",
+      "reading": "がほ"
+    },
+    {
+      "kanji": "涙",
+      "reading": "なみだ"
+    }
+  ],
+  "poem_number": 86,
+  "poet": "Saigyo Hoshi",
+  "source_jp": "なげけとて\n月やは物を\n思はする\nかこちがほなる\nわがなみだかな"
+}

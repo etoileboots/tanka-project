@@ -1,0 +1,318 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The source's kami-ku expresses a counterfactual regret ('I should have simply slept') followed by the shimo-ku's revelation of the actual vigil. Dickens collapses this into a straightforward, non-counterfactual narrative: 'I wait thy coming, love--repose veils not mine eyes' directly states the wakefulness as present fact rather than as retrospective regret over a missed choice to sleep, and then moves into watching the moon. The irony of 'what should have happened vs what did happen' is lost — replaced by a continuous first-person account of an ongoing vigil, so the counterfactual/actual pivot structure is inverted into a straightforward emotional statement without the reflective self-reproach of the original."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "やすらはで",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "repose",
+        "note": "The word やすらはで (without hesitating/resting) is rendered as 'repose veils not mine eyes,' capturing the literal sense of sleeplessness but losing the counterfactual, regretful framing ('I should have just gone to sleep without hesitation') that structures the kami-ku; since the source analysis notes this is not a true kakekotoba with a second grammatical meaning, only the single primary sense is at stake, and it is preserved only loosely via paraphrase."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "the moon",
+      "note": "The moon is named explicitly ('I watch the moon till nigh the close / Of her celestial path of light'), preserving the central image of the autumn moon vigil, though the specific autumnal association is conveyed only through the classical convention of moon-watching itself, not through any additional seasonal marker or atmosphere (e.g., cold, dew, wind) — the season is implicit in the image's conventional association rather than reinforced by other autumnal imagery."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "Dickens compresses and reorders the five ku into four rhymed lines, converting the original's counterfactual self-reproach (kami-ku) into a direct declarative statement of longing and vigil, then expanding the shimo-ku's simple 'until it declined' into a more elaborate poetic image of the moon's 'celestial path of light,' adding descriptive embellishment not present in the source.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Waiting for the beloved's arrival; introduces the theme of sleeplessness, replacing the counterfactual 'I should have slept' with a direct statement of waiting",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Sleep does not come; night deepens (小夜更けて)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Watching the moon until it approaches its decline (かたぶくまで)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Extrapolated poetic elaboration of the moon's descent as a 'celestial path of light', not present in source",
+          "origin": "extrapolated"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, fluent English verse and emotional directness over preserving the original's counterfactual self-reproach, converting the regretful retrospective structure into a straightforward romantic vigil narrative with added poetic embellishment.",
+    "overall_fidelity": "medium",
+    "poem_number": 59,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translator preserves the basic contrast between the counterfactual wish (should have slept) and the reality (stayed gazing at the moon), but simplifies the causal structure: 'I should not wait for him, but go to sleep' explicitly names the waiting for a lover which the source leaves as implicit undertone until the shimo reveals it, thus weakening the pivot's surprise/irony."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "やすらはで",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "should not wait",
+        "note": "Renders the sense of not resting/hesitating as an active decision not to wait for the lover, collapsing the original's simple 'without hesitating (to sleep)' into an explicit statement about waiting for 'him', which is an interpretive expansion rather than a preserved double meaning (there being no true second reading in the source to preserve anyway)."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "moon in deep night",
+      "note": "The moon is retained and placed within a night setting, evoking the classical autumn moon-gazing vigil, though 'autumn' itself is never named; the imagery of nocturnal moon-watching sufficiently carries the seasonal atmosphere of yearning and clarity associated with aki no tsuki."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Explicit statement that she should not wait for him, reinterpreting yasurawade as an active decision not to wait for a lover",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Continuation of the counterfactual: 'but go to sleep. Alas, I have been gazing' — merges the negative wish with the beginning of the shimo's revelation of actual behavior",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Gazing upon the moon in deep night, corresponding to 小夜更けて (night deepening) and the ongoing vigil",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Till she begins to fall — corresponds to かたぶくまでの月 (the moon tilting/setting)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the five ku into four lines, splitting the kami's counterfactual wish across lines 1-2 and blending in the beginning of the shimo's revelation (gazing) within line 2, which slightly blurs the clean bipartite break between kami and shimo; the explicit naming of 'him' in line 1 anticipates content that in the source is only implied until later."
+    },
+    "translator_strategy": "Noguchi prioritizes emotional clarity and narrative flow over strict structural fidelity, making explicit the implied waiting-for-a-lover subtext early and gently personifying the moon ('she') to sustain a wistful, romantic tone.",
+    "overall_fidelity": "medium",
+    "poem_number": 59,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "Porter collapses the counterfactual regret of the kami-no-ku ('I should have just gone to sleep without hesitation') into a straightforward description of sleeplessness ('Sleepless in bed I lie'), losing the subjunctive/regretful mood. The pivot between 'what should have happened' and 'what did happen' becomes a continuous narrative of waiting and watching, rather than a retrospective realization framed as regret. The bipartite tension is smoothed into linear storytelling."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "やすらはで",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "Sleepless in bed",
+        "note": "The source analysis notes this is not a true kakekotoba but a counterfactual expression of regret ('without resting, I should have gone to sleep'). Porter renders it as a present-tense description of sleeplessness and waiting, losing both the counterfactual/regretful grammar and any wordplay potential; the 'hoping for thy step' phrase substitutes narrative content for the original's subjunctive self-reproach."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "the moon",
+      "note": "The moon is retained as the central image and its slow descent across the night sky ('Leaving her post on high, / Slips sideways down the sky') preserves the nocturnal vigil atmosphere associated with the autumn moon convention, though the season itself is never named and the moon is personified ('her post') rather than treated as the classical seasonal object of aki no tsuki."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Waiting and hoping for a lover's arrival, replacing the counterfactual regret of yasurawade with an active narrative of hope",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Sleeplessness in bed, corresponding loosely to 'I should have gone to sleep' but rendered as present-tense fact rather than counterfactual wish",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The passage of the night until the moon appears, corresponding to sayo fukete (night deepening)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The moon 'leaving her post on high', corresponding to kataburu made (until it tilted/declined), personified as a sentinel abandoning duty",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The moon slipping sideways down the sky, corresponding to the moon's decline and the act of watching it (tsuki wo mishi kana)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five-ku poem into five lines but reorders emphasis: the opening regret (yasurawade) is replaced by an added narrative detail ('hoping for thy step') not explicit in the source, while the moon's decline is elaborated across two lines with personification ('her post', 'slips sideways') not present in the original's spare diction."
+    },
+    "translator_strategy": "Porter prioritizes narrative clarity and metrical rhyme over preserving the counterfactual grammar of regret, turning the poem into a straightforward account of a lover's vigil and the moon's personified descent.",
+    "overall_fidelity": "medium",
+    "poem_number": 59,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation keeps the counterfactual wish (better to have slept carefree) in the first three lines, then reveals the actual reality of the wasted vigil watching the moon descend in the final two lines, preserving the emotional-juxtaposition structure between the imagined better outcome and the actual regretful vigil."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "やすらはで",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Care-free",
+        "note": "The translator renders the sense of 'without hesitating/resting' as 'care-free,' capturing the surface meaning of not resting but not exploiting any pivot since the source analysis notes this is not a true kakekotoba with a second active meaning."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "lonely moon",
+      "note": "The moon is named explicitly as in the source, and the added epithet 'lonely' plus the extended image of it descending its path conveys the autumnal atmosphere of solitary nocturnal longing even though the word 'autumn' itself is never used."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Better to have slept - rendering of yasurawade nenamashi mono wo (the counterfactual wish to have simply slept)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Care-free, than to keep vain watch - completes the counterfactual wish, adding 'vain watch' as interpretive gloss on the implied waiting",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Through the passing night - corresponds to sayo fukete (night deepening)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Till I saw the lonely moon - corresponds to tsuki wo mishi kana (I saw/watched the moon), with 'lonely' as added emotional coloring",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Traverse her descending path - corresponds to katabuku made no (until it tilted/inclined), expanding the moon's decline into a personified image of traversing a path",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the single kami-no-ku wish into two lines (1-2) and splits the shimo-no-ku's moon-watching-until-decline image into two lines (4-5), with line 5 functioning as an appended personifying elaboration of katabuku (the moon's tilting/setting) rather than a strictly separate ku-based unit."
+    },
+    "translator_strategy": "McCauley prioritizes smooth, personified English verse with added emotional epithets (like 'lonely' and 'vain') over strict literal fidelity, expanding the moon's decline into a small narrative flourish while preserving the poem's core counterfactual-versus-reality structure.",
+    "overall_fidelity": "medium",
+    "poem_number": 59,
+    "translator": "McCauley"
+  }
+}

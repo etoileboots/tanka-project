@@ -1,0 +1,57 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "やすらはで",
+      "ku": 1,
+      "reading_primary": "やすらはで (not resting/hesitating)",
+      "reading_secondary": "none - single reading, but note wordplay potential with 休らふ",
+      "interaction": "Not a true kakekotoba; 休らはで simply means 'without resting/hesitating (to sleep)'. No second grammatically active meaning found."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker regrets not simply going to sleep without hesitation, as night deepened (Sayo fukete)",
+    "shimo_theme": "Instead she stayed awake watching the moon until it sank low in the sky, having waited in vain for a promised visitor",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The kami-no-ku states a counterfactual wish (I should have just gone to sleep) while the shimo-no-ku reveals the actual, contrasting reality (I watched the moon decline, having waited all night in vain for a lover who never came). The pivot is between what should have happened and what did happen — the poem's core irony is the wasted vigil, only fully understood once the shimo reveals the extent of the wait (until the moon itself tilted toward setting)."
+  },
+  "kigo": {
+    "word": "月",
+    "season": "autumn",
+    "note": "The moon (月) alone, without a modifying season word, is the classical autumn moon (aki no tsuki) of waka convention — the quintessential object of nocturnal contemplation and longing in the autumn night sky, prized for its clarity and associated with romantic vigil and yearning."
+  },
+  "furigana": [
+    {
+      "kanji": "寝",
+      "reading": "ね"
+    },
+    {
+      "kanji": "物",
+      "reading": "もの"
+    },
+    {
+      "kanji": "小夜更",
+      "reading": "さよふ"
+    },
+    {
+      "kanji": "月",
+      "reading": "つき"
+    },
+    {
+      "kanji": "見",
+      "reading": "み"
+    }
+  ],
+  "poem_number": 59,
+  "poet": "Akazome Yemon",
+  "source_jp": "やすらはで\n寝なまし物を\n小夜更けて\nかたぶくまでの\n月を見しかな"
+}

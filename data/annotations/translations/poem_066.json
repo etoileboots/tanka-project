@@ -1,0 +1,281 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation compresses the kami-no-ku's direct address and plea for mutual empathy into a simple statement of address and loneliness (L1-L2), losing the original's hopeful request that the blossoms 'feel together' with the speaker; the shimo's revelation that the blossom is the only one who understands becomes a simpler declaration that the blossom is his 'only friend' and source of cheer. The emotional-juxtaposition logic survives loosely — isolation softened by the flower's companionship — but the subtle pivot from wish-for-shared-feeling to confession-of-solitude is flattened into a straightforward lament of loneliness answered by the flower's comfort."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Sakura tree",
+      "note": "The word 'Sakura' names the cherry tree explicitly (transliterated rather than translated), retaining the specific spring blossom image, though 'mountain' modifies it directly as 'mountain Sakura tree' preserving the yama-zakura compound; however the broader seasonal atmosphere of fleeting spring beauty is not elaborated beyond the naming of the tree itself, so the season registers mainly through the flower-word rather than surrounding imagery."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Direct address to the mountain cherry tree, compressed from the plea for shared feeling into simple address plus admission of loneliness",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Statement of the speaker's lonely fate, replacing the original's request that the blossoms feel 'aware' together with him",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The blossom is described as the only thing that cheers the speaker",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The blossom is declared the only friend the speaker has, corresponding to the shimo's statement that no one else understands him",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the five ku into four short lines, converting the original's plea for mutual empathy (kami) into a direct lament of loneliness, and the shimo's careful qualification ('none but the blossom understands') into a blunter 'only friend' statement; the subtlety of the original's emotional logic is simplified into a more conventional English lyric of solitary companionship with nature."
+    },
+    "translator_strategy": "Dickens prioritizes a simple, rhyming, sentimental English quatrain over precise reproduction of the waka's structural nuance, rendering the poem's plea for shared feeling and quiet confession of isolation as a more generic lament of loneliness comforted by a single natural friend.",
+    "overall_fidelity": "medium",
+    "poem_number": 66,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The kami-no-ku is compressed into a direct address ('Be sad with me, / Oh, mountain cherry blossom!') and the shimo-no-ku becomes the isolation statement ('I have no one / Knows my heart but thee'), so the emotional-juxtaposition structure — appeal to blossom followed by confession of solitude — is retained but heavily compressed into 4 short lines, losing some of the nuance of the pivot (the gap between the fervent hope and the matter-of-fact admission is flattened into a single quick declaration)."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "mountain cherry",
+      "note": "The season-word 山桜 is translated literally and explicitly as 'mountain cherry blossom,' preserving both the seasonal marker (spring) and the specific wild/uncultivated connotation that supports the poem's theme of solitude, though the surrounding solitude-in-nature imagery (the atmosphere of an unattended, remote blossom) is only lightly gestured at through the address itself."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Direct appeal 'be sad with me' compresses もろともに and 哀れと思へ into one imperative line",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Vocative address to the mountain cherry blossom (山桜)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Begins the isolation statement, corresponding to 花より外に",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Completes the isolation statement 知る人もなし, rendered as 'Knows my heart but thee'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator compresses the three-ku kami-no-ku into two short lines (an imperative plus a vocative) and the two-ku shimo-no-ku into two lines forming a single sentence 'I have no one / Knows my heart but thee', producing a tight 4-line quatrain that mirrors the original's bipartite division fairly closely despite compression."
+    },
+    "translator_strategy": "Noguchi prioritizes concision and emotional directness over syntactic fidelity, rendering the waka as a compact four-line English quatrain that keeps the literal image of the mountain cherry and the confession of solitude while sacrificing some of the original's rhetorical subtlety and repetition.",
+    "overall_fidelity": "medium",
+    "poem_number": 66,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Porter reorders the poem: he opens with the shimo-no-ku's confession of isolation ('In lonely solitude I dwell, / No human face I see') before moving to the kami-no-ku's address to the mountain cherry ('And so we two must sympathize, / Oh mountain cherry tree; / I have no friend but thee'). This inverts the original sequence, which begins with the plea to the blossoms and only afterward reveals the absence of any other companion; the emotional logic (isolation softened only by the flower's imagined sympathy) is preserved but the order of revelation is reversed, weakening the poem's original rhetorical surprise."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "mountain cherry",
+      "note": "The season word 山桜 is translated literally as 'mountain cherry tree', explicitly naming the spring blossom and preserving both the literal referent and the imagery of solitary, wild beauty, though the atmosphere of fleeting spring is less foregrounded than in the original since the phrase functions mainly as an addressee rather than an evocative seasonal marker."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Declares the speaker's lonely solitude, anticipating the shimo-no-ku's revelation of isolation",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "No human face is seen, reinforcing 'knる人もなし' (no one who understands)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Turns to the cherry tree, proposing mutual sympathy ('もろともに哀れと思へ')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Addresses the mountain cherry directly ('山桜')",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Restates that the cherry is his only friend, echoing '花より外に知る人もなし'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem by front-loading the isolation theme (shimo-no-ku content) in lines 1-2, then presenting the address to the cherry (kami-no-ku) in lines 3-4, and finally closing with a restatement of the shimo-no-ku's sentiment in line 5 — effectively bracketing the kami content between two statements of solitude, an inversion and slight expansion of the original's linear kami-then-shimo structure."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, metrically regular English ballad form over strict sequential fidelity, reordering the poem's logic so the isolation is stated up front and the address to the cherry tree serves as the emotional resolution.",
+    "overall_fidelity": "medium",
+    "poem_number": 66,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "McCauley keeps the two-part structure: kami (lines 1-3) address the mountain cherry as companion in feeling, shimo (lines 4-5) confess that the flower is the only one who understands. However, by inserting 'lonely flower' in line 4, the translator makes the isolation explicit earlier and slightly softens the pivot's shock, since the personification-as-companion and the confession-of-solitude are blended together rather than left as a stark juxtaposition."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Mountain-cherry",
+      "note": "The season is not named as 'spring' but the mountain cherry blossom itself is directly named, which for the waka tradition is the strongest possible carrier of spring imagery; the epithet 'lonely flower' reinforces the wild, unattended connotation of yama-zakura but does not add explicit seasonal vocabulary."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'moromoto ni' (together, mutually) rendered as 'each for each'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'aware to omohe' (think it moving/have compassion) rendered as 'Pitying, hold tender thought'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "direct address to 'yamazakura' (mountain cherry)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'hana yori hoka ni' (other than the flower) rendered as 'Other than thee, lonely flower' — note 'lonely' is an added epithet not in the source ku itself, though it anticipates the shimo's theme",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'shiru hito mo nashi' (there is no one who knows/understands) rendered as 'There is none I know as friend'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation follows the source ku order exactly, one English line per ku with lines 1-3 as kami and 4-5 as shimo; the only expansion is the added adjective 'lonely' in line 4, which imports isolation-language slightly ahead of its structural place in the shimo."
+    },
+    "translator_strategy": "McCauley aims for a close, line-by-line literal correspondence to the five ku while adding small explanatory epithets like 'lonely flower' and 'as friend' to make the implicit emotional logic of the poem explicit for the English reader.",
+    "overall_fidelity": "high",
+    "poem_number": 66,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "poem_number": 66,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-28T08:13:03.641278+00:00"
+    },
+    "devices": {}
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:15:19.052175+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:15:21.052255+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:15:32.569461+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:15:33.203012+00:00"
+        }
+      },
+      "devices": {
+        "mountain Sakura": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "mountain Sakura",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:03:02.622934+00:00"
+        }
+      },
+      "device_links": {
+        "mountain Sakura": {
+          "status": "corrected",
+          "original": {
+            "word": "mountain Sakura"
+          },
+          "corrected": {
+            "source_word": "山桜"
+          },
+          "reviewed_at": "2026-08-01T02:03:04.520361+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:15:35.652887+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:15:36.017824+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:15:36.485588+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:15:37.636061+00:00"
+        }
+      },
+      "devices": {
+        "mountain cherry blossom": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "mountain cherry blossom",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:03:14.570764+00:00"
+        }
+      },
+      "device_links": {
+        "mountain cherry blossom": {
+          "status": "corrected",
+          "original": {
+            "word": "mountain cherry blossom"
+          },
+          "corrected": {
+            "source_word": "山桜"
+          },
+          "reviewed_at": "2026-08-01T02:03:17.588806+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-28T08:16:06.768284+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:16:08.451992+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:16:08.849453+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:16:09.784323+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:16:10.117772+00:00"
+        }
+      },
+      "devices": {
+        "mountain cherry tree": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "mountain cherry tree",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:03:27.287496+00:00"
+        }
+      },
+      "device_links": {
+        "mountain cherry tree": {
+          "status": "corrected",
+          "original": {
+            "word": "mountain cherry tree"
+          },
+          "corrected": {
+            "source_word": "山桜"
+          },
+          "reviewed_at": "2026-08-01T02:03:29.621342+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:16:26.100751+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:16:26.483692+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:16:27.067540+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:16:27.450893+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:16:27.917011+00:00"
+        }
+      },
+      "devices": {
+        "Mountain-cherry flower": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Mountain-cherry flower",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:03:39.120165+00:00"
+        }
+      },
+      "device_links": {
+        "Mountain-cherry flower": {
+          "status": "corrected",
+          "original": {
+            "word": "Mountain-cherry flower"
+          },
+          "corrected": {
+            "source_word": "山桜"
+          },
+          "reviewed_at": "2026-08-01T02:03:42.470098+00:00"
+        }
+      }
+    }
+  }
+}

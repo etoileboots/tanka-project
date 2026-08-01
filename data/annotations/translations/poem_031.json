@@ -1,0 +1,336 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translator has rearranged the order of revelation: instead of building the illusion first (kami) and then resolving it into snow (shimo) at the end as in the source, this version states the snow fact early (L3-4: 'The newly-fallen snow... deceived me') and then circles back to describe the moonlight illusion afterward (L5-6: 'The whiten'd hill-side seemed / As tho thereon the moonlight streamed'). This reverses the source's climactic structure, where the snow revelation is withheld until the final line; here the snow is named first and the moon-illusion description follows, inverting the order of disclosure and dulling the surprise effect central to the original's rhetorical design."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふれる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "newly-fallen snow",
+        "note": "The translator renders ふれる straightforwardly as 'newly-fallen,' capturing the primary meaning (snow that has fallen) but not engaging with any secondary echo of aging/passage of time, which the source analysis itself treats as only a faint, borderline resonance rather than a strong pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "newly-fallen snow",
+      "note": "The winter kigo of 白雪 is rendered explicitly as 'newly-fallen snow,' directly naming the seasonal phenomenon, though its placement is moved earlier in the poem's sequence rather than held to the climactic final position as in the source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Dawn breaking clearly",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Speaker thought to see the Ariake (lingering dawn) moon",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Introduces the newly-fallen snow (moved forward from its climactic position in source)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Snow binds/covers Yoshino, and this deceived the speaker",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Description of the whitened hillside",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "As if moonlight streamed over it (restating the illusion after the reveal)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation expands the compact 5-ku structure into 6 lines and restructures the sequence: it names the snow and the deception in lines 3-4 before elaborating the moonlight illusion in lines 5-6, effectively reversing the source's order of illusion-then-revelation into revelation-then-illusion-restated, which changes the poem's suspense mechanic even though all core content elements are present."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrical English quatrain-plus-couplet form and narrative clarity over preserving the source's suspenseful withholding structure, front-loading the snow's identity and then elaborating the moonlight illusion as an afterthought.",
+    "overall_fidelity": "medium",
+    "poem_number": 31,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translator preserves the basic structure of a perceptual illusion (moon) followed by revelation (snow), but the 'But' at the start of L3 makes it more of an explicit contrast/correction than the original's suspended, delayed revelation withheld until the very last word; the illusion-to-truth logic is compressed and made more overtly logical/adversative rather than experiential."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふれる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "fall",
+        "note": "The translator renders ふれる simply as 'fall' (snow falls), preserving the primary meaning of 降れる with no attempt to gesture at the secondary echo of 経る/古る (aging/passage of time), which is unsurprising given how faint that secondary reading is even in the source."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "white snows",
+      "note": "The seasonal center of the poem, 白雪 (white snow), survives explicitly and is even foregrounded with 'white' retained as a modifier, keeping the winter imagery intact and clearly named rather than merely implied."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "The speaker's initial thought/perception, corresponding to the illusion-forming action of 朝ぼらけ...みるまでに",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The lingering moon at dawn (有明の月), specified as 'shadow of the morning moon'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Revelation that it is actually falling snow (ふれる白雪), introduced with an adversative 'But'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Location of the snow: Yoshino village (吉野の里)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the three-ku kami-no-ku into two lines and slightly reorders content by placing the location (Yoshino) after the snow revelation rather than before it as in the source's shimo-no-ku ordering (吉野の里に / ふれる白雪), inverting the internal order of ku4 and ku5."
+    },
+    "translator_strategy": "Noguchi opts for a plain, compact four-line rendering that clarifies the poem's illusion-to-revelation logic with an explicit contrastive conjunction ('But'), prioritizing clarity and directness over preserving the source's suspended, delayed-revelation suspense.",
+    "overall_fidelity": "medium",
+    "poem_number": 31,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter keeps the perceptual-illusion-then-revelation structure intact: lines 1-2 stage the mistaken belief that moonlight bathes the hill, and the turn 'But, no' in line 3 pivots into the shimo-no-ku's correction, revealing snow that has fallen on Yoshino. The visual-revelation logic of the original is fully retained, including the corrective volta."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふれる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "falling",
+        "note": "Porter renders ふれる as 'falling' (in the night), capturing only the primary meaning 降れる (has fallen) as straightforward physical description of snow; the faint secondary echo of 経る/古る (aging, passage of time) is not activated or gestured toward at all in the English."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "the snow",
+      "note": "The seasonal center of the poem, 白雪 (white snow), survives explicitly and is even given extra emphasis by Porter through repetition and expansion — first named directly ('I see it is the snow'), then reinforced by 'falling in the night' and the closing image 'Has made Yoshino white,' which doubles down on the whiteness motif originally carried by 白雪 alone."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Speaker's initial thought that it is the morning (dawn) moon",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The moon supposedly bathing the hill in light — expansion of the perceptual illusion with an added visual image of a hill bathed in light, and completion of the 'miru made ni' sense of mistaking",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The corrective turn: recognition that it is actually snow, not moonlight",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Detail that the snow fell in the night, an added temporal specification not explicit in source but consistent with 降れる",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The snow has whitened Yoshino, closing image naming the place and its transformation",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five-ku poem into five lines but redistributes content: he adds an interpretive image ('bathed the hill in light') not literally present in the source's jokotoba, and specifies 'in the night' as an explanatory gloss on ふれる; the core sequence (illusion -> correction -> revelation of snow at Yoshino) is preserved but with descriptive elaboration filling out the compact original."
+    },
+    "translator_strategy": "Porter prioritizes narrative clarity and natural English verse rhythm, expanding the compact classical illusion-and-revelation structure into a small explanatory scene while keeping the core dawn-moon-versus-snow twist intact.",
+    "overall_fidelity": "medium",
+    "poem_number": 31,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translation preserves the perceptual-illusion-then-revelation structure: lines 1-3 establish the mistaken impression of moonlight lightening the dawn scene, and lines 4-5 reveal that it is actually snow blanketing Yoshino village. The 'as though' construction in line 2 signals the illusion explicitly, and the shift to 'lay / In a haze of falling snow' delivers the corrective revelation, matching the source's rhetorical arc."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふれる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "falling snow",
+        "note": "The translator renders ふれる straightforwardly as 'falling' snow, capturing the primary 降れる (has fallen) sense. The secondary faint echo of 経る/古る (aging, passage of time) is not activated or gestured toward in any way; given the source analysis itself treats this as a borderline, weakly-activated pivot, the loss is minor but total for the secondary sense."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "falling snow",
+      "note": "The winter kigo 白雪 survives explicitly as 'falling snow' in the final line, directly naming the seasonal phenomenon that resolves the poem's perceptual illusion, matching the source's structural and seasonal payoff."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Sets the temporal frame: daybreak (asaborake).",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Introduces the illusion of the lingering dawn moon, with 'as though' signaling the mistaken perception (kakekotoba pivot miru made ni compressed into 'just as though').",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Continues the illusion: the moon seems to lighten/illuminate the dim scene, extrapolating slightly by adding 'lightened the dim scene' as an interpretive gloss on the visual confusion.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Names the location, Yoshino village, described poetically as a 'fair hamlet'.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Delivers the revelation: it is actually falling snow, not moonlight, that covers the village.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation maps quite cleanly onto the five ku with a 1:1 correspondence, though line 3 slightly expands on the source by explicitly stating the moon 'lightened the dim scene,' an interpretive addition to make the illusion mechanism clear to English readers rather than leaving it as pure resemblance."
+    },
+    "translator_strategy": "McCauley prioritizes clarity and narrative smoothness, slightly expanding the perceptual-illusion mechanism into explicit causal language ('as though... lightened') while preserving the poem's five-part structure and delivering the snow revelation directly and explicitly at the close.",
+    "overall_fidelity": "high",
+    "poem_number": 31,
+    "translator": "McCauley"
+  }
+}

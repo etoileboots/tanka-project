@@ -1,0 +1,318 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Source structure is: kami (observation of withering) → shimo (inferential naming/why山風=嵐). Dickens instead front-loads the conclusion-like intensity into L1 ('gales' already named as violent), and L3-4 shift to describing the wind's origin/roar rather than making the inferential leap to naming logic. The 'むべ...あらしといふらむ' inferential reasoning ('that's why they call it storm') is lost; instead L4 asserts the wind literally pours down from a place called 'Mube', which is a mistranslation of the adverb むべ (indeed/naturally) as a proper noun. This destroys the inferential-sensory logic entirely and substitutes a geographic/descriptive relationship instead."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "山風",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "Mube pour",
+        "note": "The translator misreads むべ (an adverb meaning 'naturally/indeed') as a place name 'Mube', and renders 山風 not through the 山+風=嵐 character-pun logic at all; the witty etymological reasoning connecting 山風 to 嵐 is entirely lost, replaced by a fictional toponym."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Now autumn's",
+      "note": "Autumn is named explicitly at the very start, and the destructive imagery on 'herb' and 'tree' conveys the withering atmosphere, though the specific 'sound reasoning' quality of the original's seasonal observation is diluted by the invented storm mythology."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Autumn gales blow variously",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Destruction wreaked on herb and tree (withering)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Wildest roar of the wind",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Gusts pour down from 'Mube' (mistranslation of むべ as toponym), replacing the 山風=嵐 etymological pun",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Translator misreads むべ (an adverb meaning 'naturally/of course') as a place name 'Mube', inventing a geographic origin for the wind rather than conveying the inferential wordplay explaining why mountain wind is called 'storm' (嵐). This is a significant error that reshapes the entire second half of the poem into a descriptive rather than inferential statement."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, vigorous English verse with dramatic natural imagery, sacrificing the poem's core etymological wit (山風=嵐) by misreading むべ as a proper noun 'Mube', thus converting an intellectual pun-poem into a straightforward, if energetic, storm description.",
+    "overall_fidelity": "low",
+    "poem_number": 22,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "Kami (L1-2) presents the sensory fact of wind causing withering; shimo (L3-4) draws the inferential conclusion via 'Is it not right to call' preserving the むべ (indeed/rightly) logical connector that bridges observation to naming rationale."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "山風",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "yama kaze",
+        "note": "Translator retains the Japanese term 'yama kaze' untranslated (romanized), preserving the primary reading/sound but making no attempt to render the character-decomposition pun (山+風=嵐) into English; the secondary graphic pun is lost since 'yama kaze' as English text cannot visually combine into 'storm'. The word 'storm' is used separately as the gloss for 嵐, but the clever kanji-composition joke (that arashi is literally made of the characters yama+kaze) is not conveyed at all in English orthography."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn grasses",
+      "note": "The season is named outright ('Autumn') and paired with the withering imagery ('wither away'), directly preserving both the explicit seasonal marker and its atmosphere of decline/desolation from the source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "吹くからに - 'as soon as it blows' rendered as 'Under the wind-blow'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "秋の草木のしをるれば - autumn grasses and trees wither, combining ku2 and ku3 into one line",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "むべ...といふらむ - the inferential 'is it not right to call' rendering むべ and the rhetorical らむ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "山風をあらしといふらむ - 'a yama kaze storm' combining the naming subject and predicate",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Compresses the 5-ku structure into 4 lines: ku2+ku3 merged in L2, and ku4's むべ interjection split across L3-L4 with the naming object/predicate. The kami/shimo boundary is preserved at the L2/L3 break, matching the source's 3+2 division reasonably well despite the 4-line format."
+    },
+    "translator_strategy": "Noguchi opts for a spare, near-literal rendering that keeps the Japanese term 'yama kaze' untranslated to preserve exoticism and authenticity, prioritizing the poem's logical/inferential structure (via 'Is it not right to call') over reproducing the kanji-decomposition wordplay, which is left unexplained for the English reader.",
+    "overall_fidelity": "medium",
+    "poem_number": 22,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Porter reverses the logical order: he opens with the shimo-ku's conclusion ('The mountain wind in autumn time / Is well called hurricane') and then moves to the kami-ku's sensory observation (canes/twigs being hurried and whirled) as if it were illustrative consequence rather than the premise leading to the naming. The inferential connector 'むべ' (well/naturally) is kept ('well called') but its logical direction is flipped: instead of 'because plants wither, hence it is aptly called arashi', the poem now reads 'it is called hurricane; [proof:] it hurries/whirls things about.' The reasoning-from-observation-to-naming structure becomes naming-then-illustration."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "山風",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "mountain wind",
+        "note": "Porter translates 山風 literally as 'mountain wind' and separately renders あらし as 'hurricane', but the graphic/character-composition wit (山+風=嵐) that is the poem's entire point is not conveyed — there is no way for an English reader to see that combining 'mountain' and 'wind' yields the word for 'storm/hurricane'. The surface semantic content (mountain wind) is preserved but the clever kanji-pun mechanism is lost entirely, so this is best classified as primary reading only, with the wordplay itself omitted rather than reproduced."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn time",
+      "note": "The season word is named directly ('in autumn time'), fulfilling the explicit naming criterion, though the withering-plants imagery central to the kigo's felt atmosphere (草木のしをるれば) is reduced to generic 'canes and twigs' being blown about rather than specifically withering/drooping, so the seasonal desolation nuance is thinned even as the word itself survives."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "山風 rendered as 'mountain wind in autumn time' — merges the naming clause's subject with kigo content",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Is well called hurricane' = むべ...あらしといふらむ, the inferential naming conclusion",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "'It hurries canes and twigs along' — the wind's effect on plants, corresponding to 吹くからに秋の草木のしをるれば but reframed as illustrative action rather than withering",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "'And whirls them o'er the plain' — continued elaboration of wind's action, extrapolated visual expansion",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "'To scatter them again' — further extrapolated embellishment of the wind's destructive action, not present in source",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter inverts the kami/shimo order, placing the shimo's naming conclusion in lines 1-2 and the kami's sensory content in lines 3-5, while also expanding the kami content with invented imagery (whirling, scattering) not present in the compact source, likely for rhyme/meter (hurricane/plain/again)."
+    },
+    "translator_strategy": "Porter prioritizes English rhyme, meter, and vivid picturesque action over preserving the source's logical sequence and character-based wordplay, inverting the kami/shimo order and expanding the withering-plants image into an active wind-scene to satisfy his rhymed quatrain form.",
+    "overall_fidelity": "low",
+    "poem_number": 22,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The translator keeps the causal-inferential logic: kami describes grass/trees being riven and wasted by the wind's breath (sensory observation), shimo draws the conclusion that men therefore 'fitly' name mountain wind 'The Wild' (i.e. arashi/storm). 'Fitly' functions similarly to むべ, marking the inferential leap from observed withering to the naming convention."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "山風",
+        "reading_preserved": "primary_only",
+        "method": "explained",
+        "en_equivalent": "mountain wind",
+        "note": "The translation renders 山風 literally as 'mountain wind' and then explains via 'Fitly given the name, \"The Wild\"' that this wind is called arashi (storm/wild). This makes the etymological joke explicit in prose rather than replicating the graphic kanji-composition pun (山+風=嵐) which is untranslatable into English script. The secondary graphic-pun reading is necessarily lost since English has no equivalent orthographic device, but the logical content of the pun (mountain-wind = the wild/storm) is conveyed discursively."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn's leaves",
+      "note": "The season is named directly ('Autumn's leaves of grass and trees'), preserving both the explicit seasonal word and the imagery of withering vegetation that carries the autumnal atmosphere of decline and desolation."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Since 'tis by its breath (referring to the wind's blowing)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Autumn's leaves of grass and trees",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Riven are and waste (withering/decaying)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Men may to the mountain wind (yamakaze)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Fitly given the name 'The Wild' (arashi, with the inferential むべ folded into 'Fitly')",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Fairly direct 1:1 mapping of five English lines to five ku, preserving the original five-part structure without major compression or expansion; the inferential adverb むべ is absorbed into 'Fitly' in line 5 rather than given its own line."
+    },
+    "translator_strategy": "McCauley pursues a literal, line-by-line archaizing translation that preserves the poem's five-part structure and inferential logic while explaining the mountain-wind/storm pun discursively rather than replicating its graphic wordplay.",
+    "overall_fidelity": "high",
+    "poem_number": 22,
+    "translator": "McCauley"
+  }
+}

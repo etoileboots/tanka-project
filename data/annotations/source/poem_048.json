@@ -1,0 +1,73 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "くだけて",
+      "ku": 4,
+      "reading_primary": "砕けて (waves breaking/shattering physically)",
+      "reading_secondary": "心が砕ける (mind/heart being shattered emotionally, i.e. distraught with anxious thought)",
+      "interaction": "The physical image of waves smashing against a rock and shattering into spray is simultaneously the speaker's own heart/mind being shattered by anxious, obsessive thought over unrequited love — the verb operates on both the wave and the speaker at once, which is the whole point of the poem's simile structure."
+    }
+  ],
+  "jokotoba": {
+    "text": "風をいたみ 岩うつ波の おのれのみ",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "くだけて",
+    "function": "The entire kami-no-ku builds an extended natural image — wind battering a rock, the wave shattering into spray on itself alone — which is not a fixed epithet but a freely composed scene constructed specifically to prepare and mirror the shimo-no-ku's statement of the speaker's own emotional shattering. It exceeds five morae and functions associatively rather than as ornament, marking it as jokotoba (or jokotoba-like extended simile) rather than makurakotoba."
+  },
+  "honkadori": {
+    "source_poem": "Unidentified with confidence — the wave-on-rock image is a common waka topos (cf. various Kokinshū and Gosenshū poems on 岩うつ波) but no single specific source poem can be confirmed as the direct allusive target",
+    "source_poet": "N/A",
+    "echoed_phrase": "岩うつ波",
+    "function": "N/A — omitted from final output due to insufficient confidence"
+  },
+  "kigo": {
+    "word": "波",
+    "season": "none",
+    "note": "This poem is fundamentally a love poem (koi) built on a natural image (wind, rock, wave) rather than a seasonal one. None of 風 (wind), 岩 (rock), or 波 (wave) carry a fixed seasonal association in the classical canon — wind and waves appear across all seasons and are not conventionally coded to any single one here, and the poem was categorized among love poems (恋) in the Shūi Wakashū / Hyakunin Isshu tradition, not among seasonal poems. There is no blossom, moon, dew, frost, snow, mist, or other seasonal marker present. The natural imagery is deployed purely as vehicle for emotional simile, not as a seasonal setting."
+  },
+  "furigana": [
+    {
+      "kanji": "風",
+      "reading": "かぜ"
+    },
+    {
+      "kanji": "岩",
+      "reading": "いわ"
+    },
+    {
+      "kanji": "波",
+      "reading": "なみ"
+    },
+    {
+      "kanji": "物",
+      "reading": "もの"
+    },
+    {
+      "kanji": "頃",
+      "reading": "ころ"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A wind-battered rock causes an onrushing wave to shatter into spray, breaking against the rock alone and unilaterally",
+    "shimo_theme": "The speaker, likewise alone and unrequited, is shattered inwardly by obsessive brooding over a love that receives no answering response",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The kami-no-ku's natural scene of a wave smashing itself to pieces against an unmoving rock is not stated to be a simile — it IS the shimo's emotional content, connected only through the pivot verb くだけて, which reads simultaneously as the wave's physical shattering and the speaker's mental/emotional shattering. The rock's indifference mirrors the beloved's unresponsiveness, and 'おのれのみ' (only itself/alone) underscores that the destruction is entirely one-sided — the wave breaks, not the rock; the speaker suffers, not the beloved."
+  },
+  "poem_number": 48,
+  "poet": "Minamoto no Shigeyuki",
+  "source_jp": "風をいたみ\n岩うつ波の\nおのれのみ\nくだけて物を\nおもふ頃かな"
+}

@@ -1,0 +1,300 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        4
+      ],
+      "shimo_lines": [
+        3,
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The source commands the wind to close the cloud-path FIRST (kami), which then causes the maidens to be detained (shimo). Dickens instead describes the maidens gliding by amid winds (L1-3), and only THEN states the breeze 'hath lost its vigour' (L4), which reads as a consequence/observation rather than an imperative command preceding the effect. The causal logic is reversed: instead of 'wind, block the path so she stays,' we get 'the maiden appears, [and separately] the wind now lulls, so I glimpse her.' The imperative force of 吹きとぢよ (a command) is lost entirely, replaced by a passive observation that the wind has already died down, which inverts the cause-effect sequencing and removes the volitional plea structure of the original."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Source analysis confirms no true kigo governs this poem (clouds are part of a mythic sky-path conceit, not a seasonal marker). Dickens' translation likewise contains no seasonal imagery or atmosphere — the clouds and wind are treated purely as the mechanism of the sky-path/otome conceit, consistent with the source's non-seasonal use. No season is named or implied anywhere in the six lines."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "the fitful/irregular path across the sky — corresponds to 天つ風 / 雲のかよひ路 (heavenly wind, cloud-path)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "various winds of heaven forcing the path — restates 天つ風, expanding it with 'various' and 'forced'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "the cloud-borne Otome glides by — 乙女のすがた, but recast as an ongoing visual event rather than a state to be prolonged",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the breeze now has lost its vigour — a free rendering of 吹きとぢよ (command to blow-and-close), turned into a description of the wind dying down rather than a command",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "her form so bright, an instant — 乙女のすがた + しばし (a brief moment)",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "for a fleeting moment greets my sight — しばしとどめむ, rendered as a fleeting glimpse rather than an active wish to detain/prolong",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Dickens expands 5 ku into 6 lines with significant reordering: the imperative command (とぢよ) becomes a descriptive clause about the wind losing vigour, placed AFTER the maiden's appearance rather than before it as cause. The speaker's active wish (とどめむ, 'I shall detain') is softened into a passive 'greets my sight,' removing the volitional plea structure central to the original's causal logic."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, meter-driven Victorian verse and dramatic imagery over preserving the original's imperative command structure and causal logic, softening the speaker's active wish into passive observation.",
+    "overall_fidelity": "medium",
+    "poem_number": 12,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator retains the command structure: L1-L2 address the heavenly wind and command it to blow and close the cloud-path, and L3-L4 express the wish to keep the maidens/angels present a while longer. The causal-physical logic (block the path so they cannot leave, thus can be gazed at longer) is implied though slightly softened by 'be with us' rather than an explicit visual-gazing wish, but the enabling-cause relationship is intact."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal imagery or atmosphere is introduced; the translation focuses purely on the mythic/court conceit of wind, clouds, and dancing maidens, consistent with the source analysis noting no true kigo governs this poem. The clouds appear only as part of the sky-path conceit, not as seasonal marker, and Noguchi's rendering ('road of clouds') preserves this non-seasonal, mythic function rather than introducing any seasonal atmosphere."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Invocation of the heavenly wind (天つ風)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Command to blow and close the cloud-path (雲のかよひ路 吹きとぢよ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The maidens described as beauties/angels (乙女のすがた), with 'nay, the angels' added as an emphatic elaboration not explicit in source but consistent with the mythic conceit of celestial dancers",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Wish for them to remain a while (しばしとどめむ), rendered as 'be with us' rather than 'let me gaze a while longer'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Four-line translation maps cleanly onto the five ku with L2 compressing ku2+ku3 (the cloud-path and the command to close it) into a single line; otherwise a fairly direct one-to-one correspondence is maintained, with L4 shifting the emphasis from the speaker's private act of viewing ('とどめむ' = 'I shall keep/stop them, to gaze') to a communal 'be with us,' a subtle but real semantic shift."
+    },
+    "translator_strategy": "Noguchi favors a plain, direct rendering that preserves the imperative-causal logic of the original (command the wind, thereby detain the maidens) while softening the speaker's private visual longing into a more communal, sociable framing ('be with us') and embellishing 乙女 into 'beauties, nay, the angels' for added poetic flourish.",
+    "overall_fidelity": "medium",
+    "poem_number": 12,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "transformed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical reinterpreted as causal-visual (cloud-cover hides flight, rather than blocking path home)",
+      "note": "Porter shifts the mechanism: instead of the wind sealing the cloud-path so the maidens cannot return to heaven, the wind is asked to bring clouds and 'paint heavens grey' so as to obscure/prevent the maidens from displaying wings and flying away. The causal logic (wind's action enables continued viewing of the maidens) is retained in spirit but the physical logic is altered — clouds function as a visual veil/obstacle to flight rather than a blocked road. This is a displaced variant of the causal-physical relationship: still causal, but the specific imagined mechanism (sealing a path) is replaced by 'covering the sky so they can't leave/fly.' Kami and shimo are still linked by cause-effect, but the content of the cause is changed from 'shut the road' to 'darken the sky', which is a looser reading of 雲のかよひ路."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal marker is present in source or translation; Porter's 'stormy winds' and grey heavens are mythic/atmospheric imagery for the cloud-path conceit, not seasonal signaling, consistent with source analysis showing no true kigo governs this poem."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Address to heavenly/stormy winds, invoking clouds",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Paint the heavens grey — expands 吹きとぢよ (blow and close) into an image of clouding over the sky, rather than sealing a path",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Fair maids of form divine — the otome no sugata (the maidens' form)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Should angel wings display — reinterprets the maidens as literal winged angels who might fly off, an invented elaboration not literally in source but standing in for しばしとどめむ's implied danger of departure",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "And fly far far away — corresponds to the wish to keep them a little longer, inverted into a fear of their flying away entirely",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the five ku into a five-line quatrain-plus, restructuring 雲のかよひ路 (path through the clouds) into a general image of clouding the sky, and turns しばしとどめむ (I will detain them a while) into a fear-based statement about angels flying away, adding the concrete image of 'wings' not present in the original, which is an interpretive embellishment rather than direct translation."
+    },
+    "translator_strategy": "Porter freely paraphrases the mythic conceit into a rhyming, moralized quatrain that keeps the general sentiment (wind, clouds, dancers who might otherwise be angels departing to the sky) while sacrificing the precise causal-physical logic and the classical restraint of the original for rhyme, meter, and vivid Victorian imagery (grey heavens, angel wings).",
+    "overall_fidelity": "low",
+    "poem_number": 12,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translation preserves the causal-physical logic exactly: L1-L3 command the heavenly winds to blow and close the cloud-paths, and L4-L5 give the purpose/effect of that command — detaining the maiden forms a little while. The 'that' in L4 explicitly marks the causal link (wind closes path -> maidens cannot leave -> we can look longer), mirroring the source's enabling-cause structure."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal atmosphere is introduced or implied; 'clouds' and 'winds' are treated purely as part of the mythic sky-path conceit, consistent with the source analysis noting no true kigo governs this poem. The translation is faithful to that absence rather than introducing any seasonal coloring."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Address to the heavenly winds ('天つ風')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The paths among the clouds ('雲のかよひ路')",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Command to blow and close the ways ('吹きとぢよ')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The virgin/maiden forms ('乙女のすがた'), with 'that we may' supplying the causal link",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Wish to detain them a little while ('しばしとどめむ')",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Near one-to-one mapping of five English lines to the five ku, preserving order and causal linkage exactly; no compression or expansion beyond natural English syntax."
+    },
+    "translator_strategy": "McCauley pursues a close, line-by-line literal rendering that preserves the poem's five-part structure, causal logic, and mythic imagery without embellishment or added interpretive gloss.",
+    "overall_fidelity": "high",
+    "poem_number": 12,
+    "translator": "McCauley"
+  }
+}

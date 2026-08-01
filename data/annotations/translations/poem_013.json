@@ -1,0 +1,331 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "simile-implicit transformed into explicit narrative of rivers flowing to sea, with 'loving haste' inserted as connective tissue rather than the source's silent pivot on 淵",
+      "note": "Dickens dissolves the kami/shimo boundary: the source relies on the reader inferring the love-metaphor purely through the shared image of accumulation culminating in 淵 (deep pool), with no explicit comparative language. Dickens instead inserts 'In loving haste' directly into the river description (L3), fusing love-language into the water-image itself rather than letting the shimo-no-ku's separate assertion ('恋ぞつもりて') stand as its own clause. He also invents a wholly new image — the waters seeking 'The end of all their constant flow, / The sea that doth no limits know' — which has no equivalent in the source (the source ends on 淵, a deep pool, not the sea). This substitutes a different relationship entirely: rather than kami=vehicle/shimo=tenor via 淵 as hinge, Dickens gives us a single continuous river-into-sea narrative that is metaphorically suggestive of boundless love but never separates out the shimo's discrete claim that love itself has piled up. The bipartite logic is collapsed into one continuous image and then displaced onto an invented sea-image."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "みなの川",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "minagawa's waters",
+        "note": "Dickens transliterates the river name directly ('minagawa'), preserving the primary literal reading (proper river name) but making no attempt to activate the secondary echo of 皆 (\"all\"/totality) — no wordplay or double meaning is attempted in English; the pun is simply absent, though the primary sense survives via transliteration."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Consistent with the source analysis, this poem carries no true seasonal marker; Dickens's translation likewise contains no seasonal imagery — the poem is presented purely as a love poem built on a river/mountain topographical conceit, with no season named or implied. This matches the source's non-seasonal classification, so 'omitted' here is not a translation failure but an accurate non-presence, mirroring the original's own absence of kigo."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "Dickens compresses the jokotoba (ku 1-3) into two lines (L1-L2), then expands the shimo-no-ku (ku 4-5, only 'love has piled up and become a deep pool') into four lines (L3-L6), inventing an extended sea-image not present in the source. The single word 淵 (deep pool) is replaced entirely by an invented image of the river seeking 'the sea that doth no limits know' — a expansion/substitution rather than a translation of 淵.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Names the Minano river and its falling waters",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Locates the river's source at the peak of Mt. Tsukuba",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'In loving haste' inserts the love-theme directly into the river description, fusing kami and shimo prematurely; 'the waters all' continues the river image",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'For aye accumulate' translates つもりて (accumulating), though attached grammatically to the river-waters rather than to 恋 (love) as a separate subject",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'seek the end of all their constant flow' — invented imagery not corresponding to 淵となりぬる; introduces a goal-directed motion absent from source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'The sea that doth no limits know' replaces 淵 (deep pool) with an invented image of a boundless sea, changing the central metaphor from 'deep pool' to 'limitless sea'",
+          "origin": "extrapolated"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens prioritizes English rhyme and meter (a strict ABABCC-like end-rhyme scheme) over literal fidelity, freely inventing a new culminating image (boundless sea) to replace the source's deep pool and fusing the love-theme into the river-description itself rather than preserving the poem's implicit, unstated bipartite pivot on 淵.",
+    "overall_fidelity": "low",
+    "poem_number": 13,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator compresses the kami-no-ku (Tsukuba peak, Minano river, accumulation into depth) into L1-L3, with L3 doing double duty as both the literal 'depth' of the river pool and the pivot into the metaphor. L4 ('Oh so is love') makes the comparison explicit with 'so,' converting the source's implicit, unstated analogy (where 淵 alone bridges both halves without any comparative marker) into an overt simile statement. This preserves the general logic — accumulation leading to depth, then applied to love — but weakens the subtlety of the original's fusion, since the source never says 'love is like this' but simply states love itself became the pool. Here the two halves are more clearly separated into 'nature scene' + 'explicit moral/comparison' rather than fused via the shared word 淵."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "みなの川",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Mina no Kawa",
+        "note": "Translator keeps the river name as a transliterated proper noun ('Mina no Kawa'), preserving the primary literal/toponymic reading. The secondary echo of 皆 ('all/everyone') is not engaged at all — no wordplay or pun is attempted in English, so the soft associative resonance with totality/accumulation is lost. This is consistent with treating it as jokotoba pivot material rather than as a punning kakekotoba, but the dual-resonance nuance the source analysis notes is simply absent."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Consistent with the source analysis's finding that this poem carries no seasonal marker at all (it belongs to the love/koi section), the translation appropriately shows no seasonal imagery or atmosphere — the mountain, river, and depth imagery are treated purely as vehicle for the love metaphor, with no seasonal coloring introduced or lost, since none existed in the source to begin with."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "From the Tsukuba summit — names the mountain peak as origin point",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Mina no Kawa drops down — combines the falling motion (peak→falls, ku2) with the naming of the river (ku3) into a single line",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "And the waters gathered make the depth! — renders the jokotoba's culminating image of accumulation into a deep pool (淵), compressing the implicit hinge word into an explicit exclamatory statement",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Oh so is love — compresses 恋ぞつもりて and 淵となりぬる (the entire shimo-no-ku, i.e. love accumulating and becoming a pool) into a short exclamatory comparison, relying on the reader mentally re-applying 'depth' from L3 to love",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four lines, merging ku2+ku3 into L2 and ku4+ku5 into L4; L3 functions as the structural hinge carrying the 淵 (depth) image forward into L4's explicit comparison, mirroring but also flattening the source's implicit fusion into an overt 'so is love' simile."
+    },
+    "translator_strategy": "Noguchi favors extreme compression and an explicit, almost aphoristic closing comparison ('Oh so is love') that converts the source's implicit metaphorical fusion into a stated simile, prioritizing brevity and emotional punch over preserving the subtle unstated analogy of the original.",
+    "overall_fidelity": "medium",
+    "poem_number": 13,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter converts the implicit simile (kami describing river formation, shimo asserting love has become a pool, linked only by the shared word 淵) into an explicit simile with 'Strong as my love' inserted mid-poem. This makes the comparison overt where the original left it as an unstated structural analogy hinging on 淵. The relationship type shifts from simile-implicit to explicit simile, so it is displaced rather than merely preserved or collapsed — the two-part logic survives but its rhetorical mechanism (unmarked juxtaposition) is replaced by an explicit comparative marker ('Strong as')."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "みなの川",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "The Mina stream",
+        "note": "Porter renders みなの川 as 'The Mina stream,' preserving the literal river-name reading. The secondary echo of 皆 ('all/everyone') suggesting totality/accumulation is not carried by any English wordplay — 'Mina' is simply a proper name transliterated, with no pun on 'all' or similar constructed. Since the source analysis treats this as a soft secondary resonance rather than a strict kakekotoba, its loss is minor, but strictly by the reading_preserved scale only the primary (place-name) sense survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As the source analysis notes, this poem carries no genuine seasonal marker (Tsukuba/Minano-gawa are utamakura, not kigo), and Porter's translation likewise introduces no seasonal atmosphere — the imagery of tumbling water, mountain height, and a black pool is topographical/emotional rather than seasonal. This is consistent with the poem's classification as non-seasonal love poetry, so 'omitted' here reflects accurate non-preservation of a non-existent seasonal element rather than a translation failure."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The Mina stream comes tumbling down — describes the river's motion, corresponds to みなの川 plus 落つる action",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "From Mount Tsukuba's height — locates the stream's source at Tsukuba's peak",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Strong as my love, it leaps into — explicitly introduces the simile comparing the stream's force to the speaker's love, corresponds to 恋ぞつもりて but reframed as an explicit comparison with added verb 'leaps'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "A pool as black as night — renders 淵となりぬる, adding the invented epithet 'black as night' with no equivalent in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "With overwhelming might — reinforces the intensity of accumulated love/force, expanding on つもりて's sense of accumulation but recast as raw physical power",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the three-ku jokotoba (lines 1-3 of source) into two English lines (L1-L2), reversing the original ku order (river name given before the mountain-height clause in L1, though grammatically the mountain comes first in Japanese) and then expands the two-ku shimo into three lines (L3-L5), adding extrapolated imagery ('black as night', 'overwhelming might') not present in the source, which shifts emphasis toward color/darkness and physical force rather than accumulation over time."
+    },
+    "translator_strategy": "Porter prioritizes vivid, rhyming, dramatically intensified English verse over structural fidelity, converting the poem's understated implicit simile into an explicit one and inventing sensory embellishments ('black as night', 'overwhelming might') to heighten emotional force at the cost of the original's subtle accumulation logic.",
+    "overall_fidelity": "medium",
+    "poem_number": 13,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit (rendered slightly more explicit via 'So' and 'Like')",
+      "note": "McCauley keeps the two-part structure: kami describes the Tsukuba stream becoming the still, full Mina river; shimo asserts the love has 'grown to be... like the river's quiet deeps.' The translator makes the implicit comparison more explicit than the original by adding 'So' (line 4) and especially 'Like' (line 5), which supplies an overt simile marker absent from the Japanese's purely juxtaposed structure. This slightly shifts the device from implicit analogy to stated simile, but the underlying two-part logic (small stream -> deep pool :: accumulating love -> deep pool of feeling) is fully preserved, just made more explicit than the source's silent pivot on 淵."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "みなの川",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Mina's still, full flow",
+        "note": "McCauley renders the river name literally as 'Mina[‘s]... flow,' preserving the place-name/primary reading. The secondary associative echo of みな (\"all/everyone\") tied to totality/accumulation is not picked up in English — there is no wordplay on 'all' or 'entire' at this point, so the soft secondary resonance noted in the source analysis is lost. This is consistent with the source analysis's own caveat that this is a soft secondary resonance rather than a strict split pivot, so its loss is minor but real."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Consistent with the source analysis, this poem carries no true seasonal kigo; McCauley's imagery (peak, falling waters, still full flow, quiet deeps) is purely topographical/emotional and introduces no seasonal atmosphere (no frost, autumn leaves, spring bloom, etc.), so there is nothing to preserve or omit beyond the source's own non-seasonal status — correctly, no season is invented or implied."
+    },
+    "translator_strategy": "McCauley aims for compact, euphonious literalism, tightening the jokotoba's cascading-to-pool image into a smooth five-line simile and using explicit connective words ('So,' 'Like') to make the kami/shimo analogy legible to an English reader who lacks the cultural default of implicit waka juxtaposition.",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "From Tsukuba's peak — sets the mountain source, matches 筑波嶺の峰より",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Falling waters have become — renders 落つる, the falling/descending motion",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Mina's still, full flow — renders みなの川, the river name, with 'still, full' anticipating the 淵 (deep pool) imagery slightly early",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "So my love has grown to be — renders 恋ぞつもりて, accumulation of love, with added connective 'So' making the analogy explicit",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Like the river's quiet deeps — renders 淵となりぬる, the deep pool, with added simile marker 'Like' not present in the Japanese's implicit juxtaposition",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Faithful five-line one-to-one mapping onto the five ku, with minor expansion: 'still, full flow' in L3 slightly pre-echoes the 淵 (deep pool) image of L5, and explicit connectives ('So', 'Like') are added in L4-5 to make the source's implicit simile overtly explicit — a small but real structural shift from implicit juxtaposition to stated comparison."
+    },
+    "overall_fidelity": "high",
+    "poem_number": 13,
+    "translator": "McCauley"
+  }
+}

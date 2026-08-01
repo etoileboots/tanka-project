@@ -1,0 +1,263 @@
+{
+  "poem_number": 69,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-30T11:38:00.468105+00:00"
+    },
+    "devices": {
+      "もみぢ葉": {
+        "status": "confirmed",
+        "original": {
+          "word": "もみぢ葉",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:37:53.448862+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "maple leaves": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "maple leaves",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T11:38:17.165459+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:38:19.117418+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:38:20.034257+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:38:20.437211+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:38:21.383204+00:00"
+        }
+      },
+      "device_links": {
+        "maple leaves": {
+          "status": "corrected",
+          "original": {
+            "word": "maple leaves"
+          },
+          "corrected": {
+            "source_word": "もみぢ葉"
+          },
+          "reviewed_at": "2026-08-01T02:05:53.036541+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:38:34.688338+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:38:35.301315+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:38:35.883484+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:38:36.416636+00:00"
+        }
+      },
+      "devices": {
+        "reddening": {
+          "status": "removed",
+          "original": {
+            "word": "reddening",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:27.697642+00:00"
+        },
+        "momiji": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "momiji",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T11:38:45.918389+00:00"
+        }
+      },
+      "device_links": {
+        "momiji": {
+          "status": "corrected",
+          "original": {
+            "word": "momiji"
+          },
+          "corrected": {
+            "source_word": "もみぢ葉"
+          },
+          "reviewed_at": "2026-08-01T02:05:50.568045+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:00.956230+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:14.240660+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:22.284557+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:33.217931+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:33.664763+00:00"
+        }
+      },
+      "devices": {
+        "maples leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "maples leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:24.882418+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:52.029347+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:52.679533+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:53.646297+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:54.028359+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:54.576519+00:00"
+        }
+      },
+      "devices": {
+        "maple leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "maple leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:39:55.044681+00:00"
+        }
+      }
+    }
+  }
+}

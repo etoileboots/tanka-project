@@ -1,0 +1,348 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "Dickens restructures the poem so that the visual image (Tatsuta's autumnal ruddy wave) opens the stanza (L1-2), the mythic-age hyperbole is compressed into the middle (L3-4), and the poem closes with a return to the river's fairness (L5). This scrambles the source's forward-building logic — kami-no-ku's hyperbolic frame no longer precedes and sets up the shimo-no-ku's revelation; instead the revelation is stated first and the mythic comparison inserted afterward as a subordinate clause, weakening the 'delayed astonishment' effect of the original."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "くくる",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "beheld so brave, so fair a stream",
+        "note": "The translator replaces the tie-dye/binding image and the 'flowing beneath' sense entirely with generic praise ('beheld so brave, so fair a stream as thine'). Neither the shibori-cloth binding conceit nor the water's physical passage beneath the leaves survives; the crimson color is retained only as 'ruddy wave' but the kakekotoba's double action is lost."
+      }
+    ],
+    "makurakotoba": [
+      {
+        "original_word": "千早ぶる",
+        "method": "transformed",
+        "en_equivalent": "the stern gods",
+        "note": "Rather than functioning as a fixed epithet attached to 神代 as an ornamental intensifier, 'stern' is repurposed as a direct descriptive adjective characterizing the gods themselves, converting the pillow word's coloristic/awe-evoking function into a plain characterization; the elevating epithet function is not really preserved, more repurposed into a value judgment about the gods' temperament."
+      }
+    ],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "autumnal flow ... deep, ruddy wave",
+      "note": "The word 'autumnal' explicitly names the season, and 'ruddy wave' conveys the crimson-dyed water imagery, so the seasonal atmosphere is present and even named directly (more explicit than typical). However the specific 紅葉-in-water topos (leaves as agent of dyeing) is generalized into simple color description, losing some of the vividness of the leaf-dyeing conceit."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Address to Tatsuta river and its autumnal flow",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Speaker watching the deep ruddy (crimson) wave",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Reference to the stern gods of long ago (age of the gods)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Even then, never was such a thing beheld ('was ne'er beheld so brave')",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Closing exclamation praising the fair stream",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator restructures the poem into a direct address (O Tatsuta!) opening with the visual image, then inserts the mythic-age hyperbole as a subordinate negative comparison in the middle, and closes with an added exclamatory vow of praise not present in the source's structure — effectively inverting the kami-shimo build-up and adding an extrapolated closing line of personal testimony ('I vow')."
+    },
+    "translator_strategy": "Dickens prioritizes a smooth, metrically regular English quatrain-plus-line (ABAB+A rhyme) that renders the poem as a direct apostrophe to the river with generalized praise, sacrificing the specific dyeing/binding conceit and the source's suspenseful kami-to-shimo build in favor of Victorian lyrical fluency and rhyme.",
+    "overall_fidelity": "low",
+    "poem_number": 17,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "Kami (L1-2) sets up the hyperbolic frame invoking the gods' age and names Tatsuta Gawa with an exclamatory 'Behold', preserving the anticipatory function; shimo (L3-4) delivers the visual payoff of the reddened waters caused by autumn leaves, matching the source's revelation structure, though the causal agent (leaves) is placed at the end rather than fused into the water-binding image."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "くくる",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "reddened",
+        "note": "The translator uses 'were reddened' which conveys only the coloring result, losing both the tie-dye/binding (括る) image and the flowing-beneath (潜る) sense entirely; no textile or fluid-motion nuance survives, so neither kakekotoba reading is captured with any precision."
+      }
+    ],
+    "makurakotoba": [
+      {
+        "original_word": "千早ぶる",
+        "method": "omitted",
+        "en_equivalent": "(none)",
+        "note": "The epithet before 神代 is dropped; 'gods' age' is rendered plainly without any elevating or awe-evoking modifier, so the register-lifting function of the pillow word is lost even though the noun it modified (神代/'gods age') survives."
+      }
+    ],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn leaves",
+      "note": "Unlike the source, which conveys autumn only implicitly through からくれなゐ and the Tatsuta River topos, Noguchi explicitly names 'autumn leaves,' making the seasonal signal more overt than in the original — a relocation/clarification of implicit imagery into explicit naming."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Negative hyperbole: not heard of even in the age of the gods",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Exclamatory naming of Tatsuta River ('Behold Tatsuda Gawa!')",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The waters were reddened so (からくれなゐに水くくる, minus the tie-dye/binding nuance)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "By the autumn leaves — explicit causal agent added ('autumn leaves' names what the source only implies through color/topos)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Compresses ku4-5 into two lines (L3-4), splitting the crimson-color clause from an explicit naming of the cause (autumn leaves) that the source leaves implicit; the makurakotoba is dropped, and the kakekotoba's dual imagery is flattened into a simple 'reddened' verb."
+    },
+    "translator_strategy": "Noguchi prioritizes clarity and emotional immediacy over rhetorical density, sacrificing the pillow word's grandeur and the kakekotoba's dual imagery in favor of a plain, exclamatory four-line statement that explicitly names 'autumn leaves' as the cause of the river's color.",
+    "overall_fidelity": "medium",
+    "poem_number": 17,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Porter reverses the source structure: he opens with the shimo-no-ku's image (crimson leaves on Tatsuta's stream, line 1-2) and then moves to the kami-no-ku's hyperbolic frame (the gods, line 3-5), placing the 'never heard' clause at the very end rather than at the beginning. This inverts the visual-revelation logic — instead of the mythic frame building anticipation before the crimson image is revealed, the crimson image is stated first as fact and the divine hyperbole is appended afterward as a closing flourish, weakening the 'unheard-of astonishment' effect since the reader already knows the image before the hyperbole is voiced."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "くくる",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "purls along / so sweet a song",
+        "note": "Porter transforms the water-binding/tie-dye image entirely into an auditory image ('softly purls along', 'so sweet a song'), losing both the tie-dye (括る) and the flowing-beneath (潜る) senses. Neither the textile artifice nor the water's physical motion beneath the leaves survives; instead a new sensory register (sound) is substituted, which is not even a transformed pun but a full paraphrase replacing the entire conceit."
+      }
+    ],
+    "makurakotoba": [
+      {
+        "original_word": "千早ぶる",
+        "method": "omitted",
+        "note": "The epithet's elevating function tied to 神代 (age of the gods) is dropped; Porter's 'everlasting Gods themselves' conveys grandeur through the adjective 'everlasting' but this is an independent poetic choice rather than a substitute performing the same conventional epithet-preceding-kami function. No real ornamental equivalent is supplied for the specific pillow-word mechanism."
+      }
+    ],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "All red with leaves",
+      "note": "The crimson autumn-leaves imagery survives explicitly as 'red with leaves,' conveying the visual heart of the kigo complex (leaves dyeing the river), though the word 'autumn' itself is never named — the seasonal atmosphere is carried purely through the color and leaf imagery, consistent with how English translations typically convey kigo through image rather than explicit season-naming."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "All red with leaves Tatsuta's stream — merges からくれなゐ (crimson) and 龍田川 (Tatsuta river) into a single opening image",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "So softly purls along — invented auditory quality replacing 水くくる (water bound/flowing beneath leaves)",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The everlasting Gods themselves — corresponds to 千早ぶる神代, recast as divine beings rather than 'age of the gods'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [],
+          "content_summary": "Who judge 'twixt right and wrong — invented moralizing detail about the gods with no equivalent in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Ne'er heard so sweet a song — corresponds to きかず (has not been heard), but recast as auditory 'song' rather than 'such a thing'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter inverts kami/shimo order (shimo content placed first in lines 1-2, kami content follows in lines 3-5) and expands with an entirely invented moral clause (line 4) about gods judging right and wrong, plus transforms the poem's central visual conceit into an auditory one ('song', 'purls'), producing a freely adapted rhyming quatrain-plus-line rather than a close translation."
+    },
+    "translator_strategy": "Porter prioritizes a singable, rhymed English lyric (a b c b b) over structural or rhetorical fidelity, freely inverting the kami/shimo sequence, inventing a moralizing clause about divine judgment, and converting the poem's central visual-tactile conceit (water bound/dyed by crimson leaves) into an auditory image of a 'sweet song,' sacrificing the kakekotoba and makurakotoba entirely for musicality and rhyme.",
+    "overall_fidelity": "low",
+    "poem_number": 17,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'I have never heard' = きかず (has not been heard of)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'e'en when the gods held sway' invokes 神代/千早ぶる (age of gods), inverted into a temporal clause following L1's negation",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'In the ancient days' — further elaboration/reduplication of 神代, no new JP content, expands the kami-no-ku phrase",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'E'er was water bound with red' = からくれなゐに水くくる (water tie-dyed crimson)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'Such as here in Tatta's stream' = 龍田川からくれなゐに (naming the river, and echoing the crimson coloring)",
+          "origin": "source"
+        }
+      ]
+    },
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The hyperbolic frame (never heard, even gods' age) precedes the crimson-water revelation, preserving the basic logic, but the translator interpolates 'In the ancient days' as a redundant expansion of the kami-no-ku that slightly dilutes the taut buildup-to-revelation structure, and the river name is deferred to the final line rather than mid-poem, softening the pivot."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "くくる",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "bound",
+        "note": "'Bound with red' captures 括る (tie-dyeing/binding cloth) precisely, evoking shibori imagery, but gives no sense of 潜る (water flowing beneath/through the leaves); the fusion of artifice and natural motion is lost, retaining only the textile metaphor."
+      }
+    ],
+    "makurakotoba": [
+      {
+        "original_word": "千早ぶる",
+        "method": "omitted",
+        "en_equivalent": "(none distinct)",
+        "note": "The epithet's register-elevating force is not rendered by any distinct word; 'e'en when the gods held sway' conveys the referent (age of gods) but no equivalent epithet modifies it — the pillow word's ornamental function simply disappears into plain narrative phrasing."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "water bound with red",
+      "note": "The season is not named ('autumn' or 'maple leaves' never appear), but the crimson-dyed water imagery — the core of the kigo complex — survives clearly enough that a reader familiar with the topos would recognize the autumn-leaves-on-river scene, though a reader unfamiliar with the convention might miss the seasonal association since 'leaves' are never mentioned."
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, rhyme-conscious English quatrain-like flow over strict lexical density, expanding the hyperbolic frame with an extra explanatory line while compressing the river-naming and crimson imagery into the final couplet.",
+    "overall_fidelity": "medium",
+    "poem_number": 17,
+    "translator": "McCauley"
+  }
+}

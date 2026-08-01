@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "中々に",
+      "ku": 3,
+      "reading_primary": "nakanaka ni",
+      "reading_secondary": "nakanaka ni",
+      "interaction": "The adverb 中々に means 'rather / on the contrary' — it does not carry a second grammatically distinct meaning here beyond its adverbial force, but it functions as a rhetorical pivot in sense: it inverts the expected logic of the poem, asserting that meeting is worse than not meeting. Included here as a borderline case of semantic (not homophonic) pivoting, since it flips the poem's direction of feeling between kami and shimo. Not a true sound-based kakekotoba, but functions as the poem's logical fulcrum."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A conditional, counterfactual premise: if there had never been any meeting between the lovers at all",
+    "shimo_theme": "Then, contrary to what one might expect, the speaker would not have to resent either the beloved or his own fate — the resentment exists precisely because the meeting happened and then proved incomplete or unsatisfying",
+    "relationship_type": "paradox",
+    "pivot_note": "The pivot word 中々に ('rather, on the contrary') at the start of the shimo inverts the naive logic that meeting would only bring joy. The poem argues the reverse: had there been no meeting at all (taete shi nakuwa), there would be no cause for resentment toward either the beloved (hito) or himself (mi) — the very existence of a partial, unsatisfying encounter is what breeds bitterness. Kami sets up an unreal conditional (contrary-to-fact 'if only there had been no meeting'), and shimo delivers the paradoxical consequence via the mashi counterfactual auxiliary, producing a logical reversal rather than a straightforward causal or sensory link."
+  },
+  "kigo": {
+    "word": "逢ふこと",
+    "season": "none",
+    "note": "This poem is a love poem (koi no uta) from the Hyakunin Isshu's love sequence, built entirely on abstract emotional and grammatical reasoning about meeting (au koto), resentment (urami), and counterfactual longing. There is no natural imagery whatsoever — no flowers, birds, moon, dew, frost, snow, rain, mist, or seasonal plant/animal reference of any kind appears in any of the five ku. Every lexical item (逢ふこと, 絶えて, なくは, 中々に, 人, 身, 恨み, まし) is either a verb of relationship/action, a pronoun, an emotional/psychological term, or a grammatical auxiliary. This is a purely conceptual, philosophical love poem with no seasonal governance; kigo is genuinely absent."
+  },
+  "furigana": [
+    {
+      "kanji": "逢",
+      "reading": "あ"
+    },
+    {
+      "kanji": "絶",
+      "reading": "た"
+    },
+    {
+      "kanji": "中々",
+      "reading": "なかなか"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    },
+    {
+      "kanji": "恨",
+      "reading": "うら"
+    }
+  ],
+  "poem_number": 44,
+  "poet": "Chunagon Asatada",
+  "source_jp": "逢ふことの\n絶えてしなくは\n中々に\n人をも身をも\n恨みざらまし"
+}

@@ -1,0 +1,316 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation keeps the sequence of wind/twilight scene followed by misogi as evidence of summer, and 'thereby show / That summer hath not yet gone quite' does gesture at the paradox that despite the autumnal chill of the wind, summer persists — but the sharpness of the original paradox (that ONLY the misogi ritual, not sensory experience, proves it is summer) is softened into a milder 'not yet gone quite,' weakening the force of the reversal."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "なら",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Nara's streamlet",
+        "note": "The place name Nara is preserved literally as a place name (Nara's streamlet), but the secondary association with 楢 (oak, rustling leaves) is not evoked in any way — no tree imagery accompanies the wind."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "summer",
+      "note": "The word 'summer' is named explicitly in the final line, directly translating 夏, and the misogi (Misogi) is also named, preserving the seasonal marker as the poem's climactic proof, though the paradox that it is the SOLE sign is diluted by 'not yet gone quite' rather than asserting it decisively as the sole proof."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, metrical quatrain in flowing English verse, smoothing the poem's paradoxical turn into a gentler assertion that summer lingers, at the cost of the sharper rhetorical bite of the original's contrast between sensory autumn and ritual-confirmed summer.",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The wind blowing softly over Nara's little stream",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "The winds continue, now specified as occurring in the dim twilight",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The misogi purification rite, set within this scene, is introduced as evidence",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The conclusion that summer has not yet fully departed, based on the misogi as sign",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the five ku into four rhymed lines (ABAB), splitting ku1-2 (wind/river) across lines 1-2 and ku3 (twilight) is absorbed into line 2, while ku4-5 (misogi as proof of summer) occupy lines 3-4; the paradox is retained structurally but softened rhetorically by translating しるし (proof/sign) into a hedged 'not yet gone quite' rather than a definitive 'the only sign'."
+    },
+    "poem_number": 98,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation retains the two-part structure — evening breeze/stream scene followed by the misogi as the 'sign' of summer — but weakens the paradox by using 'might be' (hedging uncertainty) rather than asserting the ritual as the sole proof against the sensory (autumnal-feeling) evidence of the kami-no-ku; the tension between feeling and fact is softened rather than sharply turned."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "なら",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "nara tree",
+        "note": "Noguchi renders 'なら' as 'nara tree' explicitly, capturing the secondary (oak-tree) association literally but losing the placename's grammatical role as 'Nara no Ogawa' proper noun; ironically this inverts the source's primary/secondary weighting by foregrounding the tree reading over the place-name reading, so it is better classed as literal_primary of the tree sense rather than the place name."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Summer not yet gone",
+      "note": "The season word is named directly in the final line, and the ritual 'Misogi feast' is explicitly linked to it as the 'sign' — the seasonal paradox is stated outright rather than conveyed only through imagery, though the felt coolness of 'evening breeze' still lingers as an implicit autumnal counter-image."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The wind rustling/blowing in the evening",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The little river of Nara(-tree), evening scene, transitioning toward 'to see'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The misogi ritual, framed as a 'feast' to be seen, hedged as possibly the sign",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Confirmation that summer is not yet gone",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses ku1-3 (kami-no-ku) into two lines and expands ku4-5 (shimo-no-ku) into two lines with added interpretive material ('feast', 'might be', 'not yet gone') not present verbatim in the source, slightly shifting emphasis toward uncertainty."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, natural-sounding English quatrain that names the season outright and mildly editorializes the ritual's meaning ('might be the sign'), sacrificing the sharper paradoxical assertion of the original for readability.",
+    "overall_fidelity": "medium",
+    "poem_number": 98,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "The translation dissolves the paradox structure into a single continuous impressionistic scene. Instead of the shimo-no-ku overturning the autumnal sensory impression of the kami-no-ku by asserting the ritual as the only 'sign' of summer, Porter simply lists the twilight, breeze, stream, and washing worshippers together and concludes with 'a perfect summer's dream' — a mood statement rather than the logical pivot/paradox of the original ('this coolness feels autumnal, yet the misogi proves it's still summer'). The tension between sensory impression and calendrical fact is lost; everything reads as cohesively summery from the start."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "なら",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Nara's little stream",
+        "note": "The place name Nara is preserved literally as a proper noun ('Nara's little stream'), but the secondary association with 楢 (oak, rustling leaves) is entirely absent — there is no tree imagery or rustling-leaf echo tied to the name itself, only the breeze mentioned separately in line 1."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "summer's dream",
+      "note": "The season is named explicitly ('summer') but the poem's actual rhetorical mechanism — misogi as the sole 'sign' (shirushi) proving summer against autumnal sensory evidence — is flattened into a generic closing sentiment. The paradox that the wind/evening coolness feels autumnal is not conveyed; instead 'summer's dream' reads as simple pleasant atmosphere, losing the load-bearing logical function of みそぎ as evidentiary proof."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "The twilight dim, the gentle breeze — combines kaze soyogu (wind rustling) and yuugure (evening) into one line",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "By Nara's little stream — Nara no Ogawa",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The splash of worshippers who wash — misogi ritual purification",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Before the shrine, all seem — extends the ritual scene with an invented shrine setting and begins the concluding clause",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "A perfect summer's dream — natsu no shirushi transformed into a vague summery sentiment rather than logical proof",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses ku1 and ku3 into a single opening line, expands the misogi image across two lines (3-4) with an invented 'shrine' detail not explicit in source, and dissolves the paradoxical shirushi (proof/sign) logic into a soft impressionistic closing image ('a perfect summer's dream'), collapsing the bipartite argumentative structure into a single continuous descriptive vignette."
+    },
+    "makurakotoba_handling": [],
+    "translator_strategy": "Porter prioritizes a smooth, rhymed English quatrain-plus-couplet that renders the poem's imagery as a unified pastoral vignette, sacrificing the original's logical paradox (misogi as proof against sensory impression) for lyrical cohesion and euphony.",
+    "overall_fidelity": "low",
+    "poem_number": 98,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "McCauley inverts the logical thrust of the paradox: the source says the misogi is the only proof it is STILL summer (despite the autumnal feel), but this translation's line 4 'Not a sign of summer left' asserts the opposite — that summer is gone — before line 5 corrects with 'But the sacred bathing there,' meaning the misogi is the only exception. The paradox structure survives in weakened, almost double-negative form but the logical polarity is reversed/confused compared to the original's assertion that misogi IS the proof of summer's persistence."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "なら",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "Nara's brook",
+        "note": "The place name Nara is preserved literally as 'Nara's brook,' but the secondary association with 楢 (oak tree) is made explicit and literal rather than left as a soft phonetic echo — McCauley actually renders it as 'oak-trees' in line 3, so the pun is defused into a literal statement rather than functioning as wordplay."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "relocated",
+      "en_equivalent": "sacred bathing",
+      "note": "The seasonal load-bearing word みそぎ is rendered as 'sacred bathing,' which correctly identifies the ritual act as the sign of summer's persistence, but the surrounding line 'Not a sign of summer left' actually negates the season before the ritual reasserts it, shifting where and how the seasonal claim lands compared to the source's single unbroken assertion that misogi is summer's proof."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Introduces the setting: Nara's brook",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "Evening arrives, rustling winds (combines ku1's wind imagery and ku3's evening setting)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The oak-trees' leaves stir, making explicit the なら/楢 pun as literal oak trees",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Assertion that no sign of summer remains, inverting the source's claim",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Except for the sacred bathing (misogi), which is the true sign of summer",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley reorders and compresses ku1-3 into three lines with the wind/evening content interwoven rather than sequential, and splits the shimo-no-ku's single logical claim across two lines with an inverted then corrected polarity."
+    },
+    "translator_strategy": "McCauley prioritizes a rhymed, metrically regular English quatrain-like structure over precise preservation of the kakekotoba's ambiguity and the paradox's exact logical polarity, favoring clarity and antique poetic diction ('Lo!', 'sacred bathing') at the expense of subtlety.",
+    "overall_fidelity": "medium",
+    "poem_number": 98,
+    "translator": "McCauley"
+  }
+}

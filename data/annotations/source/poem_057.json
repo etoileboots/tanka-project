@@ -1,0 +1,49 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "雲がくれ",
+      "ku": 4,
+      "reading_primary": "くもがくれ",
+      "reading_secondary": "くもがくれ",
+      "interaction": "Literally 'hidden behind clouds' describing the moon's disappearance, while functioning simultaneously as a metaphor for the friend's sudden departure/disappearance from the speaker's life — the celestial image and the human parting are fused in a single word, not two separate homophones but a single phrase operating on both the literal (moon obscured by cloud) and figurative (friend vanished) planes at once."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A chance reunion with an old friend, so brief that the speaker could barely be sure it was really her before she was gone",
+    "shimo_theme": "The moon glimpsed at midnight, instantly hidden behind clouds",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The kami-no-ku narrates a human encounter — meeting, looking, and failing to be certain of identity before the person vanishes — while the shimo-no-ku presents the image of the midnight moon swallowed by clouds. The two are held together as a single continuous statement: the entire poem describes one event (the fleeting sight of the moon) that stands in for and mirrors the human reunion, so that the moon is not merely compared to the friend but IS the vehicle through which the whole meeting is narrated, collapsing simile into identity."
+  },
+  "kigo": {
+    "word": "月かげ",
+    "season": "autumn",
+    "note": "The moon (tsuki) is the quintessential autumn kigo in classical waka, prized above all other seasons for its clarity and the melancholy it evokes; here 'yowa no tsuki kage' — the midnight moonlight — carries the full weight of autumnal aware, its sudden obscuring by cloud deepening the poem's elegiac tone of transience and lost connection."
+  },
+  "furigana": [
+    {
+      "kanji": "雲",
+      "reading": "くも"
+    },
+    {
+      "kanji": "夜半",
+      "reading": "よは"
+    },
+    {
+      "kanji": "月",
+      "reading": "つき"
+    }
+  ],
+  "poem_number": 57,
+  "poet": "Murasaki Shikibu",
+  "source_jp": "めぐりあひて\n見しやそれとも\nわかぬ間に\n雲がくれにし\n夜半の月かげ"
+}

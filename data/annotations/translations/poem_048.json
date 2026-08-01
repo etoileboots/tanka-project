@@ -1,0 +1,341 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "explicit_simile",
+      "note": "The translator splits the wave/rock image into two separate appearances (L1-2 and L5-6), bracketing the shimo content (L3-4) rather than presenting the kami scene as a continuous image that then pivots into the speaker's state. This turns the original's single unstated pivot-verb simile into an explicit frame simile ('As spurns the rock / The waves, dost thou my passion mock') — the connection between wave and speaker is now made via direct address and explicit comparison ('as...dost thou'), which is a displaced relationship type: no longer an implicit one-word pivot but an overt rhetorical comparison structured almost as a refrain bookending the love-complaint."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "くだけて",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "scattered spary",
+        "note": "The physical shattering is rendered as 'scattered spary' (spray) in L2, describing the wave alone, while the emotional shattering is relocated entirely to 'anguished heart-depths wrung' in L3 and 'passion mock' in L6 — the pivot word's dual simultaneity is lost; the translator externalizes the two meanings into two separate images/lines rather than fusing them in one word, so neither the physical nor emotional sense is carried by a single shared term."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "wind urged floods",
+      "note": "As the source analysis notes, this poem carries no true seasonal kigo; the translation's wind/wave imagery ('wind urged floods in scattered spary') matches the source's non-seasonal natural vehicle and introduces no seasonal marker of its own, consistent with the original's lack of seasonal coding."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The pitiless rock flings back the wind-driven waves — sets up the wind/rock/wave scene",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The floods (waves), urged by wind, scatter into spray — covers the physical shattering image and 'おのれのみ' isolation implicitly",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Anguished heart-depths wrung — recasts the emotional shattering (くだけて/物をおもふ) as prayer-filled inner suffering",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The speaker seeks to make the beloved obey/love him — expands beyond the source's passive brooding into an active plea, partly extrapolated",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Restates 'As spurns the rock' — repeats the rock-image as an explicit simile marker",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            3,
+            4,
+            5
+          ],
+          "content_summary": "The waves mock the speaker's passion — final explicit comparison fusing wave-image with the speaker's unrequited suffering",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator restructures the single-pass kami-then-shimo progression into a frame: the wave/rock image opens (L1-2), the emotional content sits in the middle (L3-4), and the comparison is made explicit and repeated at the close (L5-6), producing an ABA-like structure not present in the source's linear jokotoba-to-pivot movement; L4 also introduces content ('obey') with no clear source equivalent, an apparent embellishment to fit rhyme/meter."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrical English verse form over preserving the pivot-word's simultaneity, splitting the wave/rock image into a frame around an expanded, more actively pleading rendering of the speaker's emotional suffering.",
+    "overall_fidelity": "low",
+    "poem_number": 48,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "Noguchi merges the wave-and-rock image directly onto the speaker via first-person identification ('A crushed wave I am'), dissolving the implicit simile structure into an explicit metaphor stated outright rather than a two-part mirrored construction; the jokotoba's associative, non-stated quality is lost as the speaker declares the identity directly instead of letting the pivot verb silently bridge the two scenes."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "くだけて",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "crushed wave",
+        "note": "By turning the wave into a direct metaphor for the speaker ('A crushed wave I am') rather than preserving the wave's independent physical action pivoting into the speaker's mental shattering, Noguchi collapses the dual-register pun into a single explicit metaphor — the physical breaking survives via 'crushed' but the wordplay mechanism itself (one verb doing double duty) is gone, replaced by outright identification, hence 'transformed' rather than a clean primary/secondary split."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "storm",
+      "note": "No seasonal imagery survives; 'storm' evokes weather intensity but not any specific season, consistent with the source analysis noting this poem carries no seasonal marker — the translation appropriately reflects that absence rather than introducing one."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Speaker identifies himself as a crushed/shattered wave",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The wave dashing against the rock amid a storm (wind battering)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Exclamation about 'these days' (物をおもふ頃かな)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Declaration of lonely, obsessive brooding thought",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Noguchi radically compresses and reorders the five ku into four short declarative lines, front-loading the shimo's emotional core (the shattered self) into line 1 before the kami's wave-and-rock scene in line 2, effectively inverting the source's kami-then-shimo sequence while compressing 風をいたみ and おのれのみ into implied rather than stated content."
+    },
+    "translator_strategy": "Noguchi opts for a compact, emotionally direct free-verse rendering that collapses the poem's implicit wave/heart simile into an explicit first-person metaphor, sacrificing the original's syntactic pivot and bipartite suspense for immediate lyrical impact.",
+    "overall_fidelity": "medium",
+    "poem_number": 48,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "Porter maintains the wave/heart parallel but makes it an explicit simile by inserting 'my loving heart' directly juxtaposed with the wave imagery and using 'too' to link the shattering explicitly, converting the implicit pivot-based simile into an overtly stated one. This slightly weakens the seamless single-verb fusion of the original but keeps the same two-part logical structure: natural image followed by declared emotional parallel."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "くだけて",
+        "reading_preserved": "both",
+        "method": "literal_primary",
+        "en_equivalent": "broken too",
+        "note": "Porter splits the pivot into two separate uses of 'broken' — once for the wave (L2) and once for the heart (L4, 'is broken too') — which preserves both the physical and emotional senses but does so by duplication rather than a single word carrying both meanings simultaneously, so the simultaneity/pun quality of the original kakekotoba is lost even though both meanings appear in the poem."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal marker exists in the source poem for this love poem, and Porter's translation likewise contains no seasonal imagery or atmosphere — the wind, rock, and wave are treated purely as vehicle for the emotional simile, consistent with the non-seasonal, love-poem nature of the original.",
+      "en_equivalent": ""
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The waves dashing against the rocks (岩うつ波)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Broken by the wind (風をいたみ) — cause of the wave's breaking",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Turned to spray, transitioning to 'my loving heart' introducing the shimo's emotional content",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Is broken too — the heart's shattering, explicit parallel to the wave",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Since thou art so unkind — explanation of the brooding/obsessive thought over unanswered love, though rendered as direct address rather than internal reflection",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reorders slightly: the cause (風をいたみ) is moved to line 2 after the wave image is introduced in line 1, and the shimo's 'おもふ頃かな' (the season/time of brooding) is transformed into a direct second-person address ('thou art so unkind') that introduces content (direct blame of the beloved) not explicitly present in the source, which instead emphasizes the speaker's own internal one-sided suffering ('おのれのみ')."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, singable English lyric form (ballad-like meter and rhyme scheme) over precise structural and rhetorical fidelity, explicating the implicit wave/heart simile into a stated comparison and adding a direct address to the beloved not present in the original.",
+    "overall_fidelity": "medium",
+    "poem_number": 48,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "The translator makes the simile explicit with 'Like a driven wave' and 'So it is, alas!' turning the source's implicit pivot-based simile into an overt English simile construction (Like X, So Y), which preserves the overall logic of kami mirroring shimo but shifts the mechanism from an implicit pun to an explicit stated comparison, making the connective tissue more visible than in the original."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "くだけて",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "Crushed",
+        "note": "The translator renders くだけて as 'Crushed' applied directly to the speaker ('Crushed and all alone am I'), which captures the emotional/mental shattering (secondary reading) applied to the self, but because the wave's physical shattering was already stated separately in L1-L2 ('Dashed by fierce winds on a rock') as an explicit simile rather than the same verb doing double duty, the single pivot word's simultaneous double-action is split into two separate images connected by 'So it is' rather than fused in one word — the emotional reading survives strongly in 'Crushed' but the wave's own breaking is described with a different verb ('Dashed'), so the punning unity of a single word carrying both senses at once is lost."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "driven wave",
+      "note": "No seasonal marker or atmosphere is present or needed here, consistent with the source analysis noting this poem carries no kigo; the imagery of wind, wave, and rock remains purely emotional/natural vehicle without seasonal coding in the translation as well."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The wave itself, introduced as the vehicle of the simile ('Like a driven wave')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The wind battering the rock, causing the wave's motion ('Dashed by fierce winds on a rock')",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Transitional exclamation marking the shift from natural image to personal application, loosely corresponding to おのれのみ ('So it is, alas!')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The speaker's own shattering and solitude ('Crushed and all alone am I')",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The obsessive brooding over the beloved/love ('Thinking over what has been')",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator restructures the poem into an explicit English simile form (Like X ... So it is ... Y), compressing and reordering ku 1-2 into lines 1-2 and expanding ku 3's おのれのみ into a standalone exclamatory line 3, which slightly shifts the emphasis from the wave's aloneness to a general lamenting transition before the speaker's own suffering is introduced in lines 4-5."
+    },
+    "translator_strategy": "McCauley converts the poem's implicit, single-word pivot-based simile into an explicit English simile ('Like...So it is') that clarifies the comparison for the reader at the cost of the pun's compressed simultaneity.",
+    "overall_fidelity": "medium",
+    "poem_number": 48,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "松",
+      "ku": 3,
+      "reading_primary": "まつ",
+      "reading_secondary": "待つ",
+      "interaction": "高砂の松 names the famous pine of Takasago (an ancient, long-lived symbol), while 松 simultaneously activates the homophone 待つ 'to wait' — evoking the idea that even something that has waited/endured through ages is not truly an old friend, linking the tree's permanence to the human sense of waiting through time for companionship that no longer exists."
+    }
+  ],
+  "jokotoba": {
+    "text": "高砂の松も",
+    "ku_span": [
+      3,
+      4
+    ],
+    "pivot": "松",
+    "function": "Introduces the image of the ancient, enduring pine of Takasago as a foil for the speaker's isolation — though shorter than a canonical jokotoba, it functions to set up the comparison developed in the shimo-no-ku, establishing the pine as a long-lived thing that nonetheless cannot be an old friend."
+  },
+  "honkadori": {
+    "source_poem": "たれをかも知る人にせむ高砂の松も昔の友ならなくに (attributed tradition links this to a similar sentiment found in earlier Man'yōshū-style laments on aging and lost friendship)",
+    "source_poet": "Traditional/unattributed",
+    "echoed_phrase": "松も昔の友ならなくに",
+    "function": "The poem draws on a long-standing waka convention (seen in earlier poems on old age and the pine of Takasago) that treats the ancient pine as a symbol of enduring life against which human transience and loneliness are measured."
+  },
+  "kigo": {
+    "word": "松",
+    "season": "none",
+    "note": "The pine (matsu) is evergreen and does not carry a specific seasonal marker in the way that blossoms, autumn leaves, or snow would; it is associated instead with longevity, constancy, and old age rather than any single season. Takasago's pine is a famous utamakura (poetic place-name) tied to eternal or timeless imagery rather than seasonal change, so despite exhaustive search of the poem's nouns (誰, 人, 松, 昔, 友) no other seasonal image is present, and the pine itself functions as a symbol of timelessness rather than a seasonal kigo."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2
+    ],
+    "shimo_ku": [
+      3,
+      4,
+      5
+    ],
+    "kami_theme": "The speaker asks rhetorically whom he can now regard as someone who truly knows him — expressing loneliness and the loss of companions.",
+    "shimo_theme": "Turning to the ancient, enduring pine of Takasago, famed for its long life, the speaker realizes that even this timeless tree cannot be counted as an old friend from his own past.",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The rhetorical question of the kami-no-ku (who can I call a true friend now?) is answered obliquely in the shimo-no-ku by turning to the most enduring, long-lived thing imaginable — the ancient pine of Takasago — only to deny even it companionship, deepening rather than resolving the speaker's isolation. The contrast between the pine's vast age/endurance and its inability to have been a personal 'friend of old' creates the poem's emotional core: even permanence cannot substitute for shared human history."
+  },
+  "furigana": [
+    {
+      "kanji": "誰",
+      "reading": "たれ"
+    },
+    {
+      "kanji": "知る人",
+      "reading": "しるひと"
+    },
+    {
+      "kanji": "高砂",
+      "reading": "たかさご"
+    },
+    {
+      "kanji": "松",
+      "reading": "まつ"
+    },
+    {
+      "kanji": "昔",
+      "reading": "むかし"
+    },
+    {
+      "kanji": "友",
+      "reading": "とも"
+    }
+  ],
+  "poem_number": 34,
+  "poet": "Fujiwara no Okikaze.",
+  "source_jp": "誰をかも\n知る人にせむ\n高砂の\n松もむかしの\n友ならなくに"
+}

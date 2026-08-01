@@ -1,0 +1,363 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "The translation shifts from paradox (prayer vs outcome irony) to a straightforward simile/comparison structure: the wind's fury is compared directly to the lover's rudeness, followed by a vow to stop praying — this reads more as cause-and-effect resignation than the original's ironic gap between prayer and result.",
+      "note": "The original's paradox hinges on the speaker never having prayed for harshness, exposing an ironic gap between the sacred site's promise of mercy and the harsh result. Dickens's version turns the wind into a simile for the beloved's cruelty ('As...so rudely thou') and ends with a vow to stop praying, which flattens the irony into a more linear complaint-and-resolution narrative. The logical hinge of 'I never prayed for this' is replaced by 'I will no longer pray', losing the sharper paradox of misdirected/betrayed prayer."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "はつせ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Hasse's steep",
+        "note": "The place name Hatsuse is rendered as 'Hasse' (a phonetic anglicization) with 'steep' added to evoke the mountain; the secondary associative resonance with 果つ (ending/extremity) is not carried over — the wind is simply geographically located at Hasse, with no wordplay on finality or exhaustion of feeling."
+      },
+      {
+        "original_word": "うかりける",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "rudely",
+        "note": "The cold-heartedness of the beloved (憂かりける) is rendered through 'rudely thou my suit dost slight' and 'scorn' — capturing the primary meaning of cruelty/coldness, but the secondary associative resonance with 浮き (fickleness, instability) is absent; no floating/inconstancy imagery appears."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "windy blasts",
+      "note": "The literal season word is never named, but the imagery of violent wind ('windy blasts', 'furious path impetuous sweep') carries the harsh, cutting atmospheric quality conventionally associated with the winter/late-autumn mountain wind (山おろし); the coldness is transferred entirely onto the emotional register of the beloved's cruelty rather than being marked as a seasonal phenomenon in its own right."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Introduces the windy blasts descending from Hasse's steep slope, rendering はつせの山おろしよ",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Elaborates the fury and impetuous sweep of the mountain wind, expanding on 山おろし",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The simile turns to the beloved's rude rejection of the speaker's suit, corresponding to うかりける人を",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Further describes the beloved's scorn for the lover's hapless plight, an expansion of うかりける人を with added pathos not explicit in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The speaker declares he will no longer approach Hasse's shrine, corresponding to はげしかれとは (the negated prayer) relocated to a vow of future abstention",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Completes the vow: no more suing prayer, corresponding to 祈らぬものを",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator restructures the poem as an explicit simile ('As...so') spanning lines 1-4, converting the jokotoba's build-up into a direct comparison between wind and lover, then resolves the poem as a vow to cease praying (lines 5-6), which compresses and re-sequences the original's jokotoba-pivot-shimo structure into a more linear rhetorical shape; the original's syntactic negation ('I never prayed for this harshness') is transformed into a future-tense resignation ('I will no longer pray'), altering the tense and logical thrust of the shimo-no-ku."
+    },
+    "translator_strategy": "Dickens prioritizes producing a fluent, metrically regular English simile-poem with rhyming couplets, sacrificing the original's wordplay, ironic paradox, and precise tense/logic of the shimo-no-ku in favor of a smoothly readable Victorian-style lament.",
+    "overall_fidelity": "medium",
+    "poem_number": 74,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        2,
+        3
+      ],
+      "shimo_lines": [
+        1,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation restructures the poem into a rhetorical question ('did I pray... to be furious?') followed by an emphatic denial ('Nay, I did not!'), which frames the whole poem as a single interrogative-denial unit rather than kami invoking the wind and shimo protesting separately. The paradox is preserved in substance (the speaker denies having prayed for harshness) but the original sequence — address to the wind, then denial — is reordered into question (covering kami content) wrapped by the denial (shimo content) at both the start and end, effectively inverting/framing the kami material inside the shimo's protest."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "はつせ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Hatsuse mountain",
+        "note": "The place name Hatsuse is retained literally as a location name ('The Hatsuse mountain blast'), but the secondary associative resonance with 果つ (reaching an end/extremity) is not conveyed or hinted at in English."
+      },
+      {
+        "original_word": "うかりける",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "heartlessness",
+        "note": "The translator renders the primary meaning (the person's coldness/cruelty) as 'his heartlessness,' but the secondary association with 浮き (fickleness/floating) is not present in the English word choice."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "mountain blast",
+      "note": "The word 'blast' conveys a harsh, forceful wind consistent with the cutting, cold yama-oroshi imagery, implicitly evoking the winter/late-autumn atmosphere without naming any season explicitly."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Rhetorical question opening: 'Oh, did I pray' — begins the shimo-no-ku's protest as a question rather than a statement, pulling shimo content to the front.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'The Hatsuse mountain blast' — names the mountain wind, corresponding to kami ku 2-3 (はつせの山おろしよ).",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            4
+          ],
+          "content_summary": "'Nay, his heartlessness, to be furious?' — merges the cold-hearted person (ku1, うかりける人を) with the plea for harshness (ku4, はげしかれとは), continuing the rhetorical question begun in L1.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Nay, I did not!' — the emphatic denial corresponding to 祈らぬものを (ku5).",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator restructures the poem as a single rhetorical question spanning L1-L3 (interweaving kami and shimo content out of original ku order) followed by an emphatic answer in L4, rather than preserving the original's sequential kami-address-then-shimo-protest structure."
+    },
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and rhetorical clarity in English by converting the poem into a question-and-emphatic-denial structure, sacrificing the original's sequential ku ordering and its subtler wordplay for a punchy, declarative equivalent of the speaker's anguished protest.",
+    "overall_fidelity": "medium",
+    "poem_number": 74,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translator keeps the invocation of Kwannon/the hill wind and the comparison of the maid's harshness to the gusts (kami content), then closes with a rhetorical question 'What of those prayers of mine?' which gestures at the shimo-no-ku's protest, but compresses the irony into a single line rather than fully unfolding the paradox that the speaker never prayed for such harshness; the logical turn survives but is much thinner than the source's explicit denial ('はげしかれとは祈らぬものを')."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "はつせ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "this hill",
+        "note": "Porter renders Hatsuse simply as 'this hill' (site of the Kwannon shrine), preserving the place-name/location sense but losing entirely the associative echo of 果つ (extremity/ending) that intensifies the emotional despair."
+      },
+      {
+        "original_word": "うかりける",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "obstinate and wayward",
+        "note": "The cold-hearted/cruel quality of the beloved (憂し) is rendered as 'obstinate and wayward', capturing the primary reading of unkindness/inconstancy, but the associative 浮き (floating, fickle) undertone is not distinctly marked as a separate pivot -- it is folded into 'wayward' without signaling wordplay."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "gusts",
+      "note": "The word 'gusts' evokes the harsh mountain wind (山おろし) and its cutting force, implicitly carrying a wintry or late-autumn chill, but no season is named explicitly and the wind is more decoratively likened to the maid's temperament than given real seasonal atmosphere."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Direct address to Kwannon as patron deity of the Hatsuse hill, invoking the sacred site named in ku2-3",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The maid for whom the speaker pines -- referring to the 'うかりける人' (cold-hearted person) of ku1",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Describing her as obstinate and wayward, rendering 憂かりける's harshness",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Comparison of her harshness to the gusts around the shrine, i.e. the 山おろし wind of ku3",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "A rhetorical question standing in for the protest that the speaker never prayed for such harshness (はげしかれとは祈らぬものを)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reorders: he moves the invocation of Kwannon/the hill to the opening line (ahead of naming the cold-hearted maid), creates an explicit simile ('like the gusts') not present as simile in the source (source uses direct address/apostrophe to the wind, not comparison), and condenses the shimo-no-ku's explicit denial into a brief rhetorical question rather than the fuller statement of protest."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhyKarl English quatrain-plus-tag form with rhyme and simile, sacrificing the wordplay and the explicit prayer-versus-outcome paradox for compact, singable clarity.",
+    "overall_fidelity": "medium",
+    "poem_number": 74,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "McCauley reverses the poem's order entirely: the translation opens with the shimo-no-ku content (the negated prayer) in L1-2, then moves to the kami-no-ku content (the cold person and the Hase mountain wind) in L3-5. The paradox logic survives (prayer vs harsh outcome) but the presentation order is inverted relative to the source's kami-then-shimo sequence."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "はつせ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Hase's hills",
+        "note": "Hatsuse is rendered as the place name 'Hase's hills,' preserving the literal geographic reading; the associative echo with 果つ (extremity/ending) is not conveyed by any wordplay in English."
+      },
+      {
+        "original_word": "うかりける",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "unkind",
+        "note": "The primary meaning 憂し (cold-hearted, cruel) is rendered as 'unkind,' but the secondary associative resonance with 浮き (fickle, floating) is not attempted or hinted at in the English wording."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "storms of Hase's hills",
+      "note": "The literal winter/late-autumn mountain wind (山おろし) is rendered as 'storms,' which conveys harsh weather imagery and cold intensity without naming a season explicitly; the seasonal word itself is not named but its atmospheric harshness is retained through the storm image."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The speaker states he did not pray for something",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Parenthetical gloss identifying Hatsuse as the shrine of Kannon (Mercy's God), an explanatory addition drawing on the honkadori/temple association",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The unkind one (the cold-hearted beloved)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Should become as pitiless — completing the negated wish",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "As the storms of Hase's hills — the mountain wind image",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley restructures the poem into an English sentence order (main clause first: 'I did not pray... that X should become Y'), which requires moving the shimo-no-ku negation to the front and the kami-no-ku imagery to the back; L2's explicit naming of 'Mercy's God' is an interpretive expansion drawing out the honkadori allusion to Hase-dera's Kannon worship that is only implicit in the Japanese."
+    },
+    "translator_strategy": "McCauley reorders the poem into standard English syntactic logic (cause/negation stated first, then the specific unwanted outcome), sacrificing the original ku sequence and its jokotoba build-up in favor of clarity, while inserting an explanatory gloss ('shrine of Mercy's God') to make the honkadori allusion to Hase-dera legible to an English reader.",
+    "overall_fidelity": "medium",
+    "poem_number": 74,
+    "translator": "McCauley"
+  }
+}

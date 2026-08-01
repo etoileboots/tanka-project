@@ -1,0 +1,300 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translator preserves the basic two-part logic: kami-no-ku establishes the blossoms on Takasago's peak, and shimo-no-ku turns to the wish that mist/fog not obscure them. However, the source's specific structure — distant peak (尾の上) vs. nearer foothills (外山) whose haze threatens the view — is flattened, since 'hill-top' in L5 is ambiguous and doesn't clearly distinguish the nearer toyama from the distant Takasago peak, weakening the precise geographic tension of the original."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Sakura trees",
+      "note": "The translator names the Sakura trees explicitly, which is a stronger-than-usual preservation for English translation, retaining the direct seasonal marker (cherry blossoms) that unambiguously signals spring; however, the word 'spring' itself is never used, so the season is conveyed through the flower image rather than named outright."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the Sakura trees growing in abundance, expanding the image with 'in plenty'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Locates the trees on Takasago's hill-side, though 'steep hill-side' is an expansion not explicit in source (which says 尾の上, peak/ridge)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "States that the crowded blossoms now show, corresponding to 咲きにけり (have bloomed)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Wish that no fogs hide their beauty, corresponding to the shimo-no-ku's anxious wish",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Reiterates the wish with 'mists from hill-top rise', corresponding to 外山の霞たたず, though 'hill-top' blurs the distinction between toyama and the distant peak",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Extends the wish with an added clause about veiling the blossoms' radiance 'from our eyes,' an expansion emphasizing the speaker's viewing desire",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five-ku poem into six rhymed lines, adding descriptive elaboration ('in plenty,' 'steep hill-side,' 'radiance,' 'from our eyes') not present in the compact original, and slightly blurs the kami/shimo geographic distinction between the distant peak and the nearer foothills by using 'hill-top' generically in the shimo section."
+    },
+    "translator_strategy": "The translator prioritizes a smooth, rhymed, sing-song English verse form over precise fidelity to the compact bipartite geography of the original, expanding imagery and adding descriptive flourishes ('in plenty,' 'radiance,' 'from our eyes') to fill out a six-line rhyming stanza.",
+    "overall_fidelity": "medium",
+    "poem_number": 73,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator keeps the two-part structure intact: lines 1-2 present the blossoms on Takasago peak as the visual object of desire, and lines 3-4 turn to the speaker's wish that the mists from the nearer hills not rise to obscure that view, preserving the visual-revelation logic of anticipation/threat."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "cherry trees",
+      "note": "The word 'cherry' is not explicitly tied to 'spring' in the translation, but the image of cherry blossoms blooming carries the seasonal association implicitly for an English reader familiar with the convention; no season name appears."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Names the location, Takasago Mountain, corresponding to 高砂の尾の上の (the peak of Takasago)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "States the cherry trees are blossoming, corresponding to 桜咲きにけり",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Introduces the mists from the nearer hills (外山の霞)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Expresses the wish that the mists not rise (たたずもあらなん)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation maps almost one-to-one onto the five ku, with line 1 covering the first ku and part of the second (the location and 'peak'), line 2 completing the second and third ku (blossoms and their blooming), and lines 3-4 covering the fourth and fifth ku (mist and the wish) respectively; no significant compression or expansion occurs beyond the natural compacting of 高砂の尾の上の into a single mountain name."
+    },
+    "translator_strategy": "Noguchi opts for a plain, literal four-line rendering that preserves the poem's syntactic and logical sequence (place → blossom → mist → wish) without attempting any wordplay or added ornamentation, prioritizing clarity and directness over rhetorical richness.",
+    "overall_fidelity": "medium",
+    "poem_number": 73,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The kami/shimo split is preserved: lines 1-2 establish the blossoms on Takasago's peak, and lines 3-5 turn to the wish that mist not rise and obscure them. However, the translator expands the shimo section with an added descriptive line ('No clouds so soft and white') not present in the source, slightly diluting the tight pivot structure by adding a decorative elaboration between the wish and its consequence."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "blossoming",
+      "note": "The word 'cherry trees' and 'blossoming' explicitly names the seasonal flower, so this is arguably explicit rather than merely implicit, but the season word 'spring' itself is never stated outright — the reader must infer spring from the cherry blossom imagery alone, which is standard for English translations of waka."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The cherry trees are blossoming",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "On Takasago's height",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Oh may no mountain mist arise",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "No clouds so soft and white (decorative expansion of mist image)",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "To hide them from our sight",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses ku1-3 into two lines and expands ku4-5 into three lines, adding a purely decorative image ('clouds so soft and white') not present in the original, likely for rhyme (white/sight) rather than semantic content."
+    },
+    "translator_strategy": "Porter prioritizes musical rhyme and metrical smoothness in English verse form, achieving this partly by inserting a decorative clause not present in the source while still preserving the poem's essential visual-revelation logic of blossoms glimpsed and threatened by mist.",
+    "overall_fidelity": "medium",
+    "poem_number": 73,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation maintains the visual-revelation structure: lines 1-3 establish the distant blooming cherries as the object of desire, while lines 4-5 turn to the anxious wish that the nearer hills' mist not rise to obscure that view. The pivot from perception to anxious hope is preserved intact."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "Cherries are in flower",
+      "note": "The cherry blossoms are named directly, preserving both the literal seasonal marker and its atmosphere of fragile spring beauty; the mist imagery in lines 4-5 reinforces the spring association further."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Identifies the distant mountain (Takasago)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Specifies the slope below the peak where the blossoms are",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "States that the cherries have bloomed",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The mists of the nearer (hither) hills",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Wish that the mist not rise so as to veil the view",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Nearly one-to-one mapping between the five English lines and the five ku, preserving both the sequence and the internal division between kami (1-3) and shimo (4-5) with no compression or inversion."
+    },
+    "translator_strategy": "McCauley pursues a close literal correspondence, rendering each ku into its own line while adding light archaic diction ('O'er', 'hither') to preserve the classical register without embellishing content beyond the source.",
+    "overall_fidelity": "high",
+    "poem_number": 73,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "poem_number": 94,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T12:04:19.933523+00:00"
+    },
+    "devices": {
+      "ふるさと": {
+        "status": "confirmed",
+        "original": {
+          "word": "ふるさと",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:04:11.604563+00:00"
+      },
+      "秋風": {
+        "status": "confirmed",
+        "original": {
+          "word": "秋風",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:04:12.284299+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "Autumn wind": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Autumn wind",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:04:29.851735+00:00"
+        },
+        "mountain home": {
+          "status": "confirmed",
+          "original": {
+            "word": "mountain home",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:04:38.752201+00:00"
+        }
+      },
+      "device_links": {
+        "Autumn wind": {
+          "status": "corrected",
+          "original": {
+            "word": "Autumn wind"
+          },
+          "corrected": {
+            "source_word": "秋風"
+          },
+          "reviewed_at": "2026-07-31T12:04:32.418955+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:04:39.633774+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:04:40.068166+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:04:40.501007+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:04:41.184664+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "autumn-gusts": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn-gusts",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:04:48.517128+00:00"
+        },
+        "lonely village": {
+          "status": "removed",
+          "original": {
+            "word": "lonely village",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:04.452697+00:00"
+        },
+        "village home": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "village home",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:05:13.753279+00:00"
+        }
+      },
+      "device_links": {
+        "village home": {
+          "status": "corrected",
+          "original": {
+            "word": "village home"
+          },
+          "corrected": {
+            "source_word": "ふるさと"
+          },
+          "reviewed_at": "2026-07-31T12:05:15.884045+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:19.201139+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:19.583217+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:20.017768+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:20.451282+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:21.085011+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:22.534640+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:27.135921+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:27.749603+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:57.876596+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:58.417476+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:05:59.600179+00:00"
+        }
+      },
+      "devices": {
+        "autumn winds": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn winds",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:05:47.699541+00:00"
+        }
+      },
+      "device_links": {
+        "autumn winds": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn winds"
+          },
+          "corrected": {
+            "source_word": "秋風"
+          },
+          "reviewed_at": "2026-07-31T12:05:51.585828+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:06:26.085908+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:06:26.801090+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:06:40.916798+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:06:41.317199+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:06:41.616376+00:00"
+        }
+      },
+      "devices": {
+        "autumnal wind": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumnal wind",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:06:33.216033+00:00"
+        },
+        "ancient hamlet": {
+          "status": "confirmed",
+          "original": {
+            "word": "ancient hamlet",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:06:39.283692+00:00"
+        }
+      },
+      "device_links": {
+        "autumnal wind": {
+          "status": "corrected",
+          "original": {
+            "word": "autumnal wind"
+          },
+          "corrected": {
+            "source_word": "秋風"
+          },
+          "reviewed_at": "2026-07-31T12:06:35.919241+00:00"
+        }
+      }
+    }
+  }
+}

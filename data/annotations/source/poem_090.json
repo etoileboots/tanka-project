@@ -1,0 +1,51 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "ぬれにぞぬれし",
+      "ku": 4,
+      "reading_primary": "濡れにぞ濡れし (to become soaked/wet)",
+      "reading_secondary": "emotional weeping/being overcome with tears",
+      "interaction": "The fisherman's sleeves are literally soaked with seawater, while the doubled verb ぬれ...ぬれ simultaneously evokes tears of grief soaking the speaker's own sleeves — the physical wetness of the ama's sleeve mirrors and stands in for the speaker's own tear-drenched sleeve, a conventional metaphor for weeping in love/grief poetry",
+      "confidence": "high"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker wishes she could show someone the sleeves of the fisherfolk (ama) of Ojima — sleeves that are constantly drenched by the sea",
+    "shimo_theme": "Even those famously sodden sleeves, though thoroughly soaked, do not change color — unlike the speaker's own sleeves, whose color (from tears of blood/grief, or from fading dye) has changed, revealing the depth of her sorrow",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The poem sets up an implicit comparison: the ama's sleeves are wet through and through, yet retain their color, whereas the speaker's own sleeves, by unstated contrast, have both been soaked with tears AND changed color — the shimo's insistence that 'color does not change' paradoxically foregrounds that the speaker's own color HAS changed, making the visible permanence of the fisherman's sleeve the measure of her own sleeve's telltale discoloration from grief"
+  },
+  "kigo": {
+    "word": "雄島のあま",
+    "season": "none",
+    "note": "Ojima (a famous utamakura, an islet in Matsushima known for ascetic fisherfolk/ama dwelling there) and the ama themselves are not tied to a specific season; the image functions as conventional famous-place (utamakura) and love-poem imagery of tear-soaked sleeves rather than seasonal reference",
+    "confidence": "medium"
+  },
+  "furigana": [
+    {
+      "kanji": "雄島",
+      "reading": "おじま"
+    },
+    {
+      "kanji": "袖",
+      "reading": "そで"
+    },
+    {
+      "kanji": "色",
+      "reading": "いろ"
+    }
+  ],
+  "poem_number": 90,
+  "poet": "Inpuku Monin no Osuke",
+  "source_jp": "見せばやな\n雄島のあまの\n袖だにも\nぬれにぞぬれし\n色はかはらず"
+}

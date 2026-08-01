@@ -1,0 +1,385 @@
+{
+  "poem_number": 68,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-30T11:34:25.497880+00:00"
+    },
+    "devices": {
+      "ながらへば": {
+        "status": "removed",
+        "original": {
+          "word": "ながらへば",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:33:43.477990+00:00"
+      },
+      "夜半": {
+        "status": "removed",
+        "original": {
+          "word": "夜半",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:33:44.079783+00:00"
+      },
+      "浮世": {
+        "status": "removed",
+        "original": {
+          "word": "浮世",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:33:44.829254+00:00"
+      },
+      "夜半の月": {
+        "status": "confirmed",
+        "original": {
+          "word": "夜半の月",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:33:52.348265+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "midnight moonbeams": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "midnight moonbeams",
+            "color": "#B4DE65",
+            "note": "Moon related to autumnal scenery."
+          },
+          "reviewed_at": "2026-07-30T11:35:30.847411+00:00"
+        },
+        "still must stay": {
+          "status": "removed",
+          "original": {
+            "word": "still must stay",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:33:58.746992+00:00"
+        },
+        "this world so hard": {
+          "status": "removed",
+          "original": {
+            "word": "this world so hard",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:33:59.197039+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:35:32.147451+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:35:32.479605+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:35:32.848559+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:35:33.396637+00:00"
+        }
+      },
+      "device_links": {
+        "midnight moonbeams": {
+          "status": "corrected",
+          "original": {
+            "word": "midnight moonbeams"
+          },
+          "corrected": {
+            "source_word": "夜半の月"
+          },
+          "reviewed_at": "2026-08-01T02:05:43.768088+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "lingering": {
+          "status": "removed",
+          "original": {
+            "word": "lingering",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:00.346951+00:00"
+        },
+        "midnight moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "midnight moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T11:34:53.777708+00:00"
+        },
+        "this world": {
+          "status": "removed",
+          "original": {
+            "word": "this world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:01.745217+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:35.444247+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:36.029196+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:38.480234+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:38.864053+00:00"
+        }
+      },
+      "device_links": {
+        "midnight moon": {
+          "status": "corrected",
+          "original": {
+            "word": "midnight moon"
+          },
+          "corrected": {
+            "source_word": "夜半の月"
+          },
+          "reviewed_at": "2026-08-01T02:05:41.520188+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "for long should live": {
+          "status": "removed",
+          "original": {
+            "word": "for long should live",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:03.796764+00:00"
+        },
+        "middle-night": {
+          "status": "removed",
+          "original": {
+            "word": "middle-night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:04.264220+00:00"
+        },
+        "moon of middle-night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon of middle-night",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T11:36:32.378536+00:00"
+        },
+        "world of sorrows": {
+          "status": "removed",
+          "original": {
+            "word": "world of sorrows",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:05.847467+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:36:34.512887+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:36:35.264596+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:36:35.830253+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:36:36.484335+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:36:37.264952+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "linger on": {
+          "status": "removed",
+          "original": {
+            "word": "linger on",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:07.931501+00:00"
+        },
+        "the moon": {
+          "status": "removed",
+          "original": {
+            "word": "the moon",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:08.947351+00:00"
+        },
+        "troubled world": {
+          "status": "removed",
+          "original": {
+            "word": "troubled world",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:34:09.562135+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T11:36:07.883914+00:00"
+        }
+      },
+      "lines": {
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:35:52.547108+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:35:52.934680+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:35:53.310264+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:35:53.780880+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:35:55.830109+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "夜半の月"
+          },
+          "reviewed_at": "2026-08-01T02:05:36.119091+00:00"
+        }
+      }
+    }
+  }
+}

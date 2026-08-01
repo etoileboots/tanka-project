@@ -1,0 +1,329 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "simile (explicit comparison) rather than sonic jokotoba-pivot",
+      "note": "Dickens converts the jokotoba's sound-bridge into an explicit simile ('Like humble Asajiu... hid / I would my passion were concealed'), stating the comparison outright rather than letting しの phonetically generate 忍ぶ. The flower/reveal image in L4-6 replaces the 'overflow' (amarite) logic of the source with a new metaphor of a flower revealing what foliage conceals, so the relationship type is displaced from an autumnal sound-pivot into a literal nature-simile with an invented botanical conceit (the plant's flower betraying it) not present in the source."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "忍ぶ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "concealed",
+        "note": "The translator renders shinoburedo as 'I would my passion were concealed', capturing the primary meaning of enduring/hiding feeling, but the phonetic link to shino (篠, bamboo-grass) that motivates the pivot is lost entirely — there is no wordplay reproduced, only the semantic content of the verb carried over into a simile structure."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Asajiu",
+      "note": "The translator retains the word 'Asajiu' as a proper-noun-like label (even capitalized, treated almost as a plant name/place), but transliterates rather than evokes any autumnal desolation; no imagery of withering, sparseness, or fading is conveyed — the grass is treated as a device for a flower-revealing conceit, stripping away the seasonal atmosphere of thinning autumn grasses entirely."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces 'Asajiu' (asajiu) as a simile subject, transliterating the sparse-grass image",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The reeds of Ono's moor concealing/hiding the asajiu, corresponding to shinohara imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "States the wish that passion were concealed, translating shinoburedo's primary meaning",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Invented conceit: 'by its flower the Asajiu' is revealed despite being hidden — no direct source equivalent, expands the jokotoba image into a new botanical metaphor",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Ardent love overflowing/revealing itself, corresponding to amarite nadoka",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Secret passion stands revealed, corresponding to hito no koishiki (longing for the person becoming unbearable/exposed)",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens converts the jokotoba's covert sonic pivot into an explicit, rhymed nature-simile with an invented flower-revealing conceit, prioritizing a tidy English rhyme scheme and narrative clarity over reproducing the original's wordplay or seasonal atmosphere.",
+    "overall_fidelity": "low",
+    "poem_number": 39,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        2,
+        3
+      ],
+      "shimo_lines": [
+        1,
+        4
+      ],
+      "note": "The translator inverts the logical order: line 1 opens with the shimo-derived idea ('too much to keep secret') before presenting the kami-no-ku landscape image (grass-grown moor/bamboo bush) as a wistful parenthetical wish in lines 2-3, then closes with the shimo's rhetorical question in line 4. This reverses the original sequence (landscape-preface then confession) and turns the jokotoba's sound-pivot function into an explicit wish/comparison ('I would my heart were... like that of...'), making the relationship a simile rather than a phonetic pivot — a displaced/inverted structure."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "忍ぶ",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "keep secret",
+        "note": "The translator conveys only the primary meaning of enduring/concealing feeling ('too much to keep secret') but loses the sound-bridge to 篠原 entirely; the phonetic pivot しの is not reproduced or hinted at in English, and the jokotoba landscape becomes an explicit simile ('like that of grass-grown One's bamboo bush') rather than a hidden echo, so the pivot mechanism itself is dissolved into a comparison."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "grass-grown",
+      "note": "The image of a grass-grown moor with bamboo bush survives as a visual fragment, preserving some of the desolate landscape imagery associated with autumn, but the word 'grass-grown' alone does not clearly evoke autumnal withering or sparseness the way 浅茅生 does; the seasonal atmosphere is present only faintly, more as a place-name curiosity than an autumn feeling."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Statement that concealing feeling has become too much/impossible, corresponding to shimoburedo/amarite overflow idea, but phrased as opening line",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Wish that the heart could remain unrevealed, echoing shinoburedo's concealment theme",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Reference to the grass-grown moor and bamboo-grass (asajiu no ono no shinohara) as an explicit simile object",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Rhetorical question of why love for her has become so strong, matching 'hito no koishiki'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses and reorders the five ku into four lines, moving the emotional confession to the front and the landscape jokotoba to the middle as a simile, then closing with the rhetorical question; this expands the poem's implicit sound-pivot into an explicit stated comparison ('like that of...'), which is a significant structural reordering compared to the source's sequential jokotoba-then-statement logic."
+    },
+    "makurakotoba_handling": [],
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and readability by foregrounding the confession and rhetorical question while converting the untranslatable sound-pivot jokotoba into an explicit simile, sacrificing the phonetic wordplay and seasonal density of the original for clarity in English verse.",
+    "overall_fidelity": "medium",
+    "poem_number": 39,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "explicit simile ('easier...than')",
+      "note": "Porter converts the sonic jokotoba-pivot into an explicit comparison ('Tis easier to hide the reeds...than try to hide the ardent love'), replacing the sound-bridge structure with a stated simile. The autumnal moor image is retained only as a comparandum for concealment, not as a phonetically generative preface; the overflowing/unbearable quality of shimo (あまりてなどか) is also softened into a simple assertion that hiding love is harder than hiding reeds, losing the rhetorical question and the 'overflowing' image entirely."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "忍ぶ",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "hide",
+        "note": "Porter renders 忍ぶ simply as 'hide,' capturing the primary sense of concealment but losing the sonic pivot from 篠原's しの- into しのぶ; the jokotoba's phonetic bridge is invisible in English, and the secondary echo of 篠/shino-grass is not conveyed at all, since 'hide' bears no relation to 'reeds' beyond the constructed simile."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "reeds",
+      "note": "The autumnal cogon/bamboo-grass moor (浅茅生・篠原) is compressed into 'the reeds... upon the moor,' which retains a vague grassland/moor image but strips away the specific desolate, sparse, withering quality that marks it as autumnal; there is no explicit season name and little atmospheric cue (like fading, withering, or bleakness) to signal autumn specifically."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the reeds/moor image as something 'easier to hide'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Continues describing the reeds growing upon the moor",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "States that hiding one's ardent love is harder than hiding the reeds — converts 忍ぶれど into a comparative clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Describes the love as setting the speaker's cheeks aglow — a physical/emotional intensification standing in for あまりてなどか's overflow",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Names the beloved indirectly as 'somebody I know,' corresponding to 人の恋しき",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem as an explicit five-line comparative statement ('easier to hide X than Y'), collapsing the jokotoba's phonetic pivot into a stated simile and expanding the rhetorical question of shimo into a declarative image ('cheeks aglow') plus a closing identification of the beloved; this smooths the syntax into rhyming quatrain-like English verse at the cost of the original's indirection and ambiguity."
+    },
+    "translator_strategy": "Porter prioritizes rhyme, meter, and clarity for an English readership by converting the poem's sound-based jokotoba pivot and rhetorical question into an explicit, rhymed comparative statement, sacrificing the original's phonetic wordplay and understated autumnal atmosphere for narrative clarity and lyrical smoothness.",
+    "overall_fidelity": "low",
+    "poem_number": 39,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "seasonal-pivot",
+      "note": "McCauley preserves the kami/shimo division and even attempts to echo the sound-play with the repeated 'bear' (bearing reeds / bear my lot / too much to bear), mimicking the しの→忍ぶ pivot mechanism through a different verbal repetition, but the seasonal/autumnal desolation of the landscape is reduced to a bare descriptive tag ('bamboo-growing plain') without the atmosphere of overgrown, untended decline; the mirrored 'overflowing' imagery between kami and shimo is not made explicit, so the deeper resonance of the seasonal-pivot logic is only partially conveyed."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "忍ぶ",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "bear my lot",
+        "note": "McCauley renders 忍ぶれど as 'though I bear my lot,' capturing the primary meaning of enduring/concealing one's feelings, but the sonic bridge from 篠原 (shino-) into 忍ぶ (shinobu) is lost entirely since the English relies on the unrelated word 'bear' repeated across lines rather than any phonetic echo of 'reeds' or the bamboo imagery; the secondary echo of 篠/しのぶ-plant association is not conveyed at all."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "Bamboo-growing plain",
+      "note": "The literal season word is not named, but the image of a sparse plain with bamboo-grass and reeds retains a trace of the desolate, untended landscape associated with autumn in the source; however, the translation's plain, static phrasing ('Bamboo-growing plain, / With a small-field bearing reeds') lacks the connotation of withering or thinning grass that carries the autumnal desolation in the Japanese, so the seasonal atmosphere is only faintly implied rather than vividly evoked."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "浅茅生 (sparse cogon-grass plain) rendered as 'Bamboo-growing plain'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "小野の篠原 (small field of bamboo-grass) rendered as 'small-field bearing reeds'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "忍ぶれど (though I endure/conceal) rendered as 'Though I bear my lot'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "あまりてなどか (why does it overflow so) rendered as 'Why is it too much to bear?'",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "人の恋しき (longing for the person) rendered as 'Why do I still love her so?'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation follows a close 1-to-1 mapping of each ku to each line, preserving the five-part structure of the waka almost exactly, with the repeated 'bear' verb across lines 2-4 substituting for the sound-pivot mechanism of the original."
+    },
+    "translator_strategy": "McCauley prioritizes structural fidelity and a literal line-by-line rendering, substituting the lost しの/忍ぶ sound-pivot with an English wordplay on 'bear' (reeds/lot/too much to bear) to approximate the jokotoba's phonetic linkage, at the cost of vivid seasonal atmosphere and the plant-echo secondary meaning.",
+    "overall_fidelity": "medium",
+    "poem_number": 39,
+    "translator": "McCauley"
+  }
+}

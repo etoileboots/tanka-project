@@ -1,0 +1,68 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The passage of spring into summer, inferred as a temporal/seasonal statement (\"haru sugite natsu ki ni kerashi\" - spring has passed, it seems summer has come)",
+    "shimo_theme": "The visual detail of white robes being spread to dry on Mount Kagu, which serves as the sensory evidence confirming summer's arrival",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The kami-no-ku states the seasonal transition as an inference (‑けらし, 'it seems/must be'), and the shimo-no-ku supplies the concrete sensory evidence (the customary sight/report of white summer robes drying on Kaguyama) that grounds and confirms that inference. The whole poem is structured as: conclusion (spring has given way to summer) supported by observed/reported proof (robes drying), rather than one half causing the other physically."
+  },
+  "makurakotoba": [
+    {
+      "word": "白妙の",
+      "ku": 3,
+      "precedes": "衣 (koromo, robe/garment)",
+      "conventional_meaning": "white cloth/white mulberry-bark cloth; a fixed epithet establishing whiteness and textile purity, conventionally preceding words for white garments, snow, clouds"
+    }
+  ],
+  "kakekotoba": [],
+  "kigo": {
+    "word": "夏来にけらし",
+    "season": "summer",
+    "note": "The explicit statement that summer has arrived is itself the seasonal marker; combined with 白妙の衣ほすてふ (the custom of airing/drying white robes in early summer, per court custom recorded near Mount Kagu), it fixes the poem firmly as a summer poem marking the seasonal changeover from spring, a common structural theme in the Kokinshū and later imperial anthologies where the first summer poem announces the season's arrival"
+  },
+  "furigana": [
+    {
+      "kanji": "春",
+      "reading": "はる"
+    },
+    {
+      "kanji": "過",
+      "reading": "す"
+    },
+    {
+      "kanji": "夏",
+      "reading": "なつ"
+    },
+    {
+      "kanji": "来",
+      "reading": "き"
+    },
+    {
+      "kanji": "白妙",
+      "reading": "しろたへ"
+    },
+    {
+      "kanji": "衣",
+      "reading": "ころも"
+    },
+    {
+      "kanji": "天",
+      "reading": "あま"
+    },
+    {
+      "kanji": "香具山",
+      "reading": "かぐやま"
+    }
+  ],
+  "poem_number": 2,
+  "poet": "Jito Tenno",
+  "source_jp": "春過ぎて\n夏来にけらし\n白妙の\n衣ほすてふ\n天の香具山"
+}

@@ -1,0 +1,65 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "流れて",
+      "ku": 4,
+      "reading_primary": "ながれて",
+      "reading_secondary": "流れて (of reputation spreading/enduring)",
+      "interaction": "literally 'to flow' (continuing the water/waterfall imagery of 滝の音 established in the kami-no-ku) and figuratively 'to circulate/spread' (of the fame/reputation, na, continuing to be transmitted through time) — the physical flowing of water and the social flowing of renown are fused in one verb, allowing the dried-up waterfall's sound to be contrasted with its still-flowing name"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The physical sound of the waterfall has long since ceased — a statement of present absence and the passage of time since the waterfall dried up",
+    "shimo_theme": "Yet the waterfall's fame (its 'name') still flows on and is still heard of/spoken of, persisting independently of the physical reality",
+    "relationship_type": "paradox",
+    "pivot_note": "The poem turns on the contrast between 絶えて (ceased, silenced) in the kami and 流れて／聞えけれ (still flowing, still heard) in the shimo — the same verb of flowing that would describe the literal waterfall is transferred to the abstract 'name' (na), so that what has physically stopped is paradoxically still perceived as ongoing through reputation alone. The poem asserts that fame outlives and even substitutes for physical reality."
+  },
+  "kigo": {
+    "word": "滝",
+    "season": "none",
+    "note": "The waterfall (taki) at Ōsawa no Ike, associated with Fujiwara no Kintō's poem composed on the site of a historical dried-up waterfall built by Kūkai/reputed to Saga-in's garden, is a famous-place (meisho) reference rather than a strict seasonal marker; classical waka does not treat taki itself as tied to one season, and no other seasonal noun (blossom, snow, frost, moon, autumn wind, etc.) appears in this poem, so no true kigo is present — the poem is fundamentally atemporal/philosophical (on lasting fame) rather than seasonal."
+  },
+  "furigana": [
+    {
+      "kanji": "滝",
+      "reading": "たき"
+    },
+    {
+      "kanji": "音",
+      "reading": "おと"
+    },
+    {
+      "kanji": "絶",
+      "reading": "た"
+    },
+    {
+      "kanji": "久",
+      "reading": "ひさ"
+    },
+    {
+      "kanji": "名",
+      "reading": "な"
+    },
+    {
+      "kanji": "流",
+      "reading": "なが"
+    },
+    {
+      "kanji": "聞",
+      "reading": "きこ"
+    }
+  ],
+  "poem_number": 55,
+  "poet": "Dainagon Kinto",
+  "source_jp": "滝の音は\n絶えて久しく\nなりぬれど\n名こそ流れて\nなほ聞えけれ"
+}

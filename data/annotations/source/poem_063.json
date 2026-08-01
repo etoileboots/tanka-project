@@ -1,0 +1,45 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker resolves that now, at last, he should simply let his love die out and give up on it entirely.",
+    "shimo_theme": "But he wishes for some way to tell her this resolution directly, not through a go-between's report.",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The pivot turns on the contrast between an inward emotional resolution (giving up on love) stated in the kami-no-ku and a communicative wish in the shimo-no-ku — the speaker wants the very act of renouncing love conveyed in person, which paradoxically reasserts the desire for direct contact even as he claims to abandon feeling. The tension between 'giving up' and 'wanting to speak directly' is the poem's emotional core: the wish to communicate the end of love becomes itself a lingering expression of that love."
+  },
+  "kigo": {
+    "word": "思ひ絶えなむ",
+    "season": "none",
+    "note": "This poem is a pure love poem (koi-uta) with no seasonal imagery whatsoever — no flowers, birds, moon, dew, or seasonal natural phenomena appear. Every lexical item (今, ただ, 思ひ絶え, とばかり, 人づて, いふ, よしもがな) concerns emotional resolution and communication, not the natural world or calendar. The kigo field is set to the central emotional phrase as a formal placeholder since no true seasonal word exists in this poem."
+  },
+  "furigana": [
+    {
+      "kanji": "今",
+      "reading": "いま"
+    },
+    {
+      "kanji": "思",
+      "reading": "おも"
+    },
+    {
+      "kanji": "絶",
+      "reading": "た"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    }
+  ],
+  "poem_number": 63,
+  "poet": "Sakyo no Tayu Nichimasa",
+  "source_jp": "今はただ\n思ひ絶えなむ\nとばかりを\n人づてならで\nいふよしもがな"
+}

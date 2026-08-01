@@ -1,0 +1,65 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "ふるさと",
+      "ku": 3,
+      "reading_primary": "furusato (old village/former home)",
+      "reading_secondary": "ふる contains echo of 経る/古る (to age, to pass time)",
+      "interaction": "Although ふるさと is primarily a compound noun meaning 'old home village' (here referring to the place the speaker once knew, associated with the plum blossoms of Tsurayuki's famous encounter with the innkeeper), the ふる element carries strong associative weight with 古る/経る 'to grow old, to have passed time,' reinforcing the poem's theme of unchanged nature against changed human hearts. This is a borderline case where the compound's fixed meaning dominates but the temporal resonance of ふる is clearly activated by the surrounding 昔 (mukashi) and the human/impermanence contrast in kami-no-ku."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "Uncertainty about a person's unchanging heart or feelings toward the speaker, expressed through the ambiguous, non-committal phrase 'hito wa isa kokoro mo shirazu' (as for that person, who knows what is in their heart) and the naming of the 'old village' (furusato) as the setting",
+    "shimo_theme": "Yet the plum blossoms of this same place still bloom with the same fragrance as in the past, unchanged by time",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The poem turns on a contrast between human inconstancy and natural constancy: the kami-no-ku raises doubt about whether a person's heart has remained the same, while the shimo-no-ku answers not with information about the person but with an observation about nature — the blossoms still smell exactly as they did 'in the past' (mukashi). The pivot is the implicit comparison: whereas the human heart is unknowable and possibly changed, the flowers' fragrance testifies to unchanging constancy, wordlessly rebuking or contrasting with human fickleness. This famous exchange (with the innkeeper who reproached Tsurayuki for visiting rarely) turns the physical furusato into an emotional proving-ground for loyalty and memory."
+  },
+  "kigo": {
+    "word": "花",
+    "season": "spring",
+    "note": "花 (hana) unmodified in classical waka conventionally denotes cherry blossoms, but in this specific poem's known context (Tsurayuki's exchange with the innkeeper of Hatsuse) it refers to plum blossoms (ume), both of which are quintessential spring kigo. The blossom stands as the emblem of natural constancy and seasonal return, contrasted with the uncertain, potentially changed human heart — the fragrance 'ka ni nioi keru' evokes the plum's famous scent, a hallmark of early spring in the waka tradition."
+  },
+  "furigana": [
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "心",
+      "reading": "こころ"
+    },
+    {
+      "kanji": "知",
+      "reading": "し"
+    },
+    {
+      "kanji": "花",
+      "reading": "はな"
+    },
+    {
+      "kanji": "昔",
+      "reading": "むかし"
+    },
+    {
+      "kanji": "香",
+      "reading": "か"
+    },
+    {
+      "kanji": "匂",
+      "reading": "にほ"
+    }
+  ],
+  "poem_number": 35,
+  "poet": "Ki no Tsurayuki",
+  "source_jp": "人はいさ\n心も知らず\nふるさとは\n花ぞむかしの\n香に匂ひける"
+}

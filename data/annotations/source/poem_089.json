@@ -1,0 +1,89 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "よ",
+      "ku": 1,
+      "reading_primary": "よ (interjection, 'oh')",
+      "reading_secondary": "緒 continuation implied via 玉の緒 metaphor",
+      "interaction": "玉の緒よ functions primarily as an apostrophe ('O jeweled thread of life') with よ as an exclamatory particle; while not a strict two-noun pivot, the sound よ carries the conventional echo of 世 (life/world) that reinforces the thread-of-life metaphor governing the whole poem — the speaker addresses her own life-thread directly.",
+      "confidence": "low"
+    },
+    {
+      "word": "ながらへば",
+      "ku": 3,
+      "reading_primary": "ながらふ (to live on, endure)",
+      "reading_secondary": "なが (long) embedded within — evokes 長 'long/lasting'",
+      "interaction": "ながらへば literally means 'if I live on/endure,' but the embedded なが- morpheme resonates with 長 (long), reinforcing the image of the thread (緒) as something that could stretch on long rather than break — linking back to the tama no o thread imagery and forward to the fear that endurance itself will cause weakening.",
+      "confidence": "medium"
+    },
+    {
+      "word": "よはり",
+      "ku": 5,
+      "reading_primary": "弱り (weakening, growing frail)",
+      "reading_secondary": "よ (world/life) embedded as initial sound, echoing 世",
+      "interaction": "よはり denotes the weakening of her power to conceal her love, but its initial よ sound chimes with 世/夜 associations already activated by 玉の緒よ, tying the frailty of concealment to the frailty of her very life-thread — the poem's central identification of secret love with continued existence.",
+      "confidence": "low"
+    }
+  ],
+  "jokotoba": {
+    "text": "玉の緒よ絶えなば絶えね",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "絶え (breaking of the thread / potential death)",
+    "function": "The image of the jeweled thread (tama no o) that may snap is developed across the first two ku as an extended physical metaphor for the speaker's life itself, composed specifically for this poem rather than a fixed epithet; it pivots via 絶え into the speaker's wish that, if her life must end, let it end now — setting up the shimo's confession that continued life risks exposing her hidden love."
+  },
+  "honkadori": {
+    "source_poem": "Often associated thematically with Man'yōshū/Kokinshū treatments of tama no o (jeweled thread) as a metaphor for life, and echoes the diction of poems using 玉の緒 to mean the fragile thread of the soul/life, a conventional image rather than one specific traceable source line",
+    "source_poet": "Convention (unattributed, diffuse influence)",
+    "echoed_phrase": "玉の緒"
+  },
+  "kigo": {
+    "word": "玉の緒",
+    "season": "none",
+    "note": "Tama no o (jeweled thread/cord) is not a seasonal image but a conventional metaphor for the fragile thread of life/soul; the poem is fundamentally about hidden love and mortality rather than season, and no natural seasonal marker (blossom, leaf, snow, moon, insect, dew, wind) appears anywhere in the text — this is a poem of pure emotional/philosophical content outside the seasonal categories.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "玉",
+      "reading": "たま"
+    },
+    {
+      "kanji": "緒",
+      "reading": "を"
+    },
+    {
+      "kanji": "絶",
+      "reading": "た"
+    },
+    {
+      "kanji": "絶",
+      "reading": "た"
+    },
+    {
+      "kanji": "事",
+      "reading": "こと"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "An apostrophe to the thread of the speaker's own life (tama no o), declaring that if it must break, let it break now, and questioning what happens if she continues to live on",
+    "shimo_theme": "The fear that if she lives on, her strength to keep concealing her secret love will weaken and the love will become visible to others",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami's meditation on the physical breaking or enduring of the life-thread is not merely parallel to the shimo's emotional content — continued physical life (ながらへば) is presented as the direct cause of the feared collapse of concealment (しのぶることのよはり), so death is preferred to the exposure of hidden feeling; the pivot turns a wish about mortality into a confession of the depth of secret love, with the physical image of the thread giving way to the psychological image of failing self-control."
+  },
+  "poem_number": 89,
+  "poet": "Shikishi Naishiuno",
+  "source_jp": "玉の緒よ\n絶えなば絶えね\nながらへば\nしのぶることの\nよはりもぞする"
+}

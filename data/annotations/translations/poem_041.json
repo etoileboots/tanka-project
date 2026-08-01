@@ -1,0 +1,329 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        4,
+        5,
+        6
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3
+      ],
+      "relationship_type": "paradox",
+      "note": "The translator reorders the poem so that the shimo content (fear/secret love) appears last as a retrospective explanation of anxiety, but the actual sequence is scrambled: L1-3 render the kami-ku's public rumor content, while L4-6 render both the shimo-ku's secret love ('my heart was sorely tried / with no unfounded fears') AND loop back to restate the rumor idea ('should stand confest'), effectively merging and reordering the two parts rather than cleanly inverting them. The paradoxical tension of 'already public vs. just begun in secret' is diluted into a continuous narrative of anxious anticipation rather than a shock of retrospective discovery, so the temporal paradox (rumor already spread despite love only just having begun) is weakened into a fear that the love might become known — a more chronologically sequential, less paradoxical framing."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "立ち",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "bruited",
+        "note": "The translator renders 立ちにけり with 'bruited' (an archaic word meaning 'spread as a rumor'), which captures the primary idiomatic sense of the rumor spreading/becoming public, but does not attempt to evoke the submerged secondary sense of literal 'standing up/appearing' that some commentators note; the wordplay nuance is lost though the core meaning is preserved."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal word or imagery exists in the source poem, and none has been introduced by the translator; the translation remains purely in the register of romantic/emotional confession, consistent with the source's lack of seasonal content."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the love as a general topic of gossip ('love for thee of every tongue')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Continues describing the rumor as a daily, widespread theme",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "States that his name/reputation is now spread among men (まだき立ちにけり)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Expresses personal anguish, shifting to the emotional aftermath",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Describes his fears as justified ('no unfounded fears'), referencing the private anxiety of the shimo-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Concludes with the fear that his love would become publicly confessed/known, echoing back to the kami-ku's rumor theme, effectively blending shimo and kami content together",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The English six-line structure roughly doubles the five-ku structure through expansion, but the translator restructures content so that the poem reads as a continuous narrative of anxiety and its realization rather than the source's sharp two-part paradox; some content (the 'confest' fear) is an interpretive gloss rather than a direct rendering of 人しれずこそ思ひそめしか, which literally emphasizes the secret ONSET of love, not merely the general fear of exposure."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, metrically regular English lyric over structural fidelity, freely expanding and reordering the poem's two-part paradox into a continuous first-person narrative of gossip and anxious foreboding.",
+    "overall_fidelity": "low",
+    "poem_number": 41,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation maintains the basic contrast between the public knowledge of love (L1-2) and the speaker's earlier expectation of secrecy (L3-4), preserving the paradox structure, but the temporal/epistemic irony is softened: the original's astonishment at how quickly (まだき) and completely the rumor spread is reduced to a simple statement 'Is known already,' and the exclamatory こそ...しか force of the shimo-ku's assertion of secret private beginning is diminished into a plain past-tense expectation ('I had been thinking'). The paradox is present but its rhetorical intensity is attenuated."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "立ち",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "known already",
+        "note": "The translator conveys the idiomatic sense that the rumor has spread ('known already') but does not capture the visual/literal nuance of 立つ as 'standing up/appearing conspicuously'; the submerged echo of standing/emerging is lost, leaving only the idiomatic meaning of public knowledge, and even that is rendered in fairly flat, non-vivid language."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As the source analysis confirms, this poem carries no seasonal kigo at all (it belongs to the Love book, not a seasonal book), and the translation likewise contains no seasonal imagery or atmosphere — it is a purely emotional, declarative statement about love and rumor with no seasonal coloring, consistent with the source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Declares the fact of loving ('that I love thee'), corresponding to 恋すてふ (the topic 'love' being spoken of)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "States that this fact is already publicly known, compressing 我が名はまだき立ちにけり (my reputation has already arisen/spread) into 'Is known already. Ah, me!' with an added exclamatory interjection not literally in the text but capturing emotional tone",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Shifts to the speaker's earlier private thought/expectation, corresponding to 思ひそめしか (I had begun to think/feel)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Completes the thought that no one would know, corresponding to 人しれず (unknown to others)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the five ku into four lines, splitting the kami-no-ku's single idea (love's rumor already spread) across lines 1-2, and inverting the shimo-no-ku's word order so that 'I had been thinking' (originally the final verb 思ひそめしか) appears before 'No one would know it' (人しれず, originally the first phrase of the shimo-ku), creating a natural English syntactic order at the cost of the original's emphatic ko-so...shika structure."
+    },
+    "translator_strategy": "Noguchi prioritizes plain, natural English syntax and emotional directness over preserving the formal rhetorical devices (kakekotoba, kakari-musubi) and compact ku structure of the original, rendering the poem as a simple four-line confession-and-lament.",
+    "overall_fidelity": "medium",
+    "poem_number": 41,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "Porter's translation actually reverses/blurs the paradox: instead of stating rumor spread already (kami) then revealing love had only just secretly begun (shimo), Porter opens with 'our courtship... hiding is to none' as already known, but then phrases the shimo as a rhetorical question ('how could the neighbours guess that I had yet begun to fancy any one?') which reverses the logical thrust — it now sounds as if the speaker is surprised the neighbours could know something he had barely begun to feel, turning the astonishment into a rhetorical challenge rather than a stated contradiction. The temporal/epistemic paradox survives in weakened, restructured form, best described as inverted because the direction of surprise is reframed as a question rather than the source's flat ironic juxtaposition."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "立ち",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "Misleading is to none",
+        "note": "Porter renders the idiom 名が立つ ('rumor has spread') as 'misleading is to none' (i.e., the courtship is hidden from no one), capturing the general sense that the affair is publicly known, but loses the vivid connotation of the rumor 'standing up' or becoming conspicuous that some readings attribute to 立ち; no double meaning is attempted, and the phrasing is a loose paraphrase rather than a precise equivalent of either the idiomatic or literal sense."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "The source poem has no seasonal word or imagery (it is a pure love poem from the Love book), and Porter's translation likewise contains no seasonal imagery — courtship, hiding, neighbours, and fancying are all social/emotional vocabulary with no seasonal atmosphere, consistent with the source's total absence of kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the courtship as something the speaker tried to hide, corresponding to 恋すてふ我が名 (the rumor of love concerning the speaker)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "States the hiding failed and is known to none, corresponding to まだき立ちにけり (the rumor has already spread)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Rhetorical question introducing the neighbours' knowledge, loosely corresponding to 人しれずこそ (unknown to others) but reframed as a question of how they could know",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Reveals the speaker had 'yet begun' to feel love, corresponding to 思ひそめしか (had only just begun to feel)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Completes the thought 'to fancy any one', elaborating on the object of the newly begun affection, largely extrapolated phrasing to fit rhyme/meter",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the kami-no-ku (ku1-3) into two lines and expands the shimo-no-ku (ku4-5) into three lines, restructuring the shimo as a rhetorical question ('how could the neighbours guess...') rather than the source's declarative astonishment; the added phrase 'to fancy any one' is largely filler to complete the rhyme scheme and has no direct lexical equivalent in the source."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, metrical quatrain-like verse form in natural English over literal fidelity, softening the poem's stark paradox into a wistful rhetorical question about how the secret courtship became known.",
+    "overall_fidelity": "medium",
+    "poem_number": 41,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translator maintains the sequence of public rumor (kami) followed by private secret beginning (shimo), but the paradox is softened by connective 'When' which frames the shimo as a temporal clause subordinate to the kami rather than delivering the sharp ironic reversal of koso...shika. The astonishment/emphasis of the original's kakari-musubi is diluted into a plain temporal contrast."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "立ち",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "gone far and wide",
+        "note": "The translator renders 立ちにけり as the rumor having 'gone far and wide,' capturing the idiomatic sense of a rumor spreading, but there is no attempt to evoke the secondary echo of 'standing/appearing' literally; the pivot is treated as a single plain verb of spreading rather than a layered image."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As the source itself carries no seasonal word or imagery (a pure love poem from the Koi book), the translation likewise contains no seasonal signal — this is expected and appropriate, not an error of translation.",
+      "en_equivalent": "love"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Though, indeed, I love — renders 恋すてふ (that I am said to be in love / love, they say)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Yet, the rumor of my love — renders 我が名は (rumor/report of my name/reputation)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Had gone far and wide — renders まだき立ちにけり (has already spread)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "When no man, ere then, could know — renders 人しれずこそ (unknown to anyone)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "That I had begun to love — renders 思ひそめしか (had only just begun to feel love)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation follows a fairly literal one-line-per-ku mapping, with kami (lines 1-3) covering the public rumor and shimo (lines 4-5) covering the private secret beginning; the connective 'When' in line 4 subtly reframes the paradoxical juxtaposition as a temporal clause rather than a startling reversal."
+    },
+    "translator_strategy": "McCauley prioritizes a literal, line-by-line rendering of each ku's surface meaning over reproducing the poem's rhetorical intensity, softening the kakari-musubi's emphatic paradox into a plain temporal contrast.",
+    "overall_fidelity": "medium",
+    "poem_number": 41,
+    "translator": "McCauley"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "Autumn wind drives the clouds, trailing them across the sky and creating gaps between them",
+    "shimo_theme": "Moonlight leaks through the gaps in the clouds, its clarity striking the speaker",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku describes a physical chain of cause and effect — the autumn wind blowing on the clouds, causing them to trail and thin, opening gaps (taema) — which directly and literally produces the shimo-no-ku's image: moonlight spilling through those very gaps. The poem culminates not in a subjective inference or metaphor but in a bare exclamation of the moon's sayakesa (clarity/brightness), the physical result of the kami's action made suddenly visible. The pivot word 'taema yori' (from the gaps) is the hinge connecting cloud-motion to moonlight-emergence."
+  },
+  "kigo": {
+    "word": "月",
+    "season": "autumn",
+    "note": "月 (tsuki), the moon, is the classical autumn kigo par excellence in Heian waka — autumn nights were prized above all others for the moon's clarity (as opposed to spring's hazy moon). Here it is reinforced by 秋風 (autumn wind) explicitly naming the season, and the two together make the moon's autumnal association doubly certain: the clear-skied autumn moon breaking through wind-driven clouds is a set-piece image of aki no tsuki.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "秋風",
+      "reading": "あきかぜ"
+    },
+    {
+      "kanji": "雲",
+      "reading": "くも"
+    },
+    {
+      "kanji": "月",
+      "reading": "つき"
+    }
+  ],
+  "poem_number": 79,
+  "poet": "Sakyo no Tayu Akisuko",
+  "source_jp": "秋風に\nたなびく雲の\nたえまより\nもれ出づる月の\nかげのさやけさ"
+}

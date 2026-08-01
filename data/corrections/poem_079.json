@@ -1,0 +1,404 @@
+{
+  "poem_number": 79,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T07:09:50.414317+00:00"
+    },
+    "devices": {
+      "月": {
+        "status": "confirmed",
+        "original": {
+          "word": "月",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:09:43.732775+00:00"
+      },
+      "秋風": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "秋風",
+          "color": "#B4DE65",
+          "note": "Autumn winds"
+        },
+        "reviewed_at": "2026-07-31T07:11:09.348267+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:10:17.796348+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:10:18.194684+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:10:18.563373+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:10:19.128275+00:00"
+        }
+      },
+      "devices": {
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:10:40.670594+00:00"
+        },
+        "Autumn wind": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Autumn wind",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:11:18.276632+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-07-31T07:11:23.060838+00:00"
+        },
+        "Autumn wind": {
+          "status": "corrected",
+          "original": {
+            "word": "Autumn wind"
+          },
+          "corrected": {
+            "source_word": "秋風"
+          },
+          "reviewed_at": "2026-07-31T07:11:24.945523+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "autumn's": {
+          "status": "removed",
+          "original": {
+            "word": "autumn's",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:11:49.194631+00:00"
+        },
+        "autumn's chilly blast": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn's chilly blast",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:11:57.428777+00:00"
+        },
+        "moonbeams": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moonbeams",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:12:10.312711+00:00"
+        }
+      },
+      "device_links": {
+        "autumn's chilly blast": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn's chilly blast"
+          },
+          "corrected": {
+            "source_word": "秋風"
+          },
+          "reviewed_at": "2026-07-31T07:12:00.494022+00:00"
+        },
+        "moonbeams": {
+          "status": "corrected",
+          "original": {
+            "word": "moonbeams"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-07-31T07:12:14.477783+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:12:22.178410+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:12:33.049491+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:12:34.213840+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T07:13:40.899810+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:13:43.742512+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:13:44.444041+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "autumn": {
+          "status": "removed",
+          "original": {
+            "word": "autumn",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:14:40.726454+00:00"
+        },
+        "wind of autumn": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "wind of autumn",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:14:02.346421+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:14:15.545424+00:00"
+        }
+      },
+      "device_links": {
+        "wind of autumn": {
+          "status": "corrected",
+          "original": {
+            "word": "wind of autumn"
+          },
+          "corrected": {
+            "source_word": "秋風"
+          },
+          "reviewed_at": "2026-07-31T07:14:35.858730+00:00"
+        },
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-07-31T07:14:25.743019+00:00"
+        },
+        "autumn": {
+          "status": "removed",
+          "original": {
+            "word": "autumn"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:14:43.225768+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:14:27.924882+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:14:44.991766+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:14:45.624735+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:14:46.393671+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:14:47.275290+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "device_links": {
+        "autumn-wind": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn-wind"
+          },
+          "corrected": {
+            "source_word": "秋風"
+          },
+          "reviewed_at": "2026-07-31T07:15:00.676374+00:00"
+        },
+        "moon-light": {
+          "status": "corrected",
+          "original": {
+            "word": "moon-light"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-07-31T07:15:18.659717+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:15:01.476513+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:15:01.993301+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:15:05.212581+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:15:05.941838+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:15:06.475317+00:00"
+        }
+      },
+      "devices": {
+        "moon-light": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon-light",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T07:15:15.409393+00:00"
+        }
+      }
+    }
+  }
+}

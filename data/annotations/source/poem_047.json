@@ -1,0 +1,65 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "jokotoba": {
+    "text": "八重むぐら しげれる宿の さびしきに",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "さびしきに",
+    "function": "Describes the overgrown, weed-choked dwelling and its desolation in exhaustive physical/sensory detail, building the atmosphere of abandonment that the shimo-no-ku's emotional revelation (the arrival of autumn, confirmed by absence of visitors) depends upon. Though it functions much like a scene-setting description rather than a purely sound-driven jokotoba, it occupies the full kami-no-ku and pivots into the shimo via the desolation established."
+  },
+  "honkadori": {
+    "source_poem": "Traditionally associated with the Kokinshū-era topos of the overgrown dwelling (yaemugura shigereru yado) as used by Ariwara no Yukihira and echoed later by Ryōkan/other poets; most directly this poem itself is often cited as source material for later verses, but no single confirmed Man'yōshū/Kokinshū source poem can be identified with full confidence.",
+    "source_poet": "uncertain",
+    "echoed_phrase": "八重むぐらしげれる宿",
+    "function": "Evokes the conventional image of a hermit's or recluse's overgrown, weed-choked residence as a marker of solitude and withdrawal from society, a well-established topos in Heian poetry of reclusion."
+  },
+  "kigo": {
+    "word": "秋",
+    "season": "autumn",
+    "note": "秋 (autumn) is the explicit seasonal marker and the poem's emotional and structural climax: its arrival is perceived not through any visible seasonal sign but through the negative proof of nobody visiting the overgrown dwelling. This inverts the conventional kigo function — autumn is normally announced by wind, dew, or changing leaves, but here it is confirmed purely inferentially through human absence, giving the season itself a melancholic, almost personified weight tied to the yamazato (mountain hermitage) topos of solitude."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A physical description of a dwelling overrun with the weed yaemugura (eightfold creeper), so thickly overgrown that it has become desolate and lonely — a scene of physical neglect and abandonment.",
+    "shimo_theme": "Though no human visitor ever appears, the speaker perceives that autumn has arrived — the season itself becomes the poem's true 'visitor,' discovered through solitude rather than through any visible sign of foliage or wind.",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The kami-no-ku's description of overgrown desolation does not directly depict autumn at all; instead the shimo-no-ku pivots on the discovery that, amid total human absence, the only presence detectable is the season itself. The poem's meaning depends on holding these together: the absence of people (kami's desolation intensified) becomes proof, by contrast, of the presence of autumn — an inference from isolation to seasonal awareness, rather than any direct causal or visual link."
+  },
+  "furigana": [
+    {
+      "kanji": "八重",
+      "reading": "やえ"
+    },
+    {
+      "kanji": "宿",
+      "reading": "やど"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "秋",
+      "reading": "あき"
+    },
+    {
+      "kanji": "来",
+      "reading": "き"
+    }
+  ],
+  "poem_number": 47,
+  "poet": "Yekei Hoshi",
+  "source_jp": "八重むぐら\nしげれる宿の\nさびしきに\n人こそ見えね\n秋は来にけり"
+}

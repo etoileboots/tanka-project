@@ -1,0 +1,75 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "かりね",
+      "ku": 2,
+      "reading_primary": "刈り根（芦の刈った根株）",
+      "reading_secondary": "仮寝（かりそめの仮眠・仮の宿り）",
+      "interaction": "The reed's 'cut stubble' (刈り根) sounds identical to 'brief/temporary sleeping' (仮寝), so the physical image of cut reed-stubble in Naniwa Bay simultaneously evokes a single night's transient tryst or fitful sleep — literally setting up the 'one night' (一夜) that follows.",
+      "confidence": "high"
+    },
+    {
+      "word": "一夜",
+      "ku": 3,
+      "reading_primary": "一夜（ひとよ、一晩の意）",
+      "reading_secondary": "一節（ひとよ、芦の茎の節間の意）",
+      "interaction": "一夜 reads as 'one night' (the single tryst) but also, via the reed image network, echoes 'ひとよ' as a single joint/segment of the reed stalk (節), reinforcing the image of the short reed-segment as a metaphor for the brief night together.",
+      "confidence": "medium"
+    },
+    {
+      "word": "身をつくして",
+      "ku": 4,
+      "reading_primary": "身を尽くして（我が身を尽くし尽くす、消耗する）",
+      "reading_secondary": "澪標（みをつくし、水路標識の杭）",
+      "interaction": "みをつくし is the name of the channel-marker stakes standing in Naniwa Bay; the phrase simultaneously means 'to exhaust/wear out one's body (in longing)' and evokes these visible stakes in the bay, tying the speaker's self-consuming passion to the concrete Naniwa seascape established in the kami-no-ku.",
+      "confidence": "high"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A physical scene at Naniwa Bay: reeds cut down to stubble, evoking a single brief night's lodging or encounter",
+    "shimo_theme": "The speaker wonders whether she must go on exhausting herself in unending longing for the sake of that one brief night",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The kami-no-ku's image of the reed cut short into a single joint/segment (一夜/ひとよ) after a fleeting cutting functions as a sustained implicit simile for the brevity of the one-night encounter, while the homophony of みをつくし (channel marker / exhausting oneself) carries the Naniwa setting directly into the emotional register of the shimo-no-ku, making the transition from landscape to passion feel inevitable rather than stated."
+  },
+  "kigo": {
+    "word": "芦",
+    "season": "autumn",
+    "note": "Reeds (芦) at a bay, especially when cut down to stubble (かりね), are classic autumn/winter waterside imagery in waka, associated with desolate marshland scenes and the withering of vegetation; here the cut reed evokes the fragility and transience central to the poem's mood.",
+    "confidence": "medium"
+  },
+  "furigana": [
+    {
+      "kanji": "難波江",
+      "reading": "なにはえ"
+    },
+    {
+      "kanji": "芦",
+      "reading": "あし"
+    },
+    {
+      "kanji": "一夜",
+      "reading": "ひとよ"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    },
+    {
+      "kanji": "恋",
+      "reading": "こひ"
+    }
+  ],
+  "poem_number": 88,
+  "poet": "Koko Monin no Betto",
+  "source_jp": "難波江の\n芦のかりねの\n一夜ゆへ\n身をつくしてや\n恋わたるべき"
+}

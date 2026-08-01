@@ -1,0 +1,343 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "simile-implicit collapsed into causal/continuous narrative",
+      "note": "The translator compresses the wave imagery into a mere adverbial simile ('softly as the waves do break') attached to the act of seeking to meet the beloved, rather than presenting the waves' nightly approach as an independent image that linguistically fuses with 'night' via the よる pivot. The kami's temporal persistence (waves continuing even at night) is lost, and the poem becomes a single continuous statement: I seek you softly (like waves) but fear men's eyes. The implicit likeness is retained only faintly as a decorative simile, not as the poem's structural hinge; the dream framing and the paradox of surveillance persisting even in dreams is reduced to a generic fear of gossip, so the special logic (natural image compulsively repeating / human image blocked by social eyes despite being 'only' a dream) is essentially collapsed into a single lover's plaint."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よる (ku2, 寄る)",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "break",
+        "note": "The wave's 'drawing near/breaking' is rendered as 'the waves do break' — a literal primary-sense translation of the wave action, but no attempt to echo or set up the sonic link to 'night' that follows. The secondary anticipatory function is not attempted at all here since it's merely descriptive scene-setting."
+      },
+      {
+        "original_word": "よる (ku3, 夜/寄る pivot)",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "e'en in a dream",
+        "note": "The night-sense of よる is folded into 'e'en...in a dream' but the word 'night' itself is never used; the pivot's dual meaning (night / drawing near, echoing the wave's approach) is entirely lost — there is no lexical echo between the wave line and the dream-meeting line the way the Japanese よる...よる repetition creates. Only a vague temporal/night-adjacent notion survives, and even that is diffuse, so this counts as paraphrase rather than a clean primary rendering of 'night.' The wordplay's binding function (linguistically fusing wave and night) is entirely absent."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Source correctly notes no kigo/season is present in this poem (dreams are not seasonally marked); consistent with this, the translation carries no seasonal imagery or atmosphere of any kind — appropriately, since none is called for. This is a non-issue rather than a failure."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Softly as the waves do break (introduces wave simile, compresses Sumi no e's shore/wave image)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "On Suminoye's shore, I seek (completes the wave/shore image, names the utamakura place, begins the 'I seek' clause that leaps ahead to the speaker's desire)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "To meet thee, love e'en in a dream (covers the night/dream pivot and the dream-path, condensing 'よるさへや' and '夢の通ひ路' into one line)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "To dread men's curious eyes I seem (covers 人目よくらむ, the fear of others' watchful eyes)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the jokotoba (ku1-2) into a simile clause subordinate to the main verb 'seek', rather than presenting it as an independent image; this changes the poem's rhetorical shape from 'natural image, then pivot, then human complaint' to 'I seek you softly, as waves do; I fear men's eyes' — a much more linear, causally connected structure. The wonder/rhetorical question implied by 'らむ' (why should even...) is flattened into a flat assertion 'I seem to dread'."
+    },
+    "translator_strategy": "Dickens prioritizes a smooth, rhymed quatrain in archaic English lyric style, sacrificing the kakekotoba's linguistic fusion and the jokotoba's independent rhetorical weight in favor of a simple simile-based love plaint about clandestine meeting and gossip.",
+    "overall_fidelity": "low",
+    "poem_number": 18,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3
+      ],
+      "relationship_type": "simile-implicit reduced to a single parenthetical image",
+      "note": "The translator inverts and collapses the structure: the shimo content (longing, dream-path, fear of prying eyes) is foregrounded in L1-L3, while the kami wave imagery is compressed into a bracketed afterthought in L4 ('riding on the waves of dream'), losing the sequential logic where waves-drawing-near-shore prefigures night's dream-path. The linguistic fusion via よる is entirely gone; the wave image is reduced to decorative simile tacked onto the dream, rather than an independent natural scene that mirrors the human situation through wordplay. The parenthetical placement also signals the translator treats it as supplementary rather than structurally foundational."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "よる (ku2, 寄る)",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "riding on the waves of dream",
+        "note": "The wave's 'drawing near' (寄る) is not rendered as an independent shoreline image at all; instead it is fused directly into the dream metaphor ('waves of dream'), collapsing the natural/human duality into a single metaphorical image. Neither 'approach' nor 'night' is lexically present — the translator invents a new image (love riding waves) that gestures at motion but preserves neither original reading precisely."
+      },
+      {
+        "original_word": "よる (ku3, 夜/寄る)",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "none",
+        "note": "There is no word for 'night' or 'even at night' anywhere in the translation. The temporal frame of 'even at night, the dream-path' is entirely dropped; the poem's question of why night itself doesn't grant freedom from surveillance is absent. The sonic echo binding ku2 and ku3 cannot survive since neither instance is rendered with a shared or resonant term."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Source analysis confirms no seasonal marking exists in the original (this is a love poem, not seasonal), so there is nothing to preserve or lose; the translation correctly contains no false seasonal imagery either. This is consistent non-issue for both source and translation."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'I think of thee' — compresses the longing/desire underlying the dream-path motif, an interpretive gloss rather than direct translation of any ku",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'I go along the road of dream to meet thee' — renders 夢の通ひ路 (the dream-path) fairly directly",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'How I fear people's curious eyes' — renders 人目よくらむ (avoiding others' eyes), converting the rhetorical question into a declarative fear",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "'(Oh my love riding on the waves of dream!)' — compresses the entire kami section (Sumiyoshi shore, waves drawing near, night) into a single parenthetical exclamatory image fused with the dream metaphor",
+          "origin": "source"
+        }
+      ]
+    },
+    "confidence": "medium",
+    "structural_note": "The translation inverts the original's sequence: source moves kami (nature/waves) → shimo (human longing/surveillance), but this translation opens with human longing (L1-L3) and relegates the wave/kami imagery to a bracketed final line, effectively subordinating and compressing it rather than letting it lead. The bipartite hinge word よる is untranslated in both instances, so the linguistic mechanism binding the two halves is lost entirely; what remains is a loose thematic echo (dream ~ waves) rather than the wordplay-driven fusion of the original.",
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and lyrical paraphrase over structural or lexical fidelity, freely reordering and compressing the poem's two-part logic into a compact declaration of longing with the wave-image retained only as a decorative closing flourish.",
+    "overall_fidelity": "low",
+    "poem_number": 18,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit → narrative statement",
+      "note": "Porter turns the poem into a literal narrative of lovers physically wandering by cliffs at night, rather than a dream-path troubled by others' eyes. The wave image (L1-2) is disconnected from the human scene (L3-5); the linguistic fusion via よる is entirely lost, and the shimo's core content — a dream-path (夢の通ひ路) that must still avoid prying eyes even in unconscious longing — is replaced by a concrete physical tryst 'by the cliffs.' The bipartite hinge collapses into a single continuous scene of lovers meeting in secret at the shore, no longer waves-mirror-humans but simply humans in the same location as the waves."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よる (寄る/夜, ku2)",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "draw near",
+        "note": "L2 'The waves alone draw near' preserves the 寄る (approach) meaning literally but the sonic echo priming 夜 is not carried into any wordplay; 'To-night' in L1 is a separate, explicit temporal marker rather than an echo of the wave's よる."
+      },
+      {
+        "original_word": "よるさへや (夜/寄る, ku3)",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "To-night",
+        "note": "The pivot itself — even at night, mirroring the waves' nightly approach — is dissolved. 'To-night' appears in L1 attached to the wave image rather than to the human dream-visit, so the doubling function (night = drawing-near) is lost entirely; the parallel structure whereby ku2 and ku3 share the same word is invisible in English, and no pun or echo substitutes for it."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Source poem carries no true kigo (夢 is not seasonal); Porter's translation, being a physical night-tryst scene rather than dream imagery, does not introduce or need seasonal marking. Consistent absence, not a translation failure relative to source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "'To-night on Sumi-no-ye beach' fuses the utamakura location (ku1, 住の江の岸) with the temporal marker of ku3 (よるさへや, 'even at night') stripped of its double meaning.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'The waves alone draw near' renders 岸による波, keeping the literal wave-approach image.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'And, as we wander by the cliffs' substitutes a physical human tryst for the abstract 夢の通ひ路 (dream-path); the dream metaphor is literalized into an actual nocturnal walk.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'No prying eyes shall peer' corresponds to 人目よくらむ (avoiding others' watchful eyes), reversed from a questioning lament into a confident assertion.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'No one shall dream we're here' extends/duplicates the sentiment of L4, adding emphasis not present as a separate ku in the source; also reintroduces 'dream' vocabulary but now as a verb of the lovers' concealment rather than as the medium of the visit itself.",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five ku into 5 lines but reallocates content: the crucial 夢 (dream) noun of ku4 is deferred and repurposed as a verb ('dream we're here') in L5, while the physical scene of lovers meeting by cliffs is invented to replace the dream-path conceit. The original's interrogative uncertainty (らむ, 'I wonder why') is flattened into declarative certainty ('shall peer', 'shall dream'), removing the poem's anxious wondering tone entirely."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhymed English love-lyric over lexical fidelity, converting the dream-path conceit into a literal nocturnal tryst and replacing the source's anxious question with a confident romantic assurance.",
+    "overall_fidelity": "low",
+    "poem_number": 18,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "McCauley keeps the kami (waves at Sumi's bay, gathered night) followed by shimo (dream-visits, shunning eyes) in sequence, mirroring the source's structure. However the linguistic fusion via よる (the pivot binding wave-approach and night) is rendered only through the repeated word 'gathered' (gathered waves / gathered night), which is a clever attempt at an echo but does not carry the semantic double-duty of 寄る/夜 - it substitutes assonance of a different English word rather than translating the pun itself. The implicit simile logic (natural repetition vs. human restriction) survives but is weakened since the reader may not perceive the waves-night link as tightly bound as in the original, since 'gathered' modifies both but doesn't mean 'approach' for night and doesn't mean 'night' for waves - it's a translator-invented echo device rather than a direct rendering of the wordplay."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よる (ku2, 寄る)",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "gathered waves",
+        "note": "The wave's 'drawing near' (寄る) is rendered as 'gathered' - an approximation of clustering/converging waves rather than literally 'approaching the shore', but it captures the sense of waves congregating/reaching the shore adequately as primary meaning; no attempt to link to 'night' semantically, only via repeated word choice."
+      },
+      {
+        "original_word": "よる (ku3, 夜/寄る)",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "gathered night",
+        "note": "Instead of preserving either 'night' as a literal translation with an echo of 'draw near', or the pun itself, McCauley invents a new device: repeating 'gathered' from ku2 to ku3 ('gathered waves' / 'gathered night') creates an English-internal echo that mimics the JP echo of よる/よる but using a completely different word ('gathered') that means neither 寄る nor 夜 - it's a transformed pun, not a preserved one, since 'gathered night' does not mean 'approaching night' idiomatically in English, it's a poetic invention to signal the rhetorical link."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As the source analysis notes, this poem has no true kigo (it's a love poem); no seasonal atmosphere is introduced or implied in McCauley's translation, consistent with source having none. Nothing to preserve or omit meaningfully in seasonal terms."
+    },
+    "line_mapping": {
+      "confidence": "high",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Lo! the gathered waves - introduces waves imagery, compressing 住の江の (Sumi no e) partially into L2",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "On the shore of Sumi's bay - locates the utamakura Sumiyoshi/Sumi no e explicitly",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "E'en in gathered night - renders よるさへや (even at night), using 'gathered' to echo L1's 'gathered waves'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "When in dreams I go to thee - renders 夢の通ひ路 (the dream path)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "I must shun the eyes of men - renders 人目よくらむ (avoiding others' eyes), though drops the よくらむ speculative/wondering tone ('I wonder if...') turning it into a flat statement 'I must'",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "McCauley prioritizes a compact, quasi-archaic lyrical rendering that invents an English-internal echo ('gathered waves' / 'gathered night') to gesture at the untranslatable よる pun, sacrificing the speculative/questioning tone of らむ for a more declarative assertion of the lovers' plight.",
+    "overall_fidelity": "medium",
+    "poem_number": 18,
+    "translator": "McCauley"
+  }
+}

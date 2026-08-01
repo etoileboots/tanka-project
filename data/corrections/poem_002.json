@@ -1,0 +1,332 @@
+{
+  "poem_number": 2,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T02:52:40.512678+00:00"
+    },
+    "devices": {
+      "夏来にけらし": {
+        "status": "confirmed",
+        "original": {
+          "word": "夏来にけらし",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T02:52:52.586319+00:00"
+      },
+      "白妙の": {
+        "status": "confirmed",
+        "original": {
+          "word": "白妙の",
+          "color": "#7EBBEE"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T02:53:02.442757+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:00:05.930571+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:00:06.510812+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:00:07.181161+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:00:07.878035+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:00:09.195025+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:00:11.123876+00:00"
+        }
+      },
+      "devices": {
+        "whitened with angels' robes": {
+          "status": "removed",
+          "original": {
+            "word": "whitened with angels' robes",
+            "color": "#7EBBEE"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:00:29.376936+00:00"
+        },
+        "Whitened": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Whitened",
+            "color": "#7EBBEE"
+          },
+          "reviewed_at": "2026-07-26T03:00:37.802702+00:00"
+        },
+        "summer follows close": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "summer follows close",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-26T03:01:17.216131+00:00"
+        }
+      },
+      "device_links": {
+        "whitened": {
+          "status": "corrected",
+          "original": {
+            "word": "whitened"
+          },
+          "corrected": {
+            "source_word": "白妙の"
+          },
+          "reviewed_at": "2026-07-31T07:41:21.016497+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:01:36.261294+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:01:36.895217+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:01:38.353094+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:01:40.264107+00:00"
+        }
+      },
+      "devices": {
+        "Summer already come": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Summer already come",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-26T03:02:49.778289+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:03:25.241181+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:03:23.725219+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:03:23.161697+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:03:26.333915+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:03:27.062981+00:00"
+        }
+      },
+      "devices": {
+        "summer's come": {
+          "status": "confirmed",
+          "original": {
+            "word": "summer's come",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:15:48.763335+00:00"
+        },
+        "white": {
+          "status": "confirmed",
+          "original": {
+            "word": "white",
+            "color": "#7EBBEE"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:41:40.500264+00:00"
+        },
+        "the spring has gone, the summer's come": {
+          "status": "removed",
+          "original": {
+            "word": "the spring has gone, the summer's come",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:15:52.100323+00:00"
+        }
+      },
+      "device_links": {
+        "white": {
+          "status": "corrected",
+          "original": {
+            "word": "white"
+          },
+          "corrected": {
+            "source_word": "白妙の"
+          },
+          "reviewed_at": "2026-07-31T07:41:47.648641+00:00"
+        },
+        "summer's come": {
+          "status": "corrected",
+          "original": {
+            "word": "summer's come"
+          },
+          "corrected": {
+            "source_word": "夏来にけらし"
+          },
+          "reviewed_at": "2026-08-01T00:15:50.871756+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:03:58.930503+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:03:59.774139+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:04:23.386907+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:04:24.037951+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:04:24.856694+00:00"
+        }
+      },
+      "devices": {
+        "silk-white": {
+          "status": "confirmed",
+          "original": {
+            "word": "silk-white",
+            "color": "#7EBBEE"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T03:04:03.151560+00:00"
+        },
+        "summer come": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "summer come",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-26T03:04:39.420772+00:00"
+        }
+      }
+    }
+  }
+}

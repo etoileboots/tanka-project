@@ -1,0 +1,71 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "はつせ",
+      "ku": 2,
+      "reading_primary": "はつせ (place name, Hatsuse/Hase)",
+      "reading_secondary": "果つ瀬 (implied: the end, the extremity of feeling — associative wordplay on 'hatsu' meaning to end/cease)",
+      "interaction": "Hatsuse is a real place name (the temple Hase-dera, famous for Kannon worship and prayer), but the sound 'hatsu' also resonates with 果つ (to end, reach an extreme), reinforcing the sense of a love that has reached its final, hopeless extremity — the place name doubles as an emotional intensifier",
+      "confidence": "low"
+    },
+    {
+      "word": "うかりける",
+      "ku": 1,
+      "reading_primary": "憂かりける (was sorrowful/cruel/pitiless — describing the person's cold-heartedness)",
+      "reading_secondary": "浮かりける (associatively linked to 憂き/浮き pivot family, floating/fickle)",
+      "interaction": "Primarily 憂し, describing the cold beloved; the association with 浮き (fickleness, inconstancy) is present as connotation but not fully grammatically doubled, so kept low confidence",
+      "confidence": "low"
+    }
+  ],
+  "jokotoba": {
+    "text": "うかりける人をはつせの山おろしよ",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "よ",
+    "function": "The first three ku describe the cold-hearted person and invoke the mountain wind of Hatsuse by name, building toward the direct address 'yo' (oh wind!) that pivots into the plea of the shimo-no-ku; the place name Hatsuse and its famous temple of prayer set up the irony that the speaker's prayers there were not for the wind's harshness but for the person's mercy"
+  },
+  "honkadori": {
+    "source_poem": "Hatsuse temple prayer poems in Kokinshū/Shūishū tradition",
+    "source_poet": "traditional Hase-dera prayer motif",
+    "echoed_phrase": "はつせの山おろし",
+    "function": "Alludes to the widely known association of Hase-dera (Hatsuse) as a site where petitioners prayed to Kannon for love and mercy, so that the poem's speaker's failed prayer for the beloved's gentleness is thrown into ironic relief against the temple's reputation for answering prayers"
+  },
+  "kigo": {
+    "word": "山おろし",
+    "season": "winter",
+    "note": "Yama-oroshi, the harsh mountain wind blowing down from the peaks, is conventionally associated with cold, cutting winter or late-autumn winds in waka; here it also functions as the vehicle for describing the beloved's harsh coldness, giving the natural image a double emotional charge",
+    "confidence": "medium"
+  },
+  "furigana": [
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    },
+    {
+      "kanji": "山",
+      "reading": "やま"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker names the cold-hearted beloved and invokes the fierce mountain wind blowing down from Hatsuse, addressing it directly",
+    "shimo_theme": "The speaker protests that he never prayed for the wind (or the beloved) to be this harsh — his prayers were for gentleness, not cruelty",
+    "relationship_type": "paradox",
+    "pivot_note": "The kami-no-ku sets up an address to the Hatsuse mountain wind as though blaming it for the beloved's harshness, but the shimo-no-ku reveals the deeper irony: the speaker had prayed at this very site of Kannon's mercy, yet what he received was the opposite of what he asked for — the poem turns on the gap between prayer and outcome, wind and heart, intention and result"
+  },
+  "poem_number": 74,
+  "poet": "Minamoto no Toshiyori Ason",
+  "source_jp": "うかりける\n人をはつせの\n山おろしよ\nはげしかれとは\n祈らぬものを"
+}

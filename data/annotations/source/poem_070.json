@@ -1,0 +1,65 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "jokotoba": {
+    "text": "寂しさに宿を立出てながむれば",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "ながむれば",
+    "function": "The entire kami-no-ku sets up a causal chain (loneliness → leaving the dwelling → gazing out) that leads into the shimo's revelation; while this is causal-narrative rather than a sound-pivot jokotoba in the strict classical sense, it functions as an extended preface establishing the emotional and physical circumstances under which the shimo's realization occurs. Note: this is borderline — it is better analyzed as causal-physical bipartite structure than true jokotoba, so treat with caution."
+  },
+  "honkadori": {
+    "source_poem": "見わたせば花ももみぢもなかりけり浦の苫屋の秋の夕暮 (Fujiwara no Teika, Shin Kokinshu)",
+    "source_poet": "Fujiwara no Teika",
+    "echoed_phrase": "秋の夕暮",
+    "function": "Ryōsen's poem belongs to the famous group of three 'aki no yūgure' (autumn evening) poems in the Shin Kokinshū, sharing the closing phrase and the topos of desolate autumn dusk as the ultimate expression of sabi; each poem independently arrives at the same closing image, so the echo is topical/conventional rather than a direct quotation of a single earlier source, but the phrase itself had already become a poetic touchstone by the time of composition."
+  },
+  "kigo": {
+    "word": "秋の夕暮",
+    "season": "autumn",
+    "note": "The 'autumn evening' (aki no yūgure) is one of the most heavily loaded seasonal images in the classical canon, especially in Shin Kokinshū aesthetics of sabi and yūgen — it connotes the fading light, the chill, the sense of transience and desolation that autumn dusk conventionally evokes, and this poem is one of the three canonical 'sanseki' (three autumn evening poems) built around exactly this phrase. It governs the entire poem: the loneliness (sabishisa) at the start is retroactively explained and universalized by this closing seasonal image, revealing that the melancholy was never personal or local but is simply the nature of autumn dusk itself, present everywhere the speaker looks."
+  },
+  "furigana": [
+    {
+      "kanji": "寂",
+      "reading": "さび"
+    },
+    {
+      "kanji": "宿",
+      "reading": "やど"
+    },
+    {
+      "kanji": "立出",
+      "reading": "たちいで"
+    },
+    {
+      "kanji": "秋",
+      "reading": "あき"
+    },
+    {
+      "kanji": "夕暮",
+      "reading": "ゆふぐれ"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker, oppressed by loneliness, steps outside the dwelling and gazes out into the distance, seeking perhaps some relief or change of scene.",
+    "shimo_theme": "The gaze finds no relief: everywhere the speaker looks is the same — the desolate scene of an autumn evening, universalizing the loneliness rather than dispelling it.",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The pivot at 'ながむれば' (when I gazed out) is the hinge: the kami-no-ku narrates the physical act of leaving shelter and looking out in search of distraction from sabishisa, and the shimo-no-ku delivers the sensory/inferential discovery that provoked no comfort — the same autumn dusk is everywhere, so the loneliness is revealed to be not situational but existential, inherent to the season itself rather than to the particular dwelling or place."
+  },
+  "poem_number": 70,
+  "poet": "Ryosen Hoshi",
+  "source_jp": "寂しさに\n宿を立出て\nながむれば\nいづこもおなじ\n秋の夕暮"
+}

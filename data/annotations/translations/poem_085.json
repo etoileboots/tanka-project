@@ -1,0 +1,329 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translation keeps the two-part structure — sleepless anguish through the night (L1-4) followed by the indifferent chink of the screen/door (L5-6) — but the pivot is softened by the added word 'peeping', which slightly personifies the gap as watching rather than emphasizing its cruel indifference (つれなし). The projection of emotional betrayal onto the physical gap is present but the key emotional word つれなかりけり (cruel/indifferent) is not rendered with its full force; instead 'peeping, seen' reads more descriptive/voyeuristic than accusatory, weakening the emotional-juxtaposition force somewhat."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "明けやらぬ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "breaking day",
+        "note": "The translator renders 明けやらぬ straightforwardly as the literal sense of dawn not yet breaking ('I waited for the breaking day'), capturing the primary meaning of night not yet turning to day. The secondary resonance of an unresolved emotional state is not distinctly rendered, though the surrounding language of restless waiting arguably carries some of that emotional coloring implicitly rather than through this specific word."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "note": "As in the source, there is no seasonal marker; the poem is a love poem centered on the bedroom (neya) setting, and the translation likewise offers no seasonal imagery — only the atmosphere of a sleepless night of longing, which is emotional rather than seasonal."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Distracted by wretched thoughts, establishing the 物思ふ (lovesick brooding) state",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Restless on a sleepless bed, expanding the 夜もすがら/物思ふ imagery with added physical detail (pallet)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "The night lasting the whole time (夜もすがら) and eye watching wistfully, transitioning toward the dawn-not-breaking idea",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Waiting for the breaking day — corresponds to 明けやらぬ, the night not yet dawning",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The chink/gap of the screen — corresponds to ねやのひま",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The screen guarding the chamber, described as peeping/seen — corresponds to つれなかりけり, though rendered with an added personifying image of peeping rather than direct cruelty/indifference",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation expands the kami-no-ku's single sustained image of sleepless longing into four lines (with added concrete details like 'pallet' and 'wistful eye' not explicit in the source), then compresses the shimo-no-ku into two lines, replacing the emotional accusation of つれなし with a more visual/personifying 'peeping, seen' image of the screen-gap."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, meter-driven English verse (ballad-like couplets) over literal fidelity, expanding the kami-no-ku's emotional interiority with added concrete imagery while softening the shimo-no-ku's core accusation of cruelty into a more visually suggestive 'peeping' image of the door's gap.",
+    "overall_fidelity": "medium",
+    "poem_number": 85,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translator preserves the pivot from the speaker's own anguished waiting (L1-L2: 'All the night long I thought / It will never dawn') to the projection of that same emotional cruelty onto the physical chink of the chamber door (L3-L4: 'Even the chink of my chamber door / Is heartless to me'). The word 'Even' explicitly marks the pivot, mirroring the さへ in the source, and 'heartless' directly translates つれなかりけり, so the emotional-juxtaposition logic is well preserved."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "明けやらぬ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "never dawn",
+        "note": "The translator renders 明けやらぬ straightforwardly as 'It will never dawn,' capturing the literal sense of night refusing to break into day, but does not attempt any secondary resonance of emotional non-resolution; since the source analysis itself treats this as loaded diction rather than a true double-pivot, this literal rendering is an adequate primary-reading translation."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "chamber door",
+      "note": "No seasonal marker exists in the source (kigo is 'none'), and the translation likewise carries no seasonal imagery; 'chamber door' simply renders ねや as a bedroom setting without any seasonal coloring, consistent with the poem's status as a pure love poem rather than a seasonal one."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The speaker spends the whole night lost in painful thoughts of love",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The night refuses to break into dawn",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Even the small gap/chink of the bedroom door",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "That chink is heartless, not letting in the morning light",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator compresses the kami-no-ku's two lines (夜もすがら / 物思ふ頃は) into a single English line 1, then splits ku 3 (明けやらぬ) into line 2 as a separate thought, before moving to shimo-no-ku across lines 3-4, closely mirroring the original five-ku structure in four lines."
+    },
+    "translator_strategy": "Noguchi favors a compact, emotionally direct paraphrase that sacrifices any attempt at wordplay in favor of clearly foregrounding the poem's central conceit — the heartless indifference of the door's chink mirroring an unresponsive lover.",
+    "overall_fidelity": "high",
+    "poem_number": 85,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "The translator preserves the emotional-juxtaposition structure: lines 1-2 establish the speaker's sleepless anguish through the endless night, then lines 3-5 pivot to the physical detail of the shutter's chink failing to show dawn light, echoing the source's move from inner suffering to the indifferent gap in the bedroom door. The 'in vain' phrasing in L3 captures the つれなし sentiment, projecting frustration onto the physical opening, though the personification of cruelty is softened into simple visual failure rather than explicit indifference."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "明けやらぬ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "daybreak's feeble blink",
+        "note": "The translator renders the 'not yet dawning' sense literally as the daybreak failing to fully show itself ('feeble blink'), capturing the primary literal meaning of incomplete dawn, but does not extend this into any secondary resonance about unresolved feeling/relationship; the loaded diction is flattened into a simple visual description of weak light."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "night",
+      "note": "No seasonal marker or atmosphere is present in this translation; consistent with the source analysis noting the poem is not seasonally coded, the translation focuses purely on the love-longing and physical setting (bedroom/shutter) without any seasonal imagery being introduced or implied."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "All through the night (夜もすがら) rendered as 'never-ending' to intensify the duration",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Lying awake in thought (物思ふ頃は)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The vain attempt to see dawn break (明けやらぬ), 'in vain' expressing the frustration of incompleteness",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The daybreak's feeble blink — continuing the description of dawn's weak/incomplete light, bridging into the physical detail of the shutter",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Peep through the shutter's chink — the physical gap (ひま) in the bedroom door/shutter (閨), condensing 'つれなかりけり' into the visual image of light barely peeping through rather than stating indifference explicitly",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Porter prioritizes smooth rhymed, metrical English verse over literal fidelity, converting the source's explicit personified cruelty (つれなかりけり) into a softer, purely visual image of dawn's light barely penetrating the shutter's chink.",
+    "overall_fidelity": "medium",
+    "poem_number": 85,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The speaker's sleepless longing through the night (L1-L3) is followed by the pivot to the bedroom door's crack being 'heartless' too (L4-L5), mirroring the source's projection of the speaker's own suffering onto the inanimate gap in the shutters/doors. The 'even' (E'en) in L4 explicitly signals the extension of cruelty from the emotional realm to the physical detail, preserving the pivot structure faithfully."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "明けやらぬ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "day's dawn lags",
+        "note": "McCauley renders the phrase purely as the literal sense of dawn not yet breaking; there is no attempt to layer a secondary emotional-resolution meaning, consistent with the source analysis's assessment that this is loaded diction rather than a true double-grammar pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "bedroom's crannied doors",
+      "note": "As the source analysis notes, ねや (bedroom) is not a true seasonal marker here; McCauley's rendering as 'bedroom's crannied doors' carries the conventional love-poem setting but introduces no seasonal atmosphere or imagery, consistent with the poem's status as a love poem rather than a seasonal one."
+    },
+    "translator_strategy": "McCauley aims for a fairly literal, line-by-line rendering that preserves the emotional pivot from the speaker's sleepless longing to the personified cruelty of the physical door-crack, using slightly archaic diction ('E'en', 'indeed') to maintain a formal poetic register.",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Establishes the temporal frame 'through the night' corresponding to 夜もすがら",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The speaker's longing/brooding thoughts, corresponding to 物思ふ頃は",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The dawn not yet breaking, corresponding to 明けやらぬ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The crack/gap in the bedroom door, corresponding to ねやのひまさへ",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The door-crack being heartless, corresponding to つれなかりけり",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation maps almost one-to-one onto the five ku divisions of the source, with minimal compression or expansion, preserving the original's sequential logic and pivot point precisely at line 4."
+    },
+    "overall_fidelity": "high",
+    "poem_number": 85,
+    "translator": "McCauley"
+  }
+}

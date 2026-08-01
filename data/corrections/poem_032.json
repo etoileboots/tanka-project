@@ -1,0 +1,317 @@
+{
+  "poem_number": 32,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T02:35:39.348504+00:00"
+    },
+    "devices": {
+      "かけたる": {
+        "status": "removed",
+        "original": {
+          "word": "かけたる",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T02:35:40.646817+00:00"
+      },
+      "紅葉": {
+        "status": "confirmed",
+        "original": {
+          "word": "紅葉",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T02:35:41.513245+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "built": {
+          "status": "removed",
+          "original": {
+            "word": "built",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:18.628552+00:00"
+        },
+        "maple leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "maple leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:19.393553+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:20.613658+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:21.178388+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:21.795656+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:22.361669+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "Mom-ji": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Mom-ji",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T02:36:39.026094+00:00"
+        },
+        "winds of autumn": {
+          "status": "removed",
+          "original": {
+            "word": "winds of autumn",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:25:10.749028+00:00"
+        },
+        "mom-ji": {
+          "status": "confirmed",
+          "original": {
+            "word": "mom-ji",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:25:13.347964+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:48.226753+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:48.627885+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:49.027262+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:50.311210+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:50.743727+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:36:51.444031+00:00"
+        }
+      },
+      "device_links": {
+        "mom-ji": {
+          "status": "corrected",
+          "original": {
+            "word": "mom-ji"
+          },
+          "corrected": {
+            "source_word": "紅葉"
+          },
+          "reviewed_at": "2026-08-01T01:25:08.183503+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "crimson leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "crimson leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:37:03.095132+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T02:37:19.292246+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T02:37:30.375723+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:37:42.544191+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:37:43.474885+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:37:43.957732+00:00"
+        }
+      },
+      "device_links": {
+        "crimson leaves": {
+          "status": "corrected",
+          "original": {
+            "word": "crimson leaves"
+          },
+          "corrected": {
+            "source_word": "紅葉"
+          },
+          "reviewed_at": "2026-08-01T01:25:19.715964+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "builded": {
+          "status": "removed",
+          "original": {
+            "word": "builded",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:37:48.708370+00:00"
+        },
+        "maple leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "maple leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:37:49.574436+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:38:05.842295+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:38:06.291708+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:38:06.975287+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:38:08.125527+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:38:08.657661+00:00"
+        }
+      }
+    }
+  }
+}

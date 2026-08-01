@@ -1,0 +1,70 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "いぶきの",
+      "ku": 2,
+      "reading_primary": "伊吹の (place name Ibuki, famous for mugwort/sashimogusa)",
+      "reading_secondary": "い(言)ふ聞き-adjacent sound play leading into さしも草",
+      "interaction": "Ibuki is the real place name associated with the famous moxa-herb (sashimogusa) grown on Mt. Ibuki, and its sound also sets up the repeated さしも wordplay that follows; it functions as the geographic anchor that makes the jokotoba concrete while its sound continues into the next lines."
+    },
+    {
+      "word": "さしも",
+      "ku": 4,
+      "reading_primary": "さしも (that much, to that degree)",
+      "reading_secondary": "さしも草 (echo of the herb name from ku3, 'moxa-grass')",
+      "interaction": "The repetition of さしも from the jokotoba's さしも草 into the main clause さしも知らじな creates a pivot: the herb-name's sound is reused as the adverb 'to that extent,' so the plant's name and the speaker's claim about the depth of unknown feeling are fused into one utterance — the listener cannot know the speaker's feelings 'that much,' just as the herb of that name burns/smolders."
+    },
+    {
+      "word": "もゆる",
+      "ku": 5,
+      "reading_primary": "燃ゆる (burning, of passion)",
+      "reading_secondary": "(associative with mogusa/moxa burning as medicinal treatment, associative link with さしも草)",
+      "interaction": "もゆる literally describes the burning of romantic passion (思ひ), but it is also the exact verb used for the burning of dried mugwort (moxa) in moxibustion, so the word simultaneously describes the speaker's inner fire and evokes the physical burning of the sashimogusa introduced in the jokotoba, tying the extended preface directly to the emotional payload of the final line."
+    }
+  ],
+  "jokotoba": {
+    "text": "えやはいぶきのさしも草",
+    "ku_span": [
+      2,
+      3
+    ],
+    "pivot": "さしも",
+    "function": "Introduces the famous moxa-herb (sashimogusa) of Mt. Ibuki through an extended, freely-composed preface that leads by sound-association (さしも) into the main statement さしも知らじな, allowing the plant's name to stand in for the depth/intensity of the speaker's hidden passion."
+  },
+  "honkadori": {
+    "source_poem": "Attributed to a poem in the Goshūishū tradition referencing 伊吹山のさしも草 (also cited in later commentary as drawing on conventional associations of Ibuki's mogusa) — most directly this poem's device is considered a self-contained jokotoba rather than a direct textual borrowing from a single named earlier poem",
+    "source_poet": "unattributed convention",
+    "echoed_phrase": "伊吹のさしも草",
+    "function": "This entry is speculative and should be treated with caution; the poem's engagement with Ibuki's sashimogusa is primarily a jokotoba/kakekotoba construction rather than a confirmed direct allusion to one identifiable prior waka."
+  },
+  "kigo": {
+    "word": "さしも草",
+    "season": "summer",
+    "note": "Sashimogusa (mugwort/mogusa, Artemisia used for moxibustion) gathered from Mt. Ibuki was a well-known real product associated with that mountain; mogusa harvesting and use conventionally carries a summer-herb association in classical poetic geography, though here its primary force is wordplay rather than seasonal scene-setting — still, as the one concrete natural/botanical image in the poem it carries the seasonal weight by convention of place-linked produce."
+  },
+  "furigana": [
+    {
+      "kanji": "伊吹",
+      "reading": "いぶき"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "An extended preface built on the name of Mt. Ibuki's famous moxa-herb (sashimogusa), ostensibly just describing how one could never fully say one's feelings",
+    "shimo_theme": "The speaker declares that the beloved cannot possibly know the burning intensity of his hidden passion",
+    "relationship_type": "other",
+    "pivot_note": "The kami-no-ku is a jokotoba built entirely around wordplay on a place-name and plant-name (伊吹のさしも草) that phonetically seeds the repeated さしも of the shimo-no-ku; the shift is not causal or visual but a sonic/semantic bridge in which the herb's name becomes the very word measuring the unspeakable degree of the speaker's love, and the herb's association with burning (moxibustion) resurfaces literally in 'もゆる思ひ' (burning longing) at the poem's close — a device-driven pivot rather than a simple thematic contrast."
+  },
+  "poem_number": 51,
+  "poet": "Fujiwara no Sanekata Ason",
+  "source_jp": "かくとだに\nえやはいぶきの\nさしも草\nさしも知らじな\nもゆる思ひを"
+}

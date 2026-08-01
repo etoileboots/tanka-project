@@ -1,0 +1,68 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "みゆき",
+      "ku": 5,
+      "reading_primary": "みゆき (御幸)",
+      "reading_secondary": "みゆき (深雪/行幸)",
+      "interaction": "みゆき primarily means 'imperial visit/procession' (御幸), the hoped-for return of the emperor to view the autumn leaves, but it also resonates with 深雪 'deep snow' as a poetic homophone, layering the image of snow-like whiteness or the passage of time with the political-ceremonial sense; the two associations reinforce the wish for the sovereign's visit while evoking the visual splendor of the scene."
+    }
+  ],
+  "jokotoba": {
+    "text": "小倉山峰のもみじ葉",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "心あらば",
+    "function": "Sets the scene of the autumn maple leaves on Mount Ogura's peak, establishing the natural image that is then personified and addressed in the following lines, leading into the conditional wish."
+  },
+  "honkadori": {
+    "source_poem": "Traditional court anecdote/allusion to the Emperor Uda's or Emperor Daigo's excursion to Ogurayama, echoed in later classical commentary rather than a single specific Man'yōshū/Kokinshū poem",
+    "source_poet": "unknown/traditional",
+    "echoed_phrase": "今ひとたびのみゆき",
+    "function": "Alludes to the historical event of an imperial excursion to Ogurayama to view the autumn leaves, expressing the wish for its repetition."
+  },
+  "kigo": {
+    "word": "もみじ葉",
+    "season": "autumn",
+    "note": "もみじ葉 (autumn maple leaves) is one of the most quintessential autumn kigo in the waka tradition, symbolizing the peak beauty and transience of the season; here it is personified as having a 'heart' capable of waiting, making the autumn foliage the emotional and visual center of the poem."
+  },
+  "furigana": [
+    {
+      "kanji": "小倉山",
+      "reading": "おぐらやま"
+    },
+    {
+      "kanji": "峰",
+      "reading": "みね"
+    },
+    {
+      "kanji": "心",
+      "reading": "こころ"
+    },
+    {
+      "kanji": "今",
+      "reading": "いま"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The autumn maple leaves on the peak of Mount Ogura are addressed directly and personified, with a conditional wish that 'if you have a heart' (i.e., feeling/sentience)",
+    "shimo_theme": "The speaker asks the leaves to wait for one more imperial visit (miyuki), expressing hope for the return of imperial favor/visitation to view the scenery again",
+    "relationship_type": "other",
+    "pivot_note": "The kami-no-ku personifies the natural scene (the maple leaves) as a sentient being, and the shimo-no-ku turns this personification into a direct plea — the poem pivots from description/personification to entreaty, using the conditional 心あらば ('if you have a heart') as the hinge that transforms static autumn imagery into a courtly wish for continued imperial patronage, blending nature description with political/social longing."
+  },
+  "poem_number": 26,
+  "poet": "Teishinko",
+  "source_jp": "小倉山\n峰のもみじ葉\n心あらば\n今ひとたびの\nみゆきまたなむ"
+}

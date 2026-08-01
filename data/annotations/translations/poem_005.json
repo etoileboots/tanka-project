@@ -1,0 +1,295 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "note": "Kami-no-ku content (maple leaves trampled, deer's plaintive cries heard far and near) is expanded across four lines, and shimo is compressed into a personal emotional reaction ('shivering frame' blaming 'autumn's piercing chills') rather than the source's inferential realization that 'autumn is the saddest season' triggered specifically by hearing the cry. The logical hinge of 'hearing that voice = realizing autumn's sadness' is replaced with a more direct physical/emotional causation (cold weather causing shivering), shifting from sensory-inferential to a quasi-causal, almost literal-physical relationship."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Momiji, autumn's piercing chills",
+      "note": "The translator names 'Momiji' directly (transliterated, retaining the Japanese word untranslated) and explicitly names 'autumn' in the final line, so the season is doubly marked — once through the untranslated Japanese term for maple leaves and once through explicit naming of the season itself. However, the deer's cry as a classical marker of romantic longing/loneliness is reduced to generic 'plaintive cries...heard both far and near', losing the specific autumn-rut connotation, and the shift to 'shivering frame' and 'piercing chills' introduces a wintry-cold physical sensation not present in the original's purely auditory-emotional trigger."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Maple leaves (Momiji) amid the hills",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Trampled beneath the deer's hoof, deep in mountains",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The deer's plaintive, continual cries",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Cries heard far and near — expands 'kiku' (hearing) into a spatial description not in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Speaker's physical reaction — 'shivering frame', invented physical sensation not in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Autumn's chills blamed — corresponds loosely to 'autumn is sad' but recast as physical cold rather than emotional sorrow",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The five-ku source is expanded into six lines by adding descriptive elaboration ('far and near') and by converting the shimo's abstract emotional generalization into a physical bodily sensation ('shivering frame', 'piercing chills'), which is an interpretive expansion not present in the original."
+    },
+    "translator_strategy": "Dickens prioritizes rhyme and metrical regularity (ABAB CC-like scheme) over precise semantic fidelity, expanding the auditory image into spatial description and recasting the shimo's abstract emotional truth as a concrete physical sensation of cold, sacrificing the inferential logic of the original for lyrical flow in English verse convention.",
+    "overall_fidelity": "medium",
+    "poem_number": 5,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1
+      ],
+      "note": "Noguchi puts the shimo-ku's emotional generalization ('How sad is Autumn') in L1, before the kami-ku's sensory scene (deer's cry, hoofs on maple leaves, deep hills) in L2-L4. This reverses the source's order, where the sensory scene precedes and triggers the emotional conclusion. The inferential-sensory logic is thus structurally inverted, though the causal link ('when you hear...') is retained via L2's 'When you hear'."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn / maple leaves",
+      "note": "Season is named explicitly ('How sad is Autumn') and reinforced by 'maple leaves', preserving both the explicit seasonal naming and the imagery of momiji; the deer's cry is also present as the classical autumn auditory topos, though the rutting/loneliness connotation is not explained."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Emotional generalization: autumn is sad — moved to the front, functioning as a thesis statement",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Hearing the deer's cry — merges the cry (ku3) with the 'hearing' trigger (ku4)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Treading maple leaves with hoofs — visual/tactile detail of the deer's movement",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Deep in the mountains — setting, placed last instead of first",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Noguchi restructures the poem in near-reverse order: he front-loads the shimo-ku's emotional conclusion (L1) then works backward through the kami-ku's sensory details (cry, hoofprints, deep hills), essentially inverting the source's kami-then-shimo sequence into shimo-then-kami while still using 'when' to signal the sensory-inferential trigger."
+    },
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and English rhetorical clarity by foregrounding the poem's thematic statement ('How sad is Autumn') before unfolding the sensory scene that justifies it, sacrificing the source's build-up structure for an English exclamatory opening.",
+    "overall_fidelity": "medium",
+    "poem_number": 5,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        5
+      ],
+      "note": "Porter opens with the shimo-ku's 'hear' verb and the deer's call (L1), which in the source comes at the end of kami-no-ku/beginning of shimo-no-ku, before presenting the kami-ku scene of mountain and maple leaves (L2-4). The final line delivers the shimo-ku's emotional conclusion. The sensory-inferential logic (hearing the cry leads to the realization) is reordered so that 'hear' frames the whole poem from the start rather than emerging after the scene is set, weakening the original's progression from image to sound to inference."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "maple leaves / autumn tide",
+      "note": "Both the maple leaves image and the explicit word 'autumn' survive, with 'sad, sad autumn tide' closing the poem in direct correspondence to 秋は悲しき, though the doubled 'sad' is an intensifying addition not in the source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Hear the stag's pathetic call — combines 鳴く鹿 (crying deer) and 声きく (hear the voice), moving the 'hear' verb to the opening",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Far up the mountain side — 奥山に (deep in the mountains)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "tramping o'er the maple leaves — 紅葉ふみわけ (treading through maple leaves)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Wind-scattered far and wide — expands on the scattered maple leaves imagery, adding 'wind-scattered' not explicit in source but consistent with 紅葉 falling",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "This sad, sad autumn tide — 秋は悲しき (autumn is sad), with the connecting 'time'/とき concept implied",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reorders the five ku into five lines that do not map 1:1; the shimo-ku's 'hear' concept is fronted to line 1, kami-ku content spread over lines 2-4 with added embellishment ('wind-scattered'), and the shimo-ku's conclusion isolated in line 5 as a rhyming refrain."
+    },
+    "translator_strategy": "Porter prioritizes rhyme, meter, and singable English verse form over preserving the source's precise ku-by-ku sequence, front-loading the auditory hook and adding descriptive embellishment (wind-scattered) to fill out a rhymed pentameter-ish stanza.",
+    "overall_fidelity": "medium",
+    "poem_number": 5,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "Kami-lines (1-3) present the deer's cry amid mountain foliage as vivid sensory scene; shimo-lines (4-5) render the speaker's inferential emotional response upon hearing ('when I hear... sad, how sad the autumn is'), preserving the sensory-inferential logic of the original: hearing mediates between scene and generalized emotional truth."
+    },
+    "kakekotoba": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "crimson leaves ... autumn",
+      "note": "Both the maple-leaf image (crimson leaves) and the explicit naming of 'autumn' at the close preserve the kigo directly; the deer's cry is also retained as an autumn topos ('wandering stag', 'lonely cry'), reinforcing the seasonal atmosphere of loneliness/longing associated with 鹿の声."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "In the mountain depths — 奥山に",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Treading through the crimson leaves — 紅葉ふみわけ",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Cries the wandering stag — 鳴く鹿の (adds 'wandering' as interpretive gloss)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "When I hear the lonely cry — 声きく時ぞ (adds 'lonely' as interpretive emotional coloring)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Sad,--how sad--the autumn is! — 秋は悲しき, with emphatic repetition rendering the emphatic ぞ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Near one-to-one mapping of each ku to one English line; minor interpretive additions ('wandering', 'lonely') inserted to carry emotional coloring implicit in the original's conventional associations, and the closing exclamation is expanded into a repeated emphatic phrase to render the emphatic particle ぞ."
+    },
+    "translator_strategy": "McCauley pursues a close, line-for-line literal rendering that adds only minimal interpretive glosses (wandering, lonely) to make explicit the emotional resonance the Japanese leaves implicit, while preserving both the explicit autumn kigo and the sensory-inferential kami/shimo structure intact.",
+    "overall_fidelity": "high",
+    "poem_number": 5,
+    "translator": "McCauley"
+  }
+}

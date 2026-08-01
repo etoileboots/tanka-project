@@ -1,0 +1,282 @@
+{
+  "poem_number": 8,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T04:43:20.992851+00:00"
+    },
+    "devices": {
+      "うぢ": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "うぢ",
+          "color": "#F28FC0",
+          "note": "Meaning a place in Kyoto and gloomy."
+        },
+        "reviewed_at": "2026-08-01T00:25:09.679146+00:00"
+      },
+      "山と": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "山と",
+          "color": "#F28FC0",
+          "note": "Old name for Japan and mountain."
+        },
+        "reviewed_at": "2026-08-01T00:25:51.800005+00:00"
+      },
+      "しか": {
+        "status": "removed",
+        "original": {
+          "word": "しか",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-08-01T00:26:12.134934+00:00"
+      },
+      "世": {
+        "status": "removed",
+        "original": {
+          "word": "世",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-08-01T00:26:25.503722+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:26:53.898581+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:26:54.273854+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:26:54.719971+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:26:55.278423+00:00"
+        }
+      },
+      "device_links": {
+        "yo-uji": {
+          "status": "corrected",
+          "original": {
+            "word": "yo-uji"
+          },
+          "corrected": {
+            "source_word": "うぢ"
+          },
+          "reviewed_at": "2026-08-01T00:27:18.663605+00:00"
+        },
+        "mountain": {
+          "status": "corrected",
+          "original": {
+            "word": "mountain"
+          },
+          "corrected": {
+            "source_word": "山と"
+          },
+          "reviewed_at": "2026-08-01T00:27:44.759957+00:00"
+        }
+      },
+      "devices": {
+        "yo-uji": {
+          "status": "confirmed",
+          "original": {
+            "word": "yo-uji",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:27:19.611115+00:00"
+        },
+        "mountain call": {
+          "status": "removed",
+          "original": {
+            "word": "mountain call",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:27:34.456154+00:00"
+        },
+        "mountain": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "mountain",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:27:40.378224+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "like this": {
+          "status": "removed",
+          "original": {
+            "word": "like this",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:27:49.326121+00:00"
+        },
+        "ujiyama": {
+          "status": "confirmed",
+          "original": {
+            "word": "ujiyama",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:27:52.660670+00:00"
+        },
+        "world-sad": {
+          "status": "removed",
+          "original": {
+            "word": "world-sad",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:27:57.594542+00:00"
+        },
+        "World-sad Hill": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "World-sad Hill",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:28:16.376907+00:00"
+        }
+      },
+      "device_links": {
+        "ujiyama": {
+          "status": "corrected",
+          "original": {
+            "word": "ujiyama"
+          },
+          "corrected": {
+            "source_word": "うぢ"
+          },
+          "reviewed_at": "2026-08-01T00:27:56.010421+00:00"
+        },
+        "World-sad Hill": {
+          "status": "corrected",
+          "original": {
+            "word": "World-sad Hill"
+          },
+          "corrected": {
+            "source_word": "うぢ"
+          },
+          "reviewed_at": "2026-08-01T00:28:18.979401+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "thus i choose to dwell": {
+          "status": "removed",
+          "original": {
+            "word": "thus i choose to dwell",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:28:49.471784+00:00"
+        },
+        "the world in which i live": {
+          "status": "removed",
+          "original": {
+            "word": "the world in which i live",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:28:51.307951+00:00"
+        }
+      },
+      "device_links": {
+        "mount of gloom": {
+          "status": "corrected",
+          "original": {
+            "word": "mount of gloom"
+          },
+          "corrected": {
+            "source_word": "うぢ"
+          },
+          "reviewed_at": "2026-08-01T00:28:54.129645+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "device_links": {
+        "hill of care": {
+          "status": "corrected",
+          "original": {
+            "word": "hill of care"
+          },
+          "corrected": {
+            "source_word": "うぢ"
+          },
+          "reviewed_at": "2026-08-01T00:29:05.919551+00:00"
+        },
+        "mount uji": {
+          "status": "corrected",
+          "original": {
+            "word": "mount uji"
+          },
+          "corrected": {
+            "source_word": "うぢ"
+          },
+          "reviewed_at": "2026-08-01T00:29:11.747319+00:00"
+        }
+      },
+      "devices": {
+        "hill of care": {
+          "status": "confirmed",
+          "original": {
+            "word": "hill of care",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:29:02.763192+00:00"
+        },
+        "life": {
+          "status": "removed",
+          "original": {
+            "word": "life",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:29:12.533560+00:00"
+        }
+      }
+    }
+  }
+}

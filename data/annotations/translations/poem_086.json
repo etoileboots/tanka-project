@@ -1,0 +1,318 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator abandons the rhetorical-question/denial structure of the kami-no-ku entirely. Instead of asking whether the moon truly causes grief, L1-2 simply assert that the moonlight night deepens the speaker's melancholy — a direct causal statement, not a rhetorical denial. This removes the paradox: there is no tension between an intellectual denial and an emotional confession, since the moon is straightforwardly blamed from the outset. L3-4 render the tears/face imagery of the shimo-no-ku but as a plain confirmation of sorrow already asserted, rather than as an ironic 'reproachful' betrayal of a prior denial. The bipartite logic is collapsed into a single continuous lament."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かこちがほなる",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "woe betrays",
+        "note": "The source's subtle 'as if reproaching' quality — tears that look accusatory toward the moon despite the speaker's rhetorical denial that the moon causes grief — is replaced by a straightforward declaration that the face 'betrays' woe. There is no trace of the reproachful, quasi-accusatory nuance toward the moon, nor any echo of the rhetorical-question setup it was meant to answer; the paradox and the hinge function of the phrase are both lost."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "moonlight night",
+      "note": "The moon is named directly as 'moonlight night,' preserving the season word explicitly, though the translation strips away the rhetorical-question framing that gave the moon its argumentative, pivotal role in the original; here it functions merely as a mood-setting cause of melancholy rather than as the object of a denied accusation."
+    },
+    "translator_strategy": "Dickens smooths Saigyo's rhetorical paradox into a conventional lyric confession, sacrificing the poem's ironic tension between denial and betrayal for a straightforward, metrically regular lament about moonlit heartache.",
+    "overall_fidelity": "low",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Deepening melancholy under the moon replaces the rhetorical question 'does the moon make one lament?' with a direct causal assertion",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The moonlight night explicitly named as agent of the speaker's love-sick sorrow",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The face betraying woe stands in for the 'reproachful-looking' quality of the tears",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Tears rolling down the cheek renders the closing image of falling tears",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the kami-no-ku's rhetorical question (nageke tote tsuki yawa mono o omowasuru) into a flat declarative statement spread across L1-2, eliminating the interrogative/denial structure; it then expands the shimo-no-ku's tears image into two lines (face and tears) without preserving the 'as if reproaching' irony, resulting in a linear, non-paradoxical narrative of moonlit lovesickness."
+    },
+    "poem_number": 86,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The rhetorical denial in kami (moon does not make me grieve) is preserved via 'The moon has nothing to make / Me think and cry.' The shimo's turn ('But, alas, my own tears alone / Do lament and fall') shifts blame explicitly to the speaker's own tears rather than showing tears reproaching the moon implicitly, which somewhat flattens the subtle self-aware paradox of the original (where the tears still seem to accuse the moon) into a more straightforward statement that the tears alone are the true source of sorrow — the irony survives but the ambiguous accusatory gesture toward the moon is lost."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "かこちがほなる",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "Do lament",
+        "note": "Noguchi renders 'かこちがほなる' (looking as if reproaching) as 'Do lament and fall,' capturing the surface sense of complaint/lament in the tears but losing the implicit directional blame toward the moon that gives the phrase its function as the poem's hinge; the tears simply lament rather than seeming to reproach something specific, so the paradox's subtlety (denial vs. implicit accusation) is diminished."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "moon",
+      "note": "The moon is named explicitly as in the source, preserving the seasonal trigger, though no other autumnal imagery (dew, chill, falling leaves) is added to reinforce the season beyond the bare word itself."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Rhetorical denial: the moon does not compel grief ('なげけとて / 月やは')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Continuation of denial: moon does not make one 'think' (物思はする)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Turn to the speaker's own tears as the true agent ('わがなみだかな')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Tears described as lamenting and falling, corresponding to 'かこちがほなる'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Compressed five ku into four lines; the kami's three ku (なげけとて/月やは/物を思はする) are compressed into two lines (L1-L2), and the shimo's two ku are split across L3-L4, with the pivot phrase かこちがほなる rendered as 'Do lament' in the final line rather than as a modifier of the tears' appearance."
+    },
+    "translator_strategy": "Noguchi prioritizes concise, natural English rhythm and clear logical contrast over preserving the original's ambiguous self-directed irony, turning the poem into a straightforward statement that the speaker's own tears—not the moon—are the source of his sorrow.",
+    "overall_fidelity": "medium",
+    "poem_number": 86,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Porter reverses the poem's logical order: he opens with the tears (shimo content, 'my tears obscure my sight') and only afterward poses the rhetorical question about whether the moon is the cause (kami content, lines 3-5). This inverts the source structure, in which the rhetorical denial of the moon's agency comes first and the tears-as-reproach come second. The paradox itself (attributing sorrow to the moon while implicitly denying it can be responsible) is retained in substance—the speaker still wonders aloud if the moon's light 'saddened' him after already crying—but the order of presentation, and thus the rhetorical effect of the question preceding the confession, is reversed."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かこちがほなる",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "obscure my sight",
+        "note": "The source's 'tears that look as if reproaching' (implicitly blaming the moon while the poem denies the moon's true responsibility) becomes, in Porter, a straightforward causal claim: the tears obscure his sight and he then wonders if the moon's light saddened him. The subtle self-aware paradox—tears that seem to accuse without literal accusation—is replaced by a much more explicit, sequential narrative (crying first, then wondering about the moon), losing the hinge quality of the original phrase; the ambiguity of implicit blame is not really carried by any single word, so this is best read as a transformation of the device's function rather than a preservation of either reading."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "the moon",
+      "note": "The moon is named explicitly and given a melancholy 'light' that 'saddened' the speaker, preserving both the explicit seasonal word and its traditional emotional association with solitary sorrow, though the poem does not otherwise gesture toward autumn (e.g., no dew, wind, or falling leaves), so the seasonal cue rests entirely on the word 'moon' and its conventional connotation rather than an added atmosphere."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The speaker is overcome with sorrow ('pity for this world'), an expansion/paraphrase of the source's tears/reproach imagery moved to the opening.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Tears obscure his sight — corresponds to 'わがなみだかな' (my tears), though the reproachful quality is dropped.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "The rhetorical question 'can it be the moon' directly renders 'なげけとて 月やは物を 思はする' (does the moon truly make me grieve, saying lament?).",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'melancholy light' elaborates the moon's supposed agency, an interpretive expansion of '物を思はする' (make one feel sorrow).",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'Has saddened me to-night' completes the rhetorical question, closing the causal query begun in line 3.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem into a single continuous rhymed stanza that opens with the emotional effect (tears) and ends with the causal question (the moon), effectively inverting the kami/shimo order of the original and dissolving the two-part rhetorical structure into one flowing meditation; the interrogative 'なげけとて' (the moon's imagined command 'lament!') is dropped entirely, softening the rhetorical bite of the opening ku."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhymed English lyric over structural fidelity, reordering the poem's logic (tears first, question second) and paraphrasing the subtle self-reproach of the original into a direct emotional narrative about being saddened by moonlight.",
+    "overall_fidelity": "medium",
+    "poem_number": 86,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The kami rhetorical question (lines 1-3) is preserved faithfully as a question challenging whether the moon truly causes grief. However, the shimo (lines 4-5) is weakened: 'Lifting up my troubled face' and 'the tears, the mournful tears' render the speaker's emotional display but lose the specific nuance of かこちがほなる ('looking as if reproaching/complaining') that supplies the paradoxical answer -- the tears merely seem sad rather than seeming to *accuse* the moon. The logical hinge of self-aware contradiction is softened into simple pathos, so the paradox survives structurally but its sharpest edge (implicit blame) is diluted."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かこちがほなる",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "troubled face",
+        "note": "McCauley renders the phrase as 'Lifting up my troubled face' which captures a general sense of distress/complaint but loses the specific implication of the tears themselves looking as if they reproach or blame the moon; the reproachful/accusatory secondary nuance directed at the moon is not conveyed, leaving only a vague emotional coloring."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "moon",
+      "note": "The moon is named directly in line 1 ('Is it then the moon'), preserving the central kigo explicitly as in the source, though no additional seasonal atmosphere (autumnal chill, loneliness of night) is added beyond the bare noun."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Rhetorical question opening: 'Is it then the moon' corresponds to なげけとて / 月やは物を",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'That has made me sad, as though' continues the rhetorical question, covering 物を思はする",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "'It had bade me grieve?' closes the rhetorical question, echoing なげけとて (bade me grieve) and 思はする",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Lifting up my troubled face' attempts to render かこちがほなる (looking as if reproaching) but shifts emphasis to a physical gesture of lifting the face",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Ah! the tears, the (mournful) tears!' renders わがなみだかな with added exclamatory emphasis and the interpretive gloss 'mournful'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses and slightly redistributes the kami-no-ku's three ku across three lines that read as a continuous rhetorical question, while the shimo-no-ku's two ku are expanded into two lines with an added physical gesture ('lifting up my troubled face') not explicit in the source, and an interpolated adjective 'mournful' in brackets, suggesting some interpretive elaboration beyond strict literalism."
+    },
+    "translator_strategy": "McCauley favors a fluent, moderately paraphrastic rendering that preserves the poem's rhetorical question structure and its central moon imagery, but softens the sharper self-accusatory paradox of the tears into a more generalized expression of sorrowful emotion.",
+    "overall_fidelity": "medium",
+    "poem_number": 86,
+    "translator": "McCauley"
+  }
+}

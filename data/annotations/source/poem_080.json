@@ -1,0 +1,67 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "長からむ",
+      "ku": 1,
+      "reading_primary": "ながからむ (長い, long-lasting)",
+      "reading_secondary": "implicit 流 association via 長/なが root, though primarily 長 'long'",
+      "interaction": "The word 長からむ ('will it be long?') describes both the length of the beloved's heart/affection (constancy) and, through the conventional なが root shared with 流る, evokes the flowing, unbound quality of hair/time; primarily functions as literal 'long' modifying 心, but sets up the black hair (also long, ながい) imagery that follows, linking duration of feeling with the physical length of the hair.",
+      "confidence": "low"
+    },
+    {
+      "word": "みだれてけさは",
+      "ku": 4,
+      "reading_primary": "みだれて (disheveled, tangled - of hair)",
+      "reading_secondary": "みだれて (disturbed, in emotional turmoil - of heart/mind)",
+      "interaction": "みだれて describes simultaneously the physical disarray of the speaker's black hair upon waking and the emotional disorder/agitation of her thoughts and feelings about her lover's uncertain constancy; the tangled hair is the outward correlate of inward turmoil, both grammatically sustained through the verb.",
+      "confidence": "high"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "Uncertainty over whether the beloved's heart will remain constant ('long-lasting'), likened through the image of black hair",
+    "shimo_theme": "This morning the speaker's hair lies tangled and disheveled, and so too her thoughts are thrown into disorder",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The kami-no-ku poses an abstract doubt about the durability of the lover's affection, using 'black hair' (kurokami) as the vehicle of comparison for length/constancy; the shimo-no-ku reveals that this very hair lies disheveled this morning, and the disorder of the hair becomes the visible, physical correlate of the speaker's inner emotional disarray — the poem pivots from doubt about duration to the lived sensation of turmoil, with the tangled hair standing as an implicit simile for the tangled heart."
+  },
+  "kigo": {
+    "word": "黒髪",
+    "season": "none",
+    "note": "Black hair (kurokami) is a staple image of court love poetry but carries no fixed seasonal association; it functions here as a symbol of youth, beauty, and the physical manifestation of emotional disorder rather than as a seasonal marker. No other lexical item in the poem (長からむ, 心, みだれて, けさ, 物思ふ) carries seasonal weight either — けさ ('this morning') is temporal but not seasonal, and 物を思ふ is a conventional expression of love-longing without seasonal specificity.",
+    "confidence": "low"
+  },
+  "furigana": [
+    {
+      "kanji": "長",
+      "reading": "なが"
+    },
+    {
+      "kanji": "心",
+      "reading": "こころ"
+    },
+    {
+      "kanji": "黒髪",
+      "reading": "くろかみ"
+    },
+    {
+      "kanji": "今朝",
+      "reading": "けさ"
+    },
+    {
+      "kanji": "物",
+      "reading": "もの"
+    }
+  ],
+  "poem_number": 80,
+  "poet": "Taiken Monin Horikawa",
+  "source_jp": "長からむ\n心もしらず\n黒髪の\nみだれてけさは\n物をこそ思へ"
+}

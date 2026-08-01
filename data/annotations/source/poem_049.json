@@ -1,0 +1,80 @@
+{
+  "furigana": [
+    {
+      "kanji": "御垣守",
+      "reading": "みかきもり"
+    },
+    {
+      "kanji": "衛士",
+      "reading": "えじ"
+    },
+    {
+      "kanji": "火",
+      "reading": "ひ"
+    },
+    {
+      "kanji": "夜",
+      "reading": "よる"
+    },
+    {
+      "kanji": "昼",
+      "reading": "ひる"
+    },
+    {
+      "kanji": "消",
+      "reading": "き"
+    },
+    {
+      "kanji": "物",
+      "reading": "もの"
+    }
+  ],
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "おもへ",
+      "ku": 5,
+      "reading_primary": "おもふ (to think/yearn)",
+      "reading_secondary": "おもひ contains 火 (hi/fire) association",
+      "interaction": "おもふ literally means 'to think/feel longing,' and its stem おもひ conventionally carries an embedded association with 火 (hi, fire) through the image network established by たく火 — the watchman's fire — so that the burning of love-longing is heard inside the very word for 'thinking of' the beloved, though this is association-driven wordplay rather than a strict two-reading pivot"
+    }
+  ],
+  "jokotoba": {
+    "text": "みかき守 衛士のたく火の",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "の (connecting 'the fire' to its burning/dying pattern, which mirrors the speaker's alternating passion and despair)",
+    "function": "The image of the palace guards' watch-fires, kindled at the gates, is presented in full physical detail purely to furnish the pattern of burning-by-night-and-dying-by-day that is then transferred, in the shimo-no-ku, onto the speaker's own alternating emotional state; the guards and their fire have no further role in the poem's meaning beyond supplying this borrowed rhythm of flame."
+  },
+  "honkadori": {
+    "source_poem": "Poems on watch-fires (mikakimori/eji no taku hi) topos found in Man'yōshū and earlier Nara-period gate-guard imagery",
+    "source_poet": "anonymous (Man'yōshū tradition)",
+    "echoed_phrase": "みかき守 衛士のたく火",
+    "function": "Invokes the established image of the imperial gate-watch fires, kindled nightly by conscripted frontier guards (衛士), lending the poem an air of ritual solemnity and borrowing the physical fact of fires lit at night and extinguished by day as a vehicle for private erotic suffering."
+  },
+  "kigo": {
+    "word": "衛士のたく火",
+    "season": "none",
+    "note": "The watch-fire of the palace guards is not a seasonal image in the classical canon — it is a fixed institutional/ritual image (the eji were corvée guards stationed at palace gates, and their nightly bonfires burned year-round). Other candidate words were checked: 夜 (night) and 昼 (day) are diurnal, not seasonal; 物をおもふ is a stock phrase for lovesickness with no seasonal charge. No genuine kigo is present in this poem; it belongs to the koi (love) category of the anthology rather than any seasonal category."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The physical image of the palace gate-guards' watch-fires, burning visibly through the night and extinguished (unseen) by day",
+    "shimo_theme": "The speaker's own hidden passion, which burns openly in visible torment at night and is suppressed, hidden, and quenched by day — yet never truly extinguished, only unseen",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The entire kami-no-ku functions as an extended jokotoba: the guards' fire, flaring at night and dying down (visually) by day, is not stated to resemble the speaker's love — it simply IS transferred wholesale as the vehicle, with 'moe' (burn) and 'kie' (die out) doing double duty as both literal fire-verbs and, by unstated analogy, verbs of emotional intensity and suppression. The pivot works through pure structural parallelism rather than an explicit stated simile ('like'), which is why the poem's famous rhetorical achievement is to let the fire behave exactly as thwarted passion behaves, without ever naming the comparison."
+  },
+  "poem_number": 49,
+  "poet": "Onakatomi Yoshinobu Ason",
+  "source_jp": "みかき守\n衛士のたく火の\n夜はもえ\n昼は消えつつ\n物をこそおもへ"
+}

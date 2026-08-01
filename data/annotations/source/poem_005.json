@@ -1,0 +1,57 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A deer wandering deep in the mountains, treading through scattered autumn maple leaves, crying out",
+    "shimo_theme": "The speaker's subjective realization that autumn is the saddest season, triggered by hearing that cry",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The kami-no-ku presents a vivid auditory-visual scene (deer crying while treading through fallen maple leaves in the deep mountains); the shimo-no-ku does not describe a new event but is the speaker's inferential/emotional response to hearing that cry — 'when I hear that voice' becomes the moment the abstract truth 'autumn is sad' is realized. The scene is not stated to move the speaker directly; rather, hearing (kiku) mediates between the natural image and the emotional generalization, making this a sensory-inferential structure rather than a direct causal one."
+  },
+  "kigo": {
+    "word": "秋",
+    "season": "autumn",
+    "note": "Maple leaves (紅葉) are a core autumn image marking the turning and scattering of the year; the cry of the deer (鹿の声) is a classical autumn topos representing the male deer's plaintive call for its mate during the autumn rutting season, conventionally read as an emblem of loneliness and longing — a fixed poetic association found throughout the Kokinshū and later anthologies. Together they establish the poem's explicit autumn setting, confirmed by the closing 秋は悲しき."
+  },
+  "furigana": [
+    {
+      "kanji": "奥山",
+      "reading": "おくやま"
+    },
+    {
+      "kanji": "紅葉",
+      "reading": "もみぢ"
+    },
+    {
+      "kanji": "鳴く鹿",
+      "reading": "なくしか"
+    },
+    {
+      "kanji": "声",
+      "reading": "こゑ"
+    },
+    {
+      "kanji": "時",
+      "reading": "とき"
+    },
+    {
+      "kanji": "秋",
+      "reading": "あき"
+    },
+    {
+      "kanji": "悲しき",
+      "reading": "かなしき"
+    }
+  ],
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "poem_number": 5,
+  "poet": "Sarumaru Dayu",
+  "source_jp": "奥山に\n紅葉ふみわけ\n鳴く鹿の\n声きく時ぞ\n秋は悲しき"
+}

@@ -1,0 +1,388 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The kami's thread-of-life imagery (L1-2) and the wish for early death (L3) plus the conditional dread of longer life (L4) are preserved, and the shimo's fear of exposure (L5-6) follows as consequence, so the causal-physical logic survives in outline; however the phrasing compresses the confession into a more declarative 'displayed' outcome rather than the gradual weakening (弱り) of concealment, softening the causal chain into a simpler cause-effect couplet."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "thread",
+        "note": "The exclamatory よ addressing the life-thread is dissolved into a straightforward possessive phrase 'my life ... thread'; no apostrophic address or echo of 世 survives."
+      },
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "longer life",
+        "note": "The idea of enduring/living on is rendered as 'longer life,' capturing the primary sense of continuing to live, but the embedded なが (long) wordplay reinforcing the thread's potential to stretch is not activated as a pun in English, only the plain meaning survives."
+      },
+      {
+        "original_word": "よはり",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "low laid",
+        "note": "The weakening of concealment is replaced by a final image of happiness being 'low laid,' which conveys defeat/ruin generally but loses both the literal 'weakening' sense and any echo of よ/世/夜; the specific mechanics of concealment growing frail are abandoned for a vaguer image of ruined happiness."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal word or imagery exists in the source (kigo is 'none') and none is introduced in the translation either; the poem remains entirely in the register of mortality and secret love with no seasonal marker."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the thread of life, addressed obliquely as 'my life...the thread' rather than as direct apostrophe",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The thread's fated snapping is described as a withering threat that must happen, merging the jokotoba's breaking image with a sense of inevitability",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The speaker's wish that it happen now, echoing 絶えなば絶えね",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Dread of the 'sure hap' of longer life, corresponding to ながらへば's conditional fear",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The secret of their love being displayed/exposed, corresponding to しのぶることのよはりもぞする's feared outcome",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "An added closing image of happiness being 'low laid' forever, extrapolating beyond the literal weakening of concealment into a broader statement of ruined joy",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five ku into six rhymed lines, adding a couplet-closing image ('low laid') not present in the source, which shifts the ending from an ongoing psychological weakening into a completed, dramatic loss of happiness."
+    },
+    "translator_strategy": "Dickens prioritizes English rhyme and metrical couplet form over precise reproduction of the kakekotoba's wordplay, rendering the poem's core narrative (wish for death over exposure) in a smooth, declarative verse that sacrifices the original's punning ambiguity and gradual psychological nuance for closural clarity and poetic effect.",
+    "overall_fidelity": "medium",
+    "poem_number": 89,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translation preserves the basic causal logic — L3 'I fear in longer life' explicitly links continued living to the risk of exposure in L4 — but compresses the kami's three ku into two lines and drops the ながらへば standalone hypothetical, slightly weakening the two-step physical-then-psychological pivot into a single compound clause of fear."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Oh, thread",
+        "note": "The exclamatory 'Oh' captures the apostrophic よ function as interjection but the secondary echo of 世 (life/world) reinforcing the thread-of-life metaphor is not distinctly rendered beyond the literal 'thread of my life' phrase itself."
+      },
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "longer life",
+        "note": "The primary meaning 'if I live on' is rendered as 'longer life,' but the embedded なが (long) resonance with the thread stretching is not specifically activated in English beyond the coincidental 'longer' — this is more a translation artifact than a deliberate pivot preservation."
+      },
+      {
+        "original_word": "よはり",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "hard to keep",
+        "note": "The weakening/frailty sense of 弱り is paraphrased as difficulty in keeping the secret, losing the echo of よ/世 that ties concealment's fragility back to the life-thread metaphor."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As the source analysis confirms, tama no o is not a seasonal image and no natural seasonal marker appears in the source; correspondingly this translation contains no seasonal imagery or atmosphere at all — it is a poem of pure emotional confession about life and hidden love, fully divorced from any seasonal frame, which this translation faithfully reflects by omission.",
+      "en_equivalent": ""
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Apostrophe to the thread of life, addressing it directly",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Wish that the thread break now if it must break at all",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Fear condition: if she lives on longer",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The secret (hidden love) would become hard to keep, i.e. concealment weakening",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The four-line translation maps fairly cleanly one-to-one onto the five ku, with ku 4 and 5 (しのぶることの/よはりもぞする) compressed into a single line 4 ('My secret would be hard to keep'), collapsing the distinct image of 'weakening' into a more general difficulty-of-concealment statement."
+    },
+    "translator_strategy": "Noguchi prioritizes plain, compact literal sense and emotional clarity over reproducing the sonic echoes of the kakekotoba, rendering the poem's causal logic in four straightforward lines while sacrificing the layered wordplay tying life, duration, and weakening together phonetically.",
+    "overall_fidelity": "medium",
+    "poem_number": 89,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Porter drastically reorders and reinterprets the poem: he opens with 'ailments of advancing years' (shimo's fear of weakening, reassigned to old age rather than concealment failing) and 'though I should try to hide' (echoing the concealment theme of shinoburu), then moves to the thread/pearls imagery (kami) as an image of eventual breaking, closing with a generalized moral 'Age cannot be defied.' The causal-physical logic — that living on causes concealment to fail — is replaced by a generic meditation on aging and inevitable decline, collapsing the two ku groups into a single continuous statement about old age.",
+      "relationship_type": "generalized-moral (aging inevitability) rather than causal-physical (life-continuance causing exposure of hidden love)"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "advancing years",
+        "note": "The exclamatory apostrophe to the life-thread is replaced with a flat reference to old age; no echo of 世 or address to the thread as a living thing survives."
+      },
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "advancing years",
+        "note": "The conditional 'if I live on' is converted into a general statement about aging; the embedded なが (long) resonance and the conditional structure are both lost, replaced by a static noun phrase."
+      },
+      {
+        "original_word": "よはり",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "cannot be defied",
+        "note": "The weakening of concealment (しのぶることのよはり) is generalized into 'age cannot be defied,' losing both the echo of 世/夜 and the specific psychological content of failing self-control over hidden love."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "advancing years",
+      "note": "The source has no seasonal kigo (tama no o is a life-thread metaphor, not seasonal), and Porter's translation likewise contains no seasonal imagery — he reframes the poem entirely around aging rather than nature, which is consistent with the source's non-seasonal content."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Reframes the shimo's fear of weakening concealment as 'ailments of advancing years,' shifting from hidden love to physical aging",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Though I should try to hide' echoes しのぶる (concealing) from ku 4",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'The thread will break, the pearls' returns to the kami's tama no o (jeweled thread) imagery of ku 1-2",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'Be scattered far and wide' elaborates on the breaking of the thread (絶えなば絶えね) with an invented image of pearls scattering, not present in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            5
+          ],
+          "content_summary": "'Age cannot be defied' generalizes ながらへば (living on) and よはり (weakening) into a moralizing conclusion about the inevitability of aging",
+          "origin": "source"
+        }
+      ],
+      "confidence": "low",
+      "structural_note": "Porter inverts the poem's order, placing shimo-derived content (hiding, weakening) first and kami-derived content (thread/pearls breaking) in the middle, then closes with an invented generalization about age that has no direct correlate in the source; the causal love-versus-death logic is replaced by a moral about aging, and the pearls-scattering image is an invented elaboration not in the original."
+    },
+    "translator_strategy": "Porter sacrifices the poem's specific rhetorical logic (life-thread as metaphor for concealed love) in favor of a free, moralizing paraphrase about the inevitability of old age, reordering and inventing imagery (scattered pearls) to fit rhyme and meter over literal fidelity.",
+    "overall_fidelity": "low",
+    "poem_number": 89,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "McCauley preserves the causal-physical logic: the kami's wish for the thread of life to break now (L1-2) and the conditional 'if yet I live' (L3) sets up the shimo's fear that continued life will weaken her capacity to hide her love (L4-5), matching the source's structure where physical endurance causes psychological collapse of concealment."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "よ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Life!",
+        "note": "McCauley renders よ as an exclamatory apostrophe attached to 'Life!' capturing the interjection function and the life-thread address, but the secondary echo of 世 as a distinct pivoted meaning is not separately activated — it simply merges into the direct address."
+      },
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "if yet I live",
+        "note": "The primary meaning 'to live on/endure' is rendered directly as 'if yet I live', but the embedded なが (long) resonance suggesting duration/length is not separately conveyed in the English wording."
+      },
+      {
+        "original_word": "よはり",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "grow weak",
+        "note": "The weakening of concealment is translated literally as 'grow weak', but the embedded よ echo tying frailty back to 世/夜 and the life-thread is not reproduced or hinted at in the English."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "The source itself carries no seasonal kigo (tama no o is a life-thread metaphor, not seasonal), and this translation likewise contains no seasonal imagery or atmosphere; the poem remains purely about mortality and hidden love in both source and translation."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Apostrophe to the life-thread ('gems' string), addressing it directly",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Wish that if the thread must end, let it break now",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Conditional: if she continues living",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Everything she does to hide her love",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Fear that concealment will grow weak and fail",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "McCauley maps almost one-to-one, five English lines to five ku, preserving the original's sequential logic without compression or expansion; parenthetical glosses '(my love)' and '(and fail)' are added as clarifying insertions rather than structural shifts."
+    },
+    "translator_strategy": "McCauley pursues a close, line-by-line literal fidelity to the Japanese syntax and imagery, using parenthetical glosses to clarify implicit content rather than inventing new imagery or compressing the ku structure.",
+    "overall_fidelity": "high",
+    "poem_number": 89,
+    "translator": "McCauley"
+  }
+}

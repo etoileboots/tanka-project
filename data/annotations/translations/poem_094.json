@@ -1,0 +1,331 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The translator keeps the wind/night scene in the first lines and moves to the sound of cloth-beating heard from the village in the final lines, roughly preserving the inferential-sensory logic where the wind and night atmosphere frame the perception of the fulling sound; however, the causal link ('cold' motivating the poignancy of the sound) is weakened since 'cold' as a descriptor of the furusato is replaced by 'lonely,' shifting emphasis from physical chill to emotional solitude."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふるさと",
+        "reading_preserved": "secondary_only",
+        "method": "paraphrase",
+        "en_equivalent": "lonely village",
+        "note": "The translator renders furusato as 'lonely village home,' capturing the emotional/nostalgic resonance (secondary sense of decline/solitude) but dropping the literal 'old/former capital' sense and the ふる/経る wordplay on aging entirely; 'lonely' substitutes emotional coloring for the temporal-decay pun."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn-gusts",
+      "note": "The season is named directly in the opening line ('autumn-gusts'), explicitly preserving the kigo and its associated chill/loneliness atmosphere, and the imagery of wind and night reinforces the seasonal mood throughout."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Autumn wind blowing (秋風)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Location: Miyoshino's mountain slope (みよし野の山)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Night deepening, described with added mood word 'drear' (さよふけて)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Sound of cloth being beaten (衣うつなり)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Wind carrying the sound to the speaker, expanding on the wind imagery from kami-no-ku",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The lonely village home, and the speaker's act of hearing (ふるさとさむく)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation expands the five ku into six lines, inserting an extra line (L5) that re-invokes the 'night-wind' to carry the sound to the speaker — a poetic amplification not explicit in the source but consistent with the inferential logic already present (wind/night context explaining the perceived sound); the cold (寒く) of ku 4 is displaced into emotional 'lonely' rather than physical chill, and 'drear' in L3 is an added descriptor not in the source."
+    },
+    "translator_strategy": "Dickens prioritizes fluent, rhymed English verse with added descriptive and emotional coloring (e.g., 'drear,' 'lonely'), favoring atmosphere and rhyme over precise lexical fidelity to the source's spare diction and its ふるさと wordplay.",
+    "overall_fidelity": "medium",
+    "poem_number": 94,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The translator keeps the two-part structure (wind/night deepening in L1-2, then the cold sound of cloth-beating in L3-4), but compresses the causal/inferential link into a simple sequence rather than making explicit that the cold wind explains the poignancy of the sound; the ふるさと (old village/former capital) is rendered as 'my mountain home', which personalizes rather than historicizes the site, slightly weakening the inferential logic that ties landscape-cold to human perception of the fulling sound."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ふるさと",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "mountain home",
+        "note": "Noguchi renders ふるさと as 'my mountain home,' which loses both the 'old village/former capital' sense (place-noun denoting the abandoned Yoshino palace site) and the ふる/古る echo of aging and passage of time; instead it becomes a warm, personal image of home, erasing the historical-nostalgic resonance entirely."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn wind",
+      "note": "The season is named directly in line 1 ('the Autumn wind blows'), preserving the kigo explicitly rather than only through imagery, though the deeper emotional connotations of 秋風 (loneliness, transience) are only partially carried by the simple phrase."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Wind blowing through Miyoshino mountains, naming the autumn wind directly",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Night deepens (さ夜ふけて)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The beating sound of cloth (衣うつなり)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Cold at the old village/home (ふるさとさむく), reinterpreted as 'my mountain home'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders content slightly: the shimo-no-ku's two elements (ふるさとさむく / 衣うつなり) are split across L3-L4 but in reverse order relative to the source, placing the sound before the location/coldness, which mildly inverts the shimo-no-ku's internal sequence while keeping the overall kami-then-shimo bipartite division intact."
+    },
+    "translator_strategy": "Noguchi favors a compact, personalized lyrical rendering that names the season explicitly and simplifies the historically-loaded ふるさと into an intimate 'mountain home,' prioritizing emotional immediacy over the poem's nostalgic and historical resonance.",
+    "overall_fidelity": "medium",
+    "poem_number": 94,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "explicit-causal narrative rather than inferential-sensory",
+      "note": "Porter turns the inferential/sensory link (deep night, cold wind implying the poignancy of a sound heard in darkness) into a straightforward sequential narrative: wind blows (kami), then villagers are heard beating cloth (shimo). The 'ふるさと寒く' cold-village clause is folded into a generic 'this night so cold and clear' tag at the end rather than functioning as the cause the speaker infers from sound alone. Also 'merry din' introduces a cheerful tone absent from the melancholic original, displacing the emotional register of the bipartite link."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ふるさと",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "villagers",
+        "note": "Porter converts ふるさと (old/former village, with the ふる= aging/passing-time resonance) into 'villagers,' losing both the place-noun 'old capital site' sense and the temporal/aging undertone; the pivot's double meaning is not attempted at all."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn winds",
+      "note": "The season word 秋風 is translated directly and explicitly as 'autumn winds,' though the accompanying adjective 'drear' substitutes for the more ambiguous melancholic connotation of the original rather than pure cold; the seasonal naming itself is fully retained."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, singable quatrain-plus-tag form (ballad-like meter and rhyme scheme) over precise semantic fidelity, smoothing the poem's subtle inferential logic and melancholic tone into a straightforward narrative with an incongruously cheerful 'merry din.'",
+    "overall_fidelity": "low",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Setting: around Mount Miyoshino's peak",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The autumn winds blow, described as 'drear'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Villagers beating cloth (fulling), collapsing the deepening-night ku 3 and cold-village ku 4 into background for the fulling action",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Speaker hears the sound, characterized incongruously as 'merry din'",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Night described as cold and clear, echoing さよふけて (night deepening) and ふるさとさむく (cold at the old village), relocated to the end as an atmospheric tag",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem into a rhymed ballad stanza (ABABB-ish), relocating the 'night deepening/cold village' content (ku 3-4) to the final line as a closing descriptive tag rather than preserving its role as the inferential trigger for the shimo-no-ku's sound perception; this compresses and reorders the original's sequential logic."
+    },
+    "poem_number": 94,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The translation keeps the kami-no-ku as the atmospheric setup (mountain, autumn wind, deepening night) and shimo-no-ku as the perceived cold and sound of cloth-beating, preserving the inferential-sensory logic where the cold wind explains the poignancy of the sound heard in darkness."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ふるさと",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "ancient hamlet",
+        "note": "McCauley renders ふるさと as 'ancient hamlet,' capturing the primary sense of an old/former village and even reinforcing the aging connotation through 'ancient,' but the wordplay pivot itself (ふる as verb 'to age/pass time') is not rendered as a distinct double meaning—only the noun sense with an adjective hinting at age survives, so the secondary verbal resonance is folded into the adjective rather than preserved as a true pivot."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "autumnal wind",
+      "note": "The season is named directly via 'autumnal wind,' explicitly preserving both the seasonal word and its emotional charge of loneliness and chill that motivates the scene."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Mount Yoshino as the setting",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "the cold autumn wind blowing",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "night deepening",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "the old hamlet is cold",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "the sound of cloth being beaten is heard",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation maps almost one-to-one onto the five ku divisions, preserving the original's sequential unfolding without compression or inversion."
+    },
+    "translator_strategy": "McCauley pursues a close, line-by-line literal rendering that mirrors the five-ku structure and explicit seasonal vocabulary, sacrificing the subtler wordplay of ふるさと for clarity and fidelity to surface meaning.",
+    "overall_fidelity": "high",
+    "poem_number": 94,
+    "translator": "McCauley"
+  }
+}

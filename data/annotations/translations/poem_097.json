@@ -1,0 +1,384 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "The translator turns the implicit smoldering-simile into an explicit comparative statement ('My ardent passion, than the fire...rages higher'), making the kami/shimo relationship an overt simile of intensity comparison rather than the original's fused, understated jokotoba-into-simile structure. The waiting theme is expanded into a narrative of a broken rendezvous ('why linger'st thou so late') that is not present in the source, which only implies waiting for an unnamed absent lover, not a promised meeting."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "まつほ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Matsu'ho's shore",
+        "note": "The place name is preserved as a literal toponym ('Matsu'ho's shore'), but the secondary evocation of 松/待つ (waiting) tied to it is not activated through wordplay; the waiting sense is instead conveyed separately through narrative content in L2-L4."
+      },
+      {
+        "original_word": "やく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "heats the salt-pans",
+        "note": "Rendered as literal salt-making activity ('heats the salt-pans'); the fused secondary sense of self-consuming longing is not carried by this verb itself but displaced into the separate simile in L5-L6."
+      },
+      {
+        "original_word": "こがれ",
+        "reading_preserved": "secondary_only",
+        "method": "partial",
+        "en_equivalent": "rages higher",
+        "note": "The emotional burning of longing survives clearly ('ardent passion...rages higher') but the physical scorching of the moshio brine is only referenced as an external comparison object ('than the fire that heats the salt-pans'), not fused into the same verb/image as in the source's single continuous participle こがれ."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "dusky hour",
+      "note": "The evening setting is preserved ('At dusky hour of night'), conveying the atmosphere of dusk by the shore, but the specific 夕なぎ (evening calm, associated with summer coastal stillness) is reduced to generic nighttime imagery without the calm/becalmed quality, and no explicit season is named."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Names Matsuho's shore, recast as 'our meeting place' (an invented detail not in source)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Evening dusk setting, waiting",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Longing for the absent lover ('mistress') described as target of waiting/embrace",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Rhetorical exclamation reproaching the lover for lateness — an expansion/dramatization not explicit in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The speaker's passion described as more intense than fire",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The salt-pan fire referenced as the object of comparison",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders and dramatizes the poem into a rhymed narrative stanza: kami-no-ku content (waiting, place, dusk) is expanded into an implied scene of a broken rendezvous with direct address ('why then linger'st thou'), while shimo-no-ku content is turned into an explicit simile ('than the fire...rages higher') rather than the source's fused metaphorical image, inverting the original's understated technique into overt comparison and added dramatic dialogue."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, dramatized English lyric that narrativizes the waka's implicit longing into an explicit reproachful address to an absent lover, sacrificing the pivot words' double meanings and the jokotoba's fused imagery for clarity, meter, and rhyme.",
+    "overall_fidelity": "low",
+    "poem_number": 97,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator restructures the poem so that the simile (heart burning like salt fire) appears first (L1-L3), and the waiting-for-the-lover content (kami-no-ku's core emotional point, 'こぬ人を') is pushed to the final line as a rhetorical question, reversing the original order in which the waiting/absence is stated first and the burning-simile follows as a revelation in the shimo-no-ku."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "まつほ",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "Matsuho shore",
+        "note": "The place name Matsuho is preserved literally as a toponym, but no play on 待つ (waiting) is activated through wordplay in the English; however, the poem's added 'my heart pining' before the toponym partially reconnects the waiting theme by proximity rather than through the wordplay of the name itself."
+      },
+      {
+        "original_word": "やく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "fire heats",
+        "note": "The literal salt-burning image (fire heating the salt water) is preserved, but the secondary sense of the fire as a metaphor for the self scorching with longing is not fused into 'やく' itself; it is instead expressed separately in L1 ('pining')."
+      },
+      {
+        "original_word": "こがれ",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "heart pining",
+        "note": "Rather than fusing the physical scorching of moshio brine and the emotional burning of longing into a single verb as in the source, the translator splits them: 'pining' (L1) carries the emotional charge while 'fire heats the salt water' (L2) carries the literal image; the pivot's fused double-meaning is replaced by two separate juxtaposed images that gesture at the same comparison without collapsing into one word."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "evening calm",
+      "note": "The phrase 'evening calm of Matsuho shore' preserves the imagery of 夕なぎ (evening calm) associated with the coastal summer scene, though the season itself is never named explicitly."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            5
+          ],
+          "content_summary": "Speaker's heart pining — a fusion of the opening 'こぬ人を' waiting motif and the shimo-no-ku's emotional burning ('身もこがれつつ'), moved forward to open the poem.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The salt-burning fire image (やくやもしほの) rendered as a simile: 'Like fire heats the salt water'.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The coastal scene at Matsuho bay in the evening calm (まつほの浦の夕なぎに).",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The absent lover motif (こぬ人を) restated explicitly as a question, 'Wouldn't my love come?', closing the poem instead of opening it.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator restructures the poem into an explicit simile form ('Like fire heats...') and relocates the absence/waiting theme (こぬ人を) to the final line as a rhetorical question, effectively inverting the source's kami-shimo order while compressing the extended jokotoba (ku2-4) into a single simile line."
+    },
+    "translator_strategy": "The translator prioritizes clarity and emotional immediacy over structural fidelity, restating the poem's implicit simile as an explicit 'Like...' comparison and relocating the waiting/absence theme to a closing rhetorical question, sacrificing the original's word-pivot fusion and kami-shimo sequencing for readability.",
+    "overall_fidelity": "medium",
+    "poem_number": 97,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "Porter maintains the two-part structure (scene at Matsuho / burning salt vs speaker's own consuming longing), and explicitly states the simile with 'Are not more parched than I!' rather than leaving it implicit as in the source's jokotoba structure. The comparison is made overt rather than embedded through wordplay, so the underlying logic survives but the rhetorical technique (extended preface leading into a submerged pivot) is replaced by direct simile statement — a partial preservation."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "まつほ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Matsu-hō",
+        "note": "Porter keeps the place name Matsu-hō as a toponym but adds 'I pine and sigh' nearby, which gestures toward the 待つ (waiting) association abstractly through the verb 'pine' rather than through the place name itself — the pun is not carried by the same word, so the toponym itself only carries the primary geographic reading."
+      },
+      {
+        "original_word": "やく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "salt-pans",
+        "note": "The burning of brine is rendered through the image of 'salt-pans caked and dry,' preserving the literal salt-making reading but dropping the fused sense of the speaker's own body burning at this specific point in the poem (that emotional burning is deferred to line 5's 'parched')."
+      },
+      {
+        "original_word": "こがれ",
+        "reading_preserved": "both",
+        "method": "paraphrase",
+        "en_equivalent": "more parched",
+        "note": "Porter fuses the two meanings by comparing the dried-out salt-pans directly to the speaker's own parched state ('Are not more parched than I'), preserving the emotional heart of the pivot — both the imagery of desiccation/burning and the personal longing — though through explicit simile rather than a single pivot word carrying both senses simultaneously."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "calm and cool",
+      "note": "The 'calm and cool the evening air' phrase conveys the tranquil evening-calm (夕なぎ) atmosphere associated with summer coastal dusk, though the word 'cool' shifts the sensory register slightly toward autumn-like coolness rather than the sultry stillness typically implied by summer evening calm; the season is not named but its still, hushed quality survives."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Setting the scene at the shore of Matsuho",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Speaker's longing/waiting for the absent one, made explicit with 'For thee I pine and sigh'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The calm evening air, corresponding to 夕なぎ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The salt-pans, caked and dry, standing in for the salt-burning fires (やくやもしほ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Explicit simile: the speaker is more parched/consumed than the salt-pans, corresponding to 身もこがれつつ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter reorders content slightly (moving the direct declaration of longing to line 2, ahead of the scene-setting jokotoba elements in lines 3-4) and converts the source's submerged pivot-word simile into an explicit final-line comparison, effectively resolving the jokotoba/kakekotoba structure into straightforward discursive simile."
+    },
+    "translator_strategy": "Porter prioritizes clarity and a tidy rhymed quatrain-plus-couplet form in English verse, converting the poem's submerged jokotoba/kakekotoba wordplay into an explicit, readable simile ('not more parched than I') at the cost of the original's compressed double-meaning technique.",
+    "overall_fidelity": "medium",
+    "poem_number": 97,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        4
+      ],
+      "note": "McCauley opens with the simile vehicle ('Like the salt sea-weed, / Burning in the evening calm') before the place-name and the waiting-lover content, reversing the original kami-then-shimo order into a shimo-then-kami sequence; the simile-implicit relationship survives structurally (burning seaweed vs. burning body) but its sequential logic is inverted, and the final line restores the 'does not come' idea from ku1 at the very end.",
+      "relationship_type": "simile-implicit (inverted order)"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "まつほ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Matsuo's shore",
+        "note": "Rendered as a straightforward place name ('Matsuo's shore') with no attempt to evoke the pine/waiting (待つ) resonance; only the toponymic reading survives."
+      },
+      {
+        "original_word": "やく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Burning",
+        "note": "Translated as the literal burning of the seaweed in the salt-fires; the fused sense of the speaker's own scorching desire is not yet activated at this point in the translation, appearing separately in line 4 instead of being grammatically fused."
+      },
+      {
+        "original_word": "こがれ",
+        "reading_preserved": "both",
+        "method": "bilingual_pun",
+        "en_equivalent": "aglow",
+        "note": "By using 'aglow' for the speaker's being immediately after presenting the burning seaweed simile, the translator preserves both the physical combustion image and the emotional longing sense as a unified metaphor, even though it is split across two lines rather than fused in a single word."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "evening calm",
+      "note": "The literal season word is absent, but 'evening calm' directly translates 夕なぎ and preserves the tranquil dusk coastal atmosphere associated with the summer kigo, conveying the seasonal feeling through imagery rather than naming the season."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Introduces the simile vehicle: the salt-seaweed (moshio) that will be scorched, drawn from ku4 やくやもしほの but moved to the front.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The evening calm (夕なぎ) setting in which the burning takes place, corresponding to ku3.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The place name Matsuho/Matsuo's shore, corresponding to まつほの浦 in ku2.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The speaker's own being burning/aglow with longing, corresponding to 身もこがれつつ in ku5.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The absent lover who does not come, corresponding to こぬ人を in ku1, relocated to the final line for closural emphasis.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator has restructured the poem's linear order, moving the shimo-no-ku's central image (burning seaweed) to the opening and delaying the kami-no-ku's initial statement (the non-arriving lover) to the very end, producing a chiastic/ring structure rather than the original's front-to-back progression from waiting-scene to burning-heart revelation."
+    },
+    "translator_strategy": "McCauley prioritizes a vivid, front-loaded simile image (burning seaweed) over preserving the original's linear kami-to-shimo sequence, restructuring the poem into a ring composition that ends emphatically on the unrequited waiting rather than the burning metaphor.",
+    "overall_fidelity": "medium",
+    "poem_number": 97,
+    "translator": "McCauley"
+  }
+}

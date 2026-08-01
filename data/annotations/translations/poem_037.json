@@ -1,0 +1,319 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation maintains a rough kami/shimo split (wind/moor description then dew scattering), but the implicit jewel/thread conceit central to the source's simile-implicit relationship is entirely dropped — the shimo becomes a literal restatement of dew falling and lying on the grass rather than a figurative reinterpretation of the dew as unstrung jewels. This weakens the pivot from perceptual metaphor to plain narrative continuation, so the relationship type is preserved only in weakened form."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "つらぬきとめぬ玉",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "dew-drops fly",
+        "note": "The 'unstrung jewels' conceit (tama) is entirely absent; the translator renders the dew scattering literally as drops flying and lying on the grass, losing both the jewel imagery and the implicit visual conceit of unthreaded beads."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn gust",
+      "note": "The season is named directly via 'autumn gust,' and the imagery of dew on the moor, wind, and reeds reinforces the classical autumn atmosphere, though the jewel-conceit that intensifies the fragility theme of autumn dew is lost."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "The translation expands the five-ku poem into five rhymed lines with added narrative embellishment (e.g., 'Scarce lurks as instant mid the reeds I ween') that has no direct equivalent in the source, diluting the tight bipartite structure into a more discursive descriptive scene.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "Dew sparkling on the moor — combines shiratsuyu and aki no no imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Autumn wind sweeping across the moor",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [],
+          "content_summary": "Invented image of momentary lurking amid reeds — not present in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Dew-drops fly in a timid shower — corresponds to scattering jewels but rendered literally",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Dew scattered lying on the grass",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens prioritizes a flowing, rhymed English lyric with added descriptive embellishment over precise rendering of the source's central jewel conceit, sacrificing the kakekotoba-adjacent tama imagery for atmospheric expansion.",
+    "overall_fidelity": "low",
+    "poem_number": 37,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translation maintains the causal-visual pivot: the autumn field of dew struck by gusting wind (kami, lines 1-2) leads to the visual reinterpretation of the scattered dew as stringless pearls (shimo, lines 3-4). The word 'Lo' even marks the moment of perceptual shift, echoing the implicit-simile pivot noted in the source analysis."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "つらぬきとめぬ玉",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "stringless pearls",
+        "note": "The translator renders the conceit literally and effectively as 'stringless pearls,' preserving the primary visual metaphor of dew as unstrung jewels; since the source analysis rejects a secondary kakekotoba reading here, this is essentially a straightforward literal rendering of the central conceit rather than a true pivot, and no secondary meaning was ever in play to lose."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn field",
+      "note": "The season is named outright in line 1 ('Over the Autumn field'), directly translating 秋の野, and the accompanying imagery of dew and wind reinforces the classical autumn atmosphere of fragility and transience."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The autumn field setting is named up front, reordering the source's sequence which places 'autumn field' (ku3) after the dew and wind (ku1-2)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "White dews being struck/blown by gusting wind, combining ku1 (white dew) and ku2 (wind blowing hard)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The exclamation 'Lo' marks the perceptual turn to the central conceit: the dew reimagined as stringless pearls (つらぬきとめぬ玉)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The pearls/dew are scattered away, translating 玉ぞちりける",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator reorders the kami-no-ku internally, front-loading 'Autumn field' (originally ku3) into line 1 before the dew and wind imagery (ku1-2) in line 2, likely for smoother English syntax; the shimo-no-ku (ku4-5) is preserved in its original sequence and clearly separated by the exclamatory 'Lo' which marks the shift from literal to figurative perception."
+    },
+    "translator_strategy": "Noguchi opts for a compact, evocative four-line rendering that reorders the kami-no-ku for natural English syntax while preserving the poem's core visual conceit and marking the perceptual pivot with the interjection 'Lo'.",
+    "overall_fidelity": "high",
+    "poem_number": 37,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator maintains the basic order (dew-as-jewels imagery first, wind scattering them second), but restructures the causal logic: the source has wind blowing THEN dew appearing as unstrung jewels, whereas here the jewel-imagery is foregrounded first with an explicit simile ('Like diamonds') and the wind's action is appended almost as an afterthought/aside ('But / The autumn wind, alas!'), weakening the tight cause-effect physicality of the original and adding a first-person observer ('as I pass') not present in the source."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "つらぬきとめぬ玉",
+        "reading_preserved": "transformed",
+        "method": "paraphrase",
+        "en_equivalent": "sparkling jewels",
+        "note": "The source's conceit of dew as jewels that were never strung on a thread (hence able to scatter) is reduced to a generic simile ('Like diamonds', 'sparkling jewels') without the specific 'unstrung/unthreaded' image; the scattering action is preserved via 'Scatters them' but the jewel-string conceit itself is lost, so the precise metaphor is transformed into a looser decorative comparison rather than reproduced."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn wind",
+      "note": "The season is named directly via 'autumn wind,' though it appears later in the poem (line 4) rather than at the outset as in the source's 'aki no no' (autumn moor), and the moor/field setting itself is dropped in favor of generic 'grass.'"
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the morning dew scene, adding 'lovely morn' and first-person flash imagery not in source",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Simile of dew as diamonds on grass, anticipating the jewel imagery of ku4 but placed early",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Continues jewel imagery with exclamatory emphasis, extrapolating tone ('A blaze of sparkling jewels!')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Names the autumn wind, corresponding to kami-no-ku's wind blowing across the moor",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Wind scatters the jewels; adds an invented first-person observer 'as I pass' not present in source",
+          "origin": "extrapolated"
+        }
+      ],
+      "structural_note": "The translator inverts the poem's presentation order: the source moves wind→dew→jewel-conceit (kami then shimo), but this translation front-loads the jewel/diamond imagery (originally the shimo's culminating metaphor) into lines 1-3, then introduces the wind causally afterward in line 4, reversing the perceptual sequence of the original; it also adds an invented first-person speaker ('as I pass') absent from the source."
+    },
+    "translator_strategy": "Porter prioritizes a rhyming, musically pleasing English quatrain-plus-refrain over structural and lexical fidelity, front-loading vivid jewel imagery and adding a first-person observer to create a sentimental vignette rather than reproducing the poem's precise wind-then-jewel causal logic.",
+    "overall_fidelity": "medium",
+    "poem_number": 37,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation maintains the same structural sequence: lines 1-3 describe the wind blowing over the autumn field and dew (kami), and lines 4-5 present the visual conceit of the dew as scattered, unstrung jewels (shimo), preserving the implicit simile logic of the original without stating 'like'."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "つらぬきとめぬ玉",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "unstrung gems",
+        "note": "McCauley renders the conceit literally as 'unstrung gems' scattered about, capturing the primary visual metaphor of dew as jewels not threaded together; since the source analysis rejects any secondary pivot reading (魂) as ungrammatical, only the primary reading is relevant and it is preserved faithfully."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn fields",
+      "note": "The season is named outright in the opening line ('autumn fields'), and the imagery of dew, wind, and open grassland further reinforces the classical autumn topos of fragility and transience."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Sets the scene: autumn fields (aki no no)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The wind blowing continuously/heedlessly",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The pure-white dew (shiratsuyu) being struck by wind",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The dew reimagined as myriad unstrung jewels/gems",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The jewels/dew scattering everywhere",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator reorders the first three ku slightly (moving the 'autumn field' setting to the very first line rather than third), but otherwise preserves a fairly close one-to-one correspondence between English lines and Japanese ku, with the final two lines matching the shimo-no-ku's jewel conceit."
+    },
+    "translator_strategy": "McCauley prioritizes a literal, line-by-line rendering that preserves both the syntactic order (with a mild reordering of the opening scene-setting) and the central jewel conceit, favoring clarity and fidelity over any attempt at replicating wordplay or compression.",
+    "overall_fidelity": "high",
+    "poem_number": 37,
+    "translator": "McCauley"
+  }
+}

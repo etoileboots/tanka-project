@@ -1,0 +1,55 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker, sunk in despair, reflects with bitter surprise that his life nonetheless continues on — that despite his grief he has not died.",
+    "shimo_theme": "It is not life itself that fails to endure the misery, but rather the tears that cannot bear the sorrow — the tears well up and overflow where the resolve to live persists.",
+    "relationship_type": "paradox",
+    "pivot_note": "The poem turns on an ironic reversal of expectation: one would think that overwhelming sorrow (憂き) would be too much for life itself to bear, yet the kami-no-ku establishes that life stubbornly persists. The shimo-no-ku then redirects the failure of endurance away from 'inochi' (life) onto 'namida' (tears) — it is not the body that breaks under grief, but the tears that spill forth uncontrollably. This displacement of breaking-point from life to tears is the poem's central conceit, a meditation on how the body outlives sorrow while the eyes cannot."
+  },
+  "kigo": {
+    "word": "憂きに堪へぬ",
+    "season": "none",
+    "note": "This poem contains no seasonal imagery at all — it is a purely introspective, non-seasonal miscellaneous (雑・恋愁) poem about grief and endurance. Every noun (思ひ, 命, 憂き, なみだ) belongs to the emotional/human register rather than the natural/seasonal one, so no kigo can be identified even under the broadest classical conventions.",
+    "confidence": "high"
+  },
+  "kakekotoba": [
+    {
+      "word": "憂き",
+      "ku": 4,
+      "reading_primary": "うき",
+      "reading_secondary": "浮き",
+      "interaction": "On the surface 憂き simply means 'sorrowful, painful' (grief that the tears cannot endure), but it also carries an associative echo of 浮き 'floating,' conventionally paired with namida/tears and with the image of a life adrift on sorrow. The floating sense is not fully grammatically load-bearing here in the way 憂き's primary sense is, so this is offered as a secondary, lower-confidence resonance rather than a fully double-operative pivot.",
+      "confidence": "low"
+    }
+  ],
+  "makurakotoba": [],
+  "furigana": [
+    {
+      "kanji": "思",
+      "reading": "おも"
+    },
+    {
+      "kanji": "命",
+      "reading": "いのち"
+    },
+    {
+      "kanji": "憂",
+      "reading": "う"
+    },
+    {
+      "kanji": "堪",
+      "reading": "た"
+    }
+  ],
+  "poem_number": 82,
+  "poet": "Doin Hoshi",
+  "source_jp": "思ひわび\nさても命は\nあるものを\n憂きに堪へぬは\nなみだなりけり"
+}

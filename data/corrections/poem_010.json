@@ -1,0 +1,251 @@
+{
+  "poem_number": 10,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "逢坂": {
+        "status": "confirmed",
+        "original": {
+          "word": "逢坂",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-08-01T00:35:46.124226+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "ausaka gate": {
+          "status": "confirmed",
+          "original": {
+            "word": "ausaka gate",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:49.451973+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:53.383445+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:53.779734+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:54.131151+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:54.567736+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:54.944107+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:55.414218+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:56.713073+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:57.036276+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:57.420602+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:57.787648+00:00"
+        }
+      },
+      "device_links": {
+        "ausaka gate": {
+          "status": "corrected",
+          "original": {
+            "word": "ausaka gate"
+          },
+          "corrected": {
+            "source_word": "逢坂"
+          },
+          "reviewed_at": "2026-08-01T00:35:59.105768+00:00"
+        }
+      },
+      "devices": {
+        "ausaka gate": {
+          "status": "confirmed",
+          "original": {
+            "word": "ausaka gate",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:35:59.907866+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:01.316983+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:01.686027+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:02.055644+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:02.757597+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:03.065106+00:00"
+        }
+      },
+      "devices": {
+        "meeting hill": {
+          "status": "confirmed",
+          "original": {
+            "word": "meeting hill",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:04.268704+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:06.008137+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:06.311065+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:06.755713+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:07.604490+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:09.290667+00:00"
+        }
+      },
+      "devices": {
+        "this mountain stile": {
+          "status": "confirmed",
+          "original": {
+            "word": "this mountain stile",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:36:10.072247+00:00"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "poem_number": 7,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T04:46:56.524214+00:00"
+    },
+    "devices": {
+      "月": {
+        "status": "confirmed",
+        "original": {
+          "word": "月",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T04:46:57.646300+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "the moon": {
+          "status": "removed",
+          "original": {
+            "word": "the moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:23:06.607089+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:23:11.713641+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-08-01T00:23:13.990537+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "moon": {
+          "status": "confirmed",
+          "original": {
+            "word": "moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:23:17.051052+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "the moon": {
+          "status": "removed",
+          "original": {
+            "word": "the moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:23:19.581475+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:23:28.497401+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-08-01T00:23:30.685665+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "the rising moon": {
+          "status": "removed",
+          "original": {
+            "word": "the rising moon",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:23:32.293916+00:00"
+        },
+        "moon": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "moon",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:23:38.626230+00:00"
+        }
+      },
+      "device_links": {
+        "moon": {
+          "status": "corrected",
+          "original": {
+            "word": "moon"
+          },
+          "corrected": {
+            "source_word": "月"
+          },
+          "reviewed_at": "2026-08-01T00:23:41.962502+00:00"
+        }
+      }
+    }
+  }
+}

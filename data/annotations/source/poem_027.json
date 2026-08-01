@@ -1,0 +1,69 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "いつ見き",
+      "ku": 4,
+      "reading_primary": "いつ見き (when did I see [it/you])",
+      "reading_secondary": "泉 (izumi, embedded via sound echo with いづみ river name)",
+      "interaction": "The phrase いつ見きとてか plays on the sound of 泉 (Izumi) from the preceding ku — 'itsu miki' echoes 'Izumi', binding the river name to the rhetorical question 'when did I ever see you' that drives the poem's logic of unexplained longing."
+    }
+  ],
+  "jokotoba": {
+    "text": "みかの原わきてながるる泉川",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "泉川 (Izumigawa) / いつ (via sound-association いづみ→いつ)",
+    "function": "The entire kami-no-ku describes the Izumi River flowing forth distinctly through Mika Plain; this serves as an extended preface whose function is purely to generate, through sound-association between 'Izumi' (泉) and 'itsu' (いつ, 'when'), the phrase いつ見き that opens the shimo-no-ku, rather than contributing literal narrative content about the speaker's feelings."
+  },
+  "honkadori": {
+    "source_poem": "Man'yōshū-style river-naming poems referencing Mika no Hara and the Izumi River (Yamashiro province)",
+    "source_poet": "traditional/anonymous topographical convention",
+    "echoed_phrase": "みかの原わきてながるる泉川",
+    "function": "Invokes the established place-name imagery of Mika Plain and the Izumi River as a conventional utamakura, lending the poem geographic and literary resonance while setting up the sound-pivot into いつ"
+  },
+  "kigo": {
+    "word": "泉川",
+    "season": "none",
+    "note": "Izumi River is a famous utamakura (place name) in Yamashiro province, prized for its clear, cold spring-fed waters; it carries no strict seasonal marker but is conventionally associated with the purity and coldness of flowing water, sometimes linked to autumn/winter imagery of clear streams in classical poetry. No other lexical item (mika no hara as plain, wakite as verb of dividing/springing forth, nagaruru as flowing) carries seasonal weight; this poem is essentially a love poem (koi) using a river-name jokotoba rather than a seasonal poem, so no true kigo governs it."
+  },
+  "furigana": [
+    {
+      "kanji": "原",
+      "reading": "はら"
+    },
+    {
+      "kanji": "泉川",
+      "reading": "いづみがわ"
+    },
+    {
+      "kanji": "見",
+      "reading": "み"
+    },
+    {
+      "kanji": "恋",
+      "reading": "こひ"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The Izumi River flows forth distinctly (wakite) through Mika Plain — a pure topographical image of a river dividing and running clear.",
+    "shimo_theme": "The speaker wonders, bewildered, when he ever actually saw her, that he should feel such longing (koishikaruran) — an unexplained, seemingly causeless love.",
+    "relationship_type": "other",
+    "pivot_note": "The kami-no-ku functions as jokotoba whose sole purpose is to generate, through the homophonic echo of Izumi (泉) with itsu (いつ, 'when'), the rhetorical question that opens the shimo-no-ku. The river's flowing has no causal or metaphorical bearing on the emotion itself — the connection is purely acoustic/associative, making this a sound-driven pivot rather than an image-based one (hence 'other' rather than simile-implicit or seasonal-pivot)."
+  },
+  "poem_number": 27,
+  "poet": "Chunagon Kanesuke",
+  "source_jp": "みかの原\nわきてながるる\n泉川\nいつ見きとてか\n恋しかるらむ"
+}

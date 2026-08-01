@@ -1,0 +1,279 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation renders the poem as a single continuous scene of wind scattering leaves that then hurl into the river; the 'nishiki' (brocade) metaphor of the shimo-no-ku is dropped entirely, replaced by 'reddening,' so the revelatory perception of leaves-as-brocade is lost. What remains is a straightforward narrative of leaves blowing into the river, not the visual-revelation structure where the speaker suddenly perceives the floating leaves as a woven fabric. The bipartite boundary between cause (wind stripping the mountain) and effect (perceived brocade) collapses into one flowing depiction."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "reddening",
+      "note": "The word 'reddening' and 'momiji' leaves scattering by storm winds evoke autumn imagery, though the season is never named explicitly; the atmosphere of falling colored leaves substitutes for the literal seasonal word, but the central metaphor of the leaves as woven brocade (which most vividly embodies the autumn kigo's aesthetic culmination) is lost."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Around Mount Mimuro, forcefully",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "the storm winds roar and whirl",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the scattered maple leaves",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "hurl into the reddening Tatsuta river (brocade metaphor replaced by color description)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the five ku into four lines, splitting the kami-no-ku's wind description across lines 1-2 and merging the shimo-no-ku's river/brocade image into line 4 with 'reddening' substituting for nishiki; the crucial metaphor of the leaves as a woven brocade is entirely omitted, replaced with a plain color adjective describing the river's water, which erases the visual-revelation pivot central to the source poem."
+    },
+    "translator_strategy": "Dickens prioritizes rhythmic, rhyme-driven English verse with archaic diction and sound effects (alliteration, apostrophized elisions) over preserving the poem's central metaphor, sacrificing the nishiki/brocade revelation for a more generic image of reddening water.",
+    "overall_fidelity": "low",
+    "poem_number": 69,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator compresses the poem into a single continuous sentence with 'weave' as the main verb linking mountain leaves directly to the river-blockade image, losing the two-stage 'physical action then sudden perceptual revelation' (なりけり) structure — there is no marked moment of realization, just a flowing description, so the revelatory pivot between kami and shimo dissolves into one continuous narrative."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "maple leaves",
+      "note": "The word 'autumn' is never named, but 'maple leaves' in a 'blowing storm' evokes the classical autumn image of scattering foliage; however the mistranslation of nishiki ('brocade') as 'blockade' removes the visual richness that usually reinforces the autumn-brilliance atmosphere, weakening the seasonal feeling somewhat."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Names Mimuro Mountain and its maple leaves, compressing kami-no-ku's mountain/leaf imagery",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The storm wind (arashi fuku) is placed here, out of its original initial position, as a modifying clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The verb 'weave' stands in for the brocade metaphor, but 'blockade' appears to be an error or unusual word choice for 'nishiki' (brocade)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Names the Tatsuda (Tatsuta) River as the location of the woven image",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders the syntax so the mountain/leaves noun phrase leads, followed by the storm-wind clause, then a single verb 'weave' ties the leaves directly to the river scene — this restructuring compresses the two-stage kami/shimo logic (cause, then revelation) into one continuous four-line sentence, and 'なりけり' realization marker is lost entirely; also 'blockade' for 'nishiki' (brocade) appears to be either a printing/word-choice error or an idiosyncratic near-homophone substitution that damages the central visual metaphor."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, continuous four-line sentence over preserving the two-part revelatory structure, and in doing so introduces the puzzling word 'blockade' in place of the brocade metaphor central to the poem's visual point.",
+    "overall_fidelity": "low",
+    "poem_number": 69,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The visual-revelation structure is maintained: lines 1-3 describe the storm stripping Mount Mimuro of its maple leaves (kami), and lines 4-5 reveal the leaves scattered on Tatsuta's stream as resembling red brocade (shimo), preserving the cause-to-perceived-effect movement of the source, though 'seem' softens the なりけり realization into a simile rather than a sudden recognition."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "maple leaves",
+      "note": "The word 'autumn' is never named explicitly, but the imagery of storms scattering maple leaves onto a stream conveys the autumnal atmosphere of the source poem's central kigo, momijiba, through visual and seasonal association rather than direct naming."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the storms around Mount Mimuro",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Expands on the storm's howling and screaming nature, an added descriptive elaboration",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The storms have thickly scattered the maple leaves",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The leaves fall upon Tatsuta's stream",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The leaves appear like red brocade, corresponding to なりけり realization",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Porter expands the kami-no-ku (ku 1-2) across two lines (L1-L2) by adding vivid onomatopoeic verbs ('howl and scream') not explicit in the source, achieving a five-line ballad-like rhyme scheme (ABABB) while keeping the overall five-part semantic progression roughly intact; the shimo-no-ku is compressed slightly by rendering なりけり as 'seem' rather than a stronger revelatory statement."
+    },
+    "translator_strategy": "Porter prioritizes a singable, rhymed English ballad-stanza form over literal fidelity, expanding the storm's sound imagery for poetic effect while preserving the overall visual-revelation logic of mountain wind scattering leaves that become 'brocade' on the river.",
+    "overall_fidelity": "medium",
+    "poem_number": 69,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The kami-lines describe the storm tearing maple leaves from Mimuro's slopes, and the shimo-lines reveal that these scattered leaves become a brocade on the Tatta river, preserving the source's cause-to-perceived-effect visual revelation structure, though the copula なりけり's sense of sudden realization is flattened into a simple descriptive 'are wrought'."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Maples leaves",
+      "note": "The autumn kigo is preserved explicitly through the direct naming of maple leaves being torn by the storm wind, retaining the classical image of autumn foliage scattering, with the added parenthetical 'rich' colorizing the brocade image to reinforce the autumnal visual richness."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The storm wind blows (あらし吹く)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "From Mimuro's mountain slopes (三室の山の)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Maple leaves are torn (もみぢ葉は)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "They are wrought as rich brocades (にしきなりけり)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "On Tatta's quiet stream (龍田の川の)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation maps closely one-to-one onto the five ku, though lines 4 and 5 slightly invert the syntactic order of shimo-no-ku (river then brocade becomes brocade then river) to fit English word order, without altering the overall meaning or bipartite logic."
+    },
+    "translator_strategy": "McCauley pursues a close, almost line-for-line literal rendering of each ku, preserving the poem's sequential imagery and adding parenthetical epithets ('rich', 'blue', 'quiet') to supply the ornamental color and mood that the compact Japanese conveys through connotation alone.",
+    "overall_fidelity": "high",
+    "poem_number": 69,
+    "translator": "McCauley"
+  }
+}

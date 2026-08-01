@@ -1,0 +1,66 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "われて",
+      "ku": 4,
+      "reading_primary": "割れて (to split apart, of water dividing around rocks)",
+      "reading_secondary": "別れて (to part, of lovers separating)",
+      "interaction": "The rushing river water splitting around the rocks (われて) simultaneously figures the speaker's parting/separation from the beloved (別れて); the physical image of divided water carries the emotional meaning of estrangement, both readings operative as the poem moves from natural description to human relationship.",
+      "confidence": "high"
+    }
+  ],
+  "jokotoba": "{\"text\":\"瀬をはやみ岩にせかるる滝川の\",\"ku_span\":[1,2,3],\"pivot\":\"われて\",\"function\":\"The image of a swift river current forced to split and dam against rocks is composed specifically for this poem to introduce the 'われて' pivot, providing the physical vehicle for the metaphor of lovers' separation before their eventual reunion.\",\"}",
+  "honkadori": {
+    "source_poem": "Traditional association with waterfall/river imagery in Man'yōshū-style love poems (e.g. 瀧 no metaphor for passion), though no single confidently identifiable source poem",
+    "source_poet": "unknown",
+    "echoed_phrase": "滝川のわれても",
+    "function": "General echo of conventional waterfall-as-passion imagery rather than a specific traceable source"
+  },
+  "kigo": {
+    "word": "滝川",
+    "season": "none",
+    "note": "Rivers and waterfalls are conventional waka imagery but not tied to a specific season; here the swift river (滝川) functions as a timeless natural image for passionate, obstructed love rather than as a seasonal marker. No other word in the poem (瀬, 岩, われて, 末, 逢はむ) carries seasonal association either — this poem belongs to the love (恋) category rather than any seasonal category.",
+    "confidence": "high"
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A swift mountain river's current is forced to divide and dam as it strikes rocks in its bed — a vivid image of turbulent, obstructed natural force.",
+    "shimo_theme": "Though we are now parted, I think that in the end we shall surely meet again — a vow of eventual reunion despite present separation.",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The entire kami-no-ku functions as an extended jokotoba culminating in the kakekotoba われて, which pivots the poem from a purely physical description of river water splitting around a rock to the emotional claim that just as the divided water reunites downstream, so too will the separated lovers meet again in the end. The natural image is not merely decorative but structurally IS the argument for the shimo's hope."
+  },
+  "furigana": [
+    {
+      "kanji": "瀬",
+      "reading": "せ"
+    },
+    {
+      "kanji": "岩",
+      "reading": "いわ"
+    },
+    {
+      "kanji": "滝川",
+      "reading": "たきがわ"
+    },
+    {
+      "kanji": "末",
+      "reading": "すえ"
+    },
+    {
+      "kanji": "逢",
+      "reading": "あ"
+    }
+  ],
+  "poem_number": 77,
+  "poet": "Shutokuin",
+  "source_jp": "瀬をはやみ\n岩にせかるる\n滝川の\nわれても末に\n逢はむとぞ思ふ"
+}

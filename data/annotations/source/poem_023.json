@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "秋",
+      "ku": 5,
+      "reading_primary": "あき",
+      "reading_secondary": "あき",
+      "interaction": "秋 (autumn) is homophonous with 飽き (weariness/being tired of a lover/life). The surface statement 'it is not autumn for me alone' also carries the undertone 'it is not that I alone am weary/forsaken,' linking the seasonal universality of autumn's melancholy to a suggestion of personal romantic disappointment shared by all. This is the classical double reading exploited throughout the Kokinshū for 秋/飽き."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "Gazing at the moon, the speaker feels a diffuse, thousand-fold sorrow welling up without clear cause.",
+    "shimo_theme": "The speaker checks and qualifies this feeling: the autumn (and its sadness) is not his alone — it is universal, shared by all who view the moon.",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The kami-no-ku presents an intense, almost solipsistic personal sorrow triggered by moon-viewing ('a thousand-fold sadness'), while the shimo-no-ku pulls back from that solipsism with a reflective, almost philosophical correction — asserting that autumn's melancholy belongs to everyone, not the speaker uniquely. The pivot is the move from raw subjective feeling to universalizing self-awareness, turning private grief into a meditation on the shared human condition under the autumn moon."
+  },
+  "kigo": {
+    "word": "月",
+    "season": "autumn",
+    "note": "月 (tsuki, the moon) here specifically evokes the autumn moon (aki no tsuki), the most celebrated moon-viewing season in the classical canon, associated with heightened clarity of light and with melancholy reflection. Its pairing with 秋 in ku 5 confirms this is the autumn moon of moon-viewing (tsukimi) tradition, the central seasonal image of the poem, dominant over the merely conceptual 秋 in the final line, which functions as gloss/pivot rather than independent image."
+  },
+  "furigana": [
+    {
+      "kanji": "月見",
+      "reading": "つきみ"
+    },
+    {
+      "kanji": "千々",
+      "reading": "ちぢ"
+    },
+    {
+      "kanji": "物",
+      "reading": "もの"
+    },
+    {
+      "kanji": "悲",
+      "reading": "かな"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    },
+    {
+      "kanji": "秋",
+      "reading": "あき"
+    }
+  ],
+  "poem_number": 23,
+  "poet": "Oye no Chizato",
+  "source_jp": "月見れば\n千々に物こそ\n悲しけれ\nわが身ひとつの\n秋にはあらねど"
+}

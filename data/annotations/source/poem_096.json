@@ -1,0 +1,63 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "ふり",
+      "ku": 4,
+      "reading_primary": "降り",
+      "reading_secondary": "経り/古り",
+      "interaction": "The falling of blossoms/snow (降る) is overlaid with the sense of the speaker's own aging and passing of years (経る/古る) — 'furi yuku' means both 'falling/scattering as it goes' and 'growing old as time passes,' fusing the image of petals blown by the storm with the speaker's own decline into age.",
+      "confidence": "high"
+    },
+    {
+      "word": "ならで",
+      "ku": 3,
+      "reading_primary": "ではなくて (negation: 'not being')",
+      "reading_secondary": "",
+      "interaction": "Not strictly a kakekotoba but a rhetorical negation ('not the snow, but...') that sets up the pivot from natural snow to the human referent; included for completeness though it is grammatical rather than homophonic.",
+      "confidence": "low"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A storm scatters blossoms in the garden, and what falls resembles snow",
+    "shimo_theme": "The speaker realizes that what is truly 'falling'/'passing' is not snow but his own aging self",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The poem sets up an expectation — falling white things in a wind-torn garden must be snow — only to overturn it: the falling thing is revealed to be the speaker himself, i.e. his years and vitality declining. The kakekotoba on ふりゆく (falling / growing old) is the fulcrum of this revelation, collapsing the meteorological image and the human condition into a single verb."
+  },
+  "kigo": {
+    "word": "花",
+    "season": "spring",
+    "note": "花 (hana) without qualification conventionally means cherry blossoms in the classical canon, the archetypal spring kigo; here it is being scattered by a storm (嵐), evoking the poignant late-spring image of blossoms falling, which the poem then likens to snow — a deliberate cross-seasonal illusion (blossoms mistaken for winter snow) that is common in courtly poetry to heighten pathos.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "花",
+      "reading": "はな"
+    },
+    {
+      "kanji": "庭",
+      "reading": "にわ"
+    },
+    {
+      "kanji": "雪",
+      "reading": "ゆき"
+    },
+    {
+      "kanji": "身",
+      "reading": "み"
+    }
+  ],
+  "poem_number": 96,
+  "poet": "Nyudo Sakino Dajodaijin",
+  "source_jp": "花さそふ\nあらしの庭の\n雪ならで\nふりゆくものは\nわが身なりけり"
+}

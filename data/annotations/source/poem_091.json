@@ -1,0 +1,59 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The cricket's cry on a frost-cold night, setting the scene of desolate autumn cold via sound and sensory perception of the mat itself",
+    "shimo_theme": "The speaker's resolve/resignation to lie down alone, spreading only his own robe, in solitude",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The kami-no-ku establishes the cricket's cry and the frost-cold night as sensory data (sound, cold) that the speaker experiences while lying on the narrow mat; the しき in さむしろに contains the pivot into 衣かたしき (spreading only one's own robe-sleeve), so the physical coldness and solitude perceived in the kami directly motivate and mirror the shimo's image of solitary sleep. The cricket's cry, traditionally imagined as calling to a mate, throws into relief the human speaker's forced solitude — the insect has its cry answered by nothing, as does the poet."
+  },
+  "kakekotoba": [
+    {
+      "word": "さむしろ",
+      "ku": 3,
+      "reading_primary": "さむしろ (狭筵/small mat)",
+      "reading_secondary": "寒し (cold)",
+      "interaction": "さむしろ is itself a compound noun meaning 'narrow/small sleeping mat' but is heard simultaneously as containing 寒し 'cold', so the mat is presented as both a physical sleeping surface and an emblem of the cold night — the coldness of the frost-night (霜夜) bleeds into the texture of the mat on which the speaker must lie",
+      "confidence": "high"
+    },
+    {
+      "word": "かたしき",
+      "ku": 4,
+      "reading_primary": "片敷き (spreading only one layer/one side of one's robe)",
+      "reading_secondary": "片敷き also evokes 難しき/難き nuance of hardship in some readings, though primary sense dominates",
+      "interaction": "The core meaning is spreading only one's own sleeve/robe as a solitary bed-mat instead of sharing two robes with a lover, directly expressing solitude; this is not a true double-grammar pivot but a conventional idiom for solitary sleep, included here for completeness though confidence is lower than the さむしろ pivot",
+      "confidence": "low"
+    }
+  ],
+  "kigo": {
+    "word": "きりぎりす",
+    "season": "autumn",
+    "note": "The cricket (kirigirisu, an old term overlapping with what is now called koorogi) is a quintessential autumn insect in classical waka, its thin, plaintive cry conventionally signifying the approach of cold nights and the loneliness of autumn; paired with 霜夜 (frost-night) it reinforces late-autumn desolation and is the poem's dominant seasonal anchor, governing the emotional register of solitary longing that unfolds in the shimo-no-ku",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "霜夜",
+      "reading": "しもよ"
+    },
+    {
+      "kanji": "衣",
+      "reading": "ころも"
+    },
+    {
+      "kanji": "寝",
+      "reading": "ね"
+    }
+  ],
+  "makurakotoba": [],
+  "poem_number": 91,
+  "poet": "Gokyogoku Sessho Sakino",
+  "source_jp": "きりぎりす\n鳴くや霜夜の\nさむしろに\n衣かたしき\nひとりかも寝む"
+}

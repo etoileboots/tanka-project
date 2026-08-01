@@ -1,0 +1,314 @@
+{
+  "poem_number": 73,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-30T12:05:14.189293+00:00"
+    },
+    "devices": {
+      "桜": {
+        "status": "confirmed",
+        "original": {
+          "word": "桜",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T12:05:17.700319+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:05:24.865413+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:05:25.665109+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:05:26.848411+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:05:27.899248+00:00"
+        }
+      },
+      "devices": {
+        "cherry trees": {
+          "status": "confirmed",
+          "original": {
+            "word": "cherry trees",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:05:28.883791+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:05:47.333464+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:05:47.831347+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-30T12:06:02.632078+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:05:53.479986+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:05:54.098401+00:00"
+        },
+        "5": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-30T12:07:35.080291+00:00"
+        }
+      },
+      "devices": {
+        "Sakura": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Sakura",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T12:06:26.247150+00:00"
+        },
+        "sakura": {
+          "status": "confirmed",
+          "original": {
+            "word": "sakura",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T02:08:45.032857+00:00"
+        }
+      },
+      "device_links": {
+        "sakura": {
+          "status": "corrected",
+          "original": {
+            "word": "sakura"
+          },
+          "corrected": {
+            "source_word": "桜"
+          },
+          "reviewed_at": "2026-08-01T02:08:44.483572+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "blossoming": {
+          "status": "removed",
+          "original": {
+            "word": "blossoming",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:06:32.849306+00:00"
+        },
+        "cherry trees": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "cherry trees",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T12:06:38.980741+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:06:42.897636+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:06:44.784022+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:06:45.230847+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:06:46.950612+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:06:47.380410+00:00"
+        }
+      },
+      "device_links": {
+        "cherry trees": {
+          "status": "corrected",
+          "original": {
+            "word": "cherry trees"
+          },
+          "corrected": {
+            "source_word": "桜"
+          },
+          "reviewed_at": "2026-08-01T02:08:54.517741+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:07:48.516796+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:07:48.931974+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:07:49.499361+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:07:50.562527+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T12:07:51.012888+00:00"
+        }
+      },
+      "devices": {
+        "Cherries": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Cherries",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-30T12:08:00.412923+00:00"
+        },
+        "cherries": {
+          "status": "confirmed",
+          "original": {
+            "word": "cherries",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T02:08:51.932520+00:00"
+        }
+      },
+      "device_links": {
+        "cherries": {
+          "status": "corrected",
+          "original": {
+            "word": "cherries"
+          },
+          "corrected": {
+            "source_word": "桜"
+          },
+          "reviewed_at": "2026-08-01T02:08:51.517057+00:00"
+        }
+      }
+    }
+  }
+}

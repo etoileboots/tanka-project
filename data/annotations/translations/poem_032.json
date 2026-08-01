@@ -1,0 +1,337 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translator has essentially pre-narrated the leaves from the outset ('The winds of autumn have amassed / Dried withered leaves in ruddy heaps') rather than presenting the deferred illusion of a wind-built weir that is later revealed to be leaves. There is no moment where the reader is led to believe an artificial construction (a しがらみ/weir) exists before discovering it is leaves — the leaves are named as leaves from line 2 onward. This collapses the surprise/revelation structure into a single continuous descriptive narrative: wind blows leaves into a mountain torrent, and rocks stop them. The 'weir' conceit itself (a man-made barrier) is entirely absent; instead the barrier is naturalistically explained as rocks ('Amid the rocks that bar the way'), removing the poem's central rhetorical trick."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かけたる",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "amassed",
+        "note": "The verb かけたる, which fuses 'wind hangs/casts leaves' with 'wind constructs a weir (しがらみ)', is rendered simply as 'amassed' (winds have amassed leaves) — this conveys accumulation but neither the weir-construction sense nor the specific 'hanging/casting' image, and critically there is no artificial-weir vocabulary anywhere in the translation, so the entire pivot's double meaning is lost. The word 'cast' appears later ('Have them in th' mountain-torrent cast') closer to one literal sense of かけ, but disconnected from any weir/barrier conceit."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "winds of autumn",
+      "note": "Autumn is named outright in line 1 ('The winds of autumn') and reinforced by 'ruddy heaps' and 'Mom-ji's reddened leaves' (an transliteration of momiji), so the seasonal signal is explicit and even doubly reinforced, though it is stated as flat description rather than emerging as the poem's climactic surprise as in the source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Autumn winds have gathered/amassed leaves — corresponds to 山川に風のかけたる, but leaves are already named",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Dried withered leaves in ruddy heaps — expands on the leaf imagery that in the source is withheld until the shimo-no-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "Cast into the mountain torrent — corresponds to 山川 and the weir/しがらみ conceit, but rendered as leaves simply thrown into the stream",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The stream sweeps through a stony channel — corresponds to 流れもあへぬ (the flow that cannot carry them away), reinterpreted as a stony channel",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Rocks bar the way — replaces the weir (しがらみ) conceit with literal rocks as the obstruction",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The momiji's reddened leaves delay — corresponds to 紅葉なりけり, the final revelation, but here merely confirms what was already stated in line 1-2",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation expands 5 ku into 6 lines but restructures the content: it front-loads the leaf-identity (told, not revealed) and substitutes literal rocks for the weir conceit, converting the poem from a two-stage illusion/revelation into a single continuous descriptive scene of leaves blown into a rocky stream."
+    },
+    "translator_strategy": "The translator prioritizes a smooth, rhyming (ABAB CC) English narrative of autumn leaves swept into a mountain stream over reproducing the source's central rhetorical trick — the wind-built 'weir' that is only later revealed to be leaves — effectively naturalizing and flattening the poem's conceit into straightforward descriptive verse.",
+    "overall_fidelity": "low",
+    "poem_number": 32,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translation keeps the two-part structure (weir-like hurdle built by wind, then revealed to be maple leaves), but compresses the reveal quickly with 'is nothing but,' weakening the deferred surprise effect somewhat since the leaf image and the negation ('not run down') are split awkwardly across lines 3-4, diluting the crisp visual revelation of the original nari-keri ending."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かけたる",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "built",
+        "note": "The translator renders かけたる as 'built,' which conveys the sense of construction (weir-building) clearly, i.e. the primary artificial-construction reading, but loses the secondary sense of wind 'hanging/casting' leaves as a natural physical action; the pivot's dual function collapses into a single meaning."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "maple leaves",
+      "note": "The autumn kigo 紅葉 is rendered explicitly as 'maple leaves,' directly naming the iconic autumnal image, though the poem's broader autumnal atmosphere (transience, cascading color) is left implicit rather than elaborated."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The wind's construction of the weir/hurdle",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Setting: over the mountain river",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4,
+            5
+          ],
+          "content_summary": "Revelation that the hurdle is merely maple leaves",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The leaves that cannot flow past/downstream",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders slightly, placing the river-setting (ku1) after the weir-construction verb (ku2) rather than before it, and compresses the shimo-no-ku's negation (流れもあへぬ) into a terse trailing fragment 'Not run down,' which slightly obscures the causal logic of leaves being caught rather than simply 'not run.'"
+    },
+    "translator_strategy": "Noguchi favors compact, literalist economy—rendering the poem in four short clipped lines that preserve the weir/leaves conceit and its structural surprise but sacrifice the fuller emotional and grammatical nuance of the original's negation and dual-meaning verb.",
+    "overall_fidelity": "medium",
+    "poem_number": 32,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "cause-and-effect narrative replacing visual-revelation",
+      "note": "Porter converts the original's appearance-then-revelation structure (weir that turns out to be leaves) into a straightforward causal narrative: wind shakes the maple branches (cause), leaves fall and choke the brook (effect). The 'surprise' of discovering the weir is merely leaves is lost — there is no false artificial image (weir) set up at all, so the deferred revelation mechanism central to the source's bipartite logic is gone. Instead we get sequential storytelling: wind blows, leaves fall, brook is blocked."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かけたる",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "shook",
+        "note": "The pivot's core conceit — wind 'building/hanging' a weir (しがらみ) that is simultaneously the physical construction image and the wind's casting of leaves — is entirely absent. Porter replaces it with a simple action verb 'shook' describing wind moving branches, with no weir image or double meaning of any kind; the artificial-construction sense central to the pun is dropped entirely."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "crimson leaves",
+      "note": "The autumn kigo of 紅葉 survives fairly explicitly as 'crimson leaves' and 'maple branches,' clearly signaling the autumn season through direct color and tree imagery, though the poem never names the season outright by word."
+    },
+    "translator_strategy": "Porter prioritizes narrative clarity and rhyme-driven verse musicality over preserving the source's central rhetorical surprise, turning the weir-conceit into a plain sequential description of wind, falling leaves, and a blocked brook.",
+    "overall_fidelity": "low",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the wind's action on the mountain scene, though shifted to 'yesterday' rather than mountain river directly",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Wind shaking maple branches — replaces the weir conceit with plain physical action",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Discovery/description of the mass of crimson leaves — corresponds to the shimo revelation but framed as continuous narrative not surprise",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The leaves have lodged in a 'nook' rather than being described as unable to flow past (流れもあへぬ) framed as a weir",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Leaves choking the mountain brook — corresponds to 流れ (river) and the visual conclusion of the poem, but 'choked' externalizes the action rather than preserving the 'nari-keri' revelatory discovery tone",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the compact 5-ku waka into a rhymed English quintet with ABABB structure, restructuring the weir-conceit/revelation logic into a linear narrative of storm, falling leaves, and blocked brook; the mountain river (山川) is transmuted into 'brook' and the artificial weir (しがらみ) disappears as an image entirely, replaced by 'lodged within that nook.'"
+    },
+    "poem_number": 32,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translator maintains the setup (wind-built barrier) in lines 1-3 and delivers the revelation ('Yet 'tis only maple leaves') in lines 4-5, with 'Yet' explicitly signaling the pivot from apparent artifice to natural truth, preserving the deferred-revelation structure."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かけたる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Builded",
+        "note": "The translation renders かけたる as 'Builded by the busy wind' and 'wattled-barrier drawn,' capturing the construction/weir-building sense (primary reading) but not conveying the secondary, more literal sense of wind 'hanging' or 'casting' leaves — the pun's double action collapses into a single explicit construction metaphor."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "maple leaves",
+      "note": "The autumn kigo 紅葉 is rendered explicitly as 'maple leaves,' naming the concrete autumnal image directly, though the color connotation ('crimson') of 紅葉 is not carried over, slightly muting the visual vividness of the original season word."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Setting: a mountain stream (山川に)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The wind as agent of construction (風のかけたる)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The apparent weir/barrier (しがらみは)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Revelation that it is maple leaves (紅葉なりけり), with 'Yet' signaling the turn",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Leaves powerless/unable to flow away (流れもあへぬ)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation follows the source's ku order closely with a one-to-one line-to-ku correspondence for the kami-no-ku, then splits the shimo-no-ku's single flowing clause across two lines (4-5), reversing the JP word order slightly by placing the revelation ('maple leaves') before the inability-to-flow clause, whereas the source states the inability first and the identity ('nari-keri') last as the climactic disclosure."
+    },
+    "translator_strategy": "McCauley favors a literal, semantically faithful line-by-line rendering that preserves the poem's central conceit and its climactic revelation through explicit connective language ('Yet') rather than through rhetorical ambiguity or wordplay.",
+    "overall_fidelity": "high",
+    "poem_number": 32,
+    "translator": "McCauley"
+  }
+}

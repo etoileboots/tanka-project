@@ -1,0 +1,318 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation retains the contrast between the ceased sound (L1-L2) and the enduring fame (L3), and even adds an explicit contrastive 'Tho' none now list its flow' (L4) that reinforces the paradox by pairing 'fame recall' against 'none now list its flow' — but this last line is an expansion not directly present in the source's shimo-ku, which slightly shifts the balance of the paradox toward an added contrast rather than the original fusion of 'flowing name' and 'ceased sound' in one verb."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "流れて",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "fame recall",
+        "note": "The translator conveys only the figurative sense of the fame's continuance ('men its fame recall') and drops the literal 'flowing' verb sense entirely; the physical flowing image is instead relocated to L4 ('its flow') but that line negates it ('none now list its flow'), meaning the pivot's fusion of literal and figurative flowing in one verb is split apart and the double meaning is lost — the water metaphor becomes a separate, contradictory image rather than a single word carrying both senses."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "waterfall",
+      "note": "No seasonal imagery or atmosphere is introduced; the translation focuses purely on sound/silence and fame, consistent with the source poem's genuinely non-seasonal, philosophical theme about lasting reputation, so omission here accurately reflects the source's lack of a true kigo rather than a translation failure."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The noisy play of the waterfall — refers to 滝の音 (the sound of the waterfall)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Hath ceased long ago — combines 絶えて久しくなりぬれど (has long since ceased)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Yet aye shall men its fame recall — conveys 名こそ流れてなほ聞えけれ (the name still flows/is heard)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Tho' none now list its flow — an expansive gloss reintroducing the literal water-flow image negated by present silence, not a direct rendering of any specific ku but an interpretive amplification of the paradox",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the three-ku kami into two rhymed lines (L1-L2) and expands the two-ku shimo into two lines (L3-L4), adding an extra contrastive clause (L4) not directly present in the source, which slightly overbalances the shimo section relative to the kami and shifts the poem's neat 3:2 structure into a 2:2 quatrain with an appended paradox-restatement."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrical quatrain form and vivid contrastive imagery (sound ceasing vs. fame enduring) over literal lexical fidelity, sacrificing the kakekotoba's fused double meaning in favor of an added explicit antithesis in the final line.",
+    "overall_fidelity": "medium",
+    "poem_number": 55,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator keeps the paradox structure: L1-L2 state the waterfall's sound has long ceased (kami), while L3-L4 assert that the fame still 'runs' and 'is heard' (shimo), preserving the contrast between physical cessation and enduring reputation."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "流れて",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "does run",
+        "note": "The translator renders 流れて as 'does run', which keeps the literal flowing/continuing sense applied metaphorically to fame, but loses the explicit fusion with the water imagery of the waterfall itself since 'run' here reads as an idiom for reputation spreading rather than a deliberate echo of the taki's physical flow; the double meaning is flattened into a single figurative sense rather than held in tension."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal marker or atmosphere is introduced; the translation focuses entirely on the philosophical theme of sound ceasing versus fame enduring, consistent with the source's fundamentally non-seasonal, meisho-based content.",
+      "en_equivalent": "waterfall ceased"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Establishes long duration since the event ('Tis long time now since)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The waterfall's sound has ceased",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "But the fame continues to flow/run",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "And is still heard of today",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the word order of ku1-3 slightly, placing the temporal duration phrase ('long time now since') before the waterfall's cessation, but the overall kami/shimo boundary is preserved between line 2 and line 3, matching the original's five-ku structure fairly closely into four lines."
+    },
+    "translator_strategy": "Noguchi prioritizes literal, compact fidelity to the surface narrative of ceased sound versus enduring fame, sacrificing the kakekotoba's dual water/reputation imagery for a simple figurative verb ('run') and omitting any seasonal or ornamental elaboration.",
+    "overall_fidelity": "medium",
+    "poem_number": 55,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "Porter reorders the source's logic: he places the fame ('famed both far and near') in line 2, within what should be the kami section (physical sound), before introducing the cessation in line 3. Then the shimo turns not to 'name/reputation still flowing' but to the poet's own subjective memory ('memory's ear... I hear'), converting the paradox of fame-outliving-reality into a personal claim of continued auditory memory. The structural contrast between physical absence and abstract renown is blurred into a single continuous narrative about a once-famous, now-silent waterfall that the speaker still recalls."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "流れて",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "memory's ear",
+        "note": "Porter drops the literal 'flowing' verb (water and reputation both flowing) entirely and substitutes 'memory's ear' — a personal, sensory image of recollection rather than the fama/reputation-flowing-on trope; neither the physical flowing nor the social spreading of 'na' (name/fame) is rendered by any single flowing verb, so the kakekotoba's fused double meaning is lost, though the general idea of continued fame is partly kept in 'famed both far and near' earlier in the poem (displaced from its original position)."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No kigo exists in the source per the analysis, and Porter's translation likewise contains no seasonal marker or atmosphere — the poem is treated purely as a meditation on fame and memory, consistent with the source's atemporal/philosophical character.",
+      "en_equivalent": ""
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the waterfall's sound ('melodious voice') — corresponds to 滝の音は",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "States the waterfall 'was famed both far and near' — this pulls forward the shimo's fame/reputation content into line 2, well before the cessation is mentioned",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "'Although it long has ceased to flow' — corresponds to 絶えて久しくなりぬれど",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Yet still with memory's ear' — corresponds to 名こそ流れてなほ聞えけれ, but reframed as personal memory rather than abstract ongoing fame",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Its gentle splash I hear' — completes the shimo's 'なほ聞えけれ' (still heard), rendered as a subjective auditory experience",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reorders the five ku into five lines, but relocates the shimo's fame content (line 2) ahead of the kami's cessation content (line 3), producing a chiastic/interleaved structure rather than the source's clean kami-then-shimo sequence; this reordering weakens the paradoxical turn since 'famed' appears before 'ceased' is even stated, diluting the surprise of fame outlasting silence."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhyming English lyric (ABABB-ish) over structural fidelity, softening the source's fame/reality paradox into a sentimental narrative of a once-renowned waterfall still recalled in memory.",
+    "overall_fidelity": "medium",
+    "poem_number": 55,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translator maintains the paradox structure: kami lines assert the waterfall's sound has long ceased (physical cessation), while shimo lines assert that its name/fame still flows and is heard — directly mirroring the source's contrast between たえて (ceased) and 流れて／聞えけれ (still flowing/heard). The parallel repetition of 'flows' in both L2 (literal cessation of flow) and L4 (name flowing) even echoes the source's reuse of the flowing-verb across the pivot.",
+      "relationship_type": "paradox"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "流れて",
+        "reading_preserved": "both",
+        "method": "bilingual_pun",
+        "en_equivalent": "it ever flows",
+        "note": "McCauley cleverly reuses 'flows' from the waterfall's literal flowing (L2: 'In its flow ceased') to describe the name's continuation (L4: 'in name it ever flows'), producing an English pun that carries over both the physical-water sense and the figurative-reputation sense in the same lexical item, closely mirroring the source's kakekotoba structure."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "waterfall",
+      "note": "No seasonal imagery or atmosphere is introduced; the translation focuses purely on the philosophical/meisho theme of fame outlasting physical reality, consistent with the source analysis's conclusion that this poem lacks a true kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the waterfall as topic",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The waterfall's flow ceased long ago",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Its sound is now stilled, reinforcing cessation",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Yet its name still flows on",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "And its fame may yet be heard of",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "McCauley expands the five ku into five lines with slight redistribution: kami-no-ku content (絶えて久しくなりぬれど, ku2-3) is split across L2 and L3 to separately emphasize 'ceased' and 'stilled', while shimo-no-ku content (ku4-5) maps cleanly onto L4 and L5, preserving the original five-part rhythm almost one-to-one."
+    },
+    "translator_strategy": "McCauley prioritizes preserving the source's central paradox and its unifying kakekotoba by deliberately repeating the English word 'flow/flows' across both the literal waterfall and the figurative fame, sacrificing any seasonal or ornamental embellishment in favor of rhetorical fidelity to the pivot.",
+    "overall_fidelity": "high",
+    "poem_number": 55,
+    "translator": "McCauley"
+  }
+}

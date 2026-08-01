@@ -1,0 +1,368 @@
+{
+  "poem_number": 18,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "よる": {
+        "status": "removed",
+        "original": {
+          "word": "よる",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-08-01T00:50:06.502576+00:00"
+      },
+      "夢": {
+        "status": "removed",
+        "original": {
+          "word": "夢",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T06:07:10.819364+00:00"
+      },
+      "よるさへ": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "よるさへ",
+          "color": "#F28FC0",
+          "note": "よる meaning approach/night"
+        },
+        "reviewed_at": "2026-08-01T00:50:22.106776+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:08:47.087011+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:08:48.070213+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:08:48.536168+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:08:49.218545+00:00"
+        }
+      },
+      "devices": {
+        "break": {
+          "status": "removed",
+          "original": {
+            "word": "break",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:50:38.059741+00:00"
+        },
+        "e'en in a dream": {
+          "status": "removed",
+          "original": {
+            "word": "e'en in a dream",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:50:39.097223+00:00"
+        },
+        "seek": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "seek",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:50:49.448031+00:00"
+        }
+      },
+      "device_links": {
+        "seek": {
+          "status": "corrected",
+          "original": {
+            "word": "seek"
+          },
+          "corrected": {
+            "source_word": "よるさへ"
+          },
+          "reviewed_at": "2026-08-01T00:50:52.147938+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "riding on the waves of dream": {
+          "status": "removed",
+          "original": {
+            "word": "riding on the waves of dream",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:50:55.621583+00:00"
+        },
+        "meet": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "meet",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:51:02.961273+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-26T06:11:48.227987+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:11:44.911280+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:11:49.695489+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:12:08.619608+00:00"
+        }
+      },
+      "device_links": {
+        "meet": {
+          "status": "corrected",
+          "original": {
+            "word": "meet"
+          },
+          "corrected": {
+            "source_word": "よるさへ"
+          },
+          "reviewed_at": "2026-08-01T00:51:18.785534+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:12:22.093236+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:12:27.086505+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:12:32.749443+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:12:37.091555+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:12:51.328284+00:00"
+        }
+      },
+      "devices": {
+        "draw near": {
+          "status": "removed",
+          "original": {
+            "word": "draw near",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:13:03.756756+00:00"
+        },
+        "night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "night",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:51:59.347449+00:00"
+        }
+      },
+      "device_links": {
+        "night": {
+          "status": "corrected",
+          "original": {
+            "word": "night"
+          },
+          "corrected": {
+            "source_word": "よるさへ"
+          },
+          "reviewed_at": "2026-08-01T00:52:02.532355+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "gathered night": {
+          "status": "removed",
+          "original": {
+            "word": "gathered night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:13:52.990105+00:00"
+        },
+        "gathered waves": {
+          "status": "removed",
+          "original": {
+            "word": "gathered waves",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:51:24.801350+00:00"
+        },
+        "night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "night",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:51:30.777015+00:00"
+        },
+        "go to thee": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "go to thee",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:51:40.709138+00:00"
+        }
+      },
+      "lines": {
+        "2": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T06:14:00.263743+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:14:02.765266+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:14:03.257618+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {},
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-26T06:14:16.007575+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-26T06:14:05.213619+00:00"
+        }
+      },
+      "device_links": {
+        "night": {
+          "status": "corrected",
+          "original": {
+            "word": "night"
+          },
+          "corrected": {
+            "source_word": "よるさへ"
+          },
+          "reviewed_at": "2026-08-01T00:51:33.967187+00:00"
+        },
+        "go to thee": {
+          "status": "corrected",
+          "original": {
+            "word": "go to thee"
+          },
+          "corrected": {
+            "source_word": "よるさへ"
+          },
+          "reviewed_at": "2026-08-01T00:51:44.149912+00:00"
+        }
+      }
+    }
+  }
+}

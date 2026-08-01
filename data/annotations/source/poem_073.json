@@ -1,0 +1,58 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The cherry blossoms have bloomed on the peak of the distant Takasago mountains",
+    "shimo_theme": "A wish that the haze over the nearer foothills (toyama) not rise, so as not to obscure the view of those distant blossoms",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku establishes the visual object of desire — the newly bloomed cherry blossoms on the far peak — and the shimo-no-ku turns to the speaker's anxious wish concerning the atmospheric condition (haze on the nearer hills) that threatens to block that very view. The poem's meaning pivots on the tension between something beautiful just glimpsed and the fragile, uncertain hope of continuing to see it."
+  },
+  "kigo": {
+    "word": "桜",
+    "season": "spring",
+    "note": "Cherry blossoms (sakura) are the quintessential spring kigo in the classical tradition, symbolizing fleeting beauty; here their blooming on the distant peak is the central image the whole poem revolves around, with the haze (also spring-associated) posed as a threat to viewing them.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "高砂",
+      "reading": "たかさご"
+    },
+    {
+      "kanji": "尾",
+      "reading": "お"
+    },
+    {
+      "kanji": "上",
+      "reading": "のうへ"
+    },
+    {
+      "kanji": "桜",
+      "reading": "さくら"
+    },
+    {
+      "kanji": "咲",
+      "reading": "さ"
+    },
+    {
+      "kanji": "外山",
+      "reading": "とやま"
+    },
+    {
+      "kanji": "霞",
+      "reading": "かすみ"
+    }
+  ],
+  "poem_number": 73,
+  "poet": "Saki no Chunagon Masafusa",
+  "source_jp": "高砂の\n尾の上の桜\n咲きにけり\n外山の霞\nたたずもあらなん"
+}

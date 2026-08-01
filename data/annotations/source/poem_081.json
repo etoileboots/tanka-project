@@ -1,0 +1,50 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker hears the cuckoo's cry and turns to gaze toward the direction whence it came, seeking the bird itself",
+    "shimo_theme": "Instead of the bird, only the lingering dawn moon remains in the sky",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku sets up an act of looking (眺むれば) directed at the place where the cuckoo's song was heard; the shimo-no-ku reveals what that gaze actually discloses — not the bird itself but only the moon of the fading night, producing a quiet anticlimax of absence and lingering light. The whole poem hinges on the disjunction between auditory expectation (the bird's cry) and visual result (its absence, replaced by the moon)."
+  },
+  "kigo": {
+    "word": "ほととぎす",
+    "season": "summer",
+    "note": "The cuckoo (hototogisu) is one of the most iconic summer kigo in classical waka, prized for its brief, elusive cry that poets strain to hear at dawn or dusk; its fleeting, half-heard song conventionally symbolizes transience and longing. Although 有明の月 (the dawn moon) is also present and often associated with autumn partings, here it functions within a summer night scene as the residual image left after the cuckoo's cry, so the cuckoo remains the dominant, poem-defining seasonal marker.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "鳴",
+      "reading": "な"
+    },
+    {
+      "kanji": "方",
+      "reading": "かた"
+    },
+    {
+      "kanji": "眺",
+      "reading": "なが"
+    },
+    {
+      "kanji": "有明",
+      "reading": "ありあけ"
+    },
+    {
+      "kanji": "月",
+      "reading": "つき"
+    }
+  ],
+  "poem_number": 81,
+  "poet": "Gotoku Daiji Sadaijin",
+  "source_jp": "ほととぎす\n鳴きつる方を\n眺むれば\nただ有明の\n月ぞのこれる"
+}

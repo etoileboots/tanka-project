@@ -1,0 +1,335 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "note": "The translator maintains the logical progression from doubt about lasting fidelity to a wish for death, but compresses the kami section into an extended rhyme-driven paraphrase and abruptly pivots at 'I trow. To-day' — the emotional juxtaposition survives but is weakened by the verbose kami expansion diluting the crux."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "忘れじ",
+        "reading_preserved": "secondary_only",
+        "method": "paraphrase",
+        "en_equivalent": "vows that lovers swear",
+        "note": "The translator paraphrases the vow of eternal fidelity as generic lovers' vows of 'faithfulness and constancy,' losing the specific quoted phrase 'I will never forget you' and any wordplay tension, though the conceptual content of an unreliable vow survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal imagery is introduced; the translation remains fully abstract, matching the source's lack of kigo, though the translator adds 'worldly care' and 'human frailty' as moralizing abstractions rather than any natural image.",
+      "en_equivalent": "worldly care"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "the vows that lovers swear (忘れじ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "of faithfulness and constancy — expansion of the vow's content",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "through life till death end worldly care — expands 行末までは (until the end)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "o'ertasketh human frailty — 難ければ, it is difficult (for human frailty)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "I trow. To-day — 今日を限りの, today as the limit",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "I'd fain my spirit fled away — 命ともがな, wish for life to end",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact kami-no-ku (3 ku) into 4 rhymed lines using archaic diction ('o'ertasketh', 'I trow'), then compresses the shimo-no-ku pivot into 2 lines; the rhyme scheme (ABABCC) imposes an English verse form quite different from the 5-7-5-7-7 structure, causing some semantic content to be redistributed across line breaks rather than mapping one-to-one."
+    },
+    "translator_strategy": "This translator prioritizes English poetic form (rhyme and archaic diction) over literal fidelity, expanding the kami-no-ku into moralizing abstraction while compressing the emotional pivot of the shimo-no-ku into a brief closing wish.",
+    "overall_fidelity": "medium",
+    "poem_number": 54,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator compresses kami-no-ku (vow, futurity, difficulty) into L1-L3 and shifts directly to the death-wish in L3-L4; the emotional-juxtaposition logic (doubt about fidelity leading to a wish to die now) is retained but the pivot is compressed, with L3's 'Oh, I pray' bridging both halves rather than marking a clean division."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "忘れじ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "unforgetfulness",
+        "note": "The translator renders the vow of eternal remembrance literally as 'faith and unforgetfulness,' preserving the primary meaning of the vow but not engaging any secondary pivot, consistent with the source analysis noting this is not a true kakekotoba."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As the source poem contains no seasonal imagery at all, the translation likewise contains no seasonal word or natural image; the poem remains purely abstract and conceptual, focused on vows and mortality.",
+      "en_equivalent": "life done"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The vow to remain faithful into the distant future",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Elaboration on the vow of faith and not forgetting",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The vow's endurance is judged 'too hard' to sustain, followed by the speaker's plea",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The wish for life to end today, at this very moment",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the five ku into four lines, merging ku 1-2 into lines 1-2, ku 3 into the first half of line 3, and ku 4-5 into line 4, slightly blurring the kami/shimo boundary by letting 'Oh, I pray' in line 3 anticipate the shimo-no-ku's death wish before it is stated."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, emotionally direct rendering that compresses the syntactic complexity of the vow-and-doubt structure into plain declarative English, sacrificing some structural clarity between kami and shimo for concision and pathos.",
+    "overall_fidelity": "medium",
+    "poem_number": 54,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "Porter completely rewrites the poem's content: instead of the speaker doubting her own/beloved's vow of eternal love in the abstract and wishing to die at the peak of happiness, this version turns it into a fear that the husband's love is 'disappearing fast' and a resigned wish to die because of that decline. The kami-no-ku's rational doubt about vows enduring becomes a general maxim about men forgetting the past, and the shimo-no-ku's wish to die at the height of joy becomes a wish to die out of despair over fading love. The emotional-juxtaposition logic (doubt leading to wish for death while happiness still holds) is replaced by a cause-effect narrative of decline and despair — a different relationship type entirely."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "忘れじ",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "forget the past",
+        "note": "The source's quoted vow 'I will never forget you' (忘れじ) is transformed into a generalized statement about men's difficulty not forgetting the past, losing the personal vow-quotation structure and its ironic setup entirely; this is not a pivot preserved in either sense but a wholesale rhetorical substitution."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source poem has no kigo at all (a pure love poem); Porter's translation likewise introduces no seasonal imagery, consistent with the source's abstract, non-seasonal nature.",
+      "en_equivalent": ""
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "General maxim about the difficulty of men not forgetting the past",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Continuation of the maxim: forgetting the past",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Speaker's fear that her husband's love is fading",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Love disappearing fast",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Wish that this day be her last",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reinterprets the kami-no-ku's abstract vow-doubt into a generalized proverb about men, then invents a husband figure and a narrative of declining love that has no direct textual basis in the source's abstract shimo-no-ku, though the final wish to die 'today' is preserved from the original's core image."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, narratively coherent English quatrain-plus-line over literal fidelity, inventing a concrete husband/decline scenario to motivate the wish for death that the source poem leaves purely abstract and hypothetical.",
+    "overall_fidelity": "low",
+    "poem_number": 54,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition",
+      "note": "The translation maintains the same logical structure: lines 1-3 present the doubt about whether the vow of 'not to forget' can hold into the future, and lines 4-5 pivot to the wish that life end today while the vow is still intact. The rational skepticism-to-emotional-resolution turn is preserved faithfully."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "忘れじ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "not to forget",
+        "note": "McCauley renders 忘れじ as the quoted vow 'If \"not to forget\" / Will for him in future years / Be too difficult', preserving the primary surface meaning of the vow as a quoted phrase, consistent with the source analysis's note that this is not a true pivot with a coexisting secondary meaning."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "life, ah me!",
+      "note": "No seasonal word or natural image (flower, bird, moon, dew, frost) appears anywhere in this translation; consistent with the source poem, which is a purely conceptual love poem without kigo, McCauley's version likewise contains no seasonal signal, explicit or implicit."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "quotes the vow 'not to forget'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "the vow enduring for him in future years",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "such faithfulness would be too difficult to sustain",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "it were well this very day",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "that my life should close, with an added exclamation 'ah me!'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The five English lines map almost one-to-one onto the five ku, with line 2 slightly absorbing content from both ku 1 and ku 2 ('for him' and 'in future years'); the interjection 'ah me!' in line 5 is a minor expansion/extrapolation adding emotional coloring not explicitly present in the source text but consistent with its sentiment."
+    },
+    "translator_strategy": "McCauley prioritizes close, near line-by-line literal fidelity to the syntax and sequence of the Japanese original, rendering the poem's logical argument in formal, slightly archaic English verse with minimal embellishment beyond a single interjection ('ah me!') for emotional emphasis.",
+    "overall_fidelity": "high",
+    "poem_number": 54,
+    "translator": "McCauley"
+  }
+}

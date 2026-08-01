@@ -1,0 +1,327 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The kami-no-ku's rowing out and looking is preserved as an act of gliding onto the sea and turning toward the horizon, and the shimo-no-ku's revelation of whitecaps merging with clouds is preserved as the outcome of that gaze. However, the sense of sudden visual confusion/wonder (まよふ, 'wander/be lost') is weakened into a calmer description of 'scarcely discern,' making the perceptual surprise feel more like a mild difficulty in seeing than an active blending confusion — hence partial rather than fully preserved."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [
+      {
+        "original_word": "久方の",
+        "method": "omitted",
+        "note": "The epithet for the sky/clouds (雲井) is dropped entirely; 'horizons' and 'cloud-horizon' carry no elevated diction or register-marking function corresponding to 久方の — it is simply descriptive vocabulary with no ornamental substitute."
+      }
+    ],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "white-tipped billows",
+      "note": "As the source analysis notes, this poem lacks true seasonal weight; the whitecaps image is preserved as 'white-tipped billows' but this carries no seasonal signal in either the source or the translation — it functions purely as grand scenic imagery rather than kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The speaker in a fisherman's boat sets out, rendering わたの原こぎ出でて (rowing out onto the sea)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Expansion describing the broad expanse of the ocean's tide, elaborating わたの原 (the vast sea plain)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Turning toward the horizon, corresponding to 見れば and implicitly 久方の 雲井 (the celestial horizon)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The difficulty of discerning clearly corresponds to まよふ (wandering/confusion of vision)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Description of the white-tipped billows, rendering おきつしらなみ (whitecaps on the open sea)",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The waves blending with the cloud-horizon, rendering 雲井にまよふ (wandering into the clouds)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five-ku poem into six rhymed couplet lines, with line 2 being an added descriptive expansion of the sea's vastness not strictly present as separate content in the source, and the makurakotoba's celestial content is merged into 'horizon' rather than treated as a distinct image."
+    },
+    "translator_strategy": "The translator prioritizes a smooth rhyming English verse form (octosyllabic couplets) over precise preservation of the original's rhetorical devices, sacrificing the pillow word and any seasonal nuance for narrative clarity and metrical polish.",
+    "overall_fidelity": "medium",
+    "poem_number": 76,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The kami-no-ku (rowing out, looking at the sky) and shimo-no-ku (whitecaps merging with clouds) are both present but the translation compresses and slightly reorders the perceptual sequence: L2 jumps ahead to 'the far-away sky' before the whitecaps are introduced as a correction/discovery in L3-4 ('Nay, the billows white'), which actually preserves some of the surprise/revelation logic (the speaker first thinks he sees only sky, then realizes it's whitecaps merging with it) but compresses the vastness of the sea-rowing scene into a single short line, weakening the jokotoba's scene-setting function."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "久方の",
+        "method": "omitted",
+        "note": "The epithet for sky/heaven is dropped entirely; 'far-away sky' conveys distance but not the elevated, ceremonial register that 久方の traditionally supplies — no equivalent ornamental gesture is substituted.",
+        "en_equivalent": "far-away sky"
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As the source analysis notes, there is no true seasonal marker in this poem; the translation likewise conveys no seasonal atmosphere, only the grand imagery of sea and sky and whitecaps, consistent with the source's non-seasonal screen-poem character.",
+      "en_equivalent": "billows white"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Rowing out over the vast sea",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Looking and beholding the distant sky (with 久方の epithet dropped)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Correction/realization: it is actually the white billows, not just sky",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Whitecaps seen in the distance, merging with clouds",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the five-ku structure into four short lines, converting the jokotoba's scene-setting (rowing + looking) into a single opening line, and rendering the shimo-no-ku's revelation as an emphatic 'Nay' correction that dramatizes the visual confusion between sea and sky, though it loses the specific 'merging into the cloud-region' (雲井にまよふ) image in favor of a simpler 'billows white / In the distance.'"
+    },
+    "translator_strategy": "Noguchi favors brevity and dramatic exclamation over literal fidelity, compressing the poem's five ku into four clipped, almost imagist lines that dramatize the visual surprise of mistaking whitecaps for sky while sacrificing the pillow word's ornamental register and the precise image of waves wandering into the cloud-region.",
+    "overall_fidelity": "medium",
+    "poem_number": 76,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "note": "Porter compresses the kami-no-ku's act of rowing out and looking into a single subordinate clause ('When rowing on the open sea'), losing the perceptual pivot (見れば) entirely. The shimo-no-ku's image is expanded into most of the poem, but the sky/cloud element (久方の雲井) is reduced to a simile ('like the fleecy clouds') describing the waves' motion rather than a genuine visual confusion between sea and sky at the horizon. The startling merging of sea and heaven that defines the visual-revelation relationship is lost; instead we get a continuous descriptive narrative culminating in an exclamation of wonder, so the bipartite boundary dissolves into one continuous scene with an added subjective comment."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "久方の",
+        "method": "omitted",
+        "en_equivalent": "fleecy clouds",
+        "note": "The epithet before 雲井 (clouds/sky) is not translated as an epithet at all; 'fleecy clouds' appears only as part of a simile for the waves' motion, with no register-elevating or celestial-vastness function preserved — the pillow word's rhetorical role is simply dropped."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "waves, all capped with white",
+      "note": "There is no seasonal marker in the source and none is introduced here; the whitecaps are rendered plainly as 'waves, all capped with white' without any seasonal atmosphere added or implied, consistent with the source's lack of seasonal weight."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Rowing out onto the open sea (jokotoba scene-setting, but 見れば/looking is dropped)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The whitecapped waves (おきつしらなみ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Waves rolling onward compared to fleecy clouds (久方の雲井にまよふ rendered as simile)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [],
+          "content_summary": "The waves' 'resistless might' — an invented dynamic/forceful quality not present in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [],
+          "content_summary": "Exclamatory closing comment expressing wonder, not present in the original",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the three-ku kami-no-ku into a single introductory line, expands and reinterprets the shimo-no-ku's cloud-image as a simile for wave motion, and adds two extra lines (might, wondrous sight) with no equivalent in the source, shifting the poem from visual-revelation to a straightforward nature description capped by admiration."
+    },
+    "translator_strategy": "Porter prioritizes a rhyming, metrically regular English quatrain-plus-couplet form over precise structural or rhetorical fidelity, freely compressing the kami-no-ku and inventing closing sentiment to fill out the verse form.",
+    "overall_fidelity": "low",
+    "poem_number": 76,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The kami-no-ku (rowing out and looking) is preserved in lines 1-3, and the shimo-no-ku's whitecaps appear in line 4, but the translator alters the final image: instead of the waves 'wandering' or blending confusingly into the clouds at the horizon (a startling visual merging of sea and sky), McCauley states the waves 'are the ever shining sky' — a direct metaphorical identification rather than the visual confusion/wandering (まよふ) of the source. This weakens the specific rhetorical effect of 迷う (to wander/be lost) since the waves are simply declared to BE the sky rather than appearing to blend confusingly with distant clouds. The revelation structure survives but the nuance of visual bewilderment is diminished."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [
+      {
+        "original_word": "久方の",
+        "method": "transformed",
+        "en_equivalent": "ever shining",
+        "note": "Rather than omitting the epithet or finding a true ornamental equivalent for 雲井 (clouds/sky), McCauley repurposes 久方の's celestial association into the descriptive phrase 'ever shining sky,' which shifts the epithet's traditional evocation of the vast heavens into a specific luminous quality not present in the source; this is a transformation of the pillow word's function rather than a direct equivalent or an outright omission."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source analysis notes there is no true seasonal marker in this poem (low confidence listing of 白波 as dominant image without seasonal weight); McCauley's translation likewise conveys no seasonal atmosphere, focusing purely on the grand seascape of waves and sky without any seasonal cues, consistent with the source's lack of kigo.",
+      "en_equivalent": "white waves"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The wide sea plain (わたの原)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Rowing out and looking around (こぎ出でて見れば)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The perception/appearance introduced ('it appears to me'), extending the 見れば pivot into an explicit framing clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The white waves far away (おきつしらなみ), merged with the 雲井にまよふ image",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The 'ever shining sky' rendering of 久方の雲井, combined with the waves seeming to be identical to the sky rather than wandering into it",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley expands the single pivot verb 見れば into two lines (2-3), splitting perception into 'as I row and look' and 'it appears to me', which slightly dilutes the jokotoba's compact scene-setting function into a more explicit, discursive framing; the final image compresses 雲井にまよふ + おきつしらなみ into a single declarative metaphor across lines 4-5, losing the sense of confused wandering between sea and cloud in favor of a simple equivalence between waves and sky."
+    },
+    "translator_strategy": "McCauley prioritizes clarity and readable declarative sense over preserving the visual ambiguity of the original, converting the poem's confused merging of waves and clouds (まよふ) into a straightforward metaphorical statement that the waves 'are' the shining sky.",
+    "overall_fidelity": "medium",
+    "poem_number": 76,
+    "translator": "McCauley"
+  }
+}

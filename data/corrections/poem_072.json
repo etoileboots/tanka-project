@@ -1,0 +1,376 @@
+{
+  "poem_number": 72,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-30T11:54:20.321402+00:00"
+    },
+    "devices": {
+      "あだ浪": {
+        "status": "removed",
+        "original": {
+          "word": "あだ浪",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:53:45.737074+00:00"
+      },
+      "ぬれ": {
+        "status": "confirmed",
+        "original": {
+          "word": "ぬれ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:53:54.638002+00:00"
+      },
+      "高師の浜": {
+        "status": "confirmed",
+        "original": {
+          "word": "高師の浜",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:53:56.024300+00:00"
+      },
+      "浜": {
+        "status": "removed",
+        "original": {
+          "word": "浜",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:53:58.953944+00:00"
+      },
+      "かけじ": {
+        "status": "confirmed",
+        "original": {
+          "word": "かけじ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:54:04.156702+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:54:50.411131+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:54:57.408312+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:54:59.987536+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:55:03.357151+00:00"
+        }
+      },
+      "devices": {
+        "takashi strand": {
+          "status": "confirmed",
+          "original": {
+            "word": "takashi strand",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:55:14.472108+00:00"
+        },
+        "fickle waves": {
+          "status": "removed",
+          "original": {
+            "word": "fickle waves",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:55:34.303603+00:00"
+        },
+        "drench": {
+          "status": "confirmed",
+          "original": {
+            "word": "drench",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:55:37.724656+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:55:59.405405+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:56:05.356591+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:56:12.304381+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-30T11:57:28.167699+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:57:36.971006+00:00"
+        },
+        "5": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-30T11:57:52.119936+00:00"
+        },
+        "6": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-30T11:57:54.685225+00:00"
+        },
+        "7": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:57:55.666961+00:00"
+        }
+      },
+      "devices": {
+        "furious play": {
+          "status": "removed",
+          "original": {
+            "word": "furious play",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:56:06.601475+00:00"
+        },
+        "takashi's strand": {
+          "status": "confirmed",
+          "original": {
+            "word": "takashi's strand",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:56:13.969446+00:00"
+        },
+        "ne'er be dry": {
+          "status": "confirmed",
+          "original": {
+            "word": "ne'er be dry",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:56:38.434880+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:07.618243+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:08.270835+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:10.501556+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-30T11:58:27.151716+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:29.484619+00:00"
+        }
+      },
+      "devices": {
+        "takashi": {
+          "status": "confirmed",
+          "original": {
+            "word": "takashi",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:18.104935+00:00"
+        },
+        "wet with tears": {
+          "status": "confirmed",
+          "original": {
+            "word": "wet with tears",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:18.586859+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "fickle waves": {
+          "status": "removed",
+          "original": {
+            "word": "fickle waves",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:37.684151+00:00"
+        },
+        "go near": {
+          "status": "removed",
+          "original": {
+            "word": "go near",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:44.917361+00:00"
+        },
+        "takashi's strand": {
+          "status": "confirmed",
+          "original": {
+            "word": "takashi's strand",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:46.084633+00:00"
+        },
+        "wet my sleeves": {
+          "status": "confirmed",
+          "original": {
+            "word": "wet my sleeves",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:46.667273+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:52.032443+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:52.482714+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:53.900160+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:56.701307+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-30T11:58:57.202619+00:00"
+        }
+      }
+    }
+  }
+}

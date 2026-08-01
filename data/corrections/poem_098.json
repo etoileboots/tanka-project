@@ -1,0 +1,325 @@
+{
+  "poem_number": 98,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "なら": {
+        "status": "confirmed",
+        "original": {
+          "word": "なら",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:27:16.087899+00:00"
+      },
+      "みそぎ": {
+        "status": "confirmed",
+        "original": {
+          "word": "みそぎ",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:28:10.172774+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "Misogi feast": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Misogi feast",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:28:23.597046+00:00"
+        },
+        "summer not yet gone": {
+          "status": "removed",
+          "original": {
+            "word": "summer not yet gone",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:28:26.461702+00:00"
+        },
+        "nara tree": {
+          "status": "confirmed",
+          "original": {
+            "word": "nara tree",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:28:41.144728+00:00"
+        }
+      },
+      "device_links": {
+        "Misogi feast": {
+          "status": "corrected",
+          "original": {
+            "word": "Misogi feast"
+          },
+          "corrected": {
+            "source_word": "みそぎ"
+          },
+          "reviewed_at": "2026-07-31T12:28:25.511973+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:28:38.878826+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:28:39.330761+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:28:39.894878+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:28:40.344974+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "nara's streamlet": {
+          "status": "confirmed",
+          "original": {
+            "word": "nara's streamlet",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:29:23.777699+00:00"
+        },
+        "summer": {
+          "status": "removed",
+          "original": {
+            "word": "summer",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:29:26.009650+00:00"
+        },
+        "Misogi": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Misogi",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:29:31.508366+00:00"
+        }
+      },
+      "device_links": {
+        "Misogi": {
+          "status": "corrected",
+          "original": {
+            "word": "Misogi"
+          },
+          "corrected": {
+            "source_word": "みそぎ"
+          },
+          "reviewed_at": "2026-07-31T12:29:33.809324+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:29:55.459501+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:29:55.908526+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:29:56.958217+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:29:57.273880+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "nara's brook": {
+          "status": "confirmed",
+          "original": {
+            "word": "nara's brook",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:01.560518+00:00"
+        },
+        "oak-trees": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "oak-trees",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:30:41.629894+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:12.410292+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:13.542182+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:14.292526+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:31:09.489757+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:31:09.972441+00:00"
+        }
+      },
+      "device_links": {
+        "oak-trees": {
+          "status": "corrected",
+          "original": {
+            "word": "oak-trees"
+          },
+          "corrected": {
+            "source_word": "なら"
+          },
+          "reviewed_at": "2026-07-31T12:30:45.323659+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:16.240914+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:16.625019+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:17.758772+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:18.374466+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:18.907036+00:00"
+        }
+      },
+      "devices": {
+        "nara's little stream": {
+          "status": "confirmed",
+          "original": {
+            "word": "nara's little stream",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:21.225332+00:00"
+        },
+        "summer's dream": {
+          "status": "confirmed",
+          "original": {
+            "word": "summer's dream",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:30:22.341237+00:00"
+        }
+      }
+    }
+  }
+}

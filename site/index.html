@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comparative Translations of the Ogura Hyakunin Isshu</title>
+<link rel="stylesheet" href="style.css?v=52">
+</head>
+<body>
+<div class="page">
+  <div class="hd">
+    <h1>A Syntenic View of Poetic Translations</h1>
+    <p>A genomics inspired comparison of 4 English translations of the 13th century Japanese poetry anthology: the Ogura Hyakunin Isshu. Hover a poem to inspect it, click to open.</p>
+    <div class="toggles-row">
+      <div class="toggle-group">
+        <span class="toggle-label">View by</span>
+        <div class="view-toggle" role="group" aria-label="View mode">
+          <button class="vt-btn" id="vtStructure">Structure</button>
+          <button class="vt-btn active" id="vtDevice">Devices</button>
+        </div>
+      </div>
+      <div class="toggle-group">
+        <span class="toggle-label">Group by</span>
+        <div class="view-toggle" role="group" aria-label="Layout mode">
+          <button class="vt-btn active" id="vtByPoem">Poem</button>
+          <button class="vt-btn" id="vtByAuthor">Author</button>
+        </div>
+      </div>
+      <div class="toggle-group">
+        <span class="toggle-label">Zoom</span>
+        <span class="zoom-hint">↑ / ↓ on a hovered poem</span>
+      </div>
+    </div>
+    <a class="help-btn about-link" href="about.html" aria-label="About this project" title="About this project" style="right:3.1rem;">i</a>
+    <button class="help-btn" id="helpBtn" aria-label="Show walkthrough" title="Show walkthrough">?</button>
+  </div>
+  <div class="gw" id="gw">
+    <div class="grid-nav">
+      <div class="col-rail" id="colRail" role="group" aria-label="Jump to column"></div>
+      <div class="row-rail" id="rowRail" role="group" aria-label="Jump to row"></div>
+      <!-- Static clip boundary — sized once to the grid's own resting
+           footprint and never itself transformed, so #grid's zoom
+           transform (scale+translate) can never visually escape this box
+           no matter what the scale/centering math computes; a hard
+           guarantee rather than relying purely on that math being exact. -->
+      <div class="grid-clip">
+      <div class="grid" id="grid">
+      </div>
+      <!-- Legend lives OUTSIDE #grid (a sibling, not a child) so it never
+           shares #grid's zoom transform — it stays put and stays visible
+           at every zoom level, in the same bottom-right corner it always
+           occupied, instead of scaling/panning away with the poems.
+           nextGridPos() (app.js) still reserves this same 2×2 corner when
+           placing poems, so nothing else ever renders underneath it. -->
+      <div class="legend">
+        <strong>Legend</strong>
+        <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kami-no-ku</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimo-no-ku</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#6F63C9"></div>Imagined line</div>
+        <div class="legend-row legend-device"><div class="legend-swatch" style="background:#F28FC0"></div>掛詞 Kakekotoba</div>
+        <div class="legend-row legend-device"><div class="legend-swatch" style="background:#7EBBEE"></div>枕詞 Makurakotoba</div>
+        <div class="legend-row legend-device"><div class="legend-swatch" style="background:#B4DE65"></div>季語 Kigo</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#D6D2C9"></div>Not yet analyzed</div>
+      </div>
+      </div>
+    </div>
+    <div class="author-grids" id="authorGrids" style="display:none;"></div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="overlay" id="overlay" role="dialog" aria-modal="true">
+  <div class="modal-bar">
+    <button class="mnav-arrow" id="mPrev" aria-label="Previous poem">←</button>
+    <div class="modal-title" id="modalTitle"></div>
+    <div class="modal-bar-right">
+      <button class="mnav-arrow" id="mNext" aria-label="Next poem">→</button>
+      <button class="mbtn-close" id="mClose" aria-label="Close">✕</button>
+    </div>
+  </div>
+  <div class="modal-body">
+    <div class="jp-panel" id="jpPanel"></div>
+    <div class="en-panel" id="enPanel"></div>
+  </div>
+</div>
+
+<!-- First-visit walkthrough / reopenable guide -->
+<div class="intro-overlay" id="introOverlay">
+  <div class="intro-card">
+    <div class="intro-steps" id="introSteps"></div>
+    <div class="intro-nav">
+      <div class="intro-dots" id="introDots"></div>
+      <div class="intro-btns">
+        <button class="mbtn" id="introBack">← Back</button>
+        <button class="mbtn intro-primary" id="introNext">Next →</button>
+      </div>
+    </div>
+    <button class="mbtn-close intro-close" id="introClose" aria-label="Close">✕</button>
+  </div>
+</div>
+
+<!-- Custom hover tooltip for structure/device labels (see [data-tip] in
+     app.js) — native title="" tooltips have a ~1s hover delay, vanish on
+     the tiniest mouse movement, and don't work on touch at all, which read
+     as "the labels don't work" even though they were technically present. -->
+<div id="hoverTip" class="hover-tip"></div>
+
+<script src="app.js?v=66"></script>
+</body>
+</html>

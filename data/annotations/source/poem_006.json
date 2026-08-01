@@ -1,0 +1,61 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The magpie bridge (a celestial/legendary image, associated with the Tanabata myth of magpies forming a bridge across the Milky Way for the star-crossed lovers) spanning a space, with frost settling upon it",
+    "shimo_theme": "The speaker's realization, upon seeing the whiteness of the frost, that the night has grown very late/deep",
+    "relationship_type": "inferential-sensory",
+    "pivot_note": "The speaker does not directly perceive the passage of time; rather, seeing the white frost accumulated on the bridge (whether the literal palace stairs/corridor poetically likened to the magpie bridge, or the legendary bridge itself) becomes the sensory evidence from which the lateness of the night is inferred. The visual whiteness of frost is the pivot that converts a spatial/visual image into a temporal, emotional realization of deep night solitude."
+  },
+  "kigo": {
+    "word": "霜",
+    "season": "winter",
+    "note": "Shimo (frost) is a classical winter seasonal marker, evoking the cold clarity of deep winter nights; its whiteness under moonlight or starlight is a recurrent image of the coldness and stillness of the late night, reinforcing the loneliness of the hour in court poetry."
+  },
+  "furigana": [
+    {
+      "kanji": "渡",
+      "reading": "わた"
+    },
+    {
+      "kanji": "橋",
+      "reading": "はし"
+    },
+    {
+      "kanji": "置",
+      "reading": "お"
+    },
+    {
+      "kanji": "霜",
+      "reading": "しも"
+    },
+    {
+      "kanji": "白",
+      "reading": "しろ"
+    },
+    {
+      "kanji": "見",
+      "reading": "み"
+    },
+    {
+      "kanji": "夜",
+      "reading": "よ"
+    },
+    {
+      "kanji": "更",
+      "reading": "ふ"
+    }
+  ],
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "poem_number": 6,
+  "poet": "Chunagon Yakamochi",
+  "source_jp": "かささぎの\n渡せる橋に\n置く霜の\n白きを見れば\n夜ぞふけにける"
+}

@@ -1,0 +1,295 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator maintains the causal chain: concealment attempted (L1) fails as face betrays feeling (L2-4), leading others to ask directly (L5-6). The expansion of the kami section into four lines (adding 'changing visage, sorely tried' and 'deep passion in me dwells') elaborates the physical betrayal but does not disrupt the underlying causal-physical logic, so the structure is preserved though somewhat inflated."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "changing visage",
+      "note": "No seasonal imagery is present or implied; the poem's content (色) is rendered purely as psychological/physiognomic betrayal ('face', 'changing visage', 'altered features'), consistent with the source's own lack of seasonal reference. There is no autumn-foliage or other seasonal coloring introduced, so the absence of kigo is faithfully mirrored rather than compensated."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Effort to conceal ('strive my lot to hide')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Face betrays the secret ('secret tells')",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Expansion: 'changing visage, sorely tried' — elaborates the physical betrayal already stated in L2",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Naming the love itself: 'deep passion in me dwells' corresponds to わが恋は",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Others ask ('all men ask')",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The content of the question ('what griefs... task') corresponds to 物や思ふと問ふまで",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the three-ku kami-no-ku into four lines by adding an extra descriptive line ('My changing visage, sorely tried') that restates rather than adds new source content, producing a slightly padded rendering; the shimo-no-ku is compressed into two lines but preserves both the fact of questioning and its content."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrically regular Victorian verse, expanding and paraphrasing the kami-no-ku's compact imagery into fuller descriptive lines while compressing the shimo-no-ku's direct question into a rhetorical couplet, sacrificing lexical economy for poetic form.",
+    "overall_fidelity": "medium",
+    "poem_number": 40,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The causal chain is preserved in compressed form: face betrays love (kami), then others ask why (shimo). However, the specific content of shimo — that others ask whether he is troubled by hidden longing (物や思ふと) — is simplified to a generic 'why I am sad,' losing the nuance that the question itself confirms the concealment's failure through indirect suspicion rather than open observation of sadness."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "so sad",
+      "note": "There is no seasonal word in the source (koi topic, not seasonal), and this translation likewise contains no seasonal imagery; 'so sad' merely conveys emotional state, consistent with the source's non-seasonal nature."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Despite hiding it, my face betrayed (the secret)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The secret of my love (color revealed = love)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "All men ask me why",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "I am so sad (interpretation of 物や思ふ as sadness rather than open-ended longing)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four lines, merging the concealment (忍ぶれど) and its visible failure (色に出でにけり) into a single line 1, and rendering 物や思ふ (whether something troubles me) as the more specific and emotionally narrower 'I am so sad,' which shifts the ambiguous internal question into a definite external observation."
+    },
+    "translator_strategy": "Noguchi prioritizes plain, direct emotional clarity over formal fidelity, compressing the five-ku structure into four short declarative lines that state the concealment, its betrayal, and the resulting inquiry as a simple narrative sequence.",
+    "overall_fidelity": "medium",
+    "poem_number": 40,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The causal chain (concealment fails -> complexion betrays -> others notice and ask) is maintained, but the translator softens the shimo-ku's direct quoted question into a lighter, almost teasing tone ('people smile and say'), slightly shifting the social consequence from earnest inquiry to gentle mockery, which weakens but does not destroy the causal-physical logic."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "blush",
+      "note": "No seasonal imagery is present or implied; 'blush upon my cheek' is a purely physiognomic/emotional image consistent with the source's non-seasonal, love-topic use of 色, and the translation introduces no seasonal atmosphere either explicitly or implicitly."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The color/blush appearing on the face, rendered as 'blush upon my cheek'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The effort to conceal the feeling ('shinoburedo')",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The color betraying that 'I'm in love' (combines the 色に出でにけり and わが恋は)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "People noticing and reacting, introduced with a lighter tone ('smile and say')",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The direct question rendered as quoted speech, 'Where are thy thoughts to-day?'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the order of kami-ku's two clauses (concealment first in source, but blush placed first in L1 with concealment following in L2 as a parenthetical aside), and shimo-ku's two clauses are also reordered so that the social reaction (smiling) precedes the quoted question, compressing '物や思ふと人の問ふまで' into a single dramatized quotation."
+    },
+    "translator_strategy": "This translator prioritizes rhyme, meter, and a light conversational English ballad tone over strict semantic order, dramatizing the poem into a small scene complete with a quoted question and a smiling crowd.",
+    "overall_fidelity": "medium",
+    "poem_number": 40,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Though I would conceal (忍ぶれど)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "In my face it yet appears (色に出でにけり)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "My fond, secret love (わが恋は)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "So much that he asks of me (人の問ふまで) — the 'until' clause reframed as causal result",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Does not something trouble you?' (物や思ふと)",
+          "origin": "source"
+        }
+      ]
+    },
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The causal-physical logic is preserved overall — concealment fails, complexion betrays, and someone notices and asks — but the translator inverts the internal order of shimo, placing the 'until asked' clause (L4) before the direct quoted question (L5), which is the reverse of the source's 物や思ふと→人の問ふまで sequence. This is a minor internal reordering within an otherwise preserved causal chain."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal word or imagery exists in the source (this is a koi/love poem, not seasonal), and McCauley's translation likewise contains no seasonal signal — 'face,' 'love,' 'trouble' are all purely psychological/physiognomic vocabulary with no seasonal connotation, correctly matching the source's lack of kigo."
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, metrically regular English quatrain-plus-quote structure, slightly reordering the shimo clauses for natural English syntax while preserving the poem's overall causal narrative and direct quoted question.",
+    "overall_fidelity": "high",
+    "poem_number": 40,
+    "translator": "McCauley"
+  }
+}

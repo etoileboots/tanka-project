@@ -1,0 +1,329 @@
+{
+  "Dickens": {
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Ye fishermen who range the sea — addresses the ama, corresponds to あまのつり舟 (shimo, ku5), fisherman's boat as addressee",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            5,
+            4
+          ],
+          "content_summary": "In many a barque, I pray ye tell — continues addressing fishermen boats (ku5) and the plea to tell (人には告げよ, ku4)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "My fellow-villagers of me — the 'people' (人) to be told, ku4",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "far o'er vast ocean's swell — わたの原 (ku1), the wide sea",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "In vessel frail — こぎ出ぬ (ku3), the rowing out, rendered as being in a frail vessel",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Towards Yasoshima I sail — 八十島かけて (ku2), heading toward the many islands",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the poem's order entirely: shimo content (address to fishermen, plea to tell) is placed first (L1-3), while kami content (the sea, the rowing, the islands) is placed last (L4-6). This is a full structural inversion of kami/shimo sequence, though the causal-physical logic (departure reported via boat) is still recognizable, just reversed in presentation."
+    },
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        4,
+        5,
+        6
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The English poem opens with the address to the fishermen and the plea to tell (shimo content) and only afterward reveals the actual journey — the wide sea, the rowing out, and the destination among the islands (kami content). This reverses the source's order (kami then shimo) but the underlying causal-physical logic — the boat/fisherman as vehicle for news of the departure — remains intact, just narrated in reverse sequence, functioning almost as a frame (address...then explanation) rather than the original's build-up-then-plea structure."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "かけて",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Towards Yasoshima I sail",
+        "note": "The translator renders かけて straightforwardly as directional 'towards,' capturing the primary meaning of heading toward/aiming for the many islands. The secondary undertone of 懸けて (staking, risking, spanning) is not conveyed — there is no sense of peril, commitment, or risk attached to 'towards,' though 'vessel frail' in the preceding line does introduce a note of fragility/risk that could be seen as compensating obliquely, but it is not tied to the same word or clearly functioning as a pun equivalent."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As in the source, there is no classical seasonal kigo present in this poem (travel/exile topic outside the four-season framework), and the translation likewise introduces no seasonal imagery — 'vast ocean's swell,' 'vessel frail,' and 'fishermen' remain unseasonal maritime imagery consistent with the source's non-seasonal nature. No season-word or seasonal atmosphere is present or expected here, so 'omitted' reflects consistency with source rather than a translation failure."
+    },
+    "translator_strategy": "Dickens prioritizes a singable, rhymed English ballad structure (ABABCC-like pattern) over preserving the source's kami-then-shimo sequence, front-loading the emotional appeal to the fishermen and reserving the concrete journey imagery for the close.",
+    "overall_fidelity": "medium",
+    "poem_number": 11,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Noguchi places the shimo appeal ('O thou, fisher's boat, / Tell men that I sailed') in lines 1-2, before the kami description of rowing out to the eighty isles / blue sea in lines 3-4. This reverses the source order (kami first, then shimo), though the causal-physical logic (boat as vehicle/witness carrying the message) is still conceptually present, just presented in reverse sequence — the plea comes first, then the scene it refers to."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かけて",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Away into the eighty isles",
+        "note": "Noguchi renders かけて simply as directional movement ('into/toward the eighty isles'), capturing the primary sense of heading for/aiming at the islands. The secondary nuance of 懸けて (staking, risking, spanning across the perilous distance) is not conveyed — there is no sense of risk, commitment, or spanning tension in the phrasing, just plain destination movement."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As the source analysis notes, this poem carries no true seasonal kigo (it is a travel/exile poem), and Noguchi's translation likewise contains no seasonal marker or atmosphere — the imagery is purely of sea, isles, and boat, consistent with the source's non-seasonal nature. No addition or substitution of season occurs."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Address to the fisherman's boat ('O thou, fisher's boat')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The plea to tell people of his departure ('Tell men that I sailed')",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Rowing out toward the eighty islands ('Away into the eighty isles')",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The vast blue sea field ('Into the bluest field,—the sea!')",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Noguchi restructures the poem by front-loading the shimo (appeal to the boat) and moving the kami (sea/islands description) to the end, effectively inverting the original kami-shimo sequence. Line 3 compresses かけて and こぎ出ぬと (rowing out toward) into a single phrase, and line 4 isolates わたの原 (the sea field) as a closing exclamatory image rather than the poem's opening image."
+    },
+    "translator_strategy": "Noguchi prioritizes an emotionally emphatic, exclamatory English lyric by reordering the poem to open with the direct appeal to the boat and close on the vast sea image, sacrificing structural fidelity and the kakekotoba's double meaning for vividness and rhetorical punch in English.",
+    "overall_fidelity": "medium",
+    "poem_number": 11,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Porter opens with the address to the fishers (shimo content: 'tell my men') before the physical rowing/departure content (kami: Yasoshima, being rowed away, far off across the bay). The source order is kami (rowing out) then shimo (plea to convey message); Porter reverses this, opening with the imperative address to the fishermen and only afterward giving the rowing/location detail, so the causal-physical logic (departure occasions the plea) is structurally reversed rather than merely compressed."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "かけて",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "(implicit in 'Yasoshima')",
+        "note": "Porter renders 八十島かけて simply as the place name 'Yasoshima' with no verb conveying 'heading toward' or 'spanning/staking across'; the pivot's directional and figurative senses both disappear, folded into a flat geographic reference."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As in the source, there is no true kigo present since this is a travel/exile poem; Porter's imagery ('little boats', 'bay', 'rowed away') stays within the same non-seasonal maritime/travel register as the original, so nothing is lost or added seasonally — the absence is consistent with the source."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Address to the fishermen in their small boats",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Urgent plea: tell my men/people",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Location marker: Yasoshima (the eighty islands)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "I am being rowed away (departure act)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "Far off across the bay — expands わたの原 (vast sea) and reinforces the rowing image",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem into an address-first sequence: fisherman invocation (shimo ku5) and message plea (shimo ku4) are pulled to the front (L1-L2), while the kami content (rowing toward the many islands, the vast sea) is pushed to the back (L3-L5). This is a clear inversion of the source's kami-then-shimo ordering, though all core content elements are retained in compressed/expanded form."
+    },
+    "translator_strategy": "Porter prioritizes a natural, rhyming English quatrain-plus-tag narrative flow over preserving the source's ku order or its kakekotoba wordplay, restructuring the address-and-plea to the fishermen as the poem's dramatic opening while relegating the departure/rowing imagery to a rhymed close.",
+    "overall_fidelity": "medium",
+    "poem_number": 11,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "O'er the wide, wide sea = わたの原 (the vast sea plain)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Towards its many distant isles = 八十島かけて (heading toward the eighty islands)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Rowing I set forth = こぎ出ぬと (having rowed out)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "This, to all the world proclaim = 人には告げよ (tell the people), though 'all the world' broadens the addressee beyond intimate loved ones",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "O ye boats of fisher-folk = あまのつり舟 (fisherman's fishing boats), addressed as the vehicle of the message",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "One-to-one mapping of each English line to one ku, preserving kami/shimo order exactly; minor expansion in line 4 ('all the world' vs 'people') slightly shifts the intimacy of the addressee but structure is intact."
+    },
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translation maintains the causal-physical logic: the physical act of rowing out (L1-3) directly motivates the plea to the fishing boats to carry news (L4-5). The imperative 'proclaim' and vocative address to the boats in L5 mirror the source's entreaty structure, keeping the turn from description to appeal intact."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "かけて",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Towards",
+        "note": "McCauley renders かけて simply as 'Towards its many distant isles,' capturing only the directional/aiming sense (目指して). The secondary nuance of 懸けて — staking everything, spanning a perilous distance — is not conveyed; there is no word suggesting risk, commitment, or vast spanning effort, only plain directionality."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As the source analysis notes, this poem carries no true seasonal kigo (it is a travel/exile poem outside the four-season framework). McCauley's translation likewise contains no seasonal marker or atmosphere — the imagery of open sea and fishing boats remains purely maritime/travel-related, consistent with the source's non-seasonal nature. No omission relative to source since there was nothing seasonal to preserve."
+    },
+    "translator_strategy": "McCauley favors a faithful, line-by-line literal rendering that preserves the poem's exact ku order and bipartite causal structure, sacrificing the kakekotoba's double meaning and intimacy of address in favor of clarity and formal balance (note the elevated diction 'O ye boats of fisher-folk').",
+    "overall_fidelity": "high",
+    "poem_number": 11,
+    "translator": "McCauley"
+  }
+}

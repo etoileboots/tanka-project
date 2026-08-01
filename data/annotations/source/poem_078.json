@@ -1,0 +1,55 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "よ",
+      "ku": 4,
+      "reading_primary": "夜(よ)の連続、いくよ＝幾夜",
+      "reading_secondary": "世（人生・境涯）",
+      "interaction": "いくよ (幾夜) literally counts 'how many nights' of waking, but よ also carries the resonance of 世 (one's life/lot as a lonely guardian), deepening ねざめぬ from a single night's insomnia into the guardsman's whole tenure of solitary years at the barrier.",
+      "confidence": "medium"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The plovers cross the strait from Awaji Island, their cries carrying over the water at night",
+    "shimo_theme": "The lonely barrier-keeper of Suma, roused from sleep night after night by that cry",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku establishes the auditory stimulus (the plovers' cry carrying over the water from Awaji), and the shimo-no-ku reveals its human effect: the sekimori of Suma is awakened by that very sound, night after night. The cry is the physical cause; the guard's chronic wakefulness is the consequence, and 幾夜 quietly extends this from one night into an entire span of solitary years, evoking the exiled, melancholy atmosphere of Suma familiar from Genji monogatari and earlier poetic tradition."
+  },
+  "kigo": {
+    "word": "千鳥",
+    "season": "winter",
+    "note": "Chidori (plovers) crying over the water at night is a classical winter kigo, evoking cold desolate shorelines; their cry conventionally signifies loneliness and is strongly associated with the Suma/Akashi coastal landscape in poetic tradition.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "淡路島",
+      "reading": "あわじしま"
+    },
+    {
+      "kanji": "千鳥",
+      "reading": "ちどり"
+    },
+    {
+      "kanji": "声",
+      "reading": "こゑ"
+    },
+    {
+      "kanji": "関守",
+      "reading": "せきもり"
+    }
+  ],
+  "poem_number": 78,
+  "poet": "Minamoto no Kanemasa",
+  "source_jp": "淡路島\nかよふ千鳥の\nなく声に\nいくよねざめぬ\nすまの関守"
+}

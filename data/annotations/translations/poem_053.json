@@ -1,0 +1,329 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The translation dissolves the sharp pivot from lived sensation (kami) to rhetorical accusation (shimo) into a single continuous first-person narrative of grief and slow dawn; the rhetorical question directed at the husband's ignorance is entirely absent, replaced by a subjective description of how slowly the hours seemed to pass. The bipartite boundary between the sensory kami and the accusatory shimo is lost — there's no 'does he know' address at all, just a report of feeling."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "夜の",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "through the night",
+        "note": "The translator renders 'night' purely as a temporal setting for the weeping/watching; the secondary sense of 'life/lot' as a marriage condition is not evoked anywhere in the six lines — there is no suggestion that this night stands for an enduring married state."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "Consistent with the source analysis, no seasonal word or seasonal atmosphere is present; the poem/translation concerns temporal grief (night into dawn) rather than any seasonal imagery, and Dickens introduces no seasonal substitution."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Weeping/sighing through the night, alone",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Emphasizes solitude and desertion",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Morning light finally breaks",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Speaker feared the dawn would never come — an emotional elaboration not explicit in source but consistent with the 'how long' theme",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "So slowly — restating the length/duration theme",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The creeping hours seemed to pass — replaces the rhetorical question 'does he know?' with a straightforward description of felt duration",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Dickens expands the five ku into six flowing lines of continuous first-person lament, but crucially omits the shimo-no-ku's rhetorical address to the absent man (‘いかに久しきものとかは知る’ — does he know how long?), converting an implicit reproach into a purely descriptive statement of the speaker's own suffering; this removes the bipartite pivot from sensation to accusation."
+    },
+    "translator_strategy": "Dickens prioritizes a smooth, emotionally expressive English lyric of solitary grief over preserving the original's rhetorical accusation, sacrificing the shimo-no-ku's pointed address to the negligent husband in favor of a continuous, decorative narrative of the woman's own weeping and the slow passage of night.",
+    "overall_fidelity": "low",
+    "poem_number": 53,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "The translation reverses the order of the source: it opens with the shimo-no-ku's rhetorical exclamation about the length of the wait ('What a long time / To the dawn') before presenting the kami-no-ku's sensory content of weeping and sleeping alone. The rhetorical-question form is also flattened into an exclamation, losing the pointed accusatory pivot toward the husband's ignorance, so the inferential-sensory logic (lived night experience -> demand for acknowledgment) is reduced to a simple emotional statement without the original's directed reproach."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "夜の",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "the night",
+        "note": "The translation keeps 'night' only as the literal temporal setting ('When I weep through the night'); the secondary sense of 夜 as one's life/lot/married condition is not carried over — there is no suggestion that this single night stands for her enduring marital situation."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As the source itself contains no seasonal marker, there is nothing seasonal to preserve or lose; the translation likewise contains no seasonal imagery, consistent with the source's kigo being 'none'."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Exclamatory statement of the length of the wait, replacing the rhetorical question of the shimo-no-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The dawn/coming of day (明くる間)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Weeping/sighing through the night (なげきつつ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Sleeping alone (ひとりぬる)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the order of the original, front-loading the shimo-no-ku's emotional conclusion ('What a long time / To the dawn') before the kami-no-ku's sensory grounding ('weep through the night, / And sleep alone'), collapsing the rhetorical question about the husband's ignorance into a simple exclamatory statement and thus losing the accusatory pivot altogether."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, emotionally direct four-line lyric over structural fidelity, reordering the poem's clauses and converting its rhetorical accusation into a simple exclamation of grief.",
+    "overall_fidelity": "medium",
+    "poem_number": 53,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "inferential-sensory collapsed into continuous complaint",
+      "note": "Porter dissolves the rhetorical-question pivot of the shimo-ku into a simple continuation of the speaker's lament rather than a pointed inferential accusation directed at the husband's ignorance. Lines 4-5 ('How weary I have grown / Of being left alone!') restate the speaker's own weariness rather than posing the bitter rhetorical question of whether the man understands the length of the wait; the accusatory/inferential logic aimed outward at the husband is lost, replaced by an inward-focused continuous complaint."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "夜の",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "long and dreary night",
+        "note": "Porter renders 夜 straightforwardly as 'night' with added adjectives 'long and dreary,' capturing the literal temporal sense of the solitary night but giving no hint of the secondary sense of 夜 as standing for the speaker's whole marital 'life' or 'lot.' The pivot's double meaning collapses into a single literal image."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "long and dreary night",
+      "note": "The source analysis identifies no true seasonal marker in this poem (season: none), and Porter's translation likewise introduces no seasonal imagery; 'night' and 'dreary' function as emotional/temporal descriptors, not seasonal ones, consistent with the source's lack of kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The long, dreary night of solitary sleeping",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Lying awake sighing/moaning",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [],
+          "content_summary": "Desolate chamber — an invented sensory detail not present in the source poem, which never mentions a room or chamber",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Weariness substituting for the rhetorical question about the length of the dawn-wait",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Being left alone, replacing the accusatory question of whether the husband knows this suffering",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five-line waka into a five-line English stanza but redistributes content: the kami-ku's sighing and solitary night are spread across lines 1-2, an entirely invented image of a 'desolate chamber' is added in line 3, and the shimo-ku's rhetorical question is replaced by lines 4-5 expressing the speaker's own weariness and loneliness rather than posing a question to/about the husband."
+    },
+    "translator_strategy": "Porter prioritizes a smoothly rhyming, metrically regular English lyric of plaintive loneliness over precise semantic and rhetorical fidelity to the original's pivot word and accusatory rhetorical question.",
+    "overall_fidelity": "low",
+    "poem_number": 53,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation keeps the same two-part logic: lines 1-3 render the physical/emotional experience of sighing alone through the night till dawn, and lines 4-5 pivot to the rhetorical question addressed to the man, asking if he can realize how tedious it is. The inferential-sensory movement from lived sensation to accusatory question is maintained, though the reproachful edge is softened into a more neutral 'Can you realize'."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "夜の",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "the night",
+        "note": "McCauley renders 夜 only as the literal temporal 'night' ('the long watch of the night'), losing the secondary sense of 夜 as one's life/lot/marriage condition; the pun collapses to a single literal reading."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "the night",
+      "note": "Consistent with the source analysis, no seasonal marker exists in the original and none is introduced in translation; 'night' and 'day' remain purely diurnal/temporal, not seasonal, images."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Sighing all alone — renders 嘆きつつ (sighing/grieving)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Through the long watch of the night — renders ひとり寝る夜の (sleeping alone through the night)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Till the break of day — renders 明くる間は (the interval until dawn breaks)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Can you realize at all — renders いかに (how) as a rhetorical question directed outward",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "What a tedious thing it is — renders 久しきものとかは知る (how long/tedious a thing, do you know?)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation follows the five-ku structure closely with a near one-to-one line-to-ku correspondence, expanding slightly into a rhetorical question form across the final two lines but preserving the overall bipartite division exactly."
+    },
+    "translator_strategy": "McCauley aims for clear, literal, line-by-line fidelity to the surface narrative and rhetorical question of the poem, sacrificing the kakekotoba's double meaning for straightforward clarity.",
+    "overall_fidelity": "medium",
+    "poem_number": 53,
+    "translator": "McCauley"
+  }
+}

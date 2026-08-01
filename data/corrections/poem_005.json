@@ -1,0 +1,319 @@
+{
+  "poem_number": 5,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-26T04:32:27.256756+00:00"
+    },
+    "devices": {
+      "秋": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "秋",
+          "color": "#B4DE65"
+        },
+        "reviewed_at": "2026-07-26T04:35:16.380958+00:00"
+      },
+      "紅 葉": {
+        "status": "removed",
+        "original": {
+          "word": "紅 葉",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-26T04:35:34.346756+00:00"
+      },
+      "紅葉": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "紅葉",
+          "color": "#B4DE65"
+        },
+        "reviewed_at": "2026-07-26T04:35:44.612953+00:00"
+      },
+      "鹿": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "鹿",
+          "color": "#B4DE65"
+        },
+        "reviewed_at": "2026-07-26T04:36:04.946506+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "Momiji": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Momiji",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:19:54.394072+00:00"
+        },
+        "deer": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "deer",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:20:38.425580+00:00"
+        },
+        "autumn": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:21:35.950541+00:00"
+        }
+      },
+      "device_links": {
+        "Momiji": {
+          "status": "corrected",
+          "original": {
+            "word": "Momiji"
+          },
+          "corrected": {
+            "source_word": "紅葉"
+          },
+          "reviewed_at": "2026-08-01T00:19:57.925665+00:00"
+        },
+        "deer": {
+          "status": "corrected",
+          "original": {
+            "word": "deer"
+          },
+          "corrected": {
+            "source_word": "鹿"
+          },
+          "reviewed_at": "2026-08-01T00:20:43.936520+00:00"
+        },
+        "autumn": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn"
+          },
+          "corrected": {
+            "source_word": "秋"
+          },
+          "reviewed_at": "2026-08-01T00:21:40.952385+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "device_links": {
+        "maple leaves": {
+          "status": "corrected",
+          "original": {
+            "word": "maple leaves"
+          },
+          "corrected": {
+            "source_word": "紅葉"
+          },
+          "reviewed_at": "2026-08-01T00:20:06.676531+00:00"
+        },
+        "deer": {
+          "status": "corrected",
+          "original": {
+            "word": "deer"
+          },
+          "corrected": {
+            "source_word": "鹿"
+          },
+          "reviewed_at": "2026-08-01T00:20:53.221643+00:00"
+        },
+        "autumn": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn"
+          },
+          "corrected": {
+            "source_word": "秋"
+          },
+          "reviewed_at": "2026-08-01T00:21:45.474750+00:00"
+        }
+      },
+      "devices": {
+        "maple leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "maple leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:20:07.375511+00:00"
+        },
+        "deer": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "deer",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:20:50.214705+00:00"
+        },
+        "autumn": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:21:45.984840+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "device_links": {
+        "crimson leaves": {
+          "status": "corrected",
+          "original": {
+            "word": "crimson leaves"
+          },
+          "corrected": {
+            "source_word": "紅葉"
+          },
+          "reviewed_at": "2026-08-01T00:20:15.819282+00:00"
+        },
+        "stag": {
+          "status": "corrected",
+          "original": {
+            "word": "stag"
+          },
+          "corrected": {
+            "source_word": "鹿"
+          },
+          "reviewed_at": "2026-08-01T00:21:17.155738+00:00"
+        },
+        "autumn": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn"
+          },
+          "corrected": {
+            "source_word": "秋"
+          },
+          "reviewed_at": "2026-08-01T00:21:51.955626+00:00"
+        }
+      },
+      "devices": {
+        "crimson leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "crimson leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:20:16.776139+00:00"
+        },
+        "stag": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "stag",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:21:02.185530+00:00"
+        },
+        "autumn": {
+          "status": "confirmed",
+          "original": {
+            "word": "autumn",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:21:49.928372+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "maple leaves": {
+          "status": "confirmed",
+          "original": {
+            "word": "maple leaves",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:20:21.033149+00:00"
+        },
+        "stag": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "stag",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:21:12.002300+00:00"
+        },
+        "autumn tide": {
+          "status": "removed",
+          "original": {
+            "word": "autumn tide",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T00:22:00.595661+00:00"
+        },
+        "autumn": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "autumn",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T00:22:06.048015+00:00"
+        }
+      },
+      "device_links": {
+        "maple leaves": {
+          "status": "corrected",
+          "original": {
+            "word": "maple leaves"
+          },
+          "corrected": {
+            "source_word": "紅葉"
+          },
+          "reviewed_at": "2026-08-01T00:20:23.441228+00:00"
+        },
+        "stag": {
+          "status": "corrected",
+          "original": {
+            "word": "stag"
+          },
+          "corrected": {
+            "source_word": "秋"
+          },
+          "reviewed_at": "2026-08-01T00:22:08.800050+00:00"
+        },
+        "autumn tide": {
+          "status": "corrected",
+          "original": {
+            "word": "autumn tide"
+          },
+          "corrected": {
+            "source_word": "秋"
+          },
+          "reviewed_at": "2026-08-01T00:21:58.878024+00:00"
+        }
+      }
+    }
+  }
+}

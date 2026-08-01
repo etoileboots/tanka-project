@@ -1,0 +1,72 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "末の松山波こさじとは",
+      "ku": 4,
+      "reading_primary": "place name Sue no Matsuyama",
+      "reading_secondary": "pledge that waves will never cross it",
+      "interaction": "The place name Sue no Matsuyama is invoked literally as a famous locale, but the whole phrase functions as an honkadori-borrowed image whose established meaning ('waves crossing the pine mountain' = the impossible / a broken vow) is activated simultaneously with its literal topographical sense — the mountain is both a real place and the emblem of an unbreakable promise now broken."
+    }
+  ],
+  "jokotoba": {
+    "text": "末の松山",
+    "ku_span": [
+      4,
+      4
+    ],
+    "pivot": "なみこさじ",
+    "function": "Sue no Matsuyama functions less as ordinary diction than as an inherited emblematic image (drawn from the Kokinshū anaonymous poem) that stands for the very notion of an unbreakable vow; its invocation here pivots the poem from the private physical image of tear-wringing into the shared cultural shorthand for a vow that should never be broken, deepening the irony that it has been."
+  },
+  "honkadori": {
+    "source_poem": "君をおきてあだし心をわがもたば末の松山波も越えなむ (Anonymous, Kokinshū, Tōhoku-'azuma-uta' section)",
+    "source_poet": "Anonymous (Kokin Wakashū)",
+    "echoed_phrase": "末の松山波こさじとは / 波も越えなむ",
+    "function": "Motosuke's poem directly echoes the older poem's use of Sue no Matsuyama as a symbol of an impossible event (waves crossing the pine-covered hill) standing for infidelity/breaking a vow. Where the Kokinshū poem asserts confidence that such a betrayal could never happen, Motosuke's poem recalls that very vow now being broken, turning the allusion into a lament over broken faith."
+  },
+  "kigo": {
+    "word": "松山",
+    "season": "none",
+    "note": "Although 松 (pine) can carry a faint evergreen/winter connotation and 末の松山 is a famous utamakura, in this poem the phrase functions purely as an emblematic place-name for an unbreakable vow rather than as a seasonal image; no natural seasonal marker (blossom, snow, autumn wind, dew, etc.) is present in the poem, so it is best classified as non-seasonal, love-poem imagery (koi no uta) rather than true kigo."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker recalls a solemn mutual vow of love, each partner wringing out tear-soaked sleeves as proof of devotion.",
+    "shimo_theme": "The vow was that their bond would be as unbreakable as the legendary impossibility of waves crossing Sue no Matsuyama — an image now recalled with bitter irony, implying the vow has since been broken.",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The kami-no-ku establishes the intimate, tearful sincerity of the original promise; the shimo-no-ku reveals the content of that promise through a famous emblematic image of impossibility. The pivot's power lies in the unspoken present-tense irony: quoting the vow verbatim ('did we not pledge...') implies, without stating, that the impossible has in fact happened — the loved one's heart has changed, exposing the earlier tears as futile."
+  },
+  "furigana": [
+    {
+      "kanji": "契",
+      "reading": "ちぎ"
+    },
+    {
+      "kanji": "袖",
+      "reading": "そで"
+    },
+    {
+      "kanji": "末",
+      "reading": "すえ"
+    },
+    {
+      "kanji": "松山",
+      "reading": "まつやま"
+    },
+    {
+      "kanji": "波",
+      "reading": "なみ"
+    }
+  ],
+  "poem_number": 42,
+  "poet": "Kiyowara no Motosuke",
+  "source_jp": "ちぎりきな\nかたみに袖を\nしぼりつつ\n末の松山\n波こさじとは"
+}

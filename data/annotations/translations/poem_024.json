@@ -1,0 +1,322 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translation keeps the basic logic — no offering prepared, but the maple brocade (revealed at Tamukeyama) serves in its place — however the syntax compresses kami and shimo boundaries: L3-L4 blend the 'nishiki' and 'Tamuke-yama' together so the revelation moment is less sharply pivoted than in the source, and 'thou dost show' addresses the mountain rather than letting the leaves stand as autonomous offering; L5 ends with 'I trow' as a personal hedge rather than 'as the gods will', softening the devotional surrender into a hopeful guess."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "手向山",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "Tamuke-yama",
+        "note": "Dickens retains 'Tamuke-yama' as a transliterated proper name (primary place-name reading preserved), but does not render the embedded verb 手向く ('to offer') in English at all — the pun's secondary sense is entirely lost, so this is really primary_only rather than literal_secondary; the offering-verb echo is absent, replaced instead by the verb 'show' which reassigns action to the mountain displaying the leaves rather than the mountain performing/receiving an offering."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "maple-tree",
+      "note": "The word 'maple-tree' (nishki of the maple-tree) evokes autumn foliage imagery without naming the season explicitly; the brocade comparison ('nishki') is preserved as a color/texture image but 'autumn' itself is never stated."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'This time, I ween, no need there be' — corresponds to このたびは (this journey/time), reframed as a rationale for not needing an offering.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'A nusa I should take with me' — renders 幣もとりあへず, the unprepared ritual offering.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'The nishki of the maple-tree' — merges 紅葉のにしき (maple brocade) with reference to Tamukeyama's setting, beginning the shimo content while still finishing the kami's place-name reference in L4.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'Tamuke-yama thou dost show' — explicitly names Tamuke-yama and personifies it as revealing/showing the brocade, blending kami (place name) and shimo (visual revelation) content.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "''Twill serve the gods full well, I trow' — corresponds to 神のまにまに, though softened from 'as the gods will' (submission) to 'will serve...well' (confident hope), altering the devotional tone.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses and slightly reorders content: the place-name Tamukeyama is delayed to L4 rather than appearing before the maple imagery as in the source's ku3, creating a chiasmus-like inversion of the visual-revelation sequence, and the closing line changes the source's surrendering formula into a more assured, first-person expression of expectation."
+    },
+    "translator_strategy": "Dickens prioritizes rhyme and singable meter (AABBB rhyme scheme with archaic diction like 'ween,' 'trow') over precise preservation of the kakekotoba's dual meaning or the devotional humility of 神のまにまに, favoring fluency and rhetorical charm in English verse form.",
+    "overall_fidelity": "medium",
+    "poem_number": 24,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        3
+      ],
+      "shimo_lines": [
+        2,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The translator preserves the basic logic (no offering prepared, but maple brocade will serve instead), but the syntax is compressed and reordered so that the 'god' address appears mid-poem (line 2) rather than at the close, weakening the sense of a climactic revelation followed by devotional surrender. The structural boundary between kami and shimo is blurred by folding 'Tamuke mountain' into line 3, separate from the offering images that bracket it."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "手向山",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Tamuke mountain",
+        "note": "The place name Tamuke mountain is rendered literally/transliterated as a proper noun, preserving the primary toponymic reading, but the embedded verbal sense of 'to make an offering' (手向くる) is lost — there is no verb or gerund in English echoing the nusa offering at this point, so the pivot's double function collapses into a bare place name."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "brocade of maple leaves",
+      "note": "Autumn is not named explicitly, but the maple-leaf brocade image—canonical for autumn—survives intact and carries the seasonal atmosphere through color and texture imagery."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Traveler could not bring/prepare the nusa offering this time",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Address to the god, introducing the maple-leaf brocade as substitute offering (the 'as gods will' theme moved earlier)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Naming of Tamuke mountain as the site",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Resolution: the brocade will serve as/for the god's will",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator splits and reorders content: the 'God' apostrophe and the maru-imasu resolution (神のまにまに) are distributed across lines 2 and 4, with the place name Tamuke mountain inserted between them in line 3, rather than kept as a single unbroken pivot-bearing line as in the source. This produces a slight scrambling of the kami/shimo boundary, though overall content is preserved."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, singable English quatrain that preserves the poem's devotional narrative and central image (maple brocade offered to the god) at the cost of the kakekotoba's wordplay and the precise formal kami/shimo division.",
+    "overall_fidelity": "medium",
+    "poem_number": 24,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "The kami-no-ku's core idea — hurried journey, no time to prepare offerings — is compressed/altered into 'I bring no prayers on coloured silk' which actually pre-loads the shimo's 'silk' imagery into the kami section, blurring the revelation structure. The 'finer than silk are they' resolution in L5 mirrors the shimo's revelation that the leaves themselves are the offering, but the poem's logic of an unprepared traveler substituting nature's brocade is reordered: the silk offering is denied at the start rather than being an absent human nusa, and the comparison to silk is stated twice, weakening the surprise/reveal structure."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "手向山",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Tamuké",
+        "note": "Porter renders the place name literally as 'Tamuké' (line 4), preserving it as a proper noun/place, but the embedded verb 'to offer' (手向く) that puns with the ritual act is lost — no wordplay or double meaning is conveyed in English; the offering sense survives only diffusely through the general theme of the poem, not through this specific word."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "maple leaves",
+      "note": "Autumn is never named explicitly, but 'maple leaves' at line 3 carries the conventional autumn image; the 'coloured silk' / 'Finer than silk' framing further evokes the brocade-like brilliance of autumn foliage, transmitting the season's atmosphere through color and texture imagery rather than a named season word."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Declares no prepared offering of silk/prayers — merges kono tabi (this journey) and nusa mo toriaezu (no time to prepare nusa) into a single image of 'coloured silk' offerings not brought.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Extends the address 'to deck thy shrine to-day' — expands the ritual/devotional framing implicit in kami-no-ku, partly extrapolated to supply an addressee ('thy shrine') not explicit in the Japanese.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'these maple leaves' — the substitute offering, corresponding to momiji no nishiki.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'That grow at Tamuké' — names the place Tamukeyama, ku3, but reassigns it as the location where the maple leaves grow rather than the mountain pass of the offering ritual pun.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Finer than silk are they' — restates/resolves the nishiki (brocade) comparison from ku4, replacing the shimo-no-ku's 'as the gods will' resignation (ku5) with an aesthetic judgment; ku5 (kami no manimani) is entirely omitted from this translation.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses and reorders: he front-loads the silk/offering comparison into the kami section (L1) rather than reserving it for the shimo's revelation, and drops the final 'as the gods will' (神のまにまに) entirely, replacing devotional surrender with a simple aesthetic superlative ('Finer than silk'). This significantly alters the poem's closing tone from religious submission to a compliment on natural beauty."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhyme-driven English quatrain-plus-tag structure over exact device preservation, sacrificing the kakekotoba pun and the closing 'as the gods will' surrender in favor of a simpler, aestheticized comparison between silk and maple leaves.",
+    "overall_fidelity": "medium",
+    "poem_number": 24,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translator maintains the visual-revelation structure: lines 1-3 establish the traveler's lack of formal offering at Mount Tamuke, and lines 4-5 reveal the maple-leaf brocade as the substitute offering, left to the god's pleasure — the same ritual-deficiency-to-natural-resolution logic as the source."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "手向山",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Mount Tamuke",
+        "note": "The place name is preserved literally as 'Mount Tamuke', keeping the primary toponymic reading, but the embedded verb 手向く ('to offer') is not activated in English — no wordplay or pun links the mountain's name to the act of offering; the connection is only implicit for a reader who knows the etymology."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "red leaves",
+      "note": "The season is not named explicitly as 'autumn', but the image of 'brocades of red leaves' clearly evokes the canonical autumn maple-leaf imagery, preserving the seasonal atmosphere through visual detail rather than explicit naming."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "'At the present time' renders このたびは, establishing the occasion of the journey.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'Since no offering I could bring' renders 幣もとりあへず, the failure to prepare formal offerings.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'See, Mount Tamuke!' renders 手向山, the place name, with an added exclamatory 'See' not in the original but serving as a rhetorical pivot.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'Here are brocades of red leaves' renders 紅葉のにしき, the maple-leaf brocade image.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'At the pleasure of the god' renders 神のまにまに, the surrender to divine will.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation follows a close 1:1 line-to-ku mapping, preserving the original five-part structure without compression or inversion; the added 'See' in line 3 slightly dramatizes the pivot but does not alter the semantic correspondence."
+    },
+    "translator_strategy": "McCauley prioritizes a close, literal line-by-line correspondence to the original five ku, sacrificing the wordplay of 手向山 for clarity and preserving the visual and devotional imagery of the shimo-no-ku intact.",
+    "overall_fidelity": "high",
+    "poem_number": 24,
+    "translator": "McCauley"
+  }
+}

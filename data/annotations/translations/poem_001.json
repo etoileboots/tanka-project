@@ -1,0 +1,330 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator retains a loose causal link (hut with rough thatch → wet clothes) but expands the kami section into an elaborated narrative about harvest labor (rice-sheaves collected 'by my toiling hand') that isn't in the source's compact pivot word, diluting the tight physical causation of 'coarse thatch → dew seeps through' into a more discursive four-line setup before the two-line consequence. The causal logic is preserved in essence (rough/tattered roof lets sky/dew in, wetting sleeves) but weakened by added narrative material not tied directly to the causal mechanism."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かりほ",
+        "reading_preserved": "secondary_only",
+        "method": "partial",
+        "en_equivalent": "rice-sheaves ... Collected by my toiling hand",
+        "note": "The translator expands heavily on the 刈り穂 (harvested rice-ears) reading, inventing an entire scene of harvest labor ('fields where rice-sheaves frequent stand', 'Now autumn's harvest well-nigh o'er', 'Collected by my toiling hand') but the primary meaning of かりほ as the temporary hut (仮庵) is only weakly present via 'my lowly hut' in L1, disconnected from the harvest imagery that follows — the pivot fusion of dwelling-for-reaping is split apart into separate images rather than one word carrying both senses simultaneously."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn's harvest",
+      "note": "Autumn is named explicitly ('Now autumn's harvest well-nigh o'er'), and reinforced through harvest imagery (rice-sheaves, toiling hand collecting grain) — the seasonal atmosphere of harvest-time labor and exposure is strongly present, arguably even overdeveloped compared to the source's compact phrase."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "My lowly hut is thatched with straw — introduces the hut and its rough thatch",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "From fields where rice-sheaves frequent stand — expands on the rice field setting, drawing on the かりほ secondary meaning",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Now autumn's harvest well-nigh o'er — explicit naming of autumn and harvest timing, expanded beyond source's compact phrase",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [],
+          "content_summary": "Collected by my toiling hand — invented narrative detail about the speaker's labor, no direct equivalent in source ku",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Through tatter'd roof the sky I view — expands on the coarse-thatch image, adding a visual detail (seeing sky) not explicit in source",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "My clothes are wet with falling dew — direct translation of the shimo-no-ku's core image",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact three-ku kami section into four lines of elaborated narrative (adding invented harvest-labor detail), while compressing the two-ku shimo section into two lines that closely track the source; this produces an asymmetrical expansion of the causal setup relative to the tightly rendered consequence."
+    },
+    "translator_strategy": "Dickens prioritizes narrative clarity and rhyme/meter over compact fidelity, expanding the pivot word かりほ's harvest connotation into an entire invented scene of manual rice-gathering while still delivering the wet-sleeves consequence fairly literally.",
+    "overall_fidelity": "medium",
+    "poem_number": 1,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        1
+      ],
+      "note": "Noguchi places the shimo-no-ku content (wet sleeves from dew) as the very first line, before the kami-no-ku content (the hut, its roof, the harvest field) that follows in lines 2-4. This reverses the source's cause-then-effect order into an effect-then-cause structure, though the causal logic itself (coarse thatch -> wet sleeves) is still implicitly present, just reordered and somewhat compressed — 'through the roof mat' stands in weakly for the coarseness-causation but the mechanism is asserted rather than logically built up."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かりほ",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "temporal hut",
+        "note": "Noguchi renders かりほ as 'temporal hut,' capturing the impermanent-dwelling sense (仮庵) but not the harvested-rice-ears pun (刈り穂). The word 'harvest' appears separately in line 4, but it is not fused into the same lexical item as the hut, so the pivot's compression is lost even though both concepts appear in the stanza."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "midnight dews / harvest",
+      "note": "The word 'autumn' is never named explicitly, but 'harvest' in line 4 and 'dews' in line 1 together evoke the autumn harvest-watch scene, so the seasonal atmosphere survives implicitly rather than through an explicit season-word."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Wet sleeves from midnight dew — shimo-no-ku content moved to front",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Coarse roof mat (とまをあらみ) rendered as 'through the roof mat'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The temporary/'temporal' hut (かりほの庵)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The harvest, alluding to 秋の田 and the harvest-pun in かりほ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation inverts the source's kami-shimo order, front-loading the emotional/physical effect (wet sleeves) and ending with the harvest context that in the original opens the poem; this is a significant structural inversion compressed into four short lines."
+    },
+    "overall_fidelity": "medium",
+    "translator_strategy": "Noguchi prioritizes a compact, evocative imagistic arrangement — leading with the emotionally resonant wet-sleeves image and trailing off with the harvest context — sacrificing the source's strict causal kami-shimo sequence and the かりほ pun's dual meaning for economy and mood.",
+    "poem_number": 1,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "Porter keeps the causal shape loosely: hut/shelter (L3) precedes wet sleeve (L5), but the cause is altered from 'coarse thatch letting dew through' to 'seeking shelter in vain from rain,' turning the physical-causal logic (roughness of thatch causing dew seepage) into a narrative of failed shelter-seeking and rain exposure. The logical link is weakened/paraphrased rather than the coarse-thatch mechanism being reproduced."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かりほ",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "reaping grain / shelter",
+        "note": "Porter splits the two meanings across separate lines (L2 'reaping grain' for 刈り穂, L3 'shelter' for 仮庵) rather than fusing them in one pivot word, so the punning compression is lost; the English does gesture at both senses but not through a single word functioning as kakekotoba, so neither reading is truly 'preserved' as a pun—it's decomposed and explained across lines."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "'this autumn day' / 'reaping grain'",
+      "note": "Porter names the season directly ('autumn') and reinforces it with harvest imagery ('reaping grain'), making the kigo explicit rather than merely atmospheric."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Sets autumn field scene ('Out in the fields this autumn day')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Harvest activity 'reaping grain' — draws on the 刈り穂 (cut ears) sense of kariho",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'I sought for shelter neath this roof' — the 仮庵 (temporary hut) sense of kariho plus the coarse-thatch roof (苫をあらみ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'But fear I sought in vain' — invented dramatic uncertainty not in source, loosely extrapolated from the coarseness causing exposure",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'My sleeve is wet with rain' — shimo-no-ku, though 'rain' substitutes for 'dew' (露)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the single kakekotoba word かりほ into two separate lines (L2 grain-reaping, L3 shelter), and inserts an extrapolated line (L4) of dramatic doubt not present in the source, while compressing 露 (dew) into 'rain,' shifting the poem's delicate seasonal moisture image toward a more literal weather event."
+    },
+    "overall_fidelity": "medium",
+    "translator_strategy": "Porter prioritizes a smooth, rhymed narrative in English verse form, decomposing the compressed kakekotoba into sequential explanatory lines and substituting 'rain' for 'dew' to render a plausible weather-story at some cost to the original's precise causal and punning structure.",
+    "poem_number": 1,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "McCauley preserves the causal-physical logic clearly: L1-L3 establish the coarse rush-mat roof of the harvest-hut in the autumn rice-field, and the semicolon/dash into L4-L5 shows the direct consequence — sleeves wetted by moisture dripping through the coarse thatch. The 'because...therefore' logic is intact, even reordered slightly (coarseness stated first, then hut, then field) but the causal chain to the shimo consequence remains clear."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "かりほ",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "harvest-hut",
+        "note": "McCauley renders かりほ as 'harvest-hut', which cleverly gestures toward both meanings by combining 'harvest' (echoing 刈り穂, the reaped rice-ears) with 'hut' (仮庵/仮廬, the temporary dwelling). This is a notable attempt at bilingual fusion, but structurally the primary reading (temporary hut) dominates as the noun while 'harvest' functions as a modifier evoking the secondary reading only allusively, not as a true pun — an English reader would not perceive a double meaning, only a compound descriptive phrase. Hence primary_only with partial credit for the secondary echo."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn rice-field",
+      "note": "The season word is preserved explicitly and literally — 'the autumn rice-field' directly names the season, matching the source's 秋の田. The imagery of the harvest-hut and rush-mat roof further reinforces the seasonal, agricultural atmosphere of autumn vigilance."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Coarse the rush-mat roof — describes the coarseness of the toma thatch",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Sheltering the harvest-hut — the kariho hut sheltered by the roof",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Of the autumn rice-field — aki no ta, locating the hut",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "And my sleeves are growing wet — koromode wa",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "With the moisture dripping through — tsuyu ni nuretsutsu, dew/moisture continuously wetting",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "McCauley inverts the order of the first three ku: the source moves aki-no-ta -> kariho-no-io -> toma-wo-arami (field, then hut, then roof-coarseness-as-cause), but McCauley front-loads the cause ('Coarse the rush-mat roof') then the hut then the field, reordering for English syntactic naturalness while preserving all semantic content. Lines 4-5 map cleanly onto ku 4-5 with minimal reordering."
+    },
+    "translator_strategy": "McCauley prioritizes clear causal logic and literal fidelity to imagery over strict line-order correspondence, reordering the kami-no-ku's descriptive elements into natural English syntax while preserving the poem's physical cause-and-effect structure and explicit seasonal setting.",
+    "overall_fidelity": "high",
+    "poem_number": 1,
+    "translator": "McCauley"
+  }
+}

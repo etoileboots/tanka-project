@@ -1,0 +1,298 @@
+{
+  "poem_number": 84,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "ながらへば": {
+        "status": "removed",
+        "original": {
+          "word": "ながらへば",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:35:25.414753+00:00"
+      },
+      "世": {
+        "status": "removed",
+        "original": {
+          "word": "世",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:35:26.024379+00:00"
+      },
+      "憂しと見し世": {
+        "status": "removed",
+        "original": {
+          "word": "憂しと見し世",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:35:26.459634+00:00"
+      },
+      "憂しと見し世ぞ": {
+        "status": "removed",
+        "original": {
+          "word": "憂しと見し世ぞ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T07:35:28.278272+00:00"
+      },
+      "しのば": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "しのば",
+          "color": "#F28FC0",
+          "note": "Shinoba is kakekotoba for 'endure' and 'think fondly'."
+        },
+        "reviewed_at": "2026-07-31T07:36:02.526377+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "device_links": {
+        "linger longer": {
+          "status": "corrected",
+          "original": {
+            "word": "linger longer"
+          },
+          "corrected": {
+            "source_word": "しのば"
+          },
+          "reviewed_at": "2026-07-31T07:36:13.791208+00:00"
+        }
+      },
+      "devices": {
+        "deemed sad": {
+          "status": "removed",
+          "original": {
+            "word": "deemed sad",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:36:29.027466+00:00"
+        },
+        "days": {
+          "status": "removed",
+          "original": {
+            "word": "days",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:36:30.073819+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:37:23.047052+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:37:23.490596+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:37:23.940413+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:37:24.773617+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "linger more": {
+          "status": "confirmed",
+          "original": {
+            "word": "linger more",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:38:09.527210+00:00"
+        },
+        "seemed of old": {
+          "status": "removed",
+          "original": {
+            "word": "seemed of old",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:38:13.938514+00:00"
+        },
+        "grievous strife": {
+          "status": "removed",
+          "original": {
+            "word": "grievous strife",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:38:14.974489+00:00"
+        }
+      },
+      "device_links": {
+        "linger more": {
+          "status": "corrected",
+          "original": {
+            "word": "linger more"
+          },
+          "corrected": {
+            "source_word": "しのば"
+          },
+          "reviewed_at": "2026-07-31T07:38:13.288991+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:38:26.476419+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:38:27.174718+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:38:28.373952+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:38:31.759792+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "despised my youth": {
+          "status": "removed",
+          "original": {
+            "word": "despised my youth",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:39:01.459027+00:00"
+        }
+      },
+      "lines": {
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T07:39:05.561690+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:39:31.156971+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:39:32.106362+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:39:33.039185+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:39:34.305469+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-31T07:48:29.623378+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-31T07:48:33.651784+00:00"
+        },
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:48:41.600826+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T07:48:42.034017+00:00"
+        }
+      }
+    }
+  }
+}

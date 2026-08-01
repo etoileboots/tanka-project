@@ -1,0 +1,333 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "The translator turns the emotional-juxtaposition into a narrative of estrangement (old friends grown indifferent, speaker gazing curiously on the old village) followed by a personal declaration of the flower's fragrance being uniquely familiar, shifting from 'unknown heart vs constant nature' to 'indifferent friends vs personally recognized fragrance'.",
+      "note": "The original's ambiguous, non-committal uncertainty about one person's heart ('hito wa isa') is expanded into a plural narrative of 'comrades' becoming indifferent, and the furusato is rendered as a village viewed with a 'wondering eye' rather than as the emotionally charged site of return. The shimo-ku's contrast between human inconstancy and the blossom's ancient unchanged fragrance is preserved in spirit (lines 5-6) but the connective logic is weakened because the speaker's own alienation (rather than an anonymous other's possibly-changed heart) becomes the frame, and the 'olf he knw' line introduces confusing typographical/orthographic corruption that further obscures the pivot from human to natural constancy."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふるさと",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "village",
+        "note": "The translation renders furusato as 'th' village that ol[d] he kn[e]w' — capturing only the literal 'old home village' sense as a place once known, with no activation of the temporal 経る/古る resonance (aging, passing time) that the source analysis notes is reinforced by 昔; the pivot's double resonance collapses into a single flat geographic/nostalgic reference."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "flower",
+      "note": "The word 'flower' with its 'fragrancy' being 'familiar' evokes the blossom's constancy and scent, gesturing at the plum/cherry blossom imagery of the source, but the specific spring identification is never made explicit and the plural/general 'flower' loses the vividness of hana as a named seasonal marker; the season is present only as generic floral imagery rather than a marked spring signal."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces 'comrades of my early days' as a stand-in for 'hito' (the person), pluralizing and personalizing the ambiguous 'person' of the source.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "States that these former friends now view the speaker with indifference, translating/expanding 'kokoro mo shirazu' (heart unknown) into a definite claim of emotional coldness rather than uncertainty.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Introduces a 'wondering eye' gazing — an extrapolated image not directly present in the source, transitioning toward the furusato description.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Names the village (furusato) that 'he' knew of old, corresponding to the third ku's furusato reference, though garbled by apparent OCR/typographical corruption ('olf he knw').",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Addresses the flower directly, invoking its fragrance as the pivot into the shimo-ku's claim of unchanged natural scent.",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Declares the fragrance alone remains familiar to the speaker, echoing the shimo-ku's assertion that the blossom's scent is unchanged from the past.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the ambiguous single 'hito' into a plural 'comrades' narrative and expands the furusato-gazing moment into an added visual image ('wondering eye'), while collapsing the kami/shimo boundary into a continuous six-line narrative of estrangement resolved by lasting floral familiarity; the text also shows apparent transcription corruption ('olf he knw') that obscures exact wording."
+    },
+    "translator_strategy": "Dickens prioritizes a flowing, rhymed English lyric narrative of personal estrangement and rediscovered floral familiarity over precise preservation of the source's ambiguous pronoun, kakekotoba wordplay, or explicit seasonal marker.",
+    "overall_fidelity": "low",
+    "poem_number": 35,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator turns the ambiguous 'hito wa isa kokoro mo shirazu' (I truly don't know what's in that person's heart) into an assertion of certainty ('I know now what one thinks of me'), reversing the uncertainty that is central to the kami-no-ku. This weakens/inverts the emotional-juxtaposition: rather than doubt-versus-constancy, the poem becomes knowledge-versus-constancy, altering the pivot's rhetorical force even though the overall two-part contrast structure (human vs. flower) survives."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふるさと",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "the home",
+        "note": "The translation renders furusato simply as 'the home,' capturing the primary meaning of a familiar/old place but losing the ふる/経る echo of aging and the passage of time that reinforces the poem's temporal theme."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "flowers are perfumed",
+      "note": "No season word appears explicitly (no 'spring' or 'plum'), but 'flowers are perfumed' and 'fragrance old and same' preserve the sensory imagery of blossoms and their scent, implicitly carrying the seasonal association with spring blossoming, though the specific plant (plum/cherry) is not named."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Assertion of now knowing what 'one' (the person) thinks, collapsing 'hito wa isa' and 'kokoro mo shirazu' into a claim of knowledge rather than doubt",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Completion of the thought ('Of me') and transition to 'But at the home' — introduces furusato as location, connecting to shimo-no-ku via contrastive 'But'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The flowers are perfumed — corresponds to 花ぞ (the blossoms) blooming",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "In fragrance old and same — corresponds to 昔の香に匂ひける, the scent unchanged from the past",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses five ku into four lines, with kami-no-ku's uncertainty reworded as certainty, and shimo-no-ku's blossom/fragrance content spread across lines 3-4; the volta ('But') marks the bipartite boundary between lines 2 and 3."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, natural-sounding English quatrain over precise semantic fidelity, simplifying the ambiguous uncertainty of the original into a flat assertion while preserving the core image of unchanging floral fragrance as the poem's emotional payoff.",
+    "overall_fidelity": "medium",
+    "poem_number": 35,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "emotional-juxtaposition (weakened into nostalgic memory-recall)",
+      "note": "Porter keeps the basic shape of 'human world changed / blossoms unchanged' but converts the original's ambiguous, unresolved doubt about a specific person's heart into a more general statement that the village and its people have changed ('gone,' 'new faces'), and then resolves the tension sentimentally by having the blossoms' scent 'recall my childhood's days' rather than leaving the contrast as a silent rebuke or open question. The emotional-juxtaposition structure survives but is softened into a straightforward nostalgia narrative, and the pivot's original ambiguity (hito wa isa kokoro mo shirazu) is lost in favor of a clear statement that the village/people have changed."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふるさと",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "village of my youth",
+        "note": "Porter translates furusato as 'the village of my youth,' capturing the primary sense of an old home/native place but with no trace of the ふる/経る 'aging, passing of time' resonance as a wordplay; the temporal idea is instead expressed elsewhere through 'gone' and 'childhood's days,' so the pivot itself is dissolved into surrounding narrative rather than preserved as a single word doing double duty."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "blossoms",
+      "note": "The season is not named explicitly (no 'spring' appears) but the image of blossoms whose perfume 'scents the ways' clearly carries springtime floral atmosphere, functioning as the emblem of natural constancy just as in the source, though the specific plum-blossom scent tradition is generalized to 'blossoms.'"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "The village of my youth is gone — merges the uncertain 'hito wa isa' human doubt with the furusato setting, reframed as the village itself having vanished/changed rather than the person's heart being unknown",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "New faces meet my gaze — extrapolated concretization of 'people's hearts unknown' into literally new, unfamiliar people, shifting from psychological uncertainty to demographic change",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "But still the blossoms at thy gate — introduces direct address ('thy gate') not present in source, corresponds to 花ぞ (the blossoms, contrastively marked)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Whose perfume scents the ways — corresponds to 香に匂ひける, the blossoms' fragrance",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Recall my childhood's days — extrapolated sentimental conclusion that the scent evokes personal childhood memory, going beyond the source's simple assertion that the fragrance is unchanged 'as of old' (mukashi no ka)",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five ku into five lines but restructures the content: he introduces a first-person nostalgic narrator whose village and childhood are foregrounded, adds direct address ('thy gate') absent from the original, and turns the blossom's constancy into a trigger for personal memory rather than an implicit contrast with an unknowable human heart — effectively converting the poem's ambiguous social commentary into a straightforward sentimental homecoming lyric."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, sentimental, rhymed English lyric of nostalgic homecoming over precise preservation of the original's ambiguous doubt about human constancy, sacrificing the kakekotoba's temporal wordplay and the poem's open-ended emotional juxtaposition for narrative clarity and metrical/rhyme conventions.",
+    "overall_fidelity": "medium",
+    "poem_number": 35,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "The translator maintains the same emotional-juxtaposition logic: lines 1-2 express doubt about human hearts, while lines 3-5 answer with the unchanging fragrance of the plum blossom in the old home, preserving the contrast between human inconstancy and natural constancy. The 'furusato' (birthplace) is folded into the shimo-no-ku material rather than kept separate as in the source's kami-no-ku placement, slightly shifting the ku boundary but not the thematic logic."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ふるさと",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "birthplace",
+        "note": "McCauley renders ふるさと straightforwardly as 'birthplace,' capturing the primary meaning of 'old home village' but losing any activation of the ふる/古る-経る temporal echo of aging or the passage of time; the word functions purely as a place-name here with no wordplay signaled."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "plum's sweet flower",
+      "note": "The season is not named explicitly as 'spring,' but the plum blossom (identified specifically rather than left as generic 'flower' as in the source's 花) strongly signals early spring through its well-known seasonal association in the waka tradition, and McCauley's choice to specify 'plum' rather than leave it ambiguous slightly sharpens the seasonal signal beyond the source's bare 花."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Emphatic dismissal/uncertainty opening: 'No! no! As for man' renders 人はいさ with added exclamatory force",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'How his heart is none can tell' translates 心も知らず, the uncertainty about the human heart",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'But the plum's sweet flower' specifies the flower as plum and introduces the shimo-no-ku's natural image, drawn from 花ぞ though placed before 'birthplace' in this translation's ordering",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'In my birthplace, as of yore' renders ふるさとは...むかしの together, merging the place-name with the temporal marker 昔",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Still emits the same perfume' translates 香に匂ひける, the unchanging fragrance",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders the shimo-no-ku content: the source order is furusato (ku3) - hana zo mukashi no (ku4) - ka ni nioikeru (ku5), but McCauley's English places the flower image (line 3) before the birthplace/temporal phrase (line 4), inverting the internal sequence of ku3 and ku4 for smoother English syntax while keeping the overall kami/shimo bipartite division intact."
+    },
+    "translator_strategy": "McCauley prioritizes clear, natural English syntax and an emphatic emotional opening ('No! no!') over strict ku-by-ku literalness, specifying 'plum' to anchor the seasonal image while smoothing the internal word order of the shimo-no-ku for readability.",
+    "overall_fidelity": "high",
+    "poem_number": 35,
+    "translator": "McCauley"
+  }
+}

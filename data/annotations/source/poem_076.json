@@ -1,0 +1,75 @@
+{
+  "makurakotoba": [
+    {
+      "word": "久方の",
+      "ku": 3,
+      "precedes": "雲井 (clouds/sky)",
+      "conventional_meaning": "conventional epithet for sky, heaven, moon, light — evokes the vast celestial realm",
+      "confidence": "high"
+    }
+  ],
+  "kakekotoba": [],
+  "jokotoba": {
+    "text": "わたの原こぎ出でて見れば",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "見れば",
+    "function": "Sets up the scene of rowing out onto the vast sea and looking around, establishing the visual perspective from which the shimo-no-ku's image of distant clouds and whitecaps is perceived; not a fixed epithet but a freely composed scene-setting preface leading into the perception of the horizon."
+  },
+  "kigo": {
+    "word": "おきつしらなみ",
+    "season": "none",
+    "note": "Whitecaps on the open sea (沖つ白波) are conventional waka imagery of the vast ocean rather than a seasonally marked image; the poem as a whole lacks a specific seasonal marker — it is a poem of grand natural scenery (sea and sky) composed for a screen painting, without blossoms, autumn leaves, snow, or other seasonal cues. Listed here as the dominant image though it does not carry seasonal weight.",
+    "confidence": "low"
+  },
+  "furigana": [
+    {
+      "kanji": "原",
+      "reading": "はら"
+    },
+    {
+      "kanji": "出",
+      "reading": "で"
+    },
+    {
+      "kanji": "見",
+      "reading": "み"
+    },
+    {
+      "kanji": "久方",
+      "reading": "ひさかた"
+    },
+    {
+      "kanji": "雲井",
+      "reading": "くもゐ"
+    },
+    {
+      "kanji": "沖",
+      "reading": "おき"
+    },
+    {
+      "kanji": "白波",
+      "reading": "しらなみ"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker rows out onto the vast open sea and looks around at the surrounding scene.",
+    "shimo_theme": "The white waves on the open sea appear to merge with and wander among the distant clouds on the horizon.",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku's act of rowing out and looking (見れば) is the perceptual trigger; the shimo-no-ku reveals what is seen — the startling visual confusion of sea and sky, where the whitecaps seem to blend into the clouds at the horizon line, collapsing the boundary between sea and heaven."
+  },
+  "poem_number": 76,
+  "poet": "Hoshoji Nyudo Sakino-kanpaku Dajodaijin.",
+  "source_jp": "わたの原\nこぎ出でて見れば\n久方の\n雲井にまよふ\nおきつしらなみ"
+}

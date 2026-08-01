@@ -1,0 +1,80 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "長月",
+      "ku": 3,
+      "reading_primary": "ながつき",
+      "reading_secondary": "ながつき",
+      "interaction": "Primarily the calendrical name for the ninth lunar month (Nagatsuki), but the なが element carries the conventional association with 長し 'long,' reinforcing the poem's theme of a long night of waiting; not a full independent kakekotoba but the なが morpheme resonates with the 'long night' waiting motif established by 有明の月 (the late-setting dawn moon that only appears after a long night)."
+    }
+  ],
+  "jokotoba": {
+    "text": "今来むといひしばかりに",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "long night of waiting implied before 長月の有明の月",
+    "function": "Sets up the situational premise (he said he would come) that motivates and explains the long, futile wait described in the shimo-no-ku; functions less as sound-preface and more as narrative preface leading into the temporal/seasonal image of the ariake moon."
+  },
+  "honkadori": {
+    "source_poem": "Attributed background: Sosei's poem is often read as spoken in the voice of a woman waiting for a lover who promised 'ima kon' (I will come now) — this phrase became itself a famous locus classicus alluded to by later poets, but I am not confident of a specific prior source poem being echoed here rather than this poem being the origin of the allusion tradition.",
+    "echoed_phrase": "今来むと",
+    "source_poet": "unknown / traditional lover's promise",
+    "function": "Represents a conventional lover's promise formula rather than a confirmed specific textual allusion; noting for completeness but not asserting strong honkadori."
+  },
+  "kigo": {
+    "word": "長月",
+    "season": "autumn",
+    "note": "長月 (Nagatsuki) is the classical Japanese name for the ninth lunar month, placing the poem squarely in autumn. Combined with 有明の月 (the lingering dawn moon), this evokes the long autumn nights conventionally associated with waiting, loneliness, and heightened emotional sensitivity in waka — the autumn night's length is itself part of the poem's pathos, as the speaker waits from evening until the moon that only appears near dawn has risen and is fading in the sky."
+  },
+  "furigana": [
+    {
+      "kanji": "今",
+      "reading": "いま"
+    },
+    {
+      "kanji": "来",
+      "reading": "こ"
+    },
+    {
+      "kanji": "長月",
+      "reading": "ながつき"
+    },
+    {
+      "kanji": "有明",
+      "reading": "ありあけ"
+    },
+    {
+      "kanji": "月",
+      "reading": "つき"
+    },
+    {
+      "kanji": "待",
+      "reading": "ま"
+    },
+    {
+      "kanji": "出",
+      "reading": "い"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The lover's broken promise: 'I will come now,' spoken casually, sets the stage in the ninth month (autumn)",
+    "shimo_theme": "The speaker has waited all night in vain, until the dawn moon (ariake no tsuki) itself has risen — the moon becomes the emblem of the failed vigil",
+    "relationship_type": "causal-physical",
+    "pivot_note": "The kami-no-ku's simple promise ('ima kon to iishi bakari ni' — 'merely because he said he would come now') directly causes the shimo-no-ku's outcome: the speaker's naive trust in those words results in a night-long wait so protracted that she ends up watching the ariake moon — normally associated with parting at dawn after a visit, not with a visit that never happened. The pivot turns a throwaway promise into an entire night's bitter irony: the moon that should have accompanied a lover's departure instead becomes the sole witness to his absence."
+  },
+  "poem_number": 21,
+  "poet": "Sosei Hoshi",
+  "source_jp": "今来むと\nいひしばかりに\n長月の\n有明の月を\n待ち出でつるかな"
+}

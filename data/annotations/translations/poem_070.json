@@ -1,0 +1,297 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The translator maintains the causal sequence of loneliness→leaving the home→gazing→discovery, but the rhyme-driven verse form compresses and slightly blurs the pivot at 'ながむれば' since line 3's 'roam' already anticipates the gazing action described in kami, weakening the sharp hinge between the two halves. The revelation that the scene is universally the same ('いづこもおなじ') is diluted into a general description of the landscape's desolation rather than an explicit statement of sameness/universality, so the inferential logic (searching for relief, finding none, universalizing loneliness) survives only partially."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn-e'en",
+      "note": "The season is named directly via the compound 'autumn-e'en,' preserving the literal seasonal word from 秋の夕暮, though the translation loses the crucial 'いづこもおなじ' (everywhere the same) that gives the kigo its universalizing force in the source; the mood of desolation is retained through 'desolate' and 'drear' but the specific sabi/yūgen resonance of the sanseki convention is only partly conveyed."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Loneliness associated with the home/dwelling ('sabishisa' + 'yado'), though phrased as if the home itself is lonely rather than the speaker",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The speaker straying from the cabin — corresponds to 宿を立出て (stepping out from the dwelling)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The wandering gaze roaming — corresponds to ながむれば (when I gazed out)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The landscape lying around the speaker — a paraphrase of いづこもおなじ (everywhere the same), rendered as a general description rather than an explicit statement of sameness",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Exclamatory description of desolation ('how desolate, how drear') — an expansion emphasizing emotional tone not directly present as separate content in the source but implied by 秋の夕暮's connotations",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The scene's appearance at autumn evening — corresponds to 秋の夕暮 (autumn evening)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact five-ku waka into six rhymed lines, splitting single ku actions across lines and adding an emphatic exclamatory line ('How desolate, how drear') not present as separate content in the source, which stretches the emotional statement that in the original is compressed into the adjective-like function of 秋の夕暮 itself; the crucial 'いづこもおなじ' (everywhere identical) is diluted into a general landscape description, losing the explicit universalizing claim of the shimo."
+    },
+    "translator_strategy": "Dickens prioritizes a rhymed, metrically regular English lyric (following ballad-like ABABCC rhyme and iambic tetrameter/couplet patterning) over literal fidelity, expanding the compact five-ku waka into six lines and softening the sharp universalizing claim of いづこもおなじ into a general atmospheric description of desolation.",
+    "overall_fidelity": "medium",
+    "poem_number": 70,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The translation compresses the kami-no-ku (loneliness → leaving dwelling → gazing) into two brief lines, dropping the explicit 'gazing out' (ながむれば) verb, which weakens the causal/sensory hinge that connects the physical act of looking to the discovery in the shimo. The shimo's revelation ('same everywhere...autumn eve') is preserved as the payoff, so the two-part logic survives but the pivot verb that makes it a discovery-through-looking rather than just a general realization is thinned out."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn eve",
+      "note": "The season is named directly, matching 秋の夕暮 literally, though the atmospheric weight of Shin Kokinshu sabi/yugen aesthetics (fading light, chill, existential desolation) is only lightly gestured at through the exclamatory 'Lo' and closing exclamation mark rather than developed imagery."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "loneliness motivates the wandering/leaving",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "leaving one's own home/dwelling",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "the gazing act is implied and merges directly into the discovery that it is the same everywhere",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "the closing seasonal image of autumn evening",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses five ku into four short lines, merging the pivot verb 'ながむれば' (gazing) with the discovery ('same everywhere') into a single line 3, so the physical act of looking is implied rather than stated, slightly softening the causal hinge between kami and shimo."
+    },
+    "translator_strategy": "Noguchi favors brevity and exclamatory compression, rendering the poem's causal chain in clipped, almost telegraphic lines that sacrifice the explicit 'gazing' verb but retain the literal seasonal closing image and the core emotional arc of loneliness resolving into universalized autumn desolation.",
+    "overall_fidelity": "medium",
+    "poem_number": 70,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "Porter drastically restructures the poem: instead of leaving a dwelling and gazing out to find the same desolate autumn dusk everywhere (inferential-sensory), he depicts a speaker looking from a cottage and NOT seeing another hut, then explicitly stating 'solitude depresses me' and comparing it to twilight/autumn night via simile ('Like deepening twilight / On a chill autumn night'). The original's structure — physical act leading to a sensory discovery that universalizes loneliness — is replaced by a direct statement of feeling followed by a decorative simile, so the causal/inferential logic is displaced into a stated-emotion-plus-simile relationship rather than preserved.",
+      "relationship_type": "stated-emotion-plus-simile"
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn night",
+      "note": "The season is named explicitly ('chill autumn night'), and the atmosphere of twilight/dusk is retained via 'deepening twilight', but the seasonal word is relocated from its climactic universalizing position (どこも同じ秋の夕暮れ) into a subordinate simile explaining the speaker's personal depression, so its function as the poem's revelatory closing image is lost even though the vocabulary survives."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Speaker's view from the cottage (replaces 'stepping out and gazing' with 'the prospect from my cottage shows')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "No other hut in sight — an invented concrete image standing in for 'everywhere is the same' (いづこもおなじ)",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Explicit statement of loneliness/sabishisa moved to the end rather than the beginning",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Simile comparing solitude to deepening twilight",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Explicit naming of autumn and night, completing the seasonal image",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter inverts the poem's causal order: the source moves from stated loneliness (sabishisa) through action (leaving the dwelling, gazing) to the discovery of universal autumn dusk, whereas Porter opens with a visual scene, introduces an invented detail ('no other hut in sight'), and only then states the loneliness explicitly before closing with a simile that reintroduces the seasonal image — effectively reordering cause and effect and converting the inferential revelation into an explicit simile."
+    },
+    "translator_strategy": "Porter prioritizes a tidy rhymed English quatrain-plus-line form over structural fidelity, replacing the poem's inferential 'gazing reveals sameness everywhere' logic with an invented concrete image ('no other hut') and an explicit stated emotion tied to a decorative twilight/autumn simile.",
+    "overall_fidelity": "low",
+    "poem_number": 70,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation keeps the causal-narrative structure of the kami-no-ku (loneliness → leaving home → gazing) leading into the shimo's revelation that everywhere is the same desolate autumn evening, matching the source's inferential-sensory relationship where the gaze seeks relief but instead finds universalized melancholy."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn eve",
+      "note": "The translator names the season directly with 'autumn eve,' and reinforces the sabi atmosphere with 'darkening' and 'lone,' capturing both the explicit seasonal word and the desolate emotional coloring the kigo carries in the source; the closing position of the phrase also mirrors its climactic placement in the original."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "In my loneliness (寂しさに)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "stepping out from the humble dwelling (宿を立出て)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "when I looked around/gazed out (ながむれば)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "everywhere the same (いづこもおなじ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "one lone, darkening autumn evening (秋の夕暮)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Nearly one-to-one line-for-ku correspondence; the translator preserves the five-part structure of the waka almost exactly, with minor added coloring words ('humble', 'lone', 'darkening') that intensify but do not alter the semantic mapping."
+    },
+    "translator_strategy": "McCauley aims for a close, line-by-line literal rendering that preserves the poem's five-part structure and causal logic while adding a few emotionally intensifying epithets ('humble', 'lone', 'darkening') to compensate for the untranslatable resonance of the closing kigo phrase.",
+    "overall_fidelity": "high",
+    "poem_number": 70,
+    "translator": "McCauley"
+  }
+}

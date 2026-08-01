@@ -1,0 +1,385 @@
+{
+  "poem_number": 97,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-31T12:16:02.991905+00:00"
+    },
+    "devices": {
+      "まつほ": {
+        "status": "confirmed",
+        "original": {
+          "word": "まつほ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:18:04.745916+00:00"
+      },
+      "夕なぎ": {
+        "status": "removed",
+        "original": {
+          "word": "夕なぎ",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:18:16.524554+00:00"
+      },
+      "やく": {
+        "status": "removed",
+        "original": {
+          "word": "やく",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-31T12:20:10.717630+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "matsuho shore": {
+          "status": "confirmed",
+          "original": {
+            "word": "matsuho shore",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:19:24.835553+00:00"
+        },
+        "evening calm": {
+          "status": "removed",
+          "original": {
+            "word": "evening calm",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:20:00.466366+00:00"
+        }
+      },
+      "device_links": {
+        "heart pining": {
+          "status": "corrected",
+          "original": {
+            "word": "heart pining"
+          },
+          "corrected": {
+            "source_word": "まつほ"
+          },
+          "reviewed_at": "2026-07-31T12:19:29.335205+00:00"
+        },
+        "fire heats": {
+          "status": "corrected",
+          "original": {
+            "word": "fire heats"
+          },
+          "corrected": {
+            "source_word": "こがれ"
+          },
+          "reviewed_at": "2026-07-31T12:19:57.951229+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:20:24.767139+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:20:25.664653+00:00"
+        },
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "kami"
+          },
+          "reviewed_at": "2026-07-31T12:20:41.080486+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:20:28.266955+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "dusky hour": {
+          "status": "removed",
+          "original": {
+            "word": "dusky hour",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:21:06.198140+00:00"
+        },
+        "heats the salt-pans": {
+          "status": "removed",
+          "original": {
+            "word": "heats the salt-pans",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:22:30.998283+00:00"
+        },
+        "heats": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "heats",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:23:17.176264+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:22:41.760553+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:23:28.276050+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:23:28.673757+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:23:29.075875+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:23:29.558711+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:23:29.923573+00:00"
+        }
+      },
+      "device_links": {
+        "heats": {
+          "status": "corrected",
+          "original": {
+            "word": "heats"
+          },
+          "corrected": {
+            "source_word": "こがれ"
+          },
+          "reviewed_at": "2026-07-31T12:23:20.741960+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "matsu-hō": {
+          "status": "confirmed",
+          "original": {
+            "word": "matsu-hō",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:23:43.074317+00:00"
+        },
+        "calm and cool": {
+          "status": "removed",
+          "original": {
+            "word": "calm and cool",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:23:52.740972+00:00"
+        },
+        "salt-pans": {
+          "status": "removed",
+          "original": {
+            "word": "salt-pans",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:24:32.506022+00:00"
+        },
+        "more parched": {
+          "status": "confirmed",
+          "original": {
+            "word": "more parched",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:24:47.938436+00:00"
+        },
+        "pine": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "pine",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-31T12:25:00.920301+00:00"
+        }
+      },
+      "lines": {
+        "2": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T12:24:26.772012+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-31T12:24:41.655644+00:00"
+        }
+      },
+      "device_links": {
+        "pine": {
+          "status": "corrected",
+          "original": {
+            "word": "pine"
+          },
+          "corrected": {
+            "source_word": "まつほ"
+          },
+          "reviewed_at": "2026-07-31T12:25:09.986563+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "burning": {
+          "status": "confirmed",
+          "original": {
+            "word": "burning",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:25:24.488241+00:00"
+        },
+        "evening calm": {
+          "status": "removed",
+          "original": {
+            "word": "evening calm",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:25:27.553236+00:00"
+        },
+        "matsuo's shore": {
+          "status": "confirmed",
+          "original": {
+            "word": "matsuo's shore",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:25:30.486036+00:00"
+        }
+      },
+      "device_links": {
+        "burning": {
+          "status": "corrected",
+          "original": {
+            "word": "burning"
+          },
+          "corrected": {
+            "source_word": "こがれ"
+          },
+          "reviewed_at": "2026-07-31T12:25:26.952130+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:25:44.169568+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:25:44.585797+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:25:44.957462+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:25:45.535759+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-31T12:25:45.952584+00:00"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "note": "The translator maintains the physical description in lines 1-4 and the reunion idea in lines 5-6, but the crucial pivot (われて) is rendered purely as physical division ('double torrent') without any explicit human/emotional parting signaled — the love/separation meaning is not stated, only implied by the closing lines' promise of reunion. The bipartite argument-through-image structure survives loosely but the emotional weight of separation in the shimo is thin, relying on the reader to infer the metaphor rather than the text making the pivot explicit."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "われて",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Divided",
+        "note": "The translation renders われて only as the physical splitting of the water ('Divided by the furious shock' / 'double torrent') — the secondary meaning of lovers parting is never made explicit anywhere in the poem; the reader must infer the metaphor from context alone, so the secondary reading is essentially lost as an explicit textual signal."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "brawling strem",
+      "note": "No seasonal marker or atmosphere is present; the poem is treated purely as a nature-description-cum-love-vow with no seasonal coloring, consistent with the source having no kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The swift stream striking against the rock",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Its waters tumbling and hurling fiercely",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The river divided by the violent shock/collision",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The water whirls onward as a doubled torrent",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "In its further course downstream",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "I trust/believe it will become a single stream again — figuring eventual reunion",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact 5-ku structure into 6 rhymed lines, spreading the kami-no-ku's swift-river/rock-obstruction imagery over 4 lines (vs. 3 ku) and compressing the shimo's separation-and-reunion vow into 2 lines that speak only of the stream becoming 'single' again, never naming the lovers or the emotional stakes explicitly."
+    },
+    "translator_strategy": "This translator prioritizes a rhymed, vigorous English ballad-style rendering of the river's physical turbulence, trusting the reader to intuit the human love-and-reunion allegory from the closing image of the divided torrent becoming one again, rather than making the parting/reunion metaphor explicit in the text.",
+    "overall_fidelity": "medium",
+    "poem_number": 77,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "The translator compresses the jokotoba (kami-no-ku) into a single simile line 'Like a hurrying, rock-hurling mountain stream / I wish to be' and then moves directly to the shimo's vow of reunion. The relationship is preserved in that the river image still motivates the reunion claim, but the implicit simile of the original (where the pivot われて itself does the metaphorical work without an explicit 'like') is made explicit through the stated comparison 'Like...I wish to be,' flattening the subtlety of the kakekotoba-driven structure. Line 4 ('Oh the way of love!') is an added exclamatory gloss with no direct source equivalent, further collapsing the structural boundary into a more continuous, editorializing lyric statement."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "われて",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "double torrents",
+        "note": "The translator renders the physical splitting of the river as 'double torrents' that 'will meet in the end,' preserving the literal image of water dividing and reuniting, but the secondary reading of 別れて (lovers parting) is not carried by any specific word — there is no lexical trace of separation/parting for the human relationship, only the river's division is described. The emotional pivot becomes implicit through the overall simile rather than through a punning word, so the double meaning as a wordplay device is lost even though the surface content (splitting waters reunite) is retained."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "mountain stream",
+      "note": "As the source analysis notes, this poem carries no true seasonal marker (瀧川 is not a kigo), so there is no season to preserve or lose; the translation's river imagery ('hurrying, rock-hurling mountain stream') simply continues the non-seasonal natural vehicle for the love metaphor, consistent with the source's love-category classification rather than a seasonal poem."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Compresses the jokotoba (swift river forced to split around rocks) into a single simile line: 'Like a hurrying, rock-hurling mountain stream'.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'I wish to be: its double torrents' — the speaker aligns himself with the divided river, picking up われて's physical splitting image and turning it into a wish/self-identification.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'Will meet in the end' — renders 末に逢はむとぞ思ふ, the vow of eventual reunion.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [],
+          "content_summary": "'Oh the way of love!' — an exclamatory editorial addition not present in the source text, generalizing the poem's theme explicitly as being about love.",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the three-ku jokotoba into a single simile line, then spreads the kakekotoba pivot and shimo content across two more lines, and finally appends an extrapolated exclamatory fourth line that explicitly names 'love' — something left implicit in the original's kakekotoba mechanics — effectively substituting an editorial gloss for the wordplay's subtlety."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, emotionally direct English lyric by turning the source's implicit kakekotoba-driven river/parting metaphor into an explicit simile ('Like...I wish to be') and adding an interpretive exclamation ('Oh the way of love!') that spells out the poem's theme rather than preserving the pun's ambiguity.",
+    "overall_fidelity": "medium",
+    "poem_number": 77,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translation keeps the two-part structure (river splitting / reunion) and even uses 'twain' to echo the division, creating a natural bridge to the vow of reunion. However the emotional weight of separation from a beloved is compressed into a generic 'unite again', losing the explicit human-relationship framing (逢はむとぞ思ふ as a personal vow) and reducing the argumentative force of the natural image as proof of eventual union."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "われて",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "divides",
+        "note": "The physical splitting of the water is rendered clearly ('The rock divides the stream in two' and later 'the twain'), but the secondary meaning of lovers parting is not lexically carried by a single word — 'twain' evokes duality but not human separation specifically; the emotional pivot is diffused across the poem rather than concentrated in one pivot word."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "note": "No seasonal marker or atmosphere is introduced; the waterfall imagery is treated purely as a vehicle for the reunion metaphor, consistent with the source's non-seasonal love-poem category, so omission here matches the source rather than being a loss."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The rock divides the stream (combines 瀬をはやみ/岩にせかるる into a single simple statement of division by rock)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "emphasis on force/might of the water striking the rock",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the waterfall itself (滝川) is named as the tumbling stream",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "acknowledgment of the division/parting ('the twain') echoing われて",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "vow that they will unite again (逢はむとぞ思ふ)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the jokotoba (ku1-3) into three lines that read as continuous narrative rather than preserving the ku-by-ku parallelism, and shifts the personal pronoun/vow of reunion into a more impersonal 'the twain will unite' rather than an explicit first-person emotional statement, slightly collapsing the source's bipartite emphasis on human relationship."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhyme-driven English ballad-like narrative over precise reproduction of the pivot-word wordplay, letting the natural image of the divided river implicitly carry (rather than explicitly state) the human separation-and-reunion theme.",
+    "overall_fidelity": "medium",
+    "poem_number": 77,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit rendered as continuous narrative",
+      "note": "McCauley translates the whole poem as one continuous natural description of a stream being divided by a rock and then reuniting, without marking the emotional pivot from river-imagery to human love. The shimo's human referent (parting from and reunion with the beloved) is entirely absent — the translation reads purely as nature description, so the metaphorical/argumentative structure that the source analysis identifies (river division as vehicle for the vow of reunion with a lover) collapses into a single literal narrative about water."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "われて",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "divided",
+        "note": "McCauley renders われて as 'divided', capturing only the literal image of the river water splitting around the rock. The secondary meaning of 別れて (parting from a lover) is entirely lost — there is no human referent anywhere in the translation, so the double meaning central to the poem's love-poem status disappears completely."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "swift stream",
+      "note": "The source poem carries no true seasonal kigo (滝川 is a timeless love-poem image, not tied to a season), and McCauley's translation likewise carries no seasonal signal — consistent with the source analysis's own note that this poem belongs to the love category rather than a seasonal one."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the swift stream (瀬をはやみ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The rock meeting and restraining the current (岩にせかるる)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The impetuous flow of the waterfall/rapid river (滝川の)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The water divided (われても) but speeding on",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Unites again at last, replacing 'meeting the beloved' (逢はむとぞ思ふ) with purely physical reunion of water",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Mostly a 1:1 line-to-ku mapping, but line 5 substitutes literal water-reunion for the source's human vow of reunion ('I think we shall surely meet'), stripping out the first-person emotional claim entirely and converting shimo into a continuation of nature description rather than a return to the human plane."
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, self-contained nature description of a divided-and-reuniting stream, sacrificing the poem's underlying love-poem argument and the われて/別れて pivot's human meaning entirely.",
+    "overall_fidelity": "low",
+    "poem_number": 77,
+    "translator": "McCauley"
+  }
+}

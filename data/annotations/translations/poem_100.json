@@ -1,0 +1,313 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4
+      ],
+      "note": "The kami-no-ku imagery (palace, decayed roof, shinobu weeds) is rendered across three lines, but the shimo-no-ku's key rhetorical move — that longing exceeds even the capacity of shinobu itself — is flattened into a generic exclamation about pain/duration ('How long, how hard our pain hath been!'). The inferential-sensory pivot (decay triggering excess of emotion measured against the very word shinobu) is lost; instead there's a simple sequential narrative from image to feeling, collapsing the bipartite tension into continuous description."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "しのぶ",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "Shinobu weeds",
+        "note": "The translator preserves only the botanical/plant reading (shinobu-gusa as 'rank Shinobu weeds') and entirely drops the secondary verb sense of enduring/longing; the pivot into the shimo-no-ku's emotional excess is replaced by a separate, unconnected exclamation about pain, so the double meaning central to the kakekotoba is not attempted at all — the plant is merely botanical description, not a bridge to feeling."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "rank Shinobu weeds",
+      "note": "Since the source analysis identifies no true seasonal association for shinobu-gusa (confidence low, season 'none'), and the translation renders it as generic decayed-weed imagery without any seasonal atmosphere (no autumn chill, dew, or similar cues), there is no seasonal signal conveyed or intended here."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the hundred-chambered (momoshiki) palace",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Describes the old, decayed roof/eaves (furuki nokiba)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Names the shinobu weeds growing there, but only in botanical sense",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Generic exclamation about the length and hardness of pain, replacing the nuanced claim that longing exceeds even shinobu's capacity, and losing the specific reference to 'the past/bygone age' (mukashi)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation expands the kami-no-ku's single line of imagery into three lines of elaborated visual description (palace, roof, weeds), then compresses the entire shimo-no-ku's subtle emotional-linguistic pivot into one generic exclamatory line about pain, losing the specific 'mukashi' (bygone era) reference and the kakekotoba-driven logic connecting decay to unspeakable longing."
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, meter-driven ballad-like verse and vivid visual decay imagery over preserving the semantic precision of the kakekotoba or the specific historical/emotional content of the shimo-no-ku, resulting in a generalized exclamation of suffering rather than a faithful rendering of nostalgic longing for a specific past age.",
+    "overall_fidelity": "low",
+    "poem_number": 100,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation keeps the overall two-part movement — decayed palace/eaves/fern imagery followed by an exclamation of longing — but line 3 ('Oh, what longing') is fused into the kami-no-ku sentence structure via the exclamation mark rather than being syntactically separated as a shimo declaration; the inferential-sensory pivot (decay triggering an excess of longing beyond 'shinobu' itself) is compressed and the 'nao amari aru' excess-of-longing-beyond-endurance logic is not clearly rendered, so the relationship survives only in weakened, generalized form.",
+      "relationship_type": "inferential-sensory (weakened into a single continuous exclamatory sweep)"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "しのぶ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Shinobu vine",
+        "note": "The translator renders しのぶ only as the plant name ('Shinobu vine'), preserving the botanical/visual reading but dropping the verb 忍ぶ (to endure/yearn secretly) entirely; the longing is instead expressed separately in line 3 ('Oh, what longing') as a plain statement rather than as the same word carrying both senses, so the pivot's fusion of image and emotion into one word is lost even though both concepts appear somewhere in the stanza."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Shinobu vine",
+      "note": "Since the source analysis identifies no true seasonal association for しのぶ (it is an emblem of decay/nostalgia, not a kigo), and the translation likewise conveys only decline and longing without any seasonal atmosphere (no autumn chill, dew, or similar), no seasonal signal is present or expected here, consistent with the source's own low-confidence 'none' classification."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Exclamation on the palace (momoshiki ya)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Sighting the Shinobu vine, implicitly on the old eaves",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3,
+            4
+          ],
+          "content_summary": "The old eaves restated plus an exclamatory outburst of longing standing in for 'nao amari aru' (still more than enough)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Longing for the bygone days (mukashi nariken)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses and reorders slightly: the eaves (ku2) are split across lines 2 and 3, and the emotional excess of ku4 ('nao amari aru') is folded into an exclamatory phrase attached to the eaves-line rather than given its own clear declarative line, softening the bipartite pivot into a single cascading exclamation."
+    },
+    "translator_strategy": "Noguchi prioritizes emotive, exclamatory compactness and visual imagery over precise semantic layering, sacrificing the kakekotoba's double meaning and the shimo-no-ku's logical excess-claim for a lyrical, feeling-driven four-line outburst.",
+    "overall_fidelity": "medium",
+    "poem_number": 100,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [],
+      "note": "Porter collapses the bipartite structure entirely into a single continuous descriptive narrative about the decaying palace and its overgrown eaves; the shimo-no-ku's declaration that longing exceeds 'shinobu' itself is dropped altogether — there is no equivalent for 'なほあまりある むかしなりけり' (the excess of longing for the past). Instead the translation ends on the physical image of untrimmed vines, so the emotional pivot and excess-of-longing statement that defines the shimo-no-ku is simply absent, replaced by an extended physical description that has no counterpart in the source's second half."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "しのぶ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "creeping vine",
+        "note": "Porter renders shinobu as a generic 'creeping vine' with visual elaboration ('interweaves', 'straggling leaves'), preserving only the plant-image sense in a diffuse, expanded way, but drops entirely both the specific fern connotation and the crucial secondary meaning of 忍ぶ 'to endure/yearn secretly' — the emotional-endurance reading that anchors the whole poem's meaning is nowhere present in the translation."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "creeping vine",
+      "note": "Since the source analysis assigns 'none' as the season and treats shinobu as a decay/nostalgia emblem rather than a true kigo, there is no season to preserve; Porter's 'creeping vine' and 'straggling leaves' imagery corresponds to the decay-and-neglect connotation of shinobu-gusa but carries no seasonal marker, consistent with the source's own low-confidence, non-seasonal reading."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Statement of regret for the ancient palace (momoshiki ya), expressed as personal emotion 'I regret' rather than the exclamatory particle",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The old eaves (furuki nokiba) rendered as decaying, rotting structure",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Shinobu rendered literally as a 'creeping vine' growing over the roof, losing the endurance/longing double meaning",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Expansion describing the vine spreading and interweaving — extrapolated visual elaboration not present in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Vine left 'unpruned' with 'straggling leaves' — a physical image substituted for the shimo-no-ku's abstract statement that longing exceeds even endurance itself ('なほあまりある むかしなりけり')",
+          "origin": "extrapolated"
+        }
+      ],
+      "structural_note": "Porter compresses/reorganizes the poem into a single five-line physical description of a decaying, overgrown palace; the entire emotional/rhetorical climax of the shimo-no-ku (the excess-of-longing statement) is replaced by extended, invented visual detail about the vine's untrimmed growth, effectively erasing the source's inferential-sensory pivot and abstract conclusion."
+    },
+    "makurakotoba_handling": [],
+    "translator_strategy": "Porter prioritizes a rhymed, pictorial English quatrain-plus-couplet describing physical decay and overgrowth, sacrificing the kakekotoba's emotional double meaning and the shimo-no-ku's abstract declaration of excessive longing entirely in favor of an extended, invented visual tableau of neglect.",
+    "overall_fidelity": "low",
+    "poem_number": 100,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        2,
+        3
+      ],
+      "note": "McCauley reorders content: L1 addresses the palace directly (kami theme trigger), then jumps to the speaker's longing (shimo theme) in L2-L3, then returns to the physical image of the eaves and vines (kami theme, the shinobu fern rendered as 'clinging vines') in L4-L5, structured as a comparison 'more than the vines' rather than the source's sequence of image-then-overflow. The logical relationship survives as a comparison but the order of kami (image) before shimo (emotional excess) is reversed and interwoven, so it reads as inverted/partial rather than a clean sequential preservation."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "しのぶ",
+        "reading_preserved": "secondary_only",
+        "method": "partial",
+        "en_equivalent": "clinging vines",
+        "note": "McCauley renders shinobu purely as the physical fern ('clinging vines hanging 'neath thine ancient eaves'), capturing the botanical/visual reading, but the verb sense of 'to endure/long secretly' is expressed separately in L3 ('How I long for thee') rather than fused into a single word — so the pivot's double meaning is split across two lines instead of unified, losing the compact wordplay itself even though both senses are present somewhere in the text."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source analysis notes shinobu-gusa carries no strong seasonal association and functions as an emblem of decline/nostalgia rather than a true kigo; McCauley's 'clinging vines' and 'ancient eaves' convey decay and antiquity but no seasonal atmosphere is invoked, consistent with the low-confidence, non-seasonal classification of this word.",
+      "en_equivalent": "ancient eaves"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Direct apostrophe to the Imperial House/palace (momoshiki), turned into vocative exclamation",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Speaker's act of thinking of former days (mukashi), shifted earlier from its shimo-no-ku position",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Declaration of longing 'How I long for thee' — rendering of the 'nao amari aru' excess of longing",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Comparison 'more than even the clinging vines' — the shinobu fern reduced to simile vehicle rather than kakekotoba",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The old eaves (furuki nokiba) on which the vines/fern hang",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley restructures the poem into an apostrophe-plus-comparison ('I long for thee more than the vines that hang beneath thine ancient eaves'), effectively converting the kakekotoba-driven pivot into an explicit simile; this compresses and reorders the five ku into a chiasmus-like English structure (address, longing, comparison, image) rather than the source's linear image-to-overflow progression."
+    },
+    "translator_strategy": "McCauley prioritizes clear, emotionally direct English verse by unpacking the shinobu kakekotoba into an explicit simile ('more than the clinging vines'), sacrificing the compact double meaning and seasonal ambiguity for readability and a Victorian-style apostrophic address to the Imperial House.",
+    "overall_fidelity": "medium",
+    "poem_number": 100,
+    "translator": "McCauley"
+  }
+}

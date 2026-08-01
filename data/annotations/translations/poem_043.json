@@ -1,0 +1,300 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "simple lament / longing for relief rather than paradox of intensified post-union suffering",
+      "note": "The translator has fundamentally misread or reworked the poem's logic. Instead of the paradox where post-union longing is revealed to be MORE painful than pre-union longing, Dickens presents a straightforward narrative of parting and grief, followed by a wish for the heart to be free of love's pain. The comparative structure (くらぶれば, comparing then vs. now) is entirely absent; there is no 'before' state that turns out to have been less painful by comparison. The shimo-no-ku's paradoxical realization ('the past was not real suffering') is replaced by a simple wish ('O that my heart were still unvexed'), which is a different rhetorical gesture — desire for release from pain rather than a comparative realization about the intensity of past vs. present feeling."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source poem has no seasonal element (it's a love poem, koi-uta), and this translation likewise introduces no seasonal imagery — consistent with the source's lack of kigo. No season word or atmosphere appears in the English text."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Invented narrative detail: 'I went to meet thee' — expands 逢ひ見て into a first-person visiting scene",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Invented detail of parting reluctantly, not present in source at all",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Attempts to render 後の心 (feeling after meeting) as misery weighing on the soul, but frames it as grief from parting rather than comparative realization",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Continues describing burdening love, loosely corresponding to the 後の心 having intensified suffering, but omits the comparison (くらぶれば) mechanism entirely",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Wish for heart's relief — a free invention replacing the realization that the past was not real suffering",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Continues the wish, 'unvexed by lover's smart' loosely gestures at the emotional content of 物を思はざりけり but reverses its logic (wishing for a state rather than recognizing that state existed in the past)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "low",
+      "structural_note": "The translation departs substantially from the source's comparative (くらぶれば) structure, replacing the two-part paradox (before vs. after) with a continuous narrative of meeting, parting, suffering, and wishing for relief — collapsing and reordering the bipartite logic almost beyond recognition."
+    },
+    "translator_strategy": "Dickens prioritizes producing a fluent, rhyming English lyric with invented narrative and emotional color over preserving the original's precise comparative (くらぶれば) logic and paradoxical conceit.",
+    "overall_fidelity": "low",
+    "poem_number": 43,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation compresses the kami-no-ku's comparison structure (kurabureba) into an implicit exclamation ('Oh, to think the sad heart of mine / After meeting with thee!') rather than an explicit comparison. The shimo-no-ku's paradox ('No sorrow I had / In the olden time') is preserved in content but the explicit 'compare' logic and the emphatic realization (思はざりけり as a decisive negation of past suffering) is softened into a simple statement. The paradoxical structure is present but weakened because the pivot word くらぶれば ('when I compare') is not rendered as an explicit comparison, making the causal/comparative logic between the two halves implicit rather than clearly foregrounded."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The poem has no seasonal word in the source (koi-uta), and the translation likewise contains no seasonal imagery or atmosphere — it stays entirely within the register of romantic/emotional statement ('sad heart', 'meeting with thee', 'sorrow'), consistent with the source's lack of kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "The sad heart of mine — compresses the emotional realization and implies the comparison act (kurabureba) without stating it explicitly",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "After meeting with thee — renders 逢ひ見ての as the temporal/causal condition for the sad heart",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "No sorrow I had — renders 物を思はざりけり, the negation of past suffering",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "In the olden time — renders むかしは, situating the negated suffering in the past",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the natural order somewhat: line 1 places the 'sad heart' (which in the source belongs to the shimo/present emotional state, ku2 心に) before the 'meeting' (ku1, 逢ひ見て) is introduced in line 2, creating a slight reordering for poetic effect. The comparison mechanism (くらぶれば, ku3) is not separately rendered but is absorbed into the exclamatory tone of line 1 ('Oh, to think...'). The four-line English form compresses the five-ku Japanese original by merging the kami-no-ku's three ku into two lines and the shimo-no-ku's two ku into two lines, roughly 3:2 mapped to 2:2."
+    },
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and compact lyrical expression in English verse form, sacrificing the explicit comparative logic of kurabureba for a more exclamatory, impressionistic rendering of the paradox.",
+    "overall_fidelity": "medium",
+    "poem_number": 43,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter completely restructures the poem's logic. The original moves from meeting (kami) to a paradoxical realization that present post-union suffering exceeds past pre-union suffering (shimo). Porter instead opens with a statement of how desolate/dismal life was BEFORE meeting (which corresponds to shimo's content of 'before was nothing compared to now'), then moves to the meeting itself (kami's 逢ひ見て), and closes with an ironic wish to 'forget those days before we met' — which inverts the source's meaning entirely: the source says the past pain was NOT real suffering compared to now (implying present suffering is worse, an ironic complaint about unresolved longing after union), while Porter's version reads as if the past was miserable and now, having met, things are simply better and the past should be forgotten. This erases the central paradox — that consummation intensifies rather than resolves longing — replacing it with a conventional 'before was bad, now is good' structure."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal imagery or atmosphere appears anywhere in this translation; it remains purely a love-poem statement about past/present feeling, consistent with the source having no kigo either.",
+      "en_equivalent": "desolate"
+    },
+    "line_mapping": {
+      "confidence": "low",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Statement that former life was desolate",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Dismal years before meeting",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Meeting face to face (逢ひ見て)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Editorializing wish to forget, loosely tied to くらぶれば comparison",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Restatement of days before meeting",
+          "origin": "source"
+        }
+      ],
+      "structural_note": "Porter reorders the poem chronologically (past described first, then the meeting, then a closing wish), rather than following the source's order of meeting first, then comparison, then realization about the past; this reordering combined with the added editorial line 'Twere better to forget' fundamentally changes the emotional logic from paradoxical intensification of longing to a simple before/after contrast."
+    },
+    "translator_strategy": "Porter prioritizes a rhymed, metrically regular English quatrain-plus-tag form over preserving the source's paradoxical logic, softening the poem into a conventional sentiment that the past was miserable and is now best forgotten since the meeting.",
+    "overall_fidelity": "low",
+    "poem_number": 43,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The comparison structure (kurabureba) is preserved via 'When I measured it / With the feeling of the past', and the shimo delivers the contrastive realization, but the phrasing 'As, if then, I had not loved' is compressed and slightly ambiguous, weakening the sharp paradoxical force of 'ざりけり' (the past longing was not real suffering). The paradox is present but muted rather than emphatic."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "my love",
+      "note": "No seasonal imagery exists in the source or is introduced here; the translation focuses purely on the emotional/romantic content of 逢ひ見て with no seasonal atmosphere, consistent with the poem's love-category status."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Having met my love — corresponds to 逢ひ見ての, the meeting/consummation",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Afterwards my passion was — corresponds to 後の心に, the post-union emotional state",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "When I measured it — corresponds to くらぶれば, the comparison pivot",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "With the feeling of the past — corresponds to むかしは物を, referencing former feelings",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "As, if then, I had not loved — corresponds to 思はざりけり, the paradoxical realization that past longing was not real suffering",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation follows the five-ku structure closely, line-for-line, preserving the kami/shimo division at the natural break between line 3 (くらぶれば) and line 4; no significant compression or expansion beyond the natural line-by-line mapping."
+    },
+    "translator_strategy": "McCauley pursues a literal, line-by-line syntactic fidelity to the Japanese ku structure, sacrificing some idiomatic clarity and emotional intensity in English for close structural correspondence.",
+    "overall_fidelity": "medium",
+    "poem_number": 43,
+    "translator": "McCauley"
+  }
+}

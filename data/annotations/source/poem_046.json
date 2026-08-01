@@ -1,0 +1,69 @@
+{
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A boatman crossing the strait of Yura loses his rudder and drifts helplessly on the water",
+    "shimo_theme": "The speaker's path of love, with destination unknown, mirrors the drifting boat",
+    "relationship_type": "simile-implicit",
+    "pivot_note": "The entire kami-no-ku is an extended jokotoba/image of a rudderless boat adrift in the Yura strait; this scene does not merely precede but structurally IS the vehicle for the shimo's tenor — the boatman's loss of steering and unknown destination is mapped directly onto the speaker's love, whose course and outcome are equally uncontrollable and unknowable. The pivot occurs at 'yukue mo shiranu,' which grammatically applies to both the boat's drifting and the love's uncertain course simultaneously, fusing the two halves rather than merely juxtaposing them."
+  },
+  "kakekotoba": [],
+  "makurakotoba": [],
+  "jokotoba": {
+    "text": "由良のとをわたる舟人かぢをたえ",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "行く方もしらぬ",
+    "function": "Describes a rudderless boat drifting through the Yura strait with no way to steer, an image composed specifically for this poem (not a fixed epithet) that leads into and merges with the declaration of the speaker's uncertain path of love"
+  },
+  "honkadori": {
+    "source_poem": "Man'yōshū-derived conventional image of the Yura strait boatman (also echoed in later poetic tradition); the phrase construction is often associated with the boatman-crossing topos found in earlier waka collections",
+    "source_poet": "Anonymous/traditional",
+    "echoed_phrase": "由良のとをわたる舟人",
+    "function": "Invokes the conventional image of a boatman crossing a difficult strait as an established poetic topos for helplessness and uncertain direction, lending the speaker's personal predicament in love the gravity of a well-known scene of physical peril"
+  },
+  "kigo": {
+    "word": "舟人",
+    "season": "none",
+    "note": "Although a boatman and strait-crossing might suggest a seasonal or travel scene, this poem is fundamentally a love poem (koi) using nautical imagery as metaphor rather than as a seasonal marker; the boat, rudder, and strait are not conventional kigo but function as sustained figurative vehicle for erotic uncertainty. No element in the poem (由良の門, 舟人, かぢ, 恋の道) carries a seasonal association in the classical canon — the poem belongs to the 恋 (love) category of the Hyakunin Isshu rather than any of the four season categories."
+  },
+  "furigana": [
+    {
+      "kanji": "由良",
+      "reading": "ゆら"
+    },
+    {
+      "kanji": "舟人",
+      "reading": "ふなびと"
+    },
+    {
+      "kanji": "行",
+      "reading": "ゆ"
+    },
+    {
+      "kanji": "方",
+      "reading": "かた"
+    },
+    {
+      "kanji": "恋",
+      "reading": "こひ"
+    },
+    {
+      "kanji": "道",
+      "reading": "みち"
+    }
+  ],
+  "poem_number": 46,
+  "poet": "Sone no Yoshitada",
+  "source_jp": "由良のとを\nわたる舟人\nかぢをたえ\n行く方もしらぬ\n恋の道かな"
+}

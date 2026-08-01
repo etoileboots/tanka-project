@@ -1,0 +1,73 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "逢坂",
+      "ku": 5,
+      "reading_primary": "おうさか (place name, Ōsaka barrier)",
+      "reading_secondary": "逢ふ (to meet)",
+      "interaction": "The place name Ōsaka literally contains 逢ふ 'to meet/encounter,' so the barrier's name itself enacts the poem's theme: all who go, return, part, know one another or don't, nonetheless 'meet' (逢ふ) at this checkpoint — the toponym is simultaneously a literal location and a statement of universal encounter."
+    }
+  ],
+  "jokotoba": {
+    "text": "これやこの",
+    "ku_span": [
+      1
+    ],
+    "pivot": "こそ/や rhetorical exclamation pointing forward to the scene described",
+    "function": "An emphatic demonstrative opening ('Is this the very...') that does not itself carry sound-based imagery but rhetorically frames and heightens the entire following description, functioning like a preface pointing to the famous scene of the Ōsaka barrier — included here loosely though it is closer to pure rhetorical emphasis than a conventional image-preface."
+  },
+  "kigo": {
+    "word": "none",
+    "season": "none",
+    "note": "This poem contains no seasonal imagery; it is a philosophical/scenic poem about human comings and goings at a famous barrier, classed among the 雑 (miscellaneous) rather than seasonal poems."
+  },
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The ceaseless traffic of travelers going and returning, and the fact that all such journeys involve partings",
+    "shimo_theme": "Both those who know each other and those who are strangers alike converge and meet at the Ōsaka barrier",
+    "relationship_type": "other",
+    "pivot_note": "The kami-no-ku sets up parallel pairs of opposites (going/returning, parting) building toward a universalizing statement; the shimo-no-ku resolves this into a further pair of opposites (acquaintance/stranger) and then collapses all distinctions into the single unifying image of the barrier itself, whose name 逢坂 (Meeting Hill) enacts the reconciliation of all these dualities — kami enumerates human separations, shimo reveals the place where all such separations paradoxically become 'meetings.' This is best described as a cumulative-paradox structure: parting and meeting coincide at the named site."
+  },
+  "furigana": [
+    {
+      "kanji": "行",
+      "reading": "ゆ"
+    },
+    {
+      "kanji": "帰",
+      "reading": "かえ"
+    },
+    {
+      "kanji": "別",
+      "reading": "わか"
+    },
+    {
+      "kanji": "知",
+      "reading": "し"
+    },
+    {
+      "kanji": "知",
+      "reading": "し"
+    },
+    {
+      "kanji": "逢坂",
+      "reading": "おうさか"
+    },
+    {
+      "kanji": "関",
+      "reading": "せき"
+    }
+  ],
+  "poem_number": 10,
+  "poet": "Semimaru",
+  "source_jp": "これやこの\n行くも帰るも\n別れては\n知るも知らぬも\n逢坂の関"
+}

@@ -1,0 +1,41 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The dawn mist over the Uji River, described as breaking apart into patches (tae-dae ni)",
+    "shimo_theme": "Through the thinning gaps in the mist, the wooden stakes of the fish-weirs (ajirogi) at Zeze become visible one after another",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku sets up a gradual atmospheric process — the morning mist over the Uji river breaking into disconnected patches — and the shimo-no-ku reveals what that dissolving mist uncovers to the eye: the ajirogi stakes emerging into view one by one along the river. The poem's entire effect depends on the temporal/visual pivot at 'tae-dae ni' (patchily/intermittently), which governs both the mist's fragmentation and the successive, piecemeal appearance of the stakes — the two are the same unfolding moment seen from cause (mist thinning) to effect (stakes appearing)."
+  },
+  "kigo": {
+    "word": "宇治の川ぎり",
+    "season": "winter",
+    "note": "川霧 (river mist) at dawn is a classical winter-season image in waka, especially associated with early winter mornings when mist rises off rivers in the cold air; combined with 朝ぼらけ (dawn) it evokes the crisp, cold stillness of a winter morning at Uji — a scene made famous in the Genji monogatari's Uji chapters. While 霧 can appear in autumn poetry as well, in the Hyakunin Isshu tradition this particular poem is classed as a winter poem (mikan/fuyu) owing to its explicit setting of early winter dawn over the river."
+  },
+  "furigana": [
+    {
+      "kanji": "宇治",
+      "reading": "うじ"
+    },
+    {
+      "kanji": "川",
+      "reading": "かは"
+    },
+    {
+      "kanji": "網代木",
+      "reading": "あじろぎ"
+    }
+  ],
+  "poem_number": 64,
+  "poet": "Gonchunagon Sadayori",
+  "source_jp": "朝ぼらけ\n宇治の川ぎり\nたえだえに\nあらはれわたる\nぜぜの網代木"
+}

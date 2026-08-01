@@ -1,0 +1,279 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "note": "Kami (looking up at vast sky) is compressed into L1-L2a; shimo (recognition of moon over Mikasa/Kasuga) occupies L2b-L4. The revelation logic survives but is weakened by the interrogative/tentative phrasing ('now will the moon have peered... I trow') which turns the confident recognition into speculation, softening the emotional pivot of the original."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "the moon",
+      "note": "The moon is named literally ('the moon have peered') but no explicit seasonal marker (autumn) is given; the clear-sky imagery ('vaulted sky') combined with moon-gazing carries the conventional autumnal moon-viewing atmosphere implicitly, though a reader unfamiliar with the convention would not perceive 'autumn' specifically."
+    },
+    "translator_strategy": "Dickens prioritizes rhyme and metrical regularity (ABAB tetrameter) over literal fidelity, rendering the poem as a coherent, slightly archaic English quatrain that softens the moon's certain recognition into a wondering, tentative question ('will the moon have peered... I trow').",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "the vast/vaulted sky on every side",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            5
+          ],
+          "content_summary": "the act of viewing, and speculation about the moon having peered/risen",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "above Mikasa (mountain), trow (I believe/suppose)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Kasuga's far-off land, upreared (moon rising)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Word order is inverted relative to source: Kasuga is named after Mikasa in English (L3 then L4), reversing the JP order (Kasuga naru Mikasa no yama). The tentative 'will... have peered... I trow' spreads the shimo revelation and pivot word 出でし月かも across three lines instead of concentrating it in the final ku."
+    },
+    "poem_number": 7,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "Kami (L1-L2) presents the vast sky/moon as a single visual scene rather than 'gazing across' as an act separate from the moon's appearance; shimo (L3-L4) delivers the recognition of the same moon over Mikasa hill. The revelation structure survives — the question 'Is it not the same moon' functioning as the recognition pivot — but the compression of kami into two short lines and the insertion of 'sky of the moon' in L2 (which properly belongs to the moon-revelation of shimo) slightly blurs the boundary, weakening rather than inverting the structure."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "moon",
+      "note": "The word 'moon' appears twice (L2, L3) and again implicitly in L4's reference to the hill it rose 'out of'; while 'autumn' is never named, the moon itself — the canonical kigo — is fully present and foregrounded as the poem's central image, so the seasonal signal survives via the explicit naming of the kigo word itself even though the season name is absent."
+    },
+    "translator_strategy": "Noguchi prioritizes lyrical exclamation and compact rhetorical questioning ('Behold...', 'Is it not...') over strict ku-by-ku fidelity, compressing the kami-no-ku's vast sky-gazing into two brief lines so as to foreground the shimo-no-ku's emotional recognition of the remembered moon.",
+    "overall_fidelity": "medium",
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Exclamatory invocation of the vast heavenly plain (ama no hara)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The sky and the moon combined — condenses 'furisake mireba' (gazing across) with the moon image that properly belongs to the shimo",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Recognition/question: is this the same moon once seen before",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Naming the specific place: Kasuga's Mount Mikasa, from which the moon rose",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Compresses 5 ku into 4 lines; L2 blends kami's sky-gazing act with shimo's moon image, and L4 delays the place-name to the very end, mirroring the source's suspension but reordering slightly (moon-recognition stated in L3 before place given in L4, whereas source gives place — Kasuga naru Mikasa no yama — before the final revelatory 'ideshi tsuki kamo')."
+    },
+    "poem_number": 7,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "visual-revelation",
+      "note": "Porter retains the sequence of looking up at the sky first, then the revelation of the moon over Mikasa/Kasuga, but changes the kami-ku's meaning from 'gazing across the vast sky' into a more introspective 'my thoughts have wandered far,' which shifts the visual-perception opening toward a musing/interior framing. The shimo's recognition is weakened into a tentative 'methinks I see' rather than the emphatic recognition ('kamo') of the same moon once seen at home, so the emotional payoff of recognizing the identical moon is softened into simple description of location."
+    },
+    "kakekotoba_handling": [],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "the rising moon",
+      "note": "The moon is named directly ('rising moon'), so the kigo survives explicitly, though the autumn association itself is not signaled by any surrounding imagery — the translation relies solely on the word 'moon' itself to carry the seasonal connotation, without additional autumnal atmosphere (e.g., clarity of sky, coolness, dew) reinforcing it."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Gazing up into the sky (ama no hara)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The act of looking far off, reframed as 'thoughts wandering far' — an interior expansion beyond the literal 'furisake mireba' (looking far off)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Recognition/imagining seeing 'the rising moon' — corresponds to 出でし月かも but softened to speculative 'methinks I see'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Above Mount Mikasa",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "At far-off Kasuga — reorders 春日なる (Kasuga) after Mikasa, inverting the JP order where Kasuga precedes Mikasa",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter reorders the shimo-ku's internal sequence, placing the moon's recognition (line 3) before the place names (lines 4-5), whereas the source names Kasuga then Mikasa then the moon; this is a rhetorical inversion of the shimo's internal ordering while keeping the overall kami-then-shimo macro-structure intact. Additionally, 'far-off Kasuga' introduces an interpretive gloss ('far-off') not present in the original phrase 春日なる, projecting distance imagery onto the home location itself rather than the speaker's viewpoint."
+    },
+    "translator_strategy": "Porter prioritizes smooth, rhyme-conscious English verse and emotional legibility over literal fidelity, softening the poem's emphatic recognition (かも) into a tentative musing and reordering place-names for metrical and rhetorical flow rather than preserving the source's exact syntactic sequence.",
+    "overall_fidelity": "medium",
+    "poem_number": 7,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Kami-no-ku (looking up at the vast sky) maps to L1-L2; shimo-no-ku (recognition of the moon as the one over Mikasa in Kasuga) maps to L3-L5. The visual-revelation logic is intact: the act of looking (L1-2) resolves into the question of recognition (L3-5), though McCauley renders it as a rhetorical question rather than an assertion, which slightly shifts tone but preserves the structural pivot from perception to recollection."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "the moon",
+      "note": "The word 'moon' is present literally (L3-4) but no explicit season name ('autumn') appears anywhere in the translation. The seasonal atmosphere relies entirely on the reader's cultural knowledge that moon-viewing is an autumn convention; McCauley gives no additional imagery (like clear sky, cold air, dew) to reinforce the autumnal feeling beyond the bare noun 'moon', so the kigo survives only via the object itself, not through elaborated atmosphere."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "The act of looking abroad/looking up (ふりさけ見れば)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Over the wide 'Plain of Heaven' (天の原)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Is the moon the same (出でし月かも, rendered as a question)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "That rose over Mount Mikasa (三笠の山に)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "In the land of Kasuga (春日なる)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley reorders the ku content: L1-L2 swap the order of 'looking' and 'Plain of Heaven' relative to the JP sequence (ku1 then ku2), and L3-L5 present the shimo-no-ku in reverse informational order (moon/question first, then Mikasa, then Kasuga) compared to the source's Kasuga->Mikasa->moon sequence. This is a chiastic rearrangement for English syntax/rhyme rather than a semantic inversion of kami/shimo relationship."
+    },
+    "translator_strategy": "McCauley prioritizes natural, singable English verse rhythm and rhyme-like cadence over strict word-order fidelity, preserving the poem's overall visual-revelation logic and proper nouns while sacrificing the original ku sequence and offering no elaboration of seasonal atmosphere beyond the bare mention of the moon.",
+    "overall_fidelity": "medium",
+    "poem_number": 7,
+    "translator": "McCauley"
+  }
+}

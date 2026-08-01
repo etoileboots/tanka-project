@@ -1,0 +1,57 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker addresses the mountain cherry blossoms directly, asking them to feel mutual affection/empathy together with him ('let us feel it is moving, together').",
+    "shimo_theme": "The speaker reveals his isolation: aside from the blossoms, there is no one else who understands or shares his feelings.",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The kami-no-ku's direct address to the yama-zakura as a companion who can share 'aware' sets up an implicit personification; the shimo-no-ku then pivots to state, almost as a quiet confession, that this personified flower is in fact the ONLY being who understands him — turning what began as a wish for companionship into a stark statement of solitude softened only by the flower's imagined sympathy. The poignancy lies in the gap between the fervent hope of kami (that the blossoms might feel as he does) and the shimo's matter-of-fact admission that no human companion exists at all."
+  },
+  "kigo": {
+    "word": "山桜",
+    "season": "spring",
+    "note": "Yama-zakura (mountain cherry blossoms) is one of the most central and beloved images in the entire waka tradition, evoking the fleeting beauty of spring in a remote, uncultivated setting. Unlike the cultivated cherry of the capital, the 'mountain cherry' carries connotations of solitude, wildness, and unattended beauty — blossoms that flower and scatter unseen by human eyes except by the poet himself, which directly supports the poem's theme of isolation shared only with nature."
+  },
+  "furigana": [
+    {
+      "kanji": "哀",
+      "reading": "あはれ"
+    },
+    {
+      "kanji": "思",
+      "reading": "おもへ"
+    },
+    {
+      "kanji": "山桜",
+      "reading": "やまざくら"
+    },
+    {
+      "kanji": "花",
+      "reading": "はな"
+    },
+    {
+      "kanji": "外",
+      "reading": "ほか"
+    },
+    {
+      "kanji": "知",
+      "reading": "しる"
+    },
+    {
+      "kanji": "人",
+      "reading": "ひと"
+    }
+  ],
+  "poem_number": 66,
+  "poet": "Saki no Daisojo Gyoson",
+  "source_jp": "もろともに\n哀れと思へ\n山桜\n花より外に\n知る人もなし"
+}

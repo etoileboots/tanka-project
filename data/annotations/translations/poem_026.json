@@ -1,0 +1,331 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "other",
+      "note": "The kami describes the leaves and adds an editorial exclamation ('How pleasant 'tis their tints to see!') not in the source, while the shimo preserves the conditional wish structure ('did they but their beauty know, they would linger') and the imperial procession image. The personification-to-entreaty pivot is retained but softened: 心あらば becomes 'did they but their beauty know' which shifts from 'if you have a heart/feeling' to a more intellectual 'know their beauty', slightly altering the emotional hinge but keeping the conditional logic intact."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "みゆき",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "miyuki train",
+        "note": "Translator keeps the Japanese word 'miyuki' itself and glosses it as 'Emperor's...train', capturing the imperial-procession sense (御幸) but losing the secondary snow (深雪) resonance entirely; using the loanword directly avoids translating the pun but preserves the primary meaning through paratextual retention."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "redd'ning leaves",
+      "note": "The autumn maple leaves are named directly at the very start ('redd'ning leaves of th' momiji'), preserving both the season word's referent and its visual color imagery, making the kigo explicit rather than merely implied."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The reddening momiji leaves",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "growing on Ogura's peak",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [],
+          "content_summary": "editorial exclamation on the pleasantness of the scene",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "conditional: if they knew their own beauty (心あらば)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "they would linger/wait for one more time",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "the Emperor's miyuki (procession) passing again",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "L3 is an inserted exclamatory line with no direct source equivalent, expanding the kami-no-ku's descriptive content into two lines of scene-setting plus one line of authorial commentary; the shimo-no-ku is otherwise mapped fairly literally across three lines (4-6), each carrying one beat of the conditional-wish structure."
+    },
+    "translator_strategy": "Dickens renders the poem as a rhymed, metrically regular English lyric that prioritizes euphonious verse form and clarity over strict semantic and rhetorical fidelity, retaining the core narrative (leaves, conditional wish, imperial procession) while inserting an original exclamatory line and softening the personification's emotional hinge.",
+    "overall_fidelity": "medium",
+    "poem_number": 26,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "other",
+      "note": "Kami-no-ku (maple leaves personified with conditional 'if they knew') maps to lines 1-2; shimo-no-ku (wish for the imperial visit to recur) maps to lines 3-4. The pivot from personification to entreaty is preserved structurally, though compressed into fewer words."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "みゆき",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "miyuki train",
+        "note": "Noguchi keeps the Japanese word 'miyuki' itself, glossed with 'Emperor's...train,' preserving the primary imperial-procession sense explicitly but losing entirely the secondary 深雪 (deep snow) resonance, which is not evoked by 'train' or any snow imagery."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "maple leaves",
+      "note": "The literal 'maple leaves' (もみじ葉) is retained as a direct noun phrase naming the autumn foliage; the season is not named as 'autumn' outright, but the image itself is the traditional kigo carried over faithfully, so it functions as implicit seasonal imagery rather than an explicit season-word."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The maple leaves on Ogura mountain peak",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Conditional: if they had a heart/knew, they would wait",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "For the Emperor's miyuki (imperial procession) train",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "To pass once more (one more time)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "Fairly direct one-to-one mapping of ku to lines with only minor compression; jokotoba (ku1-2) fused into a single line, and 'miyuki' kept untranslated as a loanword, split across lines 3-4 to render 今ひとたびの...またなむ."
+    },
+    "translator_strategy": "Noguchi opts for a compact, literal near-transliteration that keeps the culturally loaded term 'miyuki' intact rather than fully translating it, sacrificing the wordplay and courtly allusiveness for economy and an exoticizing gesture toward the original vocabulary.",
+    "overall_fidelity": "medium",
+    "poem_number": 26,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "other",
+      "note": "The conditional wish structure (if you have a heart -> wait for the visit) is preserved logically: L1-2 personify/address the maples with the conditional 'if they could understand', L3-5 express the wish that they keep their leaves until the ruler passes. The pivot is maintained but compressed and the 'wait' verb is replaced with 'keep their brilliant leaves', shifting the request from waiting for a repeat imperial visit to preserving leaf color until the ruler passes, which subtly changes the emphasis of the entreaty."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "みゆき",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "royal band",
+        "note": "Porter renders みゆき as the ruler's passing with his 'royal band', capturing the imperial-procession sense (御幸) but entirely losing the 深雪/snow homophone resonance; only one reading survives and it is rendered fairly loosely as a courtly retinue image rather than a direct 'imperial visit' term."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "brilliant leaves",
+      "note": "もみじ葉 (autumn maple leaves) is rendered as 'brilliant leaves' — the autumn kigo is not named explicitly as 'autumn' but the imagery of maple leaves and their color survives, conveying the seasonal atmosphere implicitly rather than naming the season outright."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The maples of Mount Ogura (compresses ku1 'Ogurayama' and ku2 'peak's maple leaves' into one line)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "If they could understand (renders 心あらば, the conditional personification)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            4
+          ],
+          "content_summary": "Would keep their brilliant leaves, until (adds interpretive verb 'keep' not explicit in source, referencing back to the leaves of ku2 and introducing the 'until' of the wait in ku4)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The Ruler of this land (renders みゆき as a ruler figure)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Pass with his royal band (elaborates みゆき as a royal procession/retinue passing)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses ku1+ku2 into a single opening line and then expands the single word みゆき (ku5) into two lines ('The Ruler of this land / Pass with his royal band') to satisfy rhyme and meter, adding the invented image of a 'band' of retinue not explicit in the source, which is an interpretive expansion rather than pure translation."
+    },
+    "translator_strategy": "Porter prioritizes English rhymed quatrain-with-tag verse form and euphonious meter over literal fidelity, freely paraphrasing and expanding single Japanese words (like みゆき) into fuller English images to preserve rhyme and courtly tone at the cost of the kakekotoba's snow-pun and any explicit naming of autumn.",
+    "overall_fidelity": "medium",
+    "poem_number": 26,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "note": "The translation maintains the conditional-personification structure: lines 1-3 personify the maple leaves via the conditional 'if...have the gift of mind', and lines 4-5 turn this into the entreaty/wish for the leaves to await the imperial visit, mirroring the source's pivot from description to plea."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "みゆき",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "pilgrimage",
+        "note": "‘August pilgrimage’ renders the imperial-visit sense (御幸) with elevated diction, but the secondary homophonic resonance with 深雪 (deep snow) is entirely lost; no snow imagery or word is introduced to carry that layer."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "maple leaves",
+      "note": "The season is not named as 'autumn' but the image of 'maple leaves' on the ridge carries the conventional autumn kigo imagery, preserving the seasonal atmosphere implicitly through the visual referent rather than explicit naming."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Conditional opening addressing the maple leaves",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Location: ridge of Ogura, completing the jokotoba scene-setting",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The conditional 'if you have a heart/mind' (心あらば)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The wish that they will wait ('今ひとたびの' anticipation, longingly await)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "One more august pilgrimage — the imperial visit (みゆき)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The five English lines map almost one-to-one onto the five ku, with lines 1-2 splitting the jokotoba (小倉山/峰のもみじ葉) across two lines rather than compressing it into one, a slight expansion of the source's dense first two ku."
+    },
+    "translator_strategy": "McCauley aims for a close, line-by-line literal correspondence to the five ku, preserving the conditional personification and elevated diction ('gift of mind', 'august pilgrimage') at the cost of the kakekotoba's secondary snow-imagery layer.",
+    "overall_fidelity": "medium",
+    "poem_number": 26,
+    "translator": "McCauley"
+  }
+}

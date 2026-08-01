@@ -1,0 +1,83 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "秋",
+      "ku": 4,
+      "reading_primary": "秋",
+      "reading_secondary": "飽き",
+      "interaction": "On the surface 'this year's autumn' is passing (秋も去ぬめり), but 飽き (weariness/growing tired of a lover) resonates beneath it — the poem is a complaint that the promised support (like dew that gives life to the mokuse grass) has faded, and the beloved has grown weary/indifferent, just as autumn departs. The double sense deepens the poem's reproachful tone toward a patron/lover who broke a promise.",
+      "confidence": "medium"
+    },
+    {
+      "word": "いぬめり",
+      "ku": 5,
+      "reading_primary": "去ぬめり",
+      "reading_secondary": null,
+      "interaction": "Not a true kakekotoba but flagged for consideration; retained as single reading 'to depart/pass' — no second grammatically active meaning found, so not listed as a separate pivot beyond the あき pivot above.",
+      "confidence": "low"
+    }
+  ],
+  "jokotoba": {
+    "text": "契りをきし させもが露を 命にて",
+    "ku_span": [
+      1,
+      2,
+      3
+    ],
+    "pivot": "命にて",
+    "function": "The kami-no-ku sets up an extended metaphor: the speaker was promised support as vital as dew is to the sasame (mugwort/plant) — this elaborate image, longer than a single ku and specifically composed for this poem, leads into the emotional lament of the shimo-no-ku over the broken promise as the year's autumn departs."
+  },
+  "honkadori": {
+    "source_poem": "なほ頼めしめぢが原のさせも草わが世の中にあらむかぎりは",
+    "source_poet": "attributed to a kami's oracle (cited in Senzaishū and various commentaries as an ancient god's utterance, sometimes associated with Kumano/Shimotsuke shrine legend)",
+    "echoed_phrase": "させも草",
+    "function": "Mototoshi alludes to the legendary divine promise 'なほ頼めしめぢが原のさせも草' — a god's assurance that as long as the sasame-grass of Shimeji-ga-hara receives dew, one may trust in the promise. By invoking させもが露, Mototoshi accuses a patron (traditionally identified as the head of the Enryakuji, who had promised him a promotion) of breaking a promise as sacred as that divine oracle, now that the year's end (autumn) is passing without fulfillment."
+  },
+  "kigo": {
+    "word": "秋",
+    "season": "autumn",
+    "note": "秋 (aki) explicitly marks the poem's temporal setting — the year's autumn is ending, which carries the classical connotation of things fading, promises going unfulfilled, and time running out, paralleling the withering of the sasame-grass without dew. It is the dominant seasonal image, anchoring the poem's mood of disappointment and impermanence as the year draws to its close.",
+    "confidence": "high"
+  },
+  "furigana": [
+    {
+      "kanji": "契",
+      "reading": "ちぎ"
+    },
+    {
+      "kanji": "露",
+      "reading": "つゆ"
+    },
+    {
+      "kanji": "命",
+      "reading": "いのち"
+    },
+    {
+      "kanji": "今年",
+      "reading": "ことし"
+    },
+    {
+      "kanji": "秋",
+      "reading": "あき"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A remembered promise, likened to dew sustaining the sasame-grass, on which the speaker staked his very life/hope",
+    "shimo_theme": "The sorrowful realization that this year's autumn is passing without the promise being fulfilled",
+    "relationship_type": "emotional-juxtaposition",
+    "pivot_note": "The kami-no-ku constructs an elaborate metaphor of dependency — trusting a promise as one trusts dew to keep grass alive — while the shimo-no-ku undercuts that trust with the plain, resigned observation that autumn (the deadline, implicitly) is ending. The pivot turns hope invested in a sacred-sounding vow into disillusioned lament, the passing of the season standing for the passing of any hope that the promise will be kept."
+  },
+  "poem_number": 75,
+  "poet": "Fujiwara no Mototoshi",
+  "source_jp": "契りをきし\nさせもが露を\n命にて\nあはれことしの\n秋もいぬめり"
+}

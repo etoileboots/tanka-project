@@ -1,0 +1,367 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator merges kami and shimo into a continuous rhymed narrative rather than a two-part structure; line 3 ('whom thought distract') bridges both halves, blending the doubt-about-constancy theme with the tangled-hair/turmoil image into one flowing sentence, so the implicit simile survives conceptually (tangled hair = tangled thoughts) but the formal pivot/break between the two parts is smoothed away into continuous syntax."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "長からむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "break the pact",
+        "note": "The translator renders the doubt about the durability/constancy of the lover's heart as fear of a broken pact and passing love, capturing the primary sense of uncertain duration but not engaging with the なが root's association with flowing hair; the connection to hair length is not rendered as wordplay at all."
+      },
+      {
+        "original_word": "みだれてけさは",
+        "reading_preserved": "both",
+        "method": "literal_primary",
+        "en_equivalent": "tangled",
+        "note": "The translator explicitly links 'whom thought distract' (emotional turmoil) with 'tangled as the unkempt mass' of hair, preserving both the physical disarray of the hair and the figurative disorder of the mind as parallel images, though rendered as simile ('As tangled as') rather than as a single verb doing double duty grammatically."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "raven tresses",
+      "note": "No seasonal word or seasonal atmosphere is present in the source poem or in this translation; 'raven tresses' functions purely as an image of dark hair/youth and beauty, consistent with the source analysis that this poem carries no seasonal marker at all."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Fear that the beloved will break the pact of long-lasting love",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Continues doubt about the constancy of the beloved's heart/love",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            4,
+            5
+          ],
+          "content_summary": "The speaker's thought/mind is distracted, bridging the abstract doubt of kami-no-ku with the emotional turmoil of shimo-no-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Simile: as tangled as the unkempt mass, describing disorder",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The image of black/raven hair (kurokami)",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The hair flows over the pillow this morning after waking, extrapolated detail of 'waking pillow' not explicit in source but consistent with けさ (this morning)",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator reorders content: the hair image (ku3) is delayed until after the emotional turmoil (ku2/ku4) is introduced, inverting the source's kami-then-shimo sequence into an interleaved structure where 'thought distract' (l.3) precedes the explicit hair image (l.5), and an extra invented detail ('waking pillow') is added in line 6 with no direct source equivalent, expanding けさ into a small narrative scene."
+    },
+    "translator_strategy": "This translator prioritizes a smooth rhymed English narrative and metaphorical clarity over preserving the formal five-ku bipartite break, expanding the implicit simile into an explicit \"As tangled as\" comparison while omitting the wordplay of 長 and inventing a small closing image (the pillow) not present in the source.",
+    "overall_fidelity": "medium",
+    "poem_number": 80,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        2,
+        3,
+        4
+      ],
+      "note": "The translator collapses the boundary somewhat by inserting 'Ah, this tangle' into what should be shimo content directly after the kami sentiment in line 2, blending the two ku together. The simile-implicit relationship (hair-length as vehicle for heart's constancy, then disheveled hair as vehicle for emotional turmoil) survives faintly but is compressed: the second half's 'tangle of black tresses' and 'anxiety' preserve the core disorder-of-hair/disorder-of-mind parallel, though the causal logic (turning point 'this morning') is weakened by exclamatory fragmentation rather than the original's flowing single-sentence structure."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "長からむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "last long",
+        "note": "The translation renders 長からむ straightforwardly as the heart's wish 'to last long,' capturing the literal duration sense but not developing the secondary evocation of flowing/long hair through wordplay; the connection is left implicit only via the later mention of tresses."
+      },
+      {
+        "original_word": "みだれてけさは",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "tangle",
+        "note": "The physical disarray of the hair ('this tangle of the black tresses') is rendered vividly, but the emotional turmoil reading is displaced onto a separate exclamation ('my anxiety of this morn') rather than being fused into a single word or phrase that carries both senses simultaneously, so the pivot's simultaneity is split into two separate lines instead of one bivalent term."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "Since 黒髪 carries no true seasonal association in the source (confirmed low confidence), and this translation likewise offers no seasonal imagery — 'this morn' is purely temporal/diurnal, not seasonal — there is no season conveyed explicitly or implicitly, consistent with the source's lack of a genuine kigo.",
+      "en_equivalent": "this morn"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The speaker's wish/prayer that her lover's heart will be long-lasting (constant)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            4
+          ],
+          "content_summary": "Continuation of the wish for constancy, followed by an exclamatory pivot to the tangled state ('this tangle') that begins the shimo content",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The black hair (kurokami) explicitly named as disheveled/tangled tresses",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The speaker's anxious, troubled thoughts this morning, corresponding to 物をこそ思へ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses five ku into four exclamatory lines, splitting ku 4 (みだれてけさは) across lines 2-3, and separates the emotional consequence (物思ふ) into its own final line, producing a somewhat fragmented, interjection-heavy structure rather than the source's single continuous grammatical flow from doubt to disordered hair to disordered heart."
+    },
+    "translator_strategy": "Noguchi favors an emotive, exclamatory rendering that foregrounds the speaker's direct voice ('Ah,' 'I pray') over strict grammatical fidelity, splitting the hair-tangle and heart-turmoil pivot into two separate exclamations rather than fusing them into one bivalent image.",
+    "overall_fidelity": "medium",
+    "poem_number": 80,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator inverts the order somewhat by placing 'tangled thoughts' before 'tangled hair' in line 3-4 rather than presenting hair-image first then revealing emotional state, but the simile link (tangled hair = tangled thoughts) is explicitly rendered via the 'as is' comparison in line 4, making the implicit simile of the source into an explicit one. The overall structure of doubt-then-disorder is preserved but compressed and the causal direction is somewhat reshuffled: thoughts are named tangled before hair is even mentioned, weakening the original's move from external image to internal state."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "長からむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "constancy",
+        "note": "The translator renders 長からむ as 'doubt about his constancy,' capturing the abstract sense of enduring affection but severing any link to the physical length of hair (the なが root wordplay is lost since 'constancy' has no lexical connection to 'long black hair' later in the poem)."
+      },
+      {
+        "original_word": "みだれてけさは",
+        "reading_preserved": "both",
+        "method": "literal_primary",
+        "en_equivalent": "Tangled",
+        "note": "The translator explicitly renders both readings by applying 'Tangled' to 'my thoughts' in line 3 and 'my long black hair' in line 4, making the dual meaning of みだれて (disheveled hair / disturbed mind) fully explicit rather than implicit, preserving both senses though converting the kakekotoba's simultaneity into a stated simile."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "black hair",
+      "note": "As in the source, black hair carries no seasonal marking; the translation preserves the image as a symbol of youth/beauty and emotional disorder but introduces no seasonal atmosphere, consistent with the source having no true kigo here."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Doubt about whether his heart/constancy will be long-lasting",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "This doubt is emotionally hard to bear (expansion of もしらず into an added emotional gloss)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "This morning my thoughts are tangled",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "As is my long black hair — explicit simile drawing together 黒髪 and みだれて",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Concluding rhetorical question 'Does he care?' replacing 物をこそ思へ ('indeed I am lost in thought')",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses the five ku into five rhymed lines but reorders content: the abstract doubt (ku1-2) is expanded into two lines with an added emotional judgment ('difficult to bear'), then the tangled-thoughts/tangled-hair simile (ku3-4) is stated explicitly rather than left as juxtaposition, and the final line invents a rhetorical question 'Does he care?' that has no direct lexical equivalent in 物をこそ思へ, which simply intensifies 'I am lost in thought' rather than asking about the lover's feelings."
+    },
+    "translator_strategy": "Porter prioritizes rhymed, metrically regular quatrain-plus-couplet English verse over literal fidelity, spelling out the implicit hair/heart simile explicitly and inventing a closing rhetorical question to supply emotional closure absent from the literal source.",
+    "overall_fidelity": "medium",
+    "poem_number": 80,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "simile-implicit",
+      "note": "The translator explicitly signals the simile with 'Like my black hair' in line 5, making the implicit comparison between disordered hair and disordered heart/thoughts fully explicit rather than leaving it as an implicit juxtaposition; the kami section (doubt over durability of love) and shimo section (morning disarray of hair/thoughts) are structurally preserved but the connective 'like' converts an implicit simile into an explicit one, weakening the subtlety of the original pivot."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "長からむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "for aye",
+        "note": "The translator renders 長からむ as 'If it be for aye' (i.e., 'will it last forever'), capturing the literal sense of duration/constancy of the beloved's heart, but the secondary evocation of flowing/unbound quality tied to the なが root (linking to hair length) is not carried through; the connection to hair is instead made explicit later via a separate simile rather than through wordplay."
+      },
+      {
+        "original_word": "みだれてけさは",
+        "reading_preserved": "both",
+        "method": "literal_primary",
+        "en_equivalent": "are confused",
+        "note": "The translator preserves both the physical disarray of the hair and the emotional turmoil of the thoughts, but does so by making the simile explicit ('Like my black hair, are confused') rather than allowing a single verb to carry both senses simultaneously as in the Japanese みだれて; the double meaning is thus present but split across two separate images/lines rather than fused in one word."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "black hair",
+      "note": "No seasonal marker exists in the source (黒髪 carries no season per the source analysis), and the translation likewise introduces no seasonal imagery or atmosphere; 'black hair' functions purely as the vehicle for the disorder simile, consistent with the source's non-seasonal use of the image."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Questioning whether the beloved's heart will be long-lasting ('for aye')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Expansion adding 'that he wills our love should last', explicating the abstract 長からむ心 into a fuller clause about the lover's will/intention",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "しらず rendered as 'Ah! I do not know!' — the speaker's uncertainty about the beloved's heart",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "This morning's anxious thoughts, corresponding to けさは物をこそ思へ and the emotional half of みだれて",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The simile 'Like my black hair, are confused' explicitly ties the tangled hair (黒髪のみだれて) to the confused thoughts, collapsing ku 3 and the physical sense of ku4 into one explicit simile line",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact kami-no-ku (長からむ心もしらず) into three lines (1-3) with added interpretive material ('that he wills our love should last'), and compresses the shimo-no-ku's dual hair/heart disorder into two lines (4-5) using an explicit simile ('Like my black hair') rather than the fused verb みだれて; this shifts the poem from implicit metaphor to explicit simile structure, and reorders content slightly (the emotional turmoil is named in L4 before the hair image reappears in L5, whereas in the original the hair's disorder is stated before the emotional conclusion)."
+    },
+    "translator_strategy": "McCauley opts for explanatory expansion and explicit simile, converting the source's compressed implicit metaphor (tangled hair AS/FOR tangled heart) into a clearly marked comparison ('Like my black hair') so that an English reader immediately grasps the emotional logic without needing to intuit the kakekotoba-driven double meaning of みだれて.",
+    "overall_fidelity": "medium",
+    "poem_number": 80,
+    "translator": "McCauley"
+  }
+}

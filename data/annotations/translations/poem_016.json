@@ -1,0 +1,340 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "other",
+      "note": "The kami/shimo split is preserved in that L1-2 present the mountain/pine scene and L3-4 present the vow of return, but the jokotoba function (three ku building purely to license the pivot) is compressed into two lines and the 立ち別れ/departure content of ku1 is omitted, weakening the structural buildup. The pivot itself is cleverly relocated to the pun on 'pine' in L4 rather than L2, which changes the mechanics of the jokotoba-to-kakekotoba transition even though the overall two-part logic (scene then vow) survives."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "いなば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Inaba's lofty range",
+        "note": "The place name Inaba is preserved literally as a proper noun, but the secondary echo of 往なば ('if I go') is entirely lost — there is no English wordplay suggesting departure embedded in 'Inaba' here, it's simply a geographic label."
+      },
+      {
+        "original_word": "まつ",
+        "reading_preserved": "both",
+        "method": "bilingual_pun",
+        "en_equivalent": "pine / pine for me",
+        "note": "The translator brilliantly exploits the English homograph 'pine' (tree) / 'pine' (to long for), placing 'tall pine-tree' in L2 and 'shouldst pine for me' in L4, reproducing the exact bilingual mechanism of the source kakekotoba — a rare case where the pun translates almost perfectly across languages."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal word or season exists in the source for this poem (松 is explicitly noted as non-seasonal here, serving only as kakekotoba vehicle), and the translation likewise carries no seasonal atmosphere — pines are used purely for the pun, not as seasonal imagery. This is fully consistent with the source's own lack of kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Inaba's lofty range is crowned — combines the departure implicit in place name with the mountain image, omitting explicit 立ち別れ (parting) verb",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "By many a tall pine-tree — the pine growing on the peak",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Ah quickly were I homewards bound — the vow of quick return, reordered before the conditional clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "If thou shouldst pine for me — the conditional 'if I hear you are waiting', recast as 'if you pine for me', pivoting on the English pun",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts the source's ku4-ku5 order (condition then consequence) into consequence-then-condition (L3 vow, L4 condition), likely for rhyme scheme (ABAB), and compresses the three-ku jokotoba build-up (立ち別れ/いなばの山/峰に生ふる) into two lines, dropping the explicit 'parting' verb and the いなば/往なば echo entirely."
+    },
+    "translator_strategy": "Dickens prioritizes reproducing the pine/pine-for kakekotoba pun in natural English at the cost of the jokotoba's slow build and the いなば/往なば wordplay, reordering clauses to fit an ABAB rhyme scheme.",
+    "overall_fidelity": "medium",
+    "poem_number": 16,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "Now we part. The pine-tree grows. — compresses the parting (ku1) with the pine growing (ku3), skipping over the Inaba place name pivot itself; note L1 pulls forward content that in the source sits after ku2 (いなばの山).",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "There on the Inaba mountain top — restates the place name/mountain content from ku2, placed after the pine image rather than before it, reversing the source's kami-no-ku internal sequence (parting → Inaba → peak → pine).",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "If thou shouldst say \"pine\" — renders まつとしきかば, but shifts the kakekotoba into direct speech (\"say 'pine'\") rather than the speaker hearing that the beloved is waiting.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "I to you will soon return — renders 今かへりこむ, the vow of immediate return.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Lines 1-2 invert/rearrange the kami-no-ku's internal order (pine-image is mentioned before the Inaba mountain-top is named, whereas source builds place→peak→pine sequentially as jokotoba); the jokotoba build-up is compressed into two short lines rather than the three-ku accumulation, weakening the sense that the whole scene exists solely to license the まつ pivot."
+    },
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "jokotoba-to-kakekotoba pivot",
+      "note": "The overall two-part structure (departure scene → conditional vow) is kept, and the pivot word 'pine' is retained as the hinge between the two English couplets, so the relationship type is recognizable. However, because L1 rearranges the jokotoba's internal sequence (pine mentioned before the mountain/peak is fully established) and because 'pine' is only carried into L3 as reported direct speech rather than as the natural pivot from the tree-image just described, the jokotoba's cumulative, scene-building function is weakened — hence 'partial' rather than fully 'preserved'."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いなば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Inaba mountain",
+        "note": "The place name Inaba is preserved literally ('Inaba mountain top'), but the secondary echo of 往なば ('if I go away') is not attempted or hinted at in any way; the parting sense is only carried by the separate opening clause 'Now we part.'"
+      },
+      {
+        "original_word": "まつ",
+        "reading_preserved": "partial",
+        "method": "partial",
+        "en_equivalent": "pine / \"pine\"",
+        "note": "The translator cleverly reuses the single English word 'pine' twice — once as the tree (L1) and once in quotation marks as if it were a spoken watchword (L3, 'If thou shouldst say \"pine\"') — attempting a bilingual pun via repetition. However, English 'pine' as a verb also means 'to long for/yearn,' which is a near-miss homograph for 待つ's 'waiting' sense but not an exact match; the translation substitutes 'say pine' (a hearing-of-a-word device) rather than 'waiting' itself, so the emotional reading of 待つ (waiting) is only obliquely gestured at through the quotation device rather than directly rendered. This is a genuine attempt at bilingual wordplay but does not fully carry both meanings with precision, so it is best scored as partial/transformed rather than a clean 'both'."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Consistent with the source analysis, 松/pine here carries no seasonal marker in Japanese (evergreen, non-seasonal) and the translation likewise introduces no seasonal atmosphere — 'pine-tree grows' is treated purely as the vehicle for the kakekotoba/jokotoba pivot, not as a seasonal image. No season is named or implied anywhere in the four lines."
+    },
+    "translator_strategy": "Noguchi prioritizes reproducing a witty bilingual pun on 'pine' (tree/yearn) as the poem's central pivot, even at the cost of reordering the jokotoba's scene-building sequence and dropping the いなば/往なば echo of departure.",
+    "overall_fidelity": "medium",
+    "poem_number": 16,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "transformed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "note": "Porter transforms the jokotoba/pivot structure into a causal-sensory chain: breezes on the peak sigh through the pine, and this sighing becomes a whisper carrying the news that the beloved 'pines' for the speaker. The kami section (mountain, peak, pine) is retained but recast as the physical medium (wind sound) that delivers the message, rather than a self-contained travel scene that merely licenses a wordplay pivot. The relationship_type 'other' (jokotoba-leading-to-kakekotoba) is replaced by a quasi-causal/personification chain: wind carries word of waiting. This is a displaced relationship rather than a preserved one, since the logical connective tissue is now imagined physical transmission (sighing wind) rather than the pun itself.",
+      "relationship_type": "transformed_causal_chain (wind-borne message replacing pivot-word logic)"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いなば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Inaba's peak",
+        "note": "Porter retains the place name 'Inaba' literally as a location, but the secondary echo of 往なば ('if I go') is entirely absent — no departure verb or 'if I go' sense attached to the place name itself; the departure sense is instead handled earlier by omitting 立ち別れ as a discrete line and folding it into general context."
+      },
+      {
+        "original_word": "まつ",
+        "reading_preserved": "both",
+        "method": "bilingual_pun",
+        "en_equivalent": "pine / pine for me",
+        "note": "This is the clearest success: Porter exploits the English homograph 'pine' (tree) / 'pine for' (to long for) directly paralleling the Japanese 松/待つ pun. 'the old pine tree' (L2) and 'thou dost pine for me' (L4) hold both the literal tree and the emotional longing, replicating the source's kakekotoba almost exactly via a lucky bilingual coincidence."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Source analysis confirms 松 carries no seasonal marking in this poem (evergreen, non-seasonal, functioning purely as kakekotoba vehicle) — Porter's 'old pine tree' likewise carries no seasonal signal; 'breezes' and 'sigh' evoke a wistful mood but not any specific season. This aligns with the source: no kigo to preserve or lose, and none introduced."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "breezes on Inaba's peak — locates the mountain and its peak, compressing 立ち別れ (departure) out of explicit statement",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "wind sighing through the old pine tree — the physical pine image, elaborated into a sound/wind conceit not present in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "whisper reaching 'my lonely ears' — invented sensory/emotional framing bridging pine-image to the message of waiting",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'that thou dost pine for me' — the kakekotoba pivot rendered via English pun pine/pine-for, corresponding to まつとしきかば",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Swiftly I'll fly to thee' — the vow of immediate return, corresponding to 今かへりこむ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter compresses ku1 (立ち別れ, the departure announcement) almost out of existence — it is not separately rendered but implied by 'Inaba's peak' being a place one has gone to. He then expands ku3 (峰に生ふる/松) into two lines built around a wind/sighing conceit that has no direct source equivalent, inserting personification (breezes, sigh, whisper, lonely ears) not present in the original, in order to motivate how the news of waiting reaches the speaker — the original relies purely on the pivot-word logic, not on a physical transmission mechanism."
+    },
+    "translator_strategy": "Porter prioritizes finding a natural English pun (pine tree / to pine) that replicates the kakekotoba's double meaning, and to justify this pun invents a sensory wind-borne-message conceit that expands and dramatizes the jokotoba imagery well beyond its economical function in the original.",
+    "overall_fidelity": "medium",
+    "poem_number": 16,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        4
+      ],
+      "shimo_lines": [
+        3,
+        5
+      ],
+      "note": "McCauley reorders the jokotoba/pivot structure into a conditional clause interleaved with the vow: 'Though we parted be' (departure) then jumps to 'If on Mount Inaba's peak / I should hear the sound / Of the pine trees growing there' which awkwardly conflates the physical pine image with an auditory 'hearing' that in the source belongs to hearing news of the beloved waiting (きかば), not hearing the sound of pine trees. This substitution collapses the pivot: the kakekotoba's emotional half (待つ, waiting) is replaced by a literal sound of pine trees (perhaps wind in the pines), destroying the licensing logic between kami (journey/pine) and shimo (vow contingent on news of waiting). The relationship type is displaced into a literal conditional ('if I hear pine-sound, I'll return') rather than the source's 'if I hear you are waiting, I'll return.'"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "いなば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Mount Inaba",
+        "note": "The place name Inaba is rendered literally as 'Mount Inaba'; the secondary echo of 往なば (if I go) is not attempted at all — no wordplay or double sense in English, just a straightforward place reference."
+      },
+      {
+        "original_word": "まつ",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "pine trees",
+        "note": "McCauley keeps only the literal 松 (pine trees) as an object 'growing there' whose 'sound' is heard, but crucially he reroutes the verb 'hear' to attach to the sound of the pines themselves rather than to news of the beloved waiting (待つ). This is a significant departure: the pivot's emotional half is lost entirely — there is no waiting beloved in this translation at all, only the sound of pine trees, so the kakekotoba is reduced to its literal image and the second meaning (待つ, to wait) is entirely absent from the English, not even paraphrased elsewhere in the poem."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "Source analysis notes no true kigo here (松 not seasonal); consistent with that, McCauley's rendering ('pine trees growing there') carries no seasonal marking or atmosphere — it functions purely as a literal object of hearing, not even invoking pine's typical evergreen/timelessness connotation strongly. No seasonal signal present, matching the source's lack of one."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Though we parted be — renders 立ち別れ, the announcement of departure.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "If on Mount Inaba's peak — compresses いなばの山の峰に (place name + peak) into one line, dropping the 生ふる (growing) verb to the next line.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "I should hear the sound — renders きかば (if I hear) but redirects the object of hearing to an invented 'sound' rather than news of waiting.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "Of the pine trees growing there — combines 生ふる (growing, ku3) with まつ (pine, ku4), rendering the literal image but severing it from the 待つ pivot.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Back at once I'll make my way — renders 今かへりこむ, the vow to return immediately.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley restructures the syntax so that 'I should hear the sound of the pine trees' becomes the literal condition for return, rather than 'if I hear that she is waiting.' This effectively invents a new logical link (hearing wind/sound in pines triggers return) not present in the source, where the condition is hearing NEWS of waiting — a significant content shift even though surface vocabulary (pine, peak, Inaba) is preserved."
+    },
+    "overall_fidelity": "low",
+    "translator_strategy": "McCauley prioritizes surface imagery and natural English syntax over reproducing the kakekotoba pivot, converting 'hearing that she waits' into 'hearing the sound of pine trees,' which preserves the literal pine/mountain scenery but sacrifices the poem's central emotional wordplay and the jokotoba's logical function entirely.",
+    "poem_number": 16,
+    "translator": "McCauley"
+  }
+}

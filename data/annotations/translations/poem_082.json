@@ -1,0 +1,339 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "note": "The translator turns the kami-no-ku's ironic observation that life persists despite grief into a direct address/lament to 'Life' itself, personified and blamed for wretchedness and misery; the original paradox (life stubbornly continues despite despair) is replaced by a continuous complaint about suffering. The shimo-no-ku's central conceit — that it is tears, not life, that cannot bear the sorrow — is reduced to a simple statement that tears show anguish, losing the irony that it is the tears (not life) that fail to endure. The paradoxical redirection of breaking-point from life to tears is essentially flattened into a single emotional through-line of suffering and its visible expression."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "憂き",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "anguish",
+        "note": "The translation renders 憂き as generalized suffering ('wretchedness', 'mis'ry', 'anguish') without any trace of the secondary 浮き (floating) resonance, and even the primary sense is diffused across multiple lines rather than concentrated in one pivot word tied to namida's inability to endure."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "tears that flow",
+      "note": "As the source poem itself contains no seasonal imagery, there is nothing for the translation to preserve or omit; the translation's imagery (wretchedness, tears, anguish) remains entirely in the emotional/introspective register with no natural or seasonal substitution introduced."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "The translation expands the five-ku poem into six rhymed lines, converting the kami-no-ku's ironic statement ('life nonetheless persists') into a four-line apostrophe to personified Life that laments suffering and strife, which has no direct equivalent in the source's more compact, paradoxical phrasing; the shimo-no-ku's turn (it is tears, not life, that cannot endure) is compressed into two lines that merely describe tears flowing as a sign of anguish, losing the redirection-of-endurance conceit.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Apostrophe to 'Life' lamenting wretchedness, loosely echoing the kami-no-ku's reflection that life persists despite grief",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Continues addressing Life, describing it as oppressed by deep misery — an emotional amplification not literally in the source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Speaker's own struggle ('I strive in strife') with his sad lot, corresponding loosely to 思ひわび (grieving/lamenting)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "No peace or rest — an extrapolated intensifier not present in the compact 'あるものを' (life nonetheless exists) of the source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The tears that flow — corresponds to なみだ (tears) in the shimo-no-ku",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Tears down the cheek showing anguish — corresponds to 憂きに堪へぬ (unable to bear the sorrow) but reframed as tears simply expressing/demonstrating anguish rather than failing to endure it",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "The translator prioritizes English lyrical convention — rhymed, metrically regular verse with personification and apostrophe to 'Life' — over precise reproduction of the original's compact paradox, expanding and dramatizing the emotional content at the cost of the source's ironic redirection from life's endurance to tears' failure to endure.",
+    "overall_fidelity": "low",
+    "poem_number": 82,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation preserves the basic paradox structure: life persists despite sorrow (L1-2), yet the tears alone cannot endure the sadness (L3-4). The 'even though' quality of the original's けり/ものを turn is compressed, and the parallel construction ('life... stands' vs 'tears... cannot stand') is made more explicit through the repeated 'Under X... cannot/still' phrasing, but the ironic redirection from inochi to namida is preserved, just with somewhat weakened rhetorical emphasis since 'still' in L1 does the work of ものを's surprise rather awkwardly."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "憂き",
+        "reading_preserved": "primary_only",
+        "method": "partial",
+        "en_equivalent": "sadness",
+        "note": "The translator renders 憂き twice, once as 'wretchedness' (L2) and once as 'sadness' (L4), capturing only the primary grief-sense; the secondary echo of 浮き (floating) is entirely absent, with no image of floating or drifting introduced to compensate."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As in the source, there is no seasonal imagery in this poem, and the translation likewise introduces none; the emotional vocabulary (wretchedness, sadness, tears) stays entirely in the human/psychological register with no natural or seasonal image substituted."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            3
+          ],
+          "content_summary": "Life still remains/exists",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "under the wretchedness of grieving thought",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "but my own tears alone",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "cannot endure/stand under sadness",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses ku1 (思ひわび, grieving) and ku3 (あるものを, yet it is) into lines 1-2, slightly reordering so that 'life still' appears before 'wretchedness of thought' rather than after, and then ku4-5 are similarly reordered with 'tears' (ku5) preceding the verb phrase 'cannot stand' (ku4) that in the original follows namida grammatically but here anticipates it for rhythmic parallelism with line 1's 'I have my life still.'"
+    },
+    "translator_strategy": "Noguchi prioritizes a tight, aphoristic parallelism between the two halves ('life... still' vs 'tears... cannot stand') at the expense of the original's subtler grammatical surprise (ものを) and the secondary floating-connotation of 憂き, producing a compact but rhetorically flattened rendering.",
+    "overall_fidelity": "medium",
+    "poem_number": 82,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5
+      ],
+      "relationship_type": "generic lament rather than paradox",
+      "note": "Porter's translation abandons the original's ironic conceit that life persists but tears cannot endure the grief. Instead he substitutes a generalized image of the world as sinful/gloomy and the speaker adrift on 'Life's stream,' concluding simply that his tears flow forever. The key paradox — that it is not life but tears that break under sorrow — is dissolved into a continuous lament with no structural turn. The bipartite logic of the source (life endures / tears do not) is lost; instead we get an undifferentiated expression of misery culminating in tears, which reads as intensification rather than the ironic redirection of breaking-point from life to tears."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "憂き",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "sad and gloomy",
+        "note": "Porter renders 憂き diffusely across 'sad and gloomy... sin and woe' and later implicitly via 'tears,' but the specific pivot between 'sorrowful' and the associative 'floating' sense is not captured by any single word; 'drift' is used instead for a different clause (life adrift) rather than for 憂き itself, so neither reading is precisely preserved in one term."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "sad and gloomy",
+      "note": "As the source analysis confirms, this poem has no kigo at all; Porter's translation likewise contains no seasonal imagery — the language throughout is moral/emotional ('sin and woe,' 'Life's stream,' 'tears') rather than natural or seasonal, consistent with the non-seasonal nature of the original."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "General statement of the world's sadness and gloom, expanding 思ひわび into a broader moral judgment about the world.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Further expansion: 'this world of sin and woe' elaborates the grief with invented moral vocabulary (sin) not present in the source.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'while I drift along Life's stream' corresponds to さても命はあるものを, reinterpreting the surprising persistence of life as a drifting existence.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "'Tossed helpless to and fro' extends the drifting/life image, emphasizing helplessness rather than the ironic fact that life continues despite sorrow.",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'My tears will ever flow' corresponds to 憂きに堪へぬはなみだなりけり, collapsing the paradox into a simple statement that tears never stop.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter expands the five-ku poem into five rhymed lines with added moral commentary ('sin and woe') and a sustained metaphor of life as a stream/river, which is not present in the source; the original's sharp turn from life-enduring to tears-not-enduring is smoothed into a single continuous lament ending in perpetual tears."
+    },
+    "translator_strategy": "Porter prioritizes producing a fluent, rhymed English lyric of general melancholy over reproducing the original's precise logical paradox, substituting invented moral and nature imagery (sin, Life's stream) for the source's tight ironic structure.",
+    "overall_fidelity": "low",
+    "poem_number": 82,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translator maintains the paradox structure: lines 1-3 assert that life persists despite grief ('Though in deep distress... my life still is left to me'), and lines 4-5 redirect the failure of endurance from life to tears ('my tears I can not keep; they can not my grief endure'). The ironic reversal — life endures, but tears do not — is preserved faithfully."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "憂き",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "grief",
+        "note": "McCauley renders 憂き as 'grief', capturing only the primary sorrow-sense; the secondary 浮き (floating) association with tears/namida is not evoked at all — no image of floating or drifting appears in the translation."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As the source analysis notes, this poem contains no seasonal imagery at all, and the translation correspondingly introduces none — it remains a purely introspective meditation on grief, life, and tears with no natural/seasonal vocabulary or atmosphere."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Despair/grief-stricken reflection (思ひわび)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Parenthetical intensification of distress, transitioning into 'my life' (さても命は)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Life still remains (あるものを)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Tears cannot be restrained (憂きに堪へぬは / なみだ, split across lines)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Tears cannot endure the grief; identification of namida as the failing element (なみだなりけり)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translator expands the compact 5-ku structure into 5 lines with a parenthetical insertion in line 2 ('Through the cruel blow') that has no direct lexical equivalent in the source but reinforces the intensity of grief already implied by 思ひわび; otherwise the mapping is close to one-to-one with the ku divisions, preserving the kami/shimo split cleanly between lines 3 and 4."
+    },
+    "translator_strategy": "McCauley prioritizes clarity and metrical smoothness in English verse form, rendering the paradox faithfully through straightforward literal paraphrase while sacrificing the subtler kakekotoba resonance (浮き) for plain emotional vocabulary ('grief').",
+    "overall_fidelity": "high",
+    "poem_number": 82,
+    "translator": "McCauley"
+  }
+}

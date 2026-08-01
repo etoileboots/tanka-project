@@ -1,0 +1,355 @@
+{
+  "poem_number": 25,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T01:50:49.803482+00:00"
+    },
+    "devices": {
+      "くる": {
+        "status": "confirmed",
+        "original": {
+          "word": "くる",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:43:12.546593+00:00"
+      },
+      "さねかづら": {
+        "status": "confirmed",
+        "original": {
+          "word": "さねかづら",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:43:16.841485+00:00"
+      },
+      "逢坂山": {
+        "status": "removed",
+        "original": {
+          "word": "逢坂山",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T01:43:18.775126+00:00"
+      },
+      "逢": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "逢",
+          "color": "#F28FC0",
+          "note": "Referring to place/meet"
+        },
+        "reviewed_at": "2026-08-01T00:59:39.293136+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "osaka mountain": {
+          "status": "removed",
+          "original": {
+            "word": "osaka mountain",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:43:47.478803+00:00"
+        },
+        "reel of the vine": {
+          "status": "removed",
+          "original": {
+            "word": "reel of the vine",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:45:22.290717+00:00"
+        },
+        "reel": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "reel",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:00:16.575708+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "shimo"
+          },
+          "reviewed_at": "2026-07-27T01:44:20.822047+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:44:32.891171+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:44:36.558383+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T01:44:51.140328+00:00"
+        }
+      },
+      "device_links": {
+        "reel": {
+          "status": "corrected",
+          "original": {
+            "word": "reel"
+          },
+          "corrected": {
+            "source_word": "くる"
+          },
+          "reviewed_at": "2026-08-01T01:00:19.043729+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "osaka-yama's": {
+          "status": "removed",
+          "original": {
+            "word": "osaka-yama's",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:45:38.207159+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:46:30.656564+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:47:24.574832+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:47:24.955672+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:47:27.823812+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:47:28.256752+00:00"
+        },
+        "1": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T01:47:48.839277+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "mount ōsaka": {
+          "status": "removed",
+          "original": {
+            "word": "mount ōsaka",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:48:05.639763+00:00"
+        },
+        "wander with me": {
+          "status": "removed",
+          "original": {
+            "word": "wander with me",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T01:00:49.956299+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T01:49:21.274662+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:50:03.956548+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:50:04.871696+00:00"
+        },
+        "3": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T01:50:08.886935+00:00"
+        },
+        "4": {
+          "status": "corrected",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T01:50:21.420618+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:50:28.220362+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:50:45.188071+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:50:45.720569+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:50:46.869034+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:50:47.288233+00:00"
+        }
+      },
+      "devices": {
+        "trailing vine": {
+          "status": "confirmed",
+          "original": {
+            "word": "trailing vine",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:50:34.851910+00:00"
+        },
+        "meeting hill": {
+          "status": "removed",
+          "original": {
+            "word": "meeting hill",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T01:50:36.705670+00:00"
+        },
+        "draw thee": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "draw thee",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:01:13.604500+00:00"
+        }
+      },
+      "device_links": {
+        "draw thee": {
+          "status": "corrected",
+          "original": {
+            "word": "draw thee"
+          },
+          "corrected": {
+            "source_word": "くる"
+          },
+          "reviewed_at": "2026-08-01T01:01:15.139085+00:00"
+        }
+      }
+    }
+  }
+}

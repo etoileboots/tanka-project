@@ -1,0 +1,335 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "simile-implicit rendered as explicit analogy via 'So, too'",
+      "note": "The translator preserves the physical vehicle (guards' watch-fire burning at night, dying at morning) in lines 1-4 and then transfers it to the speaker's emotional state in lines 5-6, but makes the transfer explicit with the connective 'So, too, at dawn,' converting the source's unstated structural parallelism into an overt simile. This weakens the poem's signature rhetorical subtlety — the implicit fire-as-passion identity becomes a stated comparison rather than a wordless transference — so the relationship type is maintained in substance but its implicit mode is lost."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おもへ",
+        "reading_preserved": "secondary_only",
+        "method": "paraphrase",
+        "en_equivalent": "happiness",
+        "note": "The translator renders 物をこそおもへ as 'my happiness is past and gone,' capturing only the emotional content of longing/despair (and even substituting 'happiness' for the more accurate 'longing/sorrow'), while the association-driven embedded association of おもひ with 火 (fire) is entirely lost — there is no lexical trace connecting 'happiness' back to the fire imagery of the earlier lines."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "watch-fire's blaze",
+      "note": "Correctly, no seasonal signal exists in the source (the watch-fire is a fixed institutional image, not a kigo), and the translation likewise introduces no seasonal atmosphere — the fire and dawn/night imagery remain diurnal rather than seasonal, consistent with the source analysis's finding of no kigo present."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the Mikaki-mori (gate guards) through the night",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Explanatory gloss identifying the guards as 'Yeji' (衛士), an added clarification of the technical term",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The watch-fire burns full and bright — corresponds to 衛士のたく火の 夜はもえ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "At morning the flame dies — corresponds to 昼は消えつつ",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Explicit transfer/comparison introduced: 'So, too, at dawn' making the fire/passion analogy overt",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The speaker's happiness is past and gone — corresponds to 物をこそおもへ, though rendered as loss of happiness rather than lovesick longing",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the compact 5-ku structure into 6 lines, inserting an explanatory gloss line (L2) for 衛士 not present as separate content in the source, and adds an explicit connective ('So, too') that turns the source's wordless structural parallel into a stated simile."
+    },
+    "translator_strategy": "Dickens prioritizes clarity and explanatory glossing for an English readership (even inserting a line to define 衛士/Yeji) over preserving the source's compressed, unstated rhetorical pivot, converting the implicit fire-as-passion identity into an explicit stated analogy.",
+    "overall_fidelity": "medium",
+    "poem_number": 49,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator keeps the fire/night-day structure but collapses the implicit simile into a directly stated emotional exclamation ('Oh, my heart!' / 'Oh, my dying thought!') attached to each half, making the parallel explicit rather than letting it emerge purely through structural transfer as in the source; the mirroring of moe/kie is preserved but the subtlety of jokotoba-driven transference is weakened into a two-part apostrophe.",
+      "relationship_type": "simile-explicit (converted from simile-implicit)"
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おもへ",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "dying thought",
+        "note": "The translator renders おもへ as 'my dying thought,' which captures the yearning/lovesickness sense loosely but does not carry the embedded association with 火 (fire) that the source analysis notes; the fire-thought link is stated externally via the parallel exclamation structure rather than fused within a single pivoting word, so neither the primary nor the secondary reading is truly preserved in one lexical item."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "Burn the fire",
+      "note": "There is no genuine kigo in the source poem (the watch-fire is an institutional, non-seasonal image), and this translation likewise conveys no seasonal atmosphere — it stays with the ritual/emotional fire imagery without any seasonal coloring, consistent with the source's lack of a true kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the Mikakimori (palace gate-guards) and situates them through the night",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The guards burn their fire at night; translator inserts an exclamatory apostrophe 'Oh, my heart!' linking fire to speaker's emotion, making the implicit parallel explicit",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The fire dies out in daytime, corresponding to 昼は消えつつ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The speaker's own thought/lovesickness is directly named as 'dying thought,' rendering 物をこそおもへ",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the three-ku kami-no-ku into two lines and expands the two-ku shimo-no-ku into two lines with added exclamatory apostrophes ('Oh, my heart!', 'Oh, my dying thought!') that make explicit the emotional analogy the original leaves implicit through structural parallelism alone."
+    },
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and readability by converting the poem's implicit fire/passion parallelism into an explicitly stated exclamatory analogy, sacrificing the subtlety of the jokotoba-driven transference and the fire-embedded wordplay of おもへ for direct lyrical clarity.",
+    "overall_fidelity": "medium",
+    "poem_number": 49,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        3,
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2
+      ],
+      "note": "Porter completely reverses the structural order: the English poem opens with the speaker's declaration of constant love (shimo content) and then appends the watch-fire image as an illustrative simile introduced explicitly by 'As surely as' (kami content), whereas the source presents the fire image first as an unstated jokotoba vehicle and only reveals the emotional referent in the shimo-no-ku. The relationship type is also changed from implicit structural parallelism to an explicit stated simile."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おもへ",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "constancy",
+        "note": "The association between おもひ (longing) and 火 (fire) that lets 'thinking of' carry an embedded fire-image is entirely lost; Porter substitutes 'constancy' and 'love' with no trace of fire-vocabulary bridging the two halves, and the burning/dying imagery is reassigned purely to the guards rather than to the speaker's own emotional state."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source itself contains no true kigo (the watch-fire is an institutional, not seasonal, image), and Porter's translation likewise conveys no seasonal atmosphere whatsoever — the fire is described merely as a nightly, functional duty ('Each night their watch-fire make / And guard it till daybreak'), with no imagery of cold, dew, or any seasonal marker.",
+      "en_equivalent": "watch-fire"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Speaker's declaration of love/constancy, drawn from the shimo-no-ku's emotional content",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Vow never to abandon that love, an extrapolated reinforcement of the shimo-no-ku's persistence theme",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Introduces the Palace Guards as the simile's vehicle, explicitly marked by 'As surely as'",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The guards' nightly watch-fire, corresponding to yowa moe (night burning)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "The guarding continuing till daybreak, a substitution for the original's daytime extinguishing (hiru wa kietsutsu) recast as vigilant persistence rather than suppression",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter inverts the poem's original order (fire-image first, emotional revelation second) into declaration-first, simile-second, and also changes the daytime 'dying out' (kie) into a positive image of guards keeping watch 'till daybreak,' which erases the crucial night/day alternation between burning and extinguishing that is central to the source's emotional logic."
+    },
+    "translator_strategy": "Porter prioritizes producing a smoothly rhymed, explicitly simile-structured English quatrain-plus-tag over preserving the source's unstated jokotoba logic, sacrificing the crucial night/burn-day/extinguish alternation and the fire-longing wordplay in favor of a straightforward vow-of-constancy reading.",
+    "overall_fidelity": "low",
+    "poem_number": 49,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5
+      ],
+      "relationship_type": "simile-explicit",
+      "note": "McCauley makes the implicit parallel between the guards' fire and the speaker's love explicit by adding 'Like' at the start and 'Is the love aglow in me' at the end, converting the source's unstated structural parallelism into an overt simile. The kami-no-ku material (watch-fires burning at night, dying by day) is preserved across lines 1-4, and the shimo-no-ku's emotional payload is compressed into the final line, which explicitly states the comparison rather than letting the fire behave as an implicit vehicle for suffering."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "おもへ",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "love aglow",
+        "note": "McCauley renders おもふ as 'the love aglow in me,' capturing the primary meaning of longing/thinking-of but making the fire-association explicit rather than embedding it as an unstated wordplay; the pivot's subtlety (fire hidden inside the verb of thought) is lost because the fire imagery is stated outright via 'aglow' rather than emerging from the verb itself."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "warder's fires",
+      "note": "No seasonal word or seasonal atmosphere exists in the source (the watch-fire is a fixed institutional image, not a kigo), and McCauley's translation likewise carries no seasonal imagery; the fire is presented purely as a year-round ritual image with no seasonal charge, consistent with the source's lack of a genuine kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the simile explicitly: 'Like the warder's fires'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Continues describing the location of the fires at the Imperial gateway",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Fire burning through the night",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Fire reduced to ashes/dulled by day",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Explicit statement that this pattern IS the speaker's love, resolving the simile",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "McCauley adds the word 'Like' at the very start of the poem, which restructures the entire piece from an implicit jokotoba-driven parallel into an explicit simile stated up front and resolved in the final line; this is a structural inversion of emphasis (the comparison is announced before the vehicle is even described, whereas in the source the vehicle comes first and the comparison is never explicitly named)."
+    },
+    "translator_strategy": "McCauley prioritizes clarity and metrical elegance in English verse by making the poem's underlying implicit simile fully explicit through the added word 'Like' and the closing line 'Is the love aglow in me,' sacrificing the source's subtler unstated structural parallelism and the fire-embedded wordplay of おもへ for straightforward comprehensibility.",
+    "overall_fidelity": "medium",
+    "poem_number": 49,
+    "translator": "McCauley"
+  }
+}

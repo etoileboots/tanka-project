@@ -1,0 +1,406 @@
+{
+  "poem_number": 67,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-28T08:18:08.886767+00:00"
+    },
+    "devices": {
+      "立たむ": {
+        "status": "removed",
+        "original": {
+          "word": "立たむ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T08:20:12.939767+00:00"
+      },
+      "春の夜": {
+        "status": "confirmed",
+        "original": {
+          "word": "春の夜",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T08:18:24.390373+00:00"
+      },
+      "かひなく": {
+        "status": "confirmed",
+        "original": {
+          "word": "かひなく",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-30T11:33:38.449226+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "devices": {
+        "spring night": {
+          "status": "confirmed",
+          "original": {
+            "word": "spring night",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:20:19.521305+00:00"
+        },
+        "rumor rise": {
+          "status": "removed",
+          "original": {
+            "word": "rumor rise",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:20:54.053721+00:00"
+        },
+        "arm": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "arm",
+            "color": "#F28FC0",
+            "note": "One part of kakekotoba, the other being \"useless\"."
+          },
+          "reviewed_at": "2026-07-28T08:21:15.636341+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:20:34.523404+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:20:35.105229+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:20:35.571136+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:20:36.903887+00:00"
+        }
+      },
+      "device_links": {
+        "arm": {
+          "status": "corrected",
+          "original": {
+            "word": "arm"
+          },
+          "corrected": {
+            "source_word": "かひなく"
+          },
+          "reviewed_at": "2026-08-01T02:04:37.186235+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "how would my fame": {
+          "status": "removed",
+          "original": {
+            "word": "how would my fame",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:21:32.788861+00:00"
+        },
+        "what had rumour said": {
+          "status": "removed",
+          "original": {
+            "word": "what had rumour said",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:21:33.701723+00:00"
+        },
+        "arm": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "arm",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-28T08:21:42.603605+00:00"
+        },
+        "spring-night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "spring-night",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-28T08:22:00.970241+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:21:46.403450+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:21:47.100894+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:21:47.468873+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:21:47.854281+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:21:48.185805+00:00"
+        },
+        "5": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:21:48.655189+00:00"
+        }
+      },
+      "device_links": {
+        "spring-night": {
+          "status": "corrected",
+          "original": {
+            "word": "spring-night"
+          },
+          "corrected": {
+            "source_word": "春の夜"
+          },
+          "reviewed_at": "2026-08-01T02:04:13.638153+00:00"
+        },
+        "arm": {
+          "status": "corrected",
+          "original": {
+            "word": "arm"
+          },
+          "corrected": {
+            "source_word": "かひなく"
+          },
+          "reviewed_at": "2026-08-01T02:04:40.173130+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "world have said": {
+          "status": "removed",
+          "original": {
+            "word": "world have said",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:22:16.670019+00:00"
+        },
+        "arm": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "arm",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-28T08:22:38.889400+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:22:25.056151+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:22:28.070118+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:22:28.668738+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:22:29.019762+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:22:29.419342+00:00"
+        }
+      },
+      "device_links": {
+        "arm": {
+          "status": "corrected",
+          "original": {
+            "word": "arm"
+          },
+          "corrected": {
+            "source_word": "かひなく"
+          },
+          "reviewed_at": "2026-08-01T02:04:33.386431+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "blameless stained": {
+          "status": "removed",
+          "original": {
+            "word": "blameless stained",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:23:02.656576+00:00"
+        },
+        "name were": {
+          "status": "removed",
+          "original": {
+            "word": "name were",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:23:03.937313+00:00"
+        },
+        "spring's short night": {
+          "status": "confirmed",
+          "original": {
+            "word": "spring's short night",
+            "color": "#B4DE65"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:23:04.318986+00:00"
+        },
+        "arm": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "arm",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-07-28T08:23:07.869409+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:23:10.952723+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:23:11.336521+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:23:11.755622+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:23:12.137810+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T08:23:12.468733+00:00"
+        }
+      },
+      "device_links": {
+        "arm": {
+          "status": "corrected",
+          "original": {
+            "word": "arm"
+          },
+          "corrected": {
+            "source_word": "かひなく"
+          },
+          "reviewed_at": "2026-08-01T02:04:30.292547+00:00"
+        }
+      }
+    }
+  }
+}

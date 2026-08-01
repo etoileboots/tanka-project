@@ -1,0 +1,412 @@
+{
+  "poem_number": 62,
+  "source": {
+    "kami_shimo_boundary": null,
+    "devices": {
+      "あふさか": {
+        "status": "added",
+        "original": null,
+        "corrected": {
+          "word": "あふさか",
+          "color": "#F28FC0",
+          "note": "Ausaka/meet"
+        },
+        "reviewed_at": "2026-08-01T02:00:33.459057+00:00"
+      },
+      "はかる": {
+        "status": "removed",
+        "original": {
+          "word": "はかる",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T04:46:20.803474+00:00"
+      },
+      "よ": {
+        "status": "removed",
+        "original": {
+          "word": "よ",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T04:46:21.354531+00:00"
+      },
+      "鳥の空音": {
+        "status": "removed",
+        "original": {
+          "word": "鳥の空音",
+          "color": "#B4DE65"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-28T04:46:23.121070+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Noguchi": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:47:48.835050+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:47:49.217364+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:47:49.701863+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:47:50.767785+00:00"
+        }
+      },
+      "devices": {
+        "ausaka gate": {
+          "status": "confirmed",
+          "original": {
+            "word": "ausaka gate",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:47:51.350160+00:00"
+        },
+        "cheat me": {
+          "status": "removed",
+          "original": {
+            "word": "cheat me",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:47:54.619282+00:00"
+        }
+      },
+      "device_links": {
+        "ausaka gate": {
+          "status": "corrected",
+          "original": {
+            "word": "ausaka gate"
+          },
+          "corrected": {
+            "source_word": "あふさか"
+          },
+          "reviewed_at": "2026-08-01T02:00:44.006136+00:00"
+        }
+      }
+    },
+    "Dickens": {
+      "devices": {
+        "cheat": {
+          "status": "removed",
+          "original": {
+            "word": "cheat",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:48:02.183966+00:00"
+        },
+        "ausaka's gate": {
+          "status": "confirmed",
+          "original": {
+            "word": "ausaka's gate",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:48:02.817020+00:00"
+        },
+        "ne'er canst": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "ne'er canst",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:01:09.457848+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:48:07.217392+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:48:07.800418+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:48:08.501057+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:48:11.316466+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:48:11.917909+00:00"
+        }
+      },
+      "device_links": {
+        "ne'er canst": {
+          "status": "corrected",
+          "original": {
+            "word": "ne'er canst"
+          },
+          "corrected": {
+            "source_word": "あふさか"
+          },
+          "reviewed_at": "2026-08-01T02:01:12.123440+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:49:21.297571+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:49:21.931626+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:49:22.947973+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:48:27.515298+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:48:27.915844+00:00"
+        }
+      },
+      "devices": {
+        "Ausaka's gate": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "Ausaka's gate",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T04:48:36.999364+00:00"
+        },
+        "night": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "night",
+            "color": "#F28FC0"
+          },
+          "reviewed_at": "2026-07-28T04:48:58.765819+00:00"
+        },
+        "ausaka's gate": {
+          "status": "confirmed",
+          "original": {
+            "word": "ausaka's gate",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-08-01T02:01:25.871938+00:00"
+        },
+        "never be": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "never be",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:01:39.013411+00:00"
+        }
+      },
+      "device_links": {
+        "night": {
+          "status": "corrected",
+          "original": {
+            "word": "night"
+          },
+          "corrected": {
+            "source_word": "あふさか"
+          },
+          "reviewed_at": "2026-08-01T02:01:22.073215+00:00"
+        },
+        "ausaka's gate": {
+          "status": "corrected",
+          "original": {
+            "word": "ausaka's gate"
+          },
+          "corrected": {
+            "source_word": "あふさか"
+          },
+          "reviewed_at": "2026-08-01T02:01:25.386517+00:00"
+        },
+        "never be": {
+          "status": "corrected",
+          "original": {
+            "word": "never be"
+          },
+          "corrected": {
+            "source_word": "あふさか"
+          },
+          "reviewed_at": "2026-08-01T02:01:42.057520+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:49:15.948441+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:49:16.280558+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:49:16.697656+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:49:40.731134+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T07:01:41.295341+00:00"
+        }
+      },
+      "devices": {
+        "to-night": {
+          "status": "confirmed",
+          "original": {
+            "word": "to-night",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:49:35.812676+00:00"
+        },
+        "imitate": {
+          "status": "removed",
+          "original": {
+            "word": "imitate",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-28T04:49:37.681004+00:00"
+        },
+        "'twill not": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "'twill not",
+            "color": "#F28FC0",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T02:01:54.222509+00:00"
+        }
+      },
+      "device_links": {
+        "'twill not": {
+          "status": "corrected",
+          "original": {
+            "word": "'twill not"
+          },
+          "corrected": {
+            "source_word": "あふさか"
+          },
+          "reviewed_at": "2026-08-01T02:01:56.789977+00:00"
+        },
+        "to-night": {
+          "status": "corrected",
+          "original": {
+            "word": "to-night"
+          },
+          "corrected": {
+            "source_word": "あふさか"
+          },
+          "reviewed_at": "2026-08-01T02:02:02.671944+00:00"
+        }
+      }
+    }
+  }
+}

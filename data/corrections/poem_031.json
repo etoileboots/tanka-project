@@ -1,0 +1,280 @@
+{
+  "poem_number": 31,
+  "source": {
+    "kami_shimo_boundary": {
+      "status": "confirmed",
+      "original": {},
+      "corrected": null,
+      "reviewed_at": "2026-07-27T05:07:11.911715+00:00"
+    },
+    "devices": {
+      "ふれる": {
+        "status": "removed",
+        "original": {
+          "word": "ふれる",
+          "color": "#F28FC0"
+        },
+        "corrected": null,
+        "reviewed_at": "2026-07-27T02:29:29.096140+00:00"
+      }
+    }
+  },
+  "translations": {
+    "Dickens": {
+      "devices": {
+        "newly-fallen snow": {
+          "status": "removed",
+          "original": {
+            "word": "newly-fallen snow",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:29:32.026296+00:00"
+        },
+        "snow": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "snow",
+            "color": "#B4DE65"
+          },
+          "reviewed_at": "2026-07-27T02:32:20.423956+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:31:19.753534+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:31:20.454935+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:31:33.453899+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:31:33.854071+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "imagined"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:31:34.237827+00:00"
+        },
+        "5": {
+          "status": "corrected",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": {
+            "type": "imagined"
+          },
+          "reviewed_at": "2026-07-27T02:31:49.236904+00:00"
+        }
+      },
+      "device_links": {
+        "snow": {
+          "status": "corrected",
+          "original": {
+            "word": "snow"
+          },
+          "corrected": {
+            "source_word": "白雪"
+          },
+          "reviewed_at": "2026-08-01T01:24:04.050464+00:00"
+        }
+      }
+    },
+    "Noguchi": {
+      "devices": {
+        "fall": {
+          "status": "removed",
+          "original": {
+            "word": "fall",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:29:33.526755+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:31:04.855098+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:31:05.771589+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:31:06.238346+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:31:06.653901+00:00"
+        }
+      }
+    },
+    "McCauley": {
+      "devices": {
+        "falling snow": {
+          "status": "added",
+          "original": null,
+          "corrected": {
+            "word": "falling snow",
+            "color": "#B4DE65",
+            "note": ""
+          },
+          "reviewed_at": "2026-08-01T01:24:51.482097+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:27.068496+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:27.467243+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:27.917035+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:28.768064+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:29.133002+00:00"
+        }
+      },
+      "device_links": {
+        "falling snow": {
+          "status": "corrected",
+          "original": {
+            "word": "falling snow"
+          },
+          "corrected": {
+            "source_word": "白雪"
+          },
+          "reviewed_at": "2026-08-01T01:24:53.532346+00:00"
+        }
+      }
+    },
+    "Porter": {
+      "devices": {
+        "falling": {
+          "status": "removed",
+          "original": {
+            "word": "falling",
+            "color": "#F28FC0"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:29:36.707153+00:00"
+        }
+      },
+      "lines": {
+        "0": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:02.205152+00:00"
+        },
+        "1": {
+          "status": "confirmed",
+          "original": {
+            "type": "kami"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:02.802051+00:00"
+        },
+        "2": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:12.686704+00:00"
+        },
+        "3": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:13.084369+00:00"
+        },
+        "4": {
+          "status": "confirmed",
+          "original": {
+            "type": "shimo"
+          },
+          "corrected": null,
+          "reviewed_at": "2026-07-27T02:33:13.483674+00:00"
+        }
+      }
+    }
+  }
+}

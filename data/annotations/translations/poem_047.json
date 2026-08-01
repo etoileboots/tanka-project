@@ -1,0 +1,331 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "explanatory-causal",
+      "note": "The source's inferential-sensory logic (autumn confirmed only by human absence, not by visible signs) is replaced by a straightforward causal explanation: the translator adds an invented reason ('mankind dread the rigorous clime') for why no one visits, turning the poem's melancholic inference into a literal cause-and-effect statement. This displaces the original's subtle epistemological structure — where autumn itself is discovered through absence — into a mundane weather-avoidance narrative."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "こそ...ね",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "no glimpse",
+        "note": "This is a kakari-musubi grammatical emphasis-concession structure, not a true pivot word, and the translation renders it as a simple flat statement ('no glimpse I catch') without conveying the emphatic concessive nuance ('though people indeed are not seen') that sets up the following autumn revelation as a surprising inference."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn time",
+      "note": "The season is named explicitly ('Tis autumn time'), matching the source's explicit 秋, but the translator undercuts the original's inferential discovery-through-absence structure by appending an explanatory rationalization ('mankind dread the rig'rous clime') that turns autumn into an ordinary weather season rather than a quietly personified, melancholic presence detected only through solitude."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "The translation expands the five ku into six lines with added rhyme-driven content (the invented reason 'mankind dread the rig'rous clime' has no equivalent in the source and is a pure interpolation for rhyme/meter, likely to justify why no visitors come), while also adding 'mountain dwelling' which is not explicit in the source ku but drawn from the yamazato/hermitage topos of the honkadori.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the dwelling, adding 'mountain' and 'rood of thatch' not explicit in source, evoking the hermitage topos.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Describes the overgrowth of yaemugura, glossed as 'moss' rather than creeper/weed.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "No visitors are seen, corresponding to hito koso mieね, compressing the desolation (ku3) and absence of people (ku4).",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Expands on the emotional state of loneliness ('uncheered and alone'), extrapolating from sabishiki.",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "States that it is autumn, matching aki wa kinikeri.",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [],
+          "content_summary": "Invented explanatory line about mankind dreading the rigorous climate, with no equivalent in the source poem — added apparently for rhyme and to rationalize the absence of visitors.",
+          "origin": "extrapolated"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrical Victorian verse form over structural and rhetorical fidelity, expanding the poem with invented explanatory content (the fear of harsh weather) that converts the original's subtle, inferential discovery of autumn into an overt causal narrative.",
+    "overall_fidelity": "low",
+    "poem_number": 47,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The kami-no-ku's description of overgrowth and desolation (L1-L2) is compressed but retained, and the shimo-no-ku's contrast between human absence and autumn's arrival (L3-L4) is kept adjacent with 'But' signaling contrast; however the inferential logic (autumn detected THROUGH absence of visitors, not merely alongside it) is weakened into a simple additive/contrastive statement rather than a causal inference — the 'But' suggests surprise/opposition rather than the source's subtler epistemological move of autumn revealing itself only via the absence of visitors."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "こそ...ね",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "will be seen",
+        "note": "This is a grammatical kakari-musubi construction rather than a true pivot word; Noguchi renders the concessive-emphatic sense as a flat negative statement ('nobody will be seen'), preserving the surface grammatical meaning of negation but losing the emphatic 'indeed' nuance carried by こそ. Since this is not a genuine double-meaning pivot, treating it as fully preserved or lost is somewhat moot, but the literal sense survives."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "Autumn has come",
+      "note": "The season is named directly and placed as the poem's climactic final line, matching the source's structural placement of 秋 at the emotional peak of the shimo-no-ku, though the inferential nuance (autumn known only through absence of visitors) is somewhat flattened by the simple declarative 'has come.'"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Introduces the hut overgrown with yaemugura (eightfold creeper), combining ku1 and ku2 into a single possessive phrase 'My hut with Yaemugura'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "States the thickness of growth and explicitly names the resulting emotion as 'sad', translating さびしきに",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "States that nobody will be seen here, rendering 人こそ見えね",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "States that autumn has come, rendering 秋は来にけり, with 'But' added as a contrastive connector not explicit in source",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation compresses the three-ku kami-no-ku into two lines (L1-L2), while the two-ku shimo-no-ku is expanded into two full lines (L3-L4), maintaining the 3+2 ku structure roughly as a 2+2 line structure; a 'But' is inserted before the final line, making explicit a contrastive logic that is present but more inferentially embedded in the source's juxtaposition."
+    },
+    "translator_strategy": "Noguchi prioritizes a compact, plainly stated four-line rendering that preserves the literal narrative sequence (overgrown hut → sadness → no visitors → autumn's arrival) at the cost of the source's subtler inferential logic connecting human absence to seasonal perception.",
+    "overall_fidelity": "medium",
+    "poem_number": 47,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "Porter retains the structural idea that human absence (no visitors) confirms the arrival of autumn, but he shifts the kami-no-ku's overgrown-weed imagery into a mere 'alone/no other hut near' description and folds the vine-grown roof detail into line 4 (which corresponds to source's kami content), blurring the kami/shimo boundary. The inferential logic — solitude proving autumn's arrival rather than any visible seasonal sign — is preserved in the final couplet ('No one will pass...Now that the autumn's here'), but the causal weight is softened into a wistful explanation ('I fear') rather than a startled discovery, and the desolate 'yaemugura' overgrowth becomes generic 'vine-grown roof,' losing the exhaustive image-buildup that the source uses to earn its shimo pivot."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "こそ...ね",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "I fear",
+        "note": "This is not a true kakekotoba but a kakari-musubi emphatic-concessive construction; Porter converts the 'though people are truly not seen' grammatical emphasis into a personal hedge ('I fear'), losing the rhetorical emphasis-through-negation structure entirely and replacing it with a subjective attitude not present in the source."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn's here",
+      "note": "The season is named explicitly at the poem's climax, mirroring the source's placement of 秋 at the emotional/structural peak, though Porter frames it as confirming the speaker's fear/isolation rather than as an inferential discovery arising purely from absence, slightly softening the source's inferential logic into an expected, resigned observation."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "The dwelling (temple) stands alone, condensing the overgrown-weed imagery into simple isolation",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "No other hut is near, reinforcing physical isolation from the kami-no-ku's desolation theme",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "No one will pass to stop and praise — reworking of 'people are not seen' into a visitor who would admire the place",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Its vine-grown roof — displaced remnant of the kami-no-ku's yaemugura overgrowth imagery, relocated into the shimo section",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Now that autumn's here — direct rendering of 秋は来にけり, the poem's climactic seasonal realization",
+          "origin": "source"
+        }
+      ]
+    },
+    "poem_number": 47,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "McCauley reorders the shimo-no-ku's two components: he places 'autumn comes' (line 4) before 'not even man is there' (line 5), reversing the source's logical sequence in which the absence of visitors is stated first and then autumn's arrival is inferred/confirmed from that absence. This inversion undercuts the original inferential logic (absence-of-people proves presence-of-autumn) by presenting autumn's arrival as if it were a direct observation rather than a deduction from solitude, weakening the poem's central conceit that the season is perceived only negatively, through human absence."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "こそ...ね",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "not even man is there",
+        "note": "This is a kakari-musubi grammatical construction rather than a true pivot-word; McCauley renders its emphatic-concessive force fairly directly as 'not even man is there,' preserving the surface meaning of human absence but losing the subtle emphatic tension of こそ...ね (a strong assertion paired with negation) since English cannot replicate the kakari-musubi grammar itself."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "dreary autumn",
+      "note": "The season is named explicitly ('autumn'), preserving the kigo lexically; however, the added epithet 'dreary' imports an interpretive emotional coloring not present in the original's spare 秋は来にけり, and the reordering (autumn's arrival placed before the mention of human absence) shifts the season's revelation from an inferential discovery to a stated fact, altering the atmosphere of tentative perception found in the source."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "structural_note": "McCauley compresses the kami-no-ku's three ku (1-3) into three lines but shifts word order within the shimo-no-ku, placing the autumn-arrival clause (ku5) before the human-absence clause (ku4), inverting the source's sequence of revelation.",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "the humble cot / dwelling",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "overgrown with thick-leaved vines (yaemugura shigereru)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "its loneliness (sabishiki ni)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "autumn comes (aki wa kinikeri) - moved ahead of ku4 content",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "not even man is seen (hito koso mieneu)",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, metrically regular English quatrain-like rhythm and rhyme-adjacent cadence over preserving the source's exact clause order, explicitly naming both the dwelling's desolation and autumn's arrival while reversing their sequence relative to the human-absence clause.",
+    "overall_fidelity": "medium",
+    "poem_number": 47,
+    "translator": "McCauley"
+  }
+}

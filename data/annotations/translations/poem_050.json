@@ -1,0 +1,313 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translator preserves the reversal structure (former indifference to life vs. now wishing for long years), but reframes the whole poem around 'worship' and having the heart possessed by the beloved, softening the stark paradox of the original where life itself was 'not prized' — here it's rendered as a 'drear uncared-for life' which is more melancholic resignation than willingness to sacrifice life. The paradox core survives but is diluted into a more conventional romantic sentiment of transformation through love.",
+      "relationship_type": "paradox (weakened)"
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ながく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "long years",
+        "note": "The translator renders ながく straightforwardly as 'long years,' preserving the simple durational meaning; since the source analysis notes no true secondary reading is active here, this is an adequate literal rendering of the primary sense only."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal imagery exists in the source and none is introduced in the translation; the poem remains purely a love declaration with no seasonal atmosphere, consistent with the source's kigo='none' status."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Before the speaker worshipped/loved the maid (temporal framing of 君がため, addressed directly as 'O maid')",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "A drear, uncared-for life was his — rendering 惜しからざりし命さへ (a life not prized, not even worth caring for)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Wish that long years be granted him (ながくもがな)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Now that his heart belongs to her — rendering おもひけるかな, but reframed as possession of heart rather than 'so I have thought'",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator restructures the poem into an explicit temporal frame ('Ere I... worshipped thee' / 'Now that my heart... is thine') that makes the paradox explicit as a before/after love narrative, compressing the five ku into four rhymed lines and adding direct address ('O maid') not present in the source's more impersonal 君."
+    },
+    "translator_strategy": "The translator prioritizes a rhymed, metrically regular English ballad-quatrain that dramatizes the poem's love-transformation as an explicit before/after narrative addressed directly to 'the maid,' sacrificing the original's compact ambiguity and stark indifference-to-life imagery for sentimental clarity and singable cadence.",
+    "overall_fidelity": "medium",
+    "poem_number": 50,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation clearly maintains the emotional reversal: lines 1-2 state the speaker once did not mind losing his life for her sake, while lines 3-4 pivot with 'But' to declare a new wish for a long life. The paradox structure is preserved through the contrastive conjunction 'But', which explicitly signals the reversal that the source achieves through juxtaposition of 命さへ across kami/shimo."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ながく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "longest life",
+        "note": "The translator renders ながく straightforwardly as 'longest', capturing the primary duration meaning; since the source analysis itself notes there is no genuine second reading active here, this is a faithful literal rendering of the single intended meaning rather than a lost pun."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "As the source analysis confirms, this is a love poem with no seasonal imagery at all; the translation likewise contains no seasonal vocabulary or atmosphere, focusing entirely on the personal/emotional theme of life and devotion, consistent with the source's lack of kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "For thee, I thought — introduces the dedication to the beloved (君がため)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "I would not mind about my life — combines 惜しからざりし and 命さへ, the willingness to sacrifice life",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "But I pray now to be — introduces the pivot and the wish (もがなとおもひけるかな)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Given the longest life — renders ながくもがな, the wish for long life",
+          "origin": "source"
+        }
+      ],
+      "confidence": "high",
+      "structural_note": "The translation compresses five ku into four lines, merging kami content (ku1-3) into lines 1-2 and shimo content (ku4-5) into lines 3-4, while adding an explicit contrastive 'But' not present lexically in the source but capturing its implicit pivot."
+    },
+    "translator_strategy": "Noguchi prioritizes emotional clarity and compact paraphrase over lexical fidelity, using an explicit 'But' to dramatize the paradox that the original conveys through juxtaposition alone.",
+    "overall_fidelity": "medium",
+    "poem_number": 50,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translator preserves the paradox: lines 1-2 establish that death held no terrors and life no joys before meeting the beloved (mirroring the kami's indifference to life), while lines 3-5 reverse this into a fear that life, however long, will be too short — mirroring the shimo's wish for long life. The emotional inversion pivoting on the encounter with the beloved is clearly retained, though the phrasing 'Death had no terrors' slightly recasts the original's specific claim (life not being precious) into a broader statement about both death and life."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ながく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "however long",
+        "note": "The translator renders ながく straightforwardly as 'however long,' capturing the primary sense of duration without any secondary pivot, consistent with the source analysis noting this is not a fully doubled kakekotoba."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal imagery or atmosphere appears anywhere in this translation; consistent with the source analysis, this is a love poem devoid of kigo, and the translator introduces none, focusing entirely on the emotional register of love and mortality."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "Death had no terrors, Life no joys — rendering the speaker's former indifference to his own life/death",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Before I met with thee — situates the prior indifference as pre-encounter, corresponding to 君がため's implicit 'before' framing",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "But now I fear, however long — pivot to present feeling and the wish/fear about duration of life",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "My life may chance to be — continuation of the wish for long life (ながくもがな)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Twill be too short for me! — final emotional declaration, corresponding to おもひけるかな's exclamatory close, expanded into a fear of insufficient time",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator compresses the three kami ku (君がため/惜しからざりし/命さへ) into two lines, using 'Death had no terrors, Life no joys' as a free rendering of 惜しからざりし命 and adding 'Before I met with thee' to convey the temporal shift implicit in 君がため's narrative frame; the shimo is expanded from two ku into three lines, adding the invented conceit 'too short for me' which intensifies but does not misrepresent the original's もがな wish."
+    },
+    "translator_strategy": "Porter prioritizes a fluent rhymed English quatrain-plus-refrain form (ballad meter with an added short final line) over lexical fidelity, freely paraphrasing the original's key nouns into more idiomatic English emotional statements while preserving the poem's central paradox of love reversing indifference to life.",
+    "overall_fidelity": "medium",
+    "poem_number": 50,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The kami (lines 1-3) establishes the speaker's former indifference to his own life for his beloved's sake, and the shimo (lines 4-5) pivots to the reversed wish that this same life now endure long — the emotional inversion central to the paradox is preserved, with 'But 'tis now' marking the turn clearly."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "ながく",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "long, long",
+        "note": "The translator renders ながく straightforwardly as duration ('long, long years endure'), matching the source's primary literal sense of length of life; there is no secondary pivot to preserve since the source analysis notes this is not a true doubled kakekotoba, so a single literal rendering is fully adequate."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal word, image, or atmosphere appears anywhere in this translation, consistent with the source analysis's finding that this love poem contains no kigo; the translation focuses entirely on the emotional vocabulary of devotion and desire (precious sake, dear, heart's desire, endure) with nothing seasonal to convey."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "For thy precious sake — renders 君がため, addressing the beloved directly as 'thy precious sake'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Once my (eager) life itself — combines 惜しからざりし (not valued) and 命さへ (even my life) into one line, foregrounding 'life itself' with an interpretive adjective 'eager'",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Was not dear to me — completes the sense of 惜しからざりし (was not precious/dear)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "But 'tis now my heart's desire — renders おもひけるかな (I have come to think/wish), marking the pivot with 'But 'tis now'",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "It may long, long years endure — renders ながくもがな (if only it were long), the wish for extended life",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator splits ku2-3 (惜しからざりし命さへ) across lines 2-3, and inverts the order of ku4-5 by placing the emotional pivot ('But 'tis now my heart's desire') before the content of the wish itself ('long, long years endure'), likely for rhyme/meter reasons in the English verse form; this is a minor reordering within the shimo but does not disrupt the overall bipartite logic."
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, rhymed/metered English verse rendering that preserves the poem's emotional paradox and literal sense at the expense of any attention to subtler wordplay nuance, since none of substantial rhetorical complexity (no makurakotoba, minimal kakekotoba, no kigo) demanded special handling here.",
+    "overall_fidelity": "high",
+    "poem_number": 50,
+    "translator": "McCauley"
+  }
+}

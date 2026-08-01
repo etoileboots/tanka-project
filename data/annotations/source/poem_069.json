@@ -1,0 +1,49 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "A storm wind blows down from Mount Mimuro, scattering its maple leaves into brilliant scattered color",
+    "shimo_theme": "The scattered leaves floating on the Tatsuta River are revealed to be a shimmering brocade (nishiki)",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku describes the physical action (wind stripping the mountain of its autumn leaves) which sets up the shimo-no-ku's revelatory metaphor: the scattered leaves floating on the river's surface are perceived as if they were a woven brocade (nishiki), with なりけり marking the speaker's sudden recognition/realization of this visual truth. The whole poem is structured as a single continuous visual event moving from mountain to river, cause to perceived effect."
+  },
+  "kigo": {
+    "word": "もみぢ葉",
+    "season": "autumn",
+    "note": "Momijiba (autumn maple leaves) is one of the most central autumn images in classical waka, epitomizing the beauty of autumn's decline; here it is the pivotal image transforming from mountain foliage into the 'brocade' floating on the river, embodying the quintessential autumn scene of maple leaves scattered by wind onto water."
+  },
+  "furigana": [
+    {
+      "kanji": "三室",
+      "reading": "みむろ"
+    },
+    {
+      "kanji": "山",
+      "reading": "やま"
+    },
+    {
+      "kanji": "葉",
+      "reading": "ば"
+    },
+    {
+      "kanji": "龍田",
+      "reading": "たつた"
+    },
+    {
+      "kanji": "川",
+      "reading": "かわ"
+    }
+  ],
+  "poem_number": 69,
+  "poet": "Noin Hoshi",
+  "source_jp": "あらし吹く\n三室の山の\nもみぢ葉は\n龍田の川の\nにしきなりけり"
+}

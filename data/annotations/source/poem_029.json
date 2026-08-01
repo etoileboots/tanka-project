@@ -1,0 +1,61 @@
+{
+  "makurakotoba": [],
+  "kakekotoba": [
+    {
+      "word": "おきまどはせる",
+      "ku": 4,
+      "reading_primary": "置き惑わせる (frost settling and confusing/obscuring)",
+      "reading_secondary": "起き惑う (to be confused upon waking/perceiving)",
+      "interaction": "置く is the verb used for frost/dew 'settling,' while まどはせる carries the sense of causing confusion of perception — the frost settles on the chrysanthemums and in doing so confuses the eye, conflating the physical act of frost-fall with the speaker's visual bewilderment. This is a borderline associative/kake case; the primary operative pivot is the double duty of 置く as both 'frost settles' and implicitly evoking 起く 'to arise/appear,' both readings active in describing how the frost appears and blends with the white flowers."
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "The speaker's tentative, playful resolve to pick a flower at random, guessing which one it might be, introduced by the arrival of first frost",
+    "shimo_theme": "The revelation that the frost has settled so thickly and indistinguishably over the white chrysanthemums that the flowers themselves become confused with the frost, defeating the very act of picking by sight",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku sets up an act of perception-in-doubt ('shall I pick one by guesswork?'), and the shimo-no-ku reveals the visual cause of that doubt: frost and white chrysanthemum are so alike in color that sight itself fails, collapsing guesswork and genuine indistinguishability into a single unified image of whiteness confounding whiteness."
+  },
+  "kigo": {
+    "word": "白菊",
+    "season": "autumn",
+    "note": "White chrysanthemums (shiragiku) are a quintessential late-autumn flower in classical waka, prized for their purity and often paired poetically with the first frost (hatsushimo) of the season; the pairing of frost and chrysanthemum marks the poem firmly in early winter's threshold within autumn's end, with the chrysanthemum as the dominant seasonal image since it is the object of the entire poem's visual conceit."
+  },
+  "furigana": [
+    {
+      "kanji": "心",
+      "reading": "こころ"
+    },
+    {
+      "kanji": "折",
+      "reading": "お"
+    },
+    {
+      "kanji": "折",
+      "reading": "お"
+    },
+    {
+      "kanji": "初霜",
+      "reading": "はつしも"
+    },
+    {
+      "kanji": "白菊",
+      "reading": "しらぎく"
+    },
+    {
+      "kanji": "花",
+      "reading": "はな"
+    }
+  ],
+  "poem_number": 29,
+  "poet": "Ochikochi no Mitsune",
+  "source_jp": "心あてに\n折らばや折らむ\n初霜の\nおきまどはせる\n白菊の花"
+}

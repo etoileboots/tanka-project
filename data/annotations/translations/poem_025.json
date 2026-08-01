@@ -1,0 +1,390 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "wordplay-preface reworked into a rhetorical simile/wish",
+      "note": "Dickens inverts the original structure: he opens with the wish itself ('if thou'rt as fair... deign my hut to grace') then reworks the sanekazura/Osakayama material as a closing simile for secrecy ('as secret be... as is the trace of Sanekads'ra mid Osaka-yama's forests hid'). This collapses the jokotoba-driven pivot into a straightforward simile structure — the kami material is displaced to the end and subordinated grammatically to the shimo's wish, rather than functioning as a name-driven preface that generates the wish. The bipartite logic (preface generating pivot generating wish) is lost; instead we get wish-then-simile, a different but coherent rhetorical shape."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "逢坂山",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "Osaka-yama's",
+        "note": "Osaka-yama is kept as a proper place name (transliterated), which preserves the literal toponym reading; the embedded 'meeting hill' pun (逢ふ坂) is not activated or hinted at in English — the translator treats it purely as geography providing atmospheric cover ('forests hid'), so the secondary meaning is lost."
+      },
+      {
+        "original_word": "さねかづら",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Sanekads'ra",
+        "note": "Transliterated as a plant name only ('Sanekads'ra'), used as the vehicle of a simile for secrecy/hiddenness. The さ寝 (sleeping together) pun and the 繰る (drawing in) association are not rendered; it functions merely as an exotic plant name hidden in forests, losing the erotic and pivot-generating double meaning entirely."
+      },
+      {
+        "original_word": "くる",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "deign my hut to grace",
+        "note": "There is no word in the translation that plays on 来る/繰る; the wish for the beloved to come is rendered plainly as 'deign my hut to grace' with no vine-pulling or coming-pivot preserved, and the vine image is repurposed only as a simile for secrecy rather than as the source of the 'come' pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "forests hid",
+      "note": "Source analysis marks kigo as 'none' — no season is truly at stake in the original. Dickens' 'forests hid' adds a woodland/hidden atmosphere but this is not tied to any seasonal signal in the source and does not constitute a seasonal image; it's simply invented scenic cover for the secrecy conceit."
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "If thou'rt as fair as rumour thee (paraphrase of 人にしられで / conditional address to beloved, drawing on 'if it lives up to its name' logic but transposed to beauty)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Doth paint, O deign my hut to grace — wish for beloved to come, rendered as invitation",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "And may thy path as secret be — the 'unknown to others' (人にしられで) wish",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "To human eye — continues 'unknown to people' theme",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            2,
+            3
+          ],
+          "content_summary": "as is the trace / Of Sanekads'ra — the sanekazura vine image reused as simile vehicle",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'mid Osaka-yama's forests hid — Osakayama reused as simile setting, providing 'hidden' quality",
+          "origin": "source"
+        }
+      ],
+      "structural_note": "Dickens restructures the whole poem as a single extended sentence: a conditional wish (kami of shimo, i.e. the 'come to me' desire) is stated first, then justified/illustrated by a simile drawn from the kami's proper-noun material (Osakayama, sanekazura) recast as an image of hiddenness. This is a significant inversion of the source's build-up-then-pivot structure into a claim-then-illustration structure."
+    },
+    "translator_strategy": "Dickens sacrifices the wordplay entirely, converting the jokotoba's name-puns into a simple end-of-poem simile of concealment while foregrounding a Victorian courtly-love address ('if thou'rt as fair as rumour') that has no direct source equivalent, prioritizing rhymed English verse elegance over rhetorical fidelity.",
+    "overall_fidelity": "low",
+    "poem_number": 25,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        1,
+        4
+      ],
+      "note": "The translator has restructured the poem as a single rhetorical question ('Is there no way to come as secret') that fuses the shimo's wish (くる/しられで) into line 1, then retroactively supplies the kami material (Osaka mountain, sanekazura vine) as a simile clause justifying the wish, ending with an exclamatory aside ('Oh, reel of the vine!') that stands in for the pivot word くる/繰る. This inverts the original order (kami preface then shimo wish) into wish-first-then-image, and collapses the jokotoba's separate wordplay logic into a direct simile ('as secret as the trace of...'), losing the associative/pivot structure entirely."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "逢坂山",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Osaka mountain",
+        "note": "Rendered simply as the place name with no hint of 逢ふ (meeting) wordplay; the 'secret meeting' sense is expressed elsewhere in the poem (line 1) but not tied to this place name itself."
+      },
+      {
+        "original_word": "さねかづら",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "sanekatsura vine",
+        "note": "Transliterated as a botanical name; the さ寝 (sleeping together) pun is not activated in English, though the surrounding romantic context implies intimacy indirectly."
+      },
+      {
+        "original_word": "くる",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "reel of the vine",
+        "note": "The translator invents an exclamatory apostrophe 'Oh, reel of the vine!' which evokes the drawing/pulling sense (繰る) via 'reel' but detaches it from the literal 来る (to come), which was already expressed in line 1 as 'come.' The pivot's simultaneity (one word carrying both senses at once) is split into two separate lines/moments rather than fused."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "sanekatsura vine",
+      "note": "No seasonal atmosphere is introduced or implied; the vine is treated purely as a botanical/wordplay image tied to secrecy and romance, consistent with the source's own lack of seasonal marking."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The wish/question 'is there no way to come secretly' — corresponds to shimo's 人にしられで くるよしもがな, moved to the front.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "The simile 'as the trace of a sanekatsura vine' — corresponds to kami's さねかづら.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "'Of the Osaka mountain' completing the simile, referencing 名にしおはば逢坂山 as the source of the vine/place name.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Exclamatory aside 'Oh, reel of the vine!' isolating the 繰る (draw/reel) sense of くる as a separate apostrophe.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator inverts kami/shimo order, placing the shimo's wish first as a rhetorical question, then supplying the kami's place-name/vine imagery as the grounds for the simile, and finally isolating the kakekotoba pivot (くる) as a standalone exclamation — a significant restructuring that trades the original's forward-building jokotoba logic for a question-then-justification-then-aside structure."
+    },
+    "translator_strategy": "Noguchi prioritizes a vivid, compact English question-and-exclamation structure over literal ku-by-ku fidelity, converting the jokotoba's associative name-play into an explicit simile ('as secret as...') and isolating the くる/繰る pun as a final poetic apostrophe rather than fusing its double meaning into one word.",
+    "overall_fidelity": "medium",
+    "poem_number": 25,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "displaced",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "other",
+      "note": "Porter collapses the name-play jokotoba into a simple simile ('modest as the creeping spray... which hides beneath the grass'), losing the wordplay-generated pivot; the shimo wish becomes a direct plea ('wander with me to-day') rather than a secret nocturnal visit, so the original name-driven wordplay pivot is replaced with a straightforward comparison-plus-invitation structure — a displaced relationship type rather than the source's lexical pivot."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "逢坂山",
+        "reading_preserved": "primary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "Mount Ōsaka",
+        "note": "Porter keeps the place name literally (Mount Ōsaka) but gives no hint of the 'meeting hill' secondary meaning; the pun's foreshadowing of union is entirely lost, so only the primary toponymic reading survives."
+      },
+      {
+        "original_word": "さねかづら",
+        "reading_preserved": "neither",
+        "method": "paraphrase",
+        "en_equivalent": "creeping spray",
+        "note": "The vine is rendered as 'the little creeping spray... which hides beneath the grass,' a purely botanical/visual image; neither the さ寝 (sleeping together) pun nor the くる/繰る (drawing-in) association is present — the modesty/hiding is repurposed as a simile for the beloved's own modesty, not the vine's function as pivot."
+      },
+      {
+        "original_word": "くる",
+        "reading_preserved": "transformed",
+        "method": "paraphrase",
+        "en_equivalent": "Wander with me",
+        "note": "The pivotal くる (come/draw-in) is not rendered as 'come' at all; instead Porter substitutes an entirely new imperative 'Wander with me to-day,' which invents a new (weaker) double sense of invitation/movement rather than preserving either the 来る or 繰る meaning of the original pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "creeping spray",
+      "note": "Since the source analysis marks kigo as 'none' (sanekazura carries no seasonal weight), there is no season to preserve; Porter's 'creeping spray' hidden 'beneath the grass' is a generic naturalistic image with no seasonal marking, consistent with the source's non-seasonal treatment."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Comparison introduced: 'thou art as modest as' — reworks 名にしおはば's conditional 'if the name holds true' into a direct simile addressed to the beloved.",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'The little creeping spray' — renders さねかづら as a physical vine image, moved forward out of its jokotoba position.",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'Upon Mount Ōsaka, which hides' — the place name 逢坂山 relocated after the vine image; 'which hides' begins to describe the vine's concealment.",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3,
+            4
+          ],
+          "content_summary": "'Beneath the grass; then, pray,' — completes the hiding image (vine hidden in grass) and pivots into the plea, loosely echoing 人にしられで (unknown to others).",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Wander with me to-day' — stands in for くるよしもがな, the wish that the beloved come, but reframed as a mutual outing rather than a secret nocturnal visit.",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter reorders the ku (moving the vine image before the place name) and converts the jokotoba/kakekotoba preface into a direct simile ('as modest as...'), compressing and reshuffling the kami's three ku into two lines while expanding the shimo's wish into a more casual daytime invitation, losing the secrecy and night-visit connotation of 人にしられでくる."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, singable English quatrain-plus-refrain with rhyme and simile over preserving the original's wordplay, converting the name-driven kakekotoba/jokotoba into a straightforward comparison ('modest as the creeping spray') and turning the secret-meeting wish into an open daytime invitation.",
+    "overall_fidelity": "low",
+    "poem_number": 25,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "name-driven wordplay pivot (jokotoba/kakekotoba complex)",
+      "note": "McCauley preserves the two-part structure (conditional preface on the name, then wish) but compresses the jokotoba into a much shorter epithet 'Trailing vine of Meeting Hill' rather than fully rendering the sanekazura-vine imagery and the 逢坂山 place-name pun with its own line; the pivot くる is rendered directly as 'draw thee to my side,' collapsing the two-step associative logic (vine one draws in → person who comes) into a single verb applied directly to the beloved, so the wordplay chain is compressed rather than fully mapped."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "逢坂山",
+        "reading_preserved": "secondary_only",
+        "method": "partial",
+        "en_equivalent": "Meeting Hill",
+        "note": "McCauley translates the place name transparently as 'Meeting Hill,' foregrounding the 逢 (meeting) pun but losing the sense that this is also a real, specific toponym (逢坂山/Osakayama) functioning as a place name in its own right — so only the secondary/associative meaning survives, not the literal place-name reading."
+      },
+      {
+        "original_word": "さねかづら",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Trailing vine",
+        "note": "The vine is rendered literally as 'Trailing vine,' preserving the plant-name/vegetal image but dropping the さ寝 (sleeping together) pun entirely; no intimacy-connotation survives in this phrase."
+      },
+      {
+        "original_word": "くる",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "draw thee",
+        "note": "'Draw thee to my side' cleverly gestures at 繰る (to draw/reel in, echoing the vine) while ultimately meaning 来る (come to me); this is the closest McCauley comes to a bilingual pun, since 'draw' can evoke pulling a vine AND the desired action of bringing the beloved near — but it's applied directly to the beloved (a person, not a vine), so the vine's own drawing action is not literally rendered, making this primary_only with a strong echo rather than full bilingual pun."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal imagery or atmosphere survives; 'Trailing vine' is presented as a purely botanical/emotional image tied to the wordplay, not to any seasonal association, consistent with the source analysis's judgment that this poem carries no real kigo.",
+      "en_equivalent": "Trailing vine"
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "If thy name be true — conditional opening on 名にしおはば",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Trailing vine of 'Meeting Hill' — compresses 逢坂山 and さねかづら into one line",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Is there not some way — renders よしもがな (wish for a way), reordered before the secrecy clause",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Whereby, without ken of men — renders 人にしられで (unknown to others)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "I can draw thee to my side — renders くる (来る/繰る pivot) as the wished-for action",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Ku2 (逢坂山) and ku3 (さねかづら) are compressed into a single line 2 ('Trailing vine of Meeting Hill'), and the shimo's よしもがな (ku4) is split across lines 3-4 with 'is there not some way' preceding 'without ken of men' — a minor reordering that places the wish-question before the secrecy clause rather than after, though this is a natural syntactic rearrangement rather than a structural inversion of kami/shimo."
+    },
+    "translator_strategy": "McCauley aims for a compact, singable English quatrain-like rendering that preserves the surface conceit (name-play on 'Meeting Hill' and the vine) and the emotional wish, sacrificing the full double-layered punning of さねかづら and くる for clarity and meter.",
+    "overall_fidelity": "medium",
+    "poem_number": 25,
+    "translator": "McCauley"
+  }
+}

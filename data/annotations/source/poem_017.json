@@ -1,0 +1,74 @@
+{
+  "makurakotoba": [
+    {
+      "word": "千早ぶる",
+      "ku": 1,
+      "precedes": "神代 (kamiyo, age of the gods)",
+      "conventional_meaning": "epithet conventionally attached to 'kami' (gods) or 'Uji' words, evoking divine/awesome power; here modifies 神代 'age of the gods'"
+    }
+  ],
+  "kakekotoba": [
+    {
+      "word": "くくる",
+      "ku": 5,
+      "reading_primary": "括る (kukuru: to tie-dye, bind cloth in shibori/tie-resist dyeing)",
+      "reading_secondary": "潜る (kuguru: to flow beneath, pass under)",
+      "interaction": "The river water is simultaneously imagined as being bound/tie-dyed crimson by the floating maple leaves (as in shibori cloth-dyeing) and as physically flowing beneath/through the scattered crimson leaves — both the textile image and the water's motion are grammatically active at once, fusing artifice and nature."
+    }
+  ],
+  "jokotoba": {
+    "text": "千早ぶる神代もきかず",
+    "ku_span": [
+      1,
+      2
+    ],
+    "pivot": "きかず (has not been heard of)",
+    "function": "Establishes an extreme hyperbolic frame — not even in the fabled age of the gods has such a thing been heard of — building anticipation before the startling image of Tatsuta river is revealed; though 千早ぶる itself is a fixed epithet, the full phrase functions as an intensifying preface leading to the astonishment expressed in the shimo-no-ku."
+  },
+  "honkadori": {
+    "source_poem": "Attributed generally to the Tatsuta-gawa autumn-leaves tradition in Kokinshū (e.g. poems by Ki no Tsurayuki and others on 龍田川 and crimson leaves); Narihira's own poem is itself frequently echoed by later poets rather than alluding to a single identifiable prior poem.",
+    "echoed_phrase": "龍田川 からくれなゐ",
+    "function": "Invokes the established poetic association of Tatsuta River with scattered autumn maple leaves dyeing the water crimson, a topos already conventional in Kokinshū-era poetry, lending the hyperbole of 'unheard of even in the age of the gods' its full rhetorical weight."
+  },
+  "kigo": {
+    "word": "からくれない",
+    "season": "autumn",
+    "note": "Though 'maple leaves' (紅葉) is not stated explicitly, からくれなゐ (deep crimson) together with 龍田川 evokes the famous autumn scene of maple leaves falling into the Tatsuta River and dyeing its waters red — one of the most iconic autumn kigo complexes in the classical canon, functioning here as the poem's entire visual and emotional center."
+  },
+  "furigana": [
+    {
+      "kanji": "千早ぶる",
+      "reading": "ちはやぶる"
+    },
+    {
+      "kanji": "神代",
+      "reading": "かみよ"
+    },
+    {
+      "kanji": "龍田川",
+      "reading": "たつたがわ"
+    },
+    {
+      "kanji": "水",
+      "reading": "みず"
+    }
+  ],
+  "bipartite": {
+    "kami_ku": [
+      1,
+      2,
+      3
+    ],
+    "shimo_ku": [
+      4,
+      5
+    ],
+    "kami_theme": "Invocation of the mythic age of the gods and the naming of Tatsuta River, framed as a realm of hyperbolic possibility ('not even then have I heard of such a thing')",
+    "shimo_theme": "The astonishing visual spectacle of the river's water being bound/dyed deep crimson, as if in tie-dyed cloth, by the fallen autumn leaves",
+    "relationship_type": "visual-revelation",
+    "pivot_note": "The kami-no-ku sets up an extravagant negative frame invoking all of divine history as a measure of unprecedented wonder, and the shimo-no-ku delivers the specific perceptual revelation that justifies this hyperbole: the sight of Tatsuta River's water dyed crimson by scattered maple leaves, an image so startling it exceeds even the legendary age of the gods."
+  },
+  "poem_number": 17,
+  "poet": "Ariwara no Narihira",
+  "source_jp": "千早ぶる\n神代もきかず\n龍田川\nからくれないに\n水くくるとは"
+}

@@ -1,0 +1,361 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "note": "The translator keeps the sensory kami (cricket's cry, frost covering the ground) leading into the shimo's image of solitary sleep, but the inferential logic is weakened: the shift from sensory description to the speaker's resolve is rendered as continuous narrative ('and in saddened plight... I strive in vain') rather than a sharp pivot on さむしろ/かたしき, softening the bipartite division into one continuous complaint."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "さむしろ",
+        "reading_preserved": "neither",
+        "method": "omitted",
+        "en_equivalent": "ground",
+        "note": "The translator renders 霜 as 'hoard-frost' covering 'the ground' with no mat imagery at all; the small-mat/cold pivot is entirely lost, replaced by a generalized image of frost on the ground with no textual trace of 筵 or its coldness pun."
+      },
+      {
+        "original_word": "かたしき",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "unbound",
+        "note": "Instead of conveying 'spreading only one robe/sleeve' as a solitary-sleep idiom, the translator substitutes 'day-worn raiment yet unbound' and 'I strive in vain / On lonely couch reposo to gain' — a paraphrase emphasizing restless failure to sleep rather than the specific idiom of folding only one's own garment, so the original idiomatic image is replaced by a new invented image of struggle."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "implicit_imagery",
+      "en_equivalent": "hoard-frost",
+      "note": "The season is not named as 'autumn' but the frost-covered ground and the cricket's chirp together evoke the cold, late-autumn atmosphere of the source; the seasonal signal is preserved through imagery (frost, insect cry) even though the word 'autumn' never appears."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "The grasshopper's chirp continuing all night",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Hearing the chirp; hoar-frost forming",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Frost covering the ground ('o'ercarpet'), with an added emotional gloss 'in saddened plight' not in the source's bare さむしろ",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The speaker's robe, described as 'day-worn' and 'yet unbound' — a loose rendering of 衣かたしき",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "The speaker's vain struggle, an invented emotional expansion of ひとりかも寝む",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Lying alone on a lonely couch trying to gain rest/repose",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five-ku poem into six rhymed lines, inserting emotional commentary ('in saddened plight', 'I strive in vain') not present in the source, which stretches the compact inferential logic of the original into a more discursive, sentimental narrative."
+    },
+    "translator_strategy": "This translator prioritizes English rhyme and meter over literal fidelity, freely paraphrasing and inserting emotional commentary to produce a fluent Victorian-style rhymed lyric at the expense of the original's compact kakekotoba wordplay and structural pivot.",
+    "overall_fidelity": "low",
+    "poem_number": 91,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "The translator retains the sensory scene-setting (cricket cry, frost-mat cold) in kami and the solitary sleep resolution in shimo, but the sensory link is weakened because 'raiment not yet unbound' replaces the clear kakekotoba pivot on さむしろ, so the causal/inferential bridge between cold-mat and solitary-sleep is only loosely implied rather than mirrored."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "さむしろ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "the mat",
+        "note": "Noguchi renders さむしろ as 'the mat of the frost night', preserving the literal mat/frost-night sense but losing the embedded 寒し (cold) pun entirely, since 'mat' alone carries no coldness connotation without the frost-night qualifier doing double duty."
+      },
+      {
+        "original_word": "かたしき",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "raiment not yet unbound",
+        "note": "Rather than conveying spreading only one's own robe as a solitary bed layer, Noguchi substitutes an odd image of clothing 'not yet unbound', which shifts the idiom's meaning toward retained dress rather than solitary robe-spreading, losing the conventional solitude-idiom sense."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "explicit",
+      "en_equivalent": "crickets sing",
+      "note": "The cricket's cry is directly named and vocalized ('List, the crickets sing!'), explicitly retaining the autumn insect kigo and its plaintive-cry atmosphere, though the word 'autumn' itself is never stated."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Exclamatory call to listen to the crickets singing",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The frost-night and the mat upon which the speaker lies",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The speaker's robe/raiment described as 'not yet unbound', a transformed rendering of かたしき",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Resolution to sleep alone",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translation compresses the five ku into four lines, splitting ku2-3 (霜夜のさむしろに) across lines 1-2 and slightly reordering emphasis by opening with an imperative 'List' that has no direct source equivalent but functions as an amplification of the cricket's cry noted in ku1."
+    },
+    "translator_strategy": "Noguchi favors a compact, evocative English quatrain that preserves the emotional and sensory outline of the poem while sacrificing the precision of the さむしろ kakekotoba and the conventional かたしき idiom for solitary sleep.",
+    "overall_fidelity": "medium",
+    "poem_number": 91,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        1,
+        4,
+        5
+      ],
+      "relationship_type": "inferential-sensory",
+      "note": "Porter reorders the poem, opening with the speaker's solitude ('I'm sleeping all alone') before introducing the cricket's cry and the frost-cold night, then closing with the spreading of the robe. This inverts the source's kami-then-shimo sequence (sensory scene → resolve to sleep alone) into a frame where solitude is stated first and the sensory details (cricket, frost) are inserted in the middle, with the robe-spreading resolution restored at the end. The underlying inferential-sensory logic (cold night justifies solitary sleep with spread robe) survives but the order is scrambled, so it is best characterized as inverted/partial rather than cleanly preserved."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "さむしろ",
+        "reading_preserved": "secondary_only",
+        "method": "literal_secondary",
+        "en_equivalent": "cold and frosty",
+        "note": "Porter drops the noun 'small mat' entirely and instead renders only the 'cold' (寒し) sense of the pivot directly as an adjective describing the night, losing the mat-image altogether; the physical narrow sleeping-mat reading is not represented by any noun in the translation."
+      },
+      {
+        "original_word": "かたしき",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "across the bed",
+        "note": "Porter renders 衣かたしき as spreading the koromo 'across the bed' rather than folding/spreading only one layer of one's own sleeve, which changes the idiom of solitary one-sided robe-spreading into a simple image of covering the bed, losing the connotation of solitude implicit in 片敷き."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "crickets",
+      "note": "The cricket is named directly ('The crickets round my head'), preserving the seasonal signifier explicitly, and is reinforced by the 'cold and frosty' night imagery that carries the late-autumn atmosphere even though the word 'autumn' itself never appears."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Speaker states he is sleeping alone (shimo-no-ku's solitude theme moved to opening)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Crickets crying near the speaker's head",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "The frost-cold night, referencing 霜夜 and the 寒 pivot in さむしろ",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The act of spreading something across the bed (かたしき transformed)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Naming the item spread as 'koromo' (robe), completing the かたしき image",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "Porter restructures the poem by front-loading the solitude statement (normally the shimo-no-ku's conclusion) into line 1, then moving through the cricket/frost sensory kami content in lines 2-3, and finally resolving with the robe-spreading action split across lines 4-5; this is an inversion of the source's sequential logic even though all core content elements are retained."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhyme-driven English quatrain-plus-tag stanza over preserving the source's exact kami/shimo sequence or the mat/cold kakekotoba, freely reordering content to fit meter and rhyme while keeping the cricket and frost imagery to signal the season and retaining 'koromo' as an untranslated exoticism.",
+    "overall_fidelity": "medium",
+    "poem_number": 91,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "inverted",
+      "kami_lines": [
+        4,
+        5
+      ],
+      "shimo_lines": [
+        1,
+        2,
+        3
+      ],
+      "note": "McCauley reorders the poem, placing the shimo-no-ku's content (solitary sleeping on the cold mat) in lines 1-3, and moving the kami-no-ku's cricket/frost-night imagery to lines 4-5 at the end. This reverses the original inferential-sensory logic where the cricket's cry and frost-night sensation precede and motivate the solitary sleep; here the solitude is stated first and the sensory cause/context follows, inverting cause-effect ordering though the same elements remain present."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "さむしろ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "chilling mat",
+        "note": "McCauley renders さむしろ as 'chilling mat', which captures the 寒し (cold) secondary reading vividly but folds it directly into the noun rather than preserving the mat-as-object primary sense as a distinct image; the pivot's double-hearing is collapsed into a single adjective-noun phrase, so the wordplay itself is not really enacted, but the cold sensation dominates over the mat's smallness/narrowness aspect of the primary meaning."
+      },
+      {
+        "original_word": "かたしき",
+        "reading_preserved": "transformed",
+        "method": "transformed",
+        "en_equivalent": "folded quilt",
+        "note": "Rather than 'spreading only one layer of one's own robe' (a solitary half-spread garment), McCauley writes 'drawing close my folded quilt', which reverses the imagery — suggesting an actively gathered, doubled-up covering rather than the thin single-layer solitude implied by 片敷き; the idiom's connotation of insufficient/lonely bedding is altered into an image of self-comforting warmth-seeking."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "cricket's",
+      "note": "The cricket and frosty night are both named explicitly in lines 4-5 ('frosty night', 'cricket's forlorn chirp'), preserving the autumn kigo directly, though its placement at the end of the poem rather than the beginning shifts its structural role from scene-setting premise to closing atmospheric flourish."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "the cold/narrow sleeping mat (さむしろに)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "drawing close a single folded robe/quilt (衣かたしき)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "resolving to sleep alone (ひとりかも寝む)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "the frosty night setting (霜夜の)",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "the cricket's cry (きりぎりす鳴くや)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley restructures the poem into an inverted order: shimo-no-ku content (mat, robe, solitary sleep) appears first in lines 1-3, while kami-no-ku content (frost-night, cricket's cry) is pushed to lines 4-5, effectively reversing the source's sequence of sensory premise followed by emotional resolution."
+    },
+    "translator_strategy": "McCauley prioritizes a smooth, natural English sentence-flow and rhyme-adjacent cadence over preserving the source's ku order, inverting the poem's structure so the personal resolution to sleep alone opens the poem and the atmospheric cricket/frost imagery closes it as an explanatory coda.",
+    "overall_fidelity": "medium",
+    "poem_number": 91,
+    "translator": "McCauley"
+  }
+}

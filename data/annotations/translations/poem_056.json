@@ -1,0 +1,328 @@
+{
+  "Dickens": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator preserves the basic causal logic — death/departure from this world (lines 1-4) motivating the plea for one more meeting (lines 5-6) — but expands the kami section considerably with added interpretive content ('Thus doth my mind to me foretell', 'My soul that thee hath lov'd so well') that is not present in the source, diluting the tight causal compression of the original while keeping the overall structural direction intact."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "あらざらむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "this world shall end",
+        "note": "The translator renders the existential premise (impending death/end of this world) literally and expands it into two full lines, capturing the primary sense of imminent non-existence but treating it as straightforward narrative rather than a pivot; no secondary meaning was ever active in the source so this is essentially a faithful primary-only rendering."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "The source poem itself contains no seasonal word or imagery (confirmed 'none' in source analysis), and the translation likewise introduces no seasonal imagery — it stays entirely within the existential/emotional register of death and longing, consistent with the source's non-seasonal nature.",
+      "en_equivalent": ""
+    },
+    "line_mapping": {
+      "confidence": "medium",
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Ere long this world shall end for me — rendering of あらざらむ / この世の外 as an impending ending of 'this world'",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Extrapolated framing device: 'my mind doth foretell' — an added narrative gloss not present in source",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "Restates departure to 'other world', paralleling この世の外 (beyond this life)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'My soul that thee hath lov'd so well' — expands 思ひ出 (memento/memory) into an assertion of love, adding emotional content beyond the literal 'memento'",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'Ah! would that thou' — exclamatory wish opening, corresponds to もがな (desiderative particle)",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "'But once more wer't beside me now' — renders 今ひとたびの逢ふこともがな, the wish for one more meeting",
+          "origin": "source"
+        }
+      ]
+    },
+    "translator_strategy": "Dickens prioritizes rhymed, metrical English verse (ABAB CC) over literal compression, expanding the terse causal logic of the original into a fuller narrative of premonition and devoted love while still preserving the essential death-motivated plea for one final meeting.",
+    "overall_fidelity": "medium",
+    "poem_number": 56,
+    "translator": "Dickens"
+  },
+  "Noguchi": {
+    "bipartite": {
+      "preserved": "collapsed",
+      "kami_lines": [
+        1,
+        2
+      ],
+      "shimo_lines": [
+        3,
+        4
+      ],
+      "note": "The translation compresses the causal-physical relationship into a short emotional exclamation-and-plea sequence; the logical link between 'I shall soon die' and 'therefore let me meet you once more as a memento beyond this world' is reduced to a general emotional plea ('for pity's sake') without articulating the memento/afterlife concept, so the causal structure is present only impressionistically rather than explicitly reasoned."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "あらざらむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Who knows when I shall die",
+        "note": "The existential premise 'I shall soon not exist' is rendered fairly directly as uncertainty about the time of death, preserving the primary meaning; there is no secondary reading to preserve since the source analysis notes this is not a true pivot."
+      }
+    ],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal imagery exists in the source and none is introduced in the translation; the poem remains purely existential/emotional, consistent with the source's lack of kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Existential uncertainty about death, replacing the more elaborate 'since I shall not exist beyond this world' with a simple exclamatory rhetorical question",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "An added emotional interjection ('for pity's sake') that stands in loosely for 'as a memento' (思ひ出に), though the memento concept itself is not literally translated",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "The plea to see the beloved, corresponding to 今ひとたびの逢ふこともがな",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Emphatic repetition of 'once more' isolating 今ひとたび as its own line",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The five-ku source is compressed into four short English lines; the 'memento for beyond this world' concept (この世の外の思ひ出に) is not literally rendered but replaced with a general cry of emotional urgency ('Oh, for pity's sake'), and the final ku is split for dramatic emphasis into its own line."
+    },
+    "makurakotoba_handling": [],
+    "overall_fidelity": "medium",
+    "translator_strategy": "Noguchi prioritizes emotional immediacy and brevity over literal fidelity, compressing the poem's philosophical premise about death and memento into a short, exclamatory plea for one more meeting.",
+    "poem_number": 56,
+    "translator": "Noguchi"
+  },
+  "Porter": {
+    "bipartite": {
+      "preserved": "partial",
+      "kami_lines": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "shimo_lines": [
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translator keeps the causal logic (impending death → wish for memory → wish for one more meeting) but compresses it into a continuous rhyming narrative, blurring the kami/shimo boundary. The final line 'So visit me, I pray' preserves the plea but weakens it into a polite request rather than a desperate 'one more meeting' (今ひとたびの逢ふこともがな), and the causal connector 'So' does maintain the cause-effect link between the impending death/memory motif and the request."
+    },
+    "kakekotoba_handling": [
+      {
+        "original_word": "あらざらむ",
+        "reading_preserved": "primary_only",
+        "method": "paraphrase",
+        "en_equivalent": "drawing to a close",
+        "note": "The existential premise of impending death is rendered as a gentle metaphor ('drawing to a close') rather than a stark 'I shall not exist'; this captures the primary sense (death approaching) but softens the finality, and there is no secondary reading to preserve since the source analysis notes this is not a true pivot."
+      }
+    ],
+    "makurakotoba_handling": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "note": "No seasonal imagery or atmosphere is introduced; the translation remains entirely in the existential/emotional register of the source (death, memory, longing) with no substitution of natural imagery, consistent with the source having no kigo."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Life ending / impending death (あらざらむ)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            1,
+            2
+          ],
+          "content_summary": "Cannot stay longer, reinforcing mortality and the boundary of this world (この世の外)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "A pleasant memory of thee (思ひ出に)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "Wish to take the memory away, elaborating on the memento motif",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            4,
+            5
+          ],
+          "content_summary": "Plea for one more meeting, rendered as 'visit me, I pray' (今ひとたびの逢ふこともがな)",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five-ku poem into five rhyming lines (ABABB), with line 4 adding interpretive padding ('I fain would take away') not directly present in the source, and compressing the shimo-no-ku's desperate wish into a softer, more polite invitation ('visit me, I pray') that shifts the speaker's agency — instead of wishing to go meet the beloved, the speaker asks the beloved to come to her."
+    },
+    "translator_strategy": "Porter prioritizes a smooth, rhymed, sing-song English quatrain-plus-couplet form over literal fidelity, softening the poem's stark existential urgency into a gentler, more genteel deathbed request.",
+    "overall_fidelity": "medium",
+    "poem_number": 56,
+    "translator": "Porter"
+  },
+  "McCauley": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "causal-physical",
+      "note": "McCauley preserves the causal-physical logic: lines 1-3 establish the speaker's imminent death and desire for a memento beyond this world, and lines 4-5 express the wish for one more meeting, directly motivated by that mortal condition. The 'then' in line 4 even signals the logical/causal link explicitly."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "あらざらむ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "Soon I cease to be",
+        "note": "The source analysis notes this is not a true pivot but an existential premise; McCauley renders it literally and clearly as the speaker's impending death, preserving the primary sense with no attempt at a double meaning since none is truly active in the source."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "No seasonal imagery or atmosphere is present in this translation, consistent with the source analysis's finding that the poem contains no kigo; the imagery remains purely existential (death, memory, meeting) throughout."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "Soon I cease to be — renders あらざらむ, the existential premise of impending death",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "One fond memory I would keep — renders 思ひ出に, the desire for a memento/memory",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "When beyond this world — renders この世の外の, the boundary beyond this life",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "Is there, then, no way for me — renders 今ひとたびの, expressed as a rhetorical question introducing the wish",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Just once more to meet with thee — renders 逢ふこともがな, the wish for one more meeting",
+          "origin": "source"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "McCauley reorders ku 2 and 3 within the kami-no-ku (line 2 covers ku3/思ひ出 before line 3 covers ku2/この世の外), a minor inversion for English syntactic flow, but the overall five-line structure maps closely to the five ku with no significant compression or expansion."
+    },
+    "translator_strategy": "McCauley prioritizes clear, metrical English verse that renders the poem's literal existential and emotional content faithfully, smoothing ku-internal word order for natural English syntax while preserving the overall causal logic and five-part structure.",
+    "overall_fidelity": "high",
+    "poem_number": 56,
+    "translator": "McCauley"
+  }
+}
