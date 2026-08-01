@@ -32,7 +32,7 @@ Open <http://127.0.0.1:8000>. The static site is self-contained after
 ## Annotation and review
 
 To run new annotations, copy `.env.example` to `.env`, add an Anthropic API
-key, then run `python annotate_translations.py 1-5`. Do not commit `.env`.
+key, then run `python annotate_translations.py 1-5`.
 
 To review existing annotations locally:
 
@@ -43,8 +43,3 @@ python review_app/server.py
 Open <http://127.0.0.1:5051>. The server deliberately binds only to localhost.
 After changing annotations or corrections, run `python build_data.py` before
 publishing the static site.
-
-## Publishing
-
-Deploy the contents of `site/` to any static host. The About page loads Mermaid
-from jsDelivr; all visualization data and fonts are served from this repository.
