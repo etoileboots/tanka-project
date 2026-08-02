@@ -55,7 +55,14 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 .vt-btn+.vt-btn::before{content:'/';margin-right:.4rem;color:#ccc;font-weight:400;}
 .vt-btn:hover{color:#666;}
 .vt-btn.active{color:#111;font-weight:700;}
-.zoom-hint{font-size:.68rem;color:#aaa;font-style:italic;}
+.poem-jump{
+  width:3.2rem;border:none;border-bottom:1px solid #ddd;background:none;
+  font-family:Georgia,"Times New Roman",serif;font-size:.82rem;color:#111;
+  text-align:center;padding:.1rem .2rem;outline:none;-moz-appearance:textfield;
+}
+.poem-jump::-webkit-inner-spin-button,.poem-jump::-webkit-outer-spin-button{-webkit-appearance:none;}
+.poem-jump::placeholder{color:#ccc;}
+.poem-jump:focus{border-bottom-color:#999;}
 .help-btn{
   position:absolute;top:.8rem;right:1rem;width:1.6rem;height:1.6rem;border-radius:50%;
   border:1px solid #ddd;background:#fff;color:#888;font-size:.8rem;font-weight:700;

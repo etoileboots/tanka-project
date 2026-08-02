@@ -10,7 +10,7 @@
 <div class="page">
   <div class="hd">
     <h1>A Syntenic View of Poetic Translations</h1>
-    <p>A genomics inspired comparison of 4 English translations of the 13th century Japanese poetry anthology: the Ogura Hyakunin Isshu. Hover a poem to inspect it, click to open.</p>
+    <p>A genomics inspired comparison of 4 English translations of the 13th century Japanese poetry anthology: the Ogura Hyakunin Isshu. Hover a poem to inspect it, click to open. Zoom ↑ / ↓ on a hovered poem.</p>
     <div class="toggles-row">
       <div class="toggle-group">
         <span class="toggle-label">View by</span>
@@ -27,8 +27,8 @@
         </div>
       </div>
       <div class="toggle-group">
-        <span class="toggle-label">Zoom</span>
-        <span class="zoom-hint">↑ / ↓ on a hovered poem</span>
+        <label class="toggle-label" for="poemJump">Poem</label>
+        <input class="poem-jump" id="poemJump" type="number" min="1" max="100" placeholder="1–100" aria-label="Jump to poem number">
       </div>
     </div>
     <a class="help-btn about-link" href="about.html" aria-label="About this project" title="About this project" style="right:3.1rem;">i</a>
@@ -104,6 +104,6 @@
      as "the labels don't work" even though they were technically present. -->
 <div id="hoverTip" class="hover-tip"></div>
 
-<script src="app.js?v=68"></script>
+<script src="app.js?v=69"></script>
 </body>
 </html>

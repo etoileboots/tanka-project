@@ -685,6 +685,22 @@ document.getElementById('vtDevice').addEventListener('click', ()=>setViewMode('d
 document.getElementById('vtByPoem').addEventListener('click', ()=>setLayoutMode('poem'));
 document.getElementById('vtByAuthor').addEventListener('click', ()=>setLayoutMode('author'));
 
+function jumpToPoem(n){
+  if(layoutMode!=='poem') setLayoutMode('poem');
+  const cell=document.querySelector(`#grid .pc[data-n="${n}"]`);
+  if(!cell) return;
+  stepperLock=true;
+  applyZoom(cell);
+  openModal(n);
+}
+const poemJump=document.getElementById('poemJump');
+poemJump.addEventListener('keydown',e=>{
+  if(e.key==='Enter'){const n=+e.currentTarget.value;if(n>=1&&n<=100){jumpToPoem(n);e.currentTarget.blur();}}
+});
+poemJump.addEventListener('change',e=>{
+  const n=+e.currentTarget.value;if(n>=1&&n<=100) jumpToPoem(n);
+});
+
 // ── Zoom: the whole grid scales, anchored on the selected poem ──────────
 // Scale the complete grid around the selected poem.
 const gw = document.getElementById('gw');
