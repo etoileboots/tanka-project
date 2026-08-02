@@ -339,30 +339,28 @@ let stepperLock=false;
 
 function buildNavRails(){
   const colRail=document.getElementById('colRail');
-  const rowRail=document.getElementById('rowRail');
-  colRail.innerHTML='';
-  rowRail.innerHTML='';
+  const rowRailR=document.getElementById('rowRailRight');
+  if(colRail) colRail.innerHTML='';
+  if(rowRailR) rowRailR.innerHTML='';
   for(let c=1;c<=GRID_COLS;c++){
+    if(!colRail) continue;
     const btn=document.createElement('button');
-    btn.className='nav-btn';
-    btn.type='button';
-    btn.dataset.col=c;
-    btn.textContent=c;
-    btn.setAttribute('aria-label',`Jump to column ${c}`);
+    btn.className='nav-btn'; btn.type='button'; btn.dataset.col=c; btn.textContent='·';
     btn.addEventListener('click',()=>selectCell(selRow,c));
     colRail.appendChild(btn);
   }
   for(let r=1;r<=GRID_ROWS;r++){
+    if(!rowRailR) continue;
     const btn=document.createElement('button');
-    btn.className='nav-btn';
-    btn.type='button';
-    btn.dataset.row=r;
-    btn.textContent=r;
-    btn.setAttribute('aria-label',`Jump to row ${r}`);
+    btn.className='nav-btn'; btn.type='button'; btn.dataset.row=r; btn.textContent='·';
     btn.addEventListener('click',()=>selectCell(r,selCol));
-    rowRail.appendChild(btn);
+    rowRailR.appendChild(btn);
   }
   updateRailActive();
+}
+
+function updateRailPoem(num){
+  document.querySelectorAll('.col-rail .nav-btn.active,.row-rail .nav-btn.active').forEach(b=>{b.textContent=num;});
 }
 
 function selectCell(row,col){
@@ -758,6 +756,7 @@ function applyZoom(cell){
   const col = +cell.dataset.col, row = +cell.dataset.row;
   selCol = col; selRow = row;
   updateRailActive();
+  updateRailPoem(+cell.dataset.n);
   const cellRect = cell.getBoundingClientRect();
   nativeCellPx = cellRect.width;
   // Recenter the focal poem within the grid's resting footprint.

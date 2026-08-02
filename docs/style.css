@@ -80,42 +80,36 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
    app.js drives both from the same selected cell). */
 .grid-nav{
   display:grid;
-  grid-template-columns:auto 1fr;
+  grid-template-columns:1fr auto;
   grid-template-rows:auto 1fr;
   gap:.5rem .6rem;
 }
 .col-rail{
-  grid-column:2;grid-row:1;
+  grid-column:1;grid-row:1;
   display:flex;gap:var(--gap);align-items:center;justify-content:center;
-  transition:opacity .15s ease;
 }
 .row-rail{
-  grid-column:1;grid-row:2;
   display:flex;flex-direction:column;gap:var(--gap);align-items:center;justify-content:center;
-  transition:opacity .15s ease;
 }
-/* Hide the static navigation rails while the grid is transformed. */
-.grid-nav:has(#grid.zoom-active) .col-rail,
-.grid-nav:has(#grid.zoom-active) .row-rail{
-  opacity:0;pointer-events:none;
-}
+.row-rail-r{grid-column:2;grid-row:2;}
 .nav-btn{
   border:none;background:none;padding:0;
   font-family:'Inter',system-ui,sans-serif;font-size:.66rem;font-weight:500;
-  color:#bbb;cursor:pointer;transition:color .12s;
+  color:#111;cursor:pointer;transition:opacity .15s,color .12s;
   display:flex;align-items:center;justify-content:center;
+  opacity:0;pointer-events:none;
 }
 .col-rail .nav-btn{width:var(--cell);}
 .row-rail .nav-btn{height:var(--cell);}
-.nav-btn:hover{color:#555;}
-.nav-btn.active{color:#111;font-weight:700;}
+/* Show only the active poem number while hovering a poem */
+.grid-nav:has(.pc.zoomed) .nav-btn.active{opacity:1;pointer-events:auto;}
 
 /* Takes over #grid's old grid-nav placement and clips to it — #grid itself
    is what scales/translates during zoom, and this static, never-
    transformed wrapper is what guarantees that transform can never make
    the zoomed content visually spill past the grid's own resting box,
    regardless of the scale/centering math in setZoomLevel/applyZoom. */
-.grid-clip{grid-column:2;grid-row:2;overflow:hidden;position:relative;}
+.grid-clip{grid-column:1;grid-row:2;overflow:hidden;position:relative;}
 
 /* Same 13×8 dimensions (grid-template-columns/rows) at every zoom level —
    zooming is a transform:scale on this whole element (see setZoomLevel in
