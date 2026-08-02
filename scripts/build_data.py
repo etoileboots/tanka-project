@@ -9,12 +9,11 @@ Inputs (all under the project root):
   data/annotations/translations/poem_NNN.json — per-translator analysis
 
 Output:
-  site/data/poems.json — fetched at runtime by the portable static site
-  (see site/app.js). CSV, SRC_JP, SRC_DEVICES, HIGHLIGHTS, REAL_DATA,
-  SRC_FURIGANA, SRC_DEVICE_LABELS, HIGHLIGHT_LABELS, HIGHLIGHT_DEVICE_KEYS.
+  data/poems.json — fetched at runtime by the static site (see app.js).
+  data/prompts.json — the system-prompt text shown on prompts.html.
 
 Usage:
-  python3 build_data.py
+  python3 scripts/build_data.py
 """
 
 import csv
@@ -23,7 +22,7 @@ import json
 import os
 import re
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CSV_PATH = os.path.join(ROOT, "data", "poems_clean.csv")
 SRC_DIR = os.path.join(ROOT, "data", "annotations", "source")
 TR_DIR = os.path.join(ROOT, "data", "annotations", "translations")
@@ -660,7 +659,7 @@ def write_prompts(site_dir):
 
 
 def main():
-    site_dir = os.path.join(ROOT, "site")
+    site_dir = ROOT
 
     data = compute_data()
     write_site_data(data, site_dir)
