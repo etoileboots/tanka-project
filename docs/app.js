@@ -301,15 +301,151 @@ function refreshAuthorGrids(){
   });
 }
 
-let layoutMode='poem'; // 'poem' | 'author'
+// ── By-Total layout: 5 aggregate stacked bars ────────────────────────────
+// One bar per translation slot. Height of each segment = total lines of that
+// structure type across all 100 poems. Device colors overlay the top of each
+// structural segment, sized by (lines-with-device / lines-in-segment).
+const TOTAL_W=30, TOTAL_H=600;
+function computeTotalAggregates(slotKey){
+  const sc={kami:0,shimo:0,imagined:0,unanalyzed:0};
+  const dc={}; // deviceColor -> total count
+  POEMS.forEach(poem=>{
+    const bar=poem.bars.find(b=>b.lbl===slotKey);
+    if(!bar) return;
+    if(slotKey==='O' && poem.real){
+      const jpFracs=jpDeviceFracs(poem.n);
+      const nLines=bar.nLines;
+      bar.segs.forEach((seg,si)=>{
+        sc[seg.type||'unanalyzed']++;
+        const ls=si/nLines, le=(si+1)/nLines;
+        Object.entries(jpFracs).forEach(([col,spans])=>{
+          if(spans.some(({start,end})=>start<le&&end>ls))
+            dc[col]=(dc[col]||0)+1;
+        });
+      });
+    } else {
+      bar.segs.forEach(seg=>{
+        sc[seg.type||'unanalyzed']++;
+        const devs=seg.devs||(seg.dev!=null?[{color:seg.dev}]:[]);
+        devs.forEach(({color})=>{
+          const col=typeof color==='string'&&color[0]==='#'?color:DCOLORS[color];
+          dc[col]=(dc[col]||0)+1;
+        });
+      });
+    }
+  });
+  return {sc,dc};
+}
+// Fixed display order; filtered by viewMode
+function totalSegOrder(sc,dc){
+  const all=[
+    {fill:C.kakekotoba,  label:'Kakekotoba',   count:dc[C.kakekotoba]||0, kind:'device'},
+    {fill:C.makurakotoba,label:'Makurakotoba',  count:dc[C.makurakotoba]||0, kind:'device'},
+    {fill:C.kigo,        label:'Kigo',          count:dc[C.kigo]||0, kind:'device'},
+    {fill:C.kami,        label:'Kaminoku',      count:sc.kami, kind:'struct'},
+    {fill:C.shimo,       label:'Shimonoku',     count:sc.shimo, kind:'struct'},
+    {fill:C.imagined,    label:'Imagined ku',   count:sc.imagined, kind:'struct'},
+    {fill:C.unanalyzed,  label:'Unanalyzed',    count:sc.unanalyzed, kind:'struct'},
+  ];
+  return all.filter(s=>s.count>0 && (viewMode==='structure'?s.kind==='struct':s.kind==='device'));
+}
+function glyphTotalBar(slotKey){
+  const {sc,dc}=computeTotalAggregates(slotKey);
+  const segs=totalSegOrder(sc,dc);
+  const grand=segs.reduce((a,s)=>a+s.count,0);
+  if(!grand) return '';
+  const W=TOTAL_W, H=TOTAL_H;
+  const parts=[];
+  let y=0;
+  segs.forEach(({fill,label,count},i)=>{
+    const h=(count/grand)*H;
+    parts.push(`<g class="total-seg-group" data-label="${label}" data-count="${count}">`);
+    parts.push(`<rect x="0" y="${f(y)}" width="${W}" height="${f(h)}" fill="${fill}"/>`);
+    if(i<segs.length-1)
+      parts.push(`<line x1="0" y1="${f(y+h)}" x2="${W}" y2="${f(y+h)}" stroke="rgba(255,255,255,0.45)" stroke-width="1"/>`);
+    parts.push(`<rect x="0" y="${f(y)}" width="${W}" height="${f(h)}" fill="transparent" pointer-events="all"/>`);
+    parts.push('</g>');
+    y+=h;
+  });
+  return `<svg width="100%" height="100%" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">${parts.join('')}</svg>`;
+}
+let totalViewBuilt=false;
+function buildTotalView(){
+  const container=document.getElementById('totalGrids');
+  container.innerHTML='';
+  const row=document.createElement('div');
+  row.className='total-panels-row';
+  // Pre-compute structure line counts (always structure-based for proportional width)
+  const lineCounts=AUTHOR_SLOTS.map(slot=>{
+    const {sc}=computeTotalAggregates(slot.key);
+    return sc.kami+sc.shimo+sc.imagined+sc.unanalyzed;
+  });
+  const maxLines=Math.max(...lineCounts)||1;
+  AUTHOR_SLOTS.forEach((slot,si)=>{
+    const panel=document.createElement('div');
+    panel.className='total-panel';
+    panel.style.flex=`${lineCounts[si]||1} 1 0`;
+    panel.style.minWidth='30px';
+    const label=document.createElement('div');
+    label.className='author-panel-label';
+    label.textContent=slot.label;
+    panel.appendChild(label);
+    const wrap=document.createElement('div');
+    wrap.className='total-bar-wrap';
+    wrap.innerHTML=glyphTotalBar(slot.key);
+    wrap.querySelectorAll('.total-seg-group').forEach(g=>{
+      g.addEventListener('mouseenter',()=>{
+        const el=document.getElementById('totalSegInfo');
+        if(el) el.textContent=`${g.dataset.label}: ${g.dataset.count} lines`;
+      });
+      g.addEventListener('mouseleave',()=>{
+        const el=document.getElementById('totalSegInfo');
+        if(el) el.textContent='';
+      });
+    });
+    panel.appendChild(wrap);
+    const countLabel=document.createElement('div');
+    countLabel.className='total-panel-count';
+    countLabel.textContent=`Total lines: ${lineCounts[si]}`;
+    panel.appendChild(countLabel);
+    row.appendChild(panel);
+  });
+  container.appendChild(row);
+  const isStruct=viewMode==='structure';
+  const leg=document.createElement('div');
+  leg.className='author-legend';
+  leg.id='totalLegend';
+  const structItems=`
+    <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kaminoku</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimonoku</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#6F63C9"></div>Imagined ku</div>`;
+  const devItems=`
+    <div class="legend-row"><div class="legend-swatch" style="background:#F28FC0"></div>Kakekotoba</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#7EBBEE"></div>Makurakotoba</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#B4DE65"></div>Kigo</div>`;
+  leg.innerHTML=`<div class="author-poem-info" id="totalSegInfo"></div>
+    <strong>Legend</strong>${isStruct?structItems:devItems}`;
+  container.appendChild(leg);
+  totalViewBuilt=true;
+}
+function refreshTotalView(){
+  if(!totalViewBuilt) return;
+  totalViewBuilt=false;
+  buildTotalView();
+}
+
+let layoutMode='poem'; // 'poem' | 'author' | 'total'
 function setLayoutMode(mode){
   if(mode===layoutMode) return;
   layoutMode=mode;
   document.getElementById('vtByPoem').classList.toggle('active', mode==='poem');
   document.getElementById('vtByAuthor').classList.toggle('active', mode==='author');
+  document.getElementById('vtByTotal').classList.toggle('active', mode==='total');
   document.querySelector('.grid-nav').style.display = mode==='poem' ? 'grid' : 'none';
   document.getElementById('authorGrids').style.display = mode==='author' ? 'flex' : 'none';
+  document.getElementById('totalGrids').style.display = mode==='total' ? 'flex' : 'none';
   if(mode==='author' && !authorGridsBuilt) buildAuthorGrids();
+  if(mode==='total' && !totalViewBuilt) buildTotalView();
 }
 
 // ── Build grid ────────────────────────────────────────────────────────────
@@ -711,12 +847,14 @@ function setViewMode(mode){
   });
   if(zoomedCell) applyCellZoomTier(zoomedCell);
   refreshAuthorGrids();
+  refreshTotalView();
   if(currentN) openModal(currentN); // re-render the open modal too, if any
 }
 document.getElementById('vtStructure').addEventListener('click', ()=>setViewMode('structure'));
 document.getElementById('vtDevice').addEventListener('click', ()=>setViewMode('device'));
 document.getElementById('vtByPoem').addEventListener('click', ()=>setLayoutMode('poem'));
 document.getElementById('vtByAuthor').addEventListener('click', ()=>setLayoutMode('author'));
+document.getElementById('vtByTotal').addEventListener('click', ()=>setLayoutMode('total'));
 
 function jumpToPoem(n){
   if(layoutMode!=='poem') setLayoutMode('poem');

@@ -346,6 +346,37 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 .author-legend .legend-row{display:flex;align-items:center;gap:.35rem;color:#444;font-weight:300;}
 .author-legend .legend-swatch{width:8px;height:8px;border-radius:1px;flex-shrink:0;}
 .author-legend.structure-only .legend-device{display:none;}
+/* ── Total view ─────────────────────────────────────────────────── */
+.total-grids{
+  display:flex;flex-direction:column;
+  width:100%;height:100%;
+}
+.total-panels-row{
+  flex:1;min-height:0;
+  overflow-x:auto;overflow-y:hidden;
+  display:flex;flex-wrap:nowrap;gap:2rem;align-items:stretch;justify-content:center;
+  padding:.75rem 2rem;
+}
+.total-panel{
+  display:flex;flex-direction:column;align-items:center;gap:.6rem;
+  min-width:30px;
+}
+.total-bar-wrap{
+  flex:1;min-height:0;width:100%;
+  border-radius:3px;overflow:hidden;
+}
+.total-bar-wrap svg{display:block;width:100%;height:100%;}
+.total-seg{cursor:pointer;transition:opacity .08s;}
+.total-panel-count{
+  flex-shrink:0;
+  font-family:'Inter',system-ui,sans-serif;font-size:.58rem;font-weight:300;
+  color:#888;text-align:center;padding-top:.25rem;
+}
+.total-grids[data-hl] .total-seg:not(.total-hl){opacity:.2;}
+/* Lock legend height so bar charts don't shift when hover text appears */
+#totalLegend{flex-wrap:nowrap;overflow:hidden;}
+#totalSegInfo{min-height:1.5em;line-height:1.5;}
+
 .author-poem-info{
   font-family:'Ibarra Real Nova',Georgia,serif;font-weight:700;font-size:.72rem;
   color:#111;letter-spacing:.01em;
