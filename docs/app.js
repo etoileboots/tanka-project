@@ -761,8 +761,15 @@ function openModal(n){
       </div>
     </div>
     <div class="title-jp">百人一首の${toKanjiNumber(n)}番</div>
-    <div class="jp-legend"><div class="lgd-title">Legend</div>${legendRowsHTML}</div>
   `;
+  let legEl=document.getElementById('modalLegend');
+  if(!legEl){
+    legEl=document.createElement('div');
+    legEl.id='modalLegend';
+    legEl.className='jp-legend';
+    document.getElementById('overlay').appendChild(legEl);
+  }
+  legEl.innerHTML=`<div class="lgd-title">Legend</div><div class="lgd-items">${legendRowsHTML}</div>`;
 
   // ── EN panel ──────────────────────────────────────────────────────────
   // Reference order: Dickens, Noguchi, Porter, MacCauley
@@ -797,7 +804,8 @@ function openModal(n){
   // metadata, not part of either translation column, and putting it in
   // the header lets Prev/Next flank it directly instead of sitting far
   // below it on the English side only.
-  document.getElementById('modalTitle').textContent = `Poem ${n} — ${csv.poet||''}`;
+  const titleEl=document.getElementById('modalTitle');
+  titleEl.innerHTML=`<div class="modal-title-main">${escHtml(csv.poet||'')}</div><div class="modal-title-sub">Poem ${n}</div>`;
 
   document.getElementById('overlay').classList.add('open');
   document.getElementById('mPrev').disabled=n<=1;
