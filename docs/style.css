@@ -300,28 +300,58 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
    translators, instead of poem-by-poem. Each mini-cell is a single bar
    (not five), same color logic as the by-poem view's bars. */
 .author-grids{
-  display:flex;gap:1.1rem;align-items:flex-start;justify-content:center;
-  width:100%;height:100%;padding:0 1rem;
+  display:flex;flex-direction:column;
+  width:100%;height:100%;
+}
+.author-panels-row{
+  flex:1;min-height:0;
+  overflow-x:auto;overflow-y:hidden;
+  display:flex;flex-wrap:nowrap;gap:1.5rem;align-items:stretch;justify-content:center;
+  padding:.75rem 1.5rem;
 }
 .author-panel{
-  display:flex;flex-direction:column;align-items:center;gap:.5rem;
-  flex:1;min-width:0;max-width:19%;
+  display:flex;flex-direction:column;align-items:center;gap:.6rem;
+  flex:0 0 clamp(180px,17vw,280px);
 }
 .author-panel-label{
   font-family:'Ibarra Real Nova',Georgia,serif;font-weight:700;font-size:.85rem;color:#333;
-  text-align:center;white-space:nowrap;
+  text-align:center;white-space:nowrap;flex-shrink:0;
 }
 .author-mini-grid{
+  flex:1;min-height:0;
   display:grid;
   grid-template-columns:repeat(10,1fr);
-  gap:3px;width:100%;aspect-ratio:1;
+  grid-template-rows:repeat(10,1fr);
+  gap:4px;width:100%;
 }
 .author-cell{
-  cursor:pointer;border-radius:2px;overflow:hidden;
+  cursor:pointer;overflow:hidden;
   transition:transform .1s ease;
 }
 .author-cell:hover{transform:scale(1.35);z-index:5;position:relative;box-shadow:0 2px 8px rgba(0,0,0,.25);}
+.author-cell.author-hl{box-shadow:0 0 0 2px #fff;position:relative;z-index:3;}
+.author-grids[data-hl] .author-cell:not(.author-hl){opacity:.2;transition:opacity .08s;}
 .author-cell svg{width:100%;height:100%;display:block;}
+.author-legend{
+  flex-shrink:0;
+  display:flex;flex-direction:row;align-items:center;justify-content:center;
+  flex-wrap:wrap;gap:.15rem 1rem;
+  padding:.35rem 1rem;
+  border-top:1px solid #eee;
+  font-size:.6rem;line-height:1.5;
+  font-family:'Inter',system-ui,sans-serif;font-weight:300;
+}
+.author-legend strong{font-size:.58rem;font-weight:700;
+  letter-spacing:.05em;text-transform:uppercase;color:#111;}
+.author-legend .legend-row{display:flex;align-items:center;gap:.35rem;color:#444;font-weight:300;}
+.author-legend .legend-swatch{width:8px;height:8px;border-radius:1px;flex-shrink:0;}
+.author-legend.structure-only .legend-device{display:none;}
+.author-poem-info{
+  font-family:'Ibarra Real Nova',Georgia,serif;font-weight:700;font-size:.72rem;
+  color:#111;letter-spacing:.01em;
+  margin-right:.5rem;padding-right:.75rem;border-right:1px solid #ddd;
+  min-width:8rem;white-space:nowrap;
+}
 
 /* ── Modal overlay ── */
 .overlay{

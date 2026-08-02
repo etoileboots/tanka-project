@@ -187,7 +187,7 @@ const AUTHOR_BAR_W=24;
 function glyphOneBar(poem, bi){
   const bar=poem.bars[bi];
   const jpFracs=(viewMode==='device' && poem.real && bi===0) ? jpDeviceFracs(poem.n) : {};
-  const W=AUTHOR_BAR_W, bh=DIM, sh=bh/bar.nLines, rx=W/2;
+  const W=AUTHOR_BAR_W, bh=DIM, sh=bh/bar.nLines, rx=2;
   const cid=`ab${poem.n}_${bi}`;
   const parts=[];
   parts.push(`<defs><clipPath id="${cid}"><rect x="0" y="0" width="${W}" height="${bh}" rx="${rx}"/></clipPath></defs>`);
@@ -233,6 +233,8 @@ let authorGridsBuilt=false;
 function buildAuthorGrids(){
   const container=document.getElementById('authorGrids');
   container.innerHTML='';
+  const row=document.createElement('div');
+  row.className='author-panels-row';
   AUTHOR_SLOTS.forEach(slot=>{
     const panel=document.createElement('div');
     panel.className='author-panel';
@@ -254,12 +256,41 @@ function buildAuthorGrids(){
       if(bi!==-1) cell.innerHTML=glyphOneBar(poem, bi);
       cell.addEventListener('click', ()=>openModal(poem.n));
       cell.addEventListener('keydown', e=>{if(e.key==='Enter'||e.key===' ')openModal(poem.n);});
+      cell.addEventListener('mouseenter', ()=>updateAuthorHighlight(poem.n));
+      cell.addEventListener('mouseleave', ()=>updateAuthorHighlight(0));
       mg.appendChild(cell);
     });
     panel.appendChild(mg);
-    container.appendChild(panel);
+    row.appendChild(panel);
   });
+  container.appendChild(row);
+  const leg=document.createElement('div');
+  leg.className='author-legend'+(viewMode==='structure'?' structure-only':'');
+  leg.id='authorLegend';
+  leg.innerHTML=`<div class="author-poem-info" id="authorPoemInfo"></div>
+    <strong>Legend</strong>
+    <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kaminoku</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimonoku</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#6F63C9"></div>Imagined ku</div>
+    <div class="legend-row legend-device"><div class="legend-swatch" style="background:#F28FC0"></div>Kakekotoba</div>
+    <div class="legend-row legend-device"><div class="legend-swatch" style="background:#7EBBEE"></div>Makurakotoba</div>
+    <div class="legend-row legend-device"><div class="legend-swatch" style="background:#B4DE65"></div>Kigo</div>`;
+  container.appendChild(leg);
   authorGridsBuilt=true;
+}
+function updateAuthorHighlight(n){
+  const container=document.getElementById('authorGrids');
+  document.querySelectorAll('.author-cell').forEach(c=>c.classList.toggle('author-hl',+c.dataset.n===n));
+  if(n) container.setAttribute('data-hl',n);
+  else container.removeAttribute('data-hl');
+  const info=document.getElementById('authorPoemInfo');
+  if(!info) return;
+  if(n){
+    const poet=(CSV[String(n)]||{}).poet||'';
+    info.textContent=`Poem ${n}${poet?' — '+poet:''}`;
+  } else {
+    info.textContent='';
+  }
 }
 function refreshAuthorGrids(){
   if(!authorGridsBuilt) return;
@@ -668,6 +699,8 @@ function setViewMode(mode){
   document.getElementById('vtStructure').classList.toggle('active', mode==='structure');
   document.getElementById('vtDevice').classList.toggle('active', mode==='device');
   document.querySelector('.legend').classList.toggle('structure-only', mode==='structure');
+  const aleg=document.getElementById('authorLegend');
+  if(aleg) aleg.classList.toggle('structure-only', mode==='structure');
   // Re-render every glyph in place (cheap: 100 small SVG strings). The
   // zoomed cell (if any) may be showing the text tier instead of bars —
   // applyCellZoomTier() re-derives the right content for it either way.
