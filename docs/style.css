@@ -40,7 +40,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 .hd p{font-size:.78rem;color:#888;margin:.35rem auto 0;font-style:italic;max-width:52rem;}
 .toggles-row{
   display:flex;align-items:center;justify-content:center;gap:1.4rem;
-  margin-top:.6rem;flex-wrap:wrap;
+  margin-top:1.4rem;flex-wrap:wrap;
 }
 .toggle-group{display:flex;align-items:center;gap:.5rem;}
 .toggle-label{font-family:'Inter',system-ui,sans-serif;font-size:.66rem;font-weight:600;
@@ -322,8 +322,11 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   display:grid;
   grid-template-columns:repeat(10,1fr);
   grid-template-rows:repeat(10,1fr);
+  grid-auto-flow:column;
+  direction:rtl;
   gap:4px;width:100%;
 }
+.author-cell{direction:ltr;}
 .author-cell{
   cursor:pointer;overflow:hidden;
   transition:transform .1s ease;
