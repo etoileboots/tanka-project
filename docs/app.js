@@ -275,18 +275,20 @@ function setLayoutMode(mode){
 // reserved 2×2 block at rows 7–8 / cols 12–13 — same footprint the old
 // auto-flow dense layout produced, but deterministic so the row-zoom
 // interaction can look up "which cells are in row N" directly.
-// Column-major: poem 1 at col1/row1, poem 2 at col1/row2, ... poem 8 at
-// col1/row8, poem 9 at col2/row1, and so on — reads top-to-bottom within a
-// column before moving to the next column. Skips the legend's reserved 2×2
-// block (rows 7–8, cols 12–13), so columns 12 and 13 only get 6 poems each.
+// Column-major, right-to-left (mirroring Japanese reading order): poem 1 at
+// col13/row1, poem 2 at col13/row2, ..., poem 8 at col13/row8, poem 9 at
+// col12/row1, and so on — reads top-to-bottom within a column, columns
+// advance right→left. Skips the legend's reserved 2×2 block at the
+// bottom-LEFT corner (rows 7–8, cols 1–2), so those two columns only get
+// 6 poems each.
 function nextGridPos(state, gridCols, gridRows){
-  while(state.row>=gridRows-1 && state.col>=gridCols-1 && state.col<=gridCols){
+  while(state.row>=gridRows-1 && state.col<=2){
     state.row++;
-    if(state.row>gridRows){state.row=1;state.col++;}
+    if(state.row>gridRows){state.row=1;state.col--;}
   }
   const pos={row:state.row,col:state.col};
   state.row++;
-  if(state.row>gridRows){state.row=1;state.col++;}
+  if(state.row>gridRows){state.row=1;state.col--;}
   return pos;
 }
 
@@ -302,12 +304,11 @@ function buildGrid(){
   grid.querySelectorAll('.pc').forEach(el=>el.remove());
   const dims=computeGridDims();
   GRID_COLS=dims.cols; GRID_ROWS=dims.rows;
-  // .legend itself no longer needs positioning here — it's a sibling of
-  // #grid now (see index.html), pinned via CSS position:absolute to the
-  // same bottom-right corner in both orientations, not a grid item that
-  // needs its column/row recomputed per layout. nextGridPos still reserves
-  // that same 2×2 corner via GRID_COLS/GRID_ROWS below either way.
-  const state={row:1,col:1};
+  // .legend is a sibling of #grid (see index.html), pinned via CSS
+  // position:absolute to the bottom-LEFT corner in both orientations —
+  // right-to-left fill means the "end" of the text lands at the left.
+  // nextGridPos reserves that same 2×2 corner.
+  const state={row:1,col:GRID_COLS};
   POEMS.forEach(poem=>{
     const {row,col}=nextGridPos(state, GRID_COLS, GRID_ROWS);
     const cell=document.createElement('div');

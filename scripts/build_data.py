@@ -9,8 +9,8 @@ Inputs (all under the project root):
   data/annotations/translations/poem_NNN.json — per-translator analysis
 
 Output:
-  data/poems.json — fetched at runtime by the static site (see app.js).
-  data/prompts.json — the system-prompt text shown on prompts.html.
+  docs/data/poems.json — fetched at runtime by the static site (see docs/app.js).
+  docs/data/prompts.json — the system-prompt text shown on docs/prompts.html.
 
 Usage:
   python3 scripts/build_data.py
@@ -659,7 +659,7 @@ def write_prompts(site_dir):
 
 
 def main():
-    site_dir = ROOT
+    site_dir = os.path.join(ROOT, "docs")
 
     data = compute_data()
     write_site_data(data, site_dir)

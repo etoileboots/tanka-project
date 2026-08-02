@@ -130,14 +130,13 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   grid-auto-flow:dense;
 }
 
-/* Legend — occupies the bottom-right 2×2 corner of .grid-clip (matching
-   the same 2×2 block nextGridPos() in app.js still reserves when placing
-   poems), but as a sibling of #grid rather than a child — position:
-   absolute here, not a grid-column/row placement, is what keeps it OUT of
-   #grid's own zoom transform, so it neither scales nor pans away and
-   stays visible/in-place at every zoom level. */
+/* Legend — occupies the bottom-LEFT 2×2 corner of .grid-clip: right-to-left
+   fill means the "end" of the anthology lands at the left, so the legend
+   sits where the last poems finish rather than where reading begins. Sibling
+   of #grid (not a child) so it stays outside #grid's zoom transform and
+   remains visible/in-place at every zoom level. */
 .legend{
-  position:absolute;right:0;bottom:0;
+  position:absolute;left:0;bottom:0;
   width:calc(var(--cell)*2 + var(--gap));height:calc(var(--cell)*2 + var(--gap));
   padding:1.15rem 1.25rem;font-size:.6rem;line-height:1.5;
   font-family:'Inter',system-ui,sans-serif;font-weight:300;
