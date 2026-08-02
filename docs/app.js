@@ -30,8 +30,8 @@ function init(){
 
 const DCOLORS=[C.kakekotoba,C.makurakotoba,C.kigo];
 
-const TRANS_LBLS=['D','N','M','P'];
-const TRANS_NAMES={D:'F.V. Dickens 1866',N:'Noguchi 1907',M:'MacCauley 1917',P:'Porter 1909'};
+const TRANS_LBLS=['D','M','N','P'];
+const TRANS_NAMES={D:'F.V. Dickins 1866',M:'MacCauley 1899',N:'Noguchi 1907',P:'Porter 1909'};
 
 // ── Placeholder for poems with no AI annotation yet ────────────────────────
 // Deliberately carries NO fabricated structure: bar lengths come from the
@@ -50,9 +50,12 @@ function mkPlaceholder(n){
 }
 
 // ── Real data for analyzed poems ───────────────────────────────────────────
+const BAR_ORDER=['O','D','M','N','P'];
 const POEMS=Array.from({length:100},(_,i)=>{
   const n=i+1;
-  return REAL_DATA[n]||mkPlaceholder(n);
+  const poem=REAL_DATA[n]||mkPlaceholder(n);
+  poem.bars.sort((a,b)=>BAR_ORDER.indexOf(a.lbl)-BAR_ORDER.indexOf(b.lbl));
+  return poem;
 });
 
 // ── SVG bar rendering ──────────────────────────────────────────────────────
@@ -160,12 +163,20 @@ function glyph(poem, withTips){
     }
     parts.push('</g>');
   });
+  // At zoom level 1 (withTips) show translator initial above each bar.
+  const HDR = withTips ? 10 : 0;
+  if(withTips){
+    poem.bars.forEach((bar,bi)=>{
+      const cx=f(BAR_X[bi]+BAR_W[bi]/2);
+      parts.push(`<text x="${cx}" y="-2" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="6.5" font-weight="600" fill="#555">${escHtml(bar.lbl)}</text>`);
+    });
+  }
   // xMidYMid (not xMinYMin) — the zoom card's "bars" body is header-height
   // minus the cell's full height, so it's rarely exactly square anymore.
   // Anchoring at the min corner left the bars visibly clustered toward
   // one side with dead space on the other; centering the viewBox in
   // whichever dimension is smaller keeps them centered regardless.
-  return `<svg width="100%" height="100%" viewBox="0 0 ${SVG_W_BARS} ${DIM}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">${parts.join('')}</svg>`;
+  return `<svg width="100%" height="100%" viewBox="0 ${withTips?`-${HDR}`:0} ${SVG_W_BARS} ${DIM+HDR}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">${parts.join('')}</svg>`;
 }
 
 // Renders ONE bar (not all five) at full cell height — used by the By-Author
@@ -213,9 +224,9 @@ function glyphOneBar(poem, bi){
 // translator's 100 poems, for corpus-wide comparison instead of poem-by-poem.
 const AUTHOR_SLOTS=[
   {key:'O', label:'原文 Source'},
-  {key:'D', label:'F.V. Dickens 1866'},
-  {key:'N', label:'Noguchi 1907'},
+  {key:'D', label:'F.V. Dickins 1866'},
   {key:'M', label:'MacCauley 1917'},
+  {key:'N', label:'Noguchi 1907'},
   {key:'P', label:'Porter 1909'},
 ];
 let authorGridsBuilt=false;
@@ -588,7 +599,7 @@ function openModal(n){
 
   // ── EN panel ──────────────────────────────────────────────────────────
   // Reference order: Dickens, Noguchi, Porter, MacCauley
-  const MODAL_ORDER=['D','N','M','P'];
+  const MODAL_ORDER=['D','M','N','P'];
   // Per-line ku colors from the translation bar data
   const kuColor={kami:C.kami,shimo:C.shimo,imagined:C.imagined};
   const enP=document.getElementById('enPanel');
@@ -643,7 +654,7 @@ document.addEventListener('keydown',e=>{
   // so repeated Down presses eventually land back on the plain grid.
   if(e.key==='ArrowDown' && currentN && zoomedCell){
     closeModal();
-    setZoomLevel(zoomLevel - ZOOM_STEP);
+    stepZoom(-1);
   }
 });
 document.getElementById('overlay').addEventListener('click',e=>{
@@ -692,6 +703,18 @@ const grid = document.getElementById('grid');
 // page. Resting/hover (level 0) shows neither bars — just the poem number
 // and poet — so there's something to reveal by zooming.
 const ZOOM_STEP = 25;
+// Skip level 2 (50) — jump directly between level 1 (25) and level 3 (75).
+function stepZoom(dir){
+  if(dir>0){
+    if(zoomLevel<25) setZoomLevel(25);
+    else if(zoomLevel<75) setZoomLevel(75);
+    else setZoomLevel(100);
+  } else {
+    if(zoomLevel>75) setZoomLevel(75);
+    else if(zoomLevel>25) setZoomLevel(25);
+    else setZoomLevel(0);
+  }
+}
 // The literal window IS the camera zoom — the grid's own transform:scale is
 // set so exactly this many cells (the focal poem plus its buffer) fill
 // .gw, magnifying every cell together (focal AND neighbors, in sync) like
@@ -1116,7 +1139,7 @@ document.addEventListener('keydown', e=>{
   if(!zoomedCell) return;
   if(e.key==='ArrowUp' || e.key==='ArrowDown'){
     e.preventDefault();
-    setZoomLevel(zoomLevel + (e.key==='ArrowUp' ? ZOOM_STEP : -ZOOM_STEP));
+    stepZoom(e.key==='ArrowUp' ? 1 : -1);
     return;
   }
   const deltas = {ArrowRight:[0,1], ArrowLeft:[0,-1]};
@@ -1156,7 +1179,7 @@ const INTRO_STEPS = [
       </div>
       <p>The leftmost bar (<strong>O</strong>) is the original Japanese poem.
       The four beside it are the translators — Dickens (1866), Noguchi (1907),
-      McCauley (1917), and Porter (1909) — sized by how many lines each one
+      McCauley (1899), and Porter (1909) — sized by how many lines each one
       used.</p>
       <div class="intro-swatches">
         <div class="intro-swatch-row"><div class="intro-swatch" style="background:${C?.kami||'#2E9E6B'}"></div>Kami-no-ku — the poem's first half</div>
