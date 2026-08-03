@@ -1,10 +1,4 @@
 {
-  "Dickens": {
-    "translator_strategy": "Dickens prioritizes English rhyme and metrical flow (an octosyllabic rhymed sestet) over literal fidelity, freely adding explanatory or atmospheric details (hill-side, twilight's chilly hour) and substituting a familiar English tree (yew) for the unfamiliar maki to naturalize the poem for a Victorian readership.",
-    "overall_fidelity": "medium",
-    "poem_number": 87,
-    "translator": "Dickens"
-  },
   "Noguchi": {
     "bipartite": {
       "preserved": "displaced",
@@ -214,5 +208,89 @@
     "overall_fidelity": "medium",
     "poem_number": 87,
     "translator": "McCauley"
+  },
+  "Dickens": {
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5,
+        6
+      ],
+      "relationship_type": "causal-physical",
+      "note": "The translation preserves the causal-physical logic: the shower passes leaving drops undried on the yew-leaves (kami), and this directly leads into the rising mist on the hillside at autumn evening (shimo). The syntax uses 'and lo! there creeps' as a connective marking the causal-temporal sequence, matching the source's chain of shower->dew->mist->evening."
+    },
+    "kakekotoba": [],
+    "makurakotoba": [],
+    "kigo": {
+      "preserved": "explicit",
+      "en_equivalent": "autumn e'en",
+      "note": "The season is named directly ('autumn e'en') and reinforced with 'twilight's chilly hour,' which supplies the desolate, damp atmosphere of the Shinkokinshu's canonical autumn-evening sabishisa, though the phrase is split across two lines (5-6) rather than delivered as a single cadence."
+    },
+    "line_mapping": {
+      "entries": [
+        {
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "The passing shower sweeps onward (murasame)",
+          "origin": "source"
+        },
+        {
+          "en_line": 2,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Not yet dried upon the yew-leaves (dew still on maki leaves)",
+          "origin": "source"
+        },
+        {
+          "en_line": 3,
+          "jp_ku": [
+            2,
+            3
+          ],
+          "content_summary": "Its scattered drops, and the mist begins to creep/rise",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "The rising mist up the hillside",
+          "origin": "extrapolated"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Of autumn evening",
+          "origin": "source"
+        },
+        {
+          "en_line": 6,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "Seen at twilight's chilly hour",
+          "origin": "extrapolated"
+        }
+      ],
+      "confidence": "medium",
+      "structural_note": "The translator expands the five ku into six rhymed lines, adding 'hill-side' (not in the source, which only says maki-leaves) and 'chilly hour' as an interpretive gloss on the desolate mood of aki no yugure; the kami/shimo boundary is roughly preserved between lines 3 and 4 but blurred by enjambment ('and lo! there creeps' bridging kami and shimo)."
+    },
+    "translator_strategy": "Dickens prioritizes English rhymed-verse form (a b a b + couplet) and readability, expanding the compact waka into six metrical lines with added connective and atmospheric phrases ('lo!', 'hill-side', 'chilly hour') while still preserving the poem's causal shower-to-mist sequence and explicit naming of autumn evening.",
+    "overall_fidelity": "medium",
+    "poem_number": 87,
+    "translator": "Dickens"
   }
 }

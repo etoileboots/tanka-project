@@ -2,11 +2,9 @@
   "poem_number": 52,
   "source": {
     "kami_shimo_boundary": {
-      "status": "corrected",
+      "status": "confirmed",
       "original": {},
-      "corrected": {
-        "kamiEnd": 18
-      },
+      "corrected": null,
       "reviewed_at": "2026-07-28T03:31:44.087301+00:00"
     },
     "devices": {

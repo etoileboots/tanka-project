@@ -25,7 +25,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # ── Paths ────────────────────────────────────────────────────────────────────
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
 
 CSV_PATH   = ROOT / "data/poems_clean.csv"   # poet, JP source/romaji, 4 translations — 100 poems

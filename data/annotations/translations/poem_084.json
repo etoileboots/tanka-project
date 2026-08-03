@@ -267,100 +267,98 @@
     "translator": "Porter"
   },
   "McCauley": {
-    "translation": {
-      "line_mapping": {
-        "entries": [
-          {
-            "en_line": 1,
-            "jp_ku": [
-              1
-            ],
-            "content_summary": "conditional 'if I long should live' translates ながらへば",
-            "origin": "source"
-          },
-          {
-            "en_line": 2,
-            "jp_ku": [
-              2
-            ],
-            "content_summary": "'the present days' renders またこの頃や",
-            "origin": "source"
-          },
-          {
-            "en_line": 3,
-            "jp_ku": [
-              3
-            ],
-            "content_summary": "'may be dear to me' renders しのばれむ (the fond remembering)",
-            "origin": "source"
-          },
-          {
-            "en_line": 4,
-            "jp_ku": [
-              4
-            ],
-            "content_summary": "'past time fraught with grief' renders 憂しと見し世ぞ",
-            "origin": "source"
-          },
-          {
-            "en_line": 5,
-            "jp_ku": [
-              5
-            ],
-            "content_summary": "'now comes fondly back in thought' renders 今は恋しき",
-            "origin": "source"
-          }
-        ],
-        "confidence": "high",
-        "structural_note": "One-to-one mapping of each English line to a single ku, preserving the original five-part structure almost exactly; no compression or inversion."
-      },
-      "bipartite": {
-        "preserved": "preserved",
-        "kami_lines": [
-          1,
-          2,
-          3
-        ],
-        "shimo_lines": [
-          4,
-          5
-        ],
-        "relationship_type": "paradox",
-        "note": "The translation keeps the conditional-future musing in lines 1-3 (kami) followed by the retrospective realization in lines 4-5 (shimo), with 'just as' explicitly signalling the analogy/parallel that constitutes the paradoxical loop of the original: present-hated-become-future-beloved mirrors past-hated-now-beloved."
-      },
-      "kakekotoba": [
+    "poem_number": 84,
+    "translator": "McCauley",
+    "line_mapping": {
+      "entries": [
         {
-          "original_word": "ながらへば",
-          "reading_preserved": "primary_only",
-          "method": "literal_primary",
-          "en_equivalent": "long should live",
-          "note": "The verb is translated straightforwardly as 'to live long', capturing the primary meaning of survival/duration; the embedded 'なが' (long) root echo is not distinctly rendered as a separate pun, though the word 'long' happens to appear, coincidentally overlapping with the root's semantic association rather than functioning as a deliberate wordplay."
+          "en_line": 1,
+          "jp_ku": [
+            1
+          ],
+          "content_summary": "conditional 'if I long should live' translates ながらへば",
+          "origin": "source"
         },
         {
-          "original_word": "世",
-          "reading_preserved": "primary_only",
-          "method": "literal_primary",
-          "en_equivalent": "past time",
-          "note": "世 is rendered as 'past time', capturing the life-circumstance/era sense; no night-echo is present or intended, consistent with the source's own low-confidence flagging of this as not truly activated."
+          "en_line": 2,
+          "jp_ku": [
+            2
+          ],
+          "content_summary": "'the present days' renders またこの頃や",
+          "origin": "source"
         },
         {
-          "original_word": "憂しと見し世ぞ",
-          "reading_preserved": "primary_only",
-          "method": "literal_primary",
-          "en_equivalent": "fraught with grief",
-          "note": "The phrase is rendered as 'past time fraught with grief', preserving the direct 憂し (painful) sense; no floating/浮き imagery is introduced, matching the source analysis's own conclusion that this pivot is not truly double in this poem."
+          "en_line": 3,
+          "jp_ku": [
+            3
+          ],
+          "content_summary": "'may be dear to me' renders しのばれむ (the fond remembering)",
+          "origin": "source"
+        },
+        {
+          "en_line": 4,
+          "jp_ku": [
+            4
+          ],
+          "content_summary": "'past time fraught with grief' renders 憂しと見し世ぞ",
+          "origin": "source"
+        },
+        {
+          "en_line": 5,
+          "jp_ku": [
+            5
+          ],
+          "content_summary": "'now comes fondly back in thought' renders 今は恋しき",
+          "origin": "source"
         }
       ],
-      "makurakotoba": [],
-      "kigo_handling": {
-        "preserved": "omitted",
-        "en_equivalent": "",
-        "note": "As the source poem itself contains no seasonal word or imagery (it is a 雑/miscellaneous reflective poem), the translation correctly contains no seasonal signal either — there is no dew, leaves, moon, or other nature imagery introduced or lost; the absence is faithful to the source's lack of kigo."
-      },
-      "translator_strategy": "McCauley aims for a highly literal, line-by-line rendering that mirrors the five-ku structure and preserves the conditional-then-retrospective logical architecture of the original almost exactly, using explicit connective phrasing ('Just as') to make the implicit parallel/paradox of the waka clear to an English reader.",
-      "overall_fidelity": "high"
+      "confidence": "high",
+      "structural_note": "One-to-one mapping of each English line to a single ku, preserving the original five-part structure almost exactly; no compression or inversion."
     },
-    "poem_number": 84,
-    "translator": "McCauley"
+    "bipartite": {
+      "preserved": "preserved",
+      "kami_lines": [
+        1,
+        2,
+        3
+      ],
+      "shimo_lines": [
+        4,
+        5
+      ],
+      "relationship_type": "paradox",
+      "note": "The translation keeps the conditional-future musing in lines 1-3 (kami) followed by the retrospective realization in lines 4-5 (shimo), with 'just as' explicitly signalling the analogy/parallel that constitutes the paradoxical loop of the original: present-hated-become-future-beloved mirrors past-hated-now-beloved."
+    },
+    "kakekotoba": [
+      {
+        "original_word": "ながらへば",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "long should live",
+        "note": "The verb is translated straightforwardly as 'to live long', capturing the primary meaning of survival/duration; the embedded 'なが' (long) root echo is not distinctly rendered as a separate pun, though the word 'long' happens to appear, coincidentally overlapping with the root's semantic association rather than functioning as a deliberate wordplay."
+      },
+      {
+        "original_word": "世",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "past time",
+        "note": "世 is rendered as 'past time', capturing the life-circumstance/era sense; no night-echo is present or intended, consistent with the source's own low-confidence flagging of this as not truly activated."
+      },
+      {
+        "original_word": "憂しと見し世ぞ",
+        "reading_preserved": "primary_only",
+        "method": "literal_primary",
+        "en_equivalent": "fraught with grief",
+        "note": "The phrase is rendered as 'past time fraught with grief', preserving the direct 憂し (painful) sense; no floating/浮き imagery is introduced, matching the source analysis's own conclusion that this pivot is not truly double in this poem."
+      }
+    ],
+    "makurakotoba": [],
+    "kigo_handling": {
+      "preserved": "omitted",
+      "en_equivalent": "",
+      "note": "As the source poem itself contains no seasonal word or imagery (it is a 雑/miscellaneous reflective poem), the translation correctly contains no seasonal signal either — there is no dew, leaves, moon, or other nature imagery introduced or lost; the absence is faithful to the source's lack of kigo."
+    },
+    "translator_strategy": "McCauley aims for a highly literal, line-by-line rendering that mirrors the five-ku structure and preserves the conditional-then-retrospective logical architecture of the original almost exactly, using explicit connective phrasing ('Just as') to make the implicit parallel/paradox of the waka clear to an English reader.",
+    "overall_fidelity": "high"
   }
 }

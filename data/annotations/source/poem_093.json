@@ -43,10 +43,10 @@
   "bipartite": {
     "kami_ku": [
       1,
-      2
+      2,
+      3
     ],
     "shimo_ku": [
-      3,
       4,
       5
     ],
