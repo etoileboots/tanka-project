@@ -1,6 +1,6 @@
 *,*::before,*::after{box-sizing:border-box;}
 html,body{height:100%;margin:0;overflow:hidden;background:#fff;
-  font-family:system-ui,-apple-system,sans-serif;}
+  font-family:'JetBrains Mono',monospace;}
 
 /* Spec: cell=82pt, gap=21pt, margin=50pt → ratios cell:gap=3.905, margin:gap=2.381
    Scale so grid+margins fit inside available viewport (width and height).
@@ -35,7 +35,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 
 /* Header */
 .hd{flex-shrink:0;text-align:center;padding:.9rem 1rem .6rem;}
-.hd h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.1rem,2.2vw,1.6rem);
+.hd h1{font-family:'JetBrains Mono',monospace;font-size:clamp(1.1rem,2.2vw,1.6rem);
   font-weight:700;margin:0;letter-spacing:-.01em;}
 .hd p{font-size:.78rem;color:#888;margin:.35rem auto 0;font-style:italic;max-width:52rem;}
 .toggles-row{
@@ -43,13 +43,13 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   margin-top:1.4rem;flex-wrap:wrap;
 }
 .toggle-group{display:flex;align-items:center;gap:.5rem;}
-.toggle-label{font-family:'Inter',system-ui,sans-serif;font-size:.66rem;font-weight:600;
+.toggle-label{font-family:'JetBrains Mono',monospace;font-size:.66rem;font-weight:600;
   letter-spacing:.06em;text-transform:uppercase;color:#999;}
 /* Plain text options separated by "/", not a pill/button group — the
    chosen one is just darker/bolder, nothing gets a filled background. */
 .view-toggle{display:flex;align-items:center;gap:.4rem;}
 .vt-btn{
-  border:none;background:none;padding:0;font-family:Georgia,"Times New Roman",serif;
+  border:none;background:none;padding:0;font-family:'JetBrains Mono',monospace;
   font-size:.82rem;font-weight:400;color:#aaa;cursor:pointer;transition:color .12s;
 }
 .vt-btn+.vt-btn::before{content:'/';margin-right:.4rem;color:#ccc;font-weight:400;}
@@ -57,7 +57,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 .vt-btn.active{color:#111;font-weight:700;}
 .poem-jump{
   width:3.2rem;border:none;border-bottom:1px solid #ddd;background:none;
-  font-family:Georgia,"Times New Roman",serif;font-size:.82rem;color:#111;
+  font-family:'JetBrains Mono',monospace;font-size:.82rem;color:#111;
   text-align:center;padding:.1rem .2rem;outline:none;-moz-appearance:textfield;
 }
 .poem-jump::-webkit-inner-spin-button,.poem-jump::-webkit-outer-spin-button{-webkit-appearance:none;}
@@ -101,7 +101,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 .row-rail-r{grid-column:2;grid-row:2;}
 .nav-btn{
   border:none;background:none;padding:0;
-  font-family:'Inter',system-ui,sans-serif;font-size:.66rem;font-weight:500;
+  font-family:'JetBrains Mono',monospace;font-size:.66rem;font-weight:500;
   color:#111;cursor:pointer;transition:opacity .15s,color .12s;
   display:flex;align-items:center;justify-content:center;
   opacity:0;pointer-events:none;
@@ -140,7 +140,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   position:absolute;left:0;bottom:0;
   width:calc(var(--cell)*2 + var(--gap));height:calc(var(--cell)*2 + var(--gap));
   padding:1.15rem 1.25rem;font-size:.6rem;line-height:1.5;
-  font-family:'Inter',system-ui,sans-serif;font-weight:300;
+  font-family:'JetBrains Mono',monospace;font-weight:300;
   display:flex;flex-direction:column;justify-content:center;
   background:#fff;
 }
@@ -189,7 +189,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
    absolute overlay positioning needed since it's the only content. */
 .zc-hover-lbl{
   width:100%;height:100%;display:flex;align-items:center;justify-content:center;
-  text-align:center;font-family:'Inter',system-ui,sans-serif;font-weight:700;
+  text-align:center;font-family:'JetBrains Mono',monospace;font-weight:700;
   font-size:7.5px;color:#333;padding:2px;pointer-events:none;
   overflow:hidden;word-break:break-word;
 }
@@ -231,14 +231,14 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 .zc-book-divider{width:1px;background:#e4e1db;align-self:stretch;flex-shrink:0;}
 .zc-book-en{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px;}
 .zc-book-title{
-  font-family:'Ibarra Real Nova',Georgia,serif;font-weight:700;
+  font-family:'JetBrains Mono',monospace;font-weight:700;
   font-size:7px;color:#111;text-align:center;margin-bottom:2px;
 }
 .zc-book-block{display:flex;flex-direction:column;gap:1px;}
 /* font-size set inline per-poem (see renderZcBook in app.js), proportional
    to that column's own body-text size — a fixed size here made the label
    look much bigger than the actual poem text once the body shrank to fit. */
-.zc-book-lbl{font-family:'Inter',system-ui,sans-serif;font-weight:700;color:#888;}
+.zc-book-lbl{font-family:'JetBrains Mono',monospace;font-weight:700;color:#888;}
 .zc-book-lines{font-family:'Ibarra Real Nova',Georgia,serif;color:#333;line-height:1.4;word-break:break-word;}
 /* Keep each line's underline aligned with its text. */
 .zc-book-line{
@@ -314,7 +314,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   flex:0 0 clamp(180px,17vw,280px);
 }
 .author-panel-label{
-  font-family:'Ibarra Real Nova',Georgia,serif;font-weight:700;font-size:.85rem;color:#333;
+  font-family:'JetBrains Mono',monospace;font-weight:700;font-size:.85rem;color:#333;
   text-align:center;white-space:nowrap;flex-shrink:0;
 }
 .author-mini-grid{
@@ -342,7 +342,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   padding:.35rem 1rem;
   border-top:1px solid #eee;
   font-size:.6rem;line-height:1.5;
-  font-family:'Inter',system-ui,sans-serif;font-weight:300;
+  font-family:'JetBrains Mono',monospace;font-weight:300;
 }
 .author-legend strong{font-size:.58rem;font-weight:700;
   letter-spacing:.05em;text-transform:uppercase;color:#111;}
@@ -372,7 +372,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 .total-seg{cursor:pointer;transition:opacity .08s;}
 .total-panel-count{
   flex-shrink:0;
-  font-family:'Inter',system-ui,sans-serif;font-size:.58rem;font-weight:300;
+  font-family:'JetBrains Mono',monospace;font-size:.58rem;font-weight:300;
   color:#888;text-align:center;padding-top:.25rem;
 }
 .total-grids[data-hl] .total-seg:not(.total-hl){opacity:.2;}
@@ -381,7 +381,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 #totalSegInfo{min-height:1.5em;line-height:1.5;}
 
 .author-poem-info{
-  font-family:'Ibarra Real Nova',Georgia,serif;font-weight:700;font-size:.72rem;
+  font-family:'JetBrains Mono',monospace;font-weight:700;font-size:.72rem;
   color:#111;letter-spacing:.01em;
   margin-right:.5rem;padding-right:.75rem;border-right:1px solid #ddd;
   min-width:8rem;white-space:nowrap;
@@ -408,7 +408,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   text-align:center;flex:1;min-width:0;padding:0 1rem;
 }
 .modal-title-main{
-  font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.1rem,2.2vw,1.6rem);
+  font-family:'JetBrains Mono',monospace;font-size:clamp(1.1rem,2.2vw,1.6rem);
   font-weight:bold;color:#111;line-height:1.2;
 }
 .modal-title-sub{
@@ -545,7 +545,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   padding:.6rem 1.5rem 1.2rem;
   border-top:1px solid #eee;
   font-size:.78rem;line-height:1.5;
-  font-family:'Inter',system-ui,sans-serif;font-weight:300;color:#444;
+  font-family:'JetBrains Mono',monospace;font-weight:300;color:#444;
 }
 .jp-legend .lgd-items{
   display:flex;flex-direction:row;flex-wrap:wrap;
@@ -573,7 +573,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 /* No border-bottom under the translator's name — it read as a divider
    line the block didn't need. */
 .trans-label{
-  font-family:'Inter',system-ui,sans-serif;font-size:.72rem;font-weight:700;
+  font-family:'JetBrains Mono',monospace;font-size:.72rem;font-weight:700;
   letter-spacing:.03em;color:#888;margin-bottom:.4rem;
 }
 .trans-lines{display:flex;flex-direction:column;}
@@ -643,7 +643,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   transform:translate(0,-50%);
   background:rgba(20,20,20,.94);color:#fff;
   border-radius:4px;padding:.35rem .6rem;
-  font-family:'Inter',system-ui,sans-serif;font-size:.72rem;font-weight:500;
+  font-family:'JetBrains Mono',monospace;font-size:.72rem;font-weight:500;
   white-space:nowrap;max-width:16rem;white-space:normal;
   box-shadow:0 2px 10px rgba(0,0,0,.25);
 }
@@ -659,49 +659,91 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 .intro-overlay.open{display:flex;}
 .intro-card{
   position:relative;background:#fff;border-radius:10px;
-  width:min(30rem,90vw);max-height:85vh;overflow-y:auto;
-  padding:2rem 2.2rem 1.4rem;
+  width:min(30rem,84vw);height:auto;max-height:90vh;
+  display:flex;flex-direction:column;
+  padding:1.4rem 1.8rem 1.2rem;
   box-shadow:0 10px 40px rgba(0,0,0,.25);
+  overflow:visible;
 }
-.intro-steps{min-height:12rem;}
+.intro-header{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:.75rem;margin-bottom:.3rem;flex-shrink:0;
+}
+.intro-header-btns{display:flex;align-items:center;gap:.6rem;flex-shrink:0;}
+.intro-title{
+  font-family:'JetBrains Mono',monospace;font-size:1rem;font-weight:700;
+  color:#111;margin:0;flex:1;
+}
+.intro-steps{display:block;}
 .intro-step{display:none;}
 .intro-step.active{display:block;}
-.intro-step h2{
-  font-family:Georgia,"Times New Roman",serif;font-size:1.15rem;margin:0 0 .8rem;color:#111;
-}
-.intro-step p{font-size:.88rem;line-height:1.6;color:#444;margin:0 0 .8rem;}
+.intro-step p{font-size:.84rem;line-height:1.55;color:#444;margin:0 0 .65rem;text-align:left;}
 .intro-step strong{color:#222;}
-.intro-bars-demo{
-  display:flex;align-items:flex-end;gap:.9rem;justify-content:center;
-  padding:1rem 0;
-}
-.intro-bars-demo .lbl{
-  display:flex;flex-direction:column;align-items:center;gap:.35rem;
-  font-size:.7rem;color:#888;font-weight:600;
-}
-.intro-bar{width:14px;border-radius:6px;}
-.intro-swatches{display:flex;flex-direction:column;gap:.45rem;margin-top:.4rem;}
-.intro-swatch-row{display:flex;align-items:center;gap:.55rem;font-size:.82rem;color:#444;line-height:1.4;}
-.intro-swatch{width:12px;height:12px;border-radius:2px;flex-shrink:0;}
-.intro-nav{display:flex;align-items:center;justify-content:space-between;margin-top:.6rem;}
-.intro-dots{display:flex;gap:.4rem;}
-.intro-dot{width:6px;height:6px;border-radius:50%;background:#ddd;}
-.intro-dot.active{background:#1D7058;}
-.intro-btns{display:flex;gap:.6rem;}
-/* Only used by the intro walkthrough's Back/Next now — the modal's own
-   prev/next became plain .mnav-arrow (no box) per its own design; the
-   intro dialog's buttons still want the boxed/pill look. */
-.mbtn{padding:.3rem .75rem;border-radius:4px;border:1px solid #d0cdc8;
+.intro-swatches{display:flex;flex-direction:column;gap:.4rem;margin:.2rem 0 .55rem;}
+.intro-swatch-row{font-size:.82rem;color:#444;line-height:1.55;margin-bottom:.3rem;}
+.intro-dots{display:flex;gap:.4rem;margin:0 0 .75rem;flex-shrink:0;}
+.intro-dot{width:6px;height:6px;border-radius:50%;background:#ddd;transition:background .2s;}
+.intro-dot.active{background:var(--dc,#2E9E6B);}
+.mbtn{padding:.3rem .75rem;border-radius:4px;border:none;
   background:#fff;cursor:pointer;font-size:.8rem;font-weight:500;color:#444;
   transition:background .1s;}
 .mbtn:hover{background:#f0efe9;}
 .mbtn:disabled{opacity:.4;cursor:default;}
+/* Nav buttons styled like the header's view-toggle (plain text, no box) */
+.intro-nav-btn{
+  border:none;background:none;padding:0;
+  font-family:'JetBrains Mono',monospace;
+  font-size:.82rem;font-weight:400;color:#aaa;
+  cursor:pointer;transition:color .12s;
+}
+.intro-nav-btn:hover{color:#666;}
+.intro-nav-btn:disabled,.intro-nav-btn:disabled:hover{opacity:.35;color:#aaa;cursor:default;}
+.intro-nav-btn.primary{color:#111;font-weight:700;}
+.intro-nav-btn.primary:hover{color:#555;}
+
+/* ── Intro step 2: poem glance grid ── */
+.intro-poem-grid-2x2{
+  display:grid;
+  grid-template-rows:repeat(2,66px);
+  grid-auto-columns:66px;
+  grid-auto-flow:column;
+  gap:5px;width:fit-content;margin:.4rem auto;
+}
+.intro-mgc{
+  display:block;width:66px;height:66px;
+  border-radius:4px;cursor:default;
+  padding:2px;transition:background .12s;
+  position:relative;direction:ltr;
+}
+.intro-mgc:hover{background:#f2f0ea;}
+.intro-mgc::after{
+  content:attr(data-label);display:none;
+  position:absolute;bottom:calc(100% + 4px);left:50%;
+  transform:translateX(-50%);
+  background:#1a1a1a;color:#fff;
+  font-size:.6rem;line-height:1.35;
+  padding:.2rem .45rem;border-radius:3px;
+  white-space:nowrap;pointer-events:none;z-index:20;
+  font-family:'JetBrains Mono',monospace;
+}
+.intro-mgc:hover::after{display:block;}
+/* View-toggle inside intro card */
+.intro-step .view-toggle{justify-content:center;margin:.3rem 0 0;}
+
+/* ── Intro step 3: zoom demo ── */
+.intro-zoom-demo{
+  display:flex;justify-content:center;align-items:center;padding:.6rem 0 .3rem;
+}
+.intro-zoom-cell{
+  display:block;width:68px;height:68px;overflow:hidden;
+  border-radius:4px;transition:width .35s,height .35s;cursor:default;
+}
+.intro-zoom-cell.zoomed{width:168px;height:168px;}
+.intro-zoom-btns{display:flex;gap:2rem;justify-content:center;margin-top:.4rem;}
 .mbtn:disabled:hover{background:#fff;}
-.intro-primary{background:#1D7058;color:#fff;border-color:#1D7058;}
-.intro-primary:hover{background:#175c48;}
 .intro-close{
-  position:absolute;top:.7rem;right:.8rem;border:none;background:none;
-  font-size:1.1rem;color:#999;cursor:pointer;line-height:1;padding:.3rem;
+  border:none;background:none;
+  font-size:1.1rem;color:#999;cursor:pointer;line-height:1;padding:.3rem;flex-shrink:0;
 }
 .intro-close:hover{color:#444;}
 

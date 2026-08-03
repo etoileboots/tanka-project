@@ -4,7 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Comparative Translations of the Ogura Hyakunin Isshu</title>
-<link rel="stylesheet" href="style.css?v=78">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=82">
 </head>
 <body>
 <div class="page">
@@ -88,15 +91,16 @@
 <!-- First-visit walkthrough / reopenable guide -->
 <div class="intro-overlay" id="introOverlay">
   <div class="intro-card">
-    <div class="intro-steps" id="introSteps"></div>
-    <div class="intro-nav">
-      <div class="intro-dots" id="introDots"></div>
-      <div class="intro-btns">
-        <button class="mbtn" id="introBack">← Back</button>
-        <button class="mbtn intro-primary" id="introNext">Next →</button>
+    <div class="intro-header">
+      <h2 class="intro-title" id="introTitle"></h2>
+      <div class="intro-header-btns">
+        <button class="intro-nav-btn" id="introBack">← Previous</button>
+        <button class="intro-nav-btn primary" id="introNext">Next →</button>
+        <button class="mbtn-close intro-close" id="introClose" aria-label="Close">✕</button>
       </div>
     </div>
-    <button class="mbtn-close intro-close" id="introClose" aria-label="Close">✕</button>
+    <div class="intro-dots" id="introDots"></div>
+    <div class="intro-steps" id="introSteps"></div>
   </div>
 </div>
 
@@ -106,6 +110,6 @@
      as "the labels don't work" even though they were technically present. -->
 <div id="hoverTip" class="hover-tip"></div>
 
-<script src="app.js?v=86"></script>
+<script src="app.js?v=89"></script>
 </body>
 </html>

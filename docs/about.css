@@ -19,28 +19,41 @@
 html{background:#fff;}
 body{
   margin:0;background:#fff;color:#1a1a1a;
-  font-family:'Inter',system-ui,-apple-system,sans-serif;
+  font-family:'JetBrains Mono',monospace;
   font-weight:300;
   font-size:1.05rem;line-height:1.75;
 }
 
+/* Replicate the main-page grid's horizontal extent.
+   The grid's gap is min(vw/67.525, (vh-hd_h)/43) where hd_h ≈ 140px.
+   article max-width = grid-clip-width + 2×1.5rem inner padding so the
+   text content aligns with the grid clip's left/right edges. */
+:root{
+  --agap: min(calc(100vw / 67.525), calc((100vh - 140px) / 43));
+  --aclip: calc(var(--agap) * 62.765);
+}
+
 .article{
-  max-width:44rem;margin:0 auto;padding:3rem 1.5rem 6rem;
+  max-width:calc(var(--aclip) + 3rem);
+  margin:0 auto;
+  padding:1rem 1.5rem 6rem;
+  position:relative;
 }
 
 .back-link{
-  display:inline-block;margin-bottom:1.5rem;
+  position:absolute;top:1rem;left:1.5rem;
   font-size:.85rem;font-weight:500;color:#888;text-decoration:none;
 }
 .back-link:hover{color:#1a1a1a;}
 
 h1{
-  font-size:clamp(1.6rem,4vw,2.1rem);font-weight:700;letter-spacing:-.01em;
-  margin:0 0 .6rem;color:#111;text-wrap:balance;
+  font-family:'JetBrains Mono',monospace;
+  font-size:clamp(1.1rem,2.2vw,1.6rem);font-weight:700;letter-spacing:-.01em;
+  margin:0;color:#111;text-align:center;padding-top:2rem;
 }
 .lede{
-  font-size:.95rem;color:#666;font-weight:400;font-style:italic;margin:0 0 2.5rem;
-  line-height:1.6;
+  font-size:.78rem;color:#888;font-weight:400;font-style:italic;
+  margin:.35rem auto 2.5rem;line-height:1.6;text-align:center;
 }
 
 .toc{
@@ -73,33 +86,23 @@ a{color:#1a1a1a;}
 
 strong{font-weight:700;color:#111;}
 
-.pull-quote{
-  margin:1.5rem 0;padding:.9rem 1.4rem;
-  border-left:3px solid #e8e8e8;color:#555;font-weight:300;
-  font-style:italic;font-size:.98rem;
+.questions-list{
+  margin:1rem 0 1.1rem;padding-left:1.5rem;
+  display:flex;flex-direction:column;gap:.55rem;
+  font-weight:300;
 }
+.questions-list li{color:#444;font-size:.97rem;line-height:1.65;}
 
-.device-list{
-  display:flex;flex-direction:column;gap:.7rem;
-  margin:1.25rem 0;padding:1rem 1.25rem;
-  background:#fff;border:1px solid #e8e8e8;border-radius:8px;
+/* Shared figure style — no box, just image + caption */
+.poem-figure,.pipeline-figure{
+  margin:1.5rem auto;
 }
-.device-list-row{display:flex;align-items:baseline;gap:.6rem;}
-.device-swatch{
-  width:10px;height:10px;border-radius:2px;flex-shrink:0;
-  transform:translateY(-1px);
+.poem-figure img,.pipeline-figure img{
+  width:100%;display:block;border-radius:4px;
 }
-.device-list-row b{font-weight:700;color:#111;flex-shrink:0;}
-.device-list-row span{font-weight:300;color:#444;font-size:.96rem;}
-
-.flow-box{
-  margin:1.5rem 0;padding:1.5rem;
-  background:#fff;border:1px solid #e8e8e8;border-radius:8px;
-  overflow-x:auto;
-}
-.flow-box .mermaid{display:flex;justify-content:center;}
-.flow-caption{
-  margin-top:1.4rem;font-size:.82rem;font-weight:300;color:#888;font-style:italic;text-align:center;
+.poem-figure figcaption,.pipeline-figure figcaption{
+  margin-top:.6rem;
+  font-size:.82rem;font-weight:300;color:#555;line-height:1.5;
 }
 
 .credits-note{
@@ -117,12 +120,34 @@ strong{font-weight:700;color:#111;}
 #pass1, #pass2{
   white-space:pre-wrap;word-break:break-word;
   background:#1a1a1a;color:#e8e6e0;
-  font-family:'SF Mono',Menlo,Consolas,monospace;
+  font-family:'JetBrains Mono',monospace;
   font-size:.78rem;line-height:1.6;
   padding:1.25rem 1.4rem;border-radius:8px;
   max-height:32rem;overflow-y:auto;
   margin:0 0 1rem;
 }
+
+/* ── Coloured term spans ── */
+/* Uses span.term-X (specificity 0,1,1) so it beats .device-list-row span (also 0,1,1)
+   via source order — term rules are declared later in this file. */
+span.term-kami        { font-weight:700; text-decoration:underline; color:#2E9E6B; }
+span.term-shimo       { font-weight:700; text-decoration:underline; color:#E5503A; }
+span.term-imagined    { font-weight:700; text-decoration:underline; color:#6F63C9; }
+span.term-kakekotoba  { font-weight:700; text-decoration:underline; color:#D46CA0; }
+span.term-makurakotoba{ font-weight:700; text-decoration:underline; color:#4A96CC; }
+span.term-kigo        { font-weight:700; text-decoration:underline; color:#7AAD1E; }
+
+/* lede navigation links */
+.lede a{color:#888;font-weight:400;text-decoration:underline;text-decoration-color:#ccc;}
+.lede a:hover{color:#1a1a1a;text-decoration-color:#1a1a1a;}
+
+.sources-list{
+  margin:.5rem 0 0;padding-left:1.2rem;
+  display:flex;flex-direction:column;gap:.3rem;
+  font-weight:300;
+}
+.sources-list li{color:#444;}
+.sources-list a{color:#1a1a1a;font-weight:500;}
 
 @media (max-width:640px){
   .article{padding:2rem 1.25rem 4rem;}

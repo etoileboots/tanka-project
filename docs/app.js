@@ -225,7 +225,7 @@ function glyphOneBar(poem, bi){
 const AUTHOR_SLOTS=[
   {key:'O', label:'原文 Source'},
   {key:'D', label:'F.V. Dickins 1866'},
-  {key:'M', label:'MacCauley 1917'},
+  {key:'M', label:'MacCauley 1899'},
   {key:'N', label:'Noguchi 1907'},
   {key:'P', label:'Porter 1909'},
 ];
@@ -1348,63 +1348,106 @@ document.addEventListener('keydown', e=>{
 });
 
 // ── First-visit walkthrough ──────────────────────────────────────────────
-// Shown automatically once per browser (gated on localStorage), reopenable
-// anytime via the "?" button in the header. Mandatory in the sense that
-// there's no click-outside-to-dismiss on the backdrop — a visitor has to
-// either step through to the end or explicitly hit the ✕ — but the ✕ is
-// always present so nobody's ever truly trapped.
 const INTRO_SEEN_KEY = 'hyakuninIntroSeen';
+
+// Poem numbers shown in the intro glance grid (step 2) — real analyzed poems.
+const INTRO_GLANCE_NOS = [3, 4, 1, 2];
+
+const DOT_COLORS = ['#2E9E6B','#E5503A','#6F63C9','#F28FC0','#7EBBEE','#B4DE65'];
+
+window._introViewMode = 'device';
+window.setIntroPoemInfo = function(n, poet){
+  const el = document.getElementById('introGlanceInfo');
+  if(!el) return;
+  el.innerHTML = n
+    ? `<div class="igpi-n">Poem ${n}:</div><div class="igpi-poet">${poet}</div>`
+    : '<div class="igpi-hint">hover a poem</div>';
+};
+window.switchIntroView = function(mode){
+  window._introViewMode = mode;
+  const prev = viewMode;
+  viewMode = mode;
+  document.querySelectorAll('.intro-mgc[data-n]').forEach(el=>{
+    const poem = POEMS[+el.dataset.n - 1];
+    if(poem) el.innerHTML = glyph(poem, false);
+  });
+  viewMode = prev;
+  document.querySelectorAll('.intro-step.active .vt-btn[data-mode]').forEach(btn=>{
+    btn.classList.toggle('active', btn.dataset.mode===mode);
+  });
+};
+window.introZoomStep = function(dir){
+  const cell = document.getElementById('introZoomCell');
+  if(!cell) return;
+  const cur = +(cell.dataset.zoom||0);
+  const next = Math.max(0, Math.min(1, cur+dir));
+  if(next===cur) return;
+  cell.dataset.zoom = next;
+  cell.classList.toggle('zoomed', next>0);
+  const poem = POEMS[0];
+  const prev = viewMode;
+  viewMode = window._introViewMode||'device';
+  cell.innerHTML = glyph(poem, next>0);
+  viewMode = prev;
+};
 const INTRO_STEPS = [
   {
-    title: 'Comparative Translations of the Ogura Hyakunin Isshu',
-    body: `<p>This project compares four historic English translations of Japan's
-      classical <em>Ogura Hyakunin Isshu</em> — 100 poems compiled in the 13th
-      century — against their original Japanese, poem by poem.</p>
-      <p>This short walkthrough covers how to read the visualization. It takes
-      about a minute.</p>`
+    title: 'Welcome to "Synteny of Poetic Translations"!',
+    body: `<p>This project compares four historic English translations of the classical Japanese waka poetry anthology: the Ogura Hyakunin Isshu (OHI). The main page contains all 100 poems with visualizations inspired by the genomic concept of synteny.</p>
+      <p>This short walkthrough covers how to read and navigate the visualization.</p>`
   },
   {
-    title: 'Each poem is five bars',
-    body: `<div class="intro-bars-demo">
-        <div class="lbl"><div class="intro-bar" style="height:70px;background:${C?.kami||'#2E9E6B'}"></div>O</div>
-        <div class="lbl"><div class="intro-bar" style="height:52px;background:#bbb"></div>D</div>
-        <div class="lbl"><div class="intro-bar" style="height:60px;background:#bbb"></div>N</div>
-        <div class="lbl"><div class="intro-bar" style="height:45px;background:#bbb"></div>M</div>
-        <div class="lbl"><div class="intro-bar" style="height:58px;background:#bbb"></div>P</div>
+    title: 'Upon first glance',
+    body: `<p>The main page shows a 13×8 grid. Each column of 5 bars is one poem alongside its 4 English translations. Hover a poem to see its number and poet.</p>
+      <div class="intro-poem-grid-2x2" id="introGlancePoems">
+        ${INTRO_GLANCE_NOS.map(n=>{
+          const poem=POEMS[n-1];
+          const poet=(CSV[String(n)]||{}).poet||'';
+          return `<div class="intro-mgc" data-n="${n}" data-label="Poem ${n} · ${poet}">${glyph(poem,false)}</div>`;
+        }).join('')}
       </div>
-      <p>The leftmost bar (<strong>O</strong>) is the original Japanese poem.
-      The four beside it are the translators — Dickens (1866), Noguchi (1907),
-      McCauley (1899), and Porter (1909) — sized by how many lines each one
-      used.</p>
-      <div class="intro-swatches">
-        <div class="intro-swatch-row"><div class="intro-swatch" style="background:${C?.kami||'#2E9E6B'}"></div>Kami-no-ku — the poem's first half</div>
-        <div class="intro-swatch-row"><div class="intro-swatch" style="background:${C?.shimo||'#E5503A'}"></div>Shimo-no-ku — the poem's second half</div>
-        <div class="intro-swatch-row"><div class="intro-swatch" style="background:${C?.imagined||'#6F63C9'}"></div>Imagined line — content a translator added with no equivalent in the original</div>
+      <div class="view-toggle" role="group">
+        <button class="vt-btn active" data-mode="device" onclick="switchIntroView('device')">Devices</button>
+        <button class="vt-btn" data-mode="structure" onclick="switchIntroView('structure')">Structure</button>
       </div>`
   },
   {
-    title: '"Structure" vs "Devices"',
-    body: `<p>Every poem also has classical rhetorical devices baked into the
-      Japanese — the <strong>Devices</strong> toggle highlights where they
-      appear, and whether each translator preserved, or dropped, them.
-      <strong>Structure</strong> hides these and shows only the bipartite
-      kami/shimo skeleton above.</p>
+    title: 'Zooming in',
+    body: `<p>Hover a poem and press ↑ to zoom in — each bar is one translator, sized by how many lines they used. Press ↓ to zoom back out.</p>
+      <div class="intro-zoom-demo">
+        <div class="intro-zoom-cell" id="introZoomCell" data-zoom="0">${glyph(POEMS[0],false)}</div>
+      </div>
+      <div class="intro-zoom-btns">
+        <button class="intro-nav-btn" onclick="introZoomStep(-1)">↓ zoom out</button>
+        <button class="intro-nav-btn" onclick="introZoomStep(1)">↑ zoom in</button>
+      </div>`
+  },
+  {
+    title: 'Structure coloring',
+    body: `<p>Each poem contains various colorations representing the semantic structure.</p>
+      <p>Waka poetry is always split into an upper and lower section titled <strong style="color:${C.kami}">kami-no-ku</strong> and <strong style="color:${C.shimo}">shimo-no-ku</strong> respectively. Waka poems contain 5 lines and a 31-syllable structure. <strong style="color:${C.kami}">Kami-no-ku</strong> represents the first 3 lines (5-7-5 syllables). <strong style="color:${C.shimo}">Shimo-no-ku</strong> represents the last 2 lines (7-7 syllables).</p>
+      <p>The semantic meanings within these sections have been extracted from the original poem and mapped to lines in the English translations. If no appropriate mapping exists, a line may be labelled as an <strong style="color:${C.imagined}">imagined line</strong>.</p>`
+  },
+  {
+    title: 'Literary device coloring',
+    body: `<p>Every poem also has classical literary devices used. Those analyzed are as follows:</p>
       <div class="intro-swatches">
-        <div class="intro-swatch-row"><div class="intro-swatch" style="background:${C?.kakekotoba||'#F28FC0'}"></div>掛詞 Kakekotoba — a pivot word carrying two meanings at once</div>
-        <div class="intro-swatch-row"><div class="intro-swatch" style="background:${C?.makurakotoba||'#7EBBEE'}"></div>枕詞 Makurakotoba — a fixed ornamental "pillow word"</div>
-        <div class="intro-swatch-row"><div class="intro-swatch" style="background:${C?.kigo||'#B4DE65'}"></div>季語 Kigo — a seasonal reference word</div>
+        <div class="intro-swatch-row"><strong style="color:${C.kakekotoba}">Kakekotoba</strong>: a pivot word carrying two meanings at once</div>
+        <div class="intro-swatch-row"><strong style="color:${C.makurakotoba}">Makurakotoba</strong>: a fixed ornamental "pillow word"</div>
+        <div class="intro-swatch-row"><strong style="color:${C.kigo}">Kigo</strong>: a seasonal reference word</div>
+      </div>
+      <p>The Devices toggle highlights where they appear. Structure-view hides devices and shows only the kami/shimo skeleton.</p>
+      <div class="view-toggle" role="group" style="justify-content:center">
+        <button class="vt-btn active" data-mode="device" onclick="switchIntroView('device')">Devices</button>
+        <button class="vt-btn" data-mode="structure" onclick="switchIntroView('structure')">Structure</button>
       </div>`
   },
   {
     title: 'Browsing the poems',
-    body: `<p><strong>By Poem</strong> shows all 100 poems in a grid — hover
-      one to zoom in, click to open its full detail (original text, all four
-      translations, and why each device was or wasn't preserved).</p>
-      <p><strong>By Author</strong> instead shows one translator's entire
-      100-poem output at a time, for spotting patterns across their whole
-      body of work rather than poem-by-poem.</p>
-      <p>Inside a poem's detail view: <strong>← Prev / Next →</strong> or the
-      arrow keys move between poems, and <strong>Esc</strong> closes it.</p>`
+    body: `<p><strong>By Poem</strong> shows all 100 poems in a grid — hover to zoom in, click to open the full detail view: original text, all four translations, and where each structure was preserved or inverted.</p>
+      <p><strong>By Author</strong> shows one translator's entire 100-poem output at a time, for spotting patterns across their whole body of work.</p>
+      <p><strong>By Total</strong> shows an aggregate view across all 100 poems at once.</p>
+      <p>Inside a poem's detail view: <strong>← Prev / Next →</strong> or the arrow keys move between poems, and <strong>Esc</strong> closes it.</p>`
   },
 ];
 
@@ -1418,14 +1461,17 @@ const helpBtn = document.getElementById('helpBtn');
 let introIdx = 0;
 
 function renderIntro(){
+  const titleEl = document.getElementById('introTitle');
+  if(titleEl) titleEl.textContent = INTRO_STEPS[introIdx].title;
   introStepsEl.innerHTML = INTRO_STEPS.map((s,i)=>
-    `<div class="intro-step${i===introIdx?' active':''}"><h2>${s.title}</h2>${s.body}</div>`
+    `<div class="intro-step${i===introIdx?' active':''}">${s.body}</div>`
   ).join('');
   introDotsEl.innerHTML = INTRO_STEPS.map((_,i)=>
-    `<div class="intro-dot${i===introIdx?' active':''}"></div>`
+    `<div class="intro-dot${i===introIdx?' active':''}" style="--dc:${DOT_COLORS[i]}"></div>`
   ).join('');
   introBackBtn.disabled = introIdx===0;
   introNextBtn.textContent = introIdx===INTRO_STEPS.length-1 ? 'Get Started' : 'Next →';
+  introBackBtn.textContent = '← Previous';
 }
 function showIntro(){
   introIdx = 0;
