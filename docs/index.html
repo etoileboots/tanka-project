@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=82">
+<link rel="stylesheet" href="style.css?v=88">
 </head>
 <body>
 <div class="page">
@@ -58,8 +58,8 @@
            placing poems, so nothing else ever renders underneath it. -->
       <div class="legend">
         <strong>Legend</strong>
-        <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kaminoku</div>
-        <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimonoku</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kami-no-ku</div>
+        <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimo-no-ku</div>
         <div class="legend-row"><div class="legend-swatch" style="background:#6F63C9"></div>Imagined ku</div>
         <div class="legend-row legend-device"><div class="legend-swatch" style="background:#F28FC0"></div>Kakekotoba</div>
         <div class="legend-row legend-device"><div class="legend-swatch" style="background:#7EBBEE"></div>Makurakotoba</div>
@@ -93,23 +93,21 @@
   <div class="intro-card">
     <div class="intro-header">
       <h2 class="intro-title" id="introTitle"></h2>
-      <div class="intro-header-btns">
-        <button class="intro-nav-btn" id="introBack">← Previous</button>
-        <button class="intro-nav-btn primary" id="introNext">Next →</button>
-        <button class="mbtn-close intro-close" id="introClose" aria-label="Close">✕</button>
-      </div>
+      <button class="mbtn-close intro-close" id="introClose" aria-label="Close">✕</button>
     </div>
-    <div class="intro-dots" id="introDots"></div>
     <div class="intro-steps" id="introSteps"></div>
+    <div class="intro-footer">
+      <button class="intro-nav-btn" id="introBack">← Previous</button>
+      <div class="intro-dots" id="introDots"></div>
+      <button class="intro-nav-btn primary" id="introNext">Next →</button>
+    </div>
   </div>
 </div>
 
 <!-- Custom hover tooltip for structure/device labels (see [data-tip] in
-     app.js) — native title="" tooltips have a ~1s hover delay, vanish on
-     the tiniest mouse movement, and don't work on touch at all, which read
-     as "the labels don't work" even though they were technically present. -->
+     app.js). -->
 <div id="hoverTip" class="hover-tip"></div>
 
-<script src="app.js?v=89"></script>
+<script src="app.js?v=97"></script>
 </body>
 </html>

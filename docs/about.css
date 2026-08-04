@@ -52,7 +52,7 @@ h1{
   margin:0;color:#111;text-align:center;padding-top:2rem;
 }
 .lede{
-  font-size:.78rem;color:#888;font-weight:400;font-style:italic;
+  font-size:.78rem;color:#888;font-weight:400;
   margin:.35rem auto 2.5rem;line-height:1.6;text-align:center;
 }
 
@@ -72,13 +72,8 @@ section:last-child{margin-bottom:0;}
 p{margin:0 0 1.1rem;font-weight:300;}
 p:last-child{margin-bottom:0;}
 
-/* "About X:" — bold, inline with the paragraph's own body text (which
-   stays the page's normal light weight), not a separate heading. */
 .lead-label{font-weight:700;color:#111;}
 
-/* Links to other sections on this page — distinguished from surrounding
-   body text by weight alone (medium, not bold, not the page's light
-   default), no underline so it reads as part of the sentence. */
 a.xref{font-weight:500;color:#1a1a1a;text-decoration:none;}
 a.xref:hover{text-decoration:underline;text-decoration-color:#bbb;}
 
@@ -93,7 +88,6 @@ strong{font-weight:700;color:#111;}
 }
 .questions-list li{color:#444;font-size:.97rem;line-height:1.65;}
 
-/* Shared figure style — no box, just image + caption */
 .poem-figure,.pipeline-figure{
   margin:1.5rem auto;
 }
@@ -116,7 +110,7 @@ strong{font-weight:700;color:#111;}
    flowchart's mermaid diagram also lives in a <pre class="mermaid">
    (mermaid keeps the tag as its container), and a bare `pre{}` rule here
    was painting that dark code-block background behind the diagram too. */
-.prompt-note{font-size:.85rem;font-weight:300;color:#888;font-style:italic;margin:0 0 .8rem;}
+.prompt-note{font-size:.85rem;font-weight:300;color:#888;margin:0 0 .8rem;}
 #pass1, #pass2{
   white-space:pre-wrap;word-break:break-word;
   background:#1a1a1a;color:#e8e6e0;
@@ -137,7 +131,6 @@ span.term-kakekotoba  { font-weight:700; text-decoration:underline; color:#D46CA
 span.term-makurakotoba{ font-weight:700; text-decoration:underline; color:#4A96CC; }
 span.term-kigo        { font-weight:700; text-decoration:underline; color:#7AAD1E; }
 
-/* lede navigation links */
 .lede a{color:#888;font-weight:400;text-decoration:underline;text-decoration-color:#ccc;}
 .lede a:hover{color:#1a1a1a;text-decoration-color:#1a1a1a;}
 

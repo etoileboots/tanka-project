@@ -1,8 +1,6 @@
-// ── Data loading ──────────────────────────────────────────────────────────
 let C, CSV, SRC_JP, SRC_DEVICES, HIGHLIGHTS, REAL_DATA, SRC_FURIGANA,
     SRC_DEVICE_LABELS, HIGHLIGHT_LABELS, HIGHLIGHT_DEVICE_KEYS;
 
-// no-cache forces revalidation so a rebuild's fixed data isn't served stale.
 fetch('./data/poems.json', {cache:'no-cache'})
   .then(r => r.json())
   .then(data => {
@@ -18,16 +16,11 @@ fetch('./data/poems.json', {cache:'no-cache'})
 function init(){
 
 
-
-
-// ── Bar colors — edit in build_data.py ──────────────────────────────────────
-
 const DCOLORS=[C.kakekotoba,C.makurakotoba,C.kigo];
 
 const TRANS_LBLS=['D','M','N','P'];
 const TRANS_NAMES={D:'F.V. Dickins 1866',M:'MacCauley 1899',N:'Noguchi 1907',P:'Porter 1909'};
 
-// Placeholder for poems with no annotation: real line counts, all segments unanalyzed.
 function mkPlaceholder(n){
   const row=CSV[String(n)]||{};
   const bars=['O',...TRANS_LBLS].map(lbl=>{
@@ -39,7 +32,6 @@ function mkPlaceholder(n){
   return{n,bars,real:false};
 }
 
-// ── Real data for analyzed poems ───────────────────────────────────────────
 const BAR_ORDER=['O','D','M','N','P'];
 const POEMS=Array.from({length:100},(_,i)=>{
   const n=i+1;
@@ -48,8 +40,6 @@ const POEMS=Array.from({length:100},(_,i)=>{
   return poem;
 });
 
-// ── SVG bar rendering ──────────────────────────────────────────────────────
-// 8+15+4*8+3*9 = 82 — fills cell exactly, square viewBox
 const DIM=82;
 const SVG_W_BARS=82;
 const BAR_X=[0, 23, 40, 57, 74];   // O=0, D=23, N=40, M=57, P=74
@@ -57,7 +47,6 @@ const BAR_W=[8, 8, 8, 8, 8];
 
 function f(v){return Math.round(v*10)/10;}
 
-// Returns each JP device word's character span as {start, end} fractions of poem length.
 function jpDeviceFracs(n) {
   const jpRaw = SRC_JP[String(n)] || '';
   if (!jpRaw) return {};
@@ -80,7 +69,6 @@ function gridDeviceColor(dc){
   return dc;
 }
 
-// "Structure" mode: only kami/shimo/imagined. "Device" mode adds device highlights on top.
 let viewMode = 'device';
 
 function glyph(poem, withTips){
@@ -102,7 +90,6 @@ function glyph(poem, withTips){
       y+=sh;
     });
     if(viewMode==='device' && bi===0 && poem.real && Object.keys(jpFracs).length>0){
-      // withTips: device bands are hoverable (zoom "bars" tier only, not the resting grid).
       const devLabels = withTips ? (SRC_DEVICE_LABELS[String(poem.n)]||{}) : null;
       Object.entries(jpFracs).forEach(([dc,spans])=>{
         spans.forEach(({start,end,word})=>{
@@ -135,7 +122,6 @@ function glyph(poem, withTips){
   return `<svg width="100%" height="100%" viewBox="0 ${withTips?`-${HDR}`:0} ${SVG_W_BARS} ${DIM+HDR}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">${parts.join('')}</svg>`;
 }
 
-// Single-bar variant for the By-Author layout.
 const AUTHOR_BAR_W=24;
 function glyphOneBar(poem, bi){
   const bar=poem.bars[bi];
@@ -173,7 +159,6 @@ function glyphOneBar(poem, bi){
   return `<svg width="100%" height="100%" viewBox="0 0 ${W} ${DIM}" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">${parts.join('')}</svg>`;
 }
 
-// ── By-Author layout ───────────────────────────────────────────────────────
 const AUTHOR_SLOTS=[
   {key:'O', label:'原文 Source'},
   {key:'D', label:'F.V. Dickins 1866'},
@@ -221,8 +206,8 @@ function buildAuthorGrids(){
   leg.id='authorLegend';
   leg.innerHTML=`<div class="author-poem-info" id="authorPoemInfo"></div>
     <strong>Legend</strong>
-    <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kaminoku</div>
-    <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimonoku</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kami-no-ku</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimo-no-ku</div>
     <div class="legend-row"><div class="legend-swatch" style="background:#6F63C9"></div>Imagined ku</div>
     <div class="legend-row legend-device"><div class="legend-swatch" style="background:#F28FC0"></div>Kakekotoba</div>
     <div class="legend-row legend-device"><div class="legend-swatch" style="background:#7EBBEE"></div>Makurakotoba</div>
@@ -239,7 +224,7 @@ function updateAuthorHighlight(n){
   if(!info) return;
   if(n){
     const poet=(CSV[String(n)]||{}).poet||'';
-    info.textContent=`Poem ${n}${poet?' — '+poet:''}`;
+    info.textContent=`Poem ${n}${poet?': '+poet:''}`;
   } else {
     info.textContent='';
   }
@@ -253,7 +238,6 @@ function refreshAuthorGrids(){
   });
 }
 
-// ── By-Total layout ────────────────────────────────────────────────────────
 const TOTAL_W=30, TOTAL_H=600;
 function computeTotalAggregates(slotKey){
   const sc={kami:0,shimo:0,imagined:0,unanalyzed:0};
@@ -290,8 +274,8 @@ function totalSegOrder(sc,dc){
     {fill:C.kakekotoba,  label:'Kakekotoba',   count:dc[C.kakekotoba]||0, kind:'device'},
     {fill:C.makurakotoba,label:'Makurakotoba',  count:dc[C.makurakotoba]||0, kind:'device'},
     {fill:C.kigo,        label:'Kigo',          count:dc[C.kigo]||0, kind:'device'},
-    {fill:C.kami,        label:'Kaminoku',      count:sc.kami, kind:'struct'},
-    {fill:C.shimo,       label:'Shimonoku',     count:sc.shimo, kind:'struct'},
+    {fill:C.kami,        label:'Kami-no-ku',      count:sc.kami, kind:'struct'},
+    {fill:C.shimo,       label:'Shimo-no-ku',     count:sc.shimo, kind:'struct'},
     {fill:C.imagined,    label:'Imagined ku',   count:sc.imagined, kind:'struct'},
     {fill:C.unanalyzed,  label:'Unanalyzed',    count:sc.unanalyzed, kind:'struct'},
   ];
@@ -363,8 +347,8 @@ function buildTotalView(){
   leg.className='author-legend';
   leg.id='totalLegend';
   const structItems=`
-    <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kaminoku</div>
-    <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimonoku</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#2E9E6B"></div>Kami-no-ku</div>
+    <div class="legend-row"><div class="legend-swatch" style="background:#E5503A"></div>Shimo-no-ku</div>
     <div class="legend-row"><div class="legend-swatch" style="background:#6F63C9"></div>Imagined ku</div>`;
   const devItems=`
     <div class="legend-row"><div class="legend-swatch" style="background:#F28FC0"></div>Kakekotoba</div>
@@ -395,9 +379,6 @@ function setLayoutMode(mode){
   if(mode==='total' && !totalViewBuilt) buildTotalView();
 }
 
-// ── Build grid ────────────────────────────────────────────────────────────
-// Column-major, right-to-left (mirroring Japanese reading order).
-// Skips the legend's reserved 2×2 block at the bottom-left corner.
 function nextGridPos(state, gridCols, gridRows){
   while(state.row>=gridRows-1 && state.col<=2){
     state.row++;
@@ -441,7 +422,6 @@ function buildGrid(){
   buildNavRails();
 }
 
-// ── Row/column steppers ───────────────────────────────────────────────────
 let selRow=1, selCol=1;
 let stepperLock=false;
 
@@ -502,10 +482,8 @@ if(window.ResizeObserver){
   new ResizeObserver(updateHdHeight).observe(document.querySelector('.hd'));
 }
 
-// ── Text highlighting ─────────────────────────────────────────────────────
 function highlightLine(text, wordMap, labelMap, deviceKeyMap){
   if(!wordMap||!Object.keys(wordMap).length) return escHtml(text);
-  // Sort by length desc so longer phrases match first.
   const words=Object.keys(wordMap).sort((a,b)=>b.length-a.length);
   const re=new RegExp('('+words.map(w=>w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')','gi');
   return text.replace(re,m=>{
@@ -520,7 +498,6 @@ function highlightLine(text, wordMap, labelMap, deviceKeyMap){
 }
 function escHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 
-// ── Modal ─────────────────────────────────────────────────────────────────
 let currentN=null;
 
 function renderJPChars(n, poem){
@@ -543,7 +520,6 @@ function renderJPChars(n, poem){
     if(!matched) i++;
   }
 
-  // kami = verses 1-3, shimo = verses 4-5
   const rawJP=SRC_JP[String(n)]||'';
   const verses=rawJP.includes('\n')?rawJP.split('\n'):null;
   let kamiEnd;
@@ -558,7 +534,6 @@ function renderJPChars(n, poem){
     const dev=charColors[p];
     let style='', tipAttr='', deviceAttr='', runCls='';
     if(dev){
-      // Boundary by matched word, not color — two kakekotoba sharing a color are separate runs.
       const isStart = p===0 || charWords[p-1]!==charWords[p];
       const isEnd = p===jp.length-1 || charWords[p+1]!==charWords[p];
       const rTop = isStart?'4px':'0', rBottom = isEnd?'4px':'0';
@@ -571,7 +546,6 @@ function renderJPChars(n, poem){
     spans.push(`<span class="jp-ch${runCls}"${style}${tipAttr}${deviceAttr}>${escHtml(jp[p])}</span>`);
   }
 
-  // Furigana — group kanji runs under one reading label.
   const furiList = SRC_FURIGANA[String(n)] || [];
   const furiRuns=[]; let cursor=0;
   furiList.forEach(entry=>{
@@ -595,7 +569,6 @@ function renderJPChars(n, poem){
   return {html:chars, kamiEnd, total:jp.length};
 }
 
-// Traditional kanji numeral for the modal's poem-number caption.
 const KANJI_DIGITS=['','一','二','三','四','五','六','七','八','九'];
 function toKanjiNumber(n){
   if(n===100) return '百';
@@ -612,7 +585,6 @@ function openModal(n){
   const hl=viewMode==='device' ? (HIGHLIGHTS[String(n)]||{}) : {};
   const devs=viewMode==='device' ? (SRC_DEVICES[String(n)]||{}) : {};
 
-  // ── JP panel ──────────────────────────────────────────────────────────
   const jpP=document.getElementById('jpPanel');
   const {html:jpCharsHTML, kamiEnd, total}=renderJPChars(n, poem);
 
@@ -655,7 +627,6 @@ function openModal(n){
   }
   legEl.innerHTML=`<div class="lgd-title">Legend</div><div class="lgd-items">${legendRowsHTML}</div>`;
 
-  // ── EN panel ──────────────────────────────────────────────────────────
   const MODAL_ORDER=['D','M','N','P'];
   const kuColor={kami:C.kami,shimo:C.shimo,imagined:C.imagined};
   const enP=document.getElementById('enPanel');
@@ -708,7 +679,6 @@ document.getElementById('overlay').addEventListener('click',e=>{
   if(e.target===e.currentTarget)closeModal();
 });
 
-// ── View-mode toggle: Structure vs Devices ──────────────────────────────────
 function setViewMode(mode){
   if(mode===viewMode) return;
   viewMode = mode;
@@ -749,13 +719,10 @@ poemJump.addEventListener('change',e=>{
   const n=+e.currentTarget.value;if(n>=1&&n<=100) jumpToPoem(n);
 });
 
-// ── Zoom ──────────────────────────────────────────────────────────────────
 const gw = document.getElementById('gw');
 const grid = document.getElementById('grid');
 
-// Hovering selects a poem; Up/Down actually scale the grid.
 const ZOOM_STEP = 25;
-// Skip level 2 (50) — jump directly between 25 and 75.
 function stepZoom(dir){
   if(dir>0){
     if(zoomLevel<25) setZoomLevel(25);
@@ -778,10 +745,8 @@ let zoomedCell = null;
 let zoomTier = 'none'; // 'none' | 'book'
 let zoomLevel = 0;
 let zoomTx = 0, zoomTy = 0;
-// Never allow a higher zoom press to visually shrink the grid due to rounding.
 let lastAppliedScale = 1;
 let nativeCellPx = 82;
-// #grid's resting footprint — excludes the row/col rails that are .gw siblings.
 let restingGridW = 0, restingGridH = 0;
 
 function clearZoom(){
@@ -797,7 +762,6 @@ function clearZoom(){
 function applyZoom(cell){
   if(cell === zoomedCell) return;
   if(zoomedCell) restoreCellGlyph(zoomedCell);
-  // Kill transition before measuring — reading mid-animation gives wrong values.
   grid.style.transitionDuration = '0s';
   grid.style.transform = '';
   grid.getBoundingClientRect(); // force layout flush
@@ -848,9 +812,6 @@ function setZoomLevel(val){
   if(val>=100 && prevLevel<100 && zoomedCell) openModal(+zoomedCell.dataset.n);
 }
 
-// Shrink EN text and JP text until .zc-body stops overflowing.
-// Checks scrollWidth too — vertical-rl JP text that's too tall wraps into a
-// second column, growing width instead of height, invisible to a height-only check.
 function shrinkToFitAll(wrap){
   const body = wrap.querySelector('.zc-body');
   if(!body) return;
@@ -867,7 +828,6 @@ function shrinkToFitAll(wrap){
     let shrunkAny = false;
     if(jpOverflows()){
       const cur = parseFloat(getComputedStyle(jpText).fontSize);
-      // Floor at 1px — below that, characters become genuinely invisible.
       const next = Math.max(1, cur*0.94);
       if(next < cur){ jpText.style.fontSize = next.toFixed(2)+'px'; shrunkAny = true; }
     }
@@ -898,7 +858,6 @@ function applyCellZoomTier(cell){
   } else if(zoomTier==='bars'){
     wrap.innerHTML = glyph(poem, true);
   } else {
-    // Size to native (unscaled) px — the ancestor transform:scale multiplies it back up.
     wrap.innerHTML = renderZoomCard(poem, nativeCellPx, nativeCellPx);
     shrinkToFitAll(wrap);
   }
@@ -911,7 +870,6 @@ function restoreCellGlyph(cell){
   cell.querySelector('.glyph-wrap').innerHTML = glyph(poem);
 }
 
-// JP source markup shared by the zoom card and full modal.
 function buildJpMarkup(n){
   const jpRaw = SRC_JP[String(n)] || '';
   const jp = jpRaw.replace(/\n/g,'');
@@ -952,7 +910,6 @@ function buildJpMarkup(n){
   return {chars, kamiFrac: kamiEnd/jp.length, len: jp.length};
 }
 
-// Two-page book layout: JP source left, all four translations right.
 function renderZcBook(poem, availW, availH){
   const n = poem.n;
   const csv = CSV[String(n)] || {};
@@ -962,7 +919,6 @@ function renderZcBook(poem, availW, availH){
     return `<div class="zc-bars">${glyph(poem)}</div>`;
   }
 
-  // uiScale keeps fixed CSS gaps/margins proportional at small card sizes.
   const uiScale = Math.max(0.06, Math.min(1, availH/300));
   const jpFontSize = Math.max(uiScale*1.4, Math.min(11, (availH*0.95) / (markup.len*0.95)));
   const sidebar = `<div class="gz-sidebar" style="width:${Math.max(1, 3*uiScale).toFixed(2)}px;">
@@ -975,7 +931,6 @@ function renderZcBook(poem, availW, availH){
   const hl = viewMode==='device' ? (HIGHLIGHTS[String(n)]||{}) : {};
   const kuColor = {kami:C.kami, shimo:C.shimo, imagined:C.imagined};
   const order = ['D','N','P','M'];
-  // Starting sizes scale with card height so shrinkToFitAll converges even at ~40px native size.
   const linesFontSize = Math.max(1, Math.min(7, availH*0.07));
   const lblFontSize = Math.max(1, Math.min(6, availH*0.06));
   const blocks = order.map(lbl=>{
@@ -995,7 +950,7 @@ function renderZcBook(poem, availW, availH){
 
   const titleFontSize = Math.max(1.5, Math.min(9, availH*0.09));
   const enCol = `<div class="zc-book-en" style="gap:${(6*uiScale).toFixed(2)}px;">
-    <div class="zc-book-title" style="font-size:${titleFontSize.toFixed(2)}px;margin-bottom:${(2*uiScale).toFixed(2)}px;">Poem ${n} — ${escHtml(poet)}</div>
+    <div class="zc-book-title" style="font-size:${titleFontSize.toFixed(2)}px;margin-bottom:${(2*uiScale).toFixed(2)}px;">Poem ${n}: ${escHtml(poet)}</div>
     ${blocks}
   </div>`;
 
@@ -1004,13 +959,11 @@ function renderZcBook(poem, availW, availH){
 
 function renderZoomCard(poem, cardW, cardH){
   const body = renderZcBook(poem, cardW, cardH);
-  // Native px sizing — the ancestor transform:scale blows it up to the zoomed cell size.
   const pad = Math.max(1, cardW*0.03).toFixed(1);
   const gap = Math.max(1, cardW*0.02).toFixed(1);
   return `<div class="zc-card" style="width:${cardW.toFixed(1)}px;height:${cardH.toFixed(1)}px;"><div class="zc-body" style="padding:${pad}px;gap:${gap}px;">${body}</div></div>`;
 }
 
-// ── Hover ──────────────────────────────────────────────────────────────────
 function onGridMouseMove(e){
   const hovered = document.elementFromPoint(e.clientX, e.clientY)?.closest('#grid .pc');
   if(!hovered){ clearZoom(); return; }
@@ -1026,8 +979,6 @@ gw.addEventListener('mouseenter', ()=>{ stepperLock=false; });
 gw.addEventListener('mouseleave', ()=>{ if(!stepperLock) clearZoom(); });
 window.addEventListener('resize', clearZoom);
 
-// Arrow keys: Left/Right snap to adjacent poem; Up/Down zoom in/out.
-// Disabled while the modal is open (arrows mean prev/next poem there).
 document.addEventListener('keydown', e=>{
   if(document.getElementById('overlay').classList.contains('open')) return;
   if(introOverlay.classList.contains('open')) return;
@@ -1047,7 +998,6 @@ document.addEventListener('keydown', e=>{
   if(next) applyZoom(next);
 });
 
-// ── First-visit walkthrough ──────────────────────────────────────────────
 const INTRO_SEEN_KEY = 'hyakuninIntroSeen';
 
 const INTRO_GLANCE_NOS = [3, 4, 1, 2];
@@ -1070,6 +1020,8 @@ window.switchIntroView = function(mode){
     const poem = POEMS[+el.dataset.n - 1];
     if(poem) el.innerHTML = glyph(poem, false);
   });
+  const barCell = document.getElementById('introBarCell');
+  if(barCell) barCell.innerHTML = glyph(POEMS[0], true);
   viewMode = prev;
   document.querySelectorAll('.intro-step.active .vt-btn[data-mode]').forEach(btn=>{
     btn.classList.toggle('active', btn.dataset.mode===mode);
@@ -1091,62 +1043,79 @@ window.introZoomStep = function(dir){
 };
 const INTRO_STEPS = [
   {
-    title: 'Welcome to "Synteny of Poetic Translations"!',
-    body: `<p>This project compares four historic English translations of the classical Japanese waka poetry anthology: the Ogura Hyakunin Isshu (OHI). The main page contains all 100 poems with visualizations inspired by the genomic concept of synteny.</p>
-      <p>This short walkthrough covers how to read and navigate the visualization.</p>`
+    title: 'Introduction',
+    body: `<p>This project compares four historic English translations of the <em>Ogura Hyakunin Isshu</em> (OHI), a 13th century Japanese anthology of 100 waka poems, each by a different classical poet.</p>
+      <p>The visualization approach is inspired by genomic synteny analysis: a method for studying the relationship between species that once shared a common ancestor.</p>
+      <p>This walkthrough explains how to read and interact with the visualization.</p>`
   },
   {
-    title: 'Upon first glance',
-    body: `<p>The main page shows a 13×8 grid. Each column of 5 bars is one poem alongside its 4 English translations. Hover a poem to see its number and poet.</p>
+    title: '4 Translations of OHI',
+    body: `<p>Translators Dickins (1866), MacCauley (1899), Noguchi (1907), and Porter (1909) each rendered all 100 poems of the OHI into English.</p>
+      <figure style="margin:.4rem 0 0;">
+        <div class="intro-poem-grid-4">
+          <div class="intro-poem-block">
+            <div class="intro-poem-lbl">Dickins 1866</div>
+            ${(CSV['34'].D||[]).slice(0,1).map(l=>`<div>${escHtml(l)}</div>`).join('')}
+          </div>
+          <div class="intro-poem-block">
+            <div class="intro-poem-lbl">MacCauley 1899</div>
+            ${(CSV['34'].M||[]).slice(0,1).map(l=>`<div>${escHtml(l)}</div>`).join('')}
+          </div>
+          <div class="intro-poem-block">
+            <div class="intro-poem-lbl">Noguchi 1907</div>
+            ${(CSV['34'].N||[]).slice(0,1).map(l=>`<div>${escHtml(l)}</div>`).join('')}
+          </div>
+          <div class="intro-poem-block">
+            <div class="intro-poem-lbl">Porter 1909</div>
+            ${(CSV['34'].P||[]).slice(0,1).map(l=>`<div>${escHtml(l)}</div>`).join('')}
+          </div>
+        </div>
+        <figcaption class="intro-poem-caption">Poem 34: opening line for four translations</figcaption>
+      </figure>`
+  },
+  {
+    title: 'Encoding Literary Structure and Devices',
+    body: `<p>Each translation becomes a vertical bar ordered by initial publishing date and labelled with the translators' last name initials. Toggle to view just structure, or structure and literary devices:</p>
+      <div style="display:flex;justify-content:center;padding:.45rem 0 .2rem;">
+        <div class="intro-zoom-cell" id="introBarCell" style="width:120px;height:120px;">${(()=>{const p=viewMode;viewMode='device';const r=glyph(POEMS[0],true);viewMode=p;return r;})()}</div>
+      </div>
+      <div class="view-toggle" role="group">
+        <button class="vt-btn" data-mode="structure" onclick="switchIntroView('structure')">Structure</button>
+        <button class="vt-btn active" data-mode="device" onclick="switchIntroView('device')">Devices</button>
+      </div>
+      <div class="intro-swatches" style="margin-top:.5rem;">
+        <div class="intro-swatch-row"><strong style="color:${C.kami}">Kami-no-ku:</strong> Upper section, lines 1–3 (5-7-5)</div>
+        <div class="intro-swatch-row"><strong style="color:${C.shimo}">Shimo-no-ku:</strong> Lower section, lines 4–5 (7-7)</div>
+        <div class="intro-swatch-row"><strong style="color:${C.imagined}">Imagined ku:</strong> No mapping in the source</div>
+      </div>
+      <div class="intro-swatches intro-devices-swatches" style="margin-top:.35rem;">
+        <div class="intro-swatch-row"><strong style="color:${C.kakekotoba}">Kakekotoba:</strong> Pivot word carrying two meanings</div>
+        <div class="intro-swatch-row"><strong style="color:${C.makurakotoba}">Makurakotoba:</strong> Fixed ornamental pillow word</div>
+        <div class="intro-swatch-row"><strong style="color:${C.kigo}">Kigo:</strong> Seasonal reference word</div>
+      </div>`
+  },
+  {
+    title: 'Viewing all Poems',
+    body: `<p>The main page shows all 100 poems. Each column is one poem including its source text and four translations. Hover to see poem and poet.</p>
       <div class="intro-poem-grid-2x2" id="introGlancePoems">
         ${INTRO_GLANCE_NOS.map(n=>{
           const poem=POEMS[n-1];
           const poet=(CSV[String(n)]||{}).poet||'';
           return `<div class="intro-mgc" data-n="${n}" data-label="Poem ${n} · ${poet}">${glyph(poem,false)}</div>`;
         }).join('')}
-      </div>
-      <div class="view-toggle" role="group">
-        <button class="vt-btn active" data-mode="device" onclick="switchIntroView('device')">Devices</button>
-        <button class="vt-btn" data-mode="structure" onclick="switchIntroView('structure')">Structure</button>
       </div>`
   },
   {
-    title: 'Zooming in',
-    body: `<p>Hover a poem and press ↑ to zoom in — each bar is one translator, sized by how many lines they used. Press ↓ to zoom back out.</p>
-      <div class="intro-zoom-demo">
-        <div class="intro-zoom-cell" id="introZoomCell" data-zoom="0">${glyph(POEMS[0],false)}</div>
-      </div>
-      <div class="intro-zoom-btns">
-        <button class="intro-nav-btn" onclick="introZoomStep(-1)">↓ zoom out</button>
-        <button class="intro-nav-btn" onclick="introZoomStep(1)">↑ zoom in</button>
-      </div>`
+    title: 'Navigating the Poems',
+    body: `<p><strong>Zoom:</strong> hover any poem and press ↑ to expand it iteratively until opening to the full text — each bar's proportions show how many lines the translator used. Press ↓ to return.</p>
+      <p><strong>Click</strong> any poem to open the full text containing the original Japanese, four translations, and a breakdown of literary choices. ← → or arrow keys move between poems; Esc closes this view.</p>
+      <p><strong>By Author</strong> shows one translator's complete 100-poem output. <strong>By Total</strong> aggregates across all poems.</p>`
   },
   {
-    title: 'Structure coloring',
-    body: `<p>Each poem contains various colorations representing the semantic structure.</p>
-      <p>Waka poetry is always split into an upper and lower section titled <strong style="color:${C.kami}">kami-no-ku</strong> and <strong style="color:${C.shimo}">shimo-no-ku</strong> respectively. Waka poems contain 5 lines and a 31-syllable structure. <strong style="color:${C.kami}">Kami-no-ku</strong> represents the first 3 lines (5-7-5 syllables). <strong style="color:${C.shimo}">Shimo-no-ku</strong> represents the last 2 lines (7-7 syllables).</p>
-      <p>The semantic meanings within these sections have been extracted from the original poem and mapped to lines in the English translations. If no appropriate mapping exists, a line may be labelled as an <strong style="color:${C.imagined}">imagined line</strong>.</p>`
-  },
-  {
-    title: 'Literary device coloring',
-    body: `<p>Every poem also has classical literary devices used. Those analyzed are as follows:</p>
-      <div class="intro-swatches">
-        <div class="intro-swatch-row"><strong style="color:${C.kakekotoba}">Kakekotoba</strong>: a pivot word carrying two meanings at once</div>
-        <div class="intro-swatch-row"><strong style="color:${C.makurakotoba}">Makurakotoba</strong>: a fixed ornamental "pillow word"</div>
-        <div class="intro-swatch-row"><strong style="color:${C.kigo}">Kigo</strong>: a seasonal reference word</div>
-      </div>
-      <p>The Devices toggle highlights where they appear. Structure-view hides devices and shows only the kami/shimo skeleton.</p>
-      <div class="view-toggle" role="group" style="justify-content:center">
-        <button class="vt-btn active" data-mode="device" onclick="switchIntroView('device')">Devices</button>
-        <button class="vt-btn" data-mode="structure" onclick="switchIntroView('structure')">Structure</button>
-      </div>`
-  },
-  {
-    title: 'Browsing the poems',
-    body: `<p><strong>By Poem</strong> shows all 100 poems in a grid — hover to zoom in, click to open the full detail view: original text, all four translations, and where each structure was preserved or inverted.</p>
-      <p><strong>By Author</strong> shows one translator's entire 100-poem output at a time, for spotting patterns across their whole body of work.</p>
-      <p><strong>By Total</strong> shows an aggregate view across all 100 poems at once.</p>
-      <p>Inside a poem's detail view: <strong>← Prev / Next →</strong> or the arrow keys move between poems, and <strong>Esc</strong> closes it.</p>`
+    title: "That's all for now!",
+    body: `<p>You now have everything you need to read the visualization. Each of the 100 poems carries its own history of interpretation through visually showing where translators agreed, diverged, or invented lines.</p>
+      <p>For background on the anthology, waka poetry, and the methodology behind this project, visit the <a href="about.html" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">about page</a>.</p>
+      <p style="margin-top:1.2rem;text-align:center;font-size:.8rem;color:#aaa;">Press <strong style="color:#555">Get Started</strong> to begin.</p>`
   },
 ];
 
@@ -1169,7 +1138,6 @@ function renderIntro(){
     `<div class="intro-dot${i===introIdx?' active':''}" style="--dc:${DOT_COLORS[i]}"></div>`
   ).join('');
   introBackBtn.disabled = introIdx===0;
-  // Arrow-only layout uses aria-label and fixed symbols — don't overwrite them.
   const arrowOnly = introNextBtn.classList.contains('intro-arrow-btn');
   if(!arrowOnly){
     introNextBtn.textContent = introIdx===INTRO_STEPS.length-1 ? 'Get Started' : 'Next →';
@@ -1194,6 +1162,27 @@ introBackBtn.addEventListener('click', ()=>{
 });
 if(introCloseBtn) introCloseBtn.addEventListener('click', closeIntro);
 helpBtn.addEventListener('click', showIntro);
+
+introStepsEl.addEventListener('mouseover', e=>{
+  const cell = e.target.closest('.intro-mgc[data-n]');
+  if(!cell || cell._hovered) return;
+  cell._hovered = true;
+  const n = +cell.dataset.n;
+  const poet = (CSV[String(n)]||{}).poet||'';
+  cell.innerHTML = `<div class="zc-hover-lbl">Poem ${n}<br>${escHtml(poet)}</div>`;
+});
+introStepsEl.addEventListener('mouseout', e=>{
+  const cell = e.target.closest('.intro-mgc[data-n]');
+  if(!cell) return;
+  if(cell.contains(e.relatedTarget)) return;
+  cell._hovered = false;
+  const poem = POEMS[+cell.dataset.n - 1];
+  if(!poem) return;
+  const prev = viewMode;
+  viewMode = window._introViewMode || viewMode;
+  cell.innerHTML = glyph(poem, false);
+  viewMode = prev;
+});
 document.addEventListener('keydown', e=>{
   if(!introOverlay.classList.contains('open')) return;
   if(e.key==='Escape') closeIntro();
@@ -1205,7 +1194,6 @@ let introAlreadySeen = false;
 try{ introAlreadySeen = !!localStorage.getItem(INTRO_SEEN_KEY); }catch(e){}
 if(!introAlreadySeen) showIntro();
 
-// ── Custom hover tooltip + tied-highlight glow ─────────────────────────────
 const hoverTip = document.getElementById('hoverTip');
 let activeTipEl = null;
 let glowingEls = [];
@@ -1221,7 +1209,6 @@ function positionTip(el){
   const gap = 10;
   hoverTip.style.left = (rect.right + gap) + 'px';
   hoverTip.style.top = (rect.top + rect.height/2) + 'px';
-  // Flip left when near the right edge.
   requestAnimationFrame(()=>{
     const tipRect = hoverTip.getBoundingClientRect();
     if(tipRect.right > window.innerWidth - 8){
@@ -1245,8 +1232,6 @@ document.addEventListener('mouseover', e=>{
     positionTip(el);
   }
 
-  // EN word spans have data-device but not data-tip — check the target directly
-  // so hovering an EN highlight glows the linked JP characters and vice-versa.
   const key = e.target.closest('[data-device]')?.dataset.device || el.dataset.device || null;
   if(key !== lastGlowKey){
     lastGlowKey = key;
