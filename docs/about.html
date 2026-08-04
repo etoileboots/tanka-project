@@ -25,7 +25,7 @@
 
   <section id="project">
     <p><strong class="lead-label">About project background:</strong> This project is a digital collection of the <em>Ogura Hyakunin Isshu</em> (OHI), a 13th century Japanese poetry anthology containing 100 poems from 100 poets along with 4 English translations of these poems. The OHI has been translated over a dozen times. The choice of translators to include in this analysis was a decision determined by data availability and access. Only translations within the public domain were included. The translators and their respective year of publishing are included as follows: Frederick Victor Dickins (1865/1866), Clay MacCauley (1899), Yone Noguchi (1907), and William Ninnis Porter (1909). When hovering and zooming into a poem, you will see that these names have been abbreviated by their last names to the following and arranged by initial publishing date: O (original), D (Dickins), M (MacCauley), N (Noguchi), and P (Porter). More details on the anthology and this poetic form can be found in <a class="xref" href="#waka-poetry">About waka poetry and the OHI</a>.</p>
-    <p>The visualizations within this analysis are largely inspired by those included in syntenic analysis. Syntenic analysis is used in genomics to study the physical arrangement of DNA sequences and gene positions across species. It is a powerful tool to study the relationship between ancestor and descendant species, measuring evolutionary distance, and identifying mutations and inversions. More about synteny and my interpretation of it can be found in <a class="xref" href="#synteny">About synteny</a>.</p>
+    <p>The visualizations within this analysis are largely inspired by those included in syntenic analysis. Syntenic analysis is used in genomics to study the physical arrangement of DNA sequences and gene positions across species. It is a powerful tool to study the relationship between species that once shared a common ancestor. It is used to identify complex structural changes to the genome, such as rearrangements, insertions, and deletions. More about synteny and an explanation of its use case within this project can be found in <a class="xref" href="#synteny">About synteny</a>.</p>
   </section>
 
   <section id="waka-poetry">
@@ -35,15 +35,14 @@
     <p>Waka poetry is distinct for a few reasons.</p>
     <p>First, it is divided into an upper and lower section. The first 3 ku form the upper part called the <strong><span class="term-kami">kami-no-ku</span></strong> (5-7-5) and typically sets the scene through physical descriptions of nature. The last 2 ku form the lower part called the <strong><span class="term-shimo">shimo-no-ku</span></strong> (7-7) and often shifts to the author's internal reflection. Within these sections, often overlapping, is a pivot that connects physical observation with internal reflection. Translations may invert this narrative structure, or add extra details to connect the two sections. In this project, we have classified the semantics contained within this upper and lower part from the original Japanese poem and mapped them to their English translations. To handle translated verses that are more imaginative than loyal to the original meanings we have also included <span class="term-imagined">imagined ku</span>. From a quick glance at a grid cell when toggled to "structure", you can determine the fidelity of various translators, as well as their length similarity determined by verse-numbers. The sizing of the bars always reflects the ratio of the longest poem by verse number.</p>
 
-    <figure class="poem-figure" style="max-width:280px;">
-      <img src="assets/example-structure-91.png" alt="Zoom in structural view of poem 91, showing the five bars colored by kami-no-ku, shimo-no-ku, and imagined ku across the original and four translations.">
-      <figcaption><strong>Figure 1.</strong> Zoom in structural view of poem 91.</figcaption>
-    </figure>
-
     <p>Second, waka poetry employs various literary devices. These are not found in every poem, but are relatively standard.</p>
     <p>Most notable among them is a pivot word, called the <span class="term-kakekotoba">kakekotoba</span>. This is a word where a single phonetic word contains two meanings and often helps to bridge the <span class="term-kami">kami-no-ku</span> and the <span class="term-shimo">shimo-no-ku</span>.</p>
     <p>There is also <span class="term-makurakotoba">makurakotoba</span>, which translates literally to pillow word. <span class="term-makurakotoba">Makurakotoba</span> are 5-syllable epithets placed before specific words (eg. god, mountain) to add rhythm and evoke visual imagery.</p>
     <p><span class="term-kigo">Kigo</span>, or season words are also incredibly common. They are words associated with a specific season (eg. cherry blossoms for spring) that show the reader the time of the year without necessarily stating the season directly. There are several other literary techniques used in waka poetry, but these are the three devices that I have focused on drawing out in my analysis.</p>
+    <figure class="poem-figure" style="max-width:280px;">
+      <img src="assets/example-structure-91.png" alt="Zoom in structural view of poem 91, showing the five bars colored by kami-no-ku, shimo-no-ku, and imagined ku across the original and four translations.">
+      <figcaption><strong>Figure 1.</strong> Zoom in structural view of poem 91.</figcaption>
+    </figure>
   </section>
 
   <section id="synteny">
