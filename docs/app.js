@@ -377,6 +377,7 @@ function setLayoutMode(mode){
   document.getElementById('totalGrids').style.display = mode==='total' ? 'flex' : 'none';
   if(mode==='author' && !authorGridsBuilt) buildAuthorGrids();
   if(mode==='total' && !totalViewBuilt) buildTotalView();
+  saveUIState();
 }
 
 function nextGridPos(state, gridCols, gridRows){
@@ -657,9 +658,10 @@ function openModal(n){
   document.getElementById('overlay').classList.add('open');
   document.getElementById('mPrev').disabled=n<=1;
   document.getElementById('mNext').disabled=n>=100;
+  saveUIState();
 }
 
-function closeModal(){document.getElementById('overlay').classList.remove('open');currentN=null;}
+function closeModal(){document.getElementById('overlay').classList.remove('open');currentN=null;saveUIState();}
 function navModal(d){if(currentN)openModal(Math.max(1,Math.min(100,currentN+d)));}
 
 document.getElementById('mClose').addEventListener('click',closeModal);
@@ -696,6 +698,7 @@ function setViewMode(mode){
   refreshAuthorGrids();
   refreshTotalView();
   if(currentN) openModal(currentN);
+  saveUIState();
 }
 document.getElementById('vtStructure').addEventListener('click', ()=>setViewMode('structure'));
 document.getElementById('vtDevice').addEventListener('click', ()=>setViewMode('device'));
@@ -1003,6 +1006,8 @@ document.addEventListener('keydown', e=>{
 });
 
 const INTRO_SEEN_KEY = 'hyakuninIntroSeen';
+const UI_STATE_KEY = 'hyakuninUIState';
+function saveUIState(){ try{ localStorage.setItem(UI_STATE_KEY, JSON.stringify({view:viewMode,layout:layoutMode,poem:currentN})); }catch(e){} }
 
 const INTRO_GLANCE_NOS = [3, 4, 1, 2];
 
@@ -1258,4 +1263,11 @@ document.addEventListener('mouseout', e=>{
 });
 
 buildGrid();
+
+try {
+  const saved = JSON.parse(localStorage.getItem(UI_STATE_KEY)||'{}');
+  if(saved.view && saved.view !== viewMode) setViewMode(saved.view);
+  if(saved.layout && saved.layout !== layoutMode) setLayoutMode(saved.layout);
+  if(saved.poem) openModal(saved.poem);
+} catch(e) {}
 }
