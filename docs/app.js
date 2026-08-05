@@ -752,11 +752,15 @@ let restingGridW = 0, restingGridH = 0;
 function clearZoom(){
   if(zoomedCell) restoreCellGlyph(zoomedCell);
   zoomedCell = null;
+  grid.style.transitionDuration = '0s';
+  grid.getBoundingClientRect();
   grid.style.transform = '';
   grid.style.transformOrigin = '';
+  grid.style.transitionDuration = '';
   zoomLevel = 0;
   zoomTier = 'none';
   grid.classList.remove('zoom-active');
+  lastAppliedScale = 1;
 }
 
 function applyZoom(cell){
