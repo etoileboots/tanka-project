@@ -1201,7 +1201,7 @@ document.addEventListener('keydown', e=>{
 
 let introAlreadySeen = false;
 try{ introAlreadySeen = !!localStorage.getItem(INTRO_SEEN_KEY); }catch(e){}
-if(!introAlreadySeen) showIntro();
+if(!introAlreadySeen && !new URLSearchParams(location.search).has('noIntro')) showIntro();
 
 const hoverTip = document.getElementById('hoverTip');
 let activeTipEl = null;
@@ -1269,5 +1269,13 @@ try {
   if(saved.view && saved.view !== viewMode) setViewMode(saved.view);
   if(saved.layout && saved.layout !== layoutMode) setLayoutMode(saved.layout);
   if(saved.poem) openModal(saved.poem);
+} catch(e) {}
+
+// URL params override localStorage (for shareable / embeddable links)
+try {
+  const p = new URLSearchParams(location.search);
+  if(p.has('view')) setViewMode(p.get('view'));
+  if(p.has('layout')) setLayoutMode(p.get('layout'));
+  if(p.has('poem')) openModal(+p.get('poem'));
 } catch(e) {}
 }
