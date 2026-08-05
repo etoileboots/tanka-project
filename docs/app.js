@@ -1274,8 +1274,10 @@ try {
 // URL params override localStorage (for shareable / embeddable links)
 try {
   const p = new URLSearchParams(location.search);
+  const hasParams = p.has('view') || p.has('layout') || p.has('poem');
   if(p.has('view')) setViewMode(p.get('view'));
   if(p.has('layout')) setLayoutMode(p.get('layout'));
   if(p.has('poem')) openModal(+p.get('poem'));
+  else if(hasParams) closeModal();
 } catch(e) {}
 }
