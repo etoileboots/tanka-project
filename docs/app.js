@@ -681,6 +681,18 @@ document.getElementById('overlay').addEventListener('click',e=>{
   if(e.target===e.currentTarget)closeModal();
 });
 
+// Swipe left/right in the modal to go to next/prev poem
+(()=>{
+  const ov=document.getElementById('overlay');
+  let tx=0,ty=0;
+  ov.addEventListener('touchstart',e=>{tx=e.changedTouches[0].clientX;ty=e.changedTouches[0].clientY;},{passive:true});
+  ov.addEventListener('touchend',e=>{
+    const dx=e.changedTouches[0].clientX-tx;
+    const dy=e.changedTouches[0].clientY-ty;
+    if(Math.abs(dx)>Math.abs(dy)&&Math.abs(dx)>44) navModal(dx<0?1:-1);
+  },{passive:true});
+})();
+
 function setViewMode(mode){
   if(mode===viewMode) return;
   viewMode = mode;
