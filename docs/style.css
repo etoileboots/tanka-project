@@ -575,10 +575,10 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 @media (max-width:640px){
   :root{
     --hd-h: 64px;
-    /* 8-col grid:
-       total_w = 8*cell + 7*gap + 2*margin = gap*(8×3.905 + 7 + 2×2.381) = gap×43.002
-       total_h = 13*cell + 12*gap + margin  = gap*(13×3.905 + 12 + 2.381) = gap×65.146 */
-    --gap: min(calc(100vw / 43), calc((100dvh - var(--hd-h)) / 65.15));
+    /* 10×10 grid — subtract 48px legend bar from height budget:
+       total_w = 10*cell + 9*gap + 2*margin = gap*(10×3.905 + 9 + 2×2.381) = gap×52.812
+       total_h = 10*cell + 9*gap + margin   = gap*(10×3.905 + 9 + 2.381)   = gap×50.431 */
+    --gap: min(calc(100vw / 52.81), calc((100dvh - var(--hd-h) - 48px) / 50.43));
   }
 
   /* iOS: use dynamic viewport height so the address bar doesn't clip the grid */
@@ -591,25 +591,47 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   .toggles-row{ margin-top:.4rem; gap:.25rem .75rem; }
   .toggle-label{ display:none; }
 
-  /* Grid */
+  /* Grid: columns sized by --cell (width-constrained), rows fill available height */
+  .gw{ align-items:stretch; }
+  .grid-nav{ height:100%; }
   .grid{
-    grid-template-columns:repeat(8,var(--cell));
-    grid-template-rows:repeat(13,var(--cell));
+    grid-template-columns:repeat(10,var(--cell));
+    grid-template-rows:repeat(10,1fr);
+    height:100%;
   }
 
-  /* Modal — stack JP/EN panels vertically, enable full-page scroll */
+  /* Legend: pull out of grid-clip, render as a bottom bar below the grid. */
+  .grid-clip{ position:static; overflow:visible; }
+  .gw{ padding-bottom:48px; }
+  .legend{
+    position:absolute; left:0; right:0; bottom:0;
+    width:auto; height:auto;
+    flex-direction:row; flex-wrap:wrap;
+    align-items:center; justify-content:flex-start;
+    gap:.2rem .65rem;
+    padding:.35rem .75rem;
+    border-top:1px solid #e8e6e0;
+    font-size:.54rem;
+  }
+  .legend strong{ display:inline; margin-right:.4rem; }
+
+  /* Modal — jp gets fixed slice, en fills the rest and scrolls internally */
   .modal-body{
     grid-template-columns:1fr;
-    grid-template-rows:auto auto;
-    overflow-y:auto;
-    -webkit-overflow-scrolling:touch;
+    grid-template-rows:38dvh 1fr;
+    overflow:hidden;
   }
   .jp-panel{
     border-right:none;
     border-bottom:1px solid #e4e1db;
-    min-height:42dvh;
+    min-height:0;
   }
-  .en-panel{ padding:1rem 1.25rem 1.5rem; }
+  .en-panel{
+    padding:1rem 1.25rem 1.5rem;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+    min-height:0;
+  }
   .modal-bar{ padding:.45rem .75rem; }
   .modal-title-main{ font-size:clamp(.85rem,4vw,1rem); }
   .modal-title-sub{ font-size:.7rem; }
@@ -617,7 +639,34 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   .mnav-arrow{ font-size:1.4rem; padding:.3rem .65rem; min-width:44px; min-height:44px; }
   .mbtn-close{ padding:.3rem .5rem; min-width:44px; min-height:44px; }
 
-  /* Author view */
+  /* Author view: stack panels vertically */
   .author-grids{ flex-direction:column; align-items:center; overflow-y:auto; }
-  .author-panel{ max-width:min(20rem,90vw); width:100%; }
+  .author-panels-row{
+    flex-direction:column; align-items:center;
+    overflow-x:hidden; overflow-y:visible;
+    flex-wrap:nowrap; justify-content:flex-start;
+    height:auto; padding:.5rem .75rem; gap:1rem;
+  }
+  .author-panel{ flex:0 0 auto; width:min(18rem,92vw); max-width:min(18rem,92vw); }
+  .author-mini-grid{ flex:none; width:100%; aspect-ratio:1; }
+
+  /* Total view: prevent label overlap */
+  .total-panels-row{ gap:.5rem; padding:.4rem .5rem; }
+  .total-panels-row .author-panel-label{
+    font-size:.5rem; white-space:normal; overflow:hidden;
+    max-height:2.6em; line-height:1.3;
+  }
+  /* Let the total-view legend wrap so "Kigo" isn't clipped */
+  #totalLegend{ flex-wrap:wrap; overflow:visible; }
+  
+  .jp-panel{ overflow:hidden; }
+  .jp-scroll{
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    overflow-y:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+  .jp-scroll::before,.jp-scroll::after{ content:''; flex:1; min-height:0; display:block; }
+  .jp-inner{ margin:0; flex-shrink:0; }
 }

@@ -380,10 +380,12 @@ function setLayoutMode(mode){
   saveUIState();
 }
 
-function nextGridPos(state, gridCols, gridRows){
-  while(state.row>=gridRows-1 && state.col<=2){
-    state.row++;
-    if(state.row>gridRows){state.row=1;state.col--;}
+function nextGridPos(state, gridCols, gridRows, reserve){
+  if(reserve){
+    while(state.row>=gridRows-1 && state.col<=2){
+      state.row++;
+      if(state.row>gridRows){state.row=1;state.col--;}
+    }
   }
   const pos={row:state.row,col:state.col};
   state.row++;
@@ -393,7 +395,7 @@ function nextGridPos(state, gridCols, gridRows){
 
 function computeGridDims(){
   const mobile = window.matchMedia('(max-width:640px)').matches;
-  return mobile ? {cols:8, rows:13} : {cols:13, rows:8};
+  return mobile ? {cols:10, rows:10} : {cols:13, rows:8};
 }
 
 let GRID_COLS=13, GRID_ROWS=8;
@@ -403,9 +405,10 @@ function buildGrid(){
   grid.querySelectorAll('.pc').forEach(el=>el.remove());
   const dims=computeGridDims();
   GRID_COLS=dims.cols; GRID_ROWS=dims.rows;
+  const reserve = !window.matchMedia('(max-width:640px)').matches;
   const state={row:1,col:GRID_COLS};
   POEMS.forEach(poem=>{
-    const {row,col}=nextGridPos(state, GRID_COLS, GRID_ROWS);
+    const {row,col}=nextGridPos(state, GRID_COLS, GRID_ROWS, reserve);
     const cell=document.createElement('div');
     cell.className='pc'+(poem.real?' analyzed':'');
     cell.tabIndex=0;
