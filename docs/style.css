@@ -454,15 +454,14 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
 
 .hover-tip{
   display:none;position:fixed;z-index:300;pointer-events:none;
-  transform:translate(0,-50%);
   background:rgba(20,20,20,.94);color:#fff;
   border-radius:4px;padding:.35rem .6rem;
   font-family:'JetBrains Mono',monospace;font-size:.72rem;font-weight:500;
-  white-space:nowrap;max-width:16rem;white-space:normal;
+  white-space:normal;max-width:22rem;
   box-shadow:0 2px 10px rgba(0,0,0,.25);
 }
 .hover-tip.show{display:block;}
-.hover-tip.flip{transform:translate(-100%,-50%);}
+.hover-tip.flip{}
 
 /* ── First-visit walkthrough ── */
 .intro-overlay{
@@ -581,8 +580,13 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
     --gap: min(calc(100vw / 52.81), calc((100dvh - var(--hd-h) - 48px) / 50.43));
   }
 
-  /* iOS: use dynamic viewport height so the address bar doesn't clip the grid */
-  .page{ height:100dvh; }
+  /* iOS: svh = small (stable) viewport — doesn't resize when address bar shows/hides,
+     preventing 1fr row jitter on vertical swipes. */
+  .page{ height:100svh; }
+
+  /* No zoom on mobile — kill the 100 GPU compositor layers and the
+     zoom-only transitions that would otherwise fire on every tap. */
+  .pc{ will-change:auto; transition:none; }
 
   /* Compact header */
   .hd{ padding:.4rem 2.8rem .35rem 1rem; }
@@ -600,7 +604,8 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
     height:100%;
   }
 
-  /* Legend: pull out of grid-clip, render as a bottom bar below the grid. */
+  /* Legend: pull out of grid-clip, render as a bottom bar below the grid.
+     grid-clip loses position:relative so the absolute legend re-parents to .gw. */
   .grid-clip{ position:static; overflow:visible; }
   .gw{ padding-bottom:48px; }
   .legend{
@@ -615,10 +620,12 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   }
   .legend strong{ display:inline; margin-right:.4rem; }
 
-  /* Modal — jp gets fixed slice, en fills the rest and scrolls internally */
+  /* Modal — jp gets fixed slice, en fills the rest and scrolls internally.
+     svh = small (stable) viewport — prevents layout shift when address bar
+     appears/disappears during ← → modal navigation. */
   .modal-body{
     grid-template-columns:1fr;
-    grid-template-rows:38dvh 1fr;
+    grid-template-rows:38svh 1fr;
     overflow:hidden;
   }
   .jp-panel{
@@ -658,7 +665,10 @@ html,body{height:100%;margin:0;overflow:hidden;background:#fff;
   }
   /* Let the total-view legend wrap so "Kigo" isn't clipped */
   #totalLegend{ flex-wrap:wrap; overflow:visible; }
-  
+
+  /* Fix poem-top clipping in modal (iOS flex overflow + margin:auto = negative margins).
+     Spacers center short poems and collapse to 0 when the poem overflows, so the
+     top always anchors at y=0 of jp-scroll instead of being pushed above it. */
   .jp-panel{ overflow:hidden; }
   .jp-scroll{
     flex-direction:column;

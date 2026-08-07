@@ -533,6 +533,7 @@ function renderJPChars(n, poem){
     kamiEnd=Math.round(jp.length*3/5);
   }
 
+  const JP_COLOR_TYPE={'#F28FC0':'Kakekotoba','#7EBBEE':'Makurakotoba','#B4DE65':'Kigo'};
   const spans=[];
   for(let p=0;p<jp.length;p++){
     const dev=charColors[p];
@@ -542,7 +543,7 @@ function renderJPChars(n, poem){
       const isEnd = p===jp.length-1 || charWords[p+1]!==charWords[p];
       const rTop = isStart?'4px':'0', rBottom = isEnd?'4px':'0';
       style=` style="background:${dev};border-radius:${rTop} ${rTop} ${rBottom} ${rBottom};"`;
-      const label=devLabels[charWords[p]];
+      const label=devLabels[charWords[p]]||JP_COLOR_TYPE[dev];
       if(label) tipAttr=` data-tip="${escHtml(label)}"`;
       deviceAttr=` data-device="${escHtml(charWords[p])}"`;
       runCls=(isStart?' run-start':'')+(isEnd?' run-end':'');
@@ -589,6 +590,23 @@ function openModal(n){
   const hl=viewMode==='device' ? (HIGHLIGHTS[String(n)]||{}) : {};
   const devs=viewMode==='device' ? (SRC_DEVICES[String(n)]||{}) : {};
 
+  // Simulate the same longest-match scanner as renderJPChars so we know which
+  // SRC_DEVICES key each JP position actually received (handles overlapping keys
+  // like poem 8's "うぢ山" / "うぢ" / "山と" where only the longest wins).
+  const jpNorm_=(SRC_JP[String(n)]||'').replace(/\n/g,'');
+  const devsSorted_=Object.keys(devs).sort((a,b)=>b.length-a.length);
+  const matchAt_={};
+  {let i=0;while(i<jpNorm_.length){let hit=false;for(const w of devsSorted_){if(jpNorm_.startsWith(w,i)){matchAt_[i]=w;i+=w.length;hit=true;break;}}if(!hit)i++;}}
+  function devCanon(srcWord){
+    if(!devs[srcWord]) return devsSorted_.find(w=>w.includes(srcWord))||srcWord;
+    const pos=jpNorm_.indexOf(srcWord);
+    if(pos===-1) return srcWord;
+    if(matchAt_[pos]) return matchAt_[pos];
+    // srcWord's start is inside an earlier match — scan back to find it
+    for(let p=pos-1;p>=Math.max(0,pos-20);p--){const w=matchAt_[p];if(w&&p+w.length>pos)return w;}
+    return srcWord;
+  }
+
   const jpP=document.getElementById('jpPanel');
   const {html:jpCharsHTML, kamiEnd, total}=renderJPChars(n, poem);
 
@@ -603,11 +621,11 @@ function openModal(n){
   const hasImagined=poem.real&&poem.bars.some(b=>b.segs.some(s=>s.type==='imagined'));
   if(hasImagined) legendRows.push([C.imagined,'Imagined ku']);
   if(legendColors.has(C.kakekotoba)||Object.values(hl).some(h=>Object.values(h).includes(C.kakekotoba)))
-    legendRows.push([C.kakekotoba,'掛詞 Kakekotoba']);
+    legendRows.push([C.kakekotoba,'Kakekotoba']);
   if(legendColors.has(C.makurakotoba))
-    legendRows.push([C.makurakotoba,'枕詞 Makurakotoba']);
+    legendRows.push([C.makurakotoba,'Makurakotoba']);
   if(legendColors.has(C.kigo))
-    legendRows.push([C.kigo,'季語 Kigo']);
+    legendRows.push([C.kigo,'Kigo']);
 
   const legendRowsHTML=legendRows.map(([c,l])=>
     `<div class="lrow"><div class="lsw" style="background:${c}"></div>${escHtml(l)}</div>`
@@ -640,13 +658,26 @@ function openModal(n){
     const wordMap=hl[lbl]||{};
     const labelMap=viewMode==='device' ? ((HIGHLIGHT_LABELS[String(n)]||{})[lbl]||{}) : {};
     const deviceKeyMap=viewMode==='device' ? ((HIGHLIGHT_DEVICE_KEYS[String(n)]||{})[lbl]||{}) : {};
+    // Normalize each deviceKeyMap entry to the SRC_DEVICES key the JP scanner
+    // actually assigned (longest-match wins, so overlapping/shorter keys remap).
+    const normDeviceKeyMap={};
+    Object.entries(deviceKeyMap).forEach(([enWord,srcWord])=>{
+      normDeviceKeyMap[enWord]=devCanon(srcWord);
+    });
+    // Infer colors from source devices for EN words that the pipeline flagged but never explicitly highlighted
+    const enrichedWordMap={...wordMap};
+    if(viewMode==='device'){
+      Object.entries(normDeviceKeyMap).forEach(([enWord,srcWord])=>{
+        if(!enrichedWordMap[enWord]&&devs[srcWord]) enrichedWordMap[enWord]=devs[srcWord];
+      });
+    }
     const bar=poem.real?poem.bars.find(b=>b.lbl===lbl):null;
     const segs=bar?bar.segs:null;
     const linesHTML=lines.map((ln,li)=>{
       const type=segs&&segs[li]?segs[li].type:null;
       const uc=type?kuColor[type]:'transparent';
       const lineTipAttr=type?` data-tip="${kuLabel[type]}"`:'';
-      return `<div class="tl-row"><span class="tl" style="border-bottom-color:${uc}"${lineTipAttr}>${highlightLine(ln,wordMap,labelMap,deviceKeyMap)}</span></div>`;
+      return `<div class="tl-row"><span class="tl" style="border-bottom-color:${uc}"${lineTipAttr}>${highlightLine(ln,enrichedWordMap,labelMap,normDeviceKeyMap)}</span></div>`;
     }).join('');
     return `<div class="trans-block">
       <div class="trans-label">${TRANS_NAMES[lbl]}</div>
@@ -919,7 +950,7 @@ function buildJpMarkup(n){
     const isStart = idx===0 || charWords[idx-1]!==charWords[idx];
     const isEnd = idx===jp.length-1 || charWords[idx+1]!==charWords[idx];
     const rTop = isStart?'2px':'0', rBottom = isEnd?'2px':'0';
-    const label = devLabels[charWords[idx]];
+    const label = devLabels[charWords[idx]] || {'#F28FC0':'Kakekotoba','#7EBBEE':'Makurakotoba','#B4DE65':'Kigo'}[dev];
     const tipAttr = label ? ` data-tip="${escHtml(label)}"` : '';
     const deviceAttr = ` data-device="${escHtml(charWords[idx])}"`;
     const runCls = (isStart?' run-start':'')+(isEnd?' run-end':'');
@@ -996,9 +1027,11 @@ function onCellClick(e, cell, poem){
   openModal(poem.n);
 }
 
-gw.addEventListener('mousemove', onGridMouseMove);
+if(!window.matchMedia('(pointer:coarse)').matches && !window.matchMedia('(max-width:640px)').matches){
+  gw.addEventListener('mousemove', onGridMouseMove);
+  gw.addEventListener('mouseleave', ()=>{ if(!stepperLock) clearZoom(); });
+}
 gw.addEventListener('mouseenter', ()=>{ stepperLock=false; });
-gw.addEventListener('mouseleave', ()=>{ if(!stepperLock) clearZoom(); });
 window.addEventListener('resize', clearZoom);
 
 document.addEventListener('keydown', e=>{
@@ -1230,17 +1263,19 @@ function clearGlow(){
 
 function positionTip(el){
   const rect = el.getBoundingClientRect();
-  const gap = 10;
-  hoverTip.style.left = (rect.right + gap) + 'px';
-  hoverTip.style.top = (rect.top + rect.height/2) + 'px';
+  const gap = 10, margin = 6;
+  // Render off-screen first so we can measure actual size
+  hoverTip.style.left = '-9999px';
+  hoverTip.style.top = '0px';
   requestAnimationFrame(()=>{
-    const tipRect = hoverTip.getBoundingClientRect();
-    if(tipRect.right > window.innerWidth - 8){
-      hoverTip.style.left = (rect.left - gap) + 'px';
-      hoverTip.classList.add('flip');
-    } else {
-      hoverTip.classList.remove('flip');
-    }
+    const tw = hoverTip.offsetWidth, th = hoverTip.offsetHeight;
+    const flipLeft = rect.right + gap + tw > window.innerWidth - margin;
+    const left = flipLeft ? rect.left - gap - tw : rect.right + gap;
+    const idealTop = rect.top + rect.height / 2 - th / 2;
+    const top = Math.max(margin, Math.min(idealTop, window.innerHeight - th - margin));
+    hoverTip.style.left = left + 'px';
+    hoverTip.style.top = top + 'px';
+    hoverTip.classList.toggle('flip', flipLeft);
   });
 }
 
